@@ -1352,7 +1352,7 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                                       ["stop"]
                                     )),
                                 },
-                                " Remover "
+                                " Remove "
                               ),
                               ce(
                                 "button",
@@ -1360,7 +1360,7 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                                   class: "button-remove button-edit",
                                   onClick: mi(c, ["stop"]),
                                 },
-                                " Editar ",
+                                " Edit ",
                                 8,
                                 m1
                               ),

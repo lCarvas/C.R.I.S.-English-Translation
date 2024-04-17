@@ -34,7 +34,7 @@ const Xa = [
       },
     },
     {
-      name: "Agente de Saúde",
+      name: "Health Agent",
       description:
         "<p>Você era um profissional da saúde como um enfermeiro, farmacêutico, médico, psicólogo ou socorrista, treinado no atendimento e cuidado de pessoas. Você pode ter sido surpreendido por um evento paranormal durante o trabalho ou mesmo cuidado de um agente da Ordem em uma emergência, que ficou surpreso com o quão bem você lidou com a situação.</p>",
       skills: ["Intuition", "Medicine"],
@@ -45,7 +45,7 @@ const Xa = [
       },
     },
     {
-      name: "Amnésico",
+      name: "Amnesic",
       description:
         "<p>Você perdeu a maior parte da memória. Sabe apenas o próprio nome, ou nem isso. Sua amnésia pode ser resultado de um trauma paranormal ou mesmo de um ritual. Talvez você tenha sido vítima de cultistas? Talvez você tenha sido um cultista? Seja como for, hoje a Ordem é a única família que conhece. Quem sabe, cumprindo missões, você descubra algo sobre seu passado.</p>",
       skills: [],
@@ -56,7 +56,7 @@ const Xa = [
       },
     },
     {
-      name: "Artista",
+      name: "Artist",
       description:
         "<p>Você era um ator, músico, escritor, dançarino, influenciador... Seu trabalho pode ter sido inspirado por uma experiência paranormal do passado e o que o público acha que é pura criatividade, a Ordem sabe que tem um lado mais sombrio.</p>",
       skills: ["Arts", "Deception"],
@@ -67,7 +67,7 @@ const Xa = [
       },
     },
     {
-      name: "Atleta",
+      name: "Atlhete",
       description:
         "<p>Você competia em um esporte individual ou por equipe, como natação ou futebol. Seu alto desempenho pode ser fruto de alguma influência paranormal que nem mesmo você conhecia ou você pode ter se envolvido em algum evento paranormal em uma de suas competições.</p>",
       skills: ["Acrobatics", "Athletics"],
@@ -89,7 +89,7 @@ const Xa = [
       },
     },
     {
-      name: "Cientista Forense",
+      name: "Forensic Scientist",
       description:
         "<p>Você trabalhava coletando provas para a resolução de crimes, seja para a polícia, seja para uma empresa privada de investigação. Usava métodos e técnicas adquiridos através de uma graduação em uma área científica ou médica, além de cursos específicos. Recrutado para a Ordem por seus conhecimentos técnicos, seu trabalho não mudou muito - mas o tipo de que você investiga, sim.</p>",
       skills: ["Sciences", "Investigation"],
@@ -100,7 +100,7 @@ const Xa = [
       },
     },
     {
-      name: "Criminoso",
+      name: "Criminal",
       description:
         "<p>Você vivia uma vida fora da lei, seja como mero batedor de carteiras, seja como membro de uma facção criminosa. Em algum momento, você se envolveu em um assunto da Ordem — talvez tenha roubado um item amaldiçoado? A organização, por sua vez, achou melhor recrutar seus talentos do que ter você como um estorvo.</p>",
       skills: ["Crime", "Stealth"],
@@ -111,7 +111,7 @@ const Xa = [
       },
     },
     {
-      name: "Cultista Arrependido",
+      name: "Repentant Cultist",
       description:
         "<p>Você fez parte de um culto paranormal. Talvez fossem ignorantes iludidos, que acreditavam estar contatando entidades benevolentes. Talvez soubessem exatamente o que estavam fazendo. Seja como for, algo abriu seus olhos e agora você luta pelo lado certo — embora carregue para sempre traços de sua vida pregressa. Outros membros da Ordem podem desconfiar de sua conversão e você sabe que precisará se esforçar para conquistar a confiança de todos.</p>",
       skills: ["Occultism", "Religion"],
@@ -122,7 +122,7 @@ const Xa = [
       },
     },
     {
-      name: "Desgarrado",
+      name: "Stray",
       description:
         "<p>Você não vivia de acordo com as normas da sociedade. Podia ser um eremita, uma pessoa em situação de rua ou simplesmente alguém que descobriu o Paranormal e abandonou sua rotina — sabendo o quão frágil era a existência humana, não conseguia simplesmente continuar indo para o trabalho todo o dia. De qualquer forma, a vida sem os confortos modernos o deixou mais forte.</p>",
       skills: ["Fortitude", "Survival"],
@@ -132,7 +132,7 @@ const Xa = [
       },
     },
     {
-      name: "Engenheiro",
+      name: "Engineer",
       description:
         "<p>Enquanto os acadêmicos estão preocupados com teorias, você colocar a mão na massa, seja como engenheiro profissional, seja como inventor de garagem. Provavelmente você criou algum dispositivo paranormal que chamou a atenção da Ordem.</p>",
       skills: ["Occupation", "Technology"],
@@ -143,7 +143,7 @@ const Xa = [
       },
     },
     {
-      name: "Escritor",
+      name: "Writer",
       description:
         "<p>Você ganhava a vida inventando mundos, pessoas e histórias - em outra palavras, escrevendo ficção. Em certo momento, seu trabalho tocou ou foi tocado pelo paranormal Talvez as suas histórias tenham gerado Medo, talvez a inspiração para ela viesse do Outro Lado desde o início. Recrutado pela Ordem, você agora luta para que a vida real tenha o final feliz que seus livros não tiveram.</p>",
       skills: ["Arts", "Current Affairs"],
@@ -154,7 +154,7 @@ const Xa = [
       },
     },
     {
-      name: "Executivo",
+      name: "Executive",
       description:
         "<p>Você possuía um trabalho de escritório em uma grande empresa, banco ou corporação. Era um administrador, advogado, contador ou de qualquer outra profissão que lida com papelada e burocracia. Sua vida era bastante normal, até que você descobriu algo que não devia. Talvez o sucesso da empresa residisse em um ritual? Talvez toda a corporação fosse fachada para um culto e o presidente, um líder cultista envolvido com entidades paranormais? Após essa descoberta, você foi recrutado pela Ordem e trocou seu trabalho de escritório por missões de campo — hoje, sua vida é tudo, menos normal.</p>",
       skills: ["Diplomacy", "Occupation"],
@@ -165,7 +165,7 @@ const Xa = [
       },
     },
     {
-      name: "Investigador",
+      name: "Investigator",
       description:
         "<p>Você era um investigador do governo, como um perito forense ou policial federal, ou privado, como um detetive particular. Pode ter tido contato com o Paranormal em algum caso ou ter sido recrutado pela Ordem por suas habilidades de resolução de mistérios.</p>",
       skills: ["Investigation", "Perception"],
@@ -176,7 +176,7 @@ const Xa = [
       },
     },
     {
-      name: "Jornalista",
+      name: "Journalist",
       description:
         "<p>Uma espécie ameaçada de extinção, você atuava investigando notícias para um jornal, rede de televisão, blog, canal do YouTube... Você se juntou à Ordem porque descobriu algo relacionado ao paranormal, ou foi recrutado para investigar um caso específico. Seja como for, continua buscando a verdade - não mais para informar as pessoas, mas sim para protegê-las.</p>",
       skills: ["Current Affairs", "Investigation"],
@@ -187,7 +187,7 @@ const Xa = [
       },
     },
     {
-      name: "Lutador",
+      name: "Fighter",
       description:
         "<p>Você pratica uma arte marcial ou esporte de luta, ou cresceu em um bairro perigoso onde aprendeu briga de rua. Já quebrou muitos ossos, tanto seus quanto dos outros. Pode ter conhecido a Ordem após um torneio secreto envolvendo entidades do Outro Lado ou ter sido recrutado pela sua capacidade de luta.</p>",
       skills: ["Melee", "Reflexes"],
@@ -198,7 +198,7 @@ const Xa = [
       },
     },
     {
-      name: "Magnata",
+      name: "Magnate",
       description:
         "<p>Você possui muito dinheiro ou patrimônio. Pode ser o herdeiro de uma família antiga ligada ao oculto, ter criado e vendido uma empresa e decidido usar sua riqueza para uma causa maior, ou ter ganho uma loteria após inadvertidamente escolher números amaldiçoados que formavam um ritual.</p>",
       skills: ["Diplomacy", "Piloting"],
@@ -209,7 +209,7 @@ const Xa = [
       },
     },
     {
-      name: "Mercenário",
+      name: "Mercenary",
       description:
         "<p>Você é um soldado de aluguel, que trabalha sozinho ou como parte de alguma organização que vende serviços militares. Escoltas e assassinatos fizeram parte de sua rotina por tempo o suficiente para você se envolver em alguma situação com o Paranormal.</p>",
       skills: ["Iniciative", "Intimidation"],
@@ -230,7 +230,7 @@ const Xa = [
       },
     },
     {
-      name: "Operário",
+      name: "Blue-collar Worker",
       description:
         "<p>Pedreiro, industriário, operador de máquinas em uma fábrica… Você passou uma parte de sua vida em um emprego braçal, desempenhando atividades práticas que lhe deram uma visão pragmática do mundo. Sua rotina mundana, entretanto, foi confrontada de alguma forma pelo paranormal, e você não consegue mais esquecer tudo que viu sobre os mistérios do mundo.</p>",
       skills: ["Fortitude", "Occupation"],
@@ -241,7 +241,7 @@ const Xa = [
       },
     },
     {
-      name: "Policial",
+      name: "Policeman",
       description:
         "<p>Você fez parte de uma força de segurança pública, civil ou militar. Em alguma patrulha ou chamado se deparou com um caso paranormal e sobreviveu para contar a história.</p>",
       skills: ["Perception", "Marksmanship"],
@@ -259,7 +259,7 @@ const Xa = [
       },
     },
     {
-      name: "Religioso",
+      name: "Religious",
       description:
         "<p>Você é devoto ou sacerdote de uma fé. Independentemente da religião que pratica, se dedica a auxiliar as pessoas com problemas espirituais. A partir disso, teve contato com o paranormal, o que fez com que fosse convocado pela Ordem.</p>",
       skills: ["Religion", "Will"],
@@ -270,7 +270,7 @@ const Xa = [
       },
     },
     {
-      name: "Servidor Público",
+      name: "Civil Servant",
       description:
         "<p>Você possuía carreira em um órgão do governo, lidando com burocracia e atendendo pessoas. Sua rotina foi quebrada quando você viu que o prefeito era um cultista ou que a câmara de vereadores se reunia à noite para realizar rituais. Quando os próprios representantes do povo estão dispostos a sacrificá-lo para entidades malignas, onde reside nossa esperança? Hoje, você sabe a resposta para essa pergunta: na Ordo Realitas.</p>",
       skills: ["Intuition", "Will"],
@@ -281,7 +281,7 @@ const Xa = [
       },
     },
     {
-      name: "Teórico da Conspiração",
+      name: "Conspiracy Theorist",
       description:
         "<p>A humanidade nunca pisou na lua. Reptilianos ocupam importantes cargos públicos. A Terra é plana... E secretamente governada pelos Illuminati. Você sabe isso tudo, pois investigou a fundo esses importantes assuntos. Quando sua pesquisa esbarrou no Paranormal, você foi recrutado. Na Ordem, sua loucura determinação será usada para um bom propósito.</p>",
       skills: ["Investigation", "Occultism"],
@@ -292,7 +292,7 @@ const Xa = [
       },
     },
     {
-      name: "T.I.",
+      name: "I.T.",
       description:
         "<p>Programador, engenheiro de software ou simplesmente “o cara da T.I.”, você tem treinamento e experiência para lidar com sistemas informatizados. Seu talento (ou curiosidade exagerada) chamou a atenção da Ordem.</p>",
       skills: ["Investigation", "Technology"],
@@ -303,7 +303,7 @@ const Xa = [
       },
     },
     {
-      name: "Trabalhador Rural",
+      name: "Rural Worker",
       description:
         "<p>Você trabalhava no campo ou em áreas isoladas, como fazendeiro, pescador, biólogo, veterinário... Você se acostumou com o convívio com a natureza e os animais e talvez tenha ouvido uma ou outra história de fantasmas ao redor da fogueira. Em algum momento da sua vida, porém, descobriu que muitas dessas histórias são verdadeiras.</p>",
       skills: ["Animal Handling", "Survival"],
@@ -314,7 +314,7 @@ const Xa = [
       },
     },
     {
-      name: "Trambiqueiro",
+      name: "Swindler",
       description:
         "<p>Uma vida digna exige muito trabalho, então é melhor nem tentar. Você vivia de pequenos golpes, jogatina ilegal e falcatruas. Certo dia, enganou a pessoa errada; no dia seguinte, se viu servindo à Ordem. Pelo menos agora tem a chance de usar sua lábia para o bem.</p>",
       skills: ["Crime", "Deception"],
@@ -325,7 +325,7 @@ const Xa = [
       },
     },
     {
-      name: "Universitário",
+      name: "University Student",
       description:
         "<p>Você era aluno de uma faculdade. Em sua rotina de estudos, provas e festas, acabou descobrindo algo — talvez um livro amaldiçoado na antiga biblioteca do campus? Por seu achado, foi convocado pela Ordem. Agora, estuda com mais afinco: nesse novo curso, ouviu dizer que as provas podem ser mortais.</p>",
       skills: ["Current Affairs", "Investigation"],
@@ -336,7 +336,7 @@ const Xa = [
       },
     },
     {
-      name: "Vítima",
+      name: "Victim",
       description:
         "<p>Em algum momento de sua vida — infância, juventude ou início da vida adulta — você encontrou o Paranormal... E a experiência não foi nada boa. Você viu os espíritos dos mortos, foi atacado por uma entidade ou mesmo foi sequestrado para ser sacrificado em um ritual impedido no último momento. A experiência foi traumática, mas você não se abateu; em vez disso, decidiu lutar para impedir que outros inocentes passem pelo mesmo. E, já tendo sendo vítima do Paranormal, se tornou habilidoso em evitar perigos.</p>",
       skills: ["Reflexes", "Will"],
@@ -348,32 +348,32 @@ const Xa = [
   ],
   m = (e) => (q("data-v-86953969"), (e = e()), _(), e),
   z = { class: "features card-black" },
-  w = m(() => a("h3", null, "CARACTERÍSTICAS", -1)),
+  w = m(() => a("h3", null, "CHARACTERISTICS", -1)),
   O = { class: "feat-card" },
-  T = m(() => a("h4", null, "PONTOS DE VIDA INICIAIS", -1)),
+  T = m(() => a("h4", null, "INITIAL HEALTH POINTS", -1)),
   $ = { class: "main" },
   y = { key: 0 },
-  x = m(() => a("h6", null, "A cada novo nível de exposição", -1)),
+  x = m(() => a("h6", null, "For each level of exposition", -1)),
   j = { class: "sub" },
   N = { class: "feat-card" },
-  M = m(() => a("h4", null, "PONTOS DE ESFORÇO INICIAIS", -1)),
+  M = m(() => a("h4", null, "INITIAL EFFORT POINTS", -1)),
   L = { class: "main" },
   D = { key: 0 },
-  R = m(() => a("h6", null, "A cada novo nível de exposição", -1)),
+  R = m(() => a("h6", null, "For each level of exposition", -1)),
   F = { class: "sub" },
   U = { class: "feat-card" },
-  H = m(() => a("h4", null, "SANIDADE INICIAL", -1)),
+  H = m(() => a("h4", null, "INITIAL SANITY", -1)),
   X = { class: "main" },
   B = { key: 0 },
-  Q = m(() => a("h6", null, "A cada novo nível de exposição", -1)),
+  Q = m(() => a("h6", null, "For each level of exposition", -1)),
   J = { class: "sub" },
   G = { class: "feat-card" },
-  Y = m(() => a("h4", null, "PERÍCIAS TREINADAS", -1)),
+  Y = m(() => a("h4", null, "TRAINED SKILLS", -1)),
   K = { key: 0 },
   W = { key: 1 },
   Z = { key: 2 },
   aa = { class: "feat-card" },
-  ea = m(() => a("h4", null, "PROFICIÊNCIAS", -1)),
+  ea = m(() => a("h4", null, "PROFICIENCIES", -1)),
   oa = v({
     __name: "ClassCardFeatures",
     props: {
@@ -396,13 +396,13 @@ const Xa = [
               : (s(),
                 i("div", y, [
                   x,
-                  a("span", j, o(e.charClass.levelPv) + " PV (+Vig)", 1),
+                  a("span", j, o(e.charClass.levelPv) + " HP (+Vig)", 1),
                 ])),
           ]),
           a("div", N, [
             a("div", null, [
               M,
-              a("span", L, o(e.charClass.initialPe) + "+PRESENÇA", 1),
+              a("span", L, o(e.charClass.initialPe) + "+PRESENCE", 1),
             ]),
             n(p, { "no-margin": "" }),
             e.isMundano
@@ -410,7 +410,7 @@ const Xa = [
               : (s(),
                 i("div", D, [
                   R,
-                  a("span", F, o(e.charClass.levelPe) + " PE (+Pre)", 1),
+                  a("span", F, o(e.charClass.levelPe) + " EP (+Pre)", 1),
                 ])),
           ]),
           a("div", U, [
