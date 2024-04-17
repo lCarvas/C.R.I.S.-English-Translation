@@ -434,15 +434,15 @@ const Xa = [
                     "h6",
                     null,
                     o(e.charClass.trainedSkills.optionSkils[0][0]) +
-                      " ou " +
+                      " or " +
                       o(e.charClass.trainedSkills.optionSkils[0][1]) +
-                      " (uma das duas) e " +
+                      " (one of the two) and " +
                       o(e.charClass.trainedSkills.optionSkils[1][0]) +
-                      " ou " +
+                      " or " +
                       o(e.charClass.trainedSkills.optionSkils[1][1]) +
-                      " (uma das duas), mais uma quantidade de perícias à sua escolha igual a " +
+                      " (one of the two), and a number of skills of your choice equal to " +
                       o(e.charClass.trainedSkills.quantity) +
-                      " + Intelecto. ",
+                      " + Intellect. ",
                     1
                   ),
                 ]))
@@ -454,9 +454,9 @@ const Xa = [
                   a(
                     "h6",
                     null,
-                    " Uma quantidade de perícias à sua escolha igual a " +
+                    " A number of skills of your choice equal to " +
                       o(e.charClass.trainedSkills.quantity) +
-                      " + Intelecto. ",
+                      " + Intellect. ",
                     1
                   ),
                 ]))
@@ -468,11 +468,11 @@ const Xa = [
                     "h6",
                     null,
                     o(e.charClass.trainedSkills.skills[0]) +
-                      " e " +
+                      " and " +
                       o(e.charClass.trainedSkills.skills[1]) +
-                      ", mais uma quantidade de perícias a sua escolha igual a " +
+                      ", and a number of skills of your choice equal to " +
                       o(e.charClass.trainedSkills.quantity) +
-                      " + Intelecto. ",
+                      " + Intellect. ",
                     1
                   ),
                 ]))
@@ -497,8 +497,8 @@ const Xa = [
       null,
       [
         a("tr", null, [
-          a("th", { class: "center" }, " NEX "),
-          a("th", { class: "left" }, " Habilidades "),
+          a("th", { class: "center" }, " EXP "),
+          a("th", { class: "left" }, " Abilities "),
         ]),
       ],
       -1
@@ -584,7 +584,7 @@ const Xa = [
           a(
             "h3",
             null,
-            "HABILIDADES DE " + o(e.charClass.name.toUpperCase()),
+            o(e.charClass.name.toUpperCase()) + " ABILITIES",
             1
           ),
           (s(!0),
