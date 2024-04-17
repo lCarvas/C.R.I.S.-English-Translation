@@ -18,12 +18,12 @@ import {
   j as S,
   v as E,
   T as V,
-} from "./index-Qr3iPI8B.js";
-import { P as I } from "./PowerCard-DcQNP072.js";
+} from "./index-ElewQora.js";
+import { P as I } from "./PowerCard-oUvxzsKl.js";
 import { _ as A } from "./show-more-icon-VvUXKiHG.js";
 const Xa = [
     {
-      name: "Acadêmico",
+      name: "Academic",
       description:
         "<p>Você era um pesquisador ou professor universitário. De forma proposital ou não, seus estudos tocaram em assuntos misteriosos e chamaram a atenção da Ordo Realitas.</p>",
       skills: ["Sciences", "Investigation"],

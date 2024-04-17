@@ -49,15 +49,15 @@ import {
   l as Vt,
   X as wt,
   Q as Ot,
-} from "./index-Qr3iPI8B.js";
+} from "./index-ElewQora.js";
 import {
   g as zt,
   r as fo,
   b as Ht,
   u as jt,
   a as Ut,
-} from "./index.esm2017-wbTYZjbW.js";
-import { T as xt } from "./ToastNotification-9pal0OQq.js";
+} from "./index.esm2017-eixK2nk7.js";
+import { T as xt } from "./ToastNotification-hBxLzeBG.js";
 import {
   I as ta,
   n as Nt,
@@ -94,20 +94,20 @@ import {
   E as vs,
   G as gs,
   H as hs,
-} from "./characterSheetUtils-yeGitFaD.js";
+} from "./characterSheetUtils--OygJlD6.js";
 import { _ as ca } from "./d20-icon-vaz1En3o.js";
-import { T as ve } from "./TabNav-MTjFKsaB.js";
-import { P as Be } from "./PowerCard-DcQNP072.js";
-import { R as _o } from "./RitualCard-Hn39NMnH.js";
+import { T as ve } from "./TabNav-FORHjCxA.js";
+import { P as Be } from "./PowerCard-oUvxzsKl.js";
+import { R as _o } from "./RitualCard-QI9sBeGg.js";
 import {
   W as Po,
   P as Mo,
   M as Ro,
   C as Do,
-} from "./CursedItemCard-4o-vRybw.js";
+} from "./CursedItemCard-Pc4r8MnH.js";
 import { c as He } from "./classes-7dZTyOHx.js";
-import { S as Ie } from "./SearchInput-cujiVcUb.js";
-import { b as fs, c as bs } from "./ClassCard-Eh4TnkYX.js";
+import { S as Ie } from "./SearchInput-TT7Ja29B.js";
+import { b as fs, c as bs } from "./ClassCard-6BehAAgu.js";
 import {
   H as Cs,
   b as As,
@@ -118,7 +118,7 @@ import {
   P as Oo,
   M as ia,
   c as zo,
-} from "./HomebrewItems-VMPfoN6b.js";
+} from "./HomebrewItems-ppRZVe5V.js";
 import {
   d as _e,
   p as Ho,
@@ -131,90 +131,44 @@ import {
 } from "./default-tJ6A0c0K.js";
 import { b as Ss } from "./forms-8DDAOOVU.js";
 import { _ as je, l as Ao } from "./lodash-gzw5KmHd.js";
-import { D as $e } from "./DropdownSimple-hBxhetWk.js";
+import { D as $e } from "./DropdownSimple-9v_7fx_Z.js";
 import { v as Ue } from "./v4-cyCr5FZV.js";
-import { S as ra } from "./SwitchButtonBool-7qveKpG4.js";
+import { S as ra } from "./SwitchButtonBool-a_BUmB1Y.js";
 import { a as _s, _ as Uo } from "./open-in-new-icon-p91krxL-.js";
 import { _ as Re } from "./blank-profile-picture-wMh28flS.js";
-import { P as xo } from "./PictureModal-v_wiVUa0.js";
-import { L as Ps } from "./LoadingView-rd_Qi8B-.js";
-import { g as Ms, C as Rs } from "./firebase-jJDZY3Qw.js";
+import { P as xo } from "./PictureModal-Pcl5r-fT.js";
+import { L as Ps } from "./LoadingView-u5ob3P7_.js";
+import { g as Ms, C as Rs } from "./firebase-zz3jnYNo.js";
 import "./edit-icon-u1vf_q3w.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./skills-7ALlyuj2.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
 import "./add-icon-fJ4uQHUZ.js";
 const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
-  Ds = {
-    class: "toast",
-  },
-  Ts = {
-    class: "toast-content",
-  },
+  Ds = { class: "toast" },
+  Ts = { class: "toast-content" },
   Vs = De(() =>
-    e(
-      "img",
-      {
-        class: "toast-icon",
-        src: ca,
-        alt: "d20",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "toast-icon", src: ca, alt: "d20" }, null, -1)
   ),
-  ws = {
-    class: "text",
-  },
-  Os = {
-    class: "title",
-  },
-  zs = {
-    class: "result",
-  },
-  Hs = {
-    class: "attack-container",
-  },
-  js = De(() => e("h4", null, "ATAQUE", -1)),
-  Us = De(() =>
-    e(
-      "div",
-      {
-        class: "divider",
-      },
-      null,
-      -1
-    )
-  ),
-  xs = {
-    class: "damage-container",
-  },
-  Ns = De(() => e("h4", null, "DANO", -1)),
-  Ls = De(() =>
-    e(
-      "img",
-      {
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
-  ),
+  ws = { class: "text" },
+  Os = { class: "title" },
+  zs = { class: "result" },
+  Hs = { class: "attack-container" },
+  js = De(() => e("h4", null, "ATTACK", -1)),
+  Us = De(() => e("div", { class: "divider" }, null, -1)),
+  xs = { class: "damage-container" },
+  Ns = De(() => e("h4", null, "DAMAGE", -1)),
+  Ls = De(() => e("img", { src: oe, alt: "fechar" }, null, -1)),
   Bs = [Ls],
   Fs = "#5cb85c",
   Qs = "#d9534f",
   Ws = "#fff",
   Gs = D({
     __name: "ToastAttack",
-    props: {
-      toast: {},
-    },
+    props: { toast: {} },
     emits: ["dismiss"],
     setup(a) {
-      Pe((l) => ({
-        f546cb76: g.value,
-      }));
+      Pe((l) => ({ f546cb76: g.value }));
       const b = a,
         v = E(window.innerWidth),
         g = Q(() =>
@@ -300,41 +254,23 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Xs = T(Gs, [["__scopeId", "data-v-161d82d2"]]),
   Ks = "/assets/shield-icon-FCvc8PM4.png",
-  Js = {
-    class: "sheet-subtitle",
-  },
-  Ys = {
-    class: "dropdown-button-container",
-  },
+  Js = { class: "sheet-subtitle" },
+  Ys = { class: "dropdown-button-container" },
   Zs = ["onClick"],
   en = D({
     __name: "SheetDropdown",
     props: {
-      title: {
-        type: String,
-        required: !0,
-      },
-      buttonWidth: {
-        type: String,
-        default: "3.25rem",
-      },
-      value: {
-        type: String,
-        required: !0,
-      },
-      options: {
-        type: Array,
-        required: !0,
-      },
+      title: { type: String, required: !0 },
+      buttonWidth: { type: String, default: "3.25rem" },
+      value: { type: String, required: !0 },
+      options: { type: Array, required: !0 },
       bold: Boolean,
       disabled: Boolean,
       mobileView: Boolean,
     },
     emits: ["updateValue"],
     setup(a, { emit: b }) {
-      Pe((i) => ({
-        "35fdf62f": a.buttonWidth,
-      }));
+      Pe((i) => ({ "35fdf62f": a.buttonWidth }));
       const v = a,
         g = b,
         l = E(null),
@@ -365,10 +301,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 {
                   class: Z([
                     "dropdown-button",
-                    {
-                      bold: a.bold,
-                      disabled: a.disabled,
-                    },
+                    { bold: a.bold, disabled: a.disabled },
                   ]),
                   onClick: c,
                 },
@@ -380,9 +313,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 {
                   class: Z([
                     "dropdown-content",
-                    {
-                      "dropdown-content-active": p.value,
-                    },
+                    { "dropdown-content-active": p.value },
                   ]),
                 },
                 [
@@ -394,29 +325,21 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       a.options,
                       (o, u) => (
                         t(),
-                        s(
-                          "div",
-                          {
-                            key: u,
-                          },
-                          [
-                            e(
-                              "button",
-                              {
-                                class: Z([
-                                  "dropdown-content-button",
-                                  {
-                                    bold: a.bold,
-                                  },
-                                ]),
-                                onClick: (C) => m(o),
-                              },
-                              O(o),
-                              11,
-                              Zs
-                            ),
-                          ]
-                        )
+                        s("div", { key: u }, [
+                          e(
+                            "button",
+                            {
+                              class: Z([
+                                "dropdown-content-button",
+                                { bold: a.bold },
+                              ]),
+                              onClick: (C) => m(o),
+                            },
+                            O(o),
+                            11,
+                            Zs
+                          ),
+                        ])
                       )
                     ),
                     128
@@ -433,162 +356,65 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   la = T(en, [["__scopeId", "data-v-69e3d76a"]]),
   K = (a) => (z("data-v-de62832b"), (a = a()), H(), a),
-  an = {
-    class: "info-view",
-  },
-  on = {
-    class: "info-row",
-  },
-  tn = {
-    class: "nex-container",
-  },
-  sn = {
-    key: 1,
-    class: "mundano-nex-container",
-  },
-  nn = K(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle",
-      },
-      " EXP ",
-      -1
-    )
-  ),
-  rn = {
-    class: "pe-container",
-  },
-  dn = {
-    class: "pe",
-  },
+  an = { class: "info-view" },
+  on = { class: "info-row" },
+  tn = { class: "nex-container" },
+  sn = { key: 1, class: "mundano-nex-container" },
+  nn = K(() => e("h4", { class: "sheet-subtitle" }, " EXP ", -1)),
+  rn = { class: "pe-container" },
+  dn = { class: "pe" },
   ln = ["disabled", "value"],
   un = K(() => e("h4", null, "EP / TURN", -1)),
-  cn = {
-    class: "desl-container",
-  },
+  cn = { class: "desl-container" },
   mn = K(() => e("h3", null, "MOV", -1)),
-  pn = {
-    class: "desl-input-container",
-  },
+  pn = { class: "desl-input-container" },
   vn = ["disabled", "value"],
   gn = K(() => e("h4", null, "m /", -1)),
   hn = ["disabled", "value"],
   fn = K(() => e("h4", null, "sq", -1)),
-  bn = {
-    class: "info-bar-wrapper",
-  },
-  Cn = {
-    class: "info-row",
-  },
-  An = {
-    class: "defense-container",
-  },
-  qn = {
-    class: "defense-img-container",
-  },
+  bn = { class: "info-bar-wrapper" },
+  Cn = { class: "info-row" },
+  An = { class: "defense-container" },
+  qn = { class: "defense-img-container" },
   yn = K(() =>
-    e(
-      "img",
-      {
-        class: "defense-img",
-        src: Ks,
-        alt: "defense",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "defense-img", src: Ks, alt: "defense" }, null, -1)
   ),
-  $n = {
-    class: "defense-value",
-  },
-  En = {
-    class: "defense-content",
-  },
+  $n = { class: "defense-value" },
+  En = { class: "defense-content" },
   In = K(() =>
     e(
       "div",
-      {
-        class: "defense-text",
-      },
+      { class: "defense-text" },
       [e("h3", null, "DEFENSE"), e("h4", null, "= 10 + AGI + ")],
       -1
     )
   ),
-  kn = {
-    class: "defense-input",
-  },
+  kn = { class: "defense-input" },
   Sn = ["disabled", "value"],
   _n = K(() => e("h5", null, "Equip.", -1)),
-  Pn = K(() =>
-    e(
-      "h4",
-      {
-        class: "defense-plus",
-      },
-      " + ",
-      -1
-    )
-  ),
-  Mn = {
-    class: "defense-input",
-  },
+  Pn = K(() => e("h4", { class: "defense-plus" }, " + ", -1)),
+  Mn = { class: "defense-input" },
   Rn = ["disabled", "value"],
   Dn = K(() => e("h5", null, "Other.", -1)),
-  Tn = {
-    class: "other-defenses-container",
-  },
-  Vn = {
-    class: "other-defense-div",
-  },
-  wn = K(() =>
-    e(
-      "div",
-      {
-        class: "other-defense-label",
-      },
-      " BLOCK DR ",
-      -1
-    )
-  ),
+  Tn = { class: "other-defenses-container" },
+  Vn = { class: "other-defense-div" },
+  wn = K(() => e("div", { class: "other-defense-label" }, " BLOCK DR ", -1)),
   On = ["disabled", "value"],
-  zn = {
-    class: "other-defense-div",
-  },
-  Hn = K(() =>
-    e(
-      "div",
-      {
-        class: "other-defense-label",
-      },
-      " DODGE ",
-      -1
-    )
-  ),
+  zn = { class: "other-defense-div" },
+  Hn = K(() => e("div", { class: "other-defense-label" }, " DODGE ", -1)),
   jn = ["disabled", "value"],
-  Un = {
-    class: "info-line",
-  },
+  Un = { class: "info-line" },
   xn = K(() => e("h3", null, "ARMOR", -1)),
   Nn = ["disabled", "value"],
-  Ln = {
-    class: "info-line",
-  },
+  Ln = { class: "info-line" },
   Bn = K(() => e("h3", null, "RESISTENCES", -1)),
   Fn = ["disabled", "value"],
-  Qn = {
-    class: "info-line",
-  },
+  Qn = { class: "info-line" },
   Wn = K(() => e("h3", null, "PROFICIENCIES", -1)),
   Gn = ["disabled", "value"],
   Xn = D({
     __name: "InfoView",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleChangeCharText",
       "handleChangeCharNumber",
@@ -617,10 +443,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         }),
         m = (r, o) => {
           var u;
-          g("handleChangeCharNumber", {
-            e: r,
-            key: o,
-          }),
+          g("handleChangeCharNumber", { e: r, key: o }),
             (u = l == null ? void 0 : l.proxy) == null || u.$forceUpdate();
         },
         i = (r) => {
@@ -958,17 +781,10 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   Kn = T(Xn, [["__scopeId", "data-v-de62832b"]]),
-  Jn = {
-    class: "sheet-stats-container",
-  },
+  Jn = { class: "sheet-stats-container" },
   Yn = D({
     __name: "SheetStats",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleChangeCharText",
       "handleChangeCharNumber",
@@ -1041,43 +857,24 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   qo = T(Yn, [["__scopeId", "data-v-6c164bbf"]]),
-  Zn = {
-    class: "dropdown-button-container",
-  },
-  er = {
-    key: 0,
-    class: "span",
-  },
+  Zn = { class: "dropdown-button-container" },
+  er = { key: 0, class: "span" },
   ar = ["disabled"],
-  or = {
-    key: 1,
-    class: "span",
-  },
+  or = { key: 1, class: "span" },
   tr = ["onClick"],
   sr = D({
     __name: "SkillsDropdown",
     props: {
-      value: {
-        type: String,
-        required: !0,
-      },
-      options: {
-        type: Array,
-        required: !0,
-      },
-      color: {
-        type: String,
-        required: !0,
-      },
+      value: { type: String, required: !0 },
+      options: { type: Array, required: !0 },
+      color: { type: String, required: !0 },
       up: Boolean,
       underline: Boolean,
       disabled: Boolean,
     },
     emits: ["updateValue"],
     setup(a, { emit: b }) {
-      Pe((i) => ({
-        "2c89ebb8": a.color,
-      }));
+      Pe((i) => ({ "2c89ebb8": a.color }));
       const v = a,
         g = b,
         l = E(null),
@@ -1093,10 +890,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         t(),
         s(
           "div",
-          {
-            ref_key: "dropdown",
-            ref: l,
-          },
+          { ref_key: "dropdown", ref: l },
           [
             e("div", Zn, [
               a.underline ? q("", !0) : (t(), s("span", er, "(")),
@@ -1105,10 +899,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 {
                   class: Z([
                     "dropdown-button",
-                    {
-                      "dropdown-underline": a.underline,
-                      disabled: a.disabled,
-                    },
+                    { "dropdown-underline": a.underline, disabled: a.disabled },
                   ]),
                   disabled: a.disabled,
                   onClick: c,
@@ -1124,9 +915,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                   class: Z([
                     "dropdown-content",
                     [
-                      {
-                        "dropdown-content-active": p.value,
-                      },
+                      { "dropdown-content-active": p.value },
                       a.up ? "dropdown-position-up" : "dropdown-position-down",
                     ],
                   ]),
@@ -1140,24 +929,18 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       a.options,
                       (o, u) => (
                         t(),
-                        s(
-                          "div",
-                          {
-                            key: u,
-                          },
-                          [
-                            e(
-                              "button",
-                              {
-                                class: "dropdown-content-button",
-                                onClick: (C) => m(o),
-                              },
-                              O(o),
-                              9,
-                              tr
-                            ),
-                          ]
-                        )
+                        s("div", { key: u }, [
+                          e(
+                            "button",
+                            {
+                              class: "dropdown-content-button",
+                              onClick: (C) => m(o),
+                            },
+                            O(o),
+                            9,
+                            tr
+                          ),
+                        ])
                       )
                     ),
                     128
@@ -1174,67 +957,27 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   ze = T(sr, [["__scopeId", "data-v-7777a8ec"]]),
   ma = (a) => (z("data-v-05af1f88"), (a = a()), H(), a),
-  nr = {
-    class: "small",
-  },
-  rr = ma(() =>
-    e(
-      "img",
-      {
-        src: ca,
-        alt: "rolar",
-      },
-      null,
-      -1
-    )
-  ),
+  nr = { class: "small" },
+  rr = ma(() => e("img", { src: ca, alt: "rolar" }, null, -1)),
   dr = [rr],
-  ir = {
-    key: 0,
-  },
-  lr = {
-    key: 1,
-  },
-  ur = {
-    key: 0,
-  },
-  cr = {
-    key: 1,
-  },
-  mr = {
-    class: "skill-bonus",
-  },
+  ir = { key: 0 },
+  lr = { key: 1 },
+  ur = { key: 0 },
+  cr = { key: 1 },
+  mr = { class: "skill-bonus" },
   pr = ma(() => e("span", null, "( ", -1)),
   vr = ma(() => e("span", null, " )", -1)),
-  gr = {
-    key: 2,
-  },
-  hr = {
-    key: 3,
-  },
-  fr = {
-    class: "input-container",
-  },
+  gr = { key: 2 },
+  hr = { key: 3 },
+  fr = { class: "input-container" },
   br = ["disabled", "value"],
   Cr = D({
     __name: "SkillCard",
     props: {
-      skill: {
-        type: Object,
-        required: !0,
-      },
-      index: {
-        type: Number,
-        required: !0,
-      },
-      length: {
-        type: Number,
-        required: !0,
-      },
-      disabledSheet: {
-        type: Boolean,
-        required: !0,
-      },
+      skill: { type: Object, required: !0 },
+      index: { type: Number, required: !0 },
+      length: { type: Number, required: !0 },
+      disabledSheet: { type: Boolean, required: !0 },
     },
     emits: [
       "handleOpenSkillModal",
@@ -1243,18 +986,12 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       "handleRollSkill",
     ],
     setup(a, { emit: b }) {
-      Pe((C) => ({
-        "45097c96": i.value,
-      }));
+      Pe((C) => ({ "45097c96": i.value }));
       const v = a,
         g = b,
-        l = ["AGI", "STR", "INT", "PRE", "VIG"],
+        l = ["AGI", "FOR", "INT", "PRE", "VIG"],
         p = ["0", "5", "10", "15"],
-        c = {
-          trained: "#3d8b40",
-          veteran: "#0a69b7",
-          expert: "#b36b00",
-        },
+        c = { trained: "#3d8b40", veteran: "#0a69b7", expert: "#b36b00" },
         m = xe(),
         i = Q(() =>
           v.skill.trainingDegree === "5"
@@ -1269,19 +1006,12 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
           g("handleOpenSkillModal", v.skill);
         },
         o = (C, _, M) => {
-          g("handleChangeSkillDropdown", {
-            value: C,
-            skillName: _,
-            key: M,
-          });
+          g("handleChangeSkillDropdown", { value: C, skillName: _, key: M });
         },
         u = (C, _) => {
           var f;
           const M = C.target.valueAsNumber;
-          g("handleChangeSkillOtherBonus", {
-            value: M,
-            skillName: _,
-          }),
+          g("handleChangeSkillOtherBonus", { value: M, skillName: _ }),
             (f = m == null ? void 0 : m.proxy) == null || f.$forceUpdate();
         };
       return (C, _) => (
@@ -1294,12 +1024,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               e(
                 "button",
                 {
-                  class: Z([
-                    "roll-button",
-                    {
-                      disabled: a.disabledSheet,
-                    },
-                  ]),
+                  class: Z(["roll-button", { disabled: a.disabledSheet }]),
                   onClick:
                     _[0] || (_[0] = (M) => C.$emit("handleRollSkill", a.skill)),
                 },
@@ -1309,20 +1034,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             ]),
             e(
               "td",
-              {
-                class: Z({
-                  disabled: a.disabledSheet,
-                }),
-              },
+              { class: Z({ disabled: a.disabledSheet }) },
               [
                 e(
                   "button",
                   {
                     class: Z([
                       "naked-button left",
-                      {
-                        disabled: a.disabledSheet,
-                      },
+                      { disabled: a.disabledSheet },
                     ]),
                     onClick: r,
                   },
@@ -1438,40 +1157,19 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Ar = T(Cr, [["__scopeId", "data-v-05af1f88"]]),
   pa = (a) => (z("data-v-f2b17d30"), (a = a()), H(), a),
-  qr = {
-    class: "skills-container",
-  },
-  yr = pa(() =>
-    e(
-      "h1",
-      {
-        class: "skills-title",
-      },
-      " SKILLS ",
-      -1
-    )
-  ),
-  $r = {
-    class: "skills-table",
-  },
+  qr = { class: "skills-container" },
+  yr = pa(() => e("h1", { class: "skills-title" }, " SKILLS ", -1)),
+  $r = { class: "skills-table" },
   Er = pa(() =>
     e(
       "thead",
       null,
       [
         e("tr", null, [
-          e("th", {
-            class: "small",
-          }),
-          e(
-            "th",
-            {
-              class: "left",
-            },
-            " SKILL "
-          ),
-          e("th", null, "Dice"),
-          e("th", null, "Bonus"),
+          e("th", { class: "small" }),
+          e("th", { class: "left" }, " SKILL "),
+          e("th", null, "DICCE"),
+          e("th", null, "BONUS"),
           e("th", null, "Trainment"),
           e("th", null, "Other"),
         ]),
@@ -1482,9 +1180,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   Ir = pa(() =>
     e(
       "h4",
-      {
-        class: "table-caption",
-      },
+      { class: "table-caption" },
       [
         ne(" + "),
         e("i", null, "Overburden penalty."),
@@ -1496,12 +1192,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   ),
   kr = D({
     __name: "SkillsView",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleOpenSkillModal",
       "handleChangeSkillOtherBonus",
@@ -1532,36 +1223,30 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                   c.character.skills,
                   (i, r) => (
                     t(),
-                    s(
-                      "tr",
-                      {
-                        key: i.name,
-                      },
-                      [
-                        A(
-                          Ar,
-                          {
-                            skill: i,
-                            index: r,
-                            length: c.character.skills.length,
-                            "disabled-sheet": c.disabledSheet,
-                            onHandleOpenSkillModal: l,
-                            onHandleChangeSkillDropdown:
-                              m[0] ||
-                              (m[0] = (o) =>
-                                c.$emit("handleChangeSkillDropdown", o)),
-                            onHandleChangeSkillOtherBonus:
-                              m[1] ||
-                              (m[1] = (o) =>
-                                c.$emit("handleChangeSkillOtherBonus", o)),
-                            onHandleRollSkill: p,
-                          },
-                          null,
-                          8,
-                          ["skill", "index", "length", "disabled-sheet"]
-                        ),
-                      ]
-                    )
+                    s("tr", { key: i.name }, [
+                      A(
+                        Ar,
+                        {
+                          skill: i,
+                          index: r,
+                          length: c.character.skills.length,
+                          "disabled-sheet": c.disabledSheet,
+                          onHandleOpenSkillModal: l,
+                          onHandleChangeSkillDropdown:
+                            m[0] ||
+                            (m[0] = (o) =>
+                              c.$emit("handleChangeSkillDropdown", o)),
+                          onHandleChangeSkillOtherBonus:
+                            m[1] ||
+                            (m[1] = (o) =>
+                              c.$emit("handleChangeSkillOtherBonus", o)),
+                          onHandleRollSkill: p,
+                        },
+                        null,
+                        8,
+                        ["skill", "index", "length", "disabled-sheet"]
+                      ),
+                    ])
                   )
                 ),
                 128
@@ -1575,56 +1260,26 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   yo = T(kr, [["__scopeId", "data-v-f2b17d30"]]),
   va = (a) => (z("data-v-f08c1d1d"), (a = a()), H(), a),
-  Sr = {
-    class: "tab",
-  },
-  _r = {
-    key: 0,
-  },
-  Pr = {
-    class: "roll-dices-container",
-  },
+  Sr = { class: "tab" },
+  _r = { key: 0 },
+  Pr = { class: "roll-dices-container" },
   Mr = ["disabled", "onKeyup"],
   Rr = ["disabled"],
   Dr = va(() =>
-    e(
-      "img",
-      {
-        class: "dice-icon",
-        src: ca,
-        alt: "rolar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "dice-icon", src: ca, alt: "rolar" }, null, -1)
   ),
   Tr = [Dr],
-  Vr = {
-    key: 2,
-  },
-  wr = {
-    key: 0,
-  },
-  Or = {
-    key: 1,
-    class: "no-content",
-  },
+  Vr = { key: 2 },
+  wr = { key: 0 },
+  Or = { key: 1, class: "no-content" },
   zr = va(() => e("h3", null, "No attack found", -1)),
   Hr = [zr],
-  jr = {
-    key: 3,
-    class: "no-content",
-  },
+  jr = { key: 3, class: "no-content" },
   Ur = va(() => e("h3", null, "You have yet to add attacks", -1)),
   xr = [Ur],
   Nr = D({
     __name: "AttacksTab",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleOpenAddAttack",
       "handleRemoveAttack",
@@ -1685,12 +1340,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             e(
               "button",
               {
-                class: Z([
-                  "dice-button",
-                  {
-                    disabled: r.disabledSheet,
-                  },
-                ]),
+                class: Z(["dice-button", { disabled: r.disabledSheet }]),
                 disabled: r.disabledSheet,
                 onClick: c,
               },
@@ -1710,7 +1360,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                   onClick:
                     o[2] || (o[2] = (u) => r.$emit("handleOpenAddAttack")),
                 },
-                " New Attack "
+                " Novo Ataque "
               )),
           r.character.attacks.length > 0
             ? (t(),
@@ -1726,33 +1376,26 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           i.value,
                           (u) => (
                             t(),
-                            s(
-                              "div",
-                              {
-                                key: u.id,
-                                class: "align-card",
-                              },
-                              [
-                                A(
-                                  Bt,
-                                  {
-                                    id: u.id,
-                                    attack: u,
-                                    disabled: r.disabledSheet,
-                                    onHandleRemoveAttack:
-                                      o[3] ||
-                                      (o[3] = (C) =>
-                                        r.$emit("handleRemoveAttack", C)),
-                                    onHandleEdit: (C) =>
-                                      r.$emit("handleEditAttack", C),
-                                    onHandleRollAttack: m,
-                                  },
-                                  null,
-                                  8,
-                                  ["id", "attack", "disabled", "onHandleEdit"]
-                                ),
-                              ]
-                            )
+                            s("div", { key: u.id, class: "align-card" }, [
+                              A(
+                                Bt,
+                                {
+                                  id: u.id,
+                                  attack: u,
+                                  disabled: r.disabledSheet,
+                                  onHandleRemoveAttack:
+                                    o[3] ||
+                                    (o[3] = (C) =>
+                                      r.$emit("handleRemoveAttack", C)),
+                                  onHandleEdit: (C) =>
+                                    r.$emit("handleEditAttack", C),
+                                  onHandleRollAttack: m,
+                                },
+                                null,
+                                8,
+                                ["id", "attack", "disabled", "onHandleEdit"]
+                              ),
+                            ])
                           )
                         ),
                         128
@@ -1767,42 +1410,20 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   No = T(Nr, [["__scopeId", "data-v-f08c1d1d"]]),
   Lo = (a) => (z("data-v-79ae51ca"), (a = a()), H(), a),
-  Lr = {
-    class: "tab",
-  },
-  Br = {
-    class: "tab-header",
-  },
-  Fr = {
-    key: 0,
-  },
-  Qr = {
-    key: 1,
-    class: "sheet-cards-container",
-  },
-  Wr = {
-    key: 0,
-  },
-  Gr = {
-    key: 1,
-    class: "no-content",
-  },
-  Xr = Lo(() => e("h3", null, "No ability found", -1)),
+  Lr = { class: "tab" },
+  Br = { class: "tab-header" },
+  Fr = { key: 0 },
+  Qr = { key: 1, class: "sheet-cards-container" },
+  Wr = { key: 0 },
+  Gr = { key: 1, class: "no-content" },
+  Xr = Lo(() => e("h3", null, "Nenhuma habilidade encontrada", -1)),
   Kr = [Xr],
-  Jr = {
-    key: 2,
-    class: "no-content",
-  },
-  Yr = Lo(() => e("h3", null, "You have yet to add abilities", -1)),
+  Jr = { key: 2, class: "no-content" },
+  Yr = Lo(() => e("h3", null, "Você ainda não possui habilidades", -1)),
   Zr = [Yr],
   ed = D({
     __name: "AbilitiesTab",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleOpenAbilitiesModal",
       "handleRemovePower",
@@ -1830,7 +1451,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     Le,
                     {
                       value: l.value,
-                      placeholder: "Filter abilities",
+                      placeholder: "Filter Abilities",
                       onUpdate: i[0] || (i[0] = (r) => (l.value = r)),
                     },
                     null,
@@ -1851,7 +1472,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       i[1] ||
                       (i[1] = (r) => m.$emit("handleOpenAbilitiesModal")),
                   },
-                  " Add New "
+                  " Adicionar "
                 )),
           ]),
           m.disabledSheet
@@ -1865,7 +1486,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                   onClick:
                     i[2] || (i[2] = (r) => m.$emit("handleOpenAddPower")),
                 },
-                " New Ability "
+                " Nova Habilidade "
               )),
           m.character.powers.length > 0
             ? (t(),
@@ -1881,33 +1502,26 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           p.value,
                           (r) => (
                             t(),
-                            s(
-                              "div",
-                              {
-                                key: r.id,
-                                class: "sheet-card-list",
-                              },
-                              [
-                                A(
-                                  Be,
-                                  {
-                                    id: r.id,
-                                    power: r,
-                                    disabled: m.disabledSheet,
-                                    "only-show": "",
-                                    sheet: "",
-                                    onHandleRemove:
-                                      i[3] ||
-                                      (i[3] = (o) =>
-                                        m.$emit("handleRemovePower", o)),
-                                    onHandleEdit: c,
-                                  },
-                                  null,
-                                  8,
-                                  ["id", "power", "disabled"]
-                                ),
-                              ]
-                            )
+                            s("div", { key: r.id, class: "sheet-card-list" }, [
+                              A(
+                                Be,
+                                {
+                                  id: r.id,
+                                  power: r,
+                                  disabled: m.disabledSheet,
+                                  "only-show": "",
+                                  sheet: "",
+                                  onHandleRemove:
+                                    i[3] ||
+                                    (i[3] = (o) =>
+                                      m.$emit("handleRemovePower", o)),
+                                  onHandleEdit: c,
+                                },
+                                null,
+                                8,
+                                ["id", "power", "disabled"]
+                              ),
+                            ])
                           )
                         ),
                         128
@@ -1922,59 +1536,24 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Bo = T(ed, [["__scopeId", "data-v-79ae51ca"]]),
   ga = (a) => (z("data-v-d3cb0405"), (a = a()), H(), a),
-  ad = {
-    class: "tab",
-  },
-  od = {
-    class: "tab-header",
-  },
-  td = {
-    key: 0,
-  },
-  sd = {
-    class: "ritual-dc-wrapper",
-  },
-  nd = {
-    class: "ritual-dc-container",
-  },
-  rd = ga(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle",
-      },
-      " Ritual DC ",
-      -1
-    )
-  ),
+  ad = { class: "tab" },
+  od = { class: "tab-header" },
+  td = { key: 0 },
+  sd = { class: "ritual-dc-wrapper" },
+  nd = { class: "ritual-dc-container" },
+  rd = ga(() => e("h4", { class: "sheet-subtitle" }, " DT DE RITUAIS ", -1)),
   dd = ["disabled", "value"],
-  id = {
-    key: 1,
-    class: "sheet-cards-container",
-  },
-  ld = {
-    key: 0,
-  },
-  ud = {
-    key: 1,
-    class: "no-content",
-  },
-  cd = ga(() => e("h3", null, "No ritual found", -1)),
+  id = { key: 1, class: "sheet-cards-container" },
+  ld = { key: 0 },
+  ud = { key: 1, class: "no-content" },
+  cd = ga(() => e("h3", null, "Nenhum ritual encontrado", -1)),
   md = [cd],
-  pd = {
-    key: 2,
-    class: "no-content",
-  },
-  vd = ga(() => e("h3", null, "You have yet to add rituals", -1)),
+  pd = { key: 2, class: "no-content" },
+  vd = ga(() => e("h3", null, "Você ainda não possui rituais", -1)),
   gd = [vd],
   hd = D({
     __name: "RitualsTab",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleOpenRitualsModal",
       "handleRemoveRitual",
@@ -2033,7 +1612,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     onClick:
                       u[1] || (u[1] = (C) => o.$emit("handleOpenRitualsModal")),
                   },
-                  " Add New "
+                  " Adicionar "
                 )),
           ]),
           e("div", sd, [
@@ -2065,7 +1644,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                   onClick:
                     u[2] || (u[2] = (C) => o.$emit("handleOpenAddRitual")),
                 },
-                " New Ritual "
+                " Novo Ritual "
               )),
           o.character.rituals.length > 0
             ? (t(),
@@ -2081,34 +1660,27 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           c.value,
                           (C) => (
                             t(),
-                            s(
-                              "div",
-                              {
-                                key: C.id,
-                                class: "sheet-card-list",
-                              },
-                              [
-                                A(
-                                  _o,
-                                  {
-                                    id: C.id,
-                                    ritual: C,
-                                    disabled: o.disabledSheet,
-                                    "only-show": "",
-                                    sheet: "",
-                                    onHandleRemove:
-                                      u[3] ||
-                                      (u[3] = (_) =>
-                                        o.$emit("handleRemoveRitual", _)),
-                                    onHandleEdit: i,
-                                    onHandleRollRitual: r,
-                                  },
-                                  null,
-                                  8,
-                                  ["id", "ritual", "disabled"]
-                                ),
-                              ]
-                            )
+                            s("div", { key: C.id, class: "sheet-card-list" }, [
+                              A(
+                                _o,
+                                {
+                                  id: C.id,
+                                  ritual: C,
+                                  disabled: o.disabledSheet,
+                                  "only-show": "",
+                                  sheet: "",
+                                  onHandleRemove:
+                                    u[3] ||
+                                    (u[3] = (_) =>
+                                      o.$emit("handleRemoveRitual", _)),
+                                  onHandleEdit: i,
+                                  onHandleRollRitual: r,
+                                },
+                                null,
+                                8,
+                                ["id", "ritual", "disabled"]
+                              ),
+                            ])
                           )
                         ),
                         128
@@ -2123,228 +1695,87 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Fo = T(hd, [["__scopeId", "data-v-d3cb0405"]]),
   ue = (a) => (z("data-v-d9d5c266"), (a = a()), H(), a),
-  fd = {
-    class: "tab",
-  },
-  bd = {
-    class: "tab-header",
-  },
-  Cd = {
-    key: 0,
-  },
-  Ad = {
-    class: "inventory-info-container",
-  },
-  qd = {
-    class: "inventory-row",
-  },
-  yd = {
-    class: "input-container",
-  },
+  fd = { class: "tab" },
+  bd = { class: "tab-header" },
+  Cd = { key: 0 },
+  Ad = { class: "inventory-info-container" },
+  qd = { class: "inventory-row" },
+  yd = { class: "input-container" },
   $d = ue(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle",
-      },
-      " PRESTIGE POINTS ",
-      -1
-    )
+    e("h4", { class: "sheet-subtitle" }, " PONTOS DE PRESTÍGIO ", -1)
   ),
   Ed = ["disabled", "value"],
-  Id = {
-    class: "inventory-row",
-  },
-  kd = {
-    key: 0,
-  },
-  Sd = {
-    class: "input-container",
-  },
-  _d = ue(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle",
-      },
-      " ITEM LIMIT ",
-      -1
-    )
-  ),
+  Id = { class: "inventory-row" },
+  kd = { key: 0 },
+  Sd = { class: "input-container" },
+  _d = ue(() => e("h4", { class: "sheet-subtitle" }, " LIMITE DE ITENS ", -1)),
   Pd = ["disabled", "value"],
   Md = ["disabled", "value"],
   Rd = ["disabled", "value"],
   Dd = ["disabled", "value"],
-  Td = {
-    key: 1,
-  },
-  Vd = {
-    class: "input-container",
-  },
-  wd = ue(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle",
-      },
-      " ITEM LIMIT ",
-      -1
-    )
-  ),
-  Od = {
-    class: "mobile-input-container-row",
-  },
+  Td = { key: 1 },
+  Vd = { class: "input-container" },
+  wd = ue(() => e("h4", { class: "sheet-subtitle" }, " LIMITE DE ITENS ", -1)),
+  Od = { class: "mobile-input-container-row" },
   zd = ["disabled", "value"],
   Hd = ["disabled", "value"],
   jd = ["disabled", "value"],
   Ud = ["disabled", "value"],
-  xd = {
-    class: "inventory-row",
-  },
-  Nd = {
-    key: 0,
-  },
-  Ld = {
-    class: "input-container",
-  },
+  xd = { class: "inventory-row" },
+  Nd = { key: 0 },
+  Ld = { class: "input-container" },
   Bd = ue(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle width-to-align",
-      },
-      " IN INVENTORY ",
-      -1
-    )
+    e("h4", { class: "sheet-subtitle width-to-align" }, " NO INVENTÁRIO ", -1)
   ),
-  Fd = {
-    class: "sheet-div",
-  },
-  Qd = {
-    class: "sheet-div",
-  },
-  Wd = {
-    class: "sheet-div",
-  },
-  Gd = {
-    class: "sheet-div",
-  },
-  Xd = {
-    key: 1,
-  },
-  Kd = {
-    class: "input-container",
-  },
+  Fd = { class: "sheet-div" },
+  Qd = { class: "sheet-div" },
+  Wd = { class: "sheet-div" },
+  Gd = { class: "sheet-div" },
+  Xd = { key: 1 },
+  Kd = { class: "input-container" },
   Jd = ue(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle width-to-align",
-      },
-      " IN INVENTORY ",
-      -1
-    )
+    e("h4", { class: "sheet-subtitle width-to-align" }, " NO INVENTÁRIO ", -1)
   ),
-  Yd = {
-    class: "mobile-input-container-row",
-  },
-  Zd = {
-    class: "sheet-div",
-  },
-  ei = {
-    class: "sheet-div",
-  },
-  ai = {
-    class: "sheet-div",
-  },
-  oi = {
-    class: "sheet-div",
-  },
-  ti = {
-    class: "inventory-row",
-  },
-  si = {
-    key: 0,
-  },
-  ni = {
-    class: "input-container",
-  },
-  ri = ue(() =>
-    e(
-      "h4",
-      {
-        class: "sheet-subtitle",
-      },
-      " MAX LOAD ",
-      -1
-    )
-  ),
+  Yd = { class: "mobile-input-container-row" },
+  Zd = { class: "sheet-div" },
+  ei = { class: "sheet-div" },
+  ai = { class: "sheet-div" },
+  oi = { class: "sheet-div" },
+  ti = { class: "inventory-row" },
+  si = { key: 0 },
+  ni = { class: "input-container" },
+  ri = ue(() => e("h4", { class: "sheet-subtitle" }, " CARGA MÁX. ", -1)),
   di = ["disabled", "value"],
   ii = ["disabled", "value"],
-  li = {
-    key: 1,
-  },
+  li = { key: 1 },
   ui = ue(() =>
     e(
       "h4",
-      {
-        class: "sheet-subtitle mobile-sheet-subtitle",
-      },
-      " MAX LOAD ",
+      { class: "sheet-subtitle mobile-sheet-subtitle" },
+      " CARGA MÁX. ",
       -1
     )
   ),
-  ci = {
-    class: "mobile-input-container-row",
-  },
+  ci = { class: "mobile-input-container-row" },
   mi = ["disabled", "value"],
   pi = ["disabled", "value"],
-  vi = {
-    class: "open-add-buttons-container",
-  },
-  gi = {
-    key: 0,
-    class: "open-add-title",
-  },
-  hi = {
-    key: 0,
-    class: "sheet-cards-container",
-  },
-  fi = {
-    key: 0,
-  },
-  bi = {
-    key: 0,
-  },
-  Ci = {
-    key: 1,
-  },
-  Ai = {
-    key: 2,
-  },
-  qi = {
-    key: 3,
-  },
-  yi = {
-    key: 1,
-    class: "no-content",
-  },
+  vi = { class: "open-add-buttons-container" },
+  gi = { key: 0, class: "open-add-title" },
+  hi = { key: 0, class: "sheet-cards-container" },
+  fi = { key: 0 },
+  bi = { key: 0 },
+  Ci = { key: 1 },
+  Ai = { key: 2 },
+  qi = { key: 3 },
+  yi = { key: 1, class: "no-content" },
   $i = ue(() => e("h3", null, "Nenhum item encontrado", -1)),
   Ei = [$i],
-  Ii = {
-    key: 1,
-    class: "no-content",
-  },
+  Ii = { key: 1, class: "no-content" },
   ki = ue(() => e("h3", null, "Você ainda não possui itens", -1)),
   Si = [ki],
   _i = D({
     __name: "InventoryTab",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleOpenItemsModal",
       "handleRemoveItem",
@@ -2360,20 +1791,18 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       "handleOpenAddCursedItem",
     ],
     setup(a, { emit: b }) {
-      Pe((f) => ({
-        "53e467a2": o.value,
-      }));
+      Pe((f) => ({ "53e467a2": o.value }));
       const v = a,
         g = b,
         l = [
           "Mundane",
-          "Recruit",
-          "Operator",
-          "Special agent",
-          "Operation captian",
-          "Elite agent",
+          "Recruta",
+          "Operador",
+          "Agente especial",
+          "Oficial de operações",
+          "Agente de elite",
         ],
-        p = ["Low", "Medium", "High", "Unlimited"],
+        p = ["Baixo", "Médio", "Alto", "Ilimitado"],
         c = xe(),
         m = E(""),
         i = E(window.innerWidth),
@@ -2396,19 +1825,13 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         _ = (f, y) => {
           var N;
           const R = f.target.valueAsNumber;
-          g("handleChangeItemsLimit", {
-            value: R,
-            key: y,
-          }),
+          g("handleChangeItemsLimit", { value: R, key: y }),
             (N = c == null ? void 0 : c.proxy) == null || N.$forceUpdate();
         },
         M = (f, y) => {
           var N;
           const R = f.target.valueAsNumber;
-          g("handleChangeInventoryNumber", {
-            value: R,
-            key: y,
-          }),
+          g("handleChangeInventoryNumber", { value: R, key: y }),
             (N = c == null ? void 0 : c.proxy) == null || N.$forceUpdate();
         };
       return (
@@ -2451,7 +1874,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           y[1] ||
                           (y[1] = (I) => f.$emit("handleOpenItemsModal")),
                       },
-                      " Add New "
+                      " Adicionar "
                     )),
               ]),
               e("div", Ad, [
@@ -2475,7 +1898,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                   A(
                     la,
                     {
-                      title: "RANK",
+                      title: "PATENTE",
                       disabled: f.disabledSheet,
                       value: f.character.patent,
                       "button-width": "10rem",
@@ -2724,7 +2147,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                   A(
                     la,
                     {
-                      title: "CREDIT LIMIT",
+                      title: "LIMITE DE CRÉDITO",
                       disabled: f.disabledSheet,
                       value: f.character.creditsLimit,
                       "button-width": "6rem",
@@ -2814,7 +2237,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 ]),
               ]),
               e("div", vi, [
-                f.disabledSheet ? q("", !0) : (t(), s("div", gi, " NEW ")),
+                f.disabledSheet ? q("", !0) : (t(), s("div", gi, " NOVO ")),
                 f.disabledSheet
                   ? q("", !0)
                   : (t(),
@@ -2827,7 +2250,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           y[17] ||
                           (y[17] = (I) => f.$emit("handleOpenAddWeapon")),
                       },
-                      " Weapon "
+                      " Arma "
                     )),
                 f.disabledSheet
                   ? q("", !0)
@@ -2841,7 +2264,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           y[18] ||
                           (y[18] = (I) => f.$emit("handleOpenAddAmmunition")),
                       },
-                      " Ammo "
+                      " Munição "
                     )),
                 f.disabledSheet
                   ? q("", !0)
@@ -2855,7 +2278,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           y[19] ||
                           (y[19] = (I) => f.$emit("handleOpenAddProtection")),
                       },
-                      " Armor "
+                      " Proteção "
                     )),
                 f.disabledSheet
                   ? q("", !0)
@@ -2869,7 +2292,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           y[20] ||
                           (y[20] = (I) => f.$emit("handleOpenAddMisc")),
                       },
-                      " General "
+                      " Geral "
                     )),
                 f.disabledSheet
                   ? q("", !0)
@@ -2883,7 +2306,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           y[21] ||
                           (y[21] = (I) => f.$emit("handleOpenAddCursedItem")),
                       },
-                      " Cursed Item "
+                      " Item Amald. "
                     )),
               ]),
               f.character.inventory.length > 0
@@ -2902,10 +2325,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                                 t(),
                                 s(
                                   "div",
-                                  {
-                                    key: I.id,
-                                    class: "sheet-card-list",
-                                  },
+                                  { key: I.id, class: "sheet-card-list" },
                                   [
                                     I.itemType === "weapon"
                                       ? (t(),
@@ -3043,58 +2463,46 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   Qo = T(_i, [["__scopeId", "data-v-d9d5c266"]]),
-  Pi = {
-    class: "tab",
-  },
-  Mi = {
-    class: "textarea-container",
-  },
+  Pi = { class: "tab" },
+  Mi = { class: "textarea-container" },
   Ri = ["disabled", "placeholder", "value", "onBlur"],
   Di = D({
     __name: "DescriptionTab",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: ["handleChangeDescription"],
     setup(a, { emit: b }) {
       const v = b,
         g = (p, c) => {
-          const m = {
-            value: p.target.value,
-            key: c,
-          };
+          const m = { value: p.target.value, key: c };
           v("handleChangeDescription", m);
         },
         l = [
           {
-            title: "Notes",
+            title: "Anotações",
             key: "anotation",
-            placeholder: "Personal Notes...",
+            placeholder: "Anotações pessoais do agente...",
           },
           {
-            title: "Appearance",
+            title: "Aparência",
             key: "physical",
-            placeholder: "Name, gender, age, physical description...",
+            placeholder: "Nome, gênero, idade, descrição física...",
           },
           {
-            title: "Personality",
+            title: "Personalidade",
             key: "personal",
-            placeholder: "Striking features, opinions, ideals...",
+            placeholder: "Traços marcantes, opiniões, ideais...",
           },
           {
-            title: "History",
+            title: "Histórico",
             key: "history",
             placeholder:
-              "Childhood, family relations, Paranormal contact, good and bad events...",
+              "Infância, relação com a família, contato com o Paranormal, eventos bons e ruins...",
           },
           {
-            title: "Objetive",
+            title: "Objetivo",
             key: "goal",
             placeholder:
-              "Why did the agent join the Order? Why do they fight against the Other Side?",
+              "Por que ele faz parte da Ordem? Porque luta contra o Outro Lado?",
           },
         ];
       return (p, c) => (
@@ -3105,32 +2513,26 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             x,
             null,
             W(l, (m) =>
-              e(
-                "div",
-                {
-                  key: m.title,
-                },
-                [
-                  e("div", Mi, [
-                    e("h3", null, O(m.title), 1),
-                    e(
-                      "textarea",
-                      {
-                        class: "textarea description-tab-size",
-                        rows: "5",
-                        disabled: p.disabledSheet,
-                        placeholder: m.placeholder,
-                        value: p.character.description[m.key],
-                        onBlur: (i) => g(i, m.key),
-                      },
-                      `\r
+              e("div", { key: m.title }, [
+                e("div", Mi, [
+                  e("h3", null, O(m.title), 1),
+                  e(
+                    "textarea",
+                    {
+                      class: "textarea description-tab-size",
+                      rows: "5",
+                      disabled: p.disabledSheet,
+                      placeholder: m.placeholder,
+                      value: p.character.description[m.key],
+                      onBlur: (i) => g(i, m.key),
+                    },
+                    `\r
         `,
-                      40,
-                      Ri
-                    ),
-                  ]),
-                ]
-              )
+                    40,
+                    Ri
+                  ),
+                ]),
+              ])
             ),
             64
           )),
@@ -3139,20 +2541,11 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   Wo = T(Di, [["__scopeId", "data-v-c2fd2df6"]]),
-  Ti = {
-    class: "sheet-tab-container",
-  },
-  Vi = {
-    class: "tab-nav-container",
-  },
+  Ti = { class: "sheet-tab-container" },
+  Vi = { class: "tab-nav-container" },
   wi = D({
     __name: "SheetTabView",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
       "handleOpenAbilitiesModal",
       "handleOpenRitualsModal",
@@ -3189,26 +2582,11 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     setup(a, { emit: b }) {
       const v = b,
         g = [
-          {
-            label: "COMBAT",
-            value: 0,
-          },
-          {
-            label: "ABILITIES",
-            value: 1,
-          },
-          {
-            label: "RITUALS",
-            value: 2,
-          },
-          {
-            label: "INVENTORY",
-            value: 3,
-          },
-          {
-            label: "DESCRIPTION",
-            value: 4,
-          },
+          { label: "COMBAT", value: 0 },
+          { label: "ABILITIES", value: 1 },
+          { label: "RITUALS", value: 2 },
+          { label: "INVENTORY", value: 3 },
+          { label: "DESCRIPTION", value: 4 },
         ],
         l = [No, Bo, Fo, Qo, Wo],
         p = E(0),
@@ -3317,21 +2695,13 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   Oi = T(wi, [["__scopeId", "data-v-ff57a115"]]),
-  zi = {
-    class: "switch-container",
-  },
+  zi = { class: "switch-container" },
   Hi = ["onClick"],
   ji = D({
     __name: "SwitchButton",
     props: {
-      value: {
-        type: Number,
-        required: !0,
-      },
-      options: {
-        type: Array,
-        required: !0,
-      },
+      value: { type: Number, required: !0 },
+      options: { type: Array, required: !0 },
     },
     emits: ["handleNavigation"],
     setup(a) {
@@ -3352,9 +2722,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     key: g.value,
                     class: Z([
                       "switch-button",
-                      {
-                        active: g.value === a.value,
-                      },
+                      { active: g.value === a.value },
                     ]),
                     onClick: (l) => b.$emit("handleNavigation", g.value),
                   },
@@ -3371,22 +2739,12 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   ha = T(ji, [["__scopeId", "data-v-9be4a122"]]),
-  Ui = {
-    class: "class-abilities-container",
-  },
-  xi = {
-    key: 0,
-    class: "search-container",
-  },
-  Ni = {
-    key: 1,
-    class: "class-abilities-content",
-  },
+  Ui = { class: "class-abilities-container" },
+  xi = { key: 0, class: "search-container" },
+  Ni = { key: 1, class: "class-abilities-content" },
   Li = D({
     __name: "ClassAbilities",
-    props: {
-      classValue: {},
-    },
+    props: { classValue: {} },
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
       const v = a,
@@ -3398,16 +2756,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         i = E(""),
         r = (u) => g("handleAddPower", u);
       Ae(() => {
-        c.value.push({
-          label: `Poderes de ${v.classValue.name}`,
-          value: 0,
-        }),
+        c.value.push({ label: `Poderes de ${v.classValue.name}`, value: 0 }),
           v.classValue.paths.forEach((u, C) => {
-            c.value.push({
-              label: u.name,
-              value: C + 1,
-            }),
-              p.value.push(u);
+            c.value.push({ label: u.name, value: C + 1 }), p.value.push(u);
           });
         for (const u of v.classValue.abilities) l.value.push(u);
         for (const u of v.classValue.powers) l.value.push(u);
@@ -3463,25 +2814,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     o.value,
                     (_) => (
                       t(),
-                      s(
-                        "div",
-                        {
-                          key: _.name,
-                          class: "class-abilitie-card",
-                        },
-                        [
-                          A(
-                            Be,
-                            {
-                              power: _,
-                              onHandleAdd: r,
-                            },
-                            null,
-                            8,
-                            ["power"]
-                          ),
-                        ]
-                      )
+                      s("div", { key: _.name, class: "class-abilitie-card" }, [
+                        A(Be, { power: _, onHandleAdd: r }, null, 8, ["power"]),
+                      ])
                     )
                   ),
                   128
@@ -3493,15 +2828,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   da = T(Li, [["__scopeId", "data-v-bb507b22"]]),
-  Bi = {
-    class: "class-abilities-container",
-  },
-  Fi = {
-    class: "search-container",
-  },
-  Qi = {
-    class: "class-abilities-content",
-  },
+  Bi = { class: "class-abilities-container" },
+  Fi = { class: "search-container" },
+  Qi = { class: "class-abilities-content" },
   Wi = D({
     __name: "BackgroundPower",
     emits: ["handleAddPower"],
@@ -3543,25 +2872,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 c.value,
                 (r) => (
                   t(),
-                  s(
-                    "div",
-                    {
-                      key: r.name,
-                      class: "class-abilitie-card",
-                    },
-                    [
-                      A(
-                        Be,
-                        {
-                          power: r,
-                          onHandleAdd: g,
-                        },
-                        null,
-                        8,
-                        ["power"]
-                      ),
-                    ]
-                  )
+                  s("div", { key: r.name, class: "class-abilitie-card" }, [
+                    A(Be, { power: r, onHandleAdd: g }, null, 8, ["power"]),
+                  ])
                 )
               ),
               128
@@ -3587,158 +2900,138 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Expansão de Conhecimento",
-      element: "Knowledge",
+      element: "Conhecimento",
       description:
         "<p>Você se conecta com o Conhecimento do Outro Lado, rompendo os limites de sua compreensão. Você aprende um poder de classe que não pertença à sua classe (caso o poder possua pré-requisitos, você precisa preenchê-los). <em>Pré-requisito:</em> Conhecimento 1.</p><p><span>Afinidade:</span> você aprende um segundo poder de classe que não pertença à sua classe.</p>",
     },
     {
       name: "Percepção Paranormal",
-      element: "Knowledge",
+      element: "Conhecimento",
       description:
         "<p>O Conhecimento sussurra em sua mente. Em cenas de investigação, sempre que fizer um teste para procurar pistas, você pode rolar novamente um dado com resultado menor que 10. Você deve aceitar a segunda rolagem, mesmo que seja menor que a primeira.</p><p><span>Afinidade:</span> você pode rolar novamente até dois dados com resultado menor que 10.</p>",
     },
     {
       name: "Precognição",
-      element: "Knowledge",
+      element: "Conhecimento",
       description:
         "<p>Você possui um “sexto sentido” que o avisa do perigo antes que ele aconteça. Você recebe +2 em Defesa e em testes de resistência. <em>Pré-requisito:</em> Conhecimento 1.</p><p><span>Afinidade:</span> você fica imune à condição desprevenido.</p>",
     },
     {
       name: "Sensitivo",
-      element: "Knowledge",
+      element: "Conhecimento",
       description:
         "<p>Você consegue sentir as emoções e intenções de outros personagens, como medo, raiva ou malícia, recebendo +5 em testes de Diplomacia, Intimidação e Intuição.</p><p><span>Afinidade:</span> quando você faz um teste oposto usando uma dessas perícias, o oponente sofre –1d20.</p>",
     },
     {
       name: "Visão do Oculto",
-      element: "Knowledge",
+      element: "Conhecimento",
       description:
         "<p>Você não enxerga mais pelos olhos, mas sim pela percepção do Conhecimento em sua mente. Você recebe +5 em testes de Percepção e enxerga no escuro.</p><p><span>Afinidade:</span> você ignora camuflagem.</p>",
     },
     {
       name: "Afortunado",
-      element: "Energy",
+      element: "Energia",
       description:
         "<p>A Energia considera resultados medíocres entediantes. Uma vez por rolagem, você pode rolar novamente um resultado 1 em qualquer dado que não seja d20.</p><p><span>Afinidade:</span> além disso, uma vez por teste, você pode rolar novamente um resultado 1 em d20.</p>",
     },
     {
       name: "Campo Protetor",
-      element: "Energy",
+      element: "Energia",
       description:
         "<p>Você consegue gerar um campo de Energia que o protege de perigos. Quando usa a ação esquiva, você pode gastar 1 PE para receber +5 em Defesa. <em>Pré-requisito:</em> Energia 1.</p><p><span>Afinidade:</span> quando usa este poder, você também recebe +5 em Reflexo e, até o início de seu próximo turno, se passar em um teste de Reflexo que reduziria o dano à metade, em vez disso não sofre nenhum dano.</p>",
     },
     {
       name: "Causalidade Fortuita",
-      element: "Energy",
+      element: "Energia",
       description:
         "<p>A Energia o conduz rumo à descobertas. Em cenas de investigação, a DT para procurar pistas diminui em -5 para você até você encontrar uma pista.</p><p><span>Afinidade:</span> a DT para procurar pistas sempre diminui em –5 para você.</p>",
     },
     {
       name: "Golpe de Sorte",
-      element: "Energy",
+      element: "Energia",
       description:
         "<p>Seus ataques recebem +1 na margem de ameaça. <em>Pré-requisito:</em> Energia 1.</p><p><span>Afinidade:</span> seus ataques recebem +1 no multiplicador de crítico.</p>",
     },
     {
       name: "Manipular Entropia",
-      element: "Energy",
+      element: "Energia",
       description:
         "<p>Nada diverte mais a Energia do que a possibilidade de um desastre ainda maior. Você pode gastar 2 PE para fazer um alvo em alcance curto (exceto você mesmo) rolar novamente um dos dados em um teste de perícia. <em>Pré-requisito:</em> Energia 1.</p><p><span>Afinidade:</span> o alvo rola novamente todos os dados que você escolher.</p>",
     },
     {
       name: "Encarar a Morte",
-      element: "Death",
+      element: "Morte",
       description:
         "<p>Sua conexão com a Morte faz com que você não hesite em situações de perigo. Durante cenas de ação, seu limite de gasto de PE aumenta em +1 (isso não afeta a DT de seus efeitos).</p><p><span>Afinidade:</span> durante cenas de ação, seu limite de gasto de PE aumenta em +2 (para um total de +3).</p>",
     },
     {
       name: "Escapar da Morte",
-      element: "Death",
+      element: "Morte",
       description:
         "<p>A Morte tem um interesse especial em sua caminhada. Uma vez por cena, quando receber dano que o deixaria com 0 PV, você fica com 1 PV. Não funciona em caso de dano massivo. <em>Pré-requisito:</em> Morte 1.</p><p><span>Afinidade:</span> em vez do normal, você evita completamente o dano. Em caso de dano massivo, você fica com 1 PV.</p>",
     },
     {
       name: "Potencial Aprimorado",
-      element: "Death",
+      element: "Morte",
       description:
         "<p>A Morte lhe concede potencial latente de momentos roubados de outro lugar. Você recebe +1 ponto de esforço por NEX. Quando sobe de NEX, os PE que recebe por este poder aumentam de acordo. Por exemplo, se escolher este poder em NEX 30%, recebe 6 PE. Quando subir para NEX 35%, recebe +1 PE adicional, e assim por diante.</p><p><span>Afinidade:</span> você recebe +1 PE adicional por NEX (para um total de +2 PE por NEX).</p>",
     },
     {
       name: "Potencial Reaproveitado",
-      element: "Death",
+      element: "Morte",
       description:
         "<p>Você absorve os momentos desperdiçados de outros seres. Uma vez por rodada, quando passa num teste de resistência, você ganha 2 PE temporários cumulativos. Os pontos desaparecem no final da cena.</p><p><span>Afinidade:</span> você ganha 3 PE temporários, em vez de 2.</p>",
     },
     {
       name: "Surto Temporal",
-      element: "Death",
+      element: "Morte",
       description:
         "<p>A sua percepção temporal se torna distorcida e espiralizada, fazendo com que a noção de passagem do tempo nunca mais seja a mesma para você. Uma vez por cena, durante seu turno, você pode gastar 3 PE para realizar uma ação padrão adicional. <em>Pré-requisito:</em> Morte 2.</p><p><span>Afinidade:</span> em vez de uma vez por cena, você pode usar este poder uma vez por turno.</p>",
     },
     {
       name: "Anatomia Insana",
-      element: "Blood",
+      element: "Sangue",
       description:
         "<p>O seu corpo é transfigurado e parece desenvolver um instinto próprio separado da sua consciência. Você tem 50% de chance (resultado par em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. <em>Pré-requisito:</em> Sangue 2.</p><p><span>Afinidade:</span> você é imune aos efeitos de acertos críticos e ataques furtivos.</p>",
     },
     {
       name: "Arma de Sangue",
-      element: "Blood",
+      element: "Sangue",
       description:
         "<p>O Sangue devora parte de seu corpo e se manifesta como parte de você. Você pode gastar uma ação de movimento e 2 PE para produzir garras, chifres ou uma lâmina de sangue cristalizado que brota de seu antebraço. Qualquer que seja sua escolha, é considerada uma arma simples leve que você não precisa empunhar e causa 1d6 pontos de dano de Sangue. Uma vez por turno, quando você usa a ação agredir, pode gastar 1 PE para fazer um ataque adicional com essa arma. A arma dura até o final da cena, e então se desfaz numa poça de sangue coagulado.</p><p><span>Afinidade:</span> a arma se torna permanentemente parte de você e causa 1d10 pontos de dano de Sangue.</p>",
     },
     {
       name: "Sangue de Ferro",
-      element: "Blood",
+      element: "Sangue",
       description:
         "<p>O seu sangue flui de forma paranormal e agressiva, concedendo vigor não natural. Você recebe +2 pontos de vida por NEX. Quando sobe de NEX, os PV que recebe por este poder aumentam de acordo. Por exemplo, se escolher este poder em NEX 50%, recebe 20 PV. Quando subir para NEX 55%, recebe +2 PV, e assim por diante.</p><p><span>Afinidade:</span> você recebe +5 em Fortitude e se torna imune a venenos e doenças.</p>",
     },
     {
       name: "Sangue Fervente",
-      element: "Blood",
+      element: "Sangue",
       description:
         "<p>A intensidade da dor desperta em você sentimentos bestiais e prazerosos que você nem imaginava que existiam. Enquanto estiver machucado, você recebe +1 em Agilidade ou Força, à sua escolha (escolha sempre que este efeito for ativado). <em>Pré-requisito:</em> Sangue 2.</p><p><span>Afinidade:</span> o bônus que você recebe em Agilidade ou Força aumenta para +2.</p>",
     },
     {
       name: "Sangue Vivo",
-      element: "Blood",
+      element: "Sangue",
       description:
         "<p>A carnificina não pode parar, o Sangue precisa continuar fluindo. Na primeira vez que ficar machucado durante uma cena, você recebe cura acelerada 2. Esse efeito nunca cura você acima da metade dos PV máximos (ou seja, você nunca deixa de estar machucado) e termina no fim da cena ou caso você perca a condição machucado. <em>Pré-requisito:</em> Sangue 1.</p><p><span>Afinidade:</span> a cura acelerada aumenta para 5.</p>",
     },
   ],
-  Ki = {
-    class: "class-abilities-container",
-  },
-  Ji = {
-    key: 0,
-    class: "class-abilities-content",
-  },
+  Ki = { class: "class-abilities-container" },
+  Ji = { key: 0, class: "class-abilities-content" },
   Yi = D({
     __name: "ParanormalPowers",
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
       const v = b,
         g = [
-          {
-            label: "Knowledge",
-            value: 0,
-          },
-          {
-            label: "Energy",
-            value: 1,
-          },
-          {
-            label: "Death",
-            value: 2,
-          },
-          {
-            label: "Blood",
-            value: 3,
-          },
-          {
-            label: "Varies",
-            value: 4,
-          },
+          { label: "Conhecimento", value: 0 },
+          { label: "Energia", value: 1 },
+          { label: "Morte", value: 2 },
+          { label: "Sangue", value: 3 },
+          { label: "Varia", value: 4 },
         ],
         l = E(0),
         p = (m) => v("handleAddPower", m),
@@ -3769,25 +3062,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     c.value,
                     (r) => (
                       t(),
-                      s(
-                        "div",
-                        {
-                          key: r.name,
-                          class: "class-abilitie-card",
-                        },
-                        [
-                          A(
-                            Be,
-                            {
-                              power: r,
-                              onHandleAdd: p,
-                            },
-                            null,
-                            8,
-                            ["power"]
-                          ),
-                        ]
-                      )
+                      s("div", { key: r.name, class: "class-abilitie-card" }, [
+                        A(Be, { power: r, onHandleAdd: p }, null, 8, ["power"]),
+                      ])
                     )
                   ),
                   128
@@ -3799,53 +3076,24 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
   }),
   Zi = T(Yi, [["__scopeId", "data-v-05246a49"]]),
-  el = {
-    class: "abilities-modal-content",
-  },
-  al = {
-    key: 0,
-  },
-  ol = {
-    key: 1,
-  },
-  tl = {
-    key: 2,
-  },
-  sl = {
-    key: 3,
-  },
-  nl = {
-    key: 4,
-  },
+  el = { class: "abilities-modal-content" },
+  al = { key: 0 },
+  ol = { key: 1 },
+  tl = { key: 2 },
+  sl = { key: 3 },
+  nl = { key: 4 },
   rl = D({
     __name: "AbilitiesModalContent",
-    props: {
-      character: {},
-    },
+    props: { character: {} },
     emits: ["handleCloseModal", "handleAddPower"],
     setup(a, { emit: b }) {
       const v = b,
         g = [
-          {
-            label: "Combatant",
-            value: 0,
-          },
-          {
-            label: "Specialist",
-            value: 1,
-          },
-          {
-            label: "Occultist",
-            value: 2,
-          },
-          {
-            label: "Background",
-            value: 3,
-          },
-          {
-            label: "Paranormal Powers",
-            value: 4,
-          },
+          { label: "Combatente", value: 0 },
+          { label: "Especialista", value: 1 },
+          { label: "Ocultista", value: 2 },
+          { label: "Origens", value: 3 },
+          { label: "Poderes Paranormais", value: 4 },
         ],
         l = E(0),
         p = (m) => (l.value = m),
@@ -3855,11 +3103,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         s("div", el, [
           A(
             ve,
-            {
-              "current-tab": l.value,
-              "tab-options": g,
-              onHandleNavigation: p,
-            },
+            { "current-tab": l.value, "tab-options": g, onHandleNavigation: p },
             null,
             8,
             ["current-tab"]
@@ -3869,10 +3113,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               s("div", al, [
                 A(
                   da,
-                  {
-                    "class-value": Y(He)[0],
-                    onHandleAddPower: c,
-                  },
+                  { "class-value": Y(He)[0], onHandleAddPower: c },
                   null,
                   8,
                   ["class-value"]
@@ -3884,10 +3125,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               s("div", ol, [
                 A(
                   da,
-                  {
-                    "class-value": Y(He)[1],
-                    onHandleAddPower: c,
-                  },
+                  { "class-value": Y(He)[1], onHandleAddPower: c },
                   null,
                   8,
                   ["class-value"]
@@ -3899,10 +3137,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               s("div", tl, [
                 A(
                   da,
-                  {
-                    "class-value": Y(He)[2],
-                    onHandleAddPower: c,
-                  },
+                  { "class-value": Y(He)[2], onHandleAddPower: c },
                   null,
                   8,
                   ["class-value"]
@@ -3910,20 +3145,10 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               ]))
             : q("", !0),
           l.value === 3
-            ? (t(),
-              s("div", sl, [
-                A(Gi, {
-                  onHandleAddPower: c,
-                }),
-              ]))
+            ? (t(), s("div", sl, [A(Gi, { onHandleAddPower: c })]))
             : q("", !0),
           l.value === 4
-            ? (t(),
-              s("div", nl, [
-                A(Zi, {
-                  onHandleAddPower: c,
-                }),
-              ]))
+            ? (t(), s("div", nl, [A(Zi, { onHandleAddPower: c })]))
             : q("", !0),
         ])
       );
@@ -3931,47 +3156,24 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   dl = T(rl, [["__scopeId", "data-v-84328ffc"]]),
   Go = (a) => (z("data-v-7388a7f6"), (a = a()), H(), a),
-  il = {
-    class: "modal-content modal-width",
-  },
-  ll = {
-    class: "modal-header",
-  },
+  il = { class: "modal-content modal-width" },
+  ll = { class: "modal-header" },
   ul = Go(() => e("h2", null, "Adicionar Habilidades", -1)),
   cl = Go(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   ml = [cl],
-  pl = {
-    class: "modal-body modal-height",
-  },
+  pl = { class: "modal-body modal-height" },
   vl = D({
     __name: "AbilitiesModal",
-    props: {
-      character: {},
-    },
+    props: { character: {} },
     emits: ["handleAddPower", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
         g = [dl, Cs],
         l = [
-          {
-            label: "Abilties",
-            value: 0,
-          },
-          {
-            label: "My Abilities",
-            value: 1,
-          },
+          { label: "Habilidades", value: 0 },
+          { label: "Minhas Habilidades", value: 1 },
         ],
         p = E(0),
         c = (i) => (p.value = i),
@@ -3983,20 +3185,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             ul,
             e(
               "button",
-              {
-                onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")),
-              },
+              { onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")) },
               ml
             ),
           ]),
           e("div", pl, [
             A(
               ha,
-              {
-                value: p.value,
-                options: l,
-                onHandleNavigation: c,
-              },
+              { value: p.value, options: l, onHandleNavigation: c },
               null,
               8,
               ["value"]
@@ -4009,10 +3205,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 (t(),
                 L(
                   Me(g[p.value]),
-                  {
-                    character: i.character,
-                    onHandleAddPower: m,
-                  },
+                  { character: i.character, onHandleAddPower: m },
                   null,
                   40,
                   ["character"]
@@ -4092,7 +3285,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       secondaryDamage: "1d6",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "-",
       slots: 0,
@@ -4108,8 +3301,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d4",
       criticalMult: 2,
       criticalRange: 19,
-      damageType: "Slashing",
-      range: "Short",
+      damageType: "Corte",
+      range: "Curto",
       category: "0",
       slots: 1,
       itemType: "weapon",
@@ -4124,7 +3317,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d6",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "0",
       slots: 1,
@@ -4140,7 +3333,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d4",
       criticalMult: 3,
       criticalRange: 20,
-      damageType: "Piercing",
+      damageType: "Perfuração",
       range: "-",
       category: "0",
       slots: 1,
@@ -4157,7 +3350,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       secondaryDamage: "1d8",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "0",
       slots: 1,
@@ -4173,7 +3366,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d6",
       criticalMult: 2,
       criticalRange: 19,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "0",
       slots: 1,
@@ -4189,8 +3382,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d6",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Piercing",
-      range: "Short",
+      damageType: "Perfuração",
+      range: "Curto",
       category: "0",
       slots: 1,
       itemType: "weapon",
@@ -4206,7 +3399,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       secondaryDamage: "1d6",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "0",
       slots: 2,
@@ -4222,8 +3415,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d6",
       criticalMult: 3,
       criticalRange: 20,
-      damageType: "Piercing",
-      range: "Medium",
+      damageType: "Perfuração",
+      range: "Médio",
       category: "0",
       slots: 2,
       ammunitionName: G[4].name,
@@ -4238,8 +3431,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d8",
       criticalMult: 2,
       criticalRange: 19,
-      damageType: "Piercing",
-      range: "Medium",
+      damageType: "Perfuração",
+      range: "Médio",
       category: "0",
       slots: 2,
       ammunitionName: G[4].name,
@@ -4255,8 +3448,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d12",
       criticalMult: 2,
       criticalRange: 18,
-      damageType: "Ballistic",
-      range: "Short",
+      damageType: "Balístico",
+      range: "Curto",
       category: "I",
       slots: 1,
       ammunitionName: G[0].name,
@@ -4272,8 +3465,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d6",
       criticalMult: 3,
       criticalRange: 19,
-      damageType: "Ballistic",
-      range: "Short",
+      damageType: "Balístico",
+      range: "Curto",
       category: "I",
       slots: 1,
       ammunitionName: G[0].name,
@@ -4289,8 +3482,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d8",
       criticalMult: 3,
       criticalRange: 19,
-      damageType: "Ballistic",
-      range: "Medium",
+      damageType: "Balístico",
+      range: "Médio",
       category: "I",
       slots: 2,
       ammunitionName: G[1].name,
@@ -4306,8 +3499,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d6",
       criticalMult: 3,
       criticalRange: 20,
-      damageType: "Slashing",
-      range: "Short",
+      damageType: "Corte",
+      range: "Curto",
       category: "0",
       slots: 1,
       itemType: "weapon",
@@ -4322,7 +3515,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d8",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "0",
       slots: 1,
@@ -4338,7 +3531,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d8",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "0",
       slots: 1,
@@ -4355,7 +3548,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       secondaryDamage: "1d10",
       criticalMult: 2,
       criticalRange: 19,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 1,
@@ -4371,7 +3564,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d6",
       criticalMult: 2,
       criticalRange: 18,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 1,
@@ -4387,7 +3580,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d8",
       criticalMult: 3,
       criticalRange: 20,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 1,
@@ -4403,7 +3596,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d4",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "I",
       slots: 1,
@@ -4419,7 +3612,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d12",
       criticalMult: 3,
       criticalRange: 20,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 2,
@@ -4435,7 +3628,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d4",
       criticalMult: 4,
       criticalRange: 20,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 2,
@@ -4451,7 +3644,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d10",
       criticalMult: 2,
       criticalRange: 19,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 2,
@@ -4467,7 +3660,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "3d4",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
+      damageType: "Impacto",
       range: "-",
       category: "I",
       slots: 2,
@@ -4483,7 +3676,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d6",
       criticalMult: 2,
       criticalRange: 19,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 2,
@@ -4499,7 +3692,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "3d6",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Slashing",
+      damageType: "Corte",
       range: "-",
       category: "I",
       slots: 2,
@@ -4515,8 +3708,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d10",
       criticalMult: 3,
       criticalRange: 20,
-      damageType: "Piercing",
-      range: "Medium",
+      damageType: "Perfuração",
+      range: "Médio",
       category: "I",
       slots: 2,
       ammunitionName: G[4].name,
@@ -4532,8 +3725,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "1d12",
       criticalMult: 2,
       criticalRange: 19,
-      damageType: "Piercing",
-      range: "Medium",
+      damageType: "Perfuração",
+      range: "Médio",
       category: "I",
       slots: 2,
       ammunitionName: G[4].name,
@@ -4549,8 +3742,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d6",
       criticalMult: 3,
       criticalRange: 19,
-      damageType: "Ballistic",
-      range: "Short",
+      damageType: "Balístico",
+      range: "Curto",
       category: "I",
       slots: 1,
       ammunitionName: G[0].name,
@@ -4566,14 +3759,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "4d6",
       criticalMult: 3,
       criticalRange: 20,
-      damageType: "Ballistic",
-      range: "Short",
+      damageType: "Balístico",
+      range: "Curto",
       category: "I",
       slots: 2,
       ammunitionName: G[2].name,
       itemType: "weapon",
       description:
-        "<p>Arma de fogo longa e com cano liso. A espingarda causa apenas metade do dano em alcance Medium ou maior.</p>",
+        "<p>Arma de fogo longa e com cano liso. A espingarda causa apenas metade do dano em alcance médio ou maior.</p>",
     },
     {
       name: "Fuzil de Assalto",
@@ -4583,8 +3776,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d10",
       criticalMult: 3,
       criticalRange: 19,
-      damageType: "Ballistic",
-      range: "Medium",
+      damageType: "Balístico",
+      range: "Médio",
       category: "II",
       slots: 2,
       ammunitionName: G[1].name,
@@ -4600,8 +3793,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d10",
       criticalMult: 3,
       criticalRange: 19,
-      damageType: "Ballistic",
-      range: "Long",
+      damageType: "Balístico",
+      range: "Longo",
       category: "III",
       slots: 2,
       ammunitionName: G[1].name,
@@ -4617,14 +3810,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "10d8",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Bludgeoning",
-      range: "Medium",
+      damageType: "Impacto",
+      range: "Médio",
       category: "III",
       slots: 2,
       ammunitionName: G[5].name,
       itemType: "weapon",
       description:
-        "<p>Este lança-foguetes foi concebido como uma arma anti-tanques, mas também se mostrou eficaz contra criaturas. A bazuca causa seu dano no alvo atingido e em todos os seres num raio de 3m; esses seres (mas não o alvo atingido diretamente) têm direito a um teste de Reflexos (DT Agi) para reduzir o dano à metade. Você pode disparar o foguete num ponto qualquer em alcance Medium, em vez de num ser específico; nesse caso, não precisa rolar ataque e não tem chance de errar (mas também não acerta nenhum ser diretamente). A bazuca exige uma ação de movimento para ser recarregada a cada disparo.</p>",
+        "<p>Este lança-foguetes foi concebido como uma arma anti-tanques, mas também se mostrou eficaz contra criaturas. A bazuca causa seu dano no alvo atingido e em todos os seres num raio de 3m; esses seres (mas não o alvo atingido diretamente) têm direito a um teste de Reflexos (DT Agi) para reduzir o dano à metade. Você pode disparar o foguete num ponto qualquer em alcance médio, em vez de num ser específico; nesse caso, não precisa rolar ataque e não tem chance de errar (mas também não acerta nenhum ser diretamente). A bazuca exige uma ação de movimento para ser recarregada a cada disparo.</p>",
     },
     {
       name: "Lança-chamas",
@@ -4634,8 +3827,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "6d6",
       criticalMult: 2,
       criticalRange: 20,
-      damageType: "Fire",
-      range: "Short",
+      damageType: "Fogo",
+      range: "Curto",
       category: "III",
       slots: 2,
       ammunitionName: G[3].name,
@@ -4651,8 +3844,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       damage: "2d12",
       criticalMult: 3,
       criticalRange: 19,
-      damageType: "Ballistic",
-      range: "Medium",
+      damageType: "Balístico",
+      range: "Médio",
       category: "II",
       slots: 2,
       ammunitionName: G[1].name,
@@ -4725,7 +3918,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance Medium. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Também chamadas de flash-bang, por criarem um estouro barulhento e luminoso. Seres na área ficam atordoados por 1 rodada (Fortitude DT Agi reduz para ofuscado e surdo por uma rodada).</p>",
+        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Também chamadas de flash-bang, por criarem um estouro barulhento e luminoso. Seres na área ficam atordoados por 1 rodada (Fortitude DT Agi reduz para ofuscado e surdo por uma rodada).</p>",
     },
     {
       name: "Granada de Fragmentação",
@@ -4734,7 +3927,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance Medium. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Espalha fragmentos perfurantes. Seres na área sofrem 8d6 pontos de dano de perfuração (Reflexos DT Agi reduz à metade).</p>",
+        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Espalha fragmentos perfurantes. Seres na área sofrem 8d6 pontos de dano de perfuração (Reflexos DT Agi reduz à metade).</p>",
     },
     {
       name: "Granada de Fumaça",
@@ -4743,7 +3936,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance Medium. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Produz uma fumaça espessa e escura. Seres na área ficam cegos e sob camuflagem total. A fumaça dura 2 rodadas.</p>",
+        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Produz uma fumaça espessa e escura. Seres na área ficam cegos e sob camuflagem total. A fumaça dura 2 rodadas.</p>",
     },
     {
       name: "Granada Incendiária",
@@ -4752,7 +3945,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance Medium. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Espalha labaredas incandescentes. Seres na área sofrem 6d6 pontos de dano de fogo e ficam em chamas (Reflexos DT Agi reduz o dano à metade e evita a condição em chamas).</p>",
+        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Espalha labaredas incandescentes. Seres na área sofrem 6d6 pontos de dano de fogo e ficam em chamas (Reflexos DT Agi reduz o dano à metade e evita a condição em chamas).</p>",
     },
     {
       name: "Mina Antipessoal",
@@ -4806,7 +3999,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Este dispositivo compacto emite ondas que “poluem” a frequência de rádio usada por celulares, impedindo que qualquer aparelho desse tipo em alcance Medium se conecte.</p>",
+        "<p>Este dispositivo compacto emite ondas que “poluem” a frequência de rádio usada por celulares, impedindo que qualquer aparelho desse tipo em alcance médio se conecte.</p>",
     },
     {
       name: "Cicatrizante",
@@ -4815,7 +4008,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um spray contendo um reMedium com potente efeito cicatrizante. Você pode gastar uma ação padrão e este item para curar 2d8+2 PV em você ou em um ser adjacente.</p>",
+        "<p>Um spray contendo um remédio com potente efeito cicatrizante. Você pode gastar uma ação padrão e este item para curar 2d8+2 PV em você ou em um ser adjacente.</p>",
     },
     {
       name: "Corda",
@@ -5001,7 +4194,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   Cl = [
     {
       name: "Coração Pulsante",
-      element: "Blood",
+      element: "Sangue",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5010,7 +4203,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Coroa de Espinhos",
-      element: "Blood",
+      element: "Sangue",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5019,16 +4212,16 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Faixas da Vidência",
-      element: "Death",
+      element: "Morte",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
       description:
-        "<p><em>Uma faixa de tecido, geralmente preto, com pequenos símbolos de Morte gravados em suas bordas.</em> O usuário é considerado cego para alvos além do alcance Medium. No entanto, a faixa distorce a percepção temporal do usuário dentro do alcance, fazendo com que enxergue os eventos fora da linha do tempo. Contra efeitos em alcance Medium, o usuário nunca fica desprevinido, recebe +10 em testes de resistência e recebe +10 na Defesa quando esquiva. Além disso, uma vez por cena de investigação, pode gastar 2 PE para ter um vislumbre do passado que auxilia a ação de procurar pistas, fornecendo +5 para o teste.</p>",
+        "<p><em>Uma faixa de tecido, geralmente preto, com pequenos símbolos de Morte gravados em suas bordas.</em> O usuário é considerado cego para alvos além do alcance médio. No entanto, a faixa distorce a percepção temporal do usuário dentro do alcance, fazendo com que enxergue os eventos fora da linha do tempo. Contra efeitos em alcance médio, o usuário nunca fica desprevinido, recebe +10 em testes de resistência e recebe +10 na Defesa quando esquiva. Além disso, uma vez por cena de investigação, pode gastar 2 PE para ter um vislumbre do passado que auxilia a ação de procurar pistas, fornecendo +5 para o teste.</p>",
     },
     {
       name: "Frasco de Vitalidade",
-      element: "Blood",
+      element: "Sangue",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5037,7 +4230,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Pérola de Sangue",
-      element: "Blood",
+      element: "Sangue",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5046,7 +4239,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Punhos Enraivecidos",
-      element: "Blood",
+      element: "Sangue",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5055,7 +4248,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Seringa de Transfiguração",
-      element: "Blood",
+      element: "Sangue",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5064,7 +4257,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Amarras Mortais",
-      element: "Death",
+      element: "Morte",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5073,7 +4266,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Casaco de Lodo",
-      element: "Death",
+      element: "Morte",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5082,7 +4275,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Coletora",
-      element: "Death",
+      element: "Morte",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5091,7 +4284,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Crânio Espiral",
-      element: "Death",
+      element: "Morte",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5100,7 +4293,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Frasco de Lodo",
-      element: "Death",
+      element: "Morte",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5109,7 +4302,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Vislumbre do Fim",
-      element: "Death",
+      element: "Morte",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5118,7 +4311,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Anéis do Elo Mental",
-      element: "Knowledge",
+      element: "Conhecimento",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5127,7 +4320,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Lanterna Reveladora",
-      element: "Knowledge",
+      element: "Conhecimento",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5136,16 +4329,16 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Máscara das Pessoas nas Sombras",
-      element: "Knowledge",
+      element: "Conhecimento",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
       description:
-        "<p>Principal ferramenta e marca registrada da Seita das Máscaras, esse item quando usado por alguém que não pertence à Seita ainda carrega grande poder. O usuário recebe resistência a Conhecimento 10 e pode gastar uma ação de movimento e 2 PE para “entrar” em uma sombra adjacente e se transportar instantaneamente para outra sombra que possa ver em alcance Medium. Vestir a <em>Máscara</em> é como assinar um acordo e pode ter consequências severas se seu portador despertar o interesse da mente única das Máscaras...</p>",
+        "<p>Principal ferramenta e marca registrada da Seita das Máscaras, esse item quando usado por alguém que não pertence à Seita ainda carrega grande poder. O usuário recebe resistência a Conhecimento 10 e pode gastar uma ação de movimento e 2 PE para “entrar” em uma sombra adjacente e se transportar instantaneamente para outra sombra que possa ver em alcance médio. Vestir a <em>Máscara</em> é como assinar um acordo e pode ter consequências severas se seu portador despertar o interesse da mente única das Máscaras...</p>",
     },
     {
       name: "Munição Jurada",
-      element: "Knowledge",
+      element: "Conhecimento",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5154,7 +4347,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Peitoral da Segunda Chance",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5163,7 +4356,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Pergaminho da Pertinácia",
-      element: "Knowledge",
+      element: "Conhecimento",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5172,7 +4365,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Arcabuz dos Moretti",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5181,7 +4374,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Bateria Reversa",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5190,7 +4383,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Relógio de Arnaldo",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5199,7 +4392,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Talismã da Sorte",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5208,7 +4401,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Teclado de Conexão Neural",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5217,7 +4410,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Tela do Pesadelo",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5226,7 +4419,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Veículo Energizado",
-      element: "Energy",
+      element: "Energia",
       itemType: "cursedItem",
       category: "II",
       slots: 1,
@@ -5235,7 +4428,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     },
     {
       name: "Jaqueta de Veríssimo",
-      element: "Fear",
+      element: "Medo",
       itemType: "cursedItem",
       category: "IV",
       slots: 1,
@@ -5261,63 +4454,26 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         "<p><em>Um conjunto de sigilos gravados em um objeto pequeno, como um pergaminho, moeda, pedra preciosa, osso humano...</em> Cada selo contém um ritual. Para ativar um selo, você deve empunhá-lo e ler os sigilos em voz alta. Isso exige uma ação padrão ou a ação necessária para conjurar o ritual, o que for maior. Você também deve conhecer o ritual inscrito nele ou passar em um teste de Ocultismo (DT 20 + custo em PE do ritual).</p><p>Quando o selo é ativado, o ritual é conjurado e o selo se desfaz em cinzas. Você sofre os efeitos das regras “O Custo do Paranormal” e “Invocando o Medo”, caso aplicáveis, e toma quaisquer decisões exigidas pelo ritual, como se o tivesse conjurado você mesmo. Caso conheça o ritual, você pode aplicar quaisquer habilidades que possua que se aplicariam aos seus próprios rituais, e pode usar versões avançadas dele, pagando o custo adicional em pontos de esforço (e apenas o custo adicional). Você não precisa de componentes ritualísticos para ativar um selo, o que o torna um objeto bastante útil para ocultistas em certas situações.</p><p>A categoria de um selo é igual ao círculo do ritual contido nele: categoria I para rituais de 1º círculo, categoria II para rituais de 2º círculo, e assim por diante.</p>",
     },
   ],
-  Al = {
-    class: "class-abilities-container",
-  },
-  ql = {
-    key: 0,
-    class: "search-container",
-  },
-  yl = {
-    key: 1,
-    class: "search-container",
-  },
-  $l = {
-    key: 2,
-    class: "search-container",
-  },
-  El = {
-    key: 3,
-    class: "class-abilities-content",
-  },
-  Il = {
-    key: 0,
-  },
-  kl = {
-    key: 1,
-  },
-  Sl = {
-    key: 2,
-  },
-  _l = {
-    key: 3,
-  },
+  Al = { class: "class-abilities-container" },
+  ql = { key: 0, class: "search-container" },
+  yl = { key: 1, class: "search-container" },
+  $l = { key: 2, class: "search-container" },
+  El = { key: 3, class: "class-abilities-content" },
+  Il = { key: 0 },
+  kl = { key: 1 },
+  Sl = { key: 2 },
+  _l = { key: 3 },
   Pl = D({
     __name: "InventoryModalContent",
     emits: ["handleAddItem", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
         g = [
-          {
-            label: "Weapons",
-            value: 0,
-          },
-          {
-            label: "Ammo",
-            value: 1,
-          },
-          {
-            label: "Armor",
-            value: 2,
-          },
-          {
-            label: "General",
-            value: 3,
-          },
-          {
-            label: "Cursed Items",
-            value: 4,
-          },
+          { label: "Armas", value: 0 },
+          { label: "Munições", value: 1 },
+          { label: "Proteções", value: 2 },
+          { label: "Geral", value: 3 },
+          { label: "Itens Amaldiçoados", value: 4 },
         ],
         l = E(0),
         p = E(""),
@@ -5416,75 +4572,48 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     r.value,
                     (C) => (
                       t(),
-                      s(
-                        "div",
-                        {
-                          key: C.name,
-                          class: "class-abilitie-card",
-                        },
-                        [
-                          C.itemType === "weapon"
-                            ? (t(),
-                              s("div", Il, [
-                                A(
-                                  Po,
-                                  {
-                                    weapon: C,
-                                    onHandleAdd: i,
-                                  },
-                                  null,
-                                  8,
-                                  ["weapon"]
-                                ),
-                              ]))
-                            : q("", !0),
-                          C.itemType === "protection"
-                            ? (t(),
-                              s("div", kl, [
-                                A(
-                                  Mo,
-                                  {
-                                    protection: C,
-                                    onHandleAdd: i,
-                                  },
-                                  null,
-                                  8,
-                                  ["protection"]
-                                ),
-                              ]))
-                            : q("", !0),
-                          C.itemType === "misc" || C.itemType === "ammunition"
-                            ? (t(),
-                              s("div", Sl, [
-                                A(
-                                  Ro,
-                                  {
-                                    misc: C,
-                                    onHandleAdd: i,
-                                  },
-                                  null,
-                                  8,
-                                  ["misc"]
-                                ),
-                              ]))
-                            : q("", !0),
-                          C.itemType === "cursedItem"
-                            ? (t(),
-                              s("div", _l, [
-                                A(
-                                  Do,
-                                  {
-                                    "cursed-item": C,
-                                    onHandleAdd: i,
-                                  },
-                                  null,
-                                  8,
-                                  ["cursed-item"]
-                                ),
-                              ]))
-                            : q("", !0),
-                        ]
-                      )
+                      s("div", { key: C.name, class: "class-abilitie-card" }, [
+                        C.itemType === "weapon"
+                          ? (t(),
+                            s("div", Il, [
+                              A(Po, { weapon: C, onHandleAdd: i }, null, 8, [
+                                "weapon",
+                              ]),
+                            ]))
+                          : q("", !0),
+                        C.itemType === "protection"
+                          ? (t(),
+                            s("div", kl, [
+                              A(
+                                Mo,
+                                { protection: C, onHandleAdd: i },
+                                null,
+                                8,
+                                ["protection"]
+                              ),
+                            ]))
+                          : q("", !0),
+                        C.itemType === "misc" || C.itemType === "ammunition"
+                          ? (t(),
+                            s("div", Sl, [
+                              A(Ro, { misc: C, onHandleAdd: i }, null, 8, [
+                                "misc",
+                              ]),
+                            ]))
+                          : q("", !0),
+                        C.itemType === "cursedItem"
+                          ? (t(),
+                            s("div", _l, [
+                              A(
+                                Do,
+                                { "cursed-item": C, onHandleAdd: i },
+                                null,
+                                8,
+                                ["cursed-item"]
+                              ),
+                            ]))
+                          : q("", !0),
+                      ])
                     )
                   ),
                   128
@@ -5497,47 +4626,24 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Ml = T(Pl, [["__scopeId", "data-v-66867a8f"]]),
   Xo = (a) => (z("data-v-8e793024"), (a = a()), H(), a),
-  Rl = {
-    class: "modal-content modal-width",
-  },
-  Dl = {
-    class: "modal-header",
-  },
+  Rl = { class: "modal-content modal-width" },
+  Dl = { class: "modal-header" },
   Tl = Xo(() => e("h2", null, "Adicionar Itens", -1)),
   Vl = Xo(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   wl = [Vl],
-  Ol = {
-    class: "modal-body modal-height",
-  },
+  Ol = { class: "modal-body modal-height" },
   zl = D({
     __name: "InventoryModal",
-    props: {
-      character: {},
-    },
+    props: { character: {} },
     emits: ["handleAddItem", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
         g = [Ml, As],
         l = [
-          {
-            label: "Items",
-            value: 0,
-          },
-          {
-            label: "My Items",
-            value: 1,
-          },
+          { label: "Itens", value: 0 },
+          { label: "Meus Itens", value: 1 },
         ],
         p = E(0),
         c = (i) => (p.value = i),
@@ -5549,20 +4655,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             Tl,
             e(
               "button",
-              {
-                onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")),
-              },
+              { onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")) },
               wl
             ),
           ]),
           e("div", Ol, [
             A(
               ha,
-              {
-                value: p.value,
-                options: l,
-                onHandleNavigation: c,
-              },
+              { value: p.value, options: l, onHandleNavigation: c },
               null,
               8,
               ["value"]
@@ -5575,10 +4675,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 (t(),
                 L(
                   Me(g[p.value]),
-                  {
-                    character: i.character,
-                    onHandleAddItem: m,
-                  },
+                  { character: i.character, onHandleAddItem: m },
                   null,
                   40,
                   ["character"]
@@ -5596,7 +4693,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Alterar Destino",
       circle: "4",
-      element: "Energy",
+      element: "Energia",
       execution: "reação",
       range: "pessoal",
       target: "você",
@@ -5607,7 +4704,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Alterar Memória",
       circle: "3",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
       range: "toque",
       target: "1 pessoa",
@@ -5722,7 +4819,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       circle: "4",
       element: "Blood",
       execution: "padrão",
-      range: "Short",
+      range: "short",
       target: "1 pessoa",
       duration: "cena",
       save: "Vontade parcial",
@@ -5863,7 +4960,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       duration: "instantânea",
       save: "Vontade anula",
       description:
-        "<p>Você invoca um objeto de qualquer lugar para sua mão. O item deve ter sido previamente preparado com o símbolo do ritual e pode ocupar no máximo 2 espaços. Se o objeto estiver sendo empunhado por outra pessoa, ela pode fazer um teste de Vontade para negar o efeito, mas você saberá onde o objeto está e quem o está carregando (ou sua aparência, caso não conheça a pessoa). Por até 1h depois da convocação, você pode gastar uma ação de movimento para enviar o objeto de volta para o local em que ele estava antes.</p><p><strong>Discente (+4 PE):</strong> muda o alvo para um objeto de até 10 espaços.</p><p><strong>Verdadeiro (+9 PE):</strong> muda o alvo para “1 recipiente Medium (como uma mala ou caixote), com itens que somem até 10 espaços” e a duração para “permanente”. Em vez do normal, você encanta o recipiente para mantê-lo escondido no Outro Lado. Você pode convocar o recipiente para um espaço livre adjacente, ou de volta para o esconderijo paranormal, como uma ação padrão. Para isso, você deve ter em mãos uma miniatura do objeto, que funciona como um utensílio de categoria II. Quando conjura esta versão do ritual, você perde 1 PE permanentemente.</p>",
+        "<p>Você invoca um objeto de qualquer lugar para sua mão. O item deve ter sido previamente preparado com o símbolo do ritual e pode ocupar no máximo 2 espaços. Se o objeto estiver sendo empunhado por outra pessoa, ela pode fazer um teste de Vontade para negar o efeito, mas você saberá onde o objeto está e quem o está carregando (ou sua aparência, caso não conheça a pessoa). Por até 1h depois da convocação, você pode gastar uma ação de movimento para enviar o objeto de volta para o local em que ele estava antes.</p><p><strong>Discente (+4 PE):</strong> muda o alvo para um objeto de até 10 espaços.</p><p><strong>Verdadeiro (+9 PE):</strong> muda o alvo para “1 recipiente Médio (como uma mala ou caixote), com itens que somem até 10 espaços” e a duração para “permanente”. Em vez do normal, você encanta o recipiente para mantê-lo escondido no Outro Lado. Você pode convocar o recipiente para um espaço livre adjacente, ou de volta para o esconderijo paranormal, como uma ação padrão. Para isso, você deve ter em mãos uma miniatura do objeto, que funciona como um utensílio de categoria II. Quando conjura esta versão do ritual, você perde 1 PE permanentemente.</p>",
     },
     {
       name: "Convocar o Algoz",
@@ -5934,7 +5031,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       circle: "2",
       element: "Death",
       execution: "reação",
-      range: "Short",
+      range: "curto",
       target: "1 ser ou objetos somando até 10 espaços",
       duration: "até chegar ao solo ou cena, o que vier primeiro",
       description:
@@ -5981,7 +5078,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       circle: "3",
       element: "Fear",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       area: "1 ser ou objeto, ou esfera com 3m de raio",
       duration: "instantânea",
       description:
@@ -6027,7 +5124,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       circle: "1",
       element: "Energy",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 ser ou objeto",
       duration: "instantânea",
       save: "Fortitude parcial",
@@ -6053,7 +5150,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       circle: "1",
       element: "Knowledge",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 pessoa",
       duration: "cena",
       save: "Vontade anula",
@@ -6074,9 +5171,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Espirais da Perdição",
       circle: "1",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 ser",
       duration: "cena",
       description:
@@ -6085,9 +5182,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Ferver Sangue",
       circle: "3",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 ser",
       duration: "sustentada",
       save: "Fortitude parcial",
@@ -6098,7 +5195,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Fim Inevitável",
       circle: "4",
-      element: "Death",
+      element: "Morte",
       execution: "completa",
       range: "extremo",
       effect: "buraco negro com 1,5m de diâmetro",
@@ -6110,7 +5207,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Flagelo de Sangue",
       circle: "2",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
       range: "toque",
       target: "1 pessoa",
@@ -6123,7 +5220,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Forma Monstruosa",
       circle: "3",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
       range: "pessoal",
       target: "você",
@@ -6134,7 +5231,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Fortalecimento Sensorial",
       circle: "1",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
       range: "pessoal",
       target: "você",
@@ -6145,7 +5242,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Hemofagia",
       circle: "2",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
       range: "toque",
       target: "1 ser",
@@ -6159,7 +5256,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Inexistir",
       circle: "4",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
       range: "toque",
       target: "1 ser",
@@ -6174,9 +5271,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Invadir Mente",
       circle: "2",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
-      range: "Medium ou toque",
+      range: "médio ou toque",
       target: "1 ser ou 2 pessoas voluntárias",
       duration: "instantânea ou 1 dia",
       save: "Vontade parcial ou nenhuma",
@@ -6189,9 +5286,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Invólucro de Carne",
       circle: "4",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       effect: "1 clone seu",
       duration: "cena",
       description:
@@ -6200,7 +5297,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Lâmina do Medo",
       circle: "4",
-      element: "Fear",
+      element: "Medo",
       execution: "padrão",
       range: "toque",
       target: "1 ser",
@@ -6213,7 +5310,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Localização",
       circle: "2",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
       range: "pessoal",
       area: "círculo com 90m de raio",
@@ -6224,9 +5321,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Luz",
       circle: "1",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 objeto",
       duration: "cena",
       save: "Vontade anula",
@@ -6236,7 +5333,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Medo Tangível",
       circle: "4",
-      element: "Fear",
+      element: "Medo",
       execution: "padrão",
       range: "pessoal",
       target: "você",
@@ -6247,7 +5344,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Mergulho Mental",
       circle: "3",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
       range: "toque",
       target: "1 pessoa",
@@ -6259,9 +5356,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Miasma Entrópico",
       circle: "2",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       area: "nuvem com 6m de raio",
       duration: "instantânea",
       save: "Fortitude parcial ",
@@ -6273,9 +5370,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Nuvem de Cinzas",
       circle: "1",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       effect: "nuvem com 6m de raio e 6m de altura",
       duration: "cena",
       description:
@@ -6284,7 +5381,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Ódio Incontrolável",
       circle: "1",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
       range: "toque",
       target: "1 pessoa",
@@ -6295,7 +5392,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Ouvir os Sussurros",
       circle: "1",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "completa",
       range: "pessoal",
       target: "você",
@@ -6306,9 +5403,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Paradoxo",
       circle: "2",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       area: "esfera com 6m de raio",
       duration: "instantânea",
       save: "Fortitude reduz à metade",
@@ -6316,27 +5413,27 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       discenteDice: "4d6",
       verdadeiroDice: "13d6",
       description:
-        "<p>O ritual cria uma poderosa implosão de distorção temporal contraditória, causando 6d6 pontos de dano de Morte em todos os seres na área.</p><p><strong>Discente (+3 PE):</strong> muda a área para “efeito: esfera com tamanho Medium” e a duração para cena. Em vez do normal, cria uma esfera de emanações espirais sibilantes com 1,5m de diâmetro que causa 4d6 pontos de dano de Morte a qualquer ser no mesmo espaço. Você pode gastar uma ação de movimento para fazer a esfera voar 9m em qualquer direção. Um ser só pode sofrer dano da esfera uma vez por rodada.</p><p><strong>Verdadeiro (+7 PE):</strong> muda o dano para 13d6. Seres reduzidos a 0 PV pelo dano do Paradoxo devem fazer um teste de Fortitude. Se falharam, são reduzidas a cinzas (morrem imediatamente). Requer 4º círculo.</p>",
+        "<p>O ritual cria uma poderosa implosão de distorção temporal contraditória, causando 6d6 pontos de dano de Morte em todos os seres na área.</p><p><strong>Discente (+3 PE):</strong> muda a área para “efeito: esfera com tamanho Médio” e a duração para cena. Em vez do normal, cria uma esfera de emanações espirais sibilantes com 1,5m de diâmetro que causa 4d6 pontos de dano de Morte a qualquer ser no mesmo espaço. Você pode gastar uma ação de movimento para fazer a esfera voar 9m em qualquer direção. Um ser só pode sofrer dano da esfera uma vez por rodada.</p><p><strong>Verdadeiro (+7 PE):</strong> muda o dano para 13d6. Seres reduzidos a 0 PV pelo dano do Paradoxo devem fazer um teste de Fortitude. Se falharam, são reduzidas a cinzas (morrem imediatamente). Requer 4º círculo.</p>",
     },
     {
       name: "Perturbação",
       circle: "1",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 pessoa",
       duration: "1 rodada",
       save: "Vontade (anula)",
       discenteDice: "3d8",
       description:
-        "<p>Você dá uma ordem que o alvo deve ser capaz de ouvir (mas não precisa entender). Se falhar na resistência, ele deve obedecer à ordem em seu próprio turno da melhor maneira possível. Escolha um dos efeitos.</p><p><strong>Fuja:</strong> O alvo gasta seu turno tentando se afastar de você (usando todas as suas ações).</p><p><strong>Largue:</strong> O alvo solta quaisquer itens que esteja segurando e não pode pegá-los novamente até o início de seu próximo turno. Como esta é uma ação livre, ele ainda pode executar outras ações (exceto pegar aquilo que largou).</p><p><strong>Pare:</strong> O alvo fica pasmo (não pode realizar ações, só reações).</p><p><strong>Sente-se:</strong> Com uma ação livre, o alvo se senta no chão (se estava pendurado ou voando, desce até o chão). Ele pode fazer outras ações, mas não se levantar até o início de seu próximo turno.</p><p><strong>Venha:</strong> O alvo gasta seu turno se aproximando de você (usando todas as suas ações).</p><p><strong>Discente (+2 PE):</strong> muda o alvo para “1 ser” e adiciona o seguinte comando: “Sofra. O alvo é acometido de dor aguda, sofrendo 3d8 de dano de Conhecimento e ficando abalado por uma rodada”.</p><p><strong>Verdadeiro (+5 PE):</strong> muda o alvo para “até 5 seres” ou adiciona o seguinte comando: “Ataque. O alvo deve fazer a ação agredir contra um outro alvo a sua escolha em alcance Medium, com todas as suas capacidades”. Requer 3º círculo e afinidade.</p>",
+        "<p>Você dá uma ordem que o alvo deve ser capaz de ouvir (mas não precisa entender). Se falhar na resistência, ele deve obedecer à ordem em seu próprio turno da melhor maneira possível. Escolha um dos efeitos.</p><p><strong>Fuja:</strong> O alvo gasta seu turno tentando se afastar de você (usando todas as suas ações).</p><p><strong>Largue:</strong> O alvo solta quaisquer itens que esteja segurando e não pode pegá-los novamente até o início de seu próximo turno. Como esta é uma ação livre, ele ainda pode executar outras ações (exceto pegar aquilo que largou).</p><p><strong>Pare:</strong> O alvo fica pasmo (não pode realizar ações, só reações).</p><p><strong>Sente-se:</strong> Com uma ação livre, o alvo se senta no chão (se estava pendurado ou voando, desce até o chão). Ele pode fazer outras ações, mas não se levantar até o início de seu próximo turno.</p><p><strong>Venha:</strong> O alvo gasta seu turno se aproximando de você (usando todas as suas ações).</p><p><strong>Discente (+2 PE):</strong> muda o alvo para “1 ser” e adiciona o seguinte comando: “Sofra. O alvo é acometido de dor aguda, sofrendo 3d8 de dano de Conhecimento e ficando abalado por uma rodada”.</p><p><strong>Verdadeiro (+5 PE):</strong> muda o alvo para “até 5 seres” ou adiciona o seguinte comando: “Ataque. O alvo deve fazer a ação agredir contra um outro alvo a sua escolha em alcance médio, com todas as suas capacidades”. Requer 3º círculo e afinidade.</p>",
     },
     {
       name: "Poeira da Podridão",
       circle: "3",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       area: "nuvem com 6m de raio",
       duration: "sustentada",
       save: "Fortitude",
@@ -6348,21 +5445,21 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Polarização Caótica",
       circle: "1",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "você",
       duration: "sustentada",
       save: "Vontade anula",
       description:
-        "<p>Você gera uma aura magnética sobrenatural. Escolha um dos efeitos a seguir.</p><p><strong>Atrair:</strong> você pode usar uma ação de movimento para puxar um objeto metálico de espaço 2 ou menor dentro do alcance. Se o objeto estiver livre, voa para suas mãos (caso tenha mãos livres para apanhá-lo) ou para seus pés.</p><p><strong>Repelir:</strong> você repele objetos de espaço 2 ou menor (o que envolve quase todos os projéteis e armas de arremesso), recebendo resistência a balístico, corte, impacto e perfuração 5.</p><p><strong>Discente (+2 PE):</strong> nesta versão a energia magnética é expelida de uma única vez e arremessa até 10 objetos, ou um total de 10 espaços, o que for menor. Os objetos devem estar a até 3m uns dos outros. Objetos arremessados podem atingir seres em seu caminho, causando de 1 ponto de dano de impacto por espaço (objetos macios, sem pontas ou sem fio) até 1d6 pontos de dano por espaço (objetos duros, pontudos ou afiados). Seres atingidos têm direito a um teste de Reflexos para reduzir o dano à metade. Seres dentro da capacidade de carga do efeito podem ser arremessadas, mas têm direito a um teste de Vontade para evitar o efeito (em si mesmos ou em objetos que estejam segurando). Um ser arremessado contra uma superfície sólida sofre 1d6 pontos de dano de impacto para cada 3m que “voou” no deslocamento (incluindo outros seres; nesse caso, ambos sofrem o dano).</p><p><strong>Verdadeiro (+5 PE):</strong> muda o alcance para Medium. Você pode usar uma ação de movimento para fazer com que a força magnética levite e mova um ser ou objeto de espaço 10 ou menor por até 9m em qualquer direção dentro do alcance. Um ser pode anular o efeito sobre ele, ou sobre um objeto que possua, passando num teste de Vontade. O alvo cai no chão se sair do alcance ou o efeito terminar.</p>",
+        "<p>Você gera uma aura magnética sobrenatural. Escolha um dos efeitos a seguir.</p><p><strong>Atrair:</strong> você pode usar uma ação de movimento para puxar um objeto metálico de espaço 2 ou menor dentro do alcance. Se o objeto estiver livre, voa para suas mãos (caso tenha mãos livres para apanhá-lo) ou para seus pés.</p><p><strong>Repelir:</strong> você repele objetos de espaço 2 ou menor (o que envolve quase todos os projéteis e armas de arremesso), recebendo resistência a balístico, corte, impacto e perfuração 5.</p><p><strong>Discente (+2 PE):</strong> nesta versão a energia magnética é expelida de uma única vez e arremessa até 10 objetos, ou um total de 10 espaços, o que for menor. Os objetos devem estar a até 3m uns dos outros. Objetos arremessados podem atingir seres em seu caminho, causando de 1 ponto de dano de impacto por espaço (objetos macios, sem pontas ou sem fio) até 1d6 pontos de dano por espaço (objetos duros, pontudos ou afiados). Seres atingidos têm direito a um teste de Reflexos para reduzir o dano à metade. Seres dentro da capacidade de carga do efeito podem ser arremessadas, mas têm direito a um teste de Vontade para evitar o efeito (em si mesmos ou em objetos que estejam segurando). Um ser arremessado contra uma superfície sólida sofre 1d6 pontos de dano de impacto para cada 3m que “voou” no deslocamento (incluindo outros seres; nesse caso, ambos sofrem o dano).</p><p><strong>Verdadeiro (+5 PE):</strong> muda o alcance para médio. Você pode usar uma ação de movimento para fazer com que a força magnética levite e mova um ser ou objeto de espaço 10 ou menor por até 9m em qualquer direção dentro do alcance. Um ser pode anular o efeito sobre ele, ou sobre um objeto que possua, passando num teste de Vontade. O alvo cai no chão se sair do alcance ou o efeito terminar.</p>",
     },
     {
       name: "Possessão",
       circle: "4",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
-      range: "Long",
+      range: "longo",
       target: "1 pessoa viva ou morta",
       duration: "1 dia",
       save: "Vontade anula",
@@ -6372,7 +5469,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Presença do Medo",
       circle: "4",
-      element: "Fear",
+      element: "Medo",
       execution: "padrão",
       range: "pessoal",
       area: "emanação de 9m de raio",
@@ -6384,7 +5481,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Proteção contra Rituais",
       circle: "2",
-      element: "Fear",
+      element: "Medo",
       execution: "padrão",
       range: "toque",
       target: "1 ser",
@@ -6395,9 +5492,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Purgatório",
       circle: "3",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "área de 6m de raio",
       duration: "sustentada",
       save: "Fortitude parcial ",
@@ -6408,9 +5505,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Rejeitar Névoa",
       circle: "2",
-      element: "Fear",
+      element: "Medo",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       area: "nuvem de 6m de raio",
       duration: "cena",
       description:
@@ -6419,9 +5516,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Salto Fantasma",
       circle: "3",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       target: "você",
       duration: "instantânea",
       description:
@@ -6430,21 +5527,21 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Sopro do Caos",
       circle: "2",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       area: "varia",
       duration: "sustentada",
       save: "veja texto",
       description:
-        "<p>Você altera os movimentos de massas de ar de forma caótica. Ao conjurar o ritual, escolha um dos efeitos abaixo.</p><p><strong>Ascender:</strong> cria uma corrente de ar ascendente capaz de erguer do chão um ser ou objeto Medium, fazendo o alvo flutuar para cima e para baixo conforme sua vontade. Você pode gastar uma ação de movimento para subir ou descer o alvo até 6m por rodada, até um máximo de 30m de altura. Você não pode mover o alvo horizontalmente — mas o alvo pode, por exemplo, escalar uma colina ou se apoiar no teto para mover-se lateralmente (com metade de seu deslocamento normal). Um ser levitando fica vulnerável. Alvos involuntários têm direito a um teste de Fortitude no início de cada um de seus turnos para encerrar o efeito. Derrubar um alvo flutuando (simplesmente parando a corrente de ar) causa o dano normal de queda, mas um alvo que passe no teste pode “nadar” para o chão contra a corrente. Você pode usar essa opção para fazer uma manobra derrubar contra um alvo voador dentro do alcance, usando Ocultismo em vez de Luta.</p><p><strong>Sopro:</strong> cria uma lufada de vento a partir de suas mãos, que empurra qualquer alvo Medium ou menor, em um cone de 4,5m — faça uma manobra empurrar usando Ocultismo em vez de Luta, usando uma mesma rolagem sua para todos os alvos. A lufada de vento também faz qualquer coisa que um vento forte e súbito faria, como levantar pó, dispersar vapores, apagar chamas, espalhar papéis ou mover uma embarcação. Manter o sopro ativo exige uma ação padrão no seu turno.</p><p><strong>Vento:</strong> cria uma área de vento forte dentro do alcance. Se conjurada numa área que já esteja com algum efeito de vento, aumenta esse efeito em um passo. Manter o vento ativo requer uma ação de movimento. Você também pode usar essa opção para reduzir os efeitos de vento em uma área.</p><p><strong>Discente (+3 PE):</strong> passa a afetar alvos Grandes.</p><p><strong>Verdadeiro (+9 PE):</strong> passa a afetar alvos Enormes.</p>",
+        "<p>Você altera os movimentos de massas de ar de forma caótica. Ao conjurar o ritual, escolha um dos efeitos abaixo.</p><p><strong>Ascender:</strong> cria uma corrente de ar ascendente capaz de erguer do chão um ser ou objeto Médio, fazendo o alvo flutuar para cima e para baixo conforme sua vontade. Você pode gastar uma ação de movimento para subir ou descer o alvo até 6m por rodada, até um máximo de 30m de altura. Você não pode mover o alvo horizontalmente — mas o alvo pode, por exemplo, escalar uma colina ou se apoiar no teto para mover-se lateralmente (com metade de seu deslocamento normal). Um ser levitando fica vulnerável. Alvos involuntários têm direito a um teste de Fortitude no início de cada um de seus turnos para encerrar o efeito. Derrubar um alvo flutuando (simplesmente parando a corrente de ar) causa o dano normal de queda, mas um alvo que passe no teste pode “nadar” para o chão contra a corrente. Você pode usar essa opção para fazer uma manobra derrubar contra um alvo voador dentro do alcance, usando Ocultismo em vez de Luta.</p><p><strong>Sopro:</strong> cria uma lufada de vento a partir de suas mãos, que empurra qualquer alvo Médio ou menor, em um cone de 4,5m — faça uma manobra empurrar usando Ocultismo em vez de Luta, usando uma mesma rolagem sua para todos os alvos. A lufada de vento também faz qualquer coisa que um vento forte e súbito faria, como levantar pó, dispersar vapores, apagar chamas, espalhar papéis ou mover uma embarcação. Manter o sopro ativo exige uma ação padrão no seu turno.</p><p><strong>Vento:</strong> cria uma área de vento forte dentro do alcance. Se conjurada numa área que já esteja com algum efeito de vento, aumenta esse efeito em um passo. Manter o vento ativo requer uma ação de movimento. Você também pode usar essa opção para reduzir os efeitos de vento em uma área.</p><p><strong>Discente (+3 PE):</strong> passa a afetar alvos Grandes.</p><p><strong>Verdadeiro (+9 PE):</strong> passa a afetar alvos Enormes.</p>",
     },
     {
       name: "Tecer Ilusão",
       circle: "1",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       effect: "ilusão que se estende a até 4 cubos de 1,5m",
       duration: "cena",
       save: "Vontade desacredita",
@@ -6455,7 +5552,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Tela de Ruído",
       circle: "2",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
       range: "pessoal",
       target: "você",
@@ -6466,7 +5563,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Teletransporte",
       circle: "4",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
       range: "toque",
       target: "até 5 seres voluntários",
@@ -6477,9 +5574,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Tentáculos de Lodo",
       circle: "3",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       area: "círculo com 6m de raio",
       duration: "cena",
       normalDice: "4d6",
@@ -6490,20 +5587,20 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Terceiro Olho",
       circle: "1",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "padrão",
       range: "pessoal",
       target: "você",
       duration: "cena",
       description:
-        "<p>Seus olhos se enchem de sigilos e você passa a enxergar auras paranormais em alcance longo. Rituais, itens amaldiçoados e criaturas emitem auras. Você sabe o elemento da aura e seu poder aproximado — rituais de 1º círculo e criaturas de VD até 80 emitem uma aura fraca; rituais de 2º e 3º círculos e criaturas de VD entre 81 e 280 emitem uma aura moderada, e rituais de 4º círculo e criaturas de VD 281 ou maior emitem uma aura poderosa.</p><p>Além disso, você pode gastar uma ação de movimento para descobrir se um ser que possa ver em alcance Medium tem poderes paranormais ou se é capaz de conjurar rituais e de quais elementos.</p><p><strong>Discente (+2 PE):</strong> muda a duração para 1 dia.</p><p><strong>Verdadeiro (+5 PE):</strong> também pode enxergar objetos e seres invisíveis, que aparecem como formas translúcidas.</p>",
+        "<p>Seus olhos se enchem de sigilos e você passa a enxergar auras paranormais em alcance longo. Rituais, itens amaldiçoados e criaturas emitem auras. Você sabe o elemento da aura e seu poder aproximado — rituais de 1º círculo e criaturas de VD até 80 emitem uma aura fraca; rituais de 2º e 3º círculos e criaturas de VD entre 81 e 280 emitem uma aura moderada, e rituais de 4º círculo e criaturas de VD 281 ou maior emitem uma aura poderosa.</p><p>Além disso, você pode gastar uma ação de movimento para descobrir se um ser que possa ver em alcance médio tem poderes paranormais ou se é capaz de conjurar rituais e de quais elementos.</p><p><strong>Discente (+2 PE):</strong> muda a duração para 1 dia.</p><p><strong>Verdadeiro (+5 PE):</strong> também pode enxergar objetos e seres invisíveis, que aparecem como formas translúcidas.</p>",
     },
     {
       name: "Transfigurar Água",
       circle: "3",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
-      range: "Long",
+      range: "longo",
       area: "esfera com 30m de raio",
       duration: "cena",
       save: "veja texto",
@@ -6515,9 +5612,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Transfigurar Terra",
       circle: "3",
-      element: "Energy",
+      element: "Energia",
       execution: "padrão",
-      range: "Long",
+      range: "longo",
       area: "9 cubos com 1,5m de lado",
       duration: "instantânea",
       save: "veja texto",
@@ -6528,7 +5625,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Transfusão Vital",
       circle: "2",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
       range: "toque",
       target: "1 ser",
@@ -6539,9 +5636,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Velocidade Mortal",
       circle: "2",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 ser",
       duration: "sustentada",
       description:
@@ -6550,7 +5647,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Vidência",
       circle: "3",
-      element: "Knowledge",
+      element: "Conhecimento",
       execution: "completa",
       range: "ilimitado",
       target: "1 ser",
@@ -6562,9 +5659,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Vínculo de Sangue",
       circle: "4",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 ser",
       duration: "cena",
       save: "Fortitude anula",
@@ -6574,9 +5671,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Vomitar Pestes",
       circle: "3",
-      element: "Blood",
+      element: "Sangue",
       execution: "padrão",
-      range: "Medium",
+      range: "médio",
       effect: "1 enxame Grande (quadrado de 3m)",
       duration: "sustentada",
       save: "Reflexos reduz à metade",
@@ -6587,9 +5684,9 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     {
       name: "Zerar Entropia",
       circle: "3",
-      element: "Death",
+      element: "Morte",
       execution: "padrão",
-      range: "Short",
+      range: "curto",
       target: "1 pessoa",
       duration: "cena",
       save: "Vontade parcial",
@@ -6597,83 +5694,31 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         '<p>Você zera completamente a entropia do alvo em relação ao ambiente, deixando-o paralisado. Se passar na resistência, em vez disso fica lento. No início de cada um de seus turnos, o alvo pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, encerra o efeito.</p><p><strong>Discente (+4 PE):</strong> muda o alvo para "1 ser". Requer 4º círculo.</p><p><strong>Verdadeiro (+11 PE):</strong> muda o alvo para "seres escolhidos". Requer 4º círculo.</p>',
     },
   ],
-  jl = {
-    class: "rituals-modal-content",
-  },
-  Ul = {
-    class: "class-rituals-container",
-  },
-  xl = {
-    class: "secondary-tab-container",
-  },
-  Nl = {
-    class: "search-container",
-  },
-  Ll = {
-    key: 0,
-    class: "class-rituals-content",
-  },
+  jl = { class: "rituals-modal-content" },
+  Ul = { class: "class-rituals-container" },
+  xl = { class: "secondary-tab-container" },
+  Nl = { class: "search-container" },
+  Ll = { key: 0, class: "class-rituals-content" },
   Bl = D({
     __name: "RitualsModalContent",
     emits: ["handleAddRitual", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
         g = [
-          {
-            label: "All",
-            value: 0,
-          },
-          {
-            label: "Knowledge",
-            value: 1,
-          },
-          {
-            label: "Energy",
-            value: 2,
-          },
-          {
-            label: "Death",
-            value: 3,
-          },
-          {
-            label: "Blood",
-            value: 4,
-          },
-          {
-            label: "Fear",
-            value: 5,
-          },
-          {
-            label: "Varies",
-            value: 6,
-          },
+          { label: "Todos", value: 0 },
+          { label: "Conhecimento", value: 1 },
+          { label: "Energia", value: 2 },
+          { label: "Morte", value: 3 },
+          { label: "Sangue", value: 4 },
+          { label: "Medo", value: 5 },
+          { label: "Varia", value: 6 },
         ],
         l = [
-          {
-            label: "All",
-            circle: "-",
-            value: 0,
-          },
-          {
-            label: "1º Circle",
-            circle: "1",
-            value: 1,
-          },
-          {
-            label: "2º Circle",
-            circle: "2",
-            value: 2,
-          },
-          {
-            label: "3º Circle",
-            circle: "3",
-            value: 3,
-          },
-          {
-            label: "4º Circle",
-            circle: "4",
-            value: 4,
-          },
+          { label: "Todos", circle: "-", value: 0 },
+          { label: "1º Círculo", circle: "1", value: 1 },
+          { label: "2º Círculo", circle: "2", value: 2 },
+          { label: "3º Círculo", circle: "3", value: 3 },
+          { label: "4º Círculo", circle: "4", value: 4 },
         ],
         p = E(0),
         c = E(0),
@@ -6754,25 +5799,11 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       r.value,
                       (C) => (
                         t(),
-                        s(
-                          "div",
-                          {
-                            key: C.name,
-                            class: "class-rituals-card",
-                          },
-                          [
-                            A(
-                              _o,
-                              {
-                                ritual: C,
-                                onHandleAdd: i,
-                              },
-                              null,
-                              8,
-                              ["ritual"]
-                            ),
-                          ]
-                        )
+                        s("div", { key: C.name, class: "class-rituals-card" }, [
+                          A(_o, { ritual: C, onHandleAdd: i }, null, 8, [
+                            "ritual",
+                          ]),
+                        ])
                       )
                     ),
                     128
@@ -6786,47 +5817,24 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Fl = T(Bl, [["__scopeId", "data-v-46739282"]]),
   Ko = (a) => (z("data-v-13a40b03"), (a = a()), H(), a),
-  Ql = {
-    class: "modal-content modal-width",
-  },
-  Wl = {
-    class: "modal-header",
-  },
-  Gl = Ko(() => e("h2", null, "Add Rituals", -1)),
+  Ql = { class: "modal-content modal-width" },
+  Wl = { class: "modal-header" },
+  Gl = Ko(() => e("h2", null, "Adicionar Rituais", -1)),
   Xl = Ko(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   Kl = [Xl],
-  Jl = {
-    class: "modal-body modal-height",
-  },
+  Jl = { class: "modal-body modal-height" },
   Yl = D({
     __name: "RitualsModal",
-    props: {
-      character: {},
-    },
+    props: { character: {} },
     emits: ["handleAddRitual", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
         g = [Fl, qs],
         l = [
-          {
-            label: "Rituals",
-            value: 0,
-          },
-          {
-            label: "My Rituals",
-            value: 1,
-          },
+          { label: "Rituais", value: 0 },
+          { label: "Meus Rituais", value: 1 },
         ],
         p = E(0),
         c = (i) => (p.value = i),
@@ -6838,20 +5846,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             Gl,
             e(
               "button",
-              {
-                onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")),
-              },
+              { onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")) },
               Kl
             ),
           ]),
           e("div", Jl, [
             A(
               ha,
-              {
-                value: p.value,
-                options: l,
-                onHandleNavigation: c,
-              },
+              { value: p.value, options: l, onHandleNavigation: c },
               null,
               8,
               ["value"]
@@ -6864,10 +5866,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 (t(),
                 L(
                   Me(g[p.value]),
-                  {
-                    character: i.character,
-                    onHandleAddRitual: m,
-                  },
+                  { character: i.character, onHandleAddRitual: m },
                   null,
                   40,
                   ["character"]
@@ -6882,34 +5881,17 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Zl = T(Yl, [["__scopeId", "data-v-13a40b03"]]),
   eu = (a) => (z("data-v-0d3ccc6e"), (a = a()), H(), a),
-  au = {
-    class: "modal-content modal-width",
-  },
-  ou = {
-    class: "modal-header",
-  },
+  au = { class: "modal-content modal-width" },
+  ou = { class: "modal-header" },
   tu = eu(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   su = [tu],
-  nu = {
-    class: "modal-body",
-  },
+  nu = { class: "modal-body" },
   ru = ["innerHTML"],
   du = D({
     __name: "SkillModal",
-    props: {
-      skill: {},
-    },
+    props: { skill: {} },
     emits: ["handleCloseModal"],
     setup(a) {
       return (b, v) => (
@@ -6919,22 +5901,12 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             e("h2", null, O(b.skill.name), 1),
             e(
               "button",
-              {
-                onClick: v[0] || (v[0] = (g) => b.$emit("handleCloseModal")),
-              },
+              { onClick: v[0] || (v[0] = (g) => b.$emit("handleCloseModal")) },
               su
             ),
           ]),
           e("div", nu, [
-            e(
-              "div",
-              {
-                innerHTML: b.skill.description,
-              },
-              null,
-              8,
-              ru
-            ),
+            e("div", { innerHTML: b.skill.description }, null, 8, ru),
           ]),
         ])
       );
@@ -6942,191 +5914,45 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   iu = T(du, [["__scopeId", "data-v-0d3ccc6e"]]),
   ee = (a) => (z("data-v-1356c67e"), (a = a()), H(), a),
-  lu = {
-    class: "form-container",
-  },
-  uu = {
-    class: "input-container",
-  },
-  cu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Name* ",
-      -1
-    )
-  ),
-  mu = {
-    class: "input-row",
-  },
-  pu = {
-    class: "input-container",
-  },
-  vu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Damage* ",
-      -1
-    )
-  ),
-  gu = {
-    class: "input-container",
-  },
-  hu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Critical* ",
-      -1
-    )
-  ),
-  fu = {
-    class: "input-container",
-  },
-  bu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Multiplier* ",
-      -1
-    )
-  ),
-  Cu = {
-    class: "input-row",
-  },
-  Au = {
-    class: "input-container",
-  },
-  qu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Attack Bonus ",
-      -1
-    )
-  ),
-  yu = {
-    class: "input-container",
-  },
-  $u = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Damage Type ",
-      -1
-    )
-  ),
-  Eu = {
-    class: "input-row",
-  },
-  Iu = {
-    class: "input-container",
-  },
-  ku = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Range ",
-      -1
-    )
-  ),
-  Su = {
-    class: "input-container",
-  },
-  _u = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Skill ",
-      -1
-    )
-  ),
-  Pu = {
-    class: "input-container",
-  },
-  Mu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Damage Attribute ",
-      -1
-    )
-  ),
-  Ru = {
-    class: "title-container",
-  },
-  Du = ee(() =>
-    e(
-      "div",
-      {
-        class: "title",
-      },
-      " Extra Damage ",
-      -1
-    )
-  ),
-  Tu = {
-    class: "input-row",
-  },
-  Vu = {
-    class: "input-container",
-  },
-  wu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Damage* ",
-      -1
-    )
-  ),
+  lu = { class: "form-container" },
+  uu = { class: "input-container" },
+  cu = ee(() => e("div", { class: "label" }, " Nome* ", -1)),
+  mu = { class: "input-row" },
+  pu = { class: "input-container" },
+  vu = ee(() => e("div", { class: "label" }, " Dano* ", -1)),
+  gu = { class: "input-container" },
+  hu = ee(() => e("div", { class: "label" }, " Crítico* ", -1)),
+  fu = { class: "input-container" },
+  bu = ee(() => e("div", { class: "label" }, " Multiplicador* ", -1)),
+  Cu = { class: "input-row" },
+  Au = { class: "input-container" },
+  qu = ee(() => e("div", { class: "label" }, " Ataque Bônus ", -1)),
+  yu = { class: "input-container" },
+  $u = ee(() => e("div", { class: "label" }, " Tipo de Dano ", -1)),
+  Eu = { class: "input-row" },
+  Iu = { class: "input-container" },
+  ku = ee(() => e("div", { class: "label" }, " Alcance ", -1)),
+  Su = { class: "input-container" },
+  _u = ee(() => e("div", { class: "label" }, " Perícia ", -1)),
+  Pu = { class: "input-container" },
+  Mu = ee(() => e("div", { class: "label" }, " Atributo Dano ", -1)),
+  Ru = { class: "title-container" },
+  Du = ee(() => e("div", { class: "title" }, " Dano extra ", -1)),
+  Tu = { class: "input-row" },
+  Vu = { class: "input-container" },
+  wu = ee(() => e("div", { class: "label" }, " Dano* ", -1)),
   Ou = ["onUpdate:modelValue"],
-  zu = {
-    class: "input-container",
-  },
-  Hu = ee(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Type* ",
-      -1
-    )
-  ),
-  ju = {
-    class: "button-remove-container",
-  },
+  zu = { class: "input-container" },
+  Hu = ee(() => e("div", { class: "label" }, " Tipo* ", -1)),
+  ju = { class: "button-remove-container" },
   Uu = ["onClick"],
   xu = ee(() =>
     e(
       "div",
-      {
-        class: "label",
-      },
+      { class: "label" },
       [
-        ne(" Notes"),
-        e("span", null, " (use bold to color the text purple)"),
+        ne(" Anotações"),
+        e("span", null, " (utilize negrito para aplicar a cor roxo)"),
       ],
       -1
     )
@@ -7134,65 +5960,49 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   Nu = ee(() =>
     e(
       "span",
-      {
-        class: "ql-formats",
-      },
+      { class: "ql-formats" },
       [
-        e("button", {
-          class: "ql-bold",
-        }),
-        e("button", {
-          class: "ql-italic",
-        }),
-        e("button", {
-          class: "ql-underline",
-        }),
+        e("button", { class: "ql-bold" }),
+        e("button", { class: "ql-italic" }),
+        e("button", { class: "ql-underline" }),
       ],
       -1
     )
   ),
-  Lu = {
-    class: "buttons-container",
-  },
+  Lu = { class: "buttons-container" },
   Bu = ["disabled"],
   Fu = D({
     __name: "AttackForm",
-    props: {
-      attack: {
-        type: Object,
-        default: _e,
-      },
-      addMode: Boolean,
-    },
+    props: { attack: { type: Object, default: _e }, addMode: Boolean },
     emits: ["handleClose", "handleEditAttack"],
     setup(a, { emit: b }) {
       const v = a,
         g = b,
         l = [
-          "Ballistic",
-          "Knowledge",
-          "Slashing",
-          "Electricity",
-          "Energy",
-          "Fire",
-          "Cold",
-          "Bludgeoning",
+          "Balístico",
+          "Conhecimento",
+          "Corte",
+          "Eletricidade",
+          "Energia",
+          "Fogo",
+          "Frio",
+          "Impacto",
           "Mental",
-          "Death",
-          "Piercing",
-          "Blood",
-          "Chemical",
+          "Morte",
+          "Perfuração",
+          "Sangue",
+          "Químico",
         ],
-        p = ["-", "Short", "Medium", "Long", "Extreme", "Unlimited"],
+        p = ["-", "Curto", "Médio", "Longo", "Extremo", "Ilimitado"],
         c = [
-          "Melee",
-          "Marksmanship",
-          "Occultism",
-          "Deception",
-          "Arts",
-          "Technology",
+          "Luta",
+          "Pontaria",
+          "Ocultismo",
+          "Enganação",
+          "Artes",
+          "Tecnologia",
         ],
-        m = ["None", "Agility", "Strength", "Intellect", "Presence", "Vigor"],
+        m = ["Nenhum", "Agilidade", "Força", "Intelecto", "Presença", "Vigor"],
         i = E(je.clone(v.attack)),
         r = Q(
           () =>
@@ -7206,7 +6016,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             i.value.aditionalDamage.push({
               id: Ue(),
               value: "1d6",
-              damageType: "Ballistic",
+              damageType: "Balístico",
             });
         },
         u = (M) => {
@@ -7220,9 +6030,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         _ = () => {
           if (r.value) return;
           Ss(i.value);
-          const M = {
-            attack: i.value,
-          };
+          const M = { attack: i.value };
           g("handleEditAttack", M), (i.value = je.clone(_e));
         };
       return (M, f) => {
@@ -7405,7 +6213,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       class: "button-secondary",
                       onClick: f[9] || (f[9] = (R) => o()),
                     },
-                    " Add "
+                    " Adicionar "
                   ),
                 ]),
                 (t(!0),
@@ -7416,62 +6224,56 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     i.value.aditionalDamage,
                     (R) => (
                       t(),
-                      s(
-                        "div",
-                        {
-                          key: R.id,
-                        },
-                        [
-                          e("div", Tu, [
-                            e("div", Vu, [
-                              wu,
-                              le(
-                                e(
-                                  "input",
-                                  {
-                                    "onUpdate:modelValue": (N) => (R.value = N),
-                                    type: "text",
-                                    class: "input-primary dark",
-                                  },
-                                  null,
-                                  8,
-                                  Ou
-                                ),
-                                [[Ce, R.value]]
-                              ),
-                            ]),
-                            e("div", zu, [
-                              Hu,
-                              A(
-                                $e,
+                      s("div", { key: R.id }, [
+                        e("div", Tu, [
+                          e("div", Vu, [
+                            wu,
+                            le(
+                              e(
+                                "input",
                                 {
-                                  value: R.damageType,
-                                  options: l,
-                                  width: "7.5rem",
-                                  "content-width": "7.5rem",
-                                  "form-input": "",
-                                  onUpdateValue: (N) => (R.damageType = N),
+                                  "onUpdate:modelValue": (N) => (R.value = N),
+                                  type: "text",
+                                  class: "input-primary dark",
                                 },
                                 null,
                                 8,
-                                ["value", "onUpdateValue"]
+                                Ou
                               ),
-                            ]),
-                            e("div", ju, [
-                              e(
-                                "button",
-                                {
-                                  class: "button-secondary",
-                                  onClick: (N) => u(R.id),
-                                },
-                                " Remove ",
-                                8,
-                                Uu
-                              ),
-                            ]),
+                              [[Ce, R.value]]
+                            ),
                           ]),
-                        ]
-                      )
+                          e("div", zu, [
+                            Hu,
+                            A(
+                              $e,
+                              {
+                                value: R.damageType,
+                                options: l,
+                                width: "7.5rem",
+                                "content-width": "7.5rem",
+                                "form-input": "",
+                                onUpdateValue: (N) => (R.damageType = N),
+                              },
+                              null,
+                              8,
+                              ["value", "onUpdateValue"]
+                            ),
+                          ]),
+                          e("div", ju, [
+                            e(
+                              "button",
+                              {
+                                class: "button-secondary",
+                                onClick: (N) => u(R.id),
+                              },
+                              " Remover ",
+                              8,
+                              Uu
+                            ),
+                          ]),
+                        ]),
+                      ])
                     )
                   ),
                   128
@@ -7485,10 +6287,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       f[10] || (f[10] = (R) => (i.value.description = R)),
                     "editor-style": "height: 12rem",
                   },
-                  {
-                    toolbar: Ee(() => [Nu]),
-                    _: 1,
-                  },
+                  { toolbar: Ee(() => [Nu]), _: 1 },
                   8,
                   ["modelValue"]
                 ),
@@ -7496,11 +6295,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               e("div", Lu, [
                 e(
                   "button",
-                  {
-                    class: "button-cancel",
-                    onClick: C,
-                  },
-                  " Cancel "
+                  { class: "button-cancel", onClick: C },
+                  " Cancelar "
                 ),
                 e(
                   "button",
@@ -7509,7 +6305,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                     disabled: r.value,
                     onClick: _,
                   },
-                  O(v.addMode ? "Add" : "Edit"),
+                  O(v.addMode ? "Adicionar" : "Editar"),
                   9,
                   Bu
                 ),
@@ -7523,76 +6319,30 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Jo = T(Fu, [["__scopeId", "data-v-1356c67e"]]),
   Yo = (a) => (z("data-v-6ad99d7a"), (a = a()), H(), a),
-  Qu = {
-    class: "modal-content modal-width",
-  },
-  Wu = {
-    class: "modal-header",
-  },
+  Qu = { class: "modal-content modal-width" },
+  Wu = { class: "modal-header" },
   Gu = Yo(() => e("h2", null, "Editar", -1)),
   Xu = Yo(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   Ku = [Xu],
-  Ju = {
-    class: "modal-body modal-height",
-  },
-  Yu = {
-    key: 0,
-  },
-  Zu = {
-    key: 1,
-  },
-  ec = {
-    key: 2,
-  },
-  ac = {
-    key: 3,
-  },
-  oc = {
-    key: 0,
-  },
-  tc = {
-    key: 1,
-  },
-  sc = {
-    key: 2,
-  },
-  nc = {
-    key: 3,
-  },
+  Ju = { class: "modal-body modal-height" },
+  Yu = { key: 0 },
+  Zu = { key: 1 },
+  ec = { key: 2 },
+  ac = { key: 3 },
+  oc = { key: 0 },
+  tc = { key: 1 },
+  sc = { key: 2 },
+  nc = { key: 3 },
   rc = D({
     __name: "EditModal",
     props: {
-      currentEditOption: {
-        type: Number,
-        required: !0,
-      },
-      editPower: {
-        type: Object,
-        default: Ho,
-      },
-      editRitual: {
-        type: Object,
-        default: jo,
-      },
-      editItem: {
-        type: Object,
-        required: !0,
-      },
-      editAttack: {
-        type: Object,
-        default: _e,
-      },
+      currentEditOption: { type: Number, required: !0 },
+      editPower: { type: Object, default: Ho },
+      editRitual: { type: Object, default: jo },
+      editItem: { type: Object, required: !0 },
+      editAttack: { type: Object, default: _e },
     },
     emits: [
       "handleCloseModal",
@@ -7603,12 +6353,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     ],
     setup(a, { emit: b }) {
       const v = b,
-        g = {
-          power: 0,
-          ritual: 1,
-          item: 2,
-          attack: 3,
-        },
+        g = { power: 0, ritual: 1, item: 2, attack: 3 },
         l = (i) => v("handleEditPowerSheet", i.power),
         p = (i) => v("handleEditRitualSheet", i.ritual),
         c = (i) => v("handleEditItemSheet", i.item),
@@ -7620,9 +6365,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             Gu,
             e(
               "button",
-              {
-                onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")),
-              },
+              { onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")) },
               Ku
             ),
           ]),
@@ -7775,71 +6518,45 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   dc = T(rc, [["__scopeId", "data-v-6ad99d7a"]]),
   Fe = (a) => (z("data-v-6cd98f8c"), (a = a()), H(), a),
-  ic = {
-    key: 0,
-    class: "row",
-  },
+  ic = { key: 0, class: "row" },
   lc = Fe(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Classe para cálculo de atributos ",
-      -1
-    )
+    e("div", { class: "label" }, " Classe para cálculo de atributos ", -1)
   ),
-  uc = {
-    class: "row",
-  },
+  uc = { class: "row" },
   cc = Fe(() =>
     e(
       "div",
-      {
-        class: "label",
-      },
+      { class: "label" },
       [
         ne(" Ficha privada "),
         e(
           "div",
-          {
-            class: "label-obs",
-          },
+          { class: "label-obs" },
           " Apenas você e o mestre da campanha poderão visualizar a ficha. A ficha ainda aparece no Escudo do Mestre para outros jogadores "
         ),
       ],
       -1
     )
   ),
-  mc = {
-    class: "row",
-  },
+  mc = { class: "row" },
   pc = Fe(() =>
     e(
       "div",
-      {
-        class: "label",
-      },
+      { class: "label" },
       " Permitir que o Mestre da campanha edite minha ficha ",
       -1
     )
   ),
-  vc = {
-    class: "row",
-  },
+  vc = { class: "row" },
   gc = Fe(() =>
     e(
       "div",
-      {
-        class: "label",
-      },
+      { class: "label" },
       [
         ne(" Permitir que qualquer pessoa edite minha ficha "),
         e(
           "div",
-          {
-            class: "label-obs",
-          },
+          { class: "label-obs" },
           " Atenção: com essa opção ligada qualquer pessoa pode editar sua ficha. É recomendado deixar essa opção ligada por apenas um curto período de tempo "
         ),
       ],
@@ -7848,12 +6565,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   ),
   hc = D({
     __name: "SheetConfig",
-    props: {
-      character: {
-        type: Object,
-        required: !0,
-      },
-    },
+    props: { character: { type: Object, required: !0 } },
     emits: ["handleChangeStatsClass", "handleChangeEditPermissions"],
     setup(a, { emit: b }) {
       const v = b,
@@ -7941,201 +6653,95 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   fc = T(hc, [["__scopeId", "data-v-6cd98f8c"]]),
   te = (a) => (z("data-v-b60fbd74"), (a = a()), H(), a),
-  bc = {
-    class: "row",
-  },
+  bc = { class: "row" },
   Cc = ["onMouseup"],
-  Ac = te(() =>
-    e(
-      "img",
-      {
-        src: _s,
-      },
-      null,
-      -1
-    )
-  ),
+  Ac = te(() => e("img", { src: _s }, null, -1)),
   qc = te(() =>
     e(
       "div",
-      {
-        class: "link-eg",
-      },
+      { class: "link-eg" },
       " É recomendado colocar uma resoluçaõ de 3400x1200 no OBS. Podendo ser ajustado de acordo com a necessidade. ",
       -1
     )
   ),
-  yc = {
-    class: "row",
-  },
+  yc = { class: "row" },
   $c = te(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Cor do resultado dos dados ",
-      -1
-    )
+    e("div", { class: "label" }, " Cor do resultado dos dados ", -1)
   ),
   Ec = ["value"],
-  Ic = {
-    class: "row",
-  },
+  Ic = { class: "row" },
   kc = te(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Cor da borda do resultado dos dados ",
-      -1
-    )
+    e("div", { class: "label" }, " Cor da borda do resultado dos dados ", -1)
   ),
   Sc = ["value"],
-  _c = {
-    class: "row",
-  },
+  _c = { class: "row" },
   Pc = te(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Imagem de agente machucado ",
-      -1
-    )
+    e("div", { class: "label" }, " Imagem de agente machucado ", -1)
   ),
-  Mc = {
-    key: 0,
-  },
+  Mc = { key: 0 },
   Rc = ["src"],
-  Dc = {
-    key: 1,
-  },
+  Dc = { key: 1 },
   Tc = te(() =>
     e(
       "img",
-      {
-        class: "profile-picture",
-        src: Re,
-        alt: "foto agente em branco",
-      },
+      { class: "profile-picture", src: Re, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
   Vc = [Tc],
-  wc = {
-    class: "row",
-  },
+  wc = { class: "row" },
   Oc = te(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Imagem de agente morrendo ",
-      -1
-    )
+    e("div", { class: "label" }, " Imagem de agente morrendo ", -1)
   ),
-  zc = {
-    key: 0,
-  },
+  zc = { key: 0 },
   Hc = ["src"],
-  jc = {
-    key: 1,
-  },
+  jc = { key: 1 },
   Uc = te(() =>
     e(
       "img",
-      {
-        class: "profile-picture",
-        src: Re,
-        alt: "foto agente em branco",
-      },
+      { class: "profile-picture", src: Re, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
   xc = [Uc],
-  Nc = {
-    class: "row",
-  },
+  Nc = { class: "row" },
   Lc = te(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Imagem de agente perturbado ",
-      -1
-    )
+    e("div", { class: "label" }, " Imagem de agente perturbado ", -1)
   ),
-  Bc = {
-    key: 0,
-  },
+  Bc = { key: 0 },
   Fc = ["src"],
-  Qc = {
-    key: 1,
-  },
+  Qc = { key: 1 },
   Wc = te(() =>
     e(
       "img",
-      {
-        class: "profile-picture",
-        src: Re,
-        alt: "foto agente em branco",
-      },
+      { class: "profile-picture", src: Re, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
   Gc = [Wc],
-  Xc = {
-    class: "row",
-  },
+  Xc = { class: "row" },
   Kc = te(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Imagem de agente enlouquecendo ",
-      -1
-    )
+    e("div", { class: "label" }, " Imagem de agente enlouquecendo ", -1)
   ),
-  Jc = {
-    key: 0,
-  },
+  Jc = { key: 0 },
   Yc = ["src"],
-  Zc = {
-    key: 1,
-  },
+  Zc = { key: 1 },
   em = te(() =>
     e(
       "img",
-      {
-        class: "profile-picture",
-        src: Re,
-        alt: "foto agente em branco",
-      },
+      { class: "profile-picture", src: Re, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
   am = [em],
-  om = {
-    key: 0,
-  },
+  om = { key: 0 },
   tm = D({
     __name: "StreamConfig",
-    props: {
-      character: {
-        type: Object,
-        required: !0,
-      },
-    },
+    props: { character: { type: Object, required: !0 } },
     emits: [
       "handleUpdateAlternativePicture",
       "handleChangeCharResultDiceColor",
@@ -8169,11 +6775,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               e("div", bc, [
                 e(
                   "div",
-                  {
-                    class: "link",
-                    onClick: i,
-                    onMouseup: St(i, ["middle"]),
-                  },
+                  { class: "link", onClick: i, onMouseup: St(i, ["middle"]) },
                   [ne(" Acessar portrait do OBS "), Ac],
                   40,
                   Cc
@@ -8363,45 +6965,19 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   sm = T(tm, [["__scopeId", "data-v-b60fbd74"]]),
   Zo = (a) => (z("data-v-78a9772d"), (a = a()), H(), a),
-  nm = {
-    class: "modal-content modal-width",
-  },
-  rm = {
-    class: "modal-header",
-  },
+  nm = { class: "modal-content modal-width" },
+  rm = { class: "modal-header" },
   dm = Zo(() => e("h2", null, "Configurações", -1)),
   im = Zo(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   lm = [im],
-  um = {
-    class: "modal-body modal-height",
-  },
-  cm = {
-    key: 0,
-    class: "content-container",
-  },
-  mm = {
-    key: 1,
-    class: "content-container",
-  },
+  um = { class: "modal-body modal-height" },
+  cm = { key: 0, class: "content-container" },
+  mm = { key: 1, class: "content-container" },
   pm = D({
     __name: "ConfigModal",
-    props: {
-      character: {
-        type: Object,
-        required: !0,
-      },
-    },
+    props: { character: { type: Object, required: !0 } },
     emits: [
       "handleChangeStatsClass",
       "handleCloseModal",
@@ -8413,14 +6989,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     setup(a, { emit: b }) {
       const v = b,
         g = [
-          {
-            label: "Ficha",
-            value: 0,
-          },
-          {
-            label: "Stream",
-            value: 1,
-          },
+          { label: "Ficha", value: 0 },
+          { label: "Stream", value: 1 },
         ],
         l = E(0),
         p = (i) => {
@@ -8439,9 +7009,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             dm,
             e(
               "button",
-              {
-                onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")),
-              },
+              { onClick: r[0] || (r[0] = (o) => i.$emit("handleCloseModal")) },
               lm
             ),
           ]),
@@ -8503,56 +7071,28 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   vm = T(pm, [["__scopeId", "data-v-78a9772d"]]),
   fa = (a) => (z("data-v-e8d7dd12"), (a = a()), H(), a),
-  gm = {
-    class: "modal-content modal-width",
-  },
-  hm = {
-    class: "modal-header",
-  },
+  gm = { class: "modal-content modal-width" },
+  hm = { class: "modal-header" },
   fm = fa(() => e("h2", null, "Escolher nova classe", -1)),
   bm = fa(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   Cm = [bm],
-  Am = {
-    class: "modal-body modal-height",
-  },
-  qm = {
-    class: "content-container",
-  },
+  Am = { class: "modal-body modal-height" },
+  qm = { class: "content-container" },
   ym = fa(() =>
     e(
       "div",
-      {
-        class: "add-class-description",
-      },
+      { class: "add-class-description" },
       " Para aumentar seu NEX, escolha uma nova classe ",
       -1
     )
   ),
-  $m = {
-    class: "classes-container",
-  },
-  Em = {
-    class: "classes-flex",
-  },
+  $m = { class: "classes-container" },
+  Em = { class: "classes-flex" },
   Im = D({
     __name: "AddClassModal",
-    props: {
-      character: {
-        type: Object,
-        required: !0,
-      },
-    },
+    props: { character: { type: Object, required: !0 } },
     emits: ["handleCloseModal", "handleAddClass"],
     setup(a, { emit: b }) {
       const v = b,
@@ -8564,9 +7104,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             fm,
             e(
               "button",
-              {
-                onClick: p[0] || (p[0] = (c) => l.$emit("handleCloseModal")),
-              },
+              { onClick: p[0] || (p[0] = (c) => l.$emit("handleCloseModal")) },
               Cm
             ),
           ]),
@@ -8583,24 +7121,15 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       Y(He),
                       (c) => (
                         t(),
-                        s(
-                          "div",
-                          {
-                            key: c.name,
-                          },
-                          [
-                            A(
-                              bs,
-                              {
-                                "char-class": c,
-                                onHandleAddClass: g,
-                              },
-                              null,
-                              8,
-                              ["char-class"]
-                            ),
-                          ]
-                        )
+                        s("div", { key: c.name }, [
+                          A(
+                            bs,
+                            { "char-class": c, onHandleAddClass: g },
+                            null,
+                            8,
+                            ["char-class"]
+                          ),
+                        ])
                       )
                     ),
                     128
@@ -8615,60 +7144,24 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   km = T(Im, [["__scopeId", "data-v-e8d7dd12"]]),
   Sm = (a) => (z("data-v-be964fd1"), (a = a()), H(), a),
-  _m = {
-    class: "modal-content modal-width",
-  },
-  Pm = {
-    class: "modal-header",
-  },
+  _m = { class: "modal-content modal-width" },
+  Pm = { class: "modal-header" },
   Mm = Sm(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   Rm = [Mm],
-  Dm = {
-    class: "modal-body modal-height",
-  },
-  Tm = {
-    key: 0,
-  },
-  Vm = {
-    key: 1,
-  },
-  wm = {
-    key: 2,
-  },
-  Om = {
-    key: 3,
-  },
-  zm = {
-    key: 4,
-  },
-  Hm = {
-    key: 5,
-  },
-  jm = {
-    key: 6,
-  },
-  Um = {
-    key: 7,
-  },
+  Dm = { class: "modal-body modal-height" },
+  Tm = { key: 0 },
+  Vm = { key: 1 },
+  wm = { key: 2 },
+  Om = { key: 3 },
+  zm = { key: 4 },
+  Hm = { key: 5 },
+  jm = { key: 6 },
+  Um = { key: 7 },
   xm = D({
     __name: "AddModal",
-    props: {
-      currentAddOption: {
-        type: Number,
-        required: !0,
-      },
-    },
+    props: { currentAddOption: { type: Number, required: !0 } },
     emits: [
       "handleCloseModal",
       "handleAddAttack",
@@ -8689,14 +7182,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
           cursedItem: 7,
         },
         l = [
-          "New Attack",
-          "New Ability",
-          "New Ritual",
-          "New Weapon",
-          "New Ammo",
-          "New Armor",
-          "New Item",
-          "New Cursed Item",
+          "Novo Ataque",
+          "Nova Habilidade",
+          "Novo Ritual",
+          "Nova Arma",
+          "Nova Munição",
+          "Nova Proteção",
+          "Novo Item",
+          "Novo Item Amaldiçoado",
         ],
         p = (r) => v("handleAddAttack", r.attack),
         c = (r) => v("handleAddPower", r.power),
@@ -8709,9 +7202,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             e("h2", null, O(l[a.currentAddOption]), 1),
             e(
               "button",
-              {
-                onClick: o[0] || (o[0] = (u) => r.$emit("handleCloseModal")),
-              },
+              { onClick: o[0] || (o[0] = (u) => r.$emit("handleCloseModal")) },
               Rm
             ),
           ]),
@@ -8881,44 +7372,19 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Nm = T(xm, [["__scopeId", "data-v-be964fd1"]]),
   ba = (a) => (z("data-v-15adeee7"), (a = a()), H(), a),
-  Lm = {
-    class: "modal-content modal-width",
-  },
-  Bm = {
-    class: "modal-header",
-  },
+  Lm = { class: "modal-content modal-width" },
+  Bm = { class: "modal-header" },
   Fm = ba(() => e("h2", null, "Compartilhar", -1)),
   Qm = ba(() =>
-    e(
-      "img",
-      {
-        class: "close-icon",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   Wm = [Qm],
   Gm = ba(() =>
-    e(
-      "div",
-      {
-        class: "label",
-      },
-      " Link para compartilhar agente ",
-      -1
-    )
+    e("div", { class: "label" }, " Link para compartilhar agente ", -1)
   ),
   Xm = D({
     __name: "ShareModal",
-    props: {
-      character: {
-        type: Object,
-        required: !0,
-      },
-    },
+    props: { character: { type: Object, required: !0 } },
     emits: ["handleCloseModal"],
     setup(a) {
       const v = "https://crisordemparanormal.com/agente/" + a.character.id;
@@ -8929,36 +7395,16 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             Fm,
             e(
               "button",
-              {
-                onClick: l[0] || (l[0] = (p) => g.$emit("handleCloseModal")),
-              },
+              { onClick: l[0] || (l[0] = (p) => g.$emit("handleCloseModal")) },
               Wm
             ),
           ]),
-          e(
-            "div",
-            {
-              class: "modal-body modal-height",
-            },
-            [
-              e(
-                "div",
-                {
-                  class: "share-container",
-                },
-                [
-                  Gm,
-                  e(
-                    "div",
-                    {
-                      class: "value",
-                    },
-                    O(v)
-                  ),
-                ]
-              ),
-            ]
-          ),
+          e("div", { class: "modal-body modal-height" }, [
+            e("div", { class: "share-container" }, [
+              Gm,
+              e("div", { class: "value" }, O(v)),
+            ]),
+          ]),
         ])
       );
     },
@@ -8969,100 +7415,27 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   et =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAABIUlEQVQ4y8XTvS6DARTG8YOEpWNJ8HbFgM0g4ipsBjfRxAV0MnakW5OquIKmw8vUiIWkl9DkrcnuY/gZ0E+kDYlnPDn/5JznPCfiH6ToU8XJgFoPqE0G3GLXPm6/b5qRajqwqOwVect4VbboQFNqZhg40tez84gIl14GqkeD7TkZKtpIrfXqG65x5wyZXB8ooWs+wrZZibqurrrEnM0ICx5Q6gOHntCyEiHx2BvjURJhRQtPDgeH2tFBNUIdDYlEA/UIVXTsjPp0jJMIGQoREQrIIpzgeNzY6YApR/pY+sbqhEsP2Lo1Yuus7QjzusO2vh/u1D2urPfqa1K0VUYONxKNFxcREc49fxONL8K3JP9j+MbivWf3x3j/7oGmfdE/1huxmbTYvNt7qgAAAABJRU5ErkJggg==",
   Te = (a) => (z("data-v-4cd2147d"), (a = a()), H(), a),
-  Ym = {
-    class: "sheet-tools-container",
-  },
-  Zm = {
-    key: 0,
-  },
-  ep = {
-    key: 0,
-  },
-  ap = {
-    key: 0,
-    class: "added-info",
-  },
-  op = {
-    key: 1,
-  },
-  tp = Te(() =>
-    e(
-      "img",
-      {
-        src: Jm,
-        alt: "adicionar",
-      },
-      null,
-      -1
-    )
-  ),
+  Ym = { class: "sheet-tools-container" },
+  Zm = { key: 0 },
+  ep = { key: 0 },
+  ap = { key: 0, class: "added-info" },
+  op = { key: 1 },
+  tp = Te(() => e("img", { src: Jm, alt: "adicionar" }, null, -1)),
   sp = [tp],
-  np = {
-    key: 1,
-    class: "sheet-tools-mobile-container",
-  },
-  rp = {
-    key: 0,
-    class: "sheet-tools-buttons-container",
-  },
-  dp = Te(() =>
-    e(
-      "img",
-      {
-        src: Uo,
-        alt: "compartilhar",
-      },
-      null,
-      -1
-    )
-  ),
+  np = { key: 1, class: "sheet-tools-mobile-container" },
+  rp = { key: 0, class: "sheet-tools-buttons-container" },
+  dp = Te(() => e("img", { src: Uo, alt: "compartilhar" }, null, -1)),
   ip = [dp],
-  lp = Te(() =>
-    e(
-      "img",
-      {
-        src: et,
-        alt: "configurações",
-      },
-      null,
-      -1
-    )
-  ),
+  lp = Te(() => e("img", { src: et, alt: "configurações" }, null, -1)),
   up = [lp],
-  cp = {
-    key: 1,
-    class: "share-mobile-container",
-  },
-  mp = Te(() =>
-    e(
-      "img",
-      {
-        src: Uo,
-        alt: "compartilhar",
-      },
-      null,
-      -1
-    )
-  ),
+  cp = { key: 1, class: "share-mobile-container" },
+  mp = Te(() => e("img", { src: Uo, alt: "compartilhar" }, null, -1)),
   pp = [mp],
-  vp = Te(() =>
-    e(
-      "img",
-      {
-        src: et,
-        alt: "configurações",
-      },
-      null,
-      -1
-    )
-  ),
+  vp = Te(() => e("img", { src: et, alt: "configurações" }, null, -1)),
   gp = [vp],
   hp = D({
     __name: "SheetTools",
-    props: {
-      disabledSheet: Boolean,
-      charAdded: Boolean,
-    },
+    props: { disabledSheet: Boolean, charAdded: Boolean },
     emits: [
       "handleShareSheet",
       "handleAddAgent",
@@ -9118,10 +7491,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                       s("div", rp, [
                         e(
                           "button",
-                          {
-                            class: "button-naked share-button",
-                            onClick: p,
-                          },
+                          { class: "button-naked share-button", onClick: p },
                           ip
                         ),
                         e(
@@ -9166,57 +7536,30 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   $o = T(hp, [["__scopeId", "data-v-4cd2147d"]]),
   Qe = (a) => (z("data-v-552e0b49"), (a = a()), H(), a),
-  fp = {
-    class: "sheet-header-container",
-  },
-  bp = {
-    class: "profile-picture-container",
-  },
+  fp = { class: "sheet-header-container" },
+  bp = { class: "profile-picture-container" },
   Cp = ["disabled"],
-  Ap = {
-    key: 0,
-  },
+  Ap = { key: 0 },
   qp = ["src"],
-  yp = {
-    key: 1,
-  },
-  $p = {
-    class: "header-info-container",
-  },
-  Ep = {
-    class: "header-info-row",
-  },
-  Ip = {
-    class: "info-line",
-  },
-  kp = Qe(() => e("h3", null, "CHARACTER", -1)),
+  yp = { key: 1 },
+  $p = { class: "header-info-container" },
+  Ep = { class: "header-info-row" },
+  Ip = { class: "info-line" },
+  kp = Qe(() => e("h3", null, "PERSONAGEM", -1)),
   Sp = ["disabled", "value"],
-  _p = {
-    class: "info-line",
-  },
-  Pp = Qe(() => e("h3", null, "PLAYER", -1)),
+  _p = { class: "info-line" },
+  Pp = Qe(() => e("h3", null, "JOGADOR", -1)),
   Mp = ["disabled", "value"],
-  Rp = {
-    class: "header-info-row",
-  },
-  Dp = {
-    class: "info-line",
-  },
-  Tp = Qe(() => e("h3", null, "BACKGROUND", -1)),
+  Rp = { class: "header-info-row" },
+  Dp = { class: "info-line" },
+  Tp = Qe(() => e("h3", null, "ORIGEM", -1)),
   Vp = ["disabled", "value"],
-  wp = {
-    class: "info-line",
-  },
-  Op = Qe(() => e("h3", null, "CLASS", -1)),
+  wp = { class: "info-line" },
+  Op = Qe(() => e("h3", null, "CLASSE", -1)),
   zp = ["disabled", "value"],
   Hp = D({
     __name: "SheetHeader",
-    props: {
-      character: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { character: {}, disabledSheet: { type: Boolean } },
     emits: ["handleChangeCharHeaderText", "handleOpenChangePictureModal"],
     setup(a) {
       return (b, v) => (
@@ -9241,9 +7584,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                         {
                           class: Z([
                             "profile-picture",
-                            {
-                              "disabled-picture": b.disabledSheet,
-                            },
+                            { "disabled-picture": b.disabledSheet },
                           ]),
                           src: b.character.sheetPictureURL,
                           alt: "foto agente",
@@ -9260,9 +7601,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                         {
                           class: Z([
                             "profile-picture",
-                            {
-                              "disabled-picture": b.disabledSheet,
-                            },
+                            { "disabled-picture": b.disabledSheet },
                           ]),
                           src: Re,
                           alt: "foto agente em branco",
@@ -9382,43 +7721,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   at =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAYElEQVQ4y9WTwQmAQAwEtzvtwHIsVfDKUDM+T0FJIqfgvmfIPjbSJ6Gj4KXQV2EikrkKK7gtODBsD4W7Lu2EX1ey6wvthXSllMDAEh+fgYuf5m0AjPEHyuFSEpeS+MvZAZYijOCBAmQvAAAAAElFTkSuQmCC",
   ot = (a) => (z("data-v-0ff44915"), (a = a()), H(), a),
-  jp = {
-    class: "campaign-log-container",
-  },
-  Up = ot(() =>
-    e(
-      "img",
-      {
-        src: at,
-        alt: "log",
-      },
-      null,
-      -1
-    )
-  ),
+  jp = { class: "campaign-log-container" },
+  Up = ot(() => e("img", { src: at, alt: "log" }, null, -1)),
   xp = [Up],
-  Np = ot(() =>
-    e(
-      "div",
-      {
-        class: "campaign-label",
-      },
-      " Campaign: ",
-      -1
-    )
-  ),
-  Lp = {
-    class: "campaign-title",
-  },
+  Np = ot(() => e("div", { class: "campaign-label" }, " Campaign: ", -1)),
+  Lp = { class: "campaign-title" },
   Bp = D({
     __name: "SheetCampaign",
-    props: {
-      campaign: {},
-      campaignLog: {},
-      disabledSheet: {
-        type: Boolean,
-      },
-    },
+    props: { campaign: {}, campaignLog: {}, disabledSheet: { type: Boolean } },
     emits: ["handleOpenCampaignLog"],
     setup(a) {
       const b = a,
@@ -9455,9 +7765,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               {
                 class: Z([
                   "campaign-nav-link",
-                  {
-                    "campaign-nav-link-disabled": c.disabledSheet,
-                  },
+                  { "campaign-nav-link-disabled": c.disabledSheet },
                 ]),
                 onClick: p,
               },
@@ -9477,34 +7785,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAHUlEQVQ4y2NgGEbgPxTgYw92DaOhNBpKQyeUaAYAFbUe8L2r+g4AAAAASUVORK5CYII=",
   tt = (a) => (z("data-v-b0056160"), (a = a()), H(), a),
   Qp = tt(() =>
-    e(
-      "img",
-      {
-        class: "apps-img",
-        src: Fp,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "apps-img", src: Fp, alt: "fechar" }, null, -1)
   ),
   Wp = [Qp],
   Gp = tt(() =>
-    e(
-      "img",
-      {
-        class: "apps-img",
-        src: oe,
-        alt: "fechar",
-      },
-      null,
-      -1
-    )
+    e("img", { class: "apps-img", src: oe, alt: "fechar" }, null, -1)
   ),
   Xp = [Gp],
-  Kp = {
-    class: "apps-options",
-  },
+  Kp = { class: "apps-options" },
   Jp = ["onClick"],
   Yp = D({
     __name: "SheetMobileNav",
@@ -9512,14 +7800,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     setup(a) {
       const b = E(!1),
         v = [
-          "INFORMATIONS",
-          "DESCRIPTION",
-          "ATTRIBUTES",
-          "SKILLS",
-          "COMBAT",
-          "INVENTORY",
-          "ABILITIES",
-          "RITUALS",
+          "INFORMAÇÕES",
+          "DESCRIÇÃO",
+          "ATRIBUTOS",
+          "PERÍCIAS",
+          "COMBATE",
+          "INVENTÁRIO",
+          "HABILIDADES",
+          "RITUAIS",
         ];
       return (g, l) => (
         t(),
@@ -9564,24 +7852,18 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                         x,
                         null,
                         W(v, (p, c) =>
-                          e(
-                            "div",
-                            {
-                              key: c,
-                            },
-                            [
-                              e(
-                                "button",
-                                {
-                                  class: "nav-option-button",
-                                  onClick: (m) => g.$emit("handleMobileNav", c),
-                                },
-                                O(p),
-                                9,
-                                Jp
-                              ),
-                            ]
-                          )
+                          e("div", { key: c }, [
+                            e(
+                              "button",
+                              {
+                                class: "nav-option-button",
+                                onClick: (m) => g.$emit("handleMobileNav", c),
+                              },
+                              O(p),
+                              9,
+                              Jp
+                            ),
+                          ])
                         ),
                         64
                       )),
@@ -9597,37 +7879,13 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   Zp = T(Yp, [["__scopeId", "data-v-b0056160"]]),
   st = (a) => (z("data-v-f968449f"), (a = a()), H(), a),
-  ev = st(() =>
-    e(
-      "img",
-      {
-        src: at,
-        alt: "log",
-      },
-      null,
-      -1
-    )
-  ),
+  ev = st(() => e("img", { src: at, alt: "log" }, null, -1)),
   av = [ev],
-  ov = st(() =>
-    e(
-      "img",
-      {
-        src: oe,
-        alt: "close-log",
-      },
-      null,
-      -1
-    )
-  ),
+  ov = st(() => e("img", { src: oe, alt: "close-log" }, null, -1)),
   tv = [ov],
   sv = D({
     __name: "SheetLogButtonMobile",
-    props: {
-      campaignLogOpen: {
-        type: Boolean,
-      },
-    },
+    props: { campaignLogOpen: { type: Boolean } },
     emits: ["handleOpenCampaignLog"],
     setup(a) {
       return (b, v) =>
@@ -9658,79 +7916,28 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   }),
   nv = T(sv, [["__scopeId", "data-v-f968449f"]]),
   rv = (a) => (z("data-v-51d27b7c"), (a = a()), H(), a),
-  dv = {
-    key: 0,
-  },
-  iv = {
-    key: 0,
-    class: "private-sheet",
-  },
+  dv = { key: 0 },
+  iv = { key: 0, class: "private-sheet" },
   lv = rv(() => e("h1", null, "Ficha privada", -1)),
-  uv = {
-    key: 1,
-  },
-  cv = {
-    key: 0,
-  },
-  mv = {
-    class: "sheet-wrapper",
-  },
-  pv = {
-    class: "sheet-header",
-  },
-  vv = {
-    class: "character-sheet",
-  },
-  gv = {
-    class: "sheet-stats",
-  },
-  hv = {
-    class: "sheet-skills",
-  },
-  fv = {
-    class: "sheet-tab",
-  },
-  bv = {
-    key: 1,
-  },
-  Cv = {
-    key: 0,
-    class: "mobile-container",
-  },
-  Av = {
-    key: 1,
-    class: "mobile-container",
-  },
-  qv = {
-    key: 2,
-    class: "mobile-container",
-  },
-  yv = {
-    key: 3,
-    class: "mobile-container",
-  },
-  $v = {
-    key: 4,
-    class: "mobile-container",
-  },
-  Ev = {
-    key: 5,
-    class: "mobile-container",
-  },
-  Iv = {
-    key: 6,
-    class: "mobile-container",
-  },
-  kv = {
-    key: 7,
-    class: "mobile-container",
-  },
-  Sv = {
-    key: 2,
-  },
-  _v = {
-    key: 1,
-  },
+  uv = { key: 1 },
+  cv = { key: 0 },
+  mv = { class: "sheet-wrapper" },
+  pv = { class: "sheet-header" },
+  vv = { class: "character-sheet" },
+  gv = { class: "sheet-stats" },
+  hv = { class: "sheet-skills" },
+  fv = { class: "sheet-tab" },
+  bv = { key: 1 },
+  Cv = { key: 0, class: "mobile-container" },
+  Av = { key: 1, class: "mobile-container" },
+  qv = { key: 2, class: "mobile-container" },
+  yv = { key: 3, class: "mobile-container" },
+  $v = { key: 4, class: "mobile-container" },
+  Ev = { key: 5, class: "mobile-container" },
+  Iv = { key: 6, class: "mobile-container" },
+  kv = { key: 7, class: "mobile-container" },
+  Sv = { key: 2 },
+  _v = { key: 1 },
   Pv = D({
     __name: "CharacterSheet",
     setup(a) {
@@ -9748,12 +7955,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
           addClass: 8,
           addModal: 9,
         },
-        l = {
-          power: 0,
-          ritual: 1,
-          item: 2,
-          attack: 3,
-        },
+        l = { power: 0, ritual: 1, item: 2, attack: 3 },
         p = {
           attack: 0,
           power: 1,
@@ -9788,19 +7990,8 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         se = E(0),
         We = E(),
         qe = E(),
-        j = E({
-          message: "",
-          type: "",
-          alive: !1,
-          timeout: 0,
-        }),
-        fe = E({
-          title: "",
-          total: 0,
-          output: "",
-          notation: "",
-          alive: !1,
-        }),
+        j = E({ message: "", type: "", alive: !1, timeout: 0 }),
+        fe = E({ title: "", total: 0, output: "", notation: "", alive: !1 }),
         Ve = E({
           title: "",
           totalAttack: 0,
@@ -9824,10 +8015,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
           J.value = window.innerWidth;
         });
         const d = await Ze(ie(m, "characters", u));
-        d.data() ||
-          o.push({
-            name: "not-found",
-          }),
+        d.data() || o.push({ name: "not-found" }),
           c.currentUser &&
             (k.value = await Ms((S = c.currentUser) == null ? void 0 : S.uid)),
           (n.value = d.data()),
@@ -9838,12 +8026,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             ((n.value.campaignDocId = ""), (h = !0)),
           !n.value.currentItemsLimit)
         ) {
-          const V = {
-            I: 0,
-            II: 0,
-            III: 0,
-            IV: 0,
-          };
+          const V = { I: 0, II: 0, III: 0, IV: 0 };
           (n.value.currentItemsLimit = V), (h = !0);
         }
         if (
@@ -9908,10 +8091,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         }
         We.value = aa(ie(m, "characters", u), (V) => {
           var U, re, de, ye;
-          V.data() ||
-            o.push({
-              name: "not-found",
-            }),
+          V.data() || o.push({ name: "not-found" }),
             (n.value = V.data()),
             (n.value.id = V == null ? void 0 : V.id),
             n.value.canAnyoneEdit ? ($.value = !1) : ($.value = !0),
@@ -10147,7 +8327,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         Xa = (d) => {
           ds(n.value, d.value, d.key), P();
         },
-        Je = (d, h = "Result", S = !1) => {
+        Je = (d, h = "Resultado", S = !1) => {
           try {
             const V = h,
               U = is(d),
@@ -10438,12 +8618,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
             t(),
             s("div", null, [
               _.value
-                ? (t(),
-                  s("div", _v, [
-                    A(Ps, {
-                      "page-loading": "",
-                    }),
-                  ]))
+                ? (t(), s("div", _v, [A(Ps, { "page-loading": "" })]))
                 : (t(),
                   s("div", dv, [
                     w.value
@@ -10898,20 +9073,14 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                             : q("", !0),
                           A(
                             oa,
-                            {
-                              name: "toast",
-                            },
+                            { name: "toast" },
                             {
                               default: Ee(() => [
                                 j.value.alive
                                   ? (t(),
                                     L(
                                       xt,
-                                      {
-                                        key: 0,
-                                        toast: j.value,
-                                        onDismiss: we,
-                                      },
+                                      { key: 0, toast: j.value, onDismiss: we },
                                       null,
                                       8,
                                       ["toast"]
@@ -10923,9 +9092,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           ),
                           A(
                             oa,
-                            {
-                              name: "toast",
-                            },
+                            { name: "toast" },
                             {
                               default: Ee(() => [
                                 fe.value.alive
@@ -10948,9 +9115,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                           ),
                           A(
                             oa,
-                            {
-                              name: "toast",
-                            },
+                            { name: "toast" },
                             {
                               default: Ee(() => [
                                 Ve.value.alive
