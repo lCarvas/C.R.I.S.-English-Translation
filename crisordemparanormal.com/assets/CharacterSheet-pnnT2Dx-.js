@@ -2756,7 +2756,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         i = E(""),
         r = (u) => g("handleAddPower", u);
       Ae(() => {
-        c.value.push({ label: `Poderes de ${v.classValue.name}`, value: 0 }),
+        c.value.push({ label: `${v.classValue.name} Powers`, value: 0 }),
           v.classValue.paths.forEach((u, C) => {
             c.value.push({ label: u.name, value: C + 1 }), p.value.push(u);
           });
@@ -5995,7 +5995,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         ],
         p = ["-", "Short", "Medium", "Long", "Extreme", "Unlimited"],
         c = [
-          "Melee",
+          "Fighting",
           "Marksmanship",
           "Occultism",
           "Deception",

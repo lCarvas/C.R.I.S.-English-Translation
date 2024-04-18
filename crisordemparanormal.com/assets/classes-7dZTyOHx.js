@@ -39,7 +39,7 @@ const e = "/assets/attributes-V37qZCrP.png",
       trainedSkills: {
         skills: [],
         optionSkils: [
-          ["Melee", "Marksmanship"],
+          ["Fighting", "Marksmanship"],
           ["Fortitude", "Reflexes"],
         ],
         quantity: 1,
@@ -332,7 +332,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Connoisseur",
           description:
-            "Choose two trained skills (except Melee and Marksmanship). When you do a skill check of the chosen skills, you can spend 2 EP to add +1d6 to the roll. As your EXP increases, you can spend +1EP to increase the bonus dice. For example, at EXP 55%, you can spend 4 EP to receive +1d10 on the roll.",
+            "Choose two trained skills (except Fighting and Marksmanship). When you do a skill check of the chosen skills, you can spend 2 EP to add +1d6 to the roll. As your EXP increases, you can spend +1EP to increase the bonus dice. For example, at EXP 55%, you can spend 4 EP to receive +1d10 on the roll.",
         },
       ],
       powers: [
@@ -352,7 +352,7 @@ const e = "/assets/attributes-V37qZCrP.png",
             "<p>Quando faz um teste de perícia (exceto Luta e Pontaria), você pode gastar 2 PE para mudar o atributo-base da perícia para Int. <em>Pré-requisito:</em> Int 2.</p>",
         },
         {
-          name: "Engenhosidade",
+          name: "Ingenuity",
           description:
             "Em NEX 40%, quando usa sua habilidade Eclético, você pode gastar 2 PE adicionais para receber os benefícios de ser veterano na perícia. Em NEX 75%, pode gastar 4 PE adicionais para receber os benefícios de ser expert na perícia.",
         },

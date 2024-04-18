@@ -190,7 +190,7 @@ const Xa = [
       name: "Fighter",
       description:
         "<p>Você pratica uma arte marcial ou esporte de luta, ou cresceu em um bairro perigoso onde aprendeu briga de rua. Já quebrou muitos ossos, tanto seus quanto dos outros. Pode ter conhecido a Ordem após um torneio secreto envolvendo entidades do Outro Lado ou ter sido recrutado pela sua capacidade de luta.</p>",
-      skills: ["Melee", "Reflexes"],
+      skills: ["Fighting", "Reflexes"],
       power: {
         name: "Mão Pesada",
         description:

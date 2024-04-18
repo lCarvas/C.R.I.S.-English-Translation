@@ -1266,13 +1266,13 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                         ce("div", t1, [
                           ce("div", n1, [
                             ce("h3", null, [
-                              Jr("Ataque Bônus: "),
+                              Jr("Ataque Bonus: "),
                               ce("span", null, ir(e.attack.attackBonus), 1),
                             ]),
                           ]),
                           ce("div", a1, [
                             ce("h3", null, [
-                              Jr("Tipo de Dano: "),
+                              Jr("Damage Type: "),
                               ce("span", null, ir(e.attack.damageType), 1),
                             ]),
                           ]),
@@ -1280,7 +1280,7 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                             ? (Je(),
                               Qe("div", i1, [
                                 ce("h3", null, [
-                                  Jr(" Dano Extra: "),
+                                  Jr(" Extra Damage: "),
                                   (Je(!0),
                                   Qe(
                                     Ds,
@@ -1310,19 +1310,19 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                             : et("", !0),
                           ce("div", s1, [
                             ce("h3", null, [
-                              Jr("Alcance: "),
+                              Jr("Range: "),
                               ce("span", null, ir(e.attack.range), 1),
                             ]),
                           ]),
                           ce("div", u1, [
                             ce("h3", null, [
-                              Jr("Perícia: "),
+                              Jr("Skill: "),
                               ce("span", null, ir(e.attack.skillUsed), 1),
                             ]),
                           ]),
                           ce("div", l1, [
                             ce("h3", null, [
-                              Jr("Atributo Dano: "),
+                              Jr("Damage Attribute: "),
                               ce("span", null, ir(e.attack.damageAttribute), 1),
                             ]),
                           ]),
@@ -39146,7 +39146,7 @@ const cP = {
     criticalMult: 2,
     damageType: "-",
     range: "-",
-    skillUsed: "Melee",
+    skillUsed: "Fighting",
     damageAttribute: "Strength",
   },
   fP = {
