@@ -212,7 +212,7 @@ const Xa = [
       name: "Mercenary",
       description:
         "<p>Você é um soldado de aluguel, que trabalha sozinho ou como parte de alguma organização que vende serviços militares. Escoltas e assassinatos fizeram parte de sua rotina por tempo o suficiente para você se envolver em alguma situação com o Paranormal.</p>",
-      skills: ["Iniciative", "Intimidation"],
+      skills: ["Initiative", "Intimidation"],
       power: {
         name: "Posição de Combate",
         description:

@@ -121,7 +121,7 @@ const e = [
       "<p>You know how to be stealthy.</p><p><span>Hide.</span> Make a Stealth check opposed by Perception checks of anyone who might notice you. Everyone that fails cannot notice you (you have total camouflage against them). Hiding is a free action that you can only do at the end of your turn and only if you end your turn in a place where you can hide (behind a door, in a dark room, in a dense forest, in the middle of a crowd...). If you move during your turn, you suffer -1d20 on the check (you can move at half your normal movement value to avoid this penalty). If you attack or do a very flashy action, you suffer -3d20.</p><p><span>Follow.</span> Make a Stealth check opposed to the Perception check of the person being followed. You suffer -5 if you are in a place with no hiding spots or movement, such as an open field or empty street. The victim receives +5 to their Perception check if they are taking precautions to avoid being followed (such as looking behind him occasionally). If you pass, you tail the person until they reach their destination. If you fail, the person realizes it halfway.</p>",
   },
   {
-    name: "Iniciative",
+    name: "Initiative",
     attribute: "AGI",
     bonus: 0,
     otherBonus: 0,
