@@ -29,12 +29,12 @@ import {
   I as Yg,
   a5 as Qg,
   K as Ct,
-} from "./index-ElewQora.js";
+} from "./index-s9qx2Qo_.js";
 import { _ as Li } from "./d20-icon-vaz1En3o.js";
 import { _ as Ep, a as Cp, b as jg } from "./edit-icon-u1vf_q3w.js";
 import { _ as Op, c as Kg } from "./classes-7dZTyOHx.js";
 import { _ as ey } from "./show-more-icon-VvUXKiHG.js";
-import { S as ry } from "./skills-7ALlyuj2.js";
+import { S as ry } from "./skills-ki4fTVmG.js";
 import { c as hn, g as pa, a as ty } from "./_commonjsHelpers-4gQjN7DL.js";
 import { v as ka } from "./v4-cyCr5FZV.js";
 const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
@@ -60,7 +60,7 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
       const r = e,
         t = An(() => {
           let a = my;
-          if (r.toast.defaultColor || r.toast.title === "Resultado") return a;
+          if (r.toast.defaultColor || r.toast.title === "Result") return a;
           const n = r.toast.output
             .substring(
               r.toast.output.indexOf("[") + 1,
@@ -104,7 +104,7 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                           },
                         ],
                       ]),
-                      a.toast.title === "Resultado"
+                      a.toast.title === "Result"
                         ? aa(
                             (Je(), Qe("h4", ly, [Jr(ir(a.toast.notation), 1)])),
                             [
@@ -217,7 +217,7 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
   Tp = (e) => (pn("data-v-8d0cc59e"), (e = e()), vn(), e),
   Ty = { class: "campaign-log-content" },
   Dy = { class: "header" },
-  By = Tp(() => ce("div", { class: "title" }, " Resultados ", -1)),
+  By = Tp(() => ce("div", { class: "title" }, " Results ", -1)),
   _y = Tp(() =>
     ce("img", { class: "close-icon", src: Sp, alt: "fechar" }, null, -1)
   ),
@@ -1493,7 +1493,7 @@ const uP = "/assets/dice-roll-8rICIfwE.mp3",
       const r = e,
         t = An(() => {
           let a = E1;
-          if (r.toast.defaultColor || r.toast.title === "Resultado") return a;
+          if (r.toast.defaultColor || r.toast.title === "Result") return a;
           const n = r.toast.output
             .substring(
               r.toast.output.indexOf("[") + 1,
@@ -1544,7 +1544,7 @@ const uP = "/assets/dice-roll-8rICIfwE.mp3",
                             ],
                           ]
                         ),
-                        a.toast.title === "Resultado"
+                        a.toast.title === "Result"
                           ? aa(
                               (Je(),
                               Qe("h4", w1, [Jr(ir(a.toast.notation), 1)])),

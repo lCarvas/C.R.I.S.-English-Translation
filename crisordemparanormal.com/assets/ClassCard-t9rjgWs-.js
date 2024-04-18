@@ -18,8 +18,8 @@ import {
   j as S,
   v as E,
   T as V,
-} from "./index-ElewQora.js";
-import { P as I } from "./PowerCard-oUvxzsKl.js";
+} from "./index-s9qx2Qo_.js";
+import { P as I } from "./PowerCard-cBUyqHwx.js";
 import { _ as A } from "./show-more-icon-VvUXKiHG.js";
 const Xa = [
     {
@@ -81,7 +81,7 @@ const Xa = [
       name: "Chef",
       description:
         "<p>Você é um cozinheiro amador ou profissional. Talvez trabalhasse em um restaurante, talvez simplesmente gostasse de cozinhar para a família e amigos. Como sua comida fez com que você se envolvesse com o paranormal? Ninguém sabe. Mas os outros agentes adoram quando você vai para a missão!</p>",
-      skills: ["Fortitude", "Occupation (cook)"],
+      skills: ["Fortitude", "Profession (cook)"],
       power: {
         name: "Ingrediente Secreto",
         description:
@@ -135,7 +135,7 @@ const Xa = [
       name: "Engineer",
       description:
         "<p>Enquanto os acadêmicos estão preocupados com teorias, você colocar a mão na massa, seja como engenheiro profissional, seja como inventor de garagem. Provavelmente você criou algum dispositivo paranormal que chamou a atenção da Ordem.</p>",
-      skills: ["Occupation", "Technology"],
+      skills: ["Profession", "Technology"],
       power: {
         name: "Ferramentas Favoritas",
         description:
@@ -157,7 +157,7 @@ const Xa = [
       name: "Executive",
       description:
         "<p>Você possuía um trabalho de escritório em uma grande empresa, banco ou corporação. Era um administrador, advogado, contador ou de qualquer outra profissão que lida com papelada e burocracia. Sua vida era bastante normal, até que você descobriu algo que não devia. Talvez o sucesso da empresa residisse em um ritual? Talvez toda a corporação fosse fachada para um culto e o presidente, um líder cultista envolvido com entidades paranormais? Após essa descoberta, você foi recrutado pela Ordem e trocou seu trabalho de escritório por missões de campo — hoje, sua vida é tudo, menos normal.</p>",
-      skills: ["Diplomacy", "Occupation"],
+      skills: ["Diplomacy", "Profession"],
       power: {
         name: "Processo Otimizado",
         description:
@@ -233,7 +233,7 @@ const Xa = [
       name: "Blue-collar Worker",
       description:
         "<p>Pedreiro, industriário, operador de máquinas em uma fábrica… Você passou uma parte de sua vida em um emprego braçal, desempenhando atividades práticas que lhe deram uma visão pragmática do mundo. Sua rotina mundana, entretanto, foi confrontada de alguma forma pelo paranormal, e você não consegue mais esquecer tudo que viu sobre os mistérios do mundo.</p>",
-      skills: ["Fortitude", "Occupation"],
+      skills: ["Fortitude", "Profession"],
       power: {
         name: "Ferramenta de Trabalho",
         description:

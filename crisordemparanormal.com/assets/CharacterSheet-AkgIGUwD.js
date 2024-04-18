@@ -49,15 +49,15 @@ import {
   l as Vt,
   X as wt,
   Q as Ot,
-} from "./index-ElewQora.js";
+} from "./index-s9qx2Qo_.js";
 import {
   g as zt,
   r as fo,
   b as Ht,
   u as jt,
   a as Ut,
-} from "./index.esm2017-eixK2nk7.js";
-import { T as xt } from "./ToastNotification-hBxLzeBG.js";
+} from "./index.esm2017-1LeaU8R7.js";
+import { T as xt } from "./ToastNotification-Wny5TRsG.js";
 import {
   I as ta,
   n as Nt,
@@ -94,20 +94,20 @@ import {
   E as vs,
   G as gs,
   H as hs,
-} from "./characterSheetUtils--OygJlD6.js";
+} from "./characterSheetUtils-1U8p_gSO.js";
 import { _ as ca } from "./d20-icon-vaz1En3o.js";
-import { T as ve } from "./TabNav-FORHjCxA.js";
-import { P as Be } from "./PowerCard-oUvxzsKl.js";
-import { R as _o } from "./RitualCard-QI9sBeGg.js";
+import { T as ve } from "./TabNav--rWq_0yG.js";
+import { P as Be } from "./PowerCard-cBUyqHwx.js";
+import { R as _o } from "./RitualCard-gW_5It7E.js";
 import {
   W as Po,
   P as Mo,
   M as Ro,
   C as Do,
-} from "./CursedItemCard-Pc4r8MnH.js";
+} from "./CursedItemCard-PuRSTtJl.js";
 import { c as He } from "./classes-7dZTyOHx.js";
-import { S as Ie } from "./SearchInput-TT7Ja29B.js";
-import { b as fs, c as bs } from "./ClassCard-6BehAAgu.js";
+import { S as Ie } from "./SearchInput-gzYXDUe8.js";
+import { b as fs, c as bs } from "./ClassCard-t9rjgWs-.js";
 import {
   H as Cs,
   b as As,
@@ -118,7 +118,7 @@ import {
   P as Oo,
   M as ia,
   c as zo,
-} from "./HomebrewItems-ppRZVe5V.js";
+} from "./HomebrewItems-3NZGrIQH.js";
 import {
   d as _e,
   p as Ho,
@@ -131,17 +131,17 @@ import {
 } from "./default-tJ6A0c0K.js";
 import { b as Ss } from "./forms-8DDAOOVU.js";
 import { _ as je, l as Ao } from "./lodash-gzw5KmHd.js";
-import { D as $e } from "./DropdownSimple-9v_7fx_Z.js";
+import { D as $e } from "./DropdownSimple-HHqGxN_1.js";
 import { v as Ue } from "./v4-cyCr5FZV.js";
-import { S as ra } from "./SwitchButtonBool-a_BUmB1Y.js";
+import { S as ra } from "./SwitchButtonBool-HWghusDp.js";
 import { a as _s, _ as Uo } from "./open-in-new-icon-p91krxL-.js";
 import { _ as Re } from "./blank-profile-picture-wMh28flS.js";
-import { P as xo } from "./PictureModal-Pcl5r-fT.js";
-import { L as Ps } from "./LoadingView-u5ob3P7_.js";
-import { g as Ms, C as Rs } from "./firebase-zz3jnYNo.js";
+import { P as xo } from "./PictureModal-b80G3XHB.js";
+import { L as Ps } from "./LoadingView-6BY8AeV-.js";
+import { g as Ms, C as Rs } from "./firebase-6PZO45P9.js";
 import "./edit-icon-u1vf_q3w.js";
 import "./show-more-icon-VvUXKiHG.js";
-import "./skills-7ALlyuj2.js";
+import "./skills-ki4fTVmG.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
 import "./add-icon-fJ4uQHUZ.js";
 const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
@@ -1802,7 +1802,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
           "Operation Captain",
           "Elite Agent",
         ],
-        p = ["Low", "Medium", "High", "Unlimitted"],
+        p = ["Low", "Medium", "High", "Unlimited"],
         c = xe(),
         m = E(""),
         i = E(window.innerWidth),
