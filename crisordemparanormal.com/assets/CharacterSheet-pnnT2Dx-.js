@@ -49,15 +49,15 @@ import {
   l as Vt,
   X as wt,
   Q as Ot,
-} from "./index-s9qx2Qo_.js";
+} from "./index-ekHEbvTF.js";
 import {
   g as zt,
   r as fo,
   b as Ht,
   u as jt,
   a as Ut,
-} from "./index.esm2017-1LeaU8R7.js";
-import { T as xt } from "./ToastNotification-Wny5TRsG.js";
+} from "./index.esm2017-MWh9Og-u.js";
+import { T as xt } from "./ToastNotification-_9eYhDMT.js";
 import {
   I as ta,
   n as Nt,
@@ -94,20 +94,20 @@ import {
   E as vs,
   G as gs,
   H as hs,
-} from "./characterSheetUtils-1U8p_gSO.js";
+} from "./characterSheetUtils-F9SJIHlA.js";
 import { _ as ca } from "./d20-icon-vaz1En3o.js";
-import { T as ve } from "./TabNav--rWq_0yG.js";
-import { P as Be } from "./PowerCard-cBUyqHwx.js";
-import { R as _o } from "./RitualCard-gW_5It7E.js";
+import { T as ve } from "./TabNav-ynhTYBUU.js";
+import { P as Be } from "./PowerCard-Xw1AdoxN.js";
+import { R as _o } from "./RitualCard-d1m9ck3I.js";
 import {
   W as Po,
   P as Mo,
   M as Ro,
   C as Do,
-} from "./CursedItemCard-PuRSTtJl.js";
+} from "./CursedItemCard-7RNt5kH1.js";
 import { c as He } from "./classes-7dZTyOHx.js";
-import { S as Ie } from "./SearchInput-gzYXDUe8.js";
-import { b as fs, c as bs } from "./ClassCard-t9rjgWs-.js";
+import { S as Ie } from "./SearchInput-iKq3Myyd.js";
+import { b as fs, c as bs } from "./ClassCard-4_QMCX3S.js";
 import {
   H as Cs,
   b as As,
@@ -118,7 +118,7 @@ import {
   P as Oo,
   M as ia,
   c as zo,
-} from "./HomebrewItems-3NZGrIQH.js";
+} from "./HomebrewItems-DkaYw940.js";
 import {
   d as _e,
   p as Ho,
@@ -131,17 +131,17 @@ import {
 } from "./default-tJ6A0c0K.js";
 import { b as Ss } from "./forms-8DDAOOVU.js";
 import { _ as je, l as Ao } from "./lodash-gzw5KmHd.js";
-import { D as $e } from "./DropdownSimple-HHqGxN_1.js";
+import { D as $e } from "./DropdownSimple-q8vHsdKA.js";
 import { v as Ue } from "./v4-cyCr5FZV.js";
-import { S as ra } from "./SwitchButtonBool-HWghusDp.js";
+import { S as ra } from "./SwitchButtonBool-dB-QOehp.js";
 import { a as _s, _ as Uo } from "./open-in-new-icon-p91krxL-.js";
 import { _ as Re } from "./blank-profile-picture-wMh28flS.js";
-import { P as xo } from "./PictureModal-b80G3XHB.js";
-import { L as Ps } from "./LoadingView-6BY8AeV-.js";
-import { g as Ms, C as Rs } from "./firebase-6PZO45P9.js";
+import { P as xo } from "./PictureModal-xqB58BAq.js";
+import { L as Ps } from "./LoadingView-pI56421r.js";
+import { g as Ms, C as Rs } from "./firebase-Kb29IuDF.js";
 import "./edit-icon-u1vf_q3w.js";
 import "./show-more-icon-VvUXKiHG.js";
-import "./skills-ki4fTVmG.js";
+import "./skills-siTAQjCS.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
 import "./add-icon-fJ4uQHUZ.js";
 const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
@@ -1168,7 +1168,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         e("tr", null, [
           e("th", { class: "small" }),
           e("th", { class: "left" }, " SKILL "),
-          e("th", null, "DICCE"),
+          e("th", null, "DICE"),
           e("th", null, "BONUS"),
           e("th", null, "Trainment"),
           e("th", null, "Other"),
