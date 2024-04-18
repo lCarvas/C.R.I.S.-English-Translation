@@ -16,7 +16,7 @@ const e = "/assets/attributes-V37qZCrP.png",
       {
         name: "Diligence",
         description:
-          "You may not have special training, but you compensate with dedication and effort. When you do a Skill Check, you can spend 1 EP to get +2 on the result.",
+          "You may not have special training, but you compensate with effort and preserverence. When you do a Skill Check, you can spend 1 EP to get +2 on the result.",
       },
     ],
     powers: [],
