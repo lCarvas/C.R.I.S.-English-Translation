@@ -66,7 +66,7 @@ const e = { name: "New Ability", description: "My new ability" },
   s = {
     name: "New Cursed Item",
     description: "<p>My new cursed item</p>",
-    element: "Conhecimento",
+    element: "Knowledge",
     category: "II",
     slots: "1",
     itemType: "cursedItem",
