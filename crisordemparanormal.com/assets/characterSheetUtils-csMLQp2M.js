@@ -29,10 +29,10 @@ import {
   I as Yg,
   a5 as Qg,
   K as Ct,
-} from "./index-ekHEbvTF.js";
+} from "./index-HbpdJoqE.js";
 import { _ as Li } from "./d20-icon-vaz1En3o.js";
 import { _ as Ep, a as Cp, b as jg } from "./edit-icon-u1vf_q3w.js";
-import { _ as Op, c as Kg } from "./classes-7dZTyOHx.js";
+import { _ as Op, c as Kg } from "./classes-j7W_HvC7.js";
 import { _ as ey } from "./show-more-icon-VvUXKiHG.js";
 import { S as ry } from "./skills-siTAQjCS.js";
 import { c as hn, g as pa, a as ty } from "./_commonjsHelpers-4gQjN7DL.js";
@@ -1213,13 +1213,13 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                 ce("div", G0, [
                   ce("div", H0, [
                     ce("h3", null, [
-                      Jr(" Dano: "),
+                      Jr(" Damage: "),
                       ce("span", null, ir(e.attack.damage), 1),
                     ]),
                   ]),
                   ce("div", Z0, [
                     ce("h3", null, [
-                      Jr(" Crítico: "),
+                      Jr(" Critical: "),
                       e.attack.criticalRange < 20 && e.attack.criticalMult > 2
                         ? (Je(),
                           Qe(

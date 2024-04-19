@@ -261,7 +261,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Tropa de Choque",
           description:
-            "<p>Você é duro na queda. Treinou seu corpo para resistir a traumas f ísicos, tornando-o praticamente inquebrável, e por isso não teme se colocar entre seus aliados e o perigo.</p>",
+            "<p>Você é duro na queda. Treinou seu corpo para resistir a traumas físicos, tornando-o praticamente inquebrável, e por isso não teme se colocar entre seus aliados e o perigo.</p>",
           abilities: [
             {
               name: "NEX 10% - Casca Grossa",
