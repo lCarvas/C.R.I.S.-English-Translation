@@ -819,7 +819,7 @@ const Xa = [
                   a(
                     "button",
                     { class: "choose-button button-primary", onClick: c },
-                    " Escolher "
+                    " Choose "
                   ),
                 ])),
           ],

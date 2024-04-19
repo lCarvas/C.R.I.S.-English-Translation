@@ -39126,7 +39126,7 @@ const cP = {
     madnessMode: !1,
     sheetPictureURL: "",
     sheetPictureFullPath: "",
-    statsClass: "Combatente",
+    statsClass: "Combatant",
     canDMEdit: !0,
     canAnyoneEdit: !1,
     block: null,
