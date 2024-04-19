@@ -5943,7 +5943,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   wu = ee(() => e("div", { class: "label" }, " Damage* ", -1)),
   Ou = ["onUpdate:modelValue"],
   zu = { class: "input-container" },
-  Hu = ee(() => e("div", { class: "label" }, " Typo* ", -1)),
+  Hu = ee(() => e("div", { class: "label" }, " Type* ", -1)),
   ju = { class: "button-remove-container" },
   Uu = ["onClick"],
   xu = ee(() =>
