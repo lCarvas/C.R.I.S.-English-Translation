@@ -19,7 +19,7 @@ import {
   p as $,
   b as j,
   _ as q,
-} from "./index-HbpdJoqE.js";
+} from "./index-iZ-GAfoN.js";
 import { _ as z } from "./show-more-icon-VvUXKiHG.js";
 import { _ as J } from "./add-icon-fJ4uQHUZ.js";
 import { _ as w } from "./d20-icon-vaz1En3o.js";
@@ -347,7 +347,7 @@ const r = (e) => ($("data-v-6f0e5c34"), (e = e()), j(), e),
                           ]),
                           t("div", Ee, [
                             t("h3", null, [
-                              u("Execution: "),
+                              u("Cast Time: "),
                               t(
                                 "span",
                                 null,
@@ -407,7 +407,7 @@ const r = (e) => ($("data-v-6f0e5c34"), (e = e()), j(), e),
                             ? (i(),
                               o("div", _e, [
                                 t("h3", null, [
-                                  u("Save: "),
+                                  u("Saving Throw: "),
                                   t("span", null, n(e.ritual.save), 1),
                                 ]),
                               ]))

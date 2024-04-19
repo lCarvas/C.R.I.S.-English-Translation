@@ -36,11 +36,11 @@ import {
   T as Qe,
   Q as Ge,
   L as Je,
-} from "./index-HbpdJoqE.js";
-import { P as _t } from "./PowerCard-TBGAUay6.js";
-import { S as pe } from "./SearchInput-cD7ru1ts.js";
-import { L as le } from "./LoadingView-GKgWZSkS.js";
-import { H as te, g as Ie, b as Ke } from "./firebase-SJ2lnfZf.js";
+} from "./index-iZ-GAfoN.js";
+import { P as _t } from "./PowerCard-sQQpYPFh.js";
+import { S as pe } from "./SearchInput-4SAqHsH6.js";
+import { L as le } from "./LoadingView-lYHwbNAV.js";
+import { H as te, g as Ie, b as Ke } from "./firebase-zuRqGyck.js";
 import {
   p as Ve,
   r as Re,
@@ -59,16 +59,16 @@ import {
   h as mt,
 } from "./forms-8DDAOOVU.js";
 import { _ as E } from "./lodash-gzw5KmHd.js";
-import { T as Xe } from "./ToastNotification-g0beyh9J.js";
-import { R as yt } from "./RitualCard-MeIeNgZz.js";
-import { T as Oe } from "./TabNav-0VPOuqyo.js";
-import { D as O } from "./DropdownSimple-gFsRoEj-.js";
+import { T as Xe } from "./ToastNotification-F0q0hrkI.js";
+import { R as yt } from "./RitualCard-0qw1-CS-.js";
+import { T as Oe } from "./TabNav-1z2f_REq.js";
+import { D as O } from "./DropdownSimple-E0IoYnGk.js";
 import {
   W as $t,
   P as Ct,
   M as kt,
   C as gt,
-} from "./CursedItemCard-EAn8047H.js";
+} from "./CursedItemCard-nIuQJNZr.js";
 const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Ht = { class: "delete-container" },
   Lt = { class: "delete-wrapper" },
@@ -989,7 +989,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Bo = { class: "input-container" },
   qo = F(() => e("div", { class: "label" }, " Circle ", -1)),
   So = { class: "input-container" },
-  Oo = F(() => e("div", { class: "label" }, " Execution ", -1)),
+  Oo = F(() => e("div", { class: "label" }, " Cast Time ", -1)),
   No = { class: "input-container" },
   Fo = F(() => e("div", { class: "label" }, " Range ", -1)),
   Wo = { class: "input-row" },
@@ -1003,7 +1003,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Yo = { class: "input-container" },
   Zo = F(() => e("div", { class: "label" }, " Effect ", -1)),
   en = { class: "input-container" },
-  tn = F(() => e("div", { class: "label" }, " Save ", -1)),
+  tn = F(() => e("div", { class: "label" }, " Saving Throw ", -1)),
   on = { class: "input-row" },
   nn = { class: "input-container" },
   an = F(() => e("div", { class: "label" }, " Dice ", -1)),

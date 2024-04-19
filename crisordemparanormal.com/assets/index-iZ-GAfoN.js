@@ -24333,7 +24333,7 @@ const cw = {
   Y1 = [G1, Q1],
   X1 = { key: 0, class: "nav-container" },
   J1 = al(
-    '<a href="https://www.catarse.me/crisordemparanormal" target="_blank" data-v-a1e4e96e><h3 class="agents-login" data-v-a1e4e96e> Rank </h3></a><div class="icons-container" data-v-a1e4e96e><a class="discord-link" href="https://discord.gg/crisordemparanormal" target="_blank" data-v-a1e4e96e><img class="icon" src="' +
+    '<a href="https://www.catarse.me/crisordemparanormal" target="_blank" data-v-a1e4e96e><h3 class="agents-login" data-v-a1e4e96e> Patente </h3></a><div class="icons-container" data-v-a1e4e96e><a class="discord-link" href="https://discord.gg/crisordemparanormal" target="_blank" data-v-a1e4e96e><img class="icon" src="' +
       RT +
       '" alt="discord" data-v-a1e4e96e></a><a class="discord-link" href="https://twitter.com/CrisOrdemPrnml" target="_blank" data-v-a1e4e96e><img class="icon-twitter" src="' +
       PT +
@@ -25471,14 +25471,14 @@ const cw = {
         path: "/login",
         name: "login-page",
         component: () =>
-          S(() => import("./LoginPage-eFb748T0.js"), __vite__mapDeps([0, 1])),
+          S(() => import("./LoginPage-Cl8hb10Q.js"), __vite__mapDeps([0, 1])),
       },
       {
         path: "/agentes",
         name: "character-list",
         component: () =>
           S(
-            () => import("./CharacterList-oWwBYAuo.js"),
+            () => import("./CharacterList-fbns2bEO.js"),
             __vite__mapDeps([2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13])
           ),
         meta: { requiresAuth: !0 },
@@ -25488,7 +25488,7 @@ const cw = {
         name: "campaigns-list",
         component: () =>
           S(
-            () => import("./CampaignsList-9mSp6PRM.js"),
+            () => import("./CampaignsList-iEn6pg41.js"),
             __vite__mapDeps([14, 3, 4, 12, 15])
           ),
         meta: { requiresAuth: !0 },
@@ -25498,7 +25498,7 @@ const cw = {
         name: "homebrews-list",
         component: () =>
           S(
-            () => import("./HomebrewList-4u0HLcf8.js"),
+            () => import("./HomebrewList-c1E-89A7.js"),
             __vite__mapDeps([
               16, 17, 18, 19, 20, 21, 22, 23, 5, 6, 3, 4, 12, 24, 25, 26, 27, 7,
               8, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43,
@@ -25512,7 +25512,7 @@ const cw = {
         name: "homebrews-power",
         component: () =>
           S(
-            () => import("./HomebrewPowerView-VLIqCuli.js"),
+            () => import("./HomebrewPowerView-ehoFXzuC.js"),
             __vite__mapDeps([
               50, 3, 4, 20, 21, 22, 23, 51, 52, 53, 12, 7, 8, 46, 54,
             ])
@@ -25524,7 +25524,7 @@ const cw = {
         name: "homebrews-ritual",
         component: () =>
           S(
-            () => import("./HomebrewRitualView-pQhL02XN.js"),
+            () => import("./HomebrewRitualView-JGSEzKrC.js"),
             __vite__mapDeps([
               55, 3, 4, 28, 21, 22, 29, 30, 51, 52, 53, 12, 7, 8, 46, 56,
             ])
@@ -25536,7 +25536,7 @@ const cw = {
         name: "homebrews-item",
         component: () =>
           S(
-            () => import("./HomebrewItemView-_s92qIXa.js"),
+            () => import("./HomebrewItemView-FxHaD1VG.js"),
             __vite__mapDeps([
               57, 3, 4, 51, 52, 53, 33, 21, 22, 34, 12, 7, 8, 46, 58,
             ])
@@ -25548,7 +25548,7 @@ const cw = {
         name: "homebrews-creature",
         component: () =>
           S(
-            () => import("./HomebrewCreatureView-qZQQGgmh.js"),
+            () => import("./HomebrewCreatureView-oOC-Kc-F.js"),
             __vite__mapDeps([
               59, 3, 4, 36, 21, 22, 37, 51, 52, 53, 12, 7, 8, 38, 39, 46, 60,
             ])
@@ -25560,7 +25560,7 @@ const cw = {
         name: "user-profile",
         component: () =>
           S(
-            () => import("./UserProfile-8_pNNGJA.js"),
+            () => import("./UserProfile-acIvztq3.js"),
             __vite__mapDeps([61, 41, 3, 4, 24, 44, 45, 46, 52, 62])
           ),
         meta: { requiresAuth: !0 },
@@ -25570,7 +25570,7 @@ const cw = {
         name: "campaign-create",
         component: () =>
           S(
-            () => import("./CampaignCreate-pCOSdYTm.js"),
+            () => import("./CampaignCreate-VFPLjWWH.js"),
             __vite__mapDeps([63, 24, 25, 3, 4, 64, 65, 7, 8, 12, 66])
           ),
         meta: { requiresAuth: !0 },
@@ -25580,7 +25580,7 @@ const cw = {
         name: "campaign-edit",
         component: () =>
           S(
-            () => import("./CampaignEdit-cZPk02cS.js"),
+            () => import("./CampaignEdit-4Um02Xei.js"),
             __vite__mapDeps([67, 24, 25, 3, 4, 64, 65, 12, 68])
           ),
         meta: { requiresAuth: !0 },
@@ -25590,7 +25590,7 @@ const cw = {
         name: "campaign-page",
         component: () =>
           S(
-            () => import("./CampaignPage-lnyllxtB.js"),
+            () => import("./CampaignPage-nSLXFDCN.js"),
             __vite__mapDeps([
               69, 3, 4, 9, 10, 11, 7, 8, 43, 44, 45, 46, 47, 17, 18, 51, 52, 53,
               70, 71, 12, 38, 39, 72,
@@ -25603,7 +25603,7 @@ const cw = {
         name: "campaign-join",
         component: () =>
           S(
-            () => import("./CampaignJoin-Blz05zbm.js"),
+            () => import("./CampaignJoin-cIx-MkJF.js"),
             __vite__mapDeps([73, 3, 4, 12, 74])
           ),
         meta: { requiresAuth: !0 },
@@ -25613,7 +25613,7 @@ const cw = {
         name: "campaign-add-agent",
         component: () =>
           S(
-            () => import("./CampaignAddAgent-6ZpeyobT.js"),
+            () => import("./CampaignAddAgent-G_B0n5i2.js"),
             __vite__mapDeps([75, 9, 10, 11, 3, 4, 5, 6, 12, 76])
           ),
         meta: { requiresAuth: !0 },
@@ -25623,7 +25623,7 @@ const cw = {
         name: "campaign-create-combat",
         component: () =>
           S(
-            () => import("./CreateCombat--d4tw1_V.js"),
+            () => import("./CreateCombat-u0ckJqFC.js"),
             __vite__mapDeps([
               77, 78, 36, 21, 22, 37, 17, 18, 5, 6, 24, 26, 27, 12, 46, 79,
             ])
@@ -25635,7 +25635,7 @@ const cw = {
         name: "campaign-edit-combat",
         component: () =>
           S(
-            () => import("./EditCombat-mCyHgkhF.js"),
+            () => import("./EditCombat-pcnpMgJs.js"),
             __vite__mapDeps([
               80, 78, 36, 21, 22, 37, 17, 18, 5, 6, 24, 26, 27, 46, 81,
             ])
@@ -25647,7 +25647,7 @@ const cw = {
         name: "campaign-page-denied",
         component: () =>
           S(
-            () => import("./CampaignPageDenied-9KIPx0fO.js"),
+            () => import("./CampaignPageDenied-BY-UEFZu.js"),
             __vite__mapDeps([82, 83])
           ),
         meta: { requiresAuth: !0 },
@@ -25657,7 +25657,7 @@ const cw = {
         name: "master-screen",
         component: () =>
           S(
-            () => import("./MasterScreen-NTOmBNDp.js"),
+            () => import("./MasterScreen-0a4ARWvv.js"),
             __vite__mapDeps([
               84, 3, 4, 85, 29, 86, 87, 21, 88, 27, 46, 89, 17, 18, 64, 65, 70,
               71, 26, 90, 42, 24, 25, 31, 32, 91, 12, 38, 39, 7, 8, 40, 41, 43,
@@ -25671,7 +25671,7 @@ const cw = {
         name: "character-creation",
         component: () =>
           S(
-            () => import("./CharacterCreation-moi7FGk0.js"),
+            () => import("./CharacterCreation-ALg7eC4s.js"),
             __vite__mapDeps([
               93, 26, 27, 87, 94, 20, 21, 22, 23, 95, 5, 6, 7, 8, 3, 4, 96, 88,
               46, 12, 97,
@@ -25684,7 +25684,7 @@ const cw = {
         name: "character-sheet",
         component: () =>
           S(
-            () => import("./CharacterSheet-xjF1TKyx.js"),
+            () => import("./CharacterSheet-MDOUAMRo.js"),
             __vite__mapDeps([
               98, 44, 45, 7, 8, 85, 29, 86, 87, 21, 88, 27, 46, 89, 17, 18, 20,
               22, 23, 28, 30, 33, 34, 5, 6, 94, 95, 19, 3, 4, 12, 24, 25, 26,
@@ -25698,7 +25698,7 @@ const cw = {
         name: "contact",
         component: () =>
           S(
-            () => import("./ContactView-Dm28O59Y.js"),
+            () => import("./ContactView-W9O-SfAT.js"),
             __vite__mapDeps([100, 101])
           ),
       },
@@ -25707,7 +25707,7 @@ const cw = {
         name: "character-stream",
         component: () =>
           S(
-            () => import("./CharacterStream-8bsKTMXY.js"),
+            () => import("./CharacterStream-FMBr2k-C.js"),
             __vite__mapDeps([102, 41, 96, 88, 46, 103])
           ),
       },
@@ -25716,7 +25716,7 @@ const cw = {
         name: "character-stream-pv",
         component: () =>
           S(
-            () => import("./CharacterPv-yG4gQdSI.js"),
+            () => import("./CharacterPv-LBF0WFLn.js"),
             __vite__mapDeps([104, 96, 88, 46, 105])
           ),
       },
@@ -25725,7 +25725,7 @@ const cw = {
         name: "character-stream-san",
         component: () =>
           S(
-            () => import("./CharacterSan-gNuk6T2-.js"),
+            () => import("./CharacterSan-imtNzPQD.js"),
             __vite__mapDeps([106, 96, 88, 46, 107])
           ),
       },
@@ -25734,7 +25734,7 @@ const cw = {
         name: "character-stream-pe",
         component: () =>
           S(
-            () => import("./CharacterPe-crB3L6dg.js"),
+            () => import("./CharacterPe-vDDdjuTw.js"),
             __vite__mapDeps([108, 96, 88, 46, 109])
           ),
       },
@@ -25743,7 +25743,7 @@ const cw = {
         name: "about-view",
         component: () =>
           S(
-            () => import("./about-view-ZclkuVpV.js"),
+            () => import("./about-view-gz07xmnk.js"),
             __vite__mapDeps([110, 111])
           ),
       },
@@ -25752,7 +25752,7 @@ const cw = {
         name: "privacy-policy",
         component: () =>
           S(
-            () => import("./privacy-policy-SF-z-eDP.js"),
+            () => import("./privacy-policy-H00TiR1G.js"),
             __vite__mapDeps([112, 113])
           ),
       },
@@ -25761,7 +25761,7 @@ const cw = {
         name: "creatures-list",
         component: () =>
           S(
-            () => import("./CreaturesList-1Uavv4nL.js"),
+            () => import("./CreaturesList-IXoI5Hfi.js"),
             __vite__mapDeps([
               114, 78, 36, 21, 22, 37, 17, 18, 38, 39, 12, 3, 4, 115,
             ])
@@ -25773,7 +25773,7 @@ const cw = {
         name: "creature-sheet",
         component: () =>
           S(
-            () => import("./CreatureSheet-uL1Uu0yh.js"),
+            () => import("./CreatureSheet-jyQPQiBi.js"),
             __vite__mapDeps([
               116, 78, 90, 86, 42, 21, 29, 17, 18, 24, 25, 26, 27, 31, 32, 46,
               91, 3, 4, 12, 38, 39, 117,
@@ -25786,7 +25786,7 @@ const cw = {
         name: "blog-view",
         component: () =>
           S(
-            () => import("./blog-view-gUHjzlof.js"),
+            () => import("./blog-view-MopDnQwl.js"),
             __vite__mapDeps([118, 119, 120])
           ),
       },
@@ -25797,7 +25797,7 @@ const cw = {
           S(
             () =>
               import(
-                "./persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-TFXZ2zCx.js"
+                "./persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-ICgSGTlr.js"
               ),
             __vite__mapDeps([121, 119, 120])
           ),
@@ -25809,7 +25809,7 @@ const cw = {
           S(
             () =>
               import(
-                "./the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-hMgwuVyJ.js"
+                "./the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-YCzgNml8.js"
               ),
             __vite__mapDeps([122, 119, 120])
           ),
@@ -25821,7 +25821,7 @@ const cw = {
           S(
             () =>
               import(
-                "./mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-e0Uz8bKb.js"
+                "./mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-0pJzlxfF.js"
               ),
             __vite__mapDeps([123, 119, 120])
           ),
@@ -25833,7 +25833,7 @@ const cw = {
           S(
             () =>
               import(
-                "./genshin-impact-uma-jornada-alem-dos-limites-yJrsMzRm.js"
+                "./genshin-impact-uma-jornada-alem-dos-limites-S76XrDOT.js"
               ),
             __vite__mapDeps([124, 119, 120])
           ),
@@ -25845,7 +25845,7 @@ const cw = {
           S(
             () =>
               import(
-                "./final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva-CSqjLzP9.js"
+                "./final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva-OdVDB0ya.js"
               ),
             __vite__mapDeps([125, 119, 120])
           ),
@@ -25857,7 +25857,7 @@ const cw = {
           S(
             () =>
               import(
-                "./elden-ring-a-jornada-epica-alem-das-expectativas-y3HL0wv8.js"
+                "./elden-ring-a-jornada-epica-alem-das-expectativas-oBXvQfpz.js"
               ),
             __vite__mapDeps([126, 119, 120])
           ),
@@ -25869,7 +25869,7 @@ const cw = {
           S(
             () =>
               import(
-                "./divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-xCTyD7pG.js"
+                "./divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-3pWg_FdA.js"
               ),
             __vite__mapDeps([127, 119, 120])
           ),
@@ -25881,7 +25881,7 @@ const cw = {
           S(
             () =>
               import(
-                "./cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-Zs8bCcos.js"
+                "./cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-KHEE_8N6.js"
               ),
             __vite__mapDeps([128, 119, 120])
           ),
@@ -25893,7 +25893,7 @@ const cw = {
           S(
             () =>
               import(
-                "./assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-e8V2-xsI.js"
+                "./assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-s5xFUAj1.js"
               ),
             __vite__mapDeps([129, 119, 120])
           ),
@@ -25903,7 +25903,7 @@ const cw = {
         name: "o-que-e-rpg-de-mesa",
         component: () =>
           S(
-            () => import("./o-que-e-rpg-de-mesa-tkXkWV08.js"),
+            () => import("./o-que-e-rpg-de-mesa-aYAZDM3O.js"),
             __vite__mapDeps([130, 119, 120])
           ),
       },
@@ -25912,7 +25912,7 @@ const cw = {
         name: "o-rpg-ordem-paranormal",
         component: () =>
           S(
-            () => import("./o-rpg-ordem-paranormal-d_Aw3VGk.js"),
+            () => import("./o-rpg-ordem-paranormal-5LoWl2GF.js"),
             __vite__mapDeps([131, 119, 120])
           ),
       },
@@ -25921,7 +25921,7 @@ const cw = {
         name: "o-rpg-tormenta20",
         component: () =>
           S(
-            () => import("./o-rpg-tormenta20-PduIDeyh.js"),
+            () => import("./o-rpg-tormenta20-agKqqaCV.js"),
             __vite__mapDeps([132, 119, 120])
           ),
       },
@@ -25932,7 +25932,7 @@ const cw = {
           S(
             () =>
               import(
-                "./3d_t-a-porta-de-entrada-pro-rpg-brasileiro-OXBedg77.js"
+                "./3d_t-a-porta-de-entrada-pro-rpg-brasileiro-b80JdzE8.js"
               ),
             __vite__mapDeps([133, 119, 120])
           ),
@@ -25944,7 +25944,7 @@ const cw = {
           S(
             () =>
               import(
-                "./vampiro-a-mascara-perdura-ao-longo-das-decadas-CjAT6283.js"
+                "./vampiro-a-mascara-perdura-ao-longo-das-decadas-XztfQP7f.js"
               ),
             __vite__mapDeps([134, 119, 120])
           ),
@@ -25954,7 +25954,7 @@ const cw = {
         name: "a-popularizacao-de-dungeons-&-dragons",
         component: () =>
           S(
-            () => import("./a-popularizacao-de-dungeons-_-dragons-0MylH5Pq.js"),
+            () => import("./a-popularizacao-de-dungeons-_-dragons-7bUxyvB6.js"),
             __vite__mapDeps([135, 119, 120])
           ),
       },
@@ -25965,7 +25965,7 @@ const cw = {
           S(
             () =>
               import(
-                "./criando-personagens-memoraveis-em-rpg-de-mesa-yBmc30BE.js"
+                "./criando-personagens-memoraveis-em-rpg-de-mesa-nfQPANDi.js"
               ),
             __vite__mapDeps([136, 119, 120])
           ),
@@ -25977,7 +25977,7 @@ const cw = {
           S(
             () =>
               import(
-                "./diferentes-estilos-de-mestres-em-rpg-de-mesa-UYdumDD3.js"
+                "./diferentes-estilos-de-mestres-em-rpg-de-mesa-kvBhBJYS.js"
               ),
             __vite__mapDeps([137, 119, 120])
           ),
@@ -25989,7 +25989,7 @@ const cw = {
           S(
             () =>
               import(
-                "./historia-do-rpg-uma-viagem-pela-evolucao-do-genero-90_MJ29m.js"
+                "./historia-do-rpg-uma-viagem-pela-evolucao-do-genero-ju3SRBph.js"
               ),
             __vite__mapDeps([138, 119, 120])
           ),
@@ -25999,7 +25999,7 @@ const cw = {
         name: "gurps-o-rpg-generico",
         component: () =>
           S(
-            () => import("./gurps-o-rpg-generico-4urBavOQ.js"),
+            () => import("./gurps-o-rpg-generico-F3lwUcQ8.js"),
             __vite__mapDeps([139, 119, 120])
           ),
       },
@@ -26010,7 +26010,7 @@ const cw = {
           S(
             () =>
               import(
-                "./pathfinder-o-maior-rival-de-dungeons-_-dragons-v78uyxZY.js"
+                "./pathfinder-o-maior-rival-de-dungeons-_-dragons-0qJx_guB.js"
               ),
             __vite__mapDeps([140, 119, 120])
           ),
@@ -26020,7 +26020,7 @@ const cw = {
         name: "um-guia-completo-sobre-pathfinder",
         component: () =>
           S(
-            () => import("./um-guia-completo-sobre-pathfinder-Y39AdTAA.js"),
+            () => import("./um-guia-completo-sobre-pathfinder-lQyqylJt.js"),
             __vite__mapDeps([141, 119, 120])
           ),
       },
@@ -26031,7 +26031,7 @@ const cw = {
           S(
             () =>
               import(
-                "./os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-JM6okUey.js"
+                "./os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-wt1yb653.js"
               ),
             __vite__mapDeps([142, 119, 120])
           ),
@@ -26043,7 +26043,7 @@ const cw = {
           S(
             () =>
               import(
-                "./fate-core-system-e-o-sistema-mais-facil-do-mundo-9boNeJWd.js"
+                "./fate-core-system-e-o-sistema-mais-facil-do-mundo-xPUulMk5.js"
               ),
             __vite__mapDeps([143, 119, 120])
           ),
@@ -26053,7 +26053,7 @@ const cw = {
         name: "dicas-para-mestres-de-rpg",
         component: () =>
           S(
-            () => import("./dicas-para-mestres-de-rpg-jRlhWpI1.js"),
+            () => import("./dicas-para-mestres-de-rpg-ToacTifH.js"),
             __vite__mapDeps([144, 119, 120])
           ),
       },
@@ -26062,7 +26062,7 @@ const cw = {
         name: "criando-um-mundo-de-rpg-personalizado",
         component: () =>
           S(
-            () => import("./criando-um-mundo-de-rpg-personalizado-7teNw1eB.js"),
+            () => import("./criando-um-mundo-de-rpg-personalizado-zQbiwlkb.js"),
             __vite__mapDeps([145, 119, 120])
           ),
       },
@@ -26073,7 +26073,7 @@ const cw = {
           S(
             () =>
               import(
-                "./a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-gyTIFBLT.js"
+                "./a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-ZyCtLtUe.js"
               ),
             __vite__mapDeps([146, 119, 120])
           ),
@@ -26083,7 +26083,7 @@ const cw = {
         name: "os-beneficios-do-rpg-para-a-vida-real",
         component: () =>
           S(
-            () => import("./os-beneficios-do-rpg-para-a-vida-real-jEgQdLbz.js"),
+            () => import("./os-beneficios-do-rpg-para-a-vida-real-uUXohSJd.js"),
             __vite__mapDeps([147, 119, 120])
           ),
       },
@@ -26092,7 +26092,7 @@ const cw = {
         name: "a-influencia-de-d&d-na-cultura-pop",
         component: () =>
           S(
-            () => import("./a-influencia-de-d_d-na-cultura-pop-zRgZZr37.js"),
+            () => import("./a-influencia-de-d_d-na-cultura-pop-Xr3xAuYZ.js"),
             __vite__mapDeps([148, 119, 120])
           ),
       },
@@ -26101,7 +26101,7 @@ const cw = {
         name: "a-evolucao-das-mecanicas-de-rpg",
         component: () =>
           S(
-            () => import("./a-evolucao-das-mecanicas-de-rpg-oO0NUPb2.js"),
+            () => import("./a-evolucao-das-mecanicas-de-rpg-MYqgKOzH.js"),
             __vite__mapDeps([149, 119, 120])
           ),
       },
@@ -26112,7 +26112,7 @@ const cw = {
           S(
             () =>
               import(
-                "./racas-e-classes-explorando-as-escolhas-de-personagem-dCybReYV.js"
+                "./racas-e-classes-explorando-as-escolhas-de-personagem-uLDNpAoj.js"
               ),
             __vite__mapDeps([150, 119, 120])
           ),
@@ -26122,7 +26122,7 @@ const cw = {
         name: "o-papel-do-mestre-na-narrativa-de-rpg",
         component: () =>
           S(
-            () => import("./o-papel-do-mestre-na-narrativa-de-rpg-Z_TnYq3U.js"),
+            () => import("./o-papel-do-mestre-na-narrativa-de-rpg-cpm8RCwO.js"),
             __vite__mapDeps([151, 119, 120])
           ),
       },
@@ -26133,7 +26133,7 @@ const cw = {
           S(
             () =>
               import(
-                "./mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-3rVYdtHJ.js"
+                "./mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-6S8rV0X2.js"
               ),
             __vite__mapDeps([152, 119, 120])
           ),
@@ -26144,7 +26144,7 @@ const cw = {
         component: () =>
           S(
             () =>
-              import("./o-impacto-da-arte-na-estetica-dos-rpgs-ZyXBmxHj.js"),
+              import("./o-impacto-da-arte-na-estetica-dos-rpgs-9mzcf5ZB.js"),
             __vite__mapDeps([153, 119, 120])
           ),
       },
@@ -26155,7 +26155,7 @@ const cw = {
           S(
             () =>
               import(
-                "./a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-vD_K3Xf2.js"
+                "./a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-6iRdDRdv.js"
               ),
             __vite__mapDeps([154, 119, 120])
           ),
@@ -26167,7 +26167,7 @@ const cw = {
           S(
             () =>
               import(
-                "./mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-dhRW-RFH.js"
+                "./mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-gmEGOOY9.js"
               ),
             __vite__mapDeps([155, 119, 120])
           ),
@@ -26179,7 +26179,7 @@ const cw = {
           S(
             () =>
               import(
-                "./o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-Jlxu65ue.js"
+                "./o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-RxDX3m9S.js"
               ),
             __vite__mapDeps([156, 119, 120])
           ),
@@ -26191,7 +26191,7 @@ const cw = {
           S(
             () =>
               import(
-                "./rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval-KHs9g3bF.js"
+                "./rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval-rES2MUbO.js"
               ),
             __vite__mapDeps([157, 119, 120])
           ),
@@ -26203,7 +26203,7 @@ const cw = {
           S(
             () =>
               import(
-                "./como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-T4Gg_UD6.js"
+                "./como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-tlgx2gps.js"
               ),
             __vite__mapDeps([158, 119, 120])
           ),
@@ -26214,7 +26214,7 @@ const cw = {
         component: () =>
           S(
             () =>
-              import("./descobrindo-o-mundo-do-rpg-savage-worlds-bRuR0iT7.js"),
+              import("./descobrindo-o-mundo-do-rpg-savage-worlds-v-NY9krL.js"),
             __vite__mapDeps([159, 119, 120])
           ),
       },
@@ -26223,7 +26223,7 @@ const cw = {
         name: "explorando-os-subgeneros-do-rpg",
         component: () =>
           S(
-            () => import("./explorando-os-subgeneros-do-rpg-WHWtw7TC.js"),
+            () => import("./explorando-os-subgeneros-do-rpg-IApjRdKF.js"),
             __vite__mapDeps([160, 119, 120])
           ),
       },
@@ -26234,7 +26234,7 @@ const cw = {
           S(
             () =>
               import(
-                "./baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-r-RihwUg.js"
+                "./baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-2jETnKQ_.js"
               ),
             __vite__mapDeps([161, 119, 120])
           ),
@@ -26246,7 +26246,7 @@ const cw = {
           S(
             () =>
               import(
-                "./descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-c4S4Qplj.js"
+                "./descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-mg77jzfR.js"
               ),
             __vite__mapDeps([162, 119, 120])
           ),
@@ -26258,7 +26258,7 @@ const cw = {
           S(
             () =>
               import(
-                "./descobrindo-o-universo-do-rpg-world-of-darkness-VPJpJwnj.js"
+                "./descobrindo-o-universo-do-rpg-world-of-darkness-8J-l4iKx.js"
               ),
             __vite__mapDeps([163, 119, 120])
           ),
@@ -26268,7 +26268,7 @@ const cw = {
         name: "e-dificil-comecar-a-jogar-rpg-de-mesa",
         component: () =>
           S(
-            () => import("./e-dificil-comecar-a-jogar-rpg-de-mesa-TjP9ud8m.js"),
+            () => import("./e-dificil-comecar-a-jogar-rpg-de-mesa-1ic-_HLr.js"),
             __vite__mapDeps([164, 119, 120])
           ),
       },
@@ -26279,7 +26279,7 @@ const cw = {
           S(
             () =>
               import(
-                "./a-importancia-da-cooperacao-em-jogos-de-rpg-T5IYDTOQ.js"
+                "./a-importancia-da-cooperacao-em-jogos-de-rpg-PQaEAJmt.js"
               ),
             __vite__mapDeps([165, 119, 120])
           ),
@@ -26291,7 +26291,7 @@ const cw = {
           S(
             () =>
               import(
-                "./criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-6Ml8_PMH.js"
+                "./criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-pixPODoz.js"
               ),
             __vite__mapDeps([166, 119, 120])
           ),
@@ -26302,7 +26302,7 @@ const cw = {
         component: () =>
           S(
             () =>
-              import("./o-rpg-como-pilar-da-cultura-geek-e-nerd-y4D7OgDc.js"),
+              import("./o-rpg-como-pilar-da-cultura-geek-e-nerd-NJ9dPfnM.js"),
             __vite__mapDeps([167, 119, 120])
           ),
       },
@@ -26313,7 +26313,7 @@ const cw = {
           S(
             () =>
               import(
-                "./criando-personagens-complexos-e-multidimensionais-no-rpg-pn32_fYT.js"
+                "./criando-personagens-complexos-e-multidimensionais-no-rpg-ccF_pnjW.js"
               ),
             __vite__mapDeps([168, 119, 120])
           ),
@@ -26325,7 +26325,7 @@ const cw = {
           S(
             () =>
               import(
-                "./a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-59epVKHe.js"
+                "./a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-vk87jFFE.js"
               ),
             __vite__mapDeps([169, 119, 120])
           ),
@@ -26337,7 +26337,7 @@ const cw = {
           S(
             () =>
               import(
-                "./construindo-mundos-de-campanha-de-rpg-atrativos-f9vY2GAR.js"
+                "./construindo-mundos-de-campanha-de-rpg-atrativos-Mo0SmXYn.js"
               ),
             __vite__mapDeps([170, 119, 120])
           ),
@@ -26349,7 +26349,7 @@ const cw = {
           S(
             () =>
               import(
-                "./o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-zQHyG2oh.js"
+                "./o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-i_QjOyJN.js"
               ),
             __vite__mapDeps([171, 119, 120])
           ),
@@ -26360,7 +26360,7 @@ const cw = {
         component: () =>
           S(
             () =>
-              import("./as-origens-e-a-evolucao-dos-dados-de-rpg-9jKhRHrf.js"),
+              import("./as-origens-e-a-evolucao-dos-dados-de-rpg-LqCU2t-T.js"),
             __vite__mapDeps([172, 119, 120])
           ),
       },
@@ -26369,7 +26369,7 @@ const cw = {
         name: "rpg-como-ferramenta-de-aprendizado",
         component: () =>
           S(
-            () => import("./rpg-como-ferramenta-de-aprendizado-KgycG27A.js"),
+            () => import("./rpg-como-ferramenta-de-aprendizado-iipk9voQ.js"),
             __vite__mapDeps([173, 119, 120])
           ),
       },
@@ -26380,7 +26380,7 @@ const cw = {
           S(
             () =>
               import(
-                "./inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-3Q-RLBr3.js"
+                "./inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-PlJly39J.js"
               ),
             __vite__mapDeps([174, 119, 120])
           ),
@@ -26392,7 +26392,7 @@ const cw = {
           S(
             () =>
               import(
-                "./o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-FqMgrZ3y.js"
+                "./o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-q584IMlX.js"
               ),
             __vite__mapDeps([175, 119, 120])
           ),
@@ -26402,7 +26402,7 @@ const cw = {
         name: "rpgs-para-criancas-e-iniciantes",
         component: () =>
           S(
-            () => import("./rpgs-para-criancas-e-iniciantes-eL15_sNZ.js"),
+            () => import("./rpgs-para-criancas-e-iniciantes-rSqBiwxd.js"),
             __vite__mapDeps([176, 119, 120])
           ),
       },
@@ -26412,7 +26412,7 @@ const cw = {
         component: () =>
           S(
             () =>
-              import("./etica-e-responsabilidade-em-jogos-de-rpg-EXRgaFXF.js"),
+              import("./etica-e-responsabilidade-em-jogos-de-rpg-JwSn7hYF.js"),
             __vite__mapDeps([177, 119, 120])
           ),
       },
@@ -26423,7 +26423,7 @@ const cw = {
           S(
             () =>
               import(
-                "./o-uso-de-ferramentas-digitais-em-mesas-de-rpg-E9rMHoTl.js"
+                "./o-uso-de-ferramentas-digitais-em-mesas-de-rpg-98jeyp_K.js"
               ),
             __vite__mapDeps([178, 119, 120])
           ),
@@ -26435,7 +26435,7 @@ const cw = {
           S(
             () =>
               import(
-                "./criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-PKzhgjO2.js"
+                "./criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-4gIxHHWr.js"
               ),
             __vite__mapDeps([179, 119, 120])
           ),
@@ -26447,7 +26447,7 @@ const cw = {
           S(
             () =>
               import(
-                "./a-influencia-das-artes-marciais-em-personagens-de-rpg-g25-JpR7.js"
+                "./a-influencia-das-artes-marciais-em-personagens-de-rpg-WdQbjd1-.js"
               ),
             __vite__mapDeps([180, 119, 120])
           ),
@@ -26459,7 +26459,7 @@ const cw = {
           S(
             () =>
               import(
-                "./a-diversidade-de-estilos-de-narrativa-em-rpg-XxEj1Zo3.js"
+                "./a-diversidade-de-estilos-de-narrativa-em-rpg-C-1ocVZJ.js"
               ),
             __vite__mapDeps([181, 119, 120])
           ),
@@ -26469,7 +26469,7 @@ const cw = {
         name: "o-uso-terapeutico-dos-jogos-de-rpg",
         component: () =>
           S(
-            () => import("./o-uso-terapeutico-dos-jogos-de-rpg-xcLTavqf.js"),
+            () => import("./o-uso-terapeutico-dos-jogos-de-rpg-xVnMPM6a.js"),
             __vite__mapDeps([182, 119, 120])
           ),
       },
@@ -26480,7 +26480,7 @@ const cw = {
           S(
             () =>
               import(
-                "./diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-0xBTPnAW.js"
+                "./diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-fki5SkAr.js"
               ),
             __vite__mapDeps([183, 119, 120])
           ),
@@ -26492,7 +26492,7 @@ const cw = {
           S(
             () =>
               import(
-                "./evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-CMMZlZMm.js"
+                "./evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-Hh017FQk.js"
               ),
             __vite__mapDeps([184, 119, 120])
           ),
@@ -26503,7 +26503,7 @@ const cw = {
         component: () =>
           S(
             () =>
-              import("./influencia_da_mitologia_em_jogos_de_rpg-ZmJuJZFY.js"),
+              import("./influencia_da_mitologia_em_jogos_de_rpg-3c4BMtWP.js"),
             __vite__mapDeps([185, 119, 120])
           ),
       },
@@ -26514,7 +26514,7 @@ const cw = {
           S(
             () =>
               import(
-                "./rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-INM9P2QB.js"
+                "./rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-kETecYW_.js"
               ),
             __vite__mapDeps([186, 119, 120])
           ),
@@ -26526,7 +26526,7 @@ const cw = {
           S(
             () =>
               import(
-                "./impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-TUJ-Gr90.js"
+                "./impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-htgIsMNe.js"
               ),
             __vite__mapDeps([187, 119, 120])
           ),
@@ -26538,7 +26538,7 @@ const cw = {
           S(
             () =>
               import(
-                "./mundo_das_miniaturas_e_cenarios_personalizados-u0_iptB_.js"
+                "./mundo_das_miniaturas_e_cenarios_personalizados-cQU1pr8O.js"
               ),
             __vite__mapDeps([188, 119, 120])
           ),
@@ -26550,7 +26550,7 @@ const cw = {
           S(
             () =>
               import(
-                "./evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-6j-KP6es.js"
+                "./evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-IefvhPqu.js"
               ),
             __vite__mapDeps([189, 119, 120])
           ),
@@ -26562,7 +26562,7 @@ const cw = {
           S(
             () =>
               import(
-                "./historia_e_a_evolucao_dos_larp_live_action_role_playing-kPRCGp6Z.js"
+                "./historia_e_a_evolucao_dos_larp_live_action_role_playing-d7lnMPKx.js"
               ),
             __vite__mapDeps([190, 119, 120])
           ),
@@ -26574,7 +26574,7 @@ const cw = {
           S(
             () =>
               import(
-                "./jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-O93jni1T.js"
+                "./jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-OxwyE7P8.js"
               ),
             __vite__mapDeps([191, 119, 120])
           ),
@@ -26586,7 +26586,7 @@ const cw = {
           S(
             () =>
               import(
-                "./uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-gydmaz8Y.js"
+                "./uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-knEwR7lV.js"
               ),
             __vite__mapDeps([192, 119, 120])
           ),
@@ -26598,7 +26598,7 @@ const cw = {
           S(
             () =>
               import(
-                "./mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-YNY4OcDC.js"
+                "./mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-9G3hTO63.js"
               ),
             __vite__mapDeps([193, 119, 120])
           ),
@@ -26610,7 +26610,7 @@ const cw = {
           S(
             () =>
               import(
-                "./psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-XjHyc4Qk.js"
+                "./psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-CDj0EEki.js"
               ),
             __vite__mapDeps([194, 119, 120])
           ),
@@ -26622,7 +26622,7 @@ const cw = {
           S(
             () =>
               import(
-                "./papel_das_ferramentas_de_software_em_jogos_de_rpg-KcQNyTf_.js"
+                "./papel_das_ferramentas_de_software_em_jogos_de_rpg-MVS_lca1.js"
               ),
             __vite__mapDeps([195, 119, 120])
           ),
@@ -26634,7 +26634,7 @@ const cw = {
           S(
             () =>
               import(
-                "./historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-FF96f0H9.js"
+                "./historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-sOdaIFzE.js"
               ),
             __vite__mapDeps([196, 119, 120])
           ),
@@ -26645,7 +26645,7 @@ const cw = {
         component: () =>
           S(
             () =>
-              import("./explorando_a_cultura_do_cosplay_em_rpg-pWN_UYKm.js"),
+              import("./explorando_a_cultura_do_cosplay_em_rpg-nREO8nar.js"),
             __vite__mapDeps([197, 119, 120])
           ),
       },
@@ -26656,7 +26656,7 @@ const cw = {
           S(
             () =>
               import(
-                "./rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-8WZOd2fo.js"
+                "./rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-x6BYHn7x.js"
               ),
             __vite__mapDeps([198, 119, 120])
           ),
@@ -26666,7 +26666,7 @@ const cw = {
         name: "uso_de_simbologia_e_mitologia_em_rpgs",
         component: () =>
           S(
-            () => import("./uso_de_simbologia_e_mitologia_em_rpgs-ZGqw4iBF.js"),
+            () => import("./uso_de_simbologia_e_mitologia_em_rpgs-6x_f43-e.js"),
             __vite__mapDeps([199, 119, 120])
           ),
       },
@@ -26677,7 +26677,7 @@ const cw = {
           S(
             () =>
               import(
-                "./economia_nos_mundos_de_rpg_moedas_e_comercio-wKnswQMJ.js"
+                "./economia_nos_mundos_de_rpg_moedas_e_comercio-InR_569O.js"
               ),
             __vite__mapDeps([200, 119, 120])
           ),
@@ -26689,7 +26689,7 @@ const cw = {
           S(
             () =>
               import(
-                "./importancia_da_diversidade_e_representacao_nos_jogos-E2CaEs7q.js"
+                "./importancia_da_diversidade_e_representacao_nos_jogos-3PiBYJ5G.js"
               ),
             __vite__mapDeps([201, 119, 120])
           ),
@@ -26701,7 +26701,7 @@ const cw = {
           S(
             () =>
               import(
-                "./futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-2PPCfY6q.js"
+                "./futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-kCpPF2mF.js"
               ),
             __vite__mapDeps([202, 119, 120])
           ),
@@ -26711,7 +26711,7 @@ const cw = {
         name: "not-found",
         component: () =>
           S(
-            () => import("./NotFoundView-bH1zld0D.js"),
+            () => import("./NotFoundView-qf2uVoXH.js"),
             __vite__mapDeps([203, 204])
           ),
       },
@@ -32929,27 +32929,27 @@ export {
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
     __vite__mapDeps.viteFileDeps = [
-      "assets/LoginPage-eFb748T0.js",
+      "assets/LoginPage-Cl8hb10Q.js",
       "assets/LoginPage-eaGdDaNQ.css",
-      "assets/CharacterList-oWwBYAuo.js",
-      "assets/LoadingView-GKgWZSkS.js",
+      "assets/CharacterList-fbns2bEO.js",
+      "assets/LoadingView-lYHwbNAV.js",
       "assets/LoadingView-qh-7N428.css",
-      "assets/SearchInput-cD7ru1ts.js",
+      "assets/SearchInput-4SAqHsH6.js",
       "assets/SearchInput-LEjlhuSA.css",
-      "assets/ToastNotification-g0beyh9J.js",
+      "assets/ToastNotification-F0q0hrkI.js",
       "assets/ToastNotification-yhyaH9rC.css",
-      "assets/CharacterCard-lOzozfEV.js",
+      "assets/CharacterCard-Z5SfufGi.js",
       "assets/open-in-new-icon-p91krxL-.js",
       "assets/CharacterCard-9d6BWOZG.css",
-      "assets/firebase-SJ2lnfZf.js",
+      "assets/firebase-zuRqGyck.js",
       "assets/CharacterList-Fw_kB2IC.css",
-      "assets/CampaignsList-9mSp6PRM.js",
+      "assets/CampaignsList-iEn6pg41.js",
       "assets/CampaignsList-vV8BsU8v.css",
-      "assets/HomebrewList-4u0HLcf8.js",
-      "assets/TabNav-0VPOuqyo.js",
+      "assets/HomebrewList-c1E-89A7.js",
+      "assets/TabNav-1z2f_REq.js",
       "assets/TabNav-EPczaBrR.css",
-      "assets/HomebrewItems-e8_u-YFK.js",
-      "assets/PowerCard-TBGAUay6.js",
+      "assets/HomebrewItems-qJLVDquJ.js",
+      "assets/PowerCard-sQQpYPFh.js",
       "assets/show-more-icon-VvUXKiHG.js",
       "assets/add-icon-fJ4uQHUZ.js",
       "assets/PowerCard-eSGA7CKx.css",
@@ -32957,182 +32957,182 @@ function __vite__mapDeps(indexes) {
       "assets/forms-8DDAOOVU.js",
       "assets/lodash-gzw5KmHd.js",
       "assets/_commonjsHelpers-4gQjN7DL.js",
-      "assets/RitualCard-MeIeNgZz.js",
+      "assets/RitualCard-0qw1-CS-.js",
       "assets/d20-icon-vaz1En3o.js",
       "assets/RitualCard-YjXbv06p.css",
-      "assets/DropdownSimple-gFsRoEj-.js",
+      "assets/DropdownSimple-E0IoYnGk.js",
       "assets/DropdownSimple-Fkf-Qfr8.css",
-      "assets/CursedItemCard-EAn8047H.js",
+      "assets/CursedItemCard-nIuQJNZr.js",
       "assets/CursedItemCard-cVIajowH.css",
       "assets/HomebrewItems-nVs-RNaZ.css",
-      "assets/CreatureCard-fvtOpxpg.js",
+      "assets/CreatureCard-F38h9Vsd.js",
       "assets/CreatureCard-ANgcNO-8.css",
-      "assets/PrivateFeat-ko8bHruu.js",
+      "assets/PrivateFeat-_cne194N.js",
       "assets/PrivateFeat-Pey8Uhe4.css",
-      "assets/CreatureForm-ResE7Q22.js",
+      "assets/CreatureForm-rlHjH6ka.js",
       "assets/blank-profile-picture-wMh28flS.js",
       "assets/creatureData-jLpja1fz.js",
-      "assets/PictureModal-Dr1xy6Q0.js",
-      "assets/index.esm2017-uj1hNL3l.js",
+      "assets/PictureModal-sYC06RTi.js",
+      "assets/index.esm2017-0FKQr3vX.js",
       "assets/index-qLpZT18D.css",
       "assets/v4-cyCr5FZV.js",
       "assets/PictureModal-5QuNTWi8.css",
       "assets/CreatureForm-3BoYeYRW.css",
       "assets/HomebrewList-0r_pnsCl.css",
-      "assets/HomebrewPowerView-VLIqCuli.js",
-      "assets/PlayerCard-oDcKxwe1.js",
+      "assets/HomebrewPowerView-ehoFXzuC.js",
+      "assets/PlayerCard-yq7up8fx.js",
       "assets/colors-NalZ6sWE.js",
       "assets/PlayerCard-uyIvYeuE.css",
       "assets/HomebrewPowerView-oH1rxoLq.css",
-      "assets/HomebrewRitualView-pQhL02XN.js",
+      "assets/HomebrewRitualView-JGSEzKrC.js",
       "assets/HomebrewRitualView-A5dhjcNK.css",
-      "assets/HomebrewItemView-_s92qIXa.js",
+      "assets/HomebrewItemView-FxHaD1VG.js",
       "assets/HomebrewItemView-xVelEn5u.css",
-      "assets/HomebrewCreatureView-qZQQGgmh.js",
+      "assets/HomebrewCreatureView-oOC-Kc-F.js",
       "assets/HomebrewCreatureView-p5Bsn7sU.css",
-      "assets/UserProfile-8_pNNGJA.js",
+      "assets/UserProfile-acIvztq3.js",
       "assets/UserProfile-nBvv8kym.css",
-      "assets/CampaignCreate-pCOSdYTm.js",
-      "assets/SwitchButtonBool-JX73NE6V.js",
+      "assets/CampaignCreate-VFPLjWWH.js",
+      "assets/SwitchButtonBool-xUgSC52c.js",
       "assets/SwitchButtonBool-VT84EvRG.css",
       "assets/CampaignCreate-ZGKciBb7.css",
-      "assets/CampaignEdit-cZPk02cS.js",
+      "assets/CampaignEdit-4Um02Xei.js",
       "assets/CampaignEdit-g3a8pHRX.css",
-      "assets/CampaignPage-lnyllxtB.js",
-      "assets/CombatCard-F-R0oc1m.js",
+      "assets/CampaignPage-nSLXFDCN.js",
+      "assets/CombatCard-Yo4H_EjM.js",
       "assets/CombatCard-B8Jbf4SW.css",
       "assets/CampaignPage-rxEkD6sn.css",
-      "assets/CampaignJoin-Blz05zbm.js",
+      "assets/CampaignJoin-cIx-MkJF.js",
       "assets/CampaignJoin-Y3mQwTGd.css",
-      "assets/CampaignAddAgent-6ZpeyobT.js",
+      "assets/CampaignAddAgent-G_B0n5i2.js",
       "assets/CampaignAddAgent-ak7wNOog.css",
-      "assets/CreateCombat--d4tw1_V.js",
+      "assets/CreateCombat-u0ckJqFC.js",
       "assets/creatures-uHc55fi5.js",
       "assets/CreateCombat-NQ3F2-l1.css",
-      "assets/EditCombat-mCyHgkhF.js",
+      "assets/EditCombat-pcnpMgJs.js",
       "assets/EditCombat-hUNmCuzT.css",
-      "assets/CampaignPageDenied-9KIPx0fO.js",
+      "assets/CampaignPageDenied-BY-UEFZu.js",
       "assets/CampaignPageDenied-gbq2rXKF.css",
-      "assets/MasterScreen-NTOmBNDp.js",
-      "assets/characterSheetUtils-csMLQp2M.js",
+      "assets/MasterScreen-0a4ARWvv.js",
+      "assets/characterSheetUtils-5NfnwOG6.js",
       "assets/edit-icon-u1vf_q3w.js",
       "assets/classes-j7W_HvC7.js",
       "assets/skills-siTAQjCS.js",
       "assets/characterSheetUtils-ssRZxcFI.css",
-      "assets/ActionModal-Z6T208-u.js",
+      "assets/ActionModal-vL72niNi.js",
       "assets/ActionModal-LJbZcYkK.css",
       "assets/MasterScreen-Ofo4qbMp.css",
-      "assets/CharacterCreation-moi7FGk0.js",
-      "assets/ClassCard-KcSsNsso.js",
+      "assets/CharacterCreation-ALg7eC4s.js",
+      "assets/ClassCard-zGTAlZfy.js",
       "assets/ClassCard-P-qZoCAy.css",
-      "assets/characterCreationUtils-kbvKVme1.js",
+      "assets/characterCreationUtils-0TvngL5F.js",
       "assets/CharacterCreation-4pL9CAsF.css",
-      "assets/CharacterSheet-xjF1TKyx.js",
+      "assets/CharacterSheet-MDOUAMRo.js",
       "assets/CharacterSheet-1q9thr-Y.css",
-      "assets/ContactView-Dm28O59Y.js",
+      "assets/ContactView-W9O-SfAT.js",
       "assets/ContactView-8FCoscjA.css",
-      "assets/CharacterStream-8bsKTMXY.js",
+      "assets/CharacterStream-FMBr2k-C.js",
       "assets/CharacterStream-9tlGFTRM.css",
-      "assets/CharacterPv-yG4gQdSI.js",
+      "assets/CharacterPv-LBF0WFLn.js",
       "assets/CharacterPv-T9RjlDJ-.css",
-      "assets/CharacterSan-gNuk6T2-.js",
+      "assets/CharacterSan-imtNzPQD.js",
       "assets/CharacterSan-5FC5fBOx.css",
-      "assets/CharacterPe-crB3L6dg.js",
+      "assets/CharacterPe-vDDdjuTw.js",
       "assets/CharacterPe-Akcgawku.css",
-      "assets/about-view-ZclkuVpV.js",
+      "assets/about-view-gz07xmnk.js",
       "assets/about-view-iBvomE2y.css",
-      "assets/privacy-policy-SF-z-eDP.js",
+      "assets/privacy-policy-H00TiR1G.js",
       "assets/privacy-policy-K8p3o3Le.css",
-      "assets/CreaturesList-1Uavv4nL.js",
+      "assets/CreaturesList-IXoI5Hfi.js",
       "assets/CreaturesList-xmF7rmQs.css",
-      "assets/CreatureSheet-uL1Uu0yh.js",
+      "assets/CreatureSheet-jyQPQiBi.js",
       "assets/CreatureSheet-GQHIuiph.css",
-      "assets/blog-view-gUHjzlof.js",
-      "assets/BlogList-hR_bLvpw.js",
+      "assets/blog-view-MopDnQwl.js",
+      "assets/BlogList-yhEvUkU3.js",
       "assets/BlogList-vZBULAIh.css",
-      "assets/persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-TFXZ2zCx.js",
-      "assets/the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-hMgwuVyJ.js",
-      "assets/mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-e0Uz8bKb.js",
-      "assets/genshin-impact-uma-jornada-alem-dos-limites-yJrsMzRm.js",
-      "assets/final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva-CSqjLzP9.js",
-      "assets/elden-ring-a-jornada-epica-alem-das-expectativas-y3HL0wv8.js",
-      "assets/divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-xCTyD7pG.js",
-      "assets/cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-Zs8bCcos.js",
-      "assets/assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-e8V2-xsI.js",
-      "assets/o-que-e-rpg-de-mesa-tkXkWV08.js",
-      "assets/o-rpg-ordem-paranormal-d_Aw3VGk.js",
-      "assets/o-rpg-tormenta20-PduIDeyh.js",
-      "assets/3d_t-a-porta-de-entrada-pro-rpg-brasileiro-OXBedg77.js",
-      "assets/vampiro-a-mascara-perdura-ao-longo-das-decadas-CjAT6283.js",
-      "assets/a-popularizacao-de-dungeons-_-dragons-0MylH5Pq.js",
-      "assets/criando-personagens-memoraveis-em-rpg-de-mesa-yBmc30BE.js",
-      "assets/diferentes-estilos-de-mestres-em-rpg-de-mesa-UYdumDD3.js",
-      "assets/historia-do-rpg-uma-viagem-pela-evolucao-do-genero-90_MJ29m.js",
-      "assets/gurps-o-rpg-generico-4urBavOQ.js",
-      "assets/pathfinder-o-maior-rival-de-dungeons-_-dragons-v78uyxZY.js",
-      "assets/um-guia-completo-sobre-pathfinder-Y39AdTAA.js",
-      "assets/os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-JM6okUey.js",
-      "assets/fate-core-system-e-o-sistema-mais-facil-do-mundo-9boNeJWd.js",
-      "assets/dicas-para-mestres-de-rpg-jRlhWpI1.js",
-      "assets/criando-um-mundo-de-rpg-personalizado-7teNw1eB.js",
-      "assets/a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-gyTIFBLT.js",
-      "assets/os-beneficios-do-rpg-para-a-vida-real-jEgQdLbz.js",
-      "assets/a-influencia-de-d_d-na-cultura-pop-zRgZZr37.js",
-      "assets/a-evolucao-das-mecanicas-de-rpg-oO0NUPb2.js",
-      "assets/racas-e-classes-explorando-as-escolhas-de-personagem-dCybReYV.js",
-      "assets/o-papel-do-mestre-na-narrativa-de-rpg-Z_TnYq3U.js",
-      "assets/mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-3rVYdtHJ.js",
-      "assets/o-impacto-da-arte-na-estetica-dos-rpgs-ZyXBmxHj.js",
-      "assets/a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-vD_K3Xf2.js",
-      "assets/mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-dhRW-RFH.js",
-      "assets/o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-Jlxu65ue.js",
-      "assets/rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval-KHs9g3bF.js",
-      "assets/como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-T4Gg_UD6.js",
-      "assets/descobrindo-o-mundo-do-rpg-savage-worlds-bRuR0iT7.js",
-      "assets/explorando-os-subgeneros-do-rpg-WHWtw7TC.js",
-      "assets/baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-r-RihwUg.js",
-      "assets/descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-c4S4Qplj.js",
-      "assets/descobrindo-o-universo-do-rpg-world-of-darkness-VPJpJwnj.js",
-      "assets/e-dificil-comecar-a-jogar-rpg-de-mesa-TjP9ud8m.js",
-      "assets/a-importancia-da-cooperacao-em-jogos-de-rpg-T5IYDTOQ.js",
-      "assets/criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-6Ml8_PMH.js",
-      "assets/o-rpg-como-pilar-da-cultura-geek-e-nerd-y4D7OgDc.js",
-      "assets/criando-personagens-complexos-e-multidimensionais-no-rpg-pn32_fYT.js",
-      "assets/a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-59epVKHe.js",
-      "assets/construindo-mundos-de-campanha-de-rpg-atrativos-f9vY2GAR.js",
-      "assets/o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-zQHyG2oh.js",
-      "assets/as-origens-e-a-evolucao-dos-dados-de-rpg-9jKhRHrf.js",
-      "assets/rpg-como-ferramenta-de-aprendizado-KgycG27A.js",
-      "assets/inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-3Q-RLBr3.js",
-      "assets/o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-FqMgrZ3y.js",
-      "assets/rpgs-para-criancas-e-iniciantes-eL15_sNZ.js",
-      "assets/etica-e-responsabilidade-em-jogos-de-rpg-EXRgaFXF.js",
-      "assets/o-uso-de-ferramentas-digitais-em-mesas-de-rpg-E9rMHoTl.js",
-      "assets/criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-PKzhgjO2.js",
-      "assets/a-influencia-das-artes-marciais-em-personagens-de-rpg-g25-JpR7.js",
-      "assets/a-diversidade-de-estilos-de-narrativa-em-rpg-XxEj1Zo3.js",
-      "assets/o-uso-terapeutico-dos-jogos-de-rpg-xcLTavqf.js",
-      "assets/diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-0xBTPnAW.js",
-      "assets/evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-CMMZlZMm.js",
-      "assets/influencia_da_mitologia_em_jogos_de_rpg-ZmJuJZFY.js",
-      "assets/rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-INM9P2QB.js",
-      "assets/impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-TUJ-Gr90.js",
-      "assets/mundo_das_miniaturas_e_cenarios_personalizados-u0_iptB_.js",
-      "assets/evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-6j-KP6es.js",
-      "assets/historia_e_a_evolucao_dos_larp_live_action_role_playing-kPRCGp6Z.js",
-      "assets/jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-O93jni1T.js",
-      "assets/uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-gydmaz8Y.js",
-      "assets/mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-YNY4OcDC.js",
-      "assets/psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-XjHyc4Qk.js",
-      "assets/papel_das_ferramentas_de_software_em_jogos_de_rpg-KcQNyTf_.js",
-      "assets/historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-FF96f0H9.js",
-      "assets/explorando_a_cultura_do_cosplay_em_rpg-pWN_UYKm.js",
-      "assets/rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-8WZOd2fo.js",
-      "assets/uso_de_simbologia_e_mitologia_em_rpgs-ZGqw4iBF.js",
-      "assets/economia_nos_mundos_de_rpg_moedas_e_comercio-wKnswQMJ.js",
-      "assets/importancia_da_diversidade_e_representacao_nos_jogos-E2CaEs7q.js",
-      "assets/futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-2PPCfY6q.js",
-      "assets/NotFoundView-bH1zld0D.js",
+      "assets/persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-ICgSGTlr.js",
+      "assets/the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-YCzgNml8.js",
+      "assets/mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-0pJzlxfF.js",
+      "assets/genshin-impact-uma-jornada-alem-dos-limites-S76XrDOT.js",
+      "assets/final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva-OdVDB0ya.js",
+      "assets/elden-ring-a-jornada-epica-alem-das-expectativas-oBXvQfpz.js",
+      "assets/divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-3pWg_FdA.js",
+      "assets/cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-KHEE_8N6.js",
+      "assets/assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-s5xFUAj1.js",
+      "assets/o-que-e-rpg-de-mesa-aYAZDM3O.js",
+      "assets/o-rpg-ordem-paranormal-5LoWl2GF.js",
+      "assets/o-rpg-tormenta20-agKqqaCV.js",
+      "assets/3d_t-a-porta-de-entrada-pro-rpg-brasileiro-b80JdzE8.js",
+      "assets/vampiro-a-mascara-perdura-ao-longo-das-decadas-XztfQP7f.js",
+      "assets/a-popularizacao-de-dungeons-_-dragons-7bUxyvB6.js",
+      "assets/criando-personagens-memoraveis-em-rpg-de-mesa-nfQPANDi.js",
+      "assets/diferentes-estilos-de-mestres-em-rpg-de-mesa-kvBhBJYS.js",
+      "assets/historia-do-rpg-uma-viagem-pela-evolucao-do-genero-ju3SRBph.js",
+      "assets/gurps-o-rpg-generico-F3lwUcQ8.js",
+      "assets/pathfinder-o-maior-rival-de-dungeons-_-dragons-0qJx_guB.js",
+      "assets/um-guia-completo-sobre-pathfinder-lQyqylJt.js",
+      "assets/os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-wt1yb653.js",
+      "assets/fate-core-system-e-o-sistema-mais-facil-do-mundo-xPUulMk5.js",
+      "assets/dicas-para-mestres-de-rpg-ToacTifH.js",
+      "assets/criando-um-mundo-de-rpg-personalizado-zQbiwlkb.js",
+      "assets/a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-ZyCtLtUe.js",
+      "assets/os-beneficios-do-rpg-para-a-vida-real-uUXohSJd.js",
+      "assets/a-influencia-de-d_d-na-cultura-pop-Xr3xAuYZ.js",
+      "assets/a-evolucao-das-mecanicas-de-rpg-MYqgKOzH.js",
+      "assets/racas-e-classes-explorando-as-escolhas-de-personagem-uLDNpAoj.js",
+      "assets/o-papel-do-mestre-na-narrativa-de-rpg-cpm8RCwO.js",
+      "assets/mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-6S8rV0X2.js",
+      "assets/o-impacto-da-arte-na-estetica-dos-rpgs-9mzcf5ZB.js",
+      "assets/a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-6iRdDRdv.js",
+      "assets/mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-gmEGOOY9.js",
+      "assets/o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-RxDX3m9S.js",
+      "assets/rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval-rES2MUbO.js",
+      "assets/como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-tlgx2gps.js",
+      "assets/descobrindo-o-mundo-do-rpg-savage-worlds-v-NY9krL.js",
+      "assets/explorando-os-subgeneros-do-rpg-IApjRdKF.js",
+      "assets/baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-2jETnKQ_.js",
+      "assets/descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-mg77jzfR.js",
+      "assets/descobrindo-o-universo-do-rpg-world-of-darkness-8J-l4iKx.js",
+      "assets/e-dificil-comecar-a-jogar-rpg-de-mesa-1ic-_HLr.js",
+      "assets/a-importancia-da-cooperacao-em-jogos-de-rpg-PQaEAJmt.js",
+      "assets/criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-pixPODoz.js",
+      "assets/o-rpg-como-pilar-da-cultura-geek-e-nerd-NJ9dPfnM.js",
+      "assets/criando-personagens-complexos-e-multidimensionais-no-rpg-ccF_pnjW.js",
+      "assets/a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-vk87jFFE.js",
+      "assets/construindo-mundos-de-campanha-de-rpg-atrativos-Mo0SmXYn.js",
+      "assets/o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-i_QjOyJN.js",
+      "assets/as-origens-e-a-evolucao-dos-dados-de-rpg-LqCU2t-T.js",
+      "assets/rpg-como-ferramenta-de-aprendizado-iipk9voQ.js",
+      "assets/inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-PlJly39J.js",
+      "assets/o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-q584IMlX.js",
+      "assets/rpgs-para-criancas-e-iniciantes-rSqBiwxd.js",
+      "assets/etica-e-responsabilidade-em-jogos-de-rpg-JwSn7hYF.js",
+      "assets/o-uso-de-ferramentas-digitais-em-mesas-de-rpg-98jeyp_K.js",
+      "assets/criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-4gIxHHWr.js",
+      "assets/a-influencia-das-artes-marciais-em-personagens-de-rpg-WdQbjd1-.js",
+      "assets/a-diversidade-de-estilos-de-narrativa-em-rpg-C-1ocVZJ.js",
+      "assets/o-uso-terapeutico-dos-jogos-de-rpg-xVnMPM6a.js",
+      "assets/diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-fki5SkAr.js",
+      "assets/evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-Hh017FQk.js",
+      "assets/influencia_da_mitologia_em_jogos_de_rpg-3c4BMtWP.js",
+      "assets/rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-kETecYW_.js",
+      "assets/impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-htgIsMNe.js",
+      "assets/mundo_das_miniaturas_e_cenarios_personalizados-cQU1pr8O.js",
+      "assets/evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-IefvhPqu.js",
+      "assets/historia_e_a_evolucao_dos_larp_live_action_role_playing-d7lnMPKx.js",
+      "assets/jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-OxwyE7P8.js",
+      "assets/uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-knEwR7lV.js",
+      "assets/mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-9G3hTO63.js",
+      "assets/psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-CDj0EEki.js",
+      "assets/papel_das_ferramentas_de_software_em_jogos_de_rpg-MVS_lca1.js",
+      "assets/historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-sOdaIFzE.js",
+      "assets/explorando_a_cultura_do_cosplay_em_rpg-nREO8nar.js",
+      "assets/rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-x6BYHn7x.js",
+      "assets/uso_de_simbologia_e_mitologia_em_rpgs-6x_f43-e.js",
+      "assets/economia_nos_mundos_de_rpg_moedas_e_comercio-InR_569O.js",
+      "assets/importancia_da_diversidade_e_representacao_nos_jogos-3PiBYJ5G.js",
+      "assets/futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-kCpPF2mF.js",
+      "assets/NotFoundView-qf2uVoXH.js",
       "assets/NotFoundView-imReMPlA.css",
       "assets/quill-OFcVbw76.js",
     ];
