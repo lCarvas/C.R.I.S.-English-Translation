@@ -1054,7 +1054,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
         v = H,
         m = ["1", "2", "3", "4"],
         i = ["Knowledge", "Energy", "Fear", "Death", "Blood", "Varies"],
-        s = ["standard", "movement", "complete", "reation", "free"],
+        s = ["Standard", "Movement", "Complete", "Reation", "Free"],
         u = [
           "Personal",
           "Touch",
