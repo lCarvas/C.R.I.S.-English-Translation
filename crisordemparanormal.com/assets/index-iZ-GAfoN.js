@@ -24333,7 +24333,7 @@ const cw = {
   Y1 = [G1, Q1],
   X1 = { key: 0, class: "nav-container" },
   J1 = al(
-    '<a href="https://www.catarse.me/crisordemparanormal" target="_blank" data-v-a1e4e96e><h3 class="agents-login" data-v-a1e4e96e> Patente </h3></a><div class="icons-container" data-v-a1e4e96e><a class="discord-link" href="https://discord.gg/crisordemparanormal" target="_blank" data-v-a1e4e96e><img class="icon" src="' +
+    '<a href="https://www.catarse.me/crisordemparanormal" target="_blank" data-v-a1e4e96e><h3 class="agents-login" data-v-a1e4e96e> Rank </h3></a><div class="icons-container" data-v-a1e4e96e><a class="discord-link" href="https://discord.gg/crisordemparanormal" target="_blank" data-v-a1e4e96e><img class="icon" src="' +
       RT +
       '" alt="discord" data-v-a1e4e96e></a><a class="discord-link" href="https://twitter.com/CrisOrdemPrnml" target="_blank" data-v-a1e4e96e><img class="icon-twitter" src="' +
       PT +
