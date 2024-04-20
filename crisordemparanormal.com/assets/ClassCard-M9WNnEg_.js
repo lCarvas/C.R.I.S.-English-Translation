@@ -18,8 +18,8 @@ import {
   j as S,
   v as E,
   T as V,
-} from "./index-iZ-GAfoN.js";
-import { P as I } from "./PowerCard-sQQpYPFh.js";
+} from "./index-R0omtfCh.js";
+import { P as I } from "./PowerCard-6W--TIUy.js";
 import { _ as A } from "./show-more-icon-VvUXKiHG.js";
 const Xa = [
     {
@@ -30,7 +30,7 @@ const Xa = [
       power: {
         name: "Knowledge is Power",
         description:
-          "When you make an Intellect-based skill check, you can spend 2 EP to receive +5 on the roll.",
+          "When you make an Intellect-based check, you can spend 2 EP to receive +5 on the roll.",
       },
     },
     {

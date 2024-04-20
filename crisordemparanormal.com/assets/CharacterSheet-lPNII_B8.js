@@ -49,15 +49,15 @@ import {
   l as Vt,
   X as wt,
   Q as Ot,
-} from "./index-iZ-GAfoN.js";
+} from "./index-R0omtfCh.js";
 import {
   g as zt,
   r as fo,
   b as Ht,
   u as jt,
   a as Ut,
-} from "./index.esm2017-0FKQr3vX.js";
-import { T as xt } from "./ToastNotification-F0q0hrkI.js";
+} from "./index.esm2017-FewWT372.js";
+import { T as xt } from "./ToastNotification-UC8TDHNU.js";
 import {
   I as ta,
   n as Nt,
@@ -94,20 +94,20 @@ import {
   E as vs,
   G as gs,
   H as hs,
-} from "./characterSheetUtils-5NfnwOG6.js";
+} from "./characterSheetUtils-ny071EEm.js";
 import { _ as ca } from "./d20-icon-vaz1En3o.js";
-import { T as ve } from "./TabNav-1z2f_REq.js";
-import { P as Be } from "./PowerCard-sQQpYPFh.js";
-import { R as _o } from "./RitualCard-0qw1-CS-.js";
+import { T as ve } from "./TabNav-i5pnIhG4.js";
+import { P as Be } from "./PowerCard-6W--TIUy.js";
+import { R as _o } from "./RitualCard-G1fl3aJr.js";
 import {
   W as Po,
   P as Mo,
   M as Ro,
   C as Do,
-} from "./CursedItemCard-nIuQJNZr.js";
+} from "./CursedItemCard-LnK1HgdE.js";
 import { c as He } from "./classes-j7W_HvC7.js";
-import { S as Ie } from "./SearchInput-4SAqHsH6.js";
-import { b as fs, c as bs } from "./ClassCard-zGTAlZfy.js";
+import { S as Ie } from "./SearchInput-QmHiECy4.js";
+import { b as fs, c as bs } from "./ClassCard-M9WNnEg_.js";
 import {
   H as Cs,
   b as As,
@@ -118,7 +118,7 @@ import {
   P as Oo,
   M as ia,
   c as zo,
-} from "./HomebrewItems-qJLVDquJ.js";
+} from "./HomebrewItems-JiTlIzgr.js";
 import {
   d as _e,
   p as Ho,
@@ -131,14 +131,14 @@ import {
 } from "./default-tJ6A0c0K.js";
 import { b as Ss } from "./forms-8DDAOOVU.js";
 import { _ as je, l as Ao } from "./lodash-gzw5KmHd.js";
-import { D as $e } from "./DropdownSimple-E0IoYnGk.js";
+import { D as $e } from "./DropdownSimple-MAVPy8cy.js";
 import { v as Ue } from "./v4-cyCr5FZV.js";
-import { S as ra } from "./SwitchButtonBool-xUgSC52c.js";
+import { S as ra } from "./SwitchButtonBool-RRYQtpJ1.js";
 import { a as _s, _ as Uo } from "./open-in-new-icon-p91krxL-.js";
 import { _ as Re } from "./blank-profile-picture-wMh28flS.js";
-import { P as xo } from "./PictureModal-sYC06RTi.js";
-import { L as Ps } from "./LoadingView-lYHwbNAV.js";
-import { g as Ms, C as Rs } from "./firebase-zuRqGyck.js";
+import { P as xo } from "./PictureModal-ejmO73AK.js";
+import { L as Ps } from "./LoadingView-3PnmBxfB.js";
+import { g as Ms, C as Rs } from "./firebase-M2_dwsIb.js";
 import "./edit-icon-u1vf_q3w.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./skills-siTAQjCS.js";
@@ -5980,18 +5980,18 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
         g = b,
         l = [
           "Ballistic",
-          "Knowledge",
-          "Slashing",
+          "Blood",
+          "Bludgeoning",
+          "Chemical",
+          "Cold",
+          "Death",
           "Electricity",
           "Energy",
           "Fire",
-          "Cold",
-          "Bludgeoning",
+          "Knowledge",
           "Mental",
-          "Death",
           "Piercing",
-          "Blood",
-          "Chemical",
+          "Slashing",
         ],
         p = ["-", "Short", "Medium", "Long", "Extreme", "Unlimited"],
         c = [

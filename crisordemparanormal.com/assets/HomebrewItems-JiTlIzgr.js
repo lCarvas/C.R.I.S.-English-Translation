@@ -36,16 +36,16 @@ import {
   T as Qe,
   Q as Ge,
   L as Je,
-} from "./index-iZ-GAfoN.js";
-import { P as _t } from "./PowerCard-sQQpYPFh.js";
-import { S as pe } from "./SearchInput-4SAqHsH6.js";
-import { L as le } from "./LoadingView-lYHwbNAV.js";
-import { H as te, g as Ie, b as Ke } from "./firebase-zuRqGyck.js";
+} from "./index-R0omtfCh.js";
+import { P as _t } from "./PowerCard-6W--TIUy.js";
+import { S as pe } from "./SearchInput-QmHiECy4.js";
+import { L as le } from "./LoadingView-3PnmBxfB.js";
+import { H as te, g as Ie, b as Ke } from "./firebase-M2_dwsIb.js";
 import {
   p as Ve,
   r as Re,
-  w as De,
-  f as Me,
+  w as Me,
+  f as De,
   m as xe,
   g as Be,
   e as ft,
@@ -59,16 +59,16 @@ import {
   h as mt,
 } from "./forms-8DDAOOVU.js";
 import { _ as E } from "./lodash-gzw5KmHd.js";
-import { T as Xe } from "./ToastNotification-F0q0hrkI.js";
-import { R as yt } from "./RitualCard-0qw1-CS-.js";
-import { T as Oe } from "./TabNav-1z2f_REq.js";
-import { D as O } from "./DropdownSimple-E0IoYnGk.js";
+import { T as Xe } from "./ToastNotification-UC8TDHNU.js";
+import { R as yt } from "./RitualCard-G1fl3aJr.js";
+import { T as Oe } from "./TabNav-i5pnIhG4.js";
+import { D as O } from "./DropdownSimple-MAVPy8cy.js";
 import {
   W as $t,
   P as Ct,
   M as kt,
   C as gt,
-} from "./CursedItemCard-nIuQJNZr.js";
+} from "./CursedItemCard-LnK1HgdE.js";
 const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Ht = { class: "delete-container" },
   Lt = { class: "delete-wrapper" },
@@ -121,8 +121,8 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Pt = { key: 0 },
   Vt = { key: 0 },
   Rt = { class: "header-container" },
-  Dt = { key: 0 },
-  Mt = { key: 1 },
+  Mt = { key: 0 },
+  Dt = { key: 1 },
   xt = ["disabled"],
   Bt = { key: 0, class: "search-container" },
   qt = { key: 1, class: "class-abilities-content" },
@@ -156,20 +156,20 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
         var $e, Ce, ce, me, ve;
         if (!m.currentUser) return;
         const A = N(i, "homebrewRituals"),
-          D = G(
+          M = G(
             A,
             J("uid", "==", ($e = m.currentUser) == null ? void 0 : $e.uid)
           ),
-          S = await K(D),
+          S = await K(M),
           re = N(i, "homebrewItems"),
           I = G(
             re,
             J("uid", "==", (Ce = m.currentUser) == null ? void 0 : Ce.uid)
           ),
           U = await K(I),
-          M = N(i, "homebrewCreatures"),
+          D = N(i, "homebrewCreatures"),
           Z = G(
-            M,
+            D,
             J("uid", "==", (ce = m.currentUser) == null ? void 0 : ce.uid)
           ),
           ee = await K(Z),
@@ -196,13 +196,13 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
           u.value
             ? u.value
                 .filter((A) => Q(A.name, n.value))
-                .sort((A, D) => A.name.localeCompare(D.name))
+                .sort((A, M) => A.name.localeCompare(M.name))
             : []
         ),
         C = (A) => {
           (l.value = A),
             (r.value = !0),
-            (_.value = u.value.findIndex((D) => D.id === l.value));
+            (_.value = u.value.findIndex((M) => M.id === l.value));
         },
         B = () => {
           (l.value = ""), (r.value = !1), (_.value = void 0);
@@ -216,7 +216,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
             y.value--,
             y.value < te ? (k.value = !0) : (k.value = !1);
         };
-      return (A, D) =>
+      return (A, M) =>
         s.value
           ? (t(), o("div", Wt, [c(le)]))
           : (t(),
@@ -243,19 +243,19 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                         ? (t(),
                           o(
                             "h3",
-                            Dt,
+                            Mt,
                             " Homebrew " + q(y.value) + "/" + q(Se(te)),
                             1
                           ))
-                        : (t(), o("h3", Mt, " Homebrew " + q(y.value), 1)),
+                        : (t(), o("h3", Dt, " Homebrew " + q(y.value), 1)),
                       e(
                         "button",
                         {
                           class: "button-primary new-button",
                           disabled: !k.value && p.value < 4,
                           onClick:
-                            D[0] ||
-                            (D[0] = (S) => A.$emit("handleCreatePower")),
+                            M[0] ||
+                            (M[0] = (S) => A.$emit("handleCreatePower")),
                         },
                         " Add New ",
                         8,
@@ -270,7 +270,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                             {
                               value: n.value,
                               dark: !a.homebrewList,
-                              onUpdate: D[1] || (D[1] = (S) => (n.value = S)),
+                              onUpdate: M[1] || (M[1] = (S) => (n.value = S)),
                             },
                             null,
                             8,
@@ -758,7 +758,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
             I,
             J("uid", "==", (ve = s.currentUser) == null ? void 0 : ve.uid)
           ),
-          M = await K(U),
+          D = await K(U),
           Z = N(u, "homebrewItems"),
           ee = G(
             Z,
@@ -778,7 +778,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
           ),
           ce = await K(Ce);
         (L.value =
-          $.docs.length + M.docs.length + ce.docs.length + ye.docs.length),
+          $.docs.length + D.docs.length + ce.docs.length + ye.docs.length),
           L.value >= te && (h.value = !1);
         const me = [];
         for (const Ee of ce.docs) {
@@ -815,7 +815,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                 .filter((I) => I.circle === i[_.value].circle)
                 .filter((I) => Q(I.name, y.value))
         ),
-        D = (I) => {
+        M = (I) => {
           (p.value = I),
             (k.value = !0),
             (b.value = r.value.findIndex((U) => U.id === p.value));
@@ -862,7 +862,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                             "current-tab": l.value,
                             "tab-options": m,
                             onHandleNavigation:
-                              U[0] || (U[0] = (M) => (l.value = M)),
+                              U[0] || (U[0] = (D) => (l.value = D)),
                           },
                           null,
                           8,
@@ -877,7 +877,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                               "invert-background-color": a.homebrewList,
                               secondary: "",
                               onHandleNavigation:
-                                U[1] || (U[1] = (M) => (_.value = M)),
+                                U[1] || (U[1] = (D) => (_.value = D)),
                             },
                             null,
                             8,
@@ -903,7 +903,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                           disabled: !h.value && z.value < 4,
                           onClick:
                             U[2] ||
-                            (U[2] = (M) => I.$emit("handleCreateRitual")),
+                            (U[2] = (D) => I.$emit("handleCreateRitual")),
                         },
                         " Add New ",
                         8,
@@ -918,7 +918,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                             {
                               value: y.value,
                               dark: !a.homebrewList,
-                              onUpdate: U[3] || (U[3] = (M) => (y.value = M)),
+                              onUpdate: U[3] || (U[3] = (D) => (y.value = D)),
                             },
                             null,
                             8,
@@ -935,21 +935,21 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                             null,
                             Fe(
                               A.value,
-                              (M) => (
+                              (D) => (
                                 t(),
                                 o(
                                   "div",
-                                  { key: M.id, class: "class-ritual-card" },
+                                  { key: D.id, class: "class-ritual-card" },
                                   [
                                     c(
                                       yt,
                                       {
-                                        id: M.id,
-                                        ritual: M,
+                                        id: D.id,
+                                        ritual: D,
                                         sheet: "",
                                         homebrew: "",
                                         "homebrew-list": a.homebrewList,
-                                        onHandleRemove: D,
+                                        onHandleRemove: M,
                                         onHandleAdd: C,
                                         onHandleEdit: B,
                                       },
@@ -980,11 +980,11 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
     },
   }),
   Po = j(Eo, [["__scopeId", "data-v-5e22dea3"]]),
-  F = (a) => (_e("data-v-9e321be1"), (a = a()), fe(), a),
+  F = (a) => (_e("data-v-21a2e22d"), (a = a()), fe(), a),
   Vo = { class: "input-container" },
   Ro = F(() => e("div", { class: "label" }, " Name* ", -1)),
-  Do = { class: "input-row" },
-  Mo = { class: "input-container" },
+  Mo = { class: "input-row" },
+  Do = { class: "input-container" },
   xo = F(() => e("div", { class: "label" }, " Element ", -1)),
   Bo = { class: "input-container" },
   qo = F(() => e("div", { class: "label" }, " Circle ", -1)),
@@ -1049,7 +1049,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
     },
     emits: ["handleCreateRitual", "handleClose", "handleEditRitual"],
     setup(a, { emit: H }) {
-      ne((p) => ({ dc9fe1ae: l.value }));
+      ne((p) => ({ bde1e660: l.value }));
       const d = a,
         v = H,
         m = ["1", "2", "3", "4"],
@@ -1124,8 +1124,8 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                       [[V, n.value.name]]
                     ),
                   ]),
+                  e("div", Mo, [
                   e("div", Do, [
-                    e("div", Mo, [
                       xo,
                       c(
                         O,
@@ -1413,7 +1413,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
       };
     },
   }),
-  ht = j(pn, [["__scopeId", "data-v-9e321be1"]]),
+  ht = j(pn, [["__scopeId", "data-v-21a2e22d"]]),
   wn = { key: 0 },
   _n = { key: 1 },
   fn = x({
@@ -1630,8 +1630,8 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Pn = { key: 0 },
   Vn = { key: 1 },
   Rn = { key: 2 },
-  Dn = ["disabled"],
-  Mn = { key: 3 },
+  Mn = ["disabled"],
+  Dn = { key: 3 },
   xn = ["disabled"],
   Bn = { key: 4 },
   qn = ["disabled"],
@@ -1715,7 +1715,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
         B = w(""),
         Y = w(0),
         A = w(!0),
-        D = w(0),
+        M = w(0),
         S = ($) => v("handleAddItem", $),
         re = ($) => v("handleEditItem", $);
       Ne(async () => {
@@ -1767,7 +1767,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
           (r.value = Pe),
           (l.value = Ze),
           (_.value = et),
-          (D.value = await Ie((st = m.currentUser) == null ? void 0 : st.uid)),
+          (M.value = await Ie((st = m.currentUser) == null ? void 0 : st.uid)),
           (s.value = !1);
       });
       const I = R(() => (d.homebrewList ? "0" : "0.5rem")),
@@ -1794,7 +1794,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                 .sort(($, g) => $.name.localeCompare(g.name))
             : []
         ),
-        M = ($) => {
+        D = ($) => {
           (z.value = $.id),
             (h.value = !0),
             (B.value = $.itemType),
@@ -1918,7 +1918,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                 : (t(),
                   o("div", Un, [
                     e("div", En, [
-                      D.value < 4
+                      M.value < 4
                         ? (t(),
                           o(
                             "h3",
@@ -1934,25 +1934,25 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                               "button",
                               {
                                 class: "button-primary new-button",
-                                disabled: !A.value && D.value < 4,
+                                disabled: !A.value && M.value < 4,
                                 onClick:
                                   g[0] ||
                                   (g[0] = (T) => $.$emit("handleCreateWeapon")),
                               },
                               " Add Weapon ",
                               8,
-                              Dn
+                              Mn
                             ),
                           ]))
                         : f("", !0),
                       a.currentTab === 1
                         ? (t(),
-                          o("div", Mn, [
+                          o("div", Dn, [
                             e(
                               "button",
                               {
                                 class: "button-primary new-button",
-                                disabled: !A.value && D.value < 4,
+                                disabled: !A.value && M.value < 4,
                                 onClick:
                                   g[1] ||
                                   (g[1] = (T) =>
@@ -1971,7 +1971,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                               "button",
                               {
                                 class: "button-primary new-button",
-                                disabled: !A.value && D.value < 4,
+                                disabled: !A.value && M.value < 4,
                                 onClick:
                                   g[2] ||
                                   (g[2] = (T) =>
@@ -1990,7 +1990,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                               "button",
                               {
                                 class: "button-primary new-button",
-                                disabled: !A.value && D.value < 4,
+                                disabled: !A.value && M.value < 4,
                                 onClick:
                                   g[3] ||
                                   (g[3] = (T) => $.$emit("handleCreateMisc")),
@@ -2008,7 +2008,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                               "button",
                               {
                                 class: "button-primary new-button",
-                                disabled: !A.value && D.value < 4,
+                                disabled: !A.value && M.value < 4,
                                 onClick:
                                   g[4] ||
                                   (g[4] = (T) =>
@@ -2157,7 +2157,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                                               sheet: "",
                                               homebrew: "",
                                               "homebrew-list": a.homebrewList,
-                                              onHandleRemove: M,
+                                              onHandleRemove: D,
                                               onHandleEdit: re,
                                               onHandleAdd: S,
                                             },
@@ -2178,7 +2178,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                                               sheet: "",
                                               homebrew: "",
                                               "homebrew-list": a.homebrewList,
-                                              onHandleRemove: M,
+                                              onHandleRemove: D,
                                               onHandleEdit: re,
                                               onHandleAdd: S,
                                             },
@@ -2204,7 +2204,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                                               sheet: "",
                                               homebrew: "",
                                               "homebrew-list": a.homebrewList,
-                                              onHandleRemove: M,
+                                              onHandleRemove: D,
                                               onHandleEdit: re,
                                               onHandleAdd: S,
                                             },
@@ -2225,7 +2225,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                                               sheet: "",
                                               homebrew: "",
                                               "homebrew-list": a.homebrewList,
-                                              onHandleRemove: M,
+                                              onHandleRemove: D,
                                               onHandleEdit: re,
                                               onHandleAdd: S,
                                             },
@@ -2346,8 +2346,8 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Pa = { class: "input-row" },
   Va = { class: "input-container" },
   Ra = W(() => e("div", { class: "label" }, " Proficiency ", -1)),
-  Da = { class: "input-container" },
-  Ma = W(() => e("div", { class: "label" }, " Type ", -1)),
+  Ma = { class: "input-container" },
+  Da = W(() => e("div", { class: "label" }, " Type ", -1)),
   xa = { class: "input-container" },
   Ba = W(() => e("div", { class: "label" }, " Handling ", -1)),
   qa = { class: "input-row" },
@@ -2398,7 +2398,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   ds = x({
     __name: "WeaponForm",
     props: {
-      weapon: { type: Object, default: De },
+      weapon: { type: Object, default: Me },
       edit: Boolean,
       sheet: Boolean,
       addMode: Boolean,
@@ -2419,18 +2419,18 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
         s = ["Light", "One Handed", "Two Handed"],
         u = [
           "Ballistic",
-          "Knowledge",
-          "Slashing",
-          "Eletricity",
-          "Energy",
-          "Fire",
-          "Cold",
-          "Bludgeoning",
-          "Mental",
-          "Death",
-          "Piercing",
           "Blood",
+          "Bludgeoning",
           "Chemical",
+          "Cold",
+          "Death",
+          "Energy",
+          "Eletricity",
+          "Fire",
+          "Knowledge",
+          "Mental",
+          "Piercing",
+          "Slashing",
         ],
         n = ["-", "Short", "Medium", "Long", "Extreme", "Unlimited"],
         r = ["0", "I", "II", "III", "IV"],
@@ -2454,19 +2454,19 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
             : "25.75rem"
         ),
         k = () => {
-          (l.value = E.clone(De)), v("handleClose");
+          (l.value = E.clone(Me)), v("handleClose");
         },
         p = () => {
           _.value ||
             (dt(l.value),
             v("handleCreateWeapon", l.value),
-            (l.value = E.clone(De)));
+            (l.value = E.clone(Me)));
         },
         b = () => {
           if (_.value) return;
           dt(l.value);
           const L = { item: l.value, sheet: d.sheet };
-          v("handleEditWeapon", L), (l.value = E.clone(De));
+          v("handleEditWeapon", L), (l.value = E.clone(Me));
         };
       return (L, h) => {
         const z = ge("p-editor");
@@ -2521,8 +2521,8 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                         ["value"]
                       ),
                     ]),
-                    e("div", Da, [
-                      Ma,
+                    e("div", Ma, [
+                      Da,
                       c(
                         O,
                         {
@@ -2819,7 +2819,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Hs = x({
     __name: "ProtectionForm",
     props: {
-      protection: { type: Object, default: Me },
+      protection: { type: Object, default: De },
       edit: Boolean,
       sheet: Boolean,
       addMode: Boolean,
@@ -2842,19 +2842,19 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
             i.value.defense.toString() === ""
         ),
         r = () => {
-          (i.value = E.clone(Me)), v("handleClose");
+          (i.value = E.clone(De)), v("handleClose");
         },
         l = () => {
           n.value ||
             (ut(i.value),
             v("handleCreateProtection", i.value),
-            (i.value = E.clone(Me)));
+            (i.value = E.clone(De)));
         },
         _ = () => {
           if (n.value) return;
           ut(i.value);
           const y = { item: i.value, sheet: d.sheet };
-          v("handleEditProtection", y), (i.value = E.clone(Me));
+          v("handleEditProtection", y), (i.value = E.clone(De));
         };
       return (y, k) => {
         const p = ge("p-editor");
@@ -3014,8 +3014,8 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Ps = Le(() => e("div", { class: "label" }, " Category* ", -1)),
   Vs = { class: "input-container" },
   Rs = Le(() => e("div", { class: "label" }, " Space* ", -1)),
-  Ds = { key: 0, class: "input-container" },
-  Ms = Le(() => e("div", { class: "label" }, " Tag ", -1)),
+  Ms = { key: 0, class: "input-container" },
+  Ds = Le(() => e("div", { class: "label" }, " Tag ", -1)),
   xs = Le(() =>
     e(
       "div",
@@ -3158,8 +3158,8 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
                   ]),
                   s.value.itemType !== "ammunition"
                     ? (t(),
-                      o("div", Ds, [
-                        Ms,
+                      o("div", Ms, [
+                        Ds,
                         c(
                           O,
                           {
@@ -3300,7 +3300,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
       const d = a,
         v = H,
         m = ["0", "I", "II", "III", "IV"],
-        i = ["Knowledge", "Energy", "Fear", "Death", "Blood", "Varies"],
+        i = ["Blood", "Death", "Energy", "Fear", "Knowledge", "Varies"],
         s = w(E.clone(d.cursedItem)),
         u = R(() =>
           (d.edit && d.sheet) || d.homebrewList
