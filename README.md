@@ -18,3 +18,8 @@
 |Classes 🟡|✅|❌|✅|
 |Background Abilities 🟡|✅|✅|⬛|
 |Class Abilities 🟡|🟡|🟡|⬛|
+
+ - ✅ Finished
+ - 🟡 Started
+ - ❌ Not Started
+ - ⬛ Not applicable
