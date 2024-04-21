@@ -14,7 +14,7 @@
 |Items 🟡|🟡|❌|✅|
 |Rituals 🟡|❌|❌|✅|
 |Creatures 🟡 (No way to test as feature is in development)|🟡|❌|🟡|
-|Backgrounds|✅|❌|✅|
-|Classes|✅|❌|✅|
-|Background Abilities|✅|✅|⬛|
-|Class Abilities|🟡|🟡|⬛|
+|Backgrounds 🟡|✅|❌|✅|
+|Classes 🟡|✅|❌|✅|
+|Background Abilities 🟡|✅|✅|⬛|
+|Class Abilities 🟡|🟡|🟡|⬛|
