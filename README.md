@@ -23,3 +23,10 @@
  - 🟡 Started
  - ❌ Not Started
  - ⬛ Not applicable
+
+### Support
+- Chromium Browsers ✅
+- Firefox 🟡
+  - Harder to use local overrides, website fonts look weird, useable but I don't recomend
+- Opera/Opera GX
+  - Untested
