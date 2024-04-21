@@ -18,7 +18,6 @@
 |Classes 🟡|✅|❌|✅|
 |Background Abilities 🟡|✅|✅|⬛|
 |Class Abilities 🟡|🟡|🟡|⬛|
-|Skills ✅|
 
  - ✅ Finished
  - 🟡 Started
