@@ -1,7 +1,7 @@
 # C.R.I.S. English Translation
 ####  Last updated 21/04/2024 00:19
 
-|Translation Progress|Names/Headers|Descriptions|Modals/Other small things|
+|Translation Progress|Names/Headers|Descriptions|Interfaces/Other small things|
 |-|-|-|-|
 |Home Page ✅|
 |Character List Page ✅|
