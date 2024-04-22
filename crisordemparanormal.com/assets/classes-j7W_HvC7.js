@@ -56,97 +56,97 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Heavy Weaponry",
           description:
-            "<p>Você recebe proficiência com armas pesadas. <em>Pré-requisito:</em> For 2.</p>",
+            "<p>You receive proficiency with heavy weapons. <em>Pré-requisito:</em> For 2.</p>",
         },
         {
           name: "Martial Artist",
           description:
-            "<p>Seus ataques desarmados causam 1d6 pontos de dano, podem causar dano letal e contam como armas ágeis. Em NEX 35%, o dano aumenta para 1d8 e, em NEX 70%, para 1d10.</p>",
+            "<p>Your unnarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
         },
         {
           name: "Opportunity Attack",
           description:
-            "<p>Sempre que um ser sair voluntariamente de um espaço adjacente ao seu, você pode gastar uma reação e 1 PE para fazer um ataque corpo a corpo contra ele.</p>",
+            "<p>Whenever a being voluntarily leaves a space adjacent to yours, you can use a reaction and 1 EP to make a melee attack against them.</p>",
         },
         {
           name: "Fighting with Two Weapons",
           description:
-            "<p>Se estiver usando duas armas (e pelo menos uma for leve) e fizer a ação agredir, você pode fazer dois ataques, um com cada arma. Se fizer isso, sofre –1d20 em todos os testes de ataque até o seu próximo turno. <em>Pré-requisitos:</em> Agi 3, treinado em Luta ou Pontaria.</p>",
+            "<p>If you are using two weapons (and at least one of them is light) and make an attack, you can make two attacks, one with each weapon. If you do so, you suffer –1d20 on all attack rolls until your next turn. <em>Prerequisites:</em> Agi 3, trained in Fighting or Marksmanship.</p>",
         },
         {
           name: "Defensive Fighting",
           description:
-            "<p>Quando usa a ação agredir, você pode combater defensivamente. Se fizer isso, até seu próximo turno, sofre –1d20 em todos os testes de ataque, mas recebe +5 na Defesa. <em>Pré-requisito:</em> Int 2.</p>",
+            "<p>When you make an attack, you can fight defensively. If you do so, until your next turn, you suffer –1d20 on all attack rolls, but gain +5 to Defense. <em>Prerequisite:</em> Int 2.</p>",
         },
         {
           name: "Demolishing Strike",
           description:
-            "<p>Quando usa a manobra quebrar ou ataca um objeto, você pode gastar 1 PE para causar dois dados de dano extra do mesmo tipo de sua arma. <em>Pré-requisitos:</em> For 2, treinado em Luta.</p>",
+            "<p>When you use the break maneuver or attack an object, you can spend 1 EP to deal two extra damage dice of the same type as your weapon. <em>Prerequisites:</em> Str 2, trained in Fighting.</p>",
         },
         {
           name: "Heavy Strike",
           description:
-            "<p>O dano de suas armas corpo a corpo aumenta em mais um dado do mesmo tipo.</p>",
+            "<p>The damage of your melee weapons increases by one more die of the same type.</p>",
         },
         {
           name: "Indefatigable",
           description:
-            "<p>Uma vez por cena, você pode gastar 2 PE para fazer uma ação de investigação adicional, mas deve usar Força ou Agilidade como atributo-base do teste.</p>",
+            "<p>Once per scene, you can spend 2 EP to make an additional investigation action, but you must use Strength or Agility as the base attribute for the roll.</p>",
         },
         {
           name: "Athletic Prowess",
           description:
-            "<p>Quando faz um teste de facilitar a investigação, você pode gastar 1 PE para usar Força ou Agilidade no lugar do atributo-base da perícia. Se passar no teste, o próximo aliado que usar seu bônus também recebe +1d20 no teste.</p>",
+            "<p>When you make a Facilitate Investigation check, you can spend 1 EP to use Strength or Agility in place of the skill's base attribute. If you pass the check, the next ally who uses your bonus also gains +1d20 to the check.</p>",
         },
         {
           name: "Heavy Armor",
           description:
-            "<p>Você recebe proficiência com Proteções Pesadas. <em>Pré-requisito:</em> NEX 30%.</p>",
+            "<p>You receive proficiency with Heavy Armor. <em>Prerequisite:</em> EXP 30%.</p>",
         },
         {
           name: "Defensive Reflexes",
           description:
-            "<p>Você recebe +2 em Defesa e em testes de resistência. <em>Pré-requisitos:</em> Agi 2.</p>",
+            "<p>You gain +2 to Defense and saving throws. <em>Prerequisites:</em> Agi 2.</p>",
         },
         {
           name: "Quick Draw",
           description:
-            "<p>Você pode sacar ou guardar itens como uma ação livre (em vez de ação de movimento). Além disso, caso esteja usando a regra opcional de contagem de munição, uma vez por rodada pode recarregar uma arma de disparo como uma ação livre. <em>Pré-requisito:</em> treinado em Iniciativa.</p>",
+            "<p>You can draw or put away items as a free action (instead of a movement action). Additionally, if you are using the optional ammo counting rule, once per round you can reload an arrow-based weapon as a free action. <em>Prerequisite:</em> trained in Initiative.</p>",
         },
         {
           name: "Hold the Trigger",
           description:
-            "<p>Sempre que acerta um ataque com uma arma de fogo, pode fazer outro ataque com a mesma arma contra o mesmo alvo, pagando 2 PE por cada ataque já realizado no turno. Ou seja, pode fazer o primeiro ataque extra gastando 2 PE e, se acertar, pode fazer um segundo ataque extra gastando mais 4 PE e assim por diante, até errar um ataque ou atingir o limite de seus PE por rodada. <em>Pré-requisito:</em> NEX 60%.</p>",
+            "<p>Whenever you hit an attack with a firearm, you can make another attack with the same weapon against the same target, paying 2 EP for each attack already made in the turn. In other words, you can make the first extra attack spending 2 EP and, if you hit, you can make a second extra attack spending another 4 EP and so on, until you miss an attack or reach your EP per round limit. <em>Prerequisite:</em> EXP 60%.</p>",
         },
         {
           name: "Tactical Senses",
           description:
-            "<p>Você pode gastar uma ação de movimento e 2 PE para analisar o ambiente. Se fizer isso, recebe um bônus em Defesa e em testes de resistência igual ao seu Intelecto até o final da cena. <em>Pré-requisitos:</em> treinado em Percepção e Tática.</p>",
+            "<p>You can use a movement action and 2 EP to analyze the environment. If you do so, you receive a bonus to Defense and saving throws equal to your Intellect until the end of the scene. <em>Prerequisites:</em> Trained in Perception and Tactics.</p>",
         },
         {
           name: "War Tank",
           description:
-            "<p>Se estiver usando uma proteção pesada, a Defesa e a resistência a dano que ela fornece aumentam em +2. <em>Pré-requisito:</em> Proteção Pesada.</p>",
+            "<p>If you are using heavy armor, the Defense and the damage resistance it provides increase by +2. <em>Prerequisite:</em> Heavy Armor.</p>",
         },
         {
           name: "Well-Aimed Shot",
           description:
-            "<p>Se estiver usando uma arma de disparo, você soma sua Agilidade nas rolagens de dano e ignora a penalidade contra alvos envolvidos em combate corpo a corpo (mesmo se não usar a ação mirar). <em>Pré-requisito:</em> treinado em Pontaria.</p>",
+            "<p>If you are using an arrow-based weapon, you add your Agility to damage rolls and ignore the penalty against targets engaged in melee combat (even if you do not use the aim action). <em>Prerequisite:</em> trained in Marksmanship.</p>",
         },
         {
           name: "Suppressive Fire",
           description:
-            "<p>Você pode gastar uma ação padrão e 1 PE para disparar uma arma de fogo na direção de um personagem no alcance da arma apenas para forçá-lo a se proteger. Faça um teste de Pontaria contra a Vontade do alvo. Se vencer, até o início do seu próximo turno o alvo não pode sair do lugar onde está e sofre –5 em testes de ataque. A critério do mestre, o alvo recebe +5 no teste de Vontade se estiver em um lugar extremamente perigoso, como uma casa em chamas ou um barco afundando. Este é um efeito de medo.</p>",
+            "<p>You can use a standard action and 1 EP to use a firearm to shoot a character within the weapon's range to force them to take cover. Make a Marksmanship check against the target's Will. If you win, until the start of your next turn the target cannot leave its location and suffers –5 on attack tests. At the GM's discretion, the target receives +5 to the Will test if they are in an extremely dangerous place, such as a burning house or a sinking boat. This is a fear effect.</p>",
         },
         {
           name: "Transcend",
           description:
-            "<p>Escolha um poder paranormal. Você recebe o poder escolhido, mas não ganha Sanidade neste aumento de NEX. Você pode escolher este poder várias vezes.</p>",
+            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
         },
         {
           name: "Skill Trainment",
           description:
-            "<p>Escolha duas perícias. Você se torna treinado nessas perícias. A partir de NEX 35%, você pode escolher perícias nas quais já é treinado para se tornar veterano. A partir de NEX 70%, pode escolher perícias nas quais já é veterano para se tornar expert. Você pode escolher este poder várias vezes.</p>",
+            "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
         },
       ],
       paths: [
@@ -409,12 +409,12 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Transcend",
           description:
-            "<p>Escolha um poder paranormal. Você recebe o poder escolhido, mas não ganha Sanidade neste aumento de NEX. Você pode escolher este poder várias vezes.</p>",
+            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
         },
         {
           name: "Skill Trainment",
           description:
-            "<p>Escolha duas perícias. Você se torna treinado nessas perícias. A partir de NEX 35%, você pode escolher perícias nas quais já é treinado para se tornar veterano. A partir de NEX 70%, pode escolher perícias nas quais já é veterano para se tornar expert. Você pode escolher este poder várias vezes.</p>",
+            "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
         },
       ],
       paths: [
@@ -676,12 +676,12 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Transcend",
           description:
-            "<p>Escolha um poder paranormal. Você recebe o poder escolhido, mas não ganha Sanidade neste aumento de NEX. Você pode escolher este poder várias vezes.</p>",
+            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
         },
         {
           name: "Skill Trainment",
           description:
-            "<p>Escolha duas perícias. Você se torna treinado nessas perícias. A partir de NEX 35%, você pode escolher perícias nas quais já é treinado para se tornar veterano. A partir de NEX 70%, pode escolher perícias nas quais já é veterano para se tornar expert. Você pode escolher este poder várias vezes.</p>",
+            "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
         },
       ],
       paths: [
