@@ -111,7 +111,7 @@ const b = { class: "card" },
                         t[0] ||
                         (t[0] = (l) => e.$emit("handleRemove", e.user.uid)),
                     },
-                    " Remover jogador da campanha "
+                    " Remove player from campaign "
                   ),
                 ]))
               : m("", !0),

@@ -96,7 +96,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   it = q(() => e("div", null, "AGI", -1)),
   ct = { class: "combat-info-value" },
   ut = { class: "combat-info" },
-  dt = q(() => e("div", null, "FOR", -1)),
+  dt = q(() => e("div", null, "STR", -1)),
   vt = { class: "combat-info-value" },
   mt = { class: "combat-info" },
   ht = q(() => e("div", null, "INT", -1)),
@@ -110,20 +110,20 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   kt = { class: "bars-container" },
   Rt = { class: "combat-info-container-first" },
   At = { class: "combat-info-row" },
-  yt = q(() => e("div", null, "PE/TURNO: ", -1)),
+  yt = q(() => e("div", null, "EP/TURN: ", -1)),
   Dt = { class: "combat-info-value" },
   It = { class: "combat-info-row" },
-  St = q(() => e("div", null, "DESL: ", -1)),
+  St = q(() => e("div", null, "MOV: ", -1)),
   Mt = { class: "combat-info-value" },
   Ht = { class: "combat-info-container" },
   Et = { class: "combat-info" },
-  Tt = q(() => e("div", null, "DEFESA", -1)),
+  Tt = q(() => e("div", null, "DEFENSE", -1)),
   wt = { class: "combat-info-value" },
   Pt = { class: "combat-info" },
-  Ot = q(() => e("div", null, "BLOQUEIO", -1)),
+  Ot = q(() => e("div", null, "BLOCK DR", -1)),
   Vt = { class: "combat-info-value" },
   Nt = { class: "combat-info" },
-  Bt = q(() => e("div", null, "ESQUIVA", -1)),
+  Bt = q(() => e("div", null, "DODGE", -1)),
   Lt = { class: "combat-info-value" },
   Ut = N({
     __name: "CharStatusCard",
@@ -237,7 +237,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
               e(
                 "span",
                 Mt,
-                M(u.character.movement) + "m / " + M(_.value) + "q ",
+                M(u.character.movement) + "m / " + M(_.value) + "sq ",
                 1
               ),
             ]),
@@ -257,7 +257,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
             e(
               "a",
               { class: "sheet-link", href: b, target: "_blank" },
-              " Ficha "
+              " Sheet "
             ),
           ]),
         ])
@@ -268,7 +268,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   qt = (v) => (x("data-v-cd3d2f92"), (v = v()), X(), v),
   Gt = { key: 0, class: "master-screen-chars-container" },
   Kt = { key: 1, class: "no-chars-message" },
-  zt = qt(() => e("h3", null, "Ainda não há agentes na campanha", -1)),
+  zt = qt(() => e("h3", null, "There are no agents on this campaign", -1)),
   Qt = [zt],
   Wt = N({
     __name: "MasterScreenChars",
@@ -340,7 +340,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
         _ = () => {
           m("handleRollMasterDices", b.value), (b.value = "");
         },
-        D = ["PUBLICO", "PRIVADO"];
+        D = ["PUBLIC", "PRIVATE"];
       return (k, g) => (
         o(),
         i(
@@ -355,7 +355,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                   onClick:
                     g[0] || (g[0] = (u) => k.$emit("handleAddDiceMacro")),
                 },
-                " Adicionar Dados "
+                " Add Dice "
               ),
             ]),
             e("div", xt, [
@@ -368,7 +368,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                         g[1] || (g[1] = (u) => (b.value = u)),
                       type: "text",
                       class: "roll-dice-input",
-                      placeholder: "Rolar dados",
+                      placeholder: "Roll dice",
                       onKeyup: la(_, ["enter"]),
                     },
                     null,
@@ -425,7 +425,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                               value: u.value,
                               type: "text",
                               class: "master-macro-input",
-                              placeholder: "Valor",
+                              placeholder: "Value",
                               onBlur: (R) =>
                                 k.$emit("handleChangeDiceMacro", R, "value", A),
                             },
@@ -475,7 +475,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   pn = { class: "initiative-order-container" },
   fn = ["onClick"],
   _n = { class: "initiative-container" },
-  bn = hn(() => e("div", { class: "iniative-label" }, " INICIATIVA ", -1)),
+  bn = hn(() => e("div", { class: "iniative-label" }, " INITIATIVE ", -1)),
   gn = ["value", "onBlur"],
   Cn = { key: 0, class: "profile-picture-container" },
   $n = ["src"],
@@ -631,7 +631,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                       "div",
                       On,
                       M(c.character.className) +
-                        " - NEX: " +
+                        " - EXP: " +
                         M(c.character.nex),
                       1
                     ),
@@ -704,16 +704,16 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   _e = (v) => (x("data-v-6a4e9f30"), (v = v()), X(), v),
   Ln = { class: "stats-row" },
   Un = { class: "stats-container" },
-  Fn = _e(() => e("div", { class: "stats-label" }, " DEFESA ", -1)),
+  Fn = _e(() => e("div", { class: "stats-label" }, " DEFENSE ", -1)),
   qn = { class: "stats-value" },
   Gn = { class: "stats-container" },
-  Kn = _e(() => e("div", { class: "stats-label" }, " BLOQUEIO ", -1)),
+  Kn = _e(() => e("div", { class: "stats-label" }, " BLOCK DR ", -1)),
   zn = { class: "stats-value" },
   Qn = { class: "stats-container" },
-  Wn = _e(() => e("div", { class: "stats-label" }, " ESQUIVA ", -1)),
+  Wn = _e(() => e("div", { class: "stats-label" }, " DODGE ", -1)),
   jn = { class: "stats-value" },
   xn = { class: "stats-container" },
-  Xn = _e(() => e("div", { class: "stats-label" }, " DESLOCAMENTO ", -1)),
+  Xn = _e(() => e("div", { class: "stats-label" }, " MOVEMENT ", -1)),
   Jn = { class: "stats-value" },
   Zn = N({
     __name: "CharacterCombatSheetStats",
@@ -760,7 +760,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                 e(
                   "div",
                   Jn,
-                  M(_.character.movement) + "m /" + M(b.value) + "q ",
+                  M(_.character.movement) + "m /" + M(b.value) + "sq ",
                   1
                 ),
               ]),
@@ -784,10 +784,10 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   lo = { key: 1 },
   ro = { key: 0 },
   io = { key: 1, class: "no-content" },
-  co = Me(() => e("h3", null, "Nenhum ataque encontrado", -1)),
+  co = Me(() => e("h3", null, "No attack found", -1)),
   uo = [co],
   vo = { key: 2, class: "no-content" },
-  mo = Me(() => e("h3", null, "Você ainda não possui ataques", -1)),
+  mo = Me(() => e("h3", null, "You have no attacks", -1)),
   ho = [mo],
   po = N({
     __name: "CharacterCombatSheetCombat",
@@ -824,7 +824,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                   {
                     value: D.value,
                     width: "100%",
-                    placeholder: "Filtrar ataques",
+                    placeholder: "Filter attacks",
                     onUpdate: R[0] || (R[0] = (l) => (D.value = l)),
                   },
                   null,
@@ -841,7 +841,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                   "onUpdate:modelValue": R[1] || (R[1] = (l) => (_.value = l)),
                   type: "text",
                   class: "roll-dice-input",
-                  placeholder: "Rolar dados",
+                  placeholder: "Roll dice",
                   disabled: !1,
                   onKeyup: la(k, ["enter"]),
                 },
@@ -919,14 +919,14 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       const m = v,
         b = c,
         _ = [
-          { label: "ATRIBUTOS", value: 0 },
-          { label: "COMBATE", value: 1 },
+          { label: "ATTRIBUTES", value: 0 },
+          { label: "COMBAT", value: 1 },
         ],
         D = {
-          str: "Força",
-          dex: "Agilidade",
-          int: "Intelecto",
-          pre: "Presença",
+          str: "Strength",
+          dex: "Agility",
+          int: "Intellect",
+          pre: "Presence",
           con: "Vigor",
         },
         k = $(1),
@@ -940,7 +940,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           );
         },
         A = (l) => {
-          b("handleRollDices", l, "Resultado", m.character.name);
+          b("handleRollDices", l, "Results", m.character.name);
         },
         R = (l) => {
           b("handleRollAttack", m.character, l);
@@ -1087,7 +1087,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                       i(
                         "button",
                         { key: 0, class: "button-secondary", onClick: u },
-                        " Encerrar Combate "
+                        " Finish Encounter "
                       ))
                     : S("", !0),
                 ]),
@@ -1224,7 +1224,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                         i(
                           "div",
                           To,
-                          " Selecione a ficha na ordem de iniciativa para aparecer aqui "
+                          " Select the sheet on the initiative tracker to add it here "
                         )),
                   ]),
                 ]),
@@ -1283,19 +1283,19 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       const m = c,
         b = [
           {
-            title: "Geral",
+            title: "General",
             key: "geral",
-            placeholder: "Informações gerais ao longo da sessão...",
+            placeholder: "General information gathered throughout the game session...",
           },
           {
-            title: "Sessões futuras",
+            title: "Future Sessions ",
             key: "previous",
-            placeholder: "Notas de possíveis eventos futuros...",
+            placeholder: "Notes for possible future events...",
           },
           {
-            title: "Sessões anteriores",
+            title: "Previous sessions ",
             key: "next",
-            placeholder: "Eventos importantes que ocorreram...",
+            placeholder: "Important events that occurred...",
           },
         ],
         _ = (D, k) => {
@@ -1337,7 +1337,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   ca = (v) => (x("data-v-a513e168"), (v = v()), X(), v),
   Fo = { class: "modal-content modal-width" },
   qo = { class: "modal-header" },
-  Go = ca(() => e("h2", null, "Ameaça", -1)),
+  Go = ca(() => e("h2", null, "Threat", -1)),
   Ko = ca(() =>
     e("img", { class: "close-icon", src: ra, alt: "fechar" }, null, -1)
   ),
@@ -1383,7 +1383,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   xo = (v) => (x("data-v-1bea8a3d"), (v = v()), X(), v),
   Xo = { key: 0 },
   Jo = { key: 0, class: "private-master-screen" },
-  Zo = xo(() => e("h1", null, "Escudo do Mestre privado", -1)),
+  Zo = xo(() => e("h1", null, "Private DM Screen", -1)),
   Yo = { key: 1 },
   es = { key: 0, class: "screen-master-container" },
   as = { class: "screen-master-content" },
@@ -1406,26 +1406,26 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
     setup(v) {
       const { play: c } = wa(Pa),
         m = [
-          { label: "AGENTES", value: 0 },
-          { label: "COMBATES", value: 1 },
+          { label: "AGENTS", value: 0 },
+          { label: "ENCOUNTERS", value: 1 },
         ],
         b = [
-          { label: "AGENTES", value: 0 },
-          { label: "COMBATES", value: 1 },
-          { label: "DADOS DO MESTRE", value: 2 },
-          { label: "ANOTAÇÕES DO MESTRE", value: 3 },
+          { label: "AGENTS", value: 0 },
+          { label: "ENCOUNTERS", value: 1 },
+          { label: "DM'S DICE", value: 2 },
+          { label: "DM'S NOTES", value: 3 },
         ],
         _ = [
           { label: "LOG", value: 0 },
-          { label: "AGENTES", value: 1 },
-          { label: "COMBATES", value: 2 },
+          { label: "AGENTS", value: 1 },
+          { label: "ENCOUNTERS", value: 2 },
         ],
         D = [
           { label: "LOG", value: 0 },
           { label: "AGENTES", value: 1 },
-          { label: "COMBATES", value: 2 },
-          { label: "DADOS DO MESTRE", value: 3 },
-          { label: "ANOTAÇÕES DO MESTRE", value: 4 },
+          { label: "ENCOUNTERS", value: 2 },
+          { label: "DM'S DICE", value: 3 },
+          { label: "DM'S NOTES", value: 4 },
         ],
         k = De(),
         g = Ca(),
@@ -1548,7 +1548,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
             };
             $e(V), ve(), (F.value.alive = !0), c();
           } catch {
-            (w.value.message = "Valor incorreto nos dados"),
+            (w.value.message = "Incorrect dice value"),
               (w.value.type = "error"),
               (w.value.alive = !0);
           }
@@ -1574,7 +1574,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
             };
             $e(d), ve(), (E.value.alive = !0), c();
           } catch {
-            (w.value.message = "Valor incorreto nos dados"),
+            (w.value.message = "Incorrect dice value"),
               (w.value.type = "error"),
               (w.value.alive = !0);
           }
@@ -1677,7 +1677,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
         Te = (a, n) => {
           try {
             const s = va(n);
-            (E.value.title = n.name || "Ataque"),
+            (E.value.title = n.name || "Attack"),
               (E.value.totalAttack = s.attackTotal),
               (E.value.totalDamage = s.damageTotal),
               (E.value.critical = s.critical),
@@ -1695,7 +1695,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
             };
             $e(d), ve(), (E.value.alive = !0), c();
           } catch {
-            (w.value.message = "Valor incorreto nos dados"),
+            (w.value.message = "Incorrect dice value"),
               (w.value.type = "error"),
               (w.value.alive = !0);
           }
@@ -1713,11 +1713,11 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
             ),
             d = t.value.combats[t.value.currentCombat].creatures[s];
           n === "actions"
-            ? d[n].push({ id: Ye(), name: "Nova Ação" })
-            : d[n].push({ id: Ye(), name: "Novo Poder" }),
+            ? d[n].push({ id: Ye(), name: "New Action" })
+            : d[n].push({ id: Ye(), name: "New Power" }),
             L();
         },
-        ke = (a, n = "Resultado") => {
+        ke = (a, n = "Result") => {
           de(a, "DM", n, te.value);
         };
       pe(p, () => {
@@ -1755,7 +1755,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           var n, s;
           if (!t.value || !I.value) return;
           t.value.masterMacros || (t.value.masterMacros = []);
-          const a = { title: "Novo Dado", value: "3d20k1" };
+          const a = { title: "New Die", value: "3d20k1" };
           (s = (n = t.value) == null ? void 0 : n.masterMacros) == null ||
             s.unshift(a),
             L();
@@ -1791,7 +1791,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
         Ue = (a) => {
           if (!t.value || !t.value.combats) return;
           const n = {
-            FOR: "str",
+            STR: "str",
             AGI: "dex",
             INT: "int",
             PRE: "pre",
@@ -1885,13 +1885,13 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
               (ce.value = t.value.combats[
                 t.value.currentCombat
               ].creatures.findIndex((d) => d.id === a.id)),
-              s === "Ação")
+              s === "Action")
             ) {
               const d = a.actions.findIndex((r) => r.id === n);
-              (ne.value = a.actions[d]), (ue.value = "Ação");
+              (ne.value = a.actions[d]), (ue.value = "Action");
             } else {
               const d = a.powers.findIndex((r) => r.id === n);
-              (ne.value = a.powers[d]), (ue.value = "Poder");
+              (ne.value = a.powers[d]), (ue.value = "Power");
             }
         },
         ma = (a) => {
@@ -1904,7 +1904,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           )
             return;
           const n = t.value.combats[t.value.currentCombat].creatures[ce.value];
-          if (ue.value === "Ação") {
+          if (ue.value === "Action") {
             const s = n.actions.findIndex((d) => d.id === a.id);
             s > -1 && (n.actions[s] = a);
           } else {
@@ -1973,7 +1973,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                         class: "button-primary",
                         onClick: n[0] || (n[0] = (r) => a.$router.push("/")),
                       },
-                      " Voltar "
+                      " Return "
                     ),
                   ]))
                 : (o(),

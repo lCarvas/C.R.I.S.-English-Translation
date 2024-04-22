@@ -39,7 +39,7 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
     g(
       "div",
       { class: "text" },
-      " Escolha um agente para adicionar a campanha! ",
+      " Choose an agent to add to the campaign! ",
       -1
     )
   ),
@@ -50,7 +50,7 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
     g(
       "div",
       { class: "info-message" },
-      " Esta campanha já atingiu o limite de agentes! ",
+      " This campaign has reached the agent limit! ",
       -1
     )
   ),
@@ -134,7 +134,7 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
                               params: { id: X(n) },
                             })),
                       },
-                      " Voltar "
+                      " Return "
                     ),
                   ]))
                 : (s(),

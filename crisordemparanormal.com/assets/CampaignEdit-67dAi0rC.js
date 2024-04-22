@@ -38,13 +38,13 @@ import { S as ia } from "./SwitchButtonBool-RRYQtpJ1.js";
 import { g as la } from "./firebase-M2_dwsIb.js";
 const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
   ra = { key: 0, class: "page-container" },
-  ca = o(() => a("div", { class: "page-title" }, " Editar Campanha ", -1)),
+  ca = o(() => a("div", { class: "page-title" }, " Edit Campaign ", -1)),
   da = { class: "form-container" },
   ua = { class: "input-container" },
-  pa = o(() => a("div", { class: "label" }, " Nome* ", -1)),
+  pa = o(() => a("div", { class: "label" }, " Name* ", -1)),
   ma = { class: "input-container" },
-  va = o(() => a("div", { class: "label" }, " Escudo do Mestre Privado ", -1)),
-  _a = o(() => a("div", { class: "label" }, " Descrição ", -1)),
+  va = o(() => a("div", { class: "label" }, " Private DM Screen ", -1)),
+  _a = o(() => a("div", { class: "label" }, " Description ", -1)),
   ha = o(() =>
     a(
       "span",
@@ -61,7 +61,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
   ga = { class: "second-buttons-container" },
   ba = ["disabled"],
   Ca = { class: "modal-content modal-width" },
-  ya = o(() => a("h2", null, "Deletar campanha?", -1)),
+  ya = o(() => a("h2", null, "Delete campaign?", -1)),
   wa = o(() =>
     a("img", { class: "close-icon", src: ea, alt: "fechar" }, null, -1)
   ),
@@ -72,15 +72,15 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
       "h3",
       null,
       [
-        R("Para confirmar essa operação, digite "),
+        R("To confirm this action type "),
         a("b", null, "REMOVER"),
-        R(" no campo abaixo:"),
+        R(" on the field below:"),
       ],
       -1
     )
   ),
   Sa = o(() =>
-    a("h4", null, "Atenção: essa operação é permanente e irreversível!", -1)
+    a("h4", null, "Atention: this action is permanent and irreversible!", -1)
   ),
   ka = { class: "input-container-modal" },
   Ea = ["onKeyup"],
@@ -98,7 +98,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
         u = c(!1),
         p = c(""),
         N = c(0),
-        A = ["DESLIGADO", "LIGADO"],
+        A = ["OFF", "ON"],
         C = D(() => e.value.name === "");
       J(async () => {
         var s;
@@ -205,7 +205,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                   a(
                     "button",
                     { class: "button-remove", onClick: F },
-                    " Deletar "
+                    " Delete "
                   ),
                   a("div", ga, [
                     a(
@@ -220,7 +220,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                               params: { id: e.value.id },
                             })),
                       },
-                      " Cancelar "
+                      " Cancel "
                     ),
                     a(
                       "button",
@@ -229,7 +229,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                         disabled: C.value,
                         onClick: O,
                       },
-                      " Editar ",
+                      " Edit ",
                       8,
                       ba
                     ),
@@ -279,7 +279,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                                 disabled: !T.value,
                                 onClick: y,
                               },
-                              " Confirmar ",
+                              " Confirm ",
                               8,
                               Ma
                             ),

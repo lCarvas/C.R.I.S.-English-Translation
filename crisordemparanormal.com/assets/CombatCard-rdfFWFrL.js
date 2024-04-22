@@ -31,7 +31,7 @@ const l = { class: "card" },
                       e[2] ||
                       (e[2] = (n) => t.$emit("handleStart", t.combat.id)),
                   },
-                  " Iniciar combate "
+                  " Start encounter "
                 ),
               ]))
             : (s(),
@@ -44,7 +44,7 @@ const l = { class: "card" },
                       e[0] ||
                       (e[0] = (n) => t.$emit("handleRemove", t.combat.id)),
                   },
-                  " Remover "
+                  " Remove "
                 ),
                 o(
                   "button",
@@ -54,7 +54,7 @@ const l = { class: "card" },
                       e[1] ||
                       (e[1] = (n) => t.$emit("handleEdit", t.combat.id)),
                   },
-                  " Editar "
+                  " Edit "
                 ),
               ])),
         ])

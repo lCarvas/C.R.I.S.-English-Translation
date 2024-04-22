@@ -153,7 +153,7 @@ const g = (e) => (O("data-v-cb9cc38a"), (e = e()), P(), e),
                       onClick: u,
                       onMouseup: h(u, ["middle"]),
                     },
-                    [F(" Acessar portrait do OBS "), H],
+                    [F(" Access OBS portrait "), H],
                     40,
                     G
                   ),

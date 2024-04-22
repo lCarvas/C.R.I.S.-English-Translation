@@ -6520,7 +6520,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   Fe = (a) => (z("data-v-6cd98f8c"), (a = a()), H(), a),
   ic = { key: 0, class: "row" },
   lc = Fe(() =>
-    e("div", { class: "label" }, " Classe para cálculo de atributos ", -1)
+    e("div", { class: "label" }, " Class for attribute calculation ", -1)
   ),
   uc = { class: "row" },
   cc = Fe(() =>
@@ -6528,11 +6528,11 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       "div",
       { class: "label" },
       [
-        ne(" Ficha privada "),
+        ne(" Private sheet "),
         e(
           "div",
           { class: "label-obs" },
-          " Apenas você e o mestre da campanha poderão visualizar a ficha. A ficha ainda aparece no Escudo do Mestre para outros jogadores "
+          " Only you and the DM can see the character sheet. Other players can still see it in the DM Screen "
         ),
       ],
       -1
@@ -6543,7 +6543,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     e(
       "div",
       { class: "label" },
-      " Permitir que o Mestre da campanha edite minha ficha ",
+      " Allow the campaign DM to edit my character sheet ",
       -1
     )
   ),
@@ -6553,11 +6553,11 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       "div",
       { class: "label" },
       [
-        ne(" Permitir que qualquer pessoa edite minha ficha "),
+        ne(" Allow anyone to edit my character sheet "),
         e(
           "div",
           { class: "label-obs" },
-          " Atenção: com essa opção ligada qualquer pessoa pode editar sua ficha. É recomendado deixar essa opção ligada por apenas um curto período de tempo "
+          " Warning: when this option is on anyone can edit your sheet. It is not recommended to leave this option on for a long time "
         ),
       ],
       -1
@@ -6569,7 +6569,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     emits: ["handleChangeStatsClass", "handleChangeEditPermissions"],
     setup(a, { emit: b }) {
       const v = b,
-        g = ["DESLIGADO", "LIGADO"],
+        g = ["OFF", "ON"],
         l = ["Combatant", "Specialist", "Occultist"],
         p = (m) => {
           v("handleChangeStatsClass", m);
@@ -6660,23 +6660,23 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     e(
       "div",
       { class: "link-eg" },
-      " É recomendado colocar uma resoluçaõ de 3400x1200 no OBS. Podendo ser ajustado de acordo com a necessidade. ",
+      " For OBS a resolution of 3400x1200 is recommended. It can be adjusted as needed. ",
       -1
     )
   ),
   yc = { class: "row" },
   $c = te(() =>
-    e("div", { class: "label" }, " Cor do resultado dos dados ", -1)
+    e("div", { class: "label" }, " Color of dice results ", -1)
   ),
   Ec = ["value"],
   Ic = { class: "row" },
   kc = te(() =>
-    e("div", { class: "label" }, " Cor da borda do resultado dos dados ", -1)
+    e("div", { class: "label" }, " Border color of dice results ", -1)
   ),
   Sc = ["value"],
   _c = { class: "row" },
   Pc = te(() =>
-    e("div", { class: "label" }, " Imagem de agente machucado ", -1)
+    e("div", { class: "label" }, " Injured agent picture ", -1)
   ),
   Mc = { key: 0 },
   Rc = ["src"],
@@ -6692,7 +6692,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   Vc = [Tc],
   wc = { class: "row" },
   Oc = te(() =>
-    e("div", { class: "label" }, " Imagem de agente morrendo ", -1)
+    e("div", { class: "label" }, " Dying agent picture ", -1)
   ),
   zc = { key: 0 },
   Hc = ["src"],
@@ -6708,7 +6708,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   xc = [Uc],
   Nc = { class: "row" },
   Lc = te(() =>
-    e("div", { class: "label" }, " Imagem de agente perturbado ", -1)
+    e("div", { class: "label" }, " Disturbed agent pictured ", -1)
   ),
   Bc = { key: 0 },
   Fc = ["src"],
@@ -6724,7 +6724,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   Gc = [Wc],
   Xc = { class: "row" },
   Kc = te(() =>
-    e("div", { class: "label" }, " Imagem de agente enlouquecendo ", -1)
+    e("div", { class: "label" }, " Going Crazy agent picture ", -1)
   ),
   Jc = { key: 0 },
   Yc = ["src"],
@@ -6776,7 +6776,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
                 e(
                   "div",
                   { class: "link", onClick: i, onMouseup: St(i, ["middle"]) },
-                  [ne(" Acessar portrait do OBS "), Ac],
+                  [ne(" Access OBS portrait "), Ac],
                   40,
                   Cc
                 ),
@@ -6967,7 +6967,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
   Zo = (a) => (z("data-v-78a9772d"), (a = a()), H(), a),
   nm = { class: "modal-content modal-width" },
   rm = { class: "modal-header" },
-  dm = Zo(() => e("h2", null, "Configurações", -1)),
+  dm = Zo(() => e("h2", null, "Config", -1)),
   im = Zo(() =>
     e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
@@ -6989,7 +6989,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
     setup(a, { emit: b }) {
       const v = b,
         g = [
-          { label: "Ficha", value: 0 },
+          { label: "Sheet", value: 0 },
           { label: "Stream", value: 1 },
         ],
         l = E(0),

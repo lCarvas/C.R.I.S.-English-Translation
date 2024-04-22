@@ -38,27 +38,27 @@ import { g as K, h as W, a as Z } from "./firebase-M2_dwsIb.js";
 const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
   aa = { key: 0 },
   ea = { class: "page-container" },
-  ta = r(() => a("div", { class: "page-title" }, " Criar Campanha ", -1)),
+  ta = r(() => a("div", { class: "page-title" }, " Create Campaign ", -1)),
   sa = { class: "form-container" },
   oa = { class: "input-container" },
-  ia = r(() => a("div", { class: "label" }, " Nome* ", -1)),
+  ia = r(() => a("div", { class: "label" }, " Name* ", -1)),
   na = { class: "input-container" },
   ra = r(() =>
     a(
       "div",
       { class: "label" },
       [
-        $(" Escudo do Mestre Privado "),
+        $(" Private DM Screen "),
         a(
           "span",
           { class: "label-obs" },
-          " Obs: essa opção pode ser editada após a criação da campanha "
+          " PS: this option can be changed after the campaign has been created "
         ),
       ],
       -1
     )
   ),
-  la = r(() => a("div", { class: "label" }, " Descrição ", -1)),
+  la = r(() => a("div", { class: "label" }, " Description ", -1)),
   ua = r(() =>
     a(
       "span",
@@ -83,7 +83,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
         e = d(Q),
         u = d(!0),
         g = d(0),
-        w = ["DESLIGADO", "LIGADO"],
+        w = ["OFF", "ON"],
         t = d({ message: "", type: "error", alive: !1, timeout: 0 });
       M(async () => {
         var n;
@@ -99,7 +99,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
             g.value < 4 && (await W("uid", o.currentUser.uid, "campaigns", Z)))
           ) {
             (u.value = !1),
-              (t.value.message = "Limite de campanhas atingido"),
+              (t.value.message = "Campaign limit reached"),
               (t.value.alive = !0);
             return;
           }
@@ -194,7 +194,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
                           (s[3] = (i) =>
                             n.$router.push({ name: "campaigns-list" })),
                       },
-                      " Cancelar "
+                      " Cancel "
                     ),
                     a("div", null, [
                       a(
@@ -204,7 +204,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
                           disabled: f.value,
                           onClick: I,
                         },
-                        " Criar ",
+                        " Create ",
                         8,
                         da
                       ),

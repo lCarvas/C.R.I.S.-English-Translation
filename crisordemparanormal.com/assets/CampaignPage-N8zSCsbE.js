@@ -70,7 +70,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
     e(
       "div",
       { class: "no-agents-container" },
-      [e("h3", null, "Ainda não há agentes nesta campanha!")],
+      [e("h3", null, "There are no agents on this campaign!")],
       -1
     )
   ),
@@ -83,7 +83,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
     e(
       "div",
       { class: "no-agents-container" },
-      [e("h3", null, "Ainda não há jogadores nesta campanha!")],
+      [e("h3", null, "There are no players on this campaign!")],
       -1
     )
   ),
@@ -95,11 +95,11 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
   Ue = { class: "cards-container" },
   Pe = { key: 1 },
   Se = { class: "no-agents-container" },
-  Ve = m(() => e("h3", null, "Ainda não há combates nesta campanha!", -1)),
+  Ve = m(() => e("h3", null, "There are no encounters on this compaign!", -1)),
   De = ["onMouseup"],
   Te = { key: 1 },
   Le = { key: 2 },
-  Ne = m(() => e("h2", null, "Remover agente da campanha?", -1)),
+  Ne = m(() => e("h2", null, "Remove agent from campaign?", -1)),
   He = m(() =>
     e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
   ),
@@ -108,12 +108,12 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
     e(
       "h4",
       null,
-      "O agente ainda poderá ser adicionado novamente na campanha",
+      "The agent can be re-added to the campaign",
       -1
     )
   ),
   Fe = { key: 3 },
-  je = m(() => e("h2", null, "Remover jogador da campanha?", -1)),
+  je = m(() => e("h2", null, "Remove player from campaign?", -1)),
   Ae = m(() =>
     e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
   ),
@@ -122,13 +122,13 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
     e(
       "h4",
       null,
-      "Todos os agentes deste jogador serão removidos. O jogador ainda poderá entrar na campanha se tiver acesso ao link de convite da campanha",
+      "All agents of this player will be removed. The player can re-join the campaign if they have access to the invite link",
       -1
     )
   ),
   Be = { class: "modal-content modal-width" },
   qe = m(() =>
-    e("h2", { class: "modal-title" }, " Link para entrar na Campanha ", -1)
+    e("h2", { class: "modal-title" }, " Link to join the Campaign ", -1)
   ),
   Je = m(() =>
     e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
@@ -139,7 +139,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
   Ge = ["href"],
   Qe = { key: 0, class: "campaign-link-buttons" },
   We = { key: 1, class: "campaign-link-buttons-no-dm" },
-  Xe = m(() => e("h2", null, "Sair da campanha?", -1)),
+  Xe = m(() => e("h2", null, "Leave campaign?", -1)),
   Ye = m(() =>
     e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
   ),
@@ -148,7 +148,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
     e(
       "h4",
       null,
-      "Todos os seus agentes serão removidos desta campanha. Você ainda poderá entrar novamente se tiver acesso ao link de convite da campanha",
+      "All your agents will be removed from this campaign. You can re-join the campaign if you have access to the invite link",
       -1
     )
   ),
@@ -179,8 +179,8 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
         _ = r(!1),
         X = r(0),
         na = r([
-          { label: "Agentes", value: 0 },
-          { label: "Jogadores", value: 1 },
+          { label: "Agents", value: 0 },
+          { label: "Players", value: 1 },
         ]),
         x = r(0),
         u = r({ message: "", type: "info", alive: !1, timeout: 0 });
@@ -198,7 +198,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
             v.push({ name: "campaign-page-denied" }),
           ((n = f.currentUser) == null ? void 0 : n.uid) ===
             ((y = t.value) == null ? void 0 : y.uid) &&
-            ((_.value = !0), na.value.push({ label: "Combates", value: 2 }));
+            ((_.value = !0), na.value.push({ label: "Encounters", value: 2 }));
         const p = J(c, "characters"),
           g = z(p, S("campaignDocId", "==", t.value.id));
         Q.value = ca(g, (Y) => {
@@ -238,7 +238,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
             (await navigator.clipboard.writeText(
               G + "campanha/entrar/" + t.value.joinId
             ),
-            (u.value.message = "Link copiado"),
+            (u.value.message = "Link copied"),
             (u.value.alive = !0),
             k());
         };
@@ -271,7 +271,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
           await w(C(c, "characters", o), { campaignDocId: "" }),
             k(),
             (U.value = !1),
-            (u.value.message = "Agente removido da campanha!"),
+            (u.value.message = "Agent removed from the campaign!"),
             (u.value.alive = !0);
         },
         Ca = async () => {
@@ -293,7 +293,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
           await w(C(c, "users", R.value.uid), { campaignsId: pa(t.value.id) }),
             k(),
             (U.value = !1),
-            (u.value.message = "Jogador removido da campanha!"),
+            (u.value.message = "Player removed from the campaign!"),
             (u.value.alive = !0);
         },
         ka = async () => {
@@ -432,7 +432,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         class: "button-primary campaign-buttons",
                         onClick: a[0] || (a[0] = (n) => (T.value = !T.value)),
                       },
-                      " Sair da Campanha "
+                      " Leave Campaign "
                     )),
                 _.value
                   ? (s(),
@@ -443,7 +443,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         class: "button-primary campaign-buttons",
                         onClick: a[1] || (a[1] = (n) => (I.value = !I.value)),
                       },
-                      " Foto de Capa "
+                      " Cover Photo "
                     ))
                   : h("", !0),
                 e(
@@ -460,7 +460,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         });
                       }),
                   },
-                  " Adicionar Agentes "
+                  " Add Agents "
                 ),
                 e(
                   "button",
@@ -468,7 +468,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                     class: "button-primary campaign-buttons",
                     onClick: a[3] || (a[3] = (n) => (D.value = !D.value)),
                   },
-                  " Convidar Jogadores "
+                  " Invite Players "
                 ),
                 _.value
                   ? (s(),
@@ -480,7 +480,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         onClick: ya,
                         onMouseup: K(wa, ["middle"]),
                       },
-                      " Editar Campanha ",
+                      " Edit Campaign ",
                       40,
                       ee
                     ))
@@ -495,7 +495,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         onClick: ia,
                         onMouseup: K(la, ["middle"]),
                       },
-                      " Criar Combate ",
+                      " Create Encounter ",
                       40,
                       te
                     ))
@@ -510,7 +510,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         onClick: Ma,
                         onMouseup: K(Ia, ["middle"]),
                       },
-                      " Escudo do Mestre ",
+                      " DM Screen ",
                       40,
                       oe
                     ))
@@ -710,7 +710,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                             onClick: ia,
                                             onMouseup: K(la, ["middle"]),
                                           },
-                                          " Criar Combate ",
+                                          " Create Encounter ",
                                           40,
                                           De
                                         ),
@@ -745,7 +745,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                 e(
                                   "button",
                                   { class: "button-primary", onClick: ba },
-                                  " Confirmar "
+                                  " Confirm "
                                 ),
                               ]),
                             ]),
@@ -782,7 +782,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                 e(
                                   "button",
                                   { class: "button-primary", onClick: Ca },
-                                  " Confirmar "
+                                  " Confirm "
                                 ),
                               ]),
                             ]),
@@ -840,7 +840,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                     class: "button-naked reset-button",
                                     onClick: _a,
                                   },
-                                  " Resetar "
+                                  " Reset "
                                 ),
                                 e(
                                   "button",
@@ -848,7 +848,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                     class: "button-primary share-button",
                                     onClick: sa,
                                   },
-                                  " Copiar "
+                                  " Copy "
                                 ),
                               ]))
                             : (s(),
@@ -859,7 +859,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                     class: "button-primary share-button",
                                     onClick: sa,
                                   },
-                                  " Copiar "
+                                  " Copy "
                                 ),
                               ])),
                         ]),
@@ -920,7 +920,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                           e(
                             "button",
                             { class: "button-primary", onClick: ka },
-                            " Confirmar "
+                            " Confirm "
                           ),
                         ]),
                       ]),
