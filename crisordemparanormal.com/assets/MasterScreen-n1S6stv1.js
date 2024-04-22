@@ -143,7 +143,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           return u > 0 ? u : 0;
         }),
         k = Q(() => c.character.skills[9].bonus),
-        g = Q(() => c.character.skills[22].bonus + D.value);
+        g = Q(() => c.character.skills[20].bonus + D.value); // Esquiva 
       return (u, A) => (
         o(),
         i("div", xa, [
@@ -1799,8 +1799,8 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           };
           t.value.currentCombat = a;
           for (const s of W.value) {
-            const d = s.attributes[n[s.skills[11].attribute]];
-            (s.initiativeValue = Le(d, s.skills[11].bonus)),
+            const d = s.attributes[n[s.skills[10].attribute]];
+            (s.initiativeValue = Le(d, s.skills[10].bonus)),
               Ae(Z(g, "characters", s.id), s);
           }
           for (const s of t.value.combats[t.value.currentCombat].creatures)

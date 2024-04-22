@@ -8064,7 +8064,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
               n.value.attributes.dex +
               n.value.protectionDefense +
               n.value.bonusDefense +
-              n.value.skills[22].bonus),
+              n.value.skills[20].bonus),
             (h = !0)),
           n.value.resistencias === void 0 &&
             ((n.value.resistencias = {}), (h = !0)),
@@ -8581,7 +8581,7 @@ const De = (a) => (z("data-v-161d82d2"), (a = a()), H(), a),
       });
       return (
         be(
-          () => n.value.skills[22].bonus,
+          () => n.value.skills[20].bonus,
           (d, h) => {
             if (n.value.evade === null) return;
             const S = Math.abs(d - h);

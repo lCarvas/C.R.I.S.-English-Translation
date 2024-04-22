@@ -965,7 +965,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
             (n.value.timestamp = ce()),
             (n.value.block = n.value.skills[9].bonus),
             (n.value.evade =
-              n.value.skills[22].bonus + n.value.attributes.dex + 10);
+              n.value.skills[20].bonus + n.value.attributes.dex + 10);
           const u = await de(ue(i, "characters"), n.value);
           t.push({ name: "character-sheet", params: { id: u.id } });
         };
