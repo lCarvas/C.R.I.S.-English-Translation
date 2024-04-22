@@ -571,11 +571,11 @@ const Xa = [
     setup(e) {
       const r = e,
         u = {
-          name: "Habilidade de Trilha",
+          name: "Path Ability",
           description: `Em NEX 10% você escolhe uma das trilhas de ${r.charClass.name.toLocaleLowerCase()} e recebe o primeiro poder da trilha escolhida. Você recebe um novo poder da trilha escolhida em NEX 40%, 65% e 99%.`,
         },
         t = {
-          name: "Poder de",
+          name: "Power",
           description: `Em NEX 15%, você recebe um poder de ${r.charClass.name.toLocaleLowerCase()} à sua escolha. Você recebe um novo poder de ${r.charClass.name.toLocaleLowerCase()} em NEX 30% e a cada 15 pontos de NEX subsequentes, conforme indicado na tabela. Veja a lista de poderes a seguir.`,
         };
       return (c, f) => (
@@ -624,7 +624,7 @@ const Xa = [
                   a(
                     "span",
                     null,
-                    o(t.name) + " " + o(e.charClass.name) + ". ",
+                    o(e.charClass.name) + " "  + o(t.name) + ". ",
                     1
                   ),
                   C(o(t.description), 1),

@@ -2,7 +2,7 @@
 ####  Last updated 22/04/2024 14:54
 
 |Translation Progress|Names/Headers|Descriptions|Interfaces/Other small things|
-|-|-|-|-|
+|-|:-:|:-:|:-:|
 |Home Page ✅|
 |Character List Page ✅|
 |Character Creation ✅| 
@@ -15,9 +15,11 @@
 |Rituals 🟡|❌|❌|✅|
 |Creatures 🟡 (No way to test as feature is in development)|🟡|❌|🟡|
 |Backgrounds 🟡|✅|❌|✅|
-|Classes 🟡|✅|❌|✅|
-|Background Abilities 🟡|✅|✅|⬛|
-|Class Abilities 🟡|🟡|🟡|⬛|
+|Classes 🟡|✅|🟡|✅|
+|Class Paths ✅|
+|Background Abilities ✅|
+|Class Abilities 🟡|✅|🟡|⬛|
+|Path Abilities 🟡|✅|❌|⬛|
 
  - ✅ Finished
  - 🟡 Started
