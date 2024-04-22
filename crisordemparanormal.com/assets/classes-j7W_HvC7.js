@@ -166,7 +166,7 @@ const e = "/assets/attributes-V37qZCrP.png",
                 "<p>A categoria da arma favorita passa a ser reduzida em II. Quando faz um ataque com ela, você pode gastar 2 PE para executar um dos efeitos abaixo como parte do ataque. Você pode adicionar mais efeitos gastando +2 PE por efeito adicional.</p><p><span><em>Amplo.</em></span> O ataque pode atingir um alvo adicional em seu alcance e adjacente ao original (use o mesmo teste de ataque para ambos).</p><p><span><em>Destruidor.</em></span> Aumenta o multiplicador de crítico da arma em +1.</p>",
             },
             {
-              name: "EXP 65% - Sublime Technique ",
+              name: "EXP 65% - Sublime Technique",
               description:
                 "<p>Você adiciona os seguintes efeitos à lista de sua Técnica Secreta:</p><p><span>Letal.</span> Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.</p><p><span><em>Perfurante.</em></span> Ignora até 5 pontos de resistência a dano de qualquer tipo do alvo.</p>",
             },
