@@ -19,7 +19,7 @@
 |Class Paths ✅|
 |Background Abilities ✅|
 |Class Abilities 🟡|✅|🟡|⬛|
-|Path Abilities 🟡|✅|❌|⬛|
+|Path Abilities 🟡|✅|🟡|⬛|
 
  - ✅ Finished
  - 🟡 Started

@@ -269,9 +269,9 @@ const e = "/assets/attributes-V37qZCrP.png",
                 "<p>You receive +1 HP for every 5% EXP and, when you block an attack, you add your Vigor to the damage reduction received.</p>",
             },
             {
-              name: "EXP 40% - Come to ME!",
+              name: "EXP 40% - Square Up",
               description:
-                "<p>Whenever an opponent within short range attacks one of your allies, you can use a reaction and 1 EP to make that opponent make a Will saving throw (DC Vig). If they fail, the opponent must attack you instead of your ally. This power only works if you can be effectively attacked and are within attack range (for example, adjacent to an opponent attacking in melee or within range of a ranged weapon). An opponent who passes the Will test cannot be affected by your Come to ME! power until the end of the scene.</p>",
+                "<p>Whenever an opponent within short range attacks one of your allies, you can use a reaction and 1 EP to make that opponent make a Will saving throw (DC Vig). If they fail, the opponent must attack you instead of your ally. This power only works if you can be effectively attacked and are within attack range (for example, adjacent to an opponent attacking in melee or within range of a ranged weapon). An opponent who passes the Will test cannot be affected by your Square Up power until the end of the scene.</p>",
             },
             {
               name: "EXP 65% - Dead Hard",
@@ -339,72 +339,72 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Martial Artist",
           description:
-            "<p>Seus ataques desarmados causam 1d6 pontos de dano, podem causar dano letal e contam como armas ágeis. Em NEX 35%, o dano aumenta para 1d8 e, em NEX 70%, para 1d10.</p>",
+            "<p>Your unnarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
         },
         {
           name: "Advanced Ballistics",
           description:
-            "<p>Você recebe proficiência com armas táticas de fogo e +2 em rolagens de dano com essas armas.</p>",
+            "<p>You receive proficiency with tactical firearms and +2 on damage rolls with those weapons.</p>",
         },
         {
           name: "Applied Knowledge",
           description:
-            "<p>Quando faz um teste de perícia (exceto Luta e Pontaria), você pode gastar 2 PE para mudar o atributo-base da perícia para Int. <em>Pré-requisito:</em> Int 2.</p>",
+            "<p>When you make a skill check (except Fighting and Marksmanship), you can spend 2 EP to change the skill's base attribute to Int. <em>Prerequesite:</em> Int 2.</p>",
         },
         {
           name: "Ingenuity",
           description:
-            "Em NEX 40%, quando usa sua habilidade Eclético, você pode gastar 2 PE adicionais para receber os benefícios de ser veterano na perícia. Em NEX 75%, pode gastar 4 PE adicionais para receber os benefícios de ser expert na perícia.",
+            "At EXP 40%, when you use your Eclectic ability, you can spend an additional 2 EP to receive the benefits of being a veteran in the skill. At NEX 75%, you can spend an additional 4 EP to receive the benefits of being an expert in the skill.",
         },
         {
           name: "Hacker",
           description:
-            "<p>Você recebe +5 em testes de Tecnologia para invadir sistemas e diminui o tempo necessário para hackear qualquer sistema para uma ação completa. <em>Pré-requisito:</em> treinado em Tecnologia.</p>",
+            "<p>You gain +5 on Technology checks to hack systems and decrease the time needed to hack any system to a complete action. <em>Prerequisite:</em> trained in Technology.</p>",
         },
         {
           name: "Fast-Handed",
           description:
-            "<p>Ao fazer um teste de Crime, você pode pagar 1 PE para fazê-lo como uma ação livre. <em>Pré-requisitos:</em> Agi 3, treinado em Crime.</p>",
+            "<p>When making a Crime check, you can spend 1 EP to do so as a free action. <em>Prerequisites:</em> Agi 3, trained in Crime.</p>",
         },
         {
           name: "Utility Backpack",
           description:
-            "<p>Um item a sua escolha (exceto armas) conta como uma categoria abaixo e ocupa 1 espaço a menos.</p>",
+            "<p>An item of your choice (except weapons) counts as one category lower and takes up 1 less space.</p>",
         },
         {
           name: "Tactical Movement",
           description:
-            "<p>Você pode gastar 1 PE para ignorar a penalidade em deslocamento por terreno difícil e por escalar até o final do turno. <em>Pré-requisito:</em> treinado em Atletismo.</p>",
+            "<p>You can spend 1 EP to ignore the movement penalty for difficult terrain and climbing until the end of the turn. <em>Prerequisite:</em> Trained in Athletics.</p>",
         },
         {
           name: "On the Right Track",
           description:
-            "<p>Sempre que tiver sucesso em um teste para procurar pistas, você pode gastar 1 PE para receber +1d20 no próximo teste. Os custos e os bônus são cumulativos (se passar num segundo teste, pode pagar 2 PE para receber um total de +2d20 no próximo teste, e assim por diante).</p>",
+            "<p>Whenever you pass on a check to search for clues, you can spend 1 EP to receive +1d20 on the next check. The costs and bonuses are cumulative (if you pass a second test, you can spend 2 EP to receive a total of +2d20 on the next test, and so on).</p>",
         },
         {
           name: "Nerd",
           description:
-            "<p>Você é um repositório de conhecimento útil (e inútil). Uma vez por cena, pode gastar 2 PE para fazer um teste de Atualidades (DT 20). Se passar, recebe uma informação útil para essa cena (se for uma investigação, uma dica para uma pista; se for um combate, uma fraqueza de um inimigo, e assim por diante). A fonte da informação pode ser desde um livro antigo que você leu na biblioteca até um episódio de sua série de ficção favorita.</p>",
+            "<p>You are a repository of useful (and useless) knowledge. Once per scene, you can spend 2 EP to make a Current Affairs check (DC 20). If you pass, you receive useful information for that scene (if it's an investigation, a hint for a clue; if it's combat, an enemy's weakness, and so on). The source of information can be anything from an old book you read in the library to an episode of your favorite fiction series.</p>",
         },
         {
           name: "Urban Ninja",
           description:
-            "<p>Você recebe proficiência com armas táticas de ataque corpo a corpo e de disparo (exceto de fogo) +2 em rolagens de dano com essas armas.</p>",
+            "<p>You gain proficiency with melee and arrow-based tactical weapons and +2 to damage rolls with those weapons.</p>",
         },
         {
           name: "Quick Thinking",
           description:
-            "<p>Uma vez por rodada, durante uma cena de investigação, você pode gastar 2 PE para fazer uma ação de procurar pistas adicional.</p>",
+            "<p>Once per round, during an investigation scene, you can spend 2 EP to make an additional search for clues action.</p>",
         },
         {
           name: "Explosives Expert",
           description:
-            "<p>Você soma seu Intelecto na DT para resistir aos seus explosivos e pode excluir dos efeitos da explosão um número de alvos igual ao seu valor de Intelecto.</p>",
+            "<p>You add your Intellect to the DC to resist your explosives and can exclude a number of targets equal to your Intellect value from the explosion's effects.</p>",
         },
         {
           name: "First Impressioin",
           description:
-            "<p>Você recebe +2d20 no primeiro teste de Diplomacia, Enganação, Intimidação ou Intuição que fizer em uma cena.</p>",
+            "<p>You get +2d20 on the first Diplomacy, Deception, Intimidation, or Intuition check you make in a scene.</p>",
         },
         {
           name: "Transcend",
@@ -426,22 +426,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Elite Aim",
               description:
-                "<p>Você recebe proficiência com armas de fogo que usam balas longas e soma seu Intelecto em rolagens de dano com essas armas.</p>",
+                "<p>You receive proficiency with firearms that use long bullets and add your Intellect value on damage rolls with those weapons.</p>",
             },
             {
               name: "EXP 40% - Lethal Shot",
               description:
-                "<p>Quando faz a ação mirar você pode gastar 1 PE para aumentar em +2 a margem de ameaça do próximo ataque que fizer até o final de seu próximo turno.</p>",
+                "<p>When you make the aim action, you can spend 1 EP to increase the threat range of the next attack you make by +2 until the end of your next turn.</p>",
             },
             {
               name: "EXP 65% - Impactful Shot",
               description:
-                "<p>Se estiver usando uma arma de fogo com calibre grosso você pode gastar 2 PE para fazer as manobras derrubar, desarmar, empurrar e quebrar usando um ataque a distância.</p>",
+                "<p>If you are using a firearm with large-caliber, you can spend 2 EP to do the knock down, disarm, push and break maneuvers using a ranged attack.</p>",
             },
             {
               name: "EXP 99% - Shooting to Kill",
               description:
-                "<p>Quando faz um acerto crítico com uma arma de fogo, você causa dano máximo, sem precisar rolar dados.</p>",
+                "<p>When you land a critical hit with a firearm, you deal maximum damage, without having to roll dice.</p>",
             },
           ],
         },
@@ -453,22 +453,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Sneak Attack",
               description:
-                "<p>Você sabe atingir os pontos vitais de um inimigo distraído. Uma vez por rodada, quando atinge um alvo desprevenido com um ataque corpo a corpo ou em alcance curto, ou um alvo que você esteja flanqueando, você pode gastar 1 PE para causar +1d6 pontos de dano do mesmo tipo da arma. Em EXP 40% o dano adicional aumenta para +2d6, em EXP 65% aumenta para +3d6 e em EXP 99% aumenta para +4d6.</p>",
+                "<p>You know how to hit the vital spots of a distracted enemy. Once per round, when you hit an off-guard target with a melee or short-range attack, or a target you are flanking, you can spend 1 EP to deal +1d6 points of damage of the same type as the weapon. At EXP 40% the additional damage increases to +2d6, at EXP 65% it increases to +3d6 and at EXP 99% it increases to +4d6.</p>",
             },
             {
               name: "EXP 40% - Prowler",
               description:
-                "<p>Você recebe +5 em Atletismo e Crime e pode percorrer seu deslocamento normal quando se esconder sem penalidade (veja a perícia Furtividade).</p>",
+                "<p>You gain +5 to Athletics and Crime and can move your normal movement distance when hiding without penalty (see the Stealth skill).</p>",
             },
             {
               name: "EXP 65% - Assassinate",
               description:
-                "<p>Você pode gastar uma ação de movimento e 3 PE para analisar um alvo em alcance curto. Até o fim de seu próximo turno, seu primeiro Ataque Furtivo que causar dano a ele tem seus dados de dano extras dessa habilidade dobrados. Além disso, se sofrer dano de seu ataque, o alvo fica inconsciente ou morrendo, à sua escolha (Fortitude DT Agi evita).</p>",
+                "<p>You can use a movement action and 3 EP to analyze a target within short range. Until the end of your next turn, your first Sneak Attack that deals damage to it has its bonus damage dice from that ability doubled. Additionally, if it takes damage from your attack, the target becomes unconscious or dies, your choice (Fortitude DC Agi avoids).</p>",
             },
             {
               name: "EXP 99% - Fleeting Shadow",
               description:
-                "<p>Quando faz um teste de Furtividade após atacar ou fazer outra ação chamativa, você pode gastar 3 PE para não sofrer a penalidade de –3d20 no teste.</p>",
+                "<p>When you make a Stealth check after attacking or making another flashy action, you can spend 3 EP to avoid the –3d20 penalty on the check.</p>",
             },
           ],
         },
@@ -480,22 +480,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Paramedic",
               description:
-                "<p>Você pode usar uma ação padrão e 2 PE para curar 2d10 pontos de vida a de si mesmo ou de um aliado adjacente. Você pode curar +1d10 PV respectivamente em EXP 40%, 65% e 99%, gastando +1 PE por dado adicional de cura.</p>",
+                "<p>You can use a standard action and 2 EP to heal yourself or an adjacent ally for 2d10 hit points. You can heal +1d10 HP respectively at EXP 40%, 65% and 99%, spending +1 EP per additional healing die.</p>",
             },
             {
               name: "EXP 40% - Trauma Team",
               description:
-                "<p>Você pode usar uma ação padrão e 2 PE para remover uma condição negativa (exceto morrendo) de um aliado adjacente.</p>",
+                "<p>You can use a standard action and 2 EP to remove a negative condition (except dying) from an adjacent ally.</p>",
             },
             {
               name: "EXP 65% - Rescue",
               description:
-                "<p>Uma vez por rodada, se estiver em alcance curto de um aliado machucado ou morrendo, você pode se aproximar do aliado com uma ação livre (desde que seja capaz de fazê-lo usando seu deslocamento normal). Além disso, sempre que curar PV ou remover condições do aliado, você e o aliado recebem +5 na Defesa até o início de seu próximo turno. Por fim, para você, o total de espaços ocupados por carregar um personagem é reduzido pela metade.</p>",
+                "<p>Once per round, if you are within close range of a wounded or dying ally, you can approach the ally as a free action (as long as you are able to do so using your normal movement). Additionally, whenever you heal your ally's HP or remove conditions, you and your ally receive +5 Defense until the start of your next turn. Finally, for you, the total spaces occupied by carrying a character are halved.</p>",
             },
             {
               name: "EXP 99% - Resuscitation",
               description:
-                "<p>Uma vez por cena, você pode gastar uma ação completa e 10 PE para trazer de volta a vida um personagem que tenha morrido na mesma cena (exceto morte por dano massivo).</p>",
+                "<p>Once per scene, you can use a complete action and 10 EP to bring back to life a character who died in the same scene (except death from massive damage).</p>",
             },
           ],
         },
@@ -507,22 +507,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Eloquence",
               description:
-                "<p>Você pode usar uma ação completa e 1 PE por alvo em alcance curto para afetar outros personagens com sua fala. Faça um teste de Diplomacia, Enganação ou Intimidação contra a Vontade dos alvos. Se você vencer, os alvos ficam fascinados enquanto você se concentrar (uma ação padrão por rodada). Um alvo hostil ou que esteja envolvido em combate recebe +5 em seu teste de resistência e tem direito a um novo teste por rodada, sempre que você se concentrar Um personagem que passar no teste fica imune a este efeito por um dia.</p>",
+                "<p>You can use a complete action and 1 EP per target within short range to affect other characters with your speech. Make a Diplomacy, Deception, or Intimidation test against the targets' Will. If you win, the targets are fascinated as long as you concentrate (one standard action per round). A hostile target or target that is involved in combat receives +5 on their saving throw and is entitled to a new test per round, whenever you concentrate. A character who passes the test is immune to this effect for one day.</p>",
             },
             {
               name: "EXP 40% - Motivational Discourse",
               description:
-                "<p>Você pode gastar uma ação padrão e 4 PE para inspirar seus aliados com suas palavras. Você e todos os seus aliados em alcance curto ganham +1d20 em testes de perícia até o fim da cena. A partir de EXP 65%, você pode gastar 8 PE para fornecer um bônus total de +2d20.</p>",
+                "<p>You can use a standard action and 4 EP to inspire your allies with your words. You and all your allies within short range gain +1d20 on skill checks until the end of the scene. Starting at EXP 65%, you can spend 8 EP to provide a total bonus of +2d20.</p>",
             },
             {
               name: "EXP 65% - I Know a Guy",
               description:
-                "<p>Uma vez por missão, você pode ativar sua rede de contatos para pedir um favor, como por exemplo trocar todo o equipamento do seu grupo (como se tivesse uma segunda fase de preparação de missão), conseguir um local de descanso ou mesmo ser resgatado de uma cena. O mestre tem a palavra final de quando é possível usar essa habilidade e quais favores podem ser obtidos.</p>",
+                "<p>Once per mission, you can contact your network of contacts to ask for a favor, such as exchanging all of your group's equipment (as if you had a second mission preparation phase), getting a resting place or even being rescued from a scene. The GM has the final say on when this ability can be used and what favors can be obtained.</p>",
             },
             {
               name: "EXP 99% - My Best Trick",
               description:
-                "<p>Acostumado a uma vida de fingimento e manipulação, você pode gastar 5 PE para simular o efeito de qualquer habilidade que você tenha visto um de seus aliados usar durante a cena. Você ignora os pré-requisitos da habilidade, mas ainda precisa pagar todos os seus custos, incluindo ações, PE e materiais, e ela usa os seus parâmetros de jogo, como se você estivesse usando a habilidade em questão.</p>",
+                "<p>Accustomed to a life of pretense and manipulation, you can spend 5 EP to simulate the effect of any ability you saw one of your allies use during the scene. You ignore the skill's prerequisites, but you still have to pay all of its costs, including actions, EP, and materials, and it uses your game parameters as if you were using the skill in question.</p>",
             },
           ],
         },
@@ -534,22 +534,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Optimized Inventory",
               description:
-                "<p>Você soma seu Intelecto à sua Força para calcular sua capacidade de carga. Por exemplo, se você tem Força 1 e Intelecto 3, seu inventário tem 20 espaços.</p>",
+                "<p>You add your Intellect to your Strength when calculating your max load. For example, if you have Strength 1 and Intellect 3, your inventory has 20 spaces.</p>",
             },
             {
               name: "EXP 40% - Mending",
               description:
-                "<p>Você pode gastar uma ação completa e 1 PE para remover a condição quebrado de um equipamento adjacente até o final da cena. Além disso, qualquer equipamento geral tem sua categoria reduzida em I para você.</p>",
+                "<p>You can spend a complete action and 1 EP to remove the broken condition from adjacent equipment until the end of the scene. Additionally, any general equipment has its category reduced by I for you.</p>",
             },
             {
               name: "EXP 65% - Improvise",
               description:
-                "<p>Você pode improvisar equipamentos com materiais ao seu redor. Escolha um equipamento geral e gaste uma ação completa e 2 PE, mais 2 PE por categoria do item escolhido. Você cria uma versão funcional do equipamento, que segue suas regras de espaço e categoria como normal. Ao final da cena, seu equipamento improvisado se torna inútil.</p>",
+                "<p>You can improvise equipment with materials around you. Choose a general equipment and spend a complete action and 2 EP, plus 2 EP per category of the chosen item. You create a working version of the equipment, which follows its space and category rules as normal. At the end of the scene, your makeshift equipment becomes useless.</p>",
             },
             {
               name: "EXP 99% - Ready for Everything",
               description:
-                "<p>Você sempre tem o que precisa para qualquer situação. Sempre que precisar de um item qualquer (exceto armas), pode gastar uma ação de movimento e 3 PE por categoria do item para lembrar que colocou ele no fundo da bolsa! Depois de encontrado, o item segue normalmente as regras de inventário.</p>",
+                "<p>You always have what you need for any situation. Whenever you need any item (except weapons), you can spend a movement action and 3 EP per item category to remember that you put it at the bottom of your bag! Once found, the item follows normal inventory rules.</p>",
             },
           ],
         },
