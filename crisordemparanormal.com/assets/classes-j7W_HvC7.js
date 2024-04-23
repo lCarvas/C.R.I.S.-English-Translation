@@ -158,22 +158,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - The Favorite",
               description:
-                "<p>Escolha uma arma para ser sua favorita, como katana ou fuzil de assalto. A categoria da arma escolhida é reduzida em I.</p>",
+                "<p>Choose a weapon to be your favorite, such as a katana or an assault rifle. The category of the chosen weapon is reduced by I.</p>",
             },
             {
               name: "EXP 40% - Secret Technique",
               description:
-                "<p>A categoria da arma favorita passa a ser reduzida em II. Quando faz um ataque com ela, você pode gastar 2 PE para executar um dos efeitos abaixo como parte do ataque. Você pode adicionar mais efeitos gastando +2 PE por efeito adicional.</p><p><span><em>Amplo.</em></span> O ataque pode atingir um alvo adicional em seu alcance e adjacente ao original (use o mesmo teste de ataque para ambos).</p><p><span><em>Destruidor.</em></span> Aumenta o multiplicador de crítico da arma em +1.</p>",
+                "<p>The category of the favorite weapon is now reduced by II. When you make an attack with it, you can spend 2 EP to perform one of the effects below as part of the attack. You can add more effects by spending +2 EP per additional effect.</p><p><span><em>Broad.</em></span> The attack can hit an additional target within its range and adjacent to the original (use the same attack roll for both).</p><p><span><em>Destructive.</em></span> Increases the weapon's critical multiplier by +1.</p>",
             },
             {
               name: "EXP 65% - Sublime Technique",
               description:
-                "<p>Você adiciona os seguintes efeitos à lista de sua Técnica Secreta:</p><p><span>Letal.</span> Aumenta a margem de ameaça em +2. Você pode escolher este efeito duas vezes para aumentar a margem de ameaça em +5.</p><p><span><em>Perfurante.</em></span> Ignora até 5 pontos de resistência a dano de qualquer tipo do alvo.</p>",
+                "<p>You add the following effects to your Secret Technique list:</p><p><span>Lethal.</span> Increases threat range by +2. You can choose this effect twice to increase the threat range by +5.</p><p><span><em>Piercing.</em></span> Ignores up to 5 points of any damage resistance type the target has.</p>",
             },
             {
               name: "EXP 99% - Killing Machine",
               description:
-                "<p>A categoria da arma favorita passa a ser reduzida em III, ela recebe +2 na margem de ameaça e seu dano aumenta em um dado do mesmo tipo.</p>",
+                "<p>The favorite weapon's category is now reduced by III, it receives +2 to the threat range and its damage increases by one die of the same type.</p>",
             },
           ],
         },
@@ -185,22 +185,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Inspire Confidence",
               description:
-                "<p>Sua liderança inspira seus aliados. Você pode gastar uma reação e 2 PE para fazer um aliado em alcance curto rolar novamente um teste recém realizado.</p>",
+                "<p>Your leadership inspires your allies. You can spend a reaction and 2 EP to make an ally in short range reroll a recently performed check.</p>",
             },
             {
               name: "EXP 40% - Strategist",
               description:
-                "<p>Você pode direcionar aliados em alcance curto. Gaste uma ação padrão e 1 PE por aliado que quiser direcionar (limitado pelo seu Intelecto). No próximo turno dos aliados afetados, eles ganham uma ação de movimento adicional.</p>",
+                "<p>You can direct allies at short range. Spend a standard action and 1 EP per ally you want to direct (limited by your Intellect). On the affected allies' next turn, they gain an additional movement action.</p>",
             },
             {
               name: "EXP 65% - Breach Their Defenses",
               description:
-                "<p>Uma vez por rodada, quando um aliado causar dano em um inimigo que esteja em seu alcance curto, você pode gastar uma reação e 2 PE para que você ou outro aliado em alcance curto faça um ataque adicional contra o mesmo inimigo. Além disso, o alcance de inspirar confiança e estrategista aumenta para médio.</p>",
+                "<p>Once per round, when an ally deals damage to an enemy within short range of you, you can use a reaction and 2 EP to have you or another ally within short range make an additional attack against the same enemy. Additionally, the range of Inspire Confidence and Strategist increases to medium.</p>",
             },
             {
               name: "EXP 99% - Commanding Officer",
               description:
-                "<p>Você pode gastar uma ação padrão e 5 PE para que cada aliado que você possa ver em alcance médio receba uma ação padrão adicional no próximo turno dele.</p>",
+                "<p>You can use a standard action and 5 EP so that each ally you can see within medium range receives an additional standard action on their next turn.</p>",
             },
           ],
         },
@@ -212,22 +212,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Lethal Technique",
               description:
-                "<p>Você recebe um aumento de +2 na margem de ameaça com todos os seus ataques corpo a corpo.</p>",
+                "<p>You gain a +2 increase in threat range to all of your melee attacks.</p>",
             },
             {
               name: "EXP 40% - Retaliate",
               description:
-                "<p>Sempre que bloquear um ataque, você pode gastar uma reação e 2 PE para fazer um ataque corpo a corpo no inimigo que o atacou.</p>",
+                "<p>Whenever you block an attack, you can use a reaction and 2 EP to make a melee attack on the enemy that attacked you.</p>",
             },
             {
               name: "EXP 65% - Opressive Strength",
               description:
-                "<p>Quando acerta um ataque corpo a corpo, você pode gastar 1 PE para realizar uma manobra derrubar ou empurrar contra o alvo do ataque como ação livre. Se escolher empurrar, recebe um bônus de +5 para cada 10 pontos de dano que causou no alvo. Se escolher derrubar e vencer no teste oposto, você pode gastar 1 PE para fazer um ataque adicional contra o alvo caído.</p>",
+                "<p>When you land a melee attack, you can spend 1 EP to perform a knock down or push maneuver against the target of the attack as a free action. If you choose to push, you receive a bonus of +5 for every 10 points of damage you dealt to the target. If you choose to knock down and win the opposed check, you can spend 1 EP to make an additional attack against the now prone target.</p>",
             },
             {
               name: "EXP 99% - Maximum Power",
               description:
-                "<p>Quando usa seu Ataque Especial com armas corpo a corpo, todos os bônus numéricos são dobrados. Por exemplo, se usar 5 PE para receber +5 no ataque e +15 no dano, você recebe +10 no ataque e +30 no dano.</p>",
+                "<p>When you use your Special Attack with melee weapons, all numerical bonuses are doubled. For example, if you use 5 EP to get +5 on the attack roll and +15 damage, you get +10 on the attack roll and +30 damage.</p>",
             },
           ],
         },
@@ -239,22 +239,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Upgraded Initiative",
               description:
-                "<p>Você recebe +5 em Iniciativa e uma ação de movimento adicional na primeira rodada.</p>",
+                "<p>You receive +5 in Initiative and an extra movement action on the first round.</p>",
             },
             {
-              name: "EXP 40% - Extra Attack ",
+              name: "EXP 40% - Extra Attack",
               description:
-                "<p>Uma vez por rodada, quando faz um ataque, você pode gastar 2 PE para fazer um ataque adicional.</p>",
+                "<p>Once per round, when you make an attack, you can spend 2 EP to make an additional attack.</p>",
             },
             {
               name: "EXP 65% - Adrenaline Rush",
               description:
-                "<p>Uma vez por rodada, você pode gastar 5 PE para realizar uma ação padrão ou de movimento adicional.</p>",
+                "<p>Once per round, you can spend 5 EP to get an additional standard or movement action.</p>",
             },
             {
               name: "EXP 99% - Always Vigilant",
               description:
-                "<p>Você recebe uma ação padrão adicional no início de cada cena de combate.</p>",
+                "<p>You receive an additional standard action at the start of each combat scene.</p>",
             },
           ],
         },
@@ -266,22 +266,22 @@ const e = "/assets/attributes-V37qZCrP.png",
             {
               name: "EXP 10% - Hard Skin",
               description:
-                "<p>Você recebe +1 PV para cada 5% de EXP e, quando faz um bloqueio, soma seu Vigor na resistência a dano recebida.</p>",
+                "<p>You receive +1 HP for every 5% EXP and, when you block an attack, you add your Vigor to the damage reduction received.</p>",
             },
             {
               name: "EXP 40% - Come to ME!",
               description:
-                "<p>Sempre que um oponente em alcance curto ataca um de seus aliados, você pode gastar uma reação e 1 PE para fazer com que esse oponente faça um teste de Vontade (DT Vig). Se falhar, o oponente deve atacar você em vez de seu aliado. Este poder só funciona se você puder ser efetivamente atacado e estiver no alcance do ataque (por exemplo, adjacente a um oponente atacando em corpo a corpo ou dentro do alcance de uma arma de ataque à distância). Um oponente que passe no teste de Vontade não pode ser afetado por seu poder Cai Dentro até o final da cena.</p>",
+                "<p>Whenever an opponent within short range attacks one of your allies, you can use a reaction and 1 EP to make that opponent make a Will saving throw (DC Vig). If they fail, the opponent must attack you instead of your ally. This power only works if you can be effectively attacked and are within attack range (for example, adjacent to an opponent attacking in melee or within range of a ranged weapon). An opponent who passes the Will test cannot be affected by your Come to ME! power until the end of the scene.</p>",
             },
             {
-              name: "EXP 65% - Hard to Kill",
+              name: "EXP 65% - Dead Hard",
               description:
-                "<p>Ao sofrer dano não paranormal, você pode gastar uma reação e 2 PE para reduzir esse dano à metade. Em EXP 85%, você pode usar esta habilidade para reduzir dano paranormal.</p>",
+                "<p>When you take non-paranormal damage, you can use a reaction and 2 EP to halve that damage. At EXP 85%, you can use this skill to reduce paranormal damage.</p>",
             },
             {
               name: "EXP 99% - Unbreakable",
               description:
-                "<p>Enquanto estiver machucado, você recebe +5 na Defesa e resistência a dano 5. Enquanto estiver morrendo, em vez do normal, você não fica indefeso e ainda pode realizar ações. Você ainda segue as regras de morte normalmente.</p>",
+                "<p>While you are injured, you receive +5 Defense and +5 damage resistance. While you are dying, instead of normal, you are not defenseless and can still perform actions. You still follow the death rules as normal.</p>",
             },
           ],
         },
