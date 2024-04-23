@@ -29,7 +29,7 @@ const e = "/assets/attributes-V37qZCrP.png",
       shortDescription:
         "Trained to fight with all types of weapons, and with the strength and courage to face dangers head on, you are the type of agent who prefers more direct approaches and tends to shoot first and ask questions later.",
       description:
-        "<p>Do mercenário especialista em armas de fogo até o perito em espadas, combatentes apresentam uma gama enorme de habilidades e técnicas especiais que aprimoram sua eficiência no campo de batalha, tornando-os membros essenciais em qualquer missão de extermínio.</p><p>Além de treinar seu corpo, o combatente também é perito em liderar seus aliados em batalha e cuidar de seu equipamento de combate, sempre preparado para assumir a linha de frente quando a coisa fica feia.</p><p><span>Combatentes Famosos: </span>Senhor Veríssimo, Joui Jouki, Gal, Antônio “Balu” Pontevedra, Tristan Monteiro e Ryder Staten.</p>",
+        "<p>From the mercenary specializing in firearms to the expert with swords, combatants present a huge range of special abiltiies and techniques that enhance their efficiency on the battlefield, making them essential members of any extermination mission.</p><p> In addition to training their body, the combatant is also adept at leading their allies in battle and taking care of their combat equipment, always prepared to take the front line when things get tough.</p><p><span>Famous Combatants: </span>Mister Veríssimo, Joui Jouki, Gal, Antônio “Balu” Pontevedra, Tristan Monteiro & Ryder Staten.</p>",
       initialPv: 20,
       levelPv: 4,
       initialPe: 2,
@@ -71,7 +71,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Fighting with Two Weapons",
           description:
-            "<p>If you are using two weapons (and at least one of them is light) and make an attack, you can make two attacks, one with each weapon. If you do so, you suffer –1d20 on all attack rolls until your next turn. <em>Prerequisites:</em> Agi 3, trained in Fighting or Marksmanship.</p>",
+            "<p>If you are wielding two weapons (and at least one of them is light) and make an attack, you can make two attacks, one with each weapon. If you do so, you suffer –1d20 on all attack rolls until your next turn. <em>Prerequisites:</em> Agi 3, trained in Fighting or Marksmanship.</p>",
         },
         {
           name: "Defensive Fighting",
@@ -153,7 +153,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Annihilator",
           description:
-            "<p>Você é treinado para abater alvos com eficiência e velocidade. Suas armas são suas melhores amigas e você cuida tão bem delas quanto de seus companheiros de equipe. Talvez até melhor.</p>",
+            "<p>You are trained to take down targets with efficiency and speed. Your weapons are your best friends and you take just as good care of them as you do your teammates. Maybe even better.</p>",
           abilities: [
             {
               name: "EXP 10% - The Favorite",
@@ -180,7 +180,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Field Commander",
           description:
-            "<p>Sem um oficial uma batalha não passa de uma briga de bar. Você é treinado para coordenar e auxiliar seus companheiros em combate, tomando decisões rápidas e tirando melhor proveito da situação e do talento de seus aliados.</p>",
+            "<p>Without an officer, a battle is nothing more than a bar fight. You are trained to coordinate and assist your companions in combat, making quick decisions and taking best advantage of the situation and the talents of your allies.</p>",
           abilities: [
             {
               name: "EXP 10% - Inspire Confidence",
@@ -207,7 +207,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Warrior",
           description:
-            "<p>Você treinou sua musculatura e movimentos a ponto de transformar seu corpo em uma verdadeira arma. Com golpes corpo a corpo tão poderosos quanto uma bala, você encara os perigos de frente.</p>",
+            "<p>You have trained your muscles and movements to the point of transforming your body into a true weapon. With melee strikes as powerful as a bullet, you face dangers head on.</p>",
           abilities: [
             {
               name: "EXP 10% - Lethal Technique",
@@ -234,7 +234,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Special Ops",
           description:
-            "<p>Você é um combatente eficaz, e suas ações são calculadas e otimizadas, sempre antevendo os movimentos inimigos e se posicionando da maneira mais inteligente no campo de batalha.</p>",
+            "<p>You are an effective combatant, and your actions are calculated and optimized, always anticipating enemy movements and positioning yourself in the most intelligent way on the battlefield.</p>",
           abilities: [
             {
               name: "EXP 10% - Upgraded Initiative",
@@ -261,7 +261,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Shock Troop",
           description:
-            "<p>Você é duro na queda. Treinou seu corpo para resistir a traumas físicos, tornando-o praticamente inquebrável, e por isso não teme se colocar entre seus aliados e o perigo.</p>",
+            "<p>You are solid as a rock. You have trained your body to resist physical trauma, making it practically unbreakable, and that is why you are not afraid to put yourself between your allies and danger.</p>",
           abilities: [
             {
               name: "EXP 10% - Hard Skin",
@@ -274,7 +274,7 @@ const e = "/assets/attributes-V37qZCrP.png",
                 "<p>Whenever an opponent within short range attacks one of your allies, you can use a reaction and 1 EP to make that opponent make a Will saving throw (DC Vig). If they fail, the opponent must attack you instead of your ally. This power only works if you can be effectively attacked and are within attack range (for example, adjacent to an opponent attacking in melee or within range of a ranged weapon). An opponent who passes the Will test cannot be affected by your Square Up power until the end of the scene.</p>",
             },
             {
-              name: "EXP 65% - Dead Hard",
+              name: "EXP 65% - Hard to Kill",
               description:
                 "<p>When you take non-paranormal damage, you can use a reaction and 2 EP to halve that damage. At EXP 85%, you can use this skill to reduce paranormal damage.</p>",
             },
@@ -314,7 +314,7 @@ const e = "/assets/attributes-V37qZCrP.png",
       shortDescription:
         "An agent who relies more on cleverness rather than brute force. A specialist uses technical knowledge, quick thinking or even cunning to solve mysteries and face the paranormal.",
       description:
-        "<p>Cientistas, inventores, pesquisadores e técnicos de vários tipos são exemplos de especialistas, que são tão variados quanto as áreas do conhecimento e da tecnologia. Alguns ainda preferem estudar engenharia social e se tornam excelentes espiões infiltrados, ou mesmo estudam técnicas especiais de combate como artes marciais e tiro a distância, aliando conhecimento técnico e habilidade.</p><p>O que une todos os especialistas é sua incrível capacidade de aprender e improvisar usando seu intelecto e conhecimento avançado, que pode tirar o grupo todo dos mais diversos tipos de enrascadas.</p><p><span>Especialistas Famosos: </span>Aaron, Arthur Cervero, Rubens Naluti, Elizabeth Webber, Samuel Norte, Chizue Akechi.</p>",
+        "<p>Scientists, inventors, researchers and technicians of various types are examples of specialists, who are as varied as the areas of knowledge and technology. Some still prefer to study social engineering and become excellent undercover spies, or even study special combat techniques such as martial arts and long-range shooting, combining technical knowledge and skill.</p><p>What unites all specialists is their incredible ability to learn and improvise using their intellect and advanced knowledge, which can get the entire group out of the most diverse types of trouble.</p><p><span>Famous Specialists: </span>Aaron, Arthur Cervero, Rubens Naluti, Elizabeth Webber, Samuel Norte, Chizue Akechi.</p>",
       initialPv: 16,
       levelPv: 3,
       initialPe: 3,
@@ -421,7 +421,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Sharpshooter",
           description:
-            "<p>Um tiro, uma morte. Ao contrário dos combatentes, você é perito em neutralizar ameaças de longe, terminando uma briga antes mesmo que ela comece. Você trata sua arma como uma ferramenta de precisão, sendo capaz de executar façanhas incríveis.</p>",
+            "<p>One shot, one kill. Unlike combatants, you are adept at neutralizing threats from afar, ending a fight before it even starts. You treat your weapon as a precision tool, capable of performing incredible feats.</p>",
           abilities: [
             {
               name: "EXP 10% - Elite Aim",
@@ -448,7 +448,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Infiltrator",
           description:
-            "<p>Você é um perito em infiltração e sabe neutralizar alvos desprevenidos sem causar alarde. Combinando talento acrobático, destreza manual e conhecimento técnico você é capaz de superar qualquer barreira de defesa, mesmo quando a missão parece impossível.</p>",
+            "<p>You are an expert in infiltration and know how to neutralize unsuspecting targets without causing a fuss. Combining acrobatic talent, manual dexterity and technical knowledge you are able to overcome any defensive barrier, even when the mission seems impossible.</p>",
           abilities: [
             {
               name: "EXP 10% - Sneak Attack",
@@ -473,9 +473,9 @@ const e = "/assets/attributes-V37qZCrP.png",
           ],
         },
         {
-          name: "Combat Medic",
+          name: "Field Medic",
           description:
-            "<p>Você é treinado em técnicas de primeiros socorros e tratamento de emergência, o que torna você um membro valioso para qualquer grupo de agentes. Ao contrário dos profissionais de saúde convencionais, você está acostumado com o campo de batalha e sabe tomar decisões rápidas no meio do caos.</p><p><span>Especial: </span>para escolher esta trilha, você precisa ser treinado em Medicina. Para usar as habilidades desta trilha, você precisa possuir um kit de medicina.</p>",
+            "<p>You are trained in first aid and emergency treatment techniques, making you a valuable member of any group of agents. Unlike conventional healthcare professionals, you are used to the battlefield and know how to make quick decisions in the midst of chaos.</p><p><span>Special: </span>to choose this path, you need to be trained in Medicine. To use the abilities of this path, you need to have a medicine kit.</p>",
           abilities: [
             {
               name: "EXP 10% - Paramedic",
@@ -502,7 +502,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Negociator",
           description:
-            "<p>Você é um diplomata habilidoso e consegue influenciar outras pessoas, seja por lábia ou intimidação. Sua capacidade de avaliar situações com rapidez e eficiência pode tirar o grupo de apuros que nem a mais poderosa das armas poderia resolver.</p>",
+            "<p>You are a skilled diplomat and can influence other people, whether through talk or intimidation. Your ability to assess situations quickly and efficiently can get the group out of troubles that not even the most powerful weapon could solve.</p>",
           abilities: [
             {
               name: "EXP 10% - Eloquence",
@@ -529,7 +529,7 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Technician",
           description:
-            "<p>Sua principal habilidade é a manutenção e reparo do valioso equipamento que seu time carrega em missão. Seu conhecimento técnico também permite que improvise ferramentas com o que tiver à disposição e sabote os itens usados por seus inimigos.</p>",
+            "<p>Your main skill is maintaining and repairing the valuable equipment your team carries on missions. Your technical knowledge also allows you to improvise tools with whatever you have at your disposal and sabotage items used by your enemies.</p>",
           abilities: [
             {
               name: "EXP 10% - Optimized Inventory",
@@ -582,7 +582,7 @@ const e = "/assets/attributes-V37qZCrP.png",
       shortDescription:
         "The Other Side is mysterious, dangerous and, in some ways, captivating. Many scholars of the entities get lost in their dark realms in search of power, but there are those who aim to understand and master the paranormal mysteries to use them to combat the Other Side itself. This type of agent is not only knowledgeable about the occult, but also has a talent for connecting with paranormal elements.",
       description:
-        "<p>Ao contrário da crendice popular, ocultistas não são intrinsecamente malignos. Seria como dizer que o cientista que inventou a pólvora é culpado pelo assassino que disparou o revólver. Para a Ordem, o Paranormal é uma força que pode ser usada para os mais diversos propósitos, de acordo com a intenção de seu usuário.</p><p>Ocultistas aplicam seu conhecimento acadêmico e suas capacidades de conjuração de rituais em missões para investigar e combater o Paranormal em todas as suas formas, principalmente quando munição convencional não é o suficiente para lidar com a tarefa.</p><p><span>Ocultistas Famosos:</span> Agatha Volkomenn, Dante, Arnaldo Fritz, Marc Menet, Kian.</p>",
+        "<p>Contrary to popular belief, occultists are not intrinsically evil. It would be like saying that the scientist who invented gunpowder is guilty of the murderer who fired the revolver. For the Order, the Paranormal is a force that can be used for the most diverse purposes, according to the intention of its user.</p><p>Occultists apply their academic knowledge and their abilities to conjure rituals in missions to investigate and combat the Paranormal in all its forms, especially when conventional ammunition is not enough to handle the task.</p><p><span>Famous Occultists:</span> Agatha Volkomenn, Dante, Arnaldo Fritz, Marc Menet, Kian.</p>",
       initialPv: 12,
       levelPv: 2,
       initialPe: 4,
@@ -606,72 +606,72 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Camouflage Ocultism",
           description:
-            "<p>Você pode gastar uma ação livre para esconder símbolos e sigilos que estejam desenhados ou gravados em objetos ou em sua pele, tornando-os invisíveis para outras pessoas além de você mesmo. Além disso, quando lança um ritual, pode gastar +2 PE para lançá-lo sem usar componentes ritualísticos e sem gesticular (o que permite conjurar um ritual com as mãos presas), usando apenas concentração. Outros seres só perceberão que você lançou uma ritual se passarem num teste de Ocultismo (DT 25).</p>",
+            "<p>You can use a free action to hide symbols and sigils that are drawn or engraved on objects or your skin, making them invisible to people other than yourself. Furthermore, when you cast a ritual, you can spend +2 EP to cast it without using ritualistic components and without gesturing (which allows you to cast a ritual with your hands tied), using only concentration. Other beings will only realize that you have cast a ritual if they pass an Occultism check (DC 25).</p>",
         },
         {
-          name: "Create Scroll",
+          name: "Fabricate Seal",
           description:
-            "<p>Under Review, name does not seem the best.</p> <p>Você sabe fabricar selos paranormais de rituais que conheça. Fabricar um selo gasta uma ação de interlúdio e um número de PE iguais ao custo de conjurar o ritual. Você pode ter um número máximo de selos criados a qualquer momento igual à sua Presença.</p>",
+            "<p>You know how to make paranormal seals of rituals you know. Crafting a seal takes an interlude action and a number of EP equal to the cost of casting the ritual. You can have a maximum number of seals created at any time equal to your Presence.</p>",
         },
         {
           name: "Shrouded in Mystery",
           description:
-            "<p>Sua aparência e postura assombrosas o permitem manipular e assustar pessoas ignorantes ou supersticiosas. O mestre define o que exatamente você pode fazer e quem se encaixa nessa descrição. Como regra geral, você recebe +5 em Enganação e Intimidação contra pessoas não treinadas em Ocultismo.</p>",
+            "<p>Your haunting appearance and posture allow yoy to manipulate and scare ignorant or superstitious people. The GM defines what exactly you can do and who fits that description. As a general rule, you get +5 to Deception and Intimidation against people not trained in Occultism.</p>",
         },
         {
           name: "Element Specialist",
           description:
-            "<p>Escolha um elemento. A DT para resistir aos seus rituais desse elemento aumenta em +2.</p>",
+            "<p>Choose an element. The DC to resist your rituals of this element increases by +2.</p>",
         },
         {
           name: "Paranormal Tools",
           description:
-            "<p>Você reduz a categoria de um item paranormal em I e pode ativar itens paranormais sem pagar seu custo em PE.</p>",
+            "<p>You reduce the category of a paranormal item by I and can activate paranormal items without paying their EP cost.</p>",
         },
         {
           name: "Power Flow",
           description:
-            "<p>Você pode manter dois efeitos sustentados de rituais ativos simultaneamente com apenas uma ação livre, pagando o custo de cada efeito separadamente. <em>Pré-requisito:</em> NEX 60%.</p>",
+            "<p>You can keep two sustained effects of active ritual simultaneously with just one free action, paying the cost of each effect separately. <em>Prerequisite:</em> NEX 60%.</p>",
         },
         {
           name: "Guided by the Paranormal",
           description:
-            "<p>Uma vez por cena, você pode gastar 2 PE para fazer uma ação de investigação adicional.</p>",
+            "<p>Once per scene, you can spend 2 EP to make an additional investigation action.</p>",
         },
         {
           name: "Paranormal Identification",
           description:
-            "<p>Você recebe +10 em testes de Ocultismo para identificar criaturas, objetos ou rituais.</p>",
+            "<p>You gain +10 on Occultism checks to identify creatures, objects, or rituals.</p>",
         },
         {
-          name: "Improvise Components",
+          name: "Makeshift Components",
           description:
-            "<p>Uma vez por cena, você pode gastar uma ação completa para fazer um teste de Investigação (DT 15). Se passar, encontra objetos que podem servir como componentes ritualísticos de um elemento à sua escolha. O mestre define se é possível usar esse poder na cena atual.</p>",
+            "<p>Once per scene, you can use a complete action to make an Investigation check (DT 15). If you pass, you find objects that can serve as ritualistic components of an element of your choice. The GM defines whether it is possible to use this power in the current scene.</p>",
         },
         {
           name: "Paranormal Intuition",
           description:
-            "<p>Sempre que usa a ação facilitar investigação, você soma seu Intelecto ou Presença no teste (à sua escolha).</p>",
+            "<p>Whenever you use the facilitate investigation action, you add your Intellect or Presence to the roll (your choice).</p>",
         },
         {
           name: "Element Master",
           description:
-            "<p>Escolha um elemento. O custo para lançar rituais desse elemento diminui em –1 PE. <em>Pré-requisitos:</em> Especialista em Elemento no elemento escolhido, NEX 45%.</p>",
+            "<p>Choose an element. The cost to cast rituals of this element decreases by –1 EP. <em>Prerequisites:</em> Elemental Specialist in chosen element, NEX 45%.</p>",
         },
         {
           name: "Powerful Ritual",
           description:
-            "<p>Você soma seu Intelecto nas rolagens de dano ou nos efeitos de cura de seus rituais. <em>Pré-requisito:</em> Int 2.</p>",
+            "<p>You add your Intellect to the damage rolls or healing effects of your rituals. <em>Prerequisite:</em> Int 2.</p>",
         },
         {
           name: "Favorite Ritual",
           description:
-            "<p>Escolha um ritual que você conhece. Você reduz em –1 PE o custo do ritual. Essa redução se acumula com reduções fornecidas por outras fontes.</p>",
+            "<p>Choose a ritual you know. You reduce the cost of the ritual by –1 EP. This reduction stacks with reductions provided by other sources.</p>",
         },
         {
           name: "Ritualistic Tattoo",
           description:
-            "<p>Símbolos marcados em sua pele reduzem em –1 PE o custo de rituais de alcance pessoal que têm você como alvo.</p>",
+            "<p>Symbols marked on your skin reduce the cost of personal range rituals that have you as the target by –1 EP.</p>",
         },
         {
           name: "Transcend",
@@ -688,130 +688,130 @@ const e = "/assets/attributes-V37qZCrP.png",
         {
           name: "Conduit",
           description:
-            "<p>Você domina os aspectos fundamentais da conjuração de rituais e é capaz de aumentar o alcance e velocidade de suas conjurações. Conforme sua conexão com as entidades paranormais aumenta você se torna capaz de interferir com os rituais de outros ocultistas.</p>",
+            "<p>You have mastered the fundamental aspects of ritual casting and are able to increase the range and speed of your casting. As your connection with paranormal entities increases you become able to interfere with the rituals of other occultists.</p>",
           abilities: [
             {
               name: "EXP 10% - Enlarge Ritual",
               description:
-                "<p>Quando lança um ritual, você pode gastar +2 PE para aumentar seu alcance em um passo (de curto para médio, de médio para longo ou de longo para extremo) ou dobrar sua área de efeito.</p>",
+                "<p>When you cast a ritual, you can spend +2 EP to increase its range by one step (short to medium, medium to long or long to extreme) or double its area of effect.</p>",
             },
             {
               name: "EXP 40% - Accelerate Ritual",
               description:
-                "<p>Uma vez por rodada, você pode aumentar o custo de um ritual em 4 PE para conjurá-lo como uma ação livre.</p>",
+                "<p>Once per round, you can increase the cost of a ritual by 4 EP to cast it as a free action.</p>",
             },
             {
               name: "EXP 65% - Nullify Ritual",
               description:
-                "<p>Quando for alvo de um ritual, você pode gastar uma quantidade de PE igual ao custo pago por esse ritual e fazer um teste oposto de Ocultismo contra o conjurador. Se vencer, você anula o ritual, cancelando todos os seus efeitos.</p>",
+                "<p>When you are the target of a ritual, you can spend an amount of EP equal to the cost paid for that ritual and make an opposed Occultism roll against the caster. If you win, you nullify the ritual, canceling all its effects.</p>",
             },
             {
               name: "EXP 99% - Channel the Fear",
-              description: "<p>Você aprende o ritual Canalizar o Medo.</p>",
+              description: "<p>You learn the ritual Channel the Fear.</p>",
             },
           ],
         },
         {
           name: "Flagellant",
           description:
-            "<p>Dor é um poderoso catalisador Paranormal e você aprendeu a transformá-la em poder para seus rituais. Quando se torna especialmente poderoso, consegue usar a dor e o sofrimento de seus inimigos como instrumento de seus rituais ocultistas.</p>",
+            "<p>Pain is a powerful Paranormal catalyst and you have learned to transform it into power for your rituals. When you become especially powerful, you are able to use the pain and suffering of your enemies as an instrument of your occultist rituals.</p>",
           abilities: [
             {
-              name: "EXP 10% - Lash's Gift",
+              name: "EXP 10% - The Power of Pain",
               description:
-                "<p>Under Review, deviates from original name</p><p>Ao conjurar um ritual, você pode gastar seus próprios pontos de vida para pagar o custo em pontos de esforço, à taxa de 2 PV por PE pago. Pontos de vida gastos dessa forma só podem ser recuperados com descanso.</p>",
+                "<p>When you cast a ritual, you may spend your own health points to pay the effort point cost, at a rate of 2 HP per EP paid. Health points spent in this way can only be recovered by resting.</p>",
             },
             {
-              name: "EXP 40% - More! MORE!",
+              name: "EXP 40% - Embrace the Pain",
               description:
-                "<p>Under Review, deviates from original name</p> <p>Sempre que sofrer dano não paranormal, você pode gastar uma reação e 2 PE para reduzir esse dano à metade.</p>",
+                "<p>Whenever you take non-paranormal damage, you can spend a reaction and 2 EP to halve the damage taken.</p>",
             },
             {
               name: "EXP 65% - Redeem Agony",
               description:
-                "<p>Sempre que reduz um ou mais inimigos a 0 PV com um ritual, você recebe uma quantidade de PE temporários igual ao círculo do ritual utilizado. Por exemplo, se ativar esse poder com um ritual de 2º círculo, receberá 2 PE.</p>",
+                "<p>Whenever you reduce one or more enemies to 0 HP with a ritual, you receive an amount of temporary EP equal to the circle of the ritual used. For example, if you activate this power with a 2nd circle ritual, you will receive 2 EP.</p>",
             },
             {
               name: "EXP 99% - Tangible Fear",
-              description: "<p>Você aprende o ritual Medo Tangível.</p>",
+              description: "<p>You learn the ritual Tangible Fear.</p>",
             },
           ],
         },
         {
           name: "Graduate",
           description:
-            "<p>Você foca seus estudos em se tornar um conjurador versátil e poderoso, conhecendo mais rituais que os outros ocultistas e sendo capaz de torná-los mais difíceis de serem resistidos. Seu objetivo é desvendar e dominar os segredos do Outro Lado a fundo, custe o que custar</p>",
+            "<p>You focus your studies on becoming a versatile and powerful conjurer, knowing more rituals than other occultists and being able to make them more difficult to resist. Your goal is to unveil and master the secrets of the Other Side in depth, whatever the cost.</p>",
           abilities: [
             {
               name: "EXP 10% - Expanded Knowlegde",
               description:
-                "<p>Você aprende um ritual de 1º círculo. Toda vez que ganha acesso a um novo círculo, aprende um ritual adicional daquele círculo. Esses rituais não contam no seu limite de rituais.</p>",
+                "<p>You learn a 1st circle ritual. Whenever you gain access to a new circle, you learn an additional ritual from that circle. These rituals do not count towards your ritual limit.</p>",
             },
             {
               name: "EXP 40% - Ritualistic Grimoire",
               description:
-                "<p>Você cria um grimório especial, que armazena rituais que sua mente não seria capaz de guardar. Você aprende uma quantidade de rituais de 1º ou 2º círculos igual ao seu Intelecto. Quando ganha acesso a um novo círculo, pode incluir um novo ritual desse círculo em seu grimório. Esses rituais não contam em seu limite de rituais conhecidos. Para conjurar um ritual armazenado em seu grimório, você precisa antes gastar uma ação completa folheando o grimório e relembrando o ritual. O grimório ocupa 1 espaço em seu inventário. Se perdê-lo, você pode replicá-lo com duas ações de interlúdio.</p>",
+                "<p>You create a special grimoire, which stores rituals that your mind would not be able to store. You learn a number of 1st or 2nd circle rituals equal to your Intellect. When you gain access to a new circle, you can add a new ritual from that circle to your grimoire. These rituals do not count towards your known ritual limit. To cast a ritual stored in your grimoire, you must first spend a full action flipping through the grimoire and recalling the ritual. The grimoire occupies 1 space in your inventory. If you lose it, you can replicate it with two interlude actions.</p>",
             },
             {
               name: "EXP 65% - Efficient Rituals ",
               description:
-                "<p>A DT para resistir a todos os seus rituais aumenta em +5.</p>",
+                "<p>The DC to resist all of your rituals increases by +5.</p>",
             },
             {
               name: "EXP 99% - Knowing Fear",
-              description: "<p>Você aprende o ritual Conhecendo o Medo.</p>",
+              description: "<p>You learn the ritual Knowing Fear.</p>",
             },
           ],
         },
         {
           name: "Intuitive",
           description:
-            "<p>Assim como combatentes treinam seus corpos para resistir a traumas físicos, você preparou sua mente para resistir aos efeitos do Outro Lado. Seu foco e força de vontade fazem com que você expanda os limites de suas capacidades paranormais.</p>",
+            "<p>Just as combatants train their bodies to resist physical trauma, you have prepared your mind to resist the effects of the Other Side. Your focus and willpower make you expand the limits of your paranormal capabilities.</p>",
           abilities: [
             {
               name: "EXP 10% - Sane Mind",
               description:
-                "<p>Você compreende melhor as entidades do Outro Lado, e passa a ser menos abalado por seus efeitos. Você recebe resistência paranormal +5 (+5 em testes de resistência contra efeitos paranormais).</p>",
+                "<p>You have a better understanding of the entities on the Other Side, and are less shaken by their effects. You gain +5 paranormal resistance (+5 on saving throws against paranormal effects).</p>",
             },
             {
               name: "EXP 40% - Powerful Presence",
               description:
-                "<p>Sua resiliência mental faz com que você possa extrair mais do Outro Lado. Você adiciona sua Presença ao seu limite de PE por turno, mas apenas para conjurar rituais (não para DT).</p>",
+                "<p>Your mental resilience makes it so you can extract more from the Other Side. You add your Presence to your EP limit per turn, but only for casting rituals (not for DC).</p>",
             },
             {
               name: "EXP 65% - Unshakable",
               description:
-                "<p>Você recebe resistência a dano mental e paranormal 10. Além disso, quando é alvo de um efeito paranormal que permite um teste de Vontade para reduzir o dano à metade, você não sofre dano algum se passar.</p>",
+                "<p>You gain mental and paranormal damage resistance 10. Additionally, when you are targeted by a paranormal effect that allows a Will saving throw to halve the damage, you take no damage if you pass.</p>",
             },
             {
               name: "EXP 99% - Presence of Fear",
-              description: "<p>Você aprende o ritual Presença do Medo.</p>",
+              description: "<p>You learn the ritual Presence of Fear.</p>",
             },
           ],
         },
         {
           name: "Paranormal Blade",
           description:
-            "<p>Alguns ocultistas preferem ficar fechados em suas bibliotecas estudando livros e rituais. Outros preferem investigar fenômenos paranormais em sua fonte. Já você, prefere usar o paranormal como uma arma. Você aprendeu e dominou técnicas de luta mesclando suas habilidades de conjuração com suas capacidades de combate. Apesar do nome, membros dessa trilha podem utilizar tanto armas corpo a corpo quanto de ataque à distância.</p>",
+            "<p>Some occultists prefer to stay closed in their libraries studying books and rituals. Others prefer to investigate paranormal phenomena at their source. You, on the other hand, prefer to use the paranormal as a weapon. You have learned and mastered fighting techniques by blending your casting skills with your combat capabilities. Despite the name, members of this path can use both melee and ranged weapons.</p>",
           abilities: [
             {
               name: "NEX 10% - Accursed Blade",
               description:
-                "<p>Você aprende o ritual Amaldiçoar Arma. Se já o conhece, seu custo é reduzido em –1 PE. Além disso, quando conjura esse ritual, você pode usar Ocultismo, em vez de Luta ou Pontaria, para testes de ataque com a arma amaldiçoada.</p>",
+                "<p>You learn the Curse Weapon ritual. If you already know it, its cost is reduced by –1 EP. Additionally, when you cast this ritual, you can use Occultism, instead of Fighting or Marksmanship, for attack rolls with the cursed weapon.</p>",
             },
             {
               name: "NEX 40% - Paranormal Gladiator",
               description:
-                "<p>Sempre que acerta um ataque corpo a corpo em um inimigo, você recebe 2 PE temporários. Você pode ganhar um máximo de PE temporários por cena igual ao seu limite de PE. PE temporários desaparecem no final da cena.</p>",
+                "<p>Whenever you land a melee attack on an enemy, you gain 2 temporary EP. You can gain a maximum of temporary EP per scene equal to your EP limit. Temporary EP disappears at the end of the scene.</p>",
             },
             {
               name: "NEX 65% - Martial Casting",
               description:
-                "<p>Uma vez por rodada, quando você lança um ritual com execução de uma ação padrão, pode gastar 2 PE para fazer um ataque corpo a corpo como uma ação livre.</p>",
+                "<p>Once per round, when you cast a ritual as a standard action, you can spend 2 EP to make a melee attack as a free action.</p>",
             },
             {
               name: "NEX 99% - Blade of Fear",
-              description: "<p>Você aprende o ritual Lâmina do Medo.</p>",
+              description: "<p>You learn the ritual Blade of Fear.</p>",
             },
           ],
         },

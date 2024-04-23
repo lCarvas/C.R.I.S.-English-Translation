@@ -1,5 +1,5 @@
 # C.R.I.S. English Translation
-####  Last updated 22/04/2024 18:14
+####  Last updated 24/04/2024 00:47
 
 |Translation Progress|Names/Headers|Descriptions|Interfaces/Other small things|
 |-|:-:|:-:|:-:|
@@ -12,14 +12,14 @@
 |DM Screen ✅ (Can't fully test, encounters are in development)|
 |Homebrew Page ✅|
 |Items 🟡|🟡|❌|✅|
-|Rituals 🟡|❌|❌|✅|
+|Rituals 🟡|🟡|❌|✅|
 |Creatures 🟡 (No way to test as feature is in development)|🟡|❌|🟡|
 |Backgrounds 🟡|✅|❌|✅|
-|Classes 🟡|✅|🟡|✅|
+|Classes ✅|
 |Class Paths ✅|
 |Background Abilities ✅|
-|Class Abilities 🟡|✅|🟡|⬛|
-|Path Abilities 🟡|✅|🟡|⬛|
+|Class Abilities ✅|
+|Path Abilities ✅|
 
  - ✅ Finished
  - 🟡 Started
