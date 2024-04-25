@@ -27,15 +27,15 @@ import {
   x as T,
   y as w,
   E as de,
-} from "./index-R0omtfCh.js";
+} from "./index-A5FIV-A8.js";
 import { b as ue, c as ce, a as me } from "./creatureData-jLpja1fz.js";
 import { _ as ve } from "./show-more-icon-VvUXKiHG.js";
 import { _ as pe } from "./d20-icon-vaz1En3o.js";
-import { T as ee } from "./TabNav-i5pnIhG4.js";
+import { T as ee } from "./TabNav-gD0FSgaq.js";
 import { h as z } from "./default-tJ6A0c0K.js";
 import { i as _e } from "./forms-8DDAOOVU.js";
 import { _ as G, l as F } from "./lodash-gzw5KmHd.js";
-import { D as Q } from "./DropdownSimple-MAVPy8cy.js";
+import { D as Q } from "./DropdownSimple-c6ErS-XX.js";
 import { v as W } from "./v4-cyCr5FZV.js";
 const U = (l) => (E("data-v-ed0d7802"), (l = l()), M(), l),
   he = { class: "info-bar" },

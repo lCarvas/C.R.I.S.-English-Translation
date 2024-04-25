@@ -29,10 +29,10 @@ import {
   I as Yg,
   a5 as Qg,
   K as Ct,
-} from "./index-R0omtfCh.js";
+} from "./index-A5FIV-A8.js";
 import { _ as Li } from "./d20-icon-vaz1En3o.js";
 import { _ as Ep, a as Cp, b as jg } from "./edit-icon-u1vf_q3w.js";
-import { _ as Op, c as Kg } from "./classes-j7W_HvC7.js";
+import { _ as Op, c as Kg } from "./classes-pvy_AWKl.js";
 import { _ as ey } from "./show-more-icon-VvUXKiHG.js";
 import { S as ry } from "./skills-siTAQjCS.js";
 import { c as hn, g as pa, a as ty } from "./_commonjsHelpers-4gQjN7DL.js";
@@ -1266,7 +1266,7 @@ const $p = (e) => (pn("data-v-b7aee6ba"), (e = e()), vn(), e),
                         ce("div", t1, [
                           ce("div", n1, [
                             ce("h3", null, [
-                              Jr("Ataque Bonus: "),
+                              Jr("Attack Bonus: "),
                               ce("span", null, ir(e.attack.attackBonus), 1),
                             ]),
                           ]),

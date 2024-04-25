@@ -39,8 +39,8 @@ import {
   v as fe,
   T as Je,
   L as Ae,
-} from "./index-R0omtfCh.js";
-import { L as Ma } from "./LoadingView-3PnmBxfB.js";
+} from "./index-A5FIV-A8.js";
+import { L as Ma } from "./LoadingView-YIVcCjGv.js";
 import {
   I as Y,
   A as Ha,
@@ -55,30 +55,30 @@ import {
   f as Ba,
   c as La,
   D as se,
-} from "./characterSheetUtils-ny071EEm.js";
-import { T as ye } from "./TabNav-i5pnIhG4.js";
+} from "./characterSheetUtils-pzDJF1sg.js";
+import { T as ye } from "./TabNav-gD0FSgaq.js";
 import { _ as Ie } from "./d20-icon-vaz1En3o.js";
-import { S as Ua } from "./SwitchButtonBool-RRYQtpJ1.js";
-import { C as Fa } from "./CombatCard-rdfFWFrL.js";
+import { S as Ua } from "./SwitchButtonBool-hMGIVlGw.js";
+import { C as Fa } from "./CombatCard-RiQvkvKD.js";
 import { l as qa } from "./lodash-gzw5KmHd.js";
-import { C as Ga, A as Ka } from "./ActionModal-gCX_TxiG.js";
-import { g as za } from "./firebase-M2_dwsIb.js";
-import { P as Qa } from "./PrivateFeat-HoGmnEwF.js";
-import { T as Wa } from "./ToastNotification-UC8TDHNU.js";
-import { C as ja } from "./CreatureForm-fpIurk5m.js";
+import { C as Ga, A as Ka } from "./ActionModal-L3isWl_0.js";
+import { g as za } from "./firebase-z0TgJsAW.js";
+import { P as Qa } from "./PrivateFeat-Kkfolb0t.js";
+import { T as Wa } from "./ToastNotification-ttp-yxB5.js";
+import { C as ja } from "./CreatureForm-DQvO3a5U.js";
 import { v as Ye } from "./v4-cyCr5FZV.js";
 import "./edit-icon-u1vf_q3w.js";
-import "./classes-j7W_HvC7.js";
+import "./classes-pvy_AWKl.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./skills-siTAQjCS.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
 import "./creatureData-jLpja1fz.js";
 import "./default-tJ6A0c0K.js";
 import "./forms-8DDAOOVU.js";
-import "./DropdownSimple-MAVPy8cy.js";
+import "./DropdownSimple-c6ErS-XX.js";
 import "./blank-profile-picture-wMh28flS.js";
-import "./PictureModal-ejmO73AK.js";
-import "./index.esm2017-FewWT372.js";
+import "./PictureModal-cwl_cCzm.js";
+import "./index.esm2017-xGiqb_jr.js";
 const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
   xa = { class: "char-status-card-container" },
   Xa = { class: "header" },
@@ -143,7 +143,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           return u > 0 ? u : 0;
         }),
         k = Q(() => c.character.skills[9].bonus),
-        g = Q(() => c.character.skills[20].bonus + D.value); // Esquiva 
+        g = Q(() => c.character.skills[20].bonus + D.value);
       return (u, A) => (
         o(),
         i("div", xa, [

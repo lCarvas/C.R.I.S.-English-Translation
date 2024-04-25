@@ -1,5 +1,5 @@
 # C.R.I.S. English Translation
-####  Last updated 24/04/2024 16:04
+####  Last updated 25/04/2024 01:49 UTC+1
 
 |Translation Progress|Names/Headers|Descriptions|Interfaces/Other small things|
 |-|:-:|:-:|:-:|
