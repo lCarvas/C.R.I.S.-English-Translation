@@ -1122,13 +1122,13 @@ const W =
           energy: "#7000AC",
           death: "#121212",
           blood: "#d9534f",
-          fear: "transparent",
+          fear: "#dae4e6",
           varies: "#fff",
         },
         w = I(!!i.homebrewAdd),
         r = L(),
         $ = q(() => l[i.cursedItem.element.toLowerCase()]),
-        g = q(() => ($.value === "#fff" ? "#121212" : "#fff")),
+        g = q(() => ($.value === "#fff" || "#dae4e6" ? "#121212" : "#fff")),
         M = () => {
           h("handleAdd", i.cursedItem);
         },
