@@ -13,7 +13,7 @@ import {
   p as O,
   b as P,
   _ as R,
-} from "./index-A5FIV-A8.js";
+} from "./index-vN3-fYvH.js";
 import { _ as j, a as B } from "./open-in-new-icon-p91krxL-.js";
 const g = (e) => (O("data-v-cb9cc38a"), (e = e()), P(), e),
   w = { class: "card" },

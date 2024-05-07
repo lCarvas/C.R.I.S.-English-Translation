@@ -5,7 +5,7 @@ import {
   a as o,
   t as d,
   _ as r,
-} from "./index-A5FIV-A8.js";
+} from "./index-vN3-fYvH.js";
 const l = { class: "card" },
   m = { class: "content" },
   c = { class: "player-info" },

@@ -27,15 +27,15 @@ import {
   x as T,
   y as w,
   E as de,
-} from "./index-A5FIV-A8.js";
+} from "./index-vN3-fYvH.js";
 import { b as ue, c as ce, a as me } from "./creatureData-jLpja1fz.js";
 import { _ as ve } from "./show-more-icon-VvUXKiHG.js";
 import { _ as pe } from "./d20-icon-vaz1En3o.js";
-import { T as ee } from "./TabNav-gD0FSgaq.js";
+import { T as ee } from "./TabNav-p4cAvo-x.js";
 import { h as z } from "./default-tJ6A0c0K.js";
 import { i as _e } from "./forms-8DDAOOVU.js";
 import { _ as G, l as F } from "./lodash-gzw5KmHd.js";
-import { D as Q } from "./DropdownSimple-c6ErS-XX.js";
+import { D as Q } from "./DropdownSimple-8bCJNp2Z.js";
 import { v as W } from "./v4-cyCr5FZV.js";
 const U = (l) => (E("data-v-ed0d7802"), (l = l()), M(), l),
   he = { class: "info-bar" },
@@ -650,7 +650,7 @@ const U = (l) => (E("data-v-ed0d7802"), (l = l()), M(), l),
   Zt = { class: "value-small" },
   xt = { key: 1, class: "value-small" },
   ea = { class: "attack-value-container" },
-  ta = D(() => e("strong", null, "Test:", -1)),
+  ta = D(() => e("strong", null, "Roll:", -1)),
   aa = { key: 0 },
   sa = { class: "attack-value-container row" },
   na = D(() => e("strong", null, "Damage:", -1)),
