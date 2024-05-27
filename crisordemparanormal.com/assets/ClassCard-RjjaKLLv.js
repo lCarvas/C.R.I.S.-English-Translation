@@ -1,26 +1,26 @@
 import {
   d as v,
   o as s,
-  c as i,
+  c as r,
   a,
   t as o,
   k as n,
   I as p,
   m as d,
   p as q,
-  b as _,
+  b as P,
   _ as h,
   n as b,
   q as g,
   C,
-  r as k,
-  J as P,
+  r as _,
+  J as k,
   j as S,
-  v as E,
-  T as V,
-} from "./index-vN3-fYvH.js";
-import { P as I } from "./PowerCard-sUX7e4OG.js";
-import { _ as A } from "./show-more-icon-VvUXKiHG.js";
+  v as V,
+  T as A,
+} from "./index-sE6ml22p.js";
+import { P as E } from "./PowerCard-gTEwp1Dh.js";
+import { _ as z } from "./show-more-icon-VvUXKiHG.js";
 const Xa = [
     {
       name: "Academic",
@@ -146,23 +146,34 @@ const Xa = [
     {
       name: "Fighter",
       description:
-        "<p>Você pratica uma arte marcial ou esporte de luta, ou cresceu em um bairro perigoso onde aprendeu briga de rua. Já quebrou muitos ossos, tanto seus quanto dos outros. Pode ter conhecido a Ordem após um torneio secreto envolvendo entidades do Outro Lado ou ter sido recrutado pela sua capacidade de luta.</p>",
+      "<p>Você pratica uma arte marcial ou esporte de luta, ou cresceu em um bairro perigoso onde aprendeu briga de rua. Já quebrou muitos ossos, tanto seus quanto dos outros. Pode ter conhecido a Ordem após um torneio secreto envolvendo entidades do Outro Lado ou ter sido recrutado pela sua capacidade de luta.</p>",
       skills: ["Fighting", "Reflexes"],
       power: {
         name: "Heavy Hitter",
         description:
-          "You receive +2 on damage rolls on melee attacks.",
+        "You receive +2 on damage rolls on melee attacks.",
       },
     },
     {
       name: "Forensic Scientist",
       description:
-        "<p>Você trabalhava coletando provas para a resolução de crimes, seja para a polícia, seja para uma empresa privada de investigação. Usava métodos e técnicas adquiridos através de uma graduação em uma área científica ou médica, além de cursos específicos. Recrutado para a Ordem por seus conhecimentos técnicos, seu trabalho não mudou muito - mas o tipo de que você investiga, sim.</p>",
-        skills: ["Sciences", "Investigation"],
-        power: {
+      "<p>Você trabalhava coletando provas para a resolução de crimes, seja para a polícia, seja para uma empresa privada de investigação. Usava métodos e técnicas adquiridos através de uma graduação em uma área científica ou médica, além de cursos específicos. Recrutado para a Ordem por seus conhecimentos técnicos, seu trabalho não mudou muito - mas o tipo de que você investiga, sim.</p>",
+      skills: ["Sciences", "Investigation"],
+      power: {
         name: "Investigação Científica",
         description:
-          "Once per investigation scene, you can use a free action to find clues, using Sciences instead of the skill that would be used instead for the roll.",
+        "Once per investigation scene, you can use a free action to find clues, using Sciences instead of the skill that would be used instead for the roll.",
+      },
+    },
+    {
+      name: "Gymnast",
+      description:
+        "<p>Desde muito jovem, você passou a maior parte de sua vida em ginásios (ou talvez em antigos templos monásticos) praticando as mais difíceis acobracias. Sua preparação foi árdua e dolorosa, mas aprimorou seu corpo, sua técnica e sua disciplina. Recrutado pela Ordo Realitas, essas se tornaram suas principais ferramentas para enfrentar o Outro lado. E com elas, você planeja fazer as criaturas paranormais sofrerem muito mais do que você sofreu em seus treinos.</p>",
+      skills: ["Acrobatics", "Reflexes"],
+      power: {
+        name: "Acrobatic Mobility",
+        description:
+          "You gain +2 Defense and your movement increases by +3m.",
       },
     },
     {
@@ -254,11 +265,22 @@ const Xa = [
       "<p>Você leciona em uma escola ou universidade, ensinando ciências, artes ou outro campo do saber. Sua profissão é uma das mais nobres de todas e o colocou em contato com muitas pessoas e conhecimentos. Em algum momento, o colocou em contato também com o paranormal. Agora, trabalhando na Ordem, seus alunos são criaturas do Outro Lado, e você planeja reprovar todos esse ano.</p>",
       skills: ["Sciences", "Intuition"],
       power: {
-          name: "Field Class",
-          description:
-          "You know how to bring out the best in people. Once per scene, you can use a standard action and 2 EP to give +1 to any attribute of a different character in short range until the end of the scene",
-        },
+        name: "Field Class",
+        description:
+        "You know how to bring out the best in people. Once per scene, you can use a standard action and 2 EP to give +1 to any attribute of a different character in short range until the end of the scene",
       },
+    },
+    {
+      name: "Rebel",
+      description:
+        "<p>Alguma coisa aconteceu em sua juventude que fez com que você se rebelasse contra o mundo ao seu redor. Talvez seus parentes tenham sido ausentes, por escolha ou por algum evento trágico, talvez outra perda tenha marcado seu coração. Qualquer que seja a razão, você possui iguais doses de rebeldia e independência e, acima de tudo, aprendeu a se virar sozinho. Recrutado pela Ordem, você luta por vingança - ou para que outros não passem pelo que você passou.</p>",
+      skills: ["Stealth", "Will"],
+      power: {
+        name: "Lone Wolf",
+        description:
+          "You receive +1 to Defense, skill checks, and your EP limit per turn if there are no allies within short range.",
+      },
+    },
     {
       name: "Religious",
       description:
@@ -293,6 +315,17 @@ const Xa = [
       },
     },
     {
+      name: "Scoundrel Vulture",
+      description:
+        '<p>Você fez parte dos valoros Gaudérios Abutres. Mesmo longe do motoclube, ainda segue o lema "A gente morre por quem a gente ama".</p>',
+      skills: ["Fighting", "Piloting"],
+      power: {
+        name: "Scoundrel Fraternity",
+        description:
+          "Once per round, when an adjacent ally is the target of an attack or effect, you can spend 1 EP to switch places with that ally and become the target of that attack or effect. If you take this action, on your next turn you gain +2 on attack rolls against the attacker.",
+      },
+    },
+    {
       name: "Stray",
       description:
       "<p>Você não vivia de acordo com as normas da sociedade. Podia ser um eremita, uma pessoa em situação de rua ou simplesmente alguém que descobriu o Paranormal e abandonou sua rotina — sabendo o quão frágil era a existência humana, não conseguia simplesmente continuar indo para o trabalho todo o dia. De qualquer forma, a vida sem os confortos modernos o deixou mais forte.</p>",
@@ -300,6 +333,17 @@ const Xa = [
       power: {
         name: "Calloused",
         description: "You receive +1 HP for every 5% EXP.",
+      },
+    },
+    {
+      name: "Stunt Double",
+      description:
+        "<p>Você sempre combinou um gosto por alta velocidade, manobras ousadas e esportes radicais com uma total falta de noção do perigo. Sua busca incessante por adrenalina o fez seguir carreira de dublê, uma profissão que lhe permitiu enfrentar o risco das mais diversas formas. Agora à serviço da Ordem, você enfim enfrentará o Medo verdadeiro e poderá colocar sua coragem - e suas peripécias - à prova como nunca.</p>",
+      skills: ["Piloting", "Reflexes"],
+      power: {
+        name: "Fearless",
+        description:
+          "When you make a skill check on which a failure will directly result in damage or a negative condition, you receive +5 to that test.",
       },
     },
     {
@@ -346,34 +390,34 @@ const Xa = [
       },
     },
   ],
-  m = (e) => (q("data-v-86953969"), (e = e()), _(), e),
-  z = { class: "features card-black" },
-  w = m(() => a("h3", null, "CHARACTERISTICS", -1)),
+  u = (e) => (q("data-v-86953969"), (e = e()), P(), e),
+  I = { class: "features card-black" },
+  w = u(() => a("h3", null, "CHARACTERISTICS", -1)),
   O = { class: "feat-card" },
-  T = m(() => a("h4", null, "INITIAL HEALTH POINTS", -1)),
+  T = u(() => a("h4", null, "INITIAL HEALTH POINTS", -1)),
   $ = { class: "main" },
-  y = { key: 0 },
-  x = m(() => a("h6", null, "For each level of exposition", -1)),
-  j = { class: "sub" },
-  N = { class: "feat-card" },
-  M = m(() => a("h4", null, "INITIAL EFFORT POINTS", -1)),
-  L = { class: "main" },
-  D = { key: 0 },
-  R = m(() => a("h6", null, "For each level of exposition", -1)),
+  j = { key: 0 },
+  x = u(() => a("h6", null, "For each level of exposition", -1)),
+  y = { class: "sub" },
+  M = { class: "feat-card" },
+  N = u(() => a("h4", null, "INITIAL EFFORT POINTS", -1)),
+  D = { class: "main" },
+  R = { key: 0 },
+  L = u(() => a("h6", null, "For each level of exposition", -1)),
   F = { class: "sub" },
   U = { class: "feat-card" },
-  H = m(() => a("h4", null, "INITIAL SANITY", -1)),
+  H = u(() => a("h4", null, "INITIAL SANITY", -1)),
   X = { class: "main" },
   B = { key: 0 },
-  Q = m(() => a("h6", null, "For each level of exposition", -1)),
-  J = { class: "sub" },
-  G = { class: "feat-card" },
-  Y = m(() => a("h4", null, "TRAINED SKILLS", -1)),
+  Q = u(() => a("h6", null, "For each level of exposition", -1)),
+  G = { class: "sub" },
+  J = { class: "feat-card" },
+  Y = u(() => a("h4", null, "TRAINED SKILLS", -1)),
   K = { key: 0 },
   W = { key: 1 },
   Z = { key: 2 },
   aa = { class: "feat-card" },
-  ea = m(() => a("h4", null, "PROFICIENCIES", -1)),
+  ea = u(() => a("h4", null, "PROFICIENCIES", -1)),
   oa = v({
     __name: "ClassCardFeatures",
     props: {
@@ -381,9 +425,9 @@ const Xa = [
       isMundano: { type: Boolean, default: !1 },
     },
     setup(e) {
-      return (r, u) => (
+      return (i, m) => (
         s(),
-        i("div", z, [
+        r("div", I, [
           w,
           a("div", O, [
             a("div", null, [
@@ -394,22 +438,22 @@ const Xa = [
             e.isMundano
               ? d("", !0)
               : (s(),
-                i("div", y, [
+                r("div", j, [
                   x,
-                  a("span", j, o(e.charClass.levelPv) + " HP (+Vig)", 1),
+                  a("span", y, o(e.charClass.levelPv) + " HP (+Vig)", 1),
                 ])),
           ]),
-          a("div", N, [
+          a("div", M, [
             a("div", null, [
-              M,
-              a("span", L, o(e.charClass.initialPe) + "+PRESENCE", 1),
+              N,
+              a("span", D, o(e.charClass.initialPe) + "+PRESENCE", 1),
             ]),
             n(p, { "no-margin": "" }),
             e.isMundano
               ? d("", !0)
               : (s(),
-                i("div", D, [
-                  R,
+                r("div", R, [
+                  L,
                   a("span", F, o(e.charClass.levelPe) + " EP (+Pre)", 1),
                 ])),
           ]),
@@ -419,17 +463,17 @@ const Xa = [
             e.isMundano
               ? d("", !0)
               : (s(),
-                i("div", B, [
+                r("div", B, [
                   Q,
-                  a("span", J, o(e.charClass.levelSan) + " SAN", 1),
+                  a("span", G, o(e.charClass.levelSan) + " SAN", 1),
                 ])),
           ]),
-          a("div", G, [
+          a("div", J, [
             Y,
             n(p, { "no-margin": "" }),
             e.charClass.trainedSkills.optionSkils.length > 0
               ? (s(),
-                i("div", K, [
+                r("div", K, [
                   a(
                     "h6",
                     null,
@@ -450,7 +494,7 @@ const Xa = [
             e.charClass.trainedSkills.skills.length === 0 &&
             e.charClass.trainedSkills.optionSkils.length === 0
               ? (s(),
-                i("div", W, [
+                r("div", W, [
                   a(
                     "h6",
                     null,
@@ -463,7 +507,7 @@ const Xa = [
               : d("", !0),
             e.charClass.trainedSkills.skills.length > 0
               ? (s(),
-                i("div", Z, [
+                r("div", Z, [
                   a(
                     "h6",
                     null,
@@ -488,10 +532,10 @@ const Xa = [
     },
   }),
   sa = h(oa, [["__scopeId", "data-v-86953969"]]),
-  ia = (e) => (q("data-v-2a9e98a3"), (e = e()), _(), e),
-  ra = { class: "table-content card-black" },
+  ra = (e) => (q("data-v-2a9e98a3"), (e = e()), P(), e),
+  ia = { class: "table-content card-black" },
   ta = { class: "table" },
-  na = ia(() =>
+  na = ra(() =>
     a(
       "thead",
       null,
@@ -506,11 +550,11 @@ const Xa = [
   ),
   da = { class: "center" },
   ca = { class: "left" },
-  ma = v({
+  ua = v({
     __name: "ClassCardTable",
     props: { charClass: { type: Object, required: !0 } },
     setup(e) {
-      const r = [
+      const i = [
         "5%",
         "10%",
         "15%",
@@ -532,17 +576,17 @@ const Xa = [
         "95%",
         "99%",
       ];
-      return (u, t) => (
+      return (m, t) => (
         s(),
-        i("div", ra, [
+        r("div", ia, [
           a("table", ta, [
             na,
             a("tbody", null, [
               (s(),
-              i(
+              r(
                 b,
                 null,
-                g(r, (c, f) =>
+                g(i, (c, f) =>
                   a("tr", { key: c }, [
                     a("td", da, o(c), 1),
                     a("td", ca, o(e.charClass.table[f]), 1),
@@ -556,7 +600,7 @@ const Xa = [
       );
     },
   }),
-  ua = h(ma, [["__scopeId", "data-v-2a9e98a3"]]),
+  ma = h(ua, [["__scopeId", "data-v-2a9e98a3"]]),
   la = { class: "abilities card-black" },
   pa = { class: "abilitie" },
   va = { key: 0, class: "abilitie" },
@@ -569,18 +613,18 @@ const Xa = [
       isMundano: { type: Boolean, default: !1 },
     },
     setup(e) {
-      const r = e,
-        u = {
+      const i = e,
+        m = {
           name: "Path Ability",
-          description: `Em NEX 10% você escolhe uma das trilhas de ${r.charClass.name.toLocaleLowerCase()} e recebe o primeiro poder da trilha escolhida. Você recebe um novo poder da trilha escolhida em NEX 40%, 65% e 99%.`,
+          description: `Em NEX 10% você escolhe uma das trilhas de ${i.charClass.name.toLocaleLowerCase()} e recebe o primeiro poder da trilha escolhida. Você recebe um novo poder da trilha escolhida em NEX 40%, 65% e 99%.`,
         },
         t = {
           name: "Power",
-          description: `Em NEX 15%, você recebe um poder de ${r.charClass.name.toLocaleLowerCase()} à sua escolha. Você recebe um novo poder de ${r.charClass.name.toLocaleLowerCase()} em NEX 30% e a cada 15 pontos de NEX subsequentes, conforme indicado na tabela. Veja a lista de poderes a seguir.`,
+          description: `Em NEX 15%, você recebe um poder de ${i.charClass.name.toLocaleLowerCase()} à sua escolha. Você recebe um novo poder de ${i.charClass.name.toLocaleLowerCase()} em NEX 30% e a cada 15 pontos de NEX subsequentes, conforme indicado na tabela. Veja a lista de poderes a seguir.`,
         };
       return (c, f) => (
         s(),
-        i("div", la, [
+        r("div", la, [
           a(
             "h3",
             null,
@@ -588,14 +632,14 @@ const Xa = [
             1
           ),
           (s(!0),
-          i(
+          r(
             b,
             null,
             g(
               e.charClass.abilities,
               (l) => (
                 s(),
-                i("div", { key: l.name }, [
+                r("div", { key: l.name }, [
                   a("div", pa, [
                     a("p", null, [
                       a("span", null, o(l.name) + ". ", 1),
@@ -610,16 +654,16 @@ const Xa = [
           e.isMundano
             ? d("", !0)
             : (s(),
-              i("div", va, [
+              r("div", va, [
                 a("p", null, [
-                  a("span", null, o(u.name) + ". ", 1),
-                  C(o(u.description), 1),
+                  a("span", null, o(m.name) + ". ", 1),
+                  C(o(m.description), 1),
                 ]),
               ])),
           e.isMundano
             ? d("", !0)
             : (s(),
-              i("div", ha, [
+              r("div", ha, [
                 a("p", null, [
                   a(
                     "span",
@@ -633,17 +677,17 @@ const Xa = [
           e.isMundano
             ? d("", !0)
             : (s(),
-              i("div", ba, [
+              r("div", ba, [
                 (s(!0),
-                i(
+                r(
                   b,
                   null,
                   g(
                     e.charClass.powers,
                     (l) => (
                       s(),
-                      i("div", { key: l.name }, [
-                        n(I, { power: l, "only-show": "" }, null, 8, ["power"]),
+                      r("div", { key: l.name }, [
+                        n(E, { power: l, "only-show": "" }, null, 8, ["power"]),
                       ])
                     )
                   ),
@@ -655,58 +699,58 @@ const Xa = [
     },
   }),
   fa = h(ga, [["__scopeId", "data-v-541a2218"]]),
-  Ca = (e) => (q("data-v-8cfbe0fb"), (e = e()), _(), e),
+  Ca = (e) => (q("data-v-8cfbe0fb"), (e = e()), P(), e),
   qa = { class: "card-gray" },
-  _a = Ca(() => a("img", { src: A, alt: "ver mais" }, null, -1)),
-  Pa = [_a],
-  ka = { class: "title" },
+  Pa = Ca(() => a("img", { src: z, alt: "ver mais" }, null, -1)),
+  ka = [Pa],
+  _a = { class: "title" },
   Sa = { key: 0 },
-  Ea = { class: "content" },
-  Va = ["innerHTML"],
-  Ia = v({
+  Va = { class: "content" },
+  Aa = ["innerHTML"],
+  Ea = v({
     __name: "ClassCardPathAbilitieCard",
     props: { abilitie: { type: Object, required: !0 } },
     setup(e) {
-      const r = k(!1);
-      return (u, t) => (
+      const i = _(!1);
+      return (m, t) => (
         s(),
-        i("div", qa, [
+        r("div", qa, [
           a(
             "div",
             {
               class: "header",
-              onClick: t[1] || (t[1] = (c) => (r.value = !r.value)),
+              onClick: t[1] || (t[1] = (c) => (i.value = !i.value)),
             },
             [
               a(
                 "button",
                 {
-                  class: P(["show-more", { rotate: r.value }]),
+                  class: k(["show-more", { rotate: i.value }]),
                   onClick:
-                    t[0] || (t[0] = S((c) => (r.value = !r.value), ["stop"])),
+                    t[0] || (t[0] = S((c) => (i.value = !i.value), ["stop"])),
                 },
-                Pa,
+                ka,
                 2
               ),
-              a("h3", ka, o(e.abilitie.name), 1),
+              a("h3", _a, o(e.abilitie.name), 1),
             ]
           ),
           n(
-            V,
+            A,
             { name: "card", mode: "out-in" },
             {
-              default: E(() => [
-                r.value
+              default: V(() => [
+                i.value
                   ? (s(),
-                    i("div", Sa, [
+                    r("div", Sa, [
                       n(p),
-                      a("div", Ea, [
+                      a("div", Va, [
                         a(
                           "div",
                           { innerHTML: e.abilitie.description },
                           null,
                           8,
-                          Va
+                          Aa
                         ),
                       ]),
                     ]))
@@ -719,43 +763,43 @@ const Xa = [
       );
     },
   }),
-  Aa = h(Ia, [["__scopeId", "data-v-8cfbe0fb"]]),
-  za = { class: "paths-container card-black" },
+  za = h(Ea, [["__scopeId", "data-v-8cfbe0fb"]]),
+  Ia = { class: "paths-container card-black" },
   wa = { class: "path-title" },
   Oa = { class: "paths" },
   Ta = ["innerHTML"],
   $a = { class: "abilities" },
-  ya = v({
+  ja = v({
     __name: "ClassCardPaths",
     props: { charClass: { type: Object, required: !0 } },
     setup(e) {
-      return (r, u) => (
+      return (i, m) => (
         s(),
-        i("div", za, [
+        r("div", Ia, [
           a("h3", wa, " TRILHAS DE " + o(e.charClass.name.toUpperCase()), 1),
           a("div", Oa, [
             (s(!0),
-            i(
+            r(
               b,
               null,
               g(
                 e.charClass.paths,
                 (t) => (
                   s(),
-                  i("div", { key: t.name }, [
+                  r("div", { key: t.name }, [
                     a("h3", null, o(t.name), 1),
                     a("div", { innerHTML: t.description }, null, 8, Ta),
                     a("div", $a, [
                       (s(!0),
-                      i(
+                      r(
                         b,
                         null,
                         g(
                           t.abilities,
                           (c) => (
                             s(),
-                            i("div", { key: c.name }, [
-                              n(Aa, { abilitie: c }, null, 8, ["abilitie"]),
+                            r("div", { key: c.name }, [
+                              n(za, { abilitie: c }, null, 8, ["abilitie"]),
                             ])
                           )
                         ),
@@ -772,38 +816,38 @@ const Xa = [
       );
     },
   }),
-  xa = h(ya, [["__scopeId", "data-v-15e66a27"]]),
-  ja = { class: "header" },
-  Na = { class: "card-content" },
-  Ma = { class: "short-description" },
-  La = ["innerHTML"],
-  Da = { key: 0, class: "footer" },
-  Ra = v({
+  xa = h(ja, [["__scopeId", "data-v-15e66a27"]]),
+  ya = { class: "header" },
+  Ma = { class: "card-content" },
+  Na = { class: "short-description" },
+  Da = ["innerHTML"],
+  Ra = { key: 0, class: "footer" },
+  La = v({
     __name: "ClassCard",
     props: { charClass: { type: Object, required: !0 }, onlyView: Boolean },
     emits: ["handleAddClass"],
-    setup(e, { emit: r }) {
-      const u = e,
-        t = r,
+    setup(e, { emit: i }) {
+      const m = e,
+        t = i,
         c = () => {
-          t("handleAddClass", u.charClass);
+          t("handleAddClass", m.charClass);
         };
       return (f, l) => (
         s(),
-        i(
+        r(
           "div",
-          { class: P(["card-gray", e.onlyView ? "only-view" : "choose-card"]) },
+          { class: k(["card-gray", e.onlyView ? "only-view" : "choose-card"]) },
           [
-            a("div", ja, [a("h1", null, o(e.charClass.name), 1)]),
+            a("div", ya, [a("h1", null, o(e.charClass.name), 1)]),
             n(p, { "no-margin": "" }),
-            a("div", Na, [
-              a("p", Ma, o(e.charClass.shortDescription), 1),
-              a("div", { innerHTML: e.charClass.description }, null, 8, La),
+            a("div", Ma, [
+              a("p", Na, o(e.charClass.shortDescription), 1),
+              a("div", { innerHTML: e.charClass.description }, null, 8, Da),
               a("div", null, [
                 n(sa, { "char-class": e.charClass }, null, 8, ["char-class"]),
               ]),
               a("div", null, [
-                n(ua, { "char-class": e.charClass }, null, 8, ["char-class"]),
+                n(ma, { "char-class": e.charClass }, null, 8, ["char-class"]),
               ]),
               a("div", null, [
                 n(fa, { "char-class": e.charClass }, null, 8, ["char-class"]),
@@ -815,7 +859,7 @@ const Xa = [
             e.onlyView
               ? d("", !0)
               : (s(),
-                i("div", Da, [
+                r("div", Ra, [
                   a(
                     "button",
                     { class: "choose-button button-primary", onClick: c },
@@ -828,5 +872,5 @@ const Xa = [
       );
     },
   }),
-  Ba = h(Ra, [["__scopeId", "data-v-82cc09ef"]]);
+  Ba = h(La, [["__scopeId", "data-v-82cc09ef"]]);
 export { sa as C, fa as a, Xa as b, Ba as c };
