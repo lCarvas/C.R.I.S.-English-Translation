@@ -1,32 +1,29 @@
-import {
-  d as i,
-  o as s,
-  c as a,
-  a as o,
-  t as d,
-  _ as r,
-} from "./index-sE6ml22p.js";
+import { d, o as s, c as a, a as o, t as i, _ as r } from "./index-QwuuguuZ.js";
 const l = { class: "card" },
   m = { class: "content" },
   c = { class: "player-info" },
-  b = { key: 0, class: "footer" },
-  v = { key: 1, class: "footer" },
-  p = i({
+  b = { class: "player-info small" },
+  v = { key: 0, class: "footer" },
+  p = { key: 1, class: "footer" },
+  u = d({
     __name: "CombatCard",
     props: { combat: {}, isMasterScreen: { type: Boolean } },
     emits: ["handleStart", "handleEdit", "handleRemove"],
-    setup(u) {
+    setup(_) {
       return (t, e) => (
         s(),
         a("div", l, [
-          o("div", m, [o("div", c, [o("h3", null, d(t.combat.name), 1)])]),
+          o("div", m, [
+            o("div", c, i(t.combat.name), 1),
+            o("div", b, " VD: " + i(t.combat.vdTotal), 1),
+          ]),
           t.isMasterScreen
             ? (s(),
-              a("div", v, [
+              a("div", p, [
                 o(
                   "button",
                   {
-                    class: "button-remove button-edit button-start",
+                    class: "button",
                     onClick:
                       e[2] ||
                       (e[2] = (n) => t.$emit("handleStart", t.combat.id)),
@@ -35,7 +32,7 @@ const l = { class: "card" },
                 ),
               ]))
             : (s(),
-              a("div", b, [
+              a("div", v, [
                 o(
                   "button",
                   {
@@ -61,5 +58,5 @@ const l = { class: "card" },
       );
     },
   }),
-  _ = r(p, [["__scopeId", "data-v-cac9860f"]]);
-export { _ as C };
+  C = r(u, [["__scopeId", "data-v-1defab8a"]]);
+export { C };

@@ -5,36 +5,36 @@ import {
   u as k,
   r as d,
   e as M,
-  f as B,
-  w as D,
-  i as S,
+  f as D,
+  w as B,
+  i as N,
   o as v,
   c as _,
   a,
-  x,
-  y as N,
+  C as S,
+  D as x,
   k as m,
-  v as h,
+  x as h,
   T as P,
-  Q as b,
+  z as b,
   R as C,
-  X as A,
-  L as R,
+  y as A,
+  N as R,
   Y as q,
-  P as E,
-  A as G,
-  m as H,
+  P as H,
+  v as E,
+  m as G,
   p as O,
   b as F,
-  C as $,
+  H as $,
   _ as j,
-} from "./index-sE6ml22p.js";
-import { c as Q } from "./default-tJ6A0c0K.js";
-import { v as X } from "./forms-8DDAOOVU.js";
-import { L as Y } from "./LoadingView-ZyngFh7H.js";
-import { S as z } from "./SwitchButtonBool-tOvRuQya.js";
-import { T as J } from "./ToastNotification-fRZSVqeg.js";
-import { g as K, h as W, a as Z } from "./firebase-lKn9MVSr.js";
+} from "./index-QwuuguuZ.js";
+import { c as z } from "./default-tJ6A0c0K.js";
+import { v as Y } from "./forms-8DDAOOVU.js";
+import { L as J } from "./LoadingView-BDyk9qee.js";
+import { S as K } from "./SwitchButtonBool-SDRvIcMo.js";
+import { T as Q } from "./ToastNotification-2J6AO8ev.js";
+import { g as W, h as X, a as Z } from "./firebase-UUb4pQvs.js";
 const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
   aa = { key: 0 },
   ea = { class: "page-container" },
@@ -80,7 +80,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
       const o = U(),
         p = V(),
         y = k(),
-        e = d(Q),
+        e = d(z),
         u = d(!0),
         g = d(0),
         w = ["OFF", "ON"],
@@ -88,15 +88,15 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
       M(async () => {
         var n;
         o.currentUser &&
-          ((g.value = await K((n = o.currentUser) == null ? void 0 : n.uid)),
+          ((g.value = await W((n = o.currentUser) == null ? void 0 : n.uid)),
           (u.value = !1));
       });
-      const f = B(() => e.value.name === ""),
+      const f = D(() => e.value.name === ""),
         I = async () => {
           if (!o.currentUser || f.value) return;
           if (
             ((u.value = !0),
-            g.value < 4 && (await W("uid", o.currentUser.uid, "campaigns", Z)))
+            g.value < 4 && (await X("uid", o.currentUser.uid, "campaigns", Z)))
           ) {
             (u.value = !1),
               (t.value.message = "Campaign limit reached"),
@@ -105,18 +105,18 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
           }
           const n = { uid: o.currentUser.uid, campaignLogMessages: [] },
             s = await b(C(p, "campaignLogs"), n);
-          X(e.value),
+          Y(e.value),
             (e.value.campaignLogId = s.id),
             (e.value.uid = o.currentUser.uid),
             (e.value.joinId = crypto.randomUUID().substring(0, 13)),
             (e.value.timestamp = A());
           const c = await b(C(p, "campaigns"), e.value);
-          await R(E(p, "users", o.currentUser.uid), { campaignsId: q(c.id) }),
+          await R(H(p, "users", o.currentUser.uid), { campaignsId: q(c.id) }),
             (e.value.name = ""),
             (e.value.description = ""),
             y.push({ name: "campaign-page", params: { id: c.id } });
         };
-      D(
+      B(
         () => t.value.alive,
         () => {
           t.value.alive === !0 &&
@@ -130,9 +130,9 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
         (t.value.alive = !1), clearTimeout(t.value.timeout);
       };
       return (n, s) => {
-        const c = S("p-editor");
+        const c = N("p-editor");
         return u.value
-          ? (v(), _("div", ma, [m(Y, { "page-loading": "" })]))
+          ? (v(), _("div", ma, [m(J, { "page-loading": "" })]))
           : (v(),
             _("div", aa, [
               a("div", ea, [
@@ -140,7 +140,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
                 a("div", sa, [
                   a("div", oa, [
                     ia,
-                    x(
+                    S(
                       a(
                         "input",
                         {
@@ -152,13 +152,13 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
                         null,
                         512
                       ),
-                      [[N, e.value.name]]
+                      [[x, e.value.name]]
                     ),
                   ]),
                   a("div", na, [
                     ra,
                     m(
-                      z,
+                      K,
                       {
                         value: e.value.privateMasterScreen,
                         options: w,
@@ -218,8 +218,8 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
                     default: h(() => [
                       t.value.alive
                         ? (v(),
-                          G(
-                            J,
+                          E(
+                            Q,
                             {
                               key: 0,
                               toast: t.value,
@@ -230,7 +230,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
                             8,
                             ["toast", "type"]
                           ))
-                        : H("", !0),
+                        : G("", !0),
                     ]),
                     _: 1,
                   }

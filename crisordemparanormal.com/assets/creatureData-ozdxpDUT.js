@@ -5,7 +5,7 @@ const e = [
     { label: "PRE", key: "pre" },
     { label: "VIG", key: "con" },
   ],
-  l = [
+  a = [
     { label: "damage", key: "dano" },
     { label: "ballistic", key: "balistico" },
     { label: "blood", key: "sangue" },
@@ -22,11 +22,24 @@ const e = [
     { label: "piercing", key: "perfuracao" },
     { label: "slashing", key: "corte" },
   ],
-  a = [
+  l = [
     { label: "Perception", key: "perception" },
     { label: "Initiative", key: "initiative" },
     { label: "Fortitude", key: "fortitude" },
     { label: "Reflexes", key: "reflex" },
     { label: "Will", key: "will" },
-  ];
-export { l as a, e as b, a as c };
+  ],
+  n = {
+    realidade: { color: "#696969", banner: "/img/realidade-banner.webp" },
+    conhecimento: { color: "#BE7D00", banner: "/img/conhecimento-banner.webp" },
+    magistrada: { color: "#BE7D00", banner: "/img/magistrada-banner.webp" },
+    energia: { color: "#A347FF", banner: "/img/energia-banner.webp" },
+    anfitriao: { color: "#A347FF", banner: "/img/anfitriao-banner.webp" },
+    morte: { color: "#000", banner: "/img/morte-banner.webp" },
+    deus: { color: "#000", banner: "/img/deus-da-morte-banner.webp" },
+    sangue: { color: "#B12122", banner: "/img/sangue-banner.webp" },
+    diabo: { color: "#B12122", banner: "/img/diabo-banner.webp" },
+    medo: { color: "#0D00A6", banner: "/img/medo-banner.webp" },
+    degolificada: { color: "#0D00A6", banner: "/img/degolificada-banner.webp" },
+  };
+export { a, n as b, l as c, e as d };

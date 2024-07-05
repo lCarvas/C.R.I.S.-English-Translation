@@ -1,39 +1,39 @@
 import {
-  d as K,
+  d as J,
   r as k,
-  f as X,
+  f as K,
   i as M,
-  o as r,
+  o as u,
   c as d,
   a as e,
-  x as n,
-  y as o,
+  C as i,
+  D as n,
   k as p,
   n as m,
   q as f,
   t as V,
-  K as D,
-  v as U,
-  J as Q,
+  L as D,
+  x as g,
+  a1 as Q,
   m as W,
   p as Y,
   b as Z,
-  C as A,
+  H as A,
   _ as ee,
-} from "./index-sE6ml22p.js";
+} from "./index-QwuuguuZ.js";
 import { _ as T } from "./blank-profile-picture-wMh28flS.js";
-import { b as g } from "./default-tJ6A0c0K.js";
-import { c as te, a as se } from "./creatureData-jLpja1fz.js";
-import { a as le } from "./forms-8DDAOOVU.js";
-import { P as ae } from "./PictureModal-gas6WAr8.js";
-import { _ as x, l as y } from "./lodash-gzw5KmHd.js";
-import { D as _ } from "./DropdownSimple-sMKo2Ani.js";
-import { v as ne } from "./v4-cyCr5FZV.js";
-const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
-  oe = { class: "form-container" },
-  ie = { class: "input-container" },
-  ue = a(() => e("div", { class: "label" }, " Name* ", -1)),
-  re = { class: "input-row" },
+import { b as N } from "./default-tJ6A0c0K.js";
+import { c as te, a as le } from "./creatureData-ozdxpDUT.js";
+import { a as se } from "./forms-8DDAOOVU.js";
+import { P as ae } from "./PictureModal-TrL67c-c.js";
+import { _ as U, l as y } from "./lodash-gzw5KmHd.js";
+import { D as _ } from "./DropdownSimple-O-H8dkm7.js";
+import { v as ie } from "./v4-cyCr5FZV.js";
+const a = (v) => (Y("data-v-c895e3ad"), (v = v()), Z(), v),
+  ne = { class: "form-container" },
+  oe = { class: "input-container" },
+  re = a(() => e("div", { class: "label" }, " Name* ", -1)),
+  ue = { class: "input-row" },
   de = { class: "input-container" },
   ce = a(() => e("div", { class: "label" }, " Type* ", -1)),
   pe = { class: "input-container" },
@@ -46,39 +46,41 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
   ye = a(() => e("div", { class: "label" }, " Secondary elements ", -1)),
   ke = { class: "input-row" },
   Ve = { class: "input-container" },
-  Ue = a(() => e("div", { class: "label" }, " DV* ", -1)),
-  ge = { class: "input-row" },
-  xe = { class: "input-container" },
-  Ne = a(() => e("div", { class: "label" }, " Health* ", -1)),
-  we = { class: "input-row" },
-  Ce = { class: "input-container" },
-  Pe = a(() => e("div", { class: "label" }, " STR* ", -1)),
-  Se = { class: "input-container" },
-  Me = a(() => e("div", { class: "label" }, " AGI* ", -1)),
+  ge = a(() => e("div", { class: "label" }, " DV* ", -1)),
+  Ne = { class: "input-row" },
+  Ue = { class: "input-container" },
+  xe = a(() => e("div", { class: "label" }, " Current Health* ", -1)),
+  we = { class: "input-container" },
+  Se = a(() => e("div", { class: "label" }, " Maximum Health* ", -1)),
+  Ce = { class: "input-row" },
+  Pe = { class: "input-container" },
+  Me = a(() => e("div", { class: "label" }, " STR* ", -1)),
   De = { class: "input-container" },
-  Ae = a(() => e("div", { class: "label" }, " INT* ", -1)),
+  Ae = a(() => e("div", { class: "label" }, " AGI* ", -1)),
   Te = { class: "input-container" },
-  Ee = a(() => e("div", { class: "label" }, " PRE* ", -1)),
+  Ee = a(() => e("div", { class: "label" }, " INT* ", -1)),
   Re = { class: "input-container" },
-  qe = a(() => e("div", { class: "label" }, " VIG* ", -1)),
-  Be = { class: "input-row" },
-  Ie = { class: "input-container" },
-  Oe = a(() => e("div", { class: "label" }, " Defense* ", -1)),
-  ze = { class: "input-row" },
-  Le = { class: "input-container" },
-  Fe = a(() => e("div", { class: "label" }, " Movement* ", -1)),
-  $e = a(() => e("div", { class: "title" }, " Alternative Movement ", -1)),
-  Ge = { class: "input-container" },
-  He = a(() => e("div", { class: "label" }, " Name* ", -1)),
-  je = ["onUpdate:modelValue"],
-  Je = { class: "input-container" },
-  Ke = a(() => e("div", { class: "label" }, " Movement* ", -1)),
-  Xe = ["onUpdate:modelValue"],
-  Qe = ["onClick"],
-  We = { class: "input-row" },
-  Ye = { class: "input-container" },
-  Ze = a(() => e("div", { class: "label" }, " Senses ", -1)),
-  et = a(() =>
+  qe = a(() => e("div", { class: "label" }, " PRE* ", -1)),
+  Be = { class: "input-container" },
+  Ie = a(() => e("div", { class: "label" }, " VIG* ", -1)),
+  Oe = { class: "input-row" },
+  ze = { class: "input-container" },
+  Le = a(() => e("div", { class: "label" }, " Defense* ", -1)),
+  Fe = { class: "input-row" },
+  $e = { class: "input-container" },
+  He = a(() => e("div", { class: "label" }, " Movement* ", -1)),
+  Ge = a(() => e("div", { class: "title" }, " Alternative Movement ", -1)),
+  je = { class: "input-container" },
+  Xe = a(() => e("div", { class: "label" }, " Name* ", -1)),
+  Je = ["onUpdate:modelValue"],
+  Ke = { class: "input-container" },
+  Qe = a(() => e("div", { class: "label" }, " Movement* ", -1)),
+  We = ["onUpdate:modelValue"],
+  Ye = ["onClick"],
+  Ze = { class: "input-row" },
+  et = { class: "input-container" },
+  tt = a(() => e("div", { class: "label" }, " Senses ", -1)),
+  lt = a(() =>
     e(
       "div",
       { class: "title-container" },
@@ -86,31 +88,31 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  tt = { class: "input-row" },
-  st = { class: "input-container" },
-  lt = a(() => e("div", { class: "label" }, " Dice* ", -1)),
-  at = ["onUpdate:modelValue"],
-  nt = { class: "input-container" },
-  ot = a(() => e("div", { class: "label" }, " Bonus ", -1)),
-  it = ["onUpdate:modelValue"],
-  ut = a(() => e("div", { class: "title" }, " Aditional skills ", -1)),
-  rt = { class: "input-container" },
-  dt = a(() => e("div", { class: "label" }, " Name* ", -1)),
-  ct = ["onUpdate:modelValue"],
-  pt = { class: "input-container" },
-  vt = a(() => e("div", { class: "label" }, " Dice* ", -1)),
-  mt = ["onUpdate:modelValue"],
-  _t = { class: "input-container" },
-  bt = a(() => e("div", { class: "label" }, " Bonus ", -1)),
-  ht = ["onUpdate:modelValue"],
-  ft = ["onClick"],
-  yt = { class: "input-row" },
-  kt = { class: "input-container" },
-  Vt = a(() => e("div", { class: "label" }, " Immunities ", -1)),
-  Ut = { class: "input-row" },
+  st = { class: "input-row" },
+  at = { class: "input-container" },
+  it = a(() => e("div", { class: "label" }, " Dice* ", -1)),
+  nt = ["onUpdate:modelValue"],
+  ot = { class: "input-container" },
+  rt = a(() => e("div", { class: "label" }, " Bonus ", -1)),
+  ut = ["onUpdate:modelValue"],
+  dt = a(() => e("div", { class: "title" }, " Aditional skills ", -1)),
+  ct = { class: "input-container" },
+  pt = a(() => e("div", { class: "label" }, " Name* ", -1)),
+  vt = ["onUpdate:modelValue"],
+  mt = { class: "input-container" },
+  _t = a(() => e("div", { class: "label" }, " Dice* ", -1)),
+  bt = ["onUpdate:modelValue"],
+  ht = { class: "input-container" },
+  ft = a(() => e("div", { class: "label" }, " Bonus ", -1)),
+  yt = ["onUpdate:modelValue"],
+  kt = ["onClick"],
+  Vt = { class: "input-row" },
   gt = { class: "input-container" },
-  xt = a(() => e("div", { class: "label" }, " Aditional immunities ", -1)),
-  Nt = a(() =>
+  Nt = a(() => e("div", { class: "label" }, " Immunities ", -1)),
+  Ut = { class: "input-row" },
+  xt = { class: "input-container" },
+  wt = a(() => e("div", { class: "label" }, " Aditional immunities ", -1)),
+  St = a(() =>
     e(
       "div",
       { class: "title-container" },
@@ -118,14 +120,14 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  wt = { class: "input-row flex-wrap" },
-  Ct = { class: "input-container" },
-  Pt = { class: "label" },
-  St = ["onUpdate:modelValue"],
-  Mt = { class: "input-row" },
-  Dt = { class: "input-container" },
-  At = a(() => e("div", { class: "label" }, " Vulnerabilities ", -1)),
-  Tt = a(() =>
+  Ct = { class: "input-row flex-wrap" },
+  Pt = { class: "input-container" },
+  Mt = { class: "label" },
+  Dt = ["onUpdate:modelValue"],
+  At = { class: "input-row" },
+  Tt = { class: "input-container" },
+  Et = a(() => e("div", { class: "label" }, " Vulnerabilities ", -1)),
+  Rt = a(() =>
     e(
       "div",
       { class: "title-container" },
@@ -133,26 +135,26 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  Et = { class: "input-row flex-wrap" },
-  Rt = { class: "input-container" },
-  qt = a(() => e("div", { class: "label" }, " DC ", -1)),
+  qt = { class: "input-row flex-wrap" },
   Bt = { class: "input-container" },
-  It = a(() => e("div", { class: "label" }, " Damage ", -1)),
+  It = a(() => e("div", { class: "label" }, " DC ", -1)),
   Ot = { class: "input-container" },
-  zt = a(() => e("div", { class: "label" }, " EXP imune ", -1)),
-  Lt = { class: "editor-container" },
-  Ft = a(() =>
+  zt = a(() => e("div", { class: "label" }, " Damage ", -1)),
+  Lt = { class: "input-container" },
+  Ft = a(() => e("div", { class: "label" }, " EXP imune ", -1)),
+  $t = { class: "editor-container" },
+  Ht = a(() =>
     e(
       "div",
       { class: "label" },
       [
-        A(" Description"),
+        A(" Descrição"),
         e("span", null, " (use bold to color the text purple)"),
       ],
       -1
     )
   ),
-  $t = a(() =>
+  Gt = a(() =>
     e(
       "span",
       { class: "ql-formats" },
@@ -164,8 +166,8 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  Gt = { class: "editor-container" },
-  Ht = a(() =>
+  jt = { class: "editor-container" },
+  Xt = a(() =>
     e(
       "div",
       { class: "label" },
@@ -176,7 +178,7 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  jt = a(() =>
+  Jt = a(() =>
     e(
       "span",
       { class: "ql-formats" },
@@ -188,12 +190,12 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  Jt = { class: "content-container" },
-  Kt = a(() => e("div", { class: "title" }, " Profile picture ", -1)),
-  Xt = { key: 0 },
-  Qt = ["src"],
-  Wt = { key: 1 },
-  Yt = a(() =>
+  Kt = { class: "content-container" },
+  Qt = a(() => e("div", { class: "title" }, " Profile picture ", -1)),
+  Wt = { key: 0 },
+  Yt = ["src"],
+  Zt = { key: 1 },
+  el = a(() =>
     e(
       "img",
       { class: "creature-picture", src: T, alt: "imagem em branco" },
@@ -201,13 +203,13 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  Zt = [Yt],
-  es = { class: "content-container" },
-  ts = a(() => e("div", { class: "title" }, " Full picture ", -1)),
-  ss = { key: 0 },
-  ls = ["src"],
-  as = { key: 1 },
-  ns = a(() =>
+  tl = [el],
+  ll = { class: "content-container" },
+  sl = a(() => e("div", { class: "title" }, " Full picture ", -1)),
+  al = { key: 0 },
+  il = ["src"],
+  nl = { key: 1 },
+  ol = a(() =>
     e(
       "img",
       { class: "creature-picture", src: T, alt: "imagem em branco" },
@@ -215,95 +217,96 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       -1
     )
   ),
-  os = [ns],
-  is = { class: "buttons-container" },
-  us = ["disabled"],
-  rs = { key: 0 },
-  ds = K({
+  rl = [ol],
+  ul = { class: "buttons-container" },
+  dl = ["disabled"],
+  cl = { key: 0 },
+  pl = J({
     __name: "CreatureForm",
     props: {
-      creature: { type: Object, default: g },
+      creature: { type: Object, default: N },
       noPadding: Boolean,
       addMode: Boolean,
     },
     emits: ["handleEdit", "handleClose"],
     setup(v, { emit: E }) {
-      const N = v,
+      const x = v,
         w = E,
         R = ["tiny", "small", "medium", "big", "huge", "colossal"],
         q = [
-          "damage",
-          "ballistic",
-          "blood",
-          "bludgeoning",
-          "chemical",
-          "cold",
-          "death",
-          "eletricity",
-          "energy",
-          "fire",
-          "knowledge",
-          "mental",
-          "piercing",
-          "slashing",
+            "damage",
+            "ballistic",
+            "blood",
+            "bludgeoning",
+            "chemical",
+            "cold",
+            "death",
+            "eletricity",
+            "energy",
+            "fire",
+            "knowledge",
+            "mental",
+            "piercing",
+            "slashing",
         ],
         B = [
-          "damage",
-          "ballistic",
-          "blood",
-          "bludgeoning",
-          "chemical",
-          "cold",
-          "death",
-          "eletricity",
-          "energy",
-          "fire",
-          "knowledge",
-          "mental",
-          "piercing",
-          "slashing",
+            "damage",
+            "ballistic",
+            "blood",
+            "bludgeoning",
+            "chemical",
+            "cold",
+            "death",
+            "eletricity",
+            "energy",
+            "fire",
+            "knowledge",
+            "mental",
+            "piercing",
+            "slashing",
         ],
         I = ["none", "blood", "death", "energy", "fear", "knowledge"],
         O = ["blood", "death", "energy", "fear", "knowledge"],
-        t = k(x.cloneDeep(N.creature)),
+        t = k(U.cloneDeep(x.creature)),
         c = k(!1),
         b = k(),
         z = () => {
           y.isArray(t.value.altMovements) || (t.value.altMovements = []),
             t.value.altMovements.push({ title: "New movement", value: 8 });
         },
-        L = (i) => {
-          y.isArray(t.value.altMovements) && t.value.altMovements.splice(i, 1);
+        L = (o) => {
+          y.isArray(t.value.altMovements) && t.value.altMovements.splice(o, 1);
         },
         F = () => {
           y.isArray(t.value.extraSkills) || (t.value.extraSkills = []),
             t.value.extraSkills.push({
-              id: ne(),
+              id: ie(),
               name: "New skill",
               rollNumber: 1,
               rollBonus: 0,
             });
         },
-        $ = (i) => {
+        $ = (o) => {
           y.isArray(t.value.extraSkills) &&
             t.value.extraSkills.splice(
-              t.value.extraSkills.findIndex((l) => l.id === i),
+              t.value.extraSkills.findIndex((s) => s.id === o),
               1
             );
         },
-        C = (i) => {
-          (b.value = i), (c.value = !c.value);
+        S = (o) => {
+          (b.value = o), (c.value = !c.value);
         },
-        G = (i) => {
-          b.value === "profile" && (t.value.sheetPictureURL = i),
-            b.value === "full" && (t.value.fullPictureURL = i),
+        H = (o) => {
+          b.value === "profile" && (t.value.sheetPictureURL = o),
+            b.value === "full" && (t.value.fullPictureURL = o),
             (c.value = !c.value);
         },
-        P = X(() => {
+        C = K(() => {
           if (
             !t.value.name ||
             !t.value.creatureType ||
             !t.value.vd ||
+            !t.value.pvCurrent ||
             !t.value.pvMax ||
             isNaN(t.value.attributes.str) ||
             t.value.attributes.str.toString() === "" ||
@@ -317,35 +320,40 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
             t.value.attributes.con.toString() === "" ||
             !t.value.defense ||
             !t.value.movement ||
-            !t.value.skills.fortitude.rollNumber ||
-            !t.value.skills.initiative.rollNumber ||
-            !t.value.skills.perception.rollNumber ||
-            !t.value.skills.reflex.rollNumber ||
-            !t.value.skills.will.rollNumber
+            isNaN(t.value.skills.fortitude.rollNumber) ||
+            t.value.skills.fortitude.rollNumber.toString() === "" ||
+            isNaN(t.value.skills.initiative.rollNumber) ||
+            t.value.skills.initiative.rollNumber.toString() === "" ||
+            isNaN(t.value.skills.perception.rollNumber) ||
+            t.value.skills.perception.rollNumber.toString() === "" ||
+            isNaN(t.value.skills.reflex.rollNumber) ||
+            t.value.skills.reflex.rollNumber.toString() === "" ||
+            isNaN(t.value.skills.will.rollNumber) ||
+            t.value.skills.will.rollNumber.toString() === ""
           )
             return !0;
           if (t.value.altMovements) {
-            for (const i of t.value.altMovements)
-              if (!i.title || isNaN(i.value)) return !0;
+            for (const o of t.value.altMovements)
+              if (!o.title || isNaN(o.value)) return !0;
           }
           if (t.value.extraSkills) {
-            for (const i of t.value.extraSkills)
-              if (!i.name || isNaN(i.rollNumber)) return !0;
+            for (const o of t.value.extraSkills)
+              if (o.name.toString() === "" || isNaN(o.rollNumber)) return !0;
           }
           return !1;
         }),
-        H = () => {
-          (t.value = x.clone(g)), w("handleClose");
+        G = () => {
+          (t.value = U.clone(N)), w("handleClose");
         },
         j = () => {
-          P.value ||
-            (le(t.value), w("handleEdit", t.value), (t.value = x.cloneDeep(g)));
+          C.value ||
+            (se(t.value), w("handleEdit", t.value), (t.value = U.cloneDeep(N)));
         };
-      return (i, l) => {
-        const S = M("p-editor"),
-          J = M("vue-final-modal");
+      return (o, s) => {
+        const P = M("p-editor"),
+          X = M("vue-final-modal");
         return (
-          r(),
+          u(),
           d(
             m,
             null,
@@ -359,41 +367,41 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                   ]),
                 },
                 [
-                  e("div", oe, [
-                    e("div", ie, [
-                      ue,
-                      n(
+                  e("div", ne, [
+                    e("div", oe, [
+                      re,
+                      i(
                         e(
                           "input",
                           {
                             "onUpdate:modelValue":
-                              l[0] || (l[0] = (s) => (t.value.name = s)),
+                              s[0] || (s[0] = (l) => (t.value.name = l)),
                             type: "text",
                             class: "input-primary dark big-input",
                           },
                           null,
                           512
                         ),
-                        [[o, t.value.name]]
+                        [[n, t.value.name]]
                       ),
                     ]),
-                    e("div", re, [
+                    e("div", ue, [
                       e("div", de, [
                         ce,
-                        n(
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[1] ||
-                                (l[1] = (s) => (t.value.creatureType = s)),
+                                s[1] ||
+                                (s[1] = (l) => (t.value.creatureType = l)),
                               type: "text",
                               class: "input-primary dark dropdown-sized",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.creatureType]]
+                          [[n, t.value.creatureType]]
                         ),
                       ]),
                       e("div", pe, [
@@ -407,8 +415,8 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                             "content-width": "7.5rem",
                             "form-input": "",
                             onUpdateValue:
-                              l[2] ||
-                              (l[2] = (s) => (t.value.creatureSize = s)),
+                              s[2] ||
+                              (s[2] = (l) => (t.value.creatureSize = l)),
                           },
                           null,
                           8,
@@ -428,7 +436,7 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                             "content-width": "7.5rem",
                             "form-input": "",
                             onUpdateValue:
-                              l[3] || (l[3] = (s) => (t.value.element = s)),
+                              s[3] || (s[3] = (l) => (t.value.element = l)),
                           },
                           null,
                           8,
@@ -449,8 +457,8 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                             "form-input": "",
                             multiple: "",
                             onUpdateValue:
-                              l[4] ||
-                              (l[4] = (s) => (t.value.secondaryElements = s)),
+                              s[4] ||
+                              (s[4] = (l) => (t.value.secondaryElements = l)),
                           },
                           null,
                           8,
@@ -460,305 +468,322 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                     ]),
                     e("div", ke, [
                       e("div", Ve, [
-                        Ue,
-                        n(
+                        ge,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[5] || (l[5] = (s) => (t.value.vd = s)),
+                                s[5] || (s[5] = (l) => (t.value.vd = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.vd]]
+                          [[n, t.value.vd]]
                         ),
                       ]),
                     ]),
-                    e("div", ge, [
-                      e("div", xe, [
-                        Ne,
-                        n(
+                    e("div", Ne, [
+                      e("div", Ue, [
+                        xe,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[6] || (l[6] = (s) => (t.value.pvMax = s)),
+                                s[6] || (s[6] = (l) => (t.value.pvCurrent = l)),
                               type: "number",
                               class: "input-primary dark",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.pvMax]]
+                          [[n, t.value.pvCurrent]]
+                        ),
+                      ]),
+                      e("div", we, [
+                        Se,
+                        i(
+                          e(
+                            "input",
+                            {
+                              "onUpdate:modelValue":
+                                s[7] || (s[7] = (l) => (t.value.pvMax = l)),
+                              type: "number",
+                              class: "input-primary dark",
+                            },
+                            null,
+                            512
+                          ),
+                          [[n, t.value.pvMax]]
                         ),
                       ]),
                     ]),
-                    e("div", we, [
-                      e("div", Ce, [
-                        Pe,
-                        n(
-                          e(
-                            "input",
-                            {
-                              "onUpdate:modelValue":
-                                l[7] ||
-                                (l[7] = (s) => (t.value.attributes.str = s)),
-                              type: "number",
-                              class: "input-primary dark small",
-                            },
-                            null,
-                            512
-                          ),
-                          [[o, t.value.attributes.str]]
-                        ),
-                      ]),
-                      e("div", Se, [
+                    e("div", Ce, [
+                      e("div", Pe, [
                         Me,
-                        n(
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[8] ||
-                                (l[8] = (s) => (t.value.attributes.dex = s)),
+                                s[8] ||
+                                (s[8] = (l) => (t.value.attributes.str = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.attributes.dex]]
+                          [[n, t.value.attributes.str]]
                         ),
                       ]),
                       e("div", De, [
                         Ae,
-                        n(
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[9] ||
-                                (l[9] = (s) => (t.value.attributes.int = s)),
+                                s[9] ||
+                                (s[9] = (l) => (t.value.attributes.dex = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.attributes.int]]
+                          [[n, t.value.attributes.dex]]
                         ),
                       ]),
                       e("div", Te, [
                         Ee,
-                        n(
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[10] ||
-                                (l[10] = (s) => (t.value.attributes.pre = s)),
+                                s[10] ||
+                                (s[10] = (l) => (t.value.attributes.int = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.attributes.pre]]
+                          [[n, t.value.attributes.int]]
                         ),
                       ]),
                       e("div", Re, [
                         qe,
-                        n(
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[11] ||
-                                (l[11] = (s) => (t.value.attributes.con = s)),
+                                s[11] ||
+                                (s[11] = (l) => (t.value.attributes.pre = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.attributes.con]]
+                          [[n, t.value.attributes.pre]]
+                        ),
+                      ]),
+                      e("div", Be, [
+                        Ie,
+                        i(
+                          e(
+                            "input",
+                            {
+                              "onUpdate:modelValue":
+                                s[12] ||
+                                (s[12] = (l) => (t.value.attributes.con = l)),
+                              type: "number",
+                              class: "input-primary dark small",
+                            },
+                            null,
+                            512
+                          ),
+                          [[n, t.value.attributes.con]]
                         ),
                       ]),
                     ]),
-                    e("div", Be, [
-                      e("div", Ie, [
-                        Oe,
-                        n(
+                    e("div", Oe, [
+                      e("div", ze, [
+                        Le,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[12] || (l[12] = (s) => (t.value.defense = s)),
+                                s[13] || (s[13] = (l) => (t.value.defense = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.defense]]
+                          [[n, t.value.defense]]
                         ),
                       ]),
                     ]),
-                    e("div", ze, [
-                      e("div", Le, [
-                        Fe,
-                        n(
+                    e("div", Fe, [
+                      e("div", $e, [
+                        He,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[13] ||
-                                (l[13] = (s) => (t.value.movement = s)),
+                                s[14] ||
+                                (s[14] = (l) => (t.value.movement = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.movement]]
+                          [[n, t.value.movement]]
                         ),
                       ]),
                     ]),
                     e("div", { class: "title-container" }, [
-                      $e,
+                      Ge,
                       e(
                         "button",
                         { class: "button-secondary", onClick: z },
                         " Add New "
                       ),
                     ]),
-                    (r(!0),
+                    (u(!0),
                     d(
                       m,
                       null,
                       f(
                         t.value.altMovements,
-                        (s, u) => (
-                          r(),
-                          d("div", { key: u, class: "input-row" }, [
-                            e("div", Ge, [
-                              He,
-                              n(
+                        (l, r) => (
+                          u(),
+                          d("div", { key: r, class: "input-row" }, [
+                            e("div", je, [
+                              Xe,
+                              i(
                                 e(
                                   "input",
                                   {
-                                    "onUpdate:modelValue": (h) => (s.title = h),
+                                    "onUpdate:modelValue": (h) => (l.title = h),
                                     type: "text",
                                     class: "input-primary dark",
                                   },
                                   null,
                                   8,
-                                  je
+                                  Je
                                 ),
-                                [[o, s.title]]
+                                [[n, l.title]]
                               ),
                             ]),
-                            e("div", Je, [
-                              Ke,
-                              n(
+                            e("div", Ke, [
+                              Qe,
+                              i(
                                 e(
                                   "input",
                                   {
-                                    "onUpdate:modelValue": (h) => (s.value = h),
+                                    "onUpdate:modelValue": (h) => (l.value = h),
                                     type: "number",
                                     class: "input-primary dark small",
                                   },
                                   null,
                                   8,
-                                  Xe
+                                  We
                                 ),
-                                [[o, s.value]]
+                                [[n, l.value]]
                               ),
                             ]),
                             e(
                               "button",
                               {
                                 class: "button-secondary",
-                                onClick: (h) => L(u),
+                                onClick: (h) => L(r),
                               },
                               " Remove ",
                               8,
-                              Qe
+                              Ye
                             ),
                           ])
                         )
                       ),
                       128
                     )),
-                    e("div", We, [
-                      e("div", Ye, [
-                        Ze,
-                        n(
+                    e("div", Ze, [
+                      e("div", et, [
+                        tt,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[14] ||
-                                (l[14] = (s) => (t.value.perceptionType = s)),
+                                s[15] ||
+                                (s[15] = (l) => (t.value.perceptionType = l)),
                               type: "text",
                               class: "input-primary dark",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.perceptionType]]
+                          [[n, t.value.perceptionType]]
                         ),
                       ]),
                     ]),
-                    et,
-                    (r(!0),
+                    lt,
+                    (u(!0),
                     d(
                       m,
                       null,
                       f(
                         D(te),
-                        (s) => (
-                          r(),
-                          d("div", { key: s.key }, [
-                            e("div", null, V(s.label), 1),
-                            e("div", tt, [
-                              e("div", st, [
-                                lt,
-                                n(
+                        (l) => (
+                          u(),
+                          d("div", { key: l.key }, [
+                            e("div", null, V(l.label), 1),
+                            e("div", st, [
+                              e("div", at, [
+                                it,
+                                i(
                                   e(
                                     "input",
                                     {
-                                      "onUpdate:modelValue": (u) =>
-                                        (t.value.skills[s.key].rollNumber = u),
+                                      "onUpdate:modelValue": (r) =>
+                                        (t.value.skills[l.key].rollNumber = r),
                                       type: "number",
                                       class: "input-primary dark small",
                                     },
                                     null,
                                     8,
-                                    at
+                                    nt
                                   ),
-                                  [[o, t.value.skills[s.key].rollNumber]]
+                                  [[n, t.value.skills[l.key].rollNumber]]
                                 ),
                               ]),
-                              e("div", nt, [
-                                ot,
-                                n(
+                              e("div", ot, [
+                                rt,
+                                i(
                                   e(
                                     "input",
                                     {
-                                      "onUpdate:modelValue": (u) =>
-                                        (t.value.skills[s.key].rollBonus = u),
+                                      "onUpdate:modelValue": (r) =>
+                                        (t.value.skills[l.key].rollBonus = r),
                                       type: "number",
                                       class: "input-primary dark small",
                                     },
                                     null,
                                     8,
-                                    it
+                                    ut
                                   ),
-                                  [[o, t.value.skills[s.key].rollBonus]]
+                                  [[n, t.value.skills[l.key].rollBonus]]
                                 ),
                               ]),
                             ]),
@@ -768,93 +793,93 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                       128
                     )),
                     e("div", { class: "title-container" }, [
-                      ut,
+                      dt,
                       e(
                         "button",
                         { class: "button-secondary", onClick: F },
                         " Add New "
                       ),
                     ]),
-                    (r(!0),
+                    (u(!0),
                     d(
                       m,
                       null,
                       f(
                         t.value.extraSkills,
-                        (s) => (
-                          r(),
-                          d("div", { key: s.id, class: "input-row" }, [
-                            e("div", rt, [
-                              dt,
-                              n(
+                        (l) => (
+                          u(),
+                          d("div", { key: l.id, class: "input-row" }, [
+                            e("div", ct, [
+                              pt,
+                              i(
                                 e(
                                   "input",
                                   {
-                                    "onUpdate:modelValue": (u) => (s.name = u),
+                                    "onUpdate:modelValue": (r) => (l.name = r),
                                     type: "text",
                                     class: "input-primary dark",
                                   },
                                   null,
                                   8,
-                                  ct
+                                  vt
                                 ),
-                                [[o, s.name]]
+                                [[n, l.name]]
                               ),
                             ]),
-                            e("div", pt, [
-                              vt,
-                              n(
+                            e("div", mt, [
+                              _t,
+                              i(
                                 e(
                                   "input",
                                   {
-                                    "onUpdate:modelValue": (u) =>
-                                      (s.rollNumber = u),
+                                    "onUpdate:modelValue": (r) =>
+                                      (l.rollNumber = r),
                                     type: "number",
                                     class: "input-primary dark small",
                                   },
                                   null,
                                   8,
-                                  mt
+                                  bt
                                 ),
-                                [[o, s.rollNumber]]
+                                [[n, l.rollNumber]]
                               ),
                             ]),
-                            e("div", _t, [
-                              bt,
-                              n(
+                            e("div", ht, [
+                              ft,
+                              i(
                                 e(
                                   "input",
                                   {
-                                    "onUpdate:modelValue": (u) =>
-                                      (s.rollBonus = u),
+                                    "onUpdate:modelValue": (r) =>
+                                      (l.rollBonus = r),
                                     type: "number",
                                     class: "input-primary dark small",
                                   },
                                   null,
                                   8,
-                                  ht
+                                  yt
                                 ),
-                                [[o, s.rollBonus]]
+                                [[n, l.rollBonus]]
                               ),
                             ]),
                             e(
                               "button",
                               {
                                 class: "button-secondary",
-                                onClick: (u) => $(s.id),
+                                onClick: (r) => $(l.id),
                               },
                               " Remove ",
                               8,
-                              ft
+                              kt
                             ),
                           ])
                         )
                       ),
                       128
                     )),
-                    e("div", yt, [
-                      e("div", kt, [
-                        Vt,
+                    e("div", Vt, [
+                      e("div", gt, [
+                        Nt,
                         p(
                           _,
                           {
@@ -865,8 +890,8 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                             "form-input": "",
                             multiple: "",
                             onUpdateValue:
-                              l[15] ||
-                              (l[15] = (s) => (t.value.imunidades = s)),
+                              s[16] ||
+                              (s[16] = (l) => (t.value.imunidades = l)),
                           },
                           null,
                           8,
@@ -875,53 +900,53 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                       ]),
                     ]),
                     e("div", Ut, [
-                      e("div", gt, [
-                        xt,
-                        n(
+                      e("div", xt, [
+                        wt,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[16] ||
-                                (l[16] = (s) =>
-                                  (t.value.imunidadesAditional = s)),
+                                s[17] ||
+                                (s[17] = (l) =>
+                                  (t.value.imunidadesAditional = l)),
                               type: "text",
                               class: "input-primary dark",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.imunidadesAditional]]
+                          [[n, t.value.imunidadesAditional]]
                         ),
                       ]),
                     ]),
-                    Nt,
-                    e("div", wt, [
-                      (r(!0),
+                    St,
+                    e("div", Ct, [
+                      (u(!0),
                       d(
                         m,
                         null,
                         f(
-                          D(se),
-                          (s) => (
-                            r(),
-                            d("div", { key: s.key }, [
-                              e("div", Ct, [
-                                e("div", Pt, V(s.label), 1),
-                                n(
+                          D(le),
+                          (l) => (
+                            u(),
+                            d("div", { key: l.key }, [
+                              e("div", Pt, [
+                                e("div", Mt, V(l.label), 1),
+                                i(
                                   e(
                                     "input",
                                     {
-                                      "onUpdate:modelValue": (u) =>
-                                        (t.value.resistencias[s.key] = u),
+                                      "onUpdate:modelValue": (r) =>
+                                        (t.value.resistencias[l.key] = r),
                                       type: "number",
                                       class: "input-primary dark small",
                                     },
                                     null,
                                     8,
-                                    St
+                                    Dt
                                   ),
-                                  [[o, t.value.resistencias[s.key]]]
+                                  [[n, t.value.resistencias[l.key]]]
                                 ),
                               ]),
                             ])
@@ -930,9 +955,9 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                         128
                       )),
                     ]),
-                    e("div", Mt, [
-                      e("div", Dt, [
-                        At,
+                    e("div", At, [
+                      e("div", Tt, [
+                        Et,
                         p(
                           _,
                           {
@@ -943,8 +968,8 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                             "form-input": "",
                             multiple: "",
                             onUpdateValue:
-                              l[17] ||
-                              (l[17] = (s) => (t.value.vulnerabilidades = s)),
+                              s[18] ||
+                              (s[18] = (l) => (t.value.vulnerabilidades = l)),
                           },
                           null,
                           8,
@@ -952,109 +977,109 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                         ),
                       ]),
                     ]),
-                    Tt,
-                    e("div", Et, [
-                      e("div", Rt, [
-                        qt,
-                        n(
+                    Rt,
+                    e("div", qt, [
+                      e("div", Bt, [
+                        It,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[18] ||
-                                (l[18] = (s) =>
-                                  (t.value.presencaPerturbadora.dt = s)),
+                                s[19] ||
+                                (s[19] = (l) =>
+                                  (t.value.presencaPerturbadora.dt = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.presencaPerturbadora.dt]]
+                          [[n, t.value.presencaPerturbadora.dt]]
                         ),
                       ]),
-                      e("div", Bt, [
-                        It,
-                        n(
+                      e("div", Ot, [
+                        zt,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[19] ||
-                                (l[19] = (s) =>
-                                  (t.value.presencaPerturbadora.dice = s)),
+                                s[20] ||
+                                (s[20] = (l) =>
+                                  (t.value.presencaPerturbadora.dice = l)),
                               type: "text",
                               class: "input-primary dark",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.presencaPerturbadora.dice]]
+                          [[n, t.value.presencaPerturbadora.dice]]
                         ),
                       ]),
-                      e("div", Ot, [
-                        zt,
-                        n(
+                      e("div", Lt, [
+                        Ft,
+                        i(
                           e(
                             "input",
                             {
                               "onUpdate:modelValue":
-                                l[20] ||
-                                (l[20] = (s) =>
-                                  (t.value.presencaPerturbadora.nex = s)),
+                                s[21] ||
+                                (s[21] = (l) =>
+                                  (t.value.presencaPerturbadora.nex = l)),
                               type: "number",
                               class: "input-primary dark small",
                             },
                             null,
                             512
                           ),
-                          [[o, t.value.presencaPerturbadora.nex]]
+                          [[n, t.value.presencaPerturbadora.nex]]
                         ),
                       ]),
                     ]),
-                    e("div", Lt, [
-                      Ft,
+                    e("div", $t, [
+                      Ht,
                       p(
-                        S,
+                        P,
                         {
                           modelValue: t.value.description,
                           "onUpdate:modelValue":
-                            l[21] || (l[21] = (s) => (t.value.description = s)),
+                            s[22] || (s[22] = (l) => (t.value.description = l)),
                           "editor-style": "height: 12rem",
                         },
-                        { toolbar: U(() => [$t]), _: 1 },
+                        { toolbar: g(() => [Gt]), _: 1 },
                         8,
                         ["modelValue"]
                       ),
                     ]),
-                    e("div", Gt, [
-                      Ht,
+                    e("div", jt, [
+                      Xt,
                       p(
-                        S,
+                        P,
                         {
                           modelValue: t.value.enigmaDoMedo,
                           "onUpdate:modelValue":
-                            l[22] ||
-                            (l[22] = (s) => (t.value.enigmaDoMedo = s)),
+                            s[23] ||
+                            (s[23] = (l) => (t.value.enigmaDoMedo = l)),
                           "editor-style": "height: 12rem",
                         },
-                        { toolbar: U(() => [jt]), _: 1 },
+                        { toolbar: g(() => [Jt]), _: 1 },
                         8,
                         ["modelValue"]
                       ),
                     ]),
-                    e("div", Jt, [
-                      Kt,
+                    e("div", Kt, [
+                      Qt,
                       e(
                         "button",
                         {
                           class: "button-naked",
-                          onClick: l[23] || (l[23] = (s) => C("profile")),
+                          onClick: s[24] || (s[24] = (l) => S("profile")),
                         },
                         [
                           t.value.sheetPictureURL
-                            ? (r(),
-                              d("div", Xt, [
+                            ? (u(),
+                              d("div", Wt, [
                                 e(
                                   "img",
                                   {
@@ -1064,25 +1089,25 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                                   },
                                   null,
                                   8,
-                                  Qt
+                                  Yt
                                 ),
                               ]))
-                            : (r(), d("div", Wt, Zt)),
+                            : (u(), d("div", Zt, tl)),
                         ]
                       ),
                     ]),
-                    e("div", es, [
-                      ts,
+                    e("div", ll, [
+                      sl,
                       e(
                         "button",
                         {
                           class: "button-naked",
-                          onClick: l[24] || (l[24] = (s) => C("full")),
+                          onClick: s[25] || (s[25] = (l) => S("full")),
                         },
                         [
                           t.value.fullPictureURL
-                            ? (r(),
-                              d("div", ss, [
+                            ? (u(),
+                              d("div", al, [
                                 e(
                                   "img",
                                   {
@@ -1092,55 +1117,55 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
                                   },
                                   null,
                                   8,
-                                  ls
+                                  il
                                 ),
                               ]))
-                            : (r(), d("div", as, os)),
+                            : (u(), d("div", nl, rl)),
                         ]
                       ),
                     ]),
                   ]),
-                  e("div", is, [
+                  e("div", ul, [
                     e(
                       "button",
-                      { class: "button-cancel", onClick: H },
-                      " Cancel "
+                      { class: "button-cancel", onClick: G },
+                      " Cancelar "
                     ),
                     e(
                       "button",
                       {
                         class: "button-primary big",
-                        disabled: P.value,
+                        disabled: C.value,
                         onClick: j,
                       },
-                      V(N.addMode ? "Add" : "Edit"),
+                      V(x.addMode ? "Add" : "Edit"),
                       9,
-                      us
+                      dl
                     ),
                   ]),
                 ],
                 2
               ),
               c.value
-                ? (r(),
-                  d("div", rs, [
+                ? (u(),
+                  d("div", cl, [
                     p(
-                      J,
+                      X,
                       {
                         modelValue: c.value,
                         "onUpdate:modelValue":
-                          l[26] || (l[26] = (s) => (c.value = s)),
+                          s[27] || (s[27] = (l) => (c.value = l)),
                         classes: "modal-container",
                       },
                       {
-                        default: U(() => [
+                        default: g(() => [
                           p(
                             ae,
                             {
                               "is-campaign": b.value === "full",
                               onHandleCloseModal:
-                                l[25] || (l[25] = (s) => (c.value = !c.value)),
-                              onHandleUpdatePicture: G,
+                                s[26] || (s[26] = (l) => (c.value = !c.value)),
+                              onHandleUpdatePicture: H,
                             },
                             null,
                             8,
@@ -1161,5 +1186,5 @@ const a = (v) => (Y("data-v-78ee59a1"), (v = v()), Z(), v),
       };
     },
   }),
-  ks = ee(ds, [["__scopeId", "data-v-78ee59a1"]]);
-export { ks as C };
+  gl = ee(pl, [["__scopeId", "data-v-c895e3ad"]]);
+export { gl as C };

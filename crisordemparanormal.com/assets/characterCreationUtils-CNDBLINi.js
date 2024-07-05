@@ -1,6 +1,6 @@
-import { S as o } from "./skills-siTAQjCS.js";
+import { S as o, s as u } from "./skins-kfsapBUO.js";
 import { v as t } from "./v4-cyCr5FZV.js";
-const a = {
+const d = {
     name: "",
     player: "",
     attributes: { str: 1, dex: 1, int: 1, con: 1, pre: 1 },
@@ -56,13 +56,14 @@ const a = {
     resistencias: {},
     imunidades: [],
     vulnerabilidades: [],
+    skinDice: u[0],
   },
-  d = (e, i) => {
+  f = (e, i) => {
     i.value > 3 && (i.value = 3),
       i.value < 0 && (i.value = 0),
       (e.attributes[i.attribute] = i.value);
   },
-  f = (e, i) => {
+  p = (e, i) => {
     if (i !== null) {
       (e.backgroundName = i.name), (i.power.id = t()), e.powers.push(i.power);
       for (const s of i.skills) {
@@ -75,7 +76,7 @@ const a = {
       }
     }
   },
-  p = (e, i) => {
+  v = (e, i) => {
     if (i !== null) {
       if (((e.className = i.name), i.name === "Mundane")) {
         const s = i.abilities[0];
@@ -105,7 +106,7 @@ const a = {
         (e.ritualsDc = 11 + e.attributes.pre);
     }
   },
-  v = (e, i) => {
+  b = (e, i) => {
     e.description[i.key] = i.value;
   };
-export { d as a, p as b, a as c, f as d, v as u };
+export { f as a, v as b, d as c, p as d, b as u };

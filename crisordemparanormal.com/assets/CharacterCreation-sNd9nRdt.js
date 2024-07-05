@@ -3,62 +3,62 @@ import {
   o,
   c as l,
   n as w,
-  q as I,
+  q as H,
   a as e,
-  J as T,
+  a1 as T,
   t as v,
   p as y,
   b as B,
   _ as C,
-  a1 as Y,
-  C as f,
+  a3 as Y,
+  H as f,
   r as b,
   j as Z,
   k as g,
-  v as D,
-  I as L,
+  x as D,
+  a4 as L,
   m as M,
   T as N,
   f as ee,
   h as ae,
-  A as k,
-  K as x,
+  v as k,
+  L as S,
   g as se,
   M as te,
   u as ne,
   e as oe,
   w as re,
-  a2 as ie,
-  a0 as le,
-  X as ce,
-  Q as de,
+  a5 as ie,
+  a2 as le,
+  y as ce,
+  z as de,
   R as ue,
-} from "./index-sE6ml22p.js";
+} from "./index-QwuuguuZ.js";
 import { _ as me } from "./lodash-gzw5KmHd.js";
 import { _ as he, m as pe, c as ve } from "./classes-pvy_AWKl.js";
-import { b as _e, C as ge, a as be, c as U } from "./ClassCard-RjjaKLLv.js";
+import { b as _e, C as ge, a as be, c as U } from "./ClassCard-mGBOR1g7.js";
 import { _ as ke } from "./show-more-icon-VvUXKiHG.js";
-import { S as Ce } from "./SearchInput-_zErXjng.js";
-import { T as $e } from "./ToastNotification-fRZSVqeg.js";
-import { L as fe } from "./LoadingView-ZyngFh7H.js";
+import { S as Ce } from "./SearchInput-Vr9n0nUP.js";
+import { T as $e } from "./ToastNotification-2J6AO8ev.js";
+import { L as fe } from "./LoadingView-BDyk9qee.js";
 import {
   c as ye,
   a as Be,
   u as Ae,
   b as we,
-  d as Ie,
-} from "./characterCreationUtils-0TvngL5F.js";
-import { g as Re, h as He, C as Te } from "./firebase-lKn9MVSr.js";
+  d as He,
+} from "./characterCreationUtils-CNDBLINi.js";
+import { g as Ie, h as Re, C as Te } from "./firebase-UUb4pQvs.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
-import "./PowerCard-gTEwp1Dh.js";
+import "./PowerCard-beWm0GIY.js";
 import "./add-icon-fJ4uQHUZ.js";
-import "./skills-siTAQjCS.js";
+import "./skins-kfsapBUO.js";
 import "./v4-cyCr5FZV.js";
 const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
   Pe = { class: "stepper-container" },
-  Oe = ["onClick"],
-  Se = { key: 0, class: "step-wrapper" },
-  xe = { class: "step-container" },
+  xe = ["onClick"],
+  Oe = { key: 0, class: "step-wrapper" },
+  Se = { class: "step-container" },
   De = qe(() => e("div", { class: "line" }, null, -1)),
   Le = { key: 1 },
   Me = { class: "step-container" },
@@ -77,7 +77,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
           l(
             w,
             null,
-            I(
+            H(
               a.stepperOptions,
               (r, i) => (
                 o(),
@@ -90,8 +90,8 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
                   [
                     i !== a.stepperOptions.length - 1
                       ? (o(),
-                        l("div", Se, [
-                          e("div", xe, [
+                        l("div", Oe, [
+                          e("div", Se, [
                             e(
                               "h2",
                               {
@@ -124,7 +124,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
                         ])),
                   ],
                   8,
-                  Oe
+                  xe
                 )
               )
             ),
@@ -152,15 +152,15 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
     )
   ),
   Fe = { class: "image-container" },
-  Ee = V(() =>
+  ze = V(() =>
     e("img", { class: "att-image", src: he, alt: "atributos" }, null, -1)
   ),
-  ze = ["value"],
+  Ee = ["value"],
   Je = ["value"],
   Ke = ["value"],
   Qe = ["value"],
-  Xe = ["value"],
-  Ge = _({
+  Ge = ["value"],
+  We = _({
     __name: "ChooseAttributes",
     props: { character: {}, userPremiumTier: {} },
     emits: ["handleChangeAttribute"],
@@ -179,7 +179,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
           e("div", Ve, [
             je,
             e("div", Fe, [
-              Ee,
+              ze,
               e(
                 "input",
                 {
@@ -190,7 +190,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
                 },
                 null,
                 40,
-                ze
+                Ee
               ),
               e(
                 "input",
@@ -238,7 +238,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
                 },
                 null,
                 40,
-                Xe
+                Ge
               ),
             ]),
           ]),
@@ -246,8 +246,8 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       );
     },
   }),
-  We = C(Ge, [["__scopeId", "data-v-25c92e5f"]]),
-  q = (a) => (y("data-v-d7d2a7a1"), (a = a()), B(), a),
+  Xe = C(We, [["__scopeId", "data-v-25c92e5f"]]),
+  q = (a) => (y("data-v-513e4499"), (a = a()), B(), a),
   Ye = { class: "container" },
   Ze = { class: "card-gray" },
   ea = { class: "title" },
@@ -291,7 +291,13 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
             e("h1", ea, v(a.background.name), 1),
             aa,
             e("div", sa, [
-              e("div", { innerHTML: a.background.description }, null, 8, ta),
+              e(
+                "div",
+                { class: "description", innerHTML: a.background.description },
+                null,
+                8,
+                ta
+              ),
               a.background.skills.length > 0
                 ? (o(),
                   l("div", na, [
@@ -318,8 +324,8 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       );
     },
   }),
-  da = C(ca, [["__scopeId", "data-v-d7d2a7a1"]]),
-  P = (a) => (y("data-v-fbec3d7b"), (a = a()), B(), a),
+  da = C(ca, [["__scopeId", "data-v-513e4499"]]),
+  P = (a) => (y("data-v-12cd4f6d"), (a = a()), B(), a),
   ua = { class: "card-gray" },
   ma = P(() => e("img", { src: ke, alt: "ver mais" }, null, -1)),
   ha = [ma],
@@ -387,7 +393,10 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
                       e("div", ga, [
                         e(
                           "div",
-                          { innerHTML: a.background.description },
+                          {
+                            class: "description",
+                            innerHTML: a.background.description,
+                          },
                           null,
                           8,
                           ba
@@ -423,10 +432,10 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       );
     },
   }),
-  Aa = C(Ba, [["__scopeId", "data-v-fbec3d7b"]]),
-  R = (a) => (y("data-v-3615813b"), (a = a()), B(), a),
+  Aa = C(Ba, [["__scopeId", "data-v-12cd4f6d"]]),
+  I = (a) => (y("data-v-3615813b"), (a = a()), B(), a),
   wa = { class: "text-container" },
-  Ia = R(() =>
+  Ha = I(() =>
     e(
       "p",
       null,
@@ -434,7 +443,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       -1
     )
   ),
-  Ra = R(() =>
+  Ia = I(() =>
     e(
       "h4",
       null,
@@ -442,7 +451,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       -1
     )
   ),
-  Ha = R(() =>
+  Ra = I(() =>
     e(
       "p",
       null,
@@ -450,7 +459,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       -1
     )
   ),
-  Ta = R(() =>
+  Ta = I(() =>
     e(
       "h4",
       { class: "info-text" },
@@ -472,9 +481,9 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       return (s, n) => (
         o(),
         l("div", wa, [
+          Ha,
           Ia,
           Ra,
-          Ha,
           Ta,
           g(
             Ce,
@@ -488,7 +497,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
             l(
               w,
               null,
-              I(
+              H(
                 t.value,
                 (m) => (
                   o(),
@@ -506,8 +515,8 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       );
     },
   }),
-  Oa = C(Pa, [["__scopeId", "data-v-3615813b"]]),
-  Sa = _({
+  xa = C(Pa, [["__scopeId", "data-v-3615813b"]]),
+  Oa = _({
     __name: "ChooseBackground",
     props: { chosenBackground: {}, userPremiumTier: {} },
     emits: ["handleAddBackground", "handleRemoveBackground"],
@@ -537,7 +546,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
               ))
             : (o(),
               k(
-                Oa,
+                xa,
                 {
                   key: 1,
                   "user-premium-tier": t.userPremiumTier,
@@ -551,7 +560,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       );
     },
   }),
-  xa = { class: "card-gray" },
+  Sa = { class: "card-gray" },
   Da = { class: "header" },
   La = { class: "card-content" },
   Ma = { class: "short-description" },
@@ -561,7 +570,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
     setup(a) {
       return (d, c) => (
         o(),
-        l("div", xa, [
+        l("div", Sa, [
           e("div", Da, [e("h1", null, v(a.charClass.name), 1)]),
           g(L, { "no-margin": "" }),
           e("div", La, [
@@ -601,7 +610,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
             { class: "button button-primary", onClick: i },
             " Change Class "
           ),
-          a.charClass.name !== "Mundane"
+          a.charClass.name !== "Mundano"
             ? (o(),
               k(
                 U,
@@ -619,10 +628,10 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
     },
   }),
   Fa = C(ja, [["__scopeId", "data-v-e5b7395a"]]),
-  O = (a) => (y("data-v-393772ea"), (a = a()), B(), a),
-  Ea = { class: "class-wrapper" },
-  za = { class: "text-container" },
-  Ja = O(() =>
+  x = (a) => (y("data-v-393772ea"), (a = a()), B(), a),
+  za = { class: "class-wrapper" },
+  Ea = { class: "text-container" },
+  Ja = x(() =>
     e(
       "p",
       null,
@@ -638,7 +647,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       -1
     )
   ),
-  Ka = O(() =>
+  Ka = x(() =>
     e(
       "h4",
       { class: "info-text" },
@@ -647,7 +656,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
     )
   ),
   Qa = { class: "mundano-container" },
-  Xa = O(() =>
+  Ga = x(() =>
     e(
       "p",
       null,
@@ -655,8 +664,8 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       -1
     )
   ),
-  Ga = { class: "classes-container" },
-  Wa = { class: "classes-flex" },
+  Wa = { class: "classes-container" },
+  Xa = { class: "classes-flex" },
   Ya = _({
     __name: "ClassList",
     emits: ["handleAddClass"],
@@ -667,30 +676,30 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
         };
       return (i, t) => (
         o(),
-        l("div", Ea, [
-          e("div", za, [
+        l("div", za, [
+          e("div", Ea, [
             Ja,
             Ka,
             e("div", Qa, [
-              Xa,
+              Ga,
               e(
                 "button",
                 {
                   class: "button-primary mundano-button",
-                  onClick: t[0] || (t[0] = (s) => r(x(pe))),
+                  onClick: t[0] || (t[0] = (s) => r(S(pe))),
                 },
                 " Mundane "
               ),
             ]),
           ]),
-          e("div", Ga, [
-            e("div", Wa, [
+          e("div", Wa, [
+            e("div", Xa, [
               (o(!0),
               l(
                 w,
                 null,
-                I(
-                  x(ve),
+                H(
+                  S(ve),
                   (s) => (
                     o(),
                     l("div", { key: s.name }, [
@@ -738,9 +747,9 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       );
     },
   }),
-  S = (a) => (y("data-v-cf3ab16f"), (a = a()), B(), a),
+  O = (a) => (y("data-v-cf3ab16f"), (a = a()), B(), a),
   as = { class: "content" },
-  ss = S(() =>
+  ss = O(() =>
     e(
       "p",
       null,
@@ -859,7 +868,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
               l(
                 w,
                 null,
-                I(i, (h) => {
+                H(i, (h) => {
                   var $;
                   return e("div", { key: h.title }, [
                     e("div", us, [
@@ -904,7 +913,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
           { label: "Class", value: 2 },
           { label: "Final Touches", value: 3 },
         ],
-        c = [We, Sa, es, ps],
+        c = [Xe, Oa, es, ps],
         r = se(),
         i = te(),
         t = ne(),
@@ -919,10 +928,10 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
         F = (u) => {
           Be(n.value, u);
         },
-        E = (u) => {
+        z = (u) => {
           (m.value = u), (s.value = 2);
         },
-        z = () => {
+        E = () => {
           m.value = null;
         },
         J = (u) => {
@@ -932,13 +941,13 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
           h.value = null;
         },
         Q = (u) => {
-          const H = u.e.target.value;
-          n.value[u.key] = H.trim();
+          const R = u.e.target.value;
+          n.value[u.key] = R.trim();
         },
-        X = (u) => {
+        G = (u) => {
           Ae(n.value, u);
         },
-        G = async () => {
+        W = async () => {
           if (!r.currentUser) return;
           if (m.value === null) {
             (p.value.message = "Choose a background"), (p.value.alive = !0);
@@ -951,7 +960,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
           if (
             (($.value = !0),
             A.value < 3 &&
-              (await He("uid", r.currentUser.uid, "characters", Te)))
+              (await Re("uid", r.currentUser.uid, "characters", Te)))
           ) {
             ($.value = !1),
               (p.value.message = "Character limit reached"),
@@ -959,7 +968,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
             return;
           }
           we(n.value, h.value),
-            Ie(n.value, m.value),
+            He(n.value, m.value),
             (n.value.statsClass = h.value.name),
             (n.value.uid = r.currentUser.uid),
             (n.value.timestamp = ce()),
@@ -972,7 +981,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       oe(async () => {
         var u;
         r.currentUser &&
-          ((A.value = await Re((u = r.currentUser) == null ? void 0 : u.uid)),
+          ((A.value = await Ie((u = r.currentUser) == null ? void 0 : u.uid)),
           ($.value = !1));
       }),
         re(
@@ -985,10 +994,10 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
               ));
           }
         );
-      const W = () => {
+      const X = () => {
         (p.value.alive = !1), clearTimeout(p.value.timeout);
       };
-      return (u, H) => (
+      return (u, R) => (
         o(),
         l(
           w,
@@ -1024,13 +1033,13 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
                           "user-premium-tier": A.value,
                           loading: $.value,
                           onHandleChangeAttribute: F,
-                          onHandleAddBackground: E,
-                          onHandleRemoveBackground: z,
+                          onHandleAddBackground: z,
+                          onHandleRemoveBackground: E,
                           onHandleAddClass: J,
                           onHandleRemoveClass: K,
                           onHandleChangeChar: Q,
-                          onHandleUpdateDescription: X,
-                          onHandleFinishCreation: G,
+                          onHandleUpdateDescription: G,
+                          onHandleFinishCreation: W,
                         },
                         null,
                         40,
@@ -1059,7 +1068,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
                           key: 0,
                           toast: p.value,
                           type: p.value.type,
-                          onDismiss: W,
+                          onDismiss: X,
                         },
                         null,
                         8,

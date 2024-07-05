@@ -1,71 +1,73 @@
-import { T as de } from "./TabNav-cxdIuInn.js";
+import { T as de } from "./TabNav-0k8MUq4h.js";
 import {
   C as ce,
   H as me,
   a as ve,
   b as he,
-} from "./HomebrewItems-WK94_2i_.js";
+} from "./HomebrewItems-DnXyWwLV.js";
 import {
   d as H,
-  O as _e,
+  Q as _e,
   g as E,
-  M as S,
+  M as B,
   r as l,
   e as j,
   R as k,
   F as A,
-  B as L,
-  l as I,
+  B as I,
+  l as L,
   f as W,
   h as we,
   o as e,
   c as t,
   a as T,
   t as P,
-  K as be,
+  L as be,
   k as u,
   m as b,
   n as pe,
   q as Ce,
-  D as fe,
-  P as z,
-  _ as x,
+  I as fe,
+  P as G,
+  _ as N,
   w as ye,
-  v as He,
-  A as y,
+  x as He,
+  v as y,
   T as ke,
-  Q as ge,
-  L as $e,
-} from "./index-sE6ml22p.js";
-import { C as Ae } from "./CreatureCard-bJ3JZ-tD.js";
-import { S as Le } from "./SearchInput-_zErXjng.js";
-import { L as U } from "./LoadingView-ZyngFh7H.js";
-import { H as B, g as N, b as Ie } from "./firebase-lKn9MVSr.js";
-import { P as Te } from "./PrivateFeat-2T9otaZW.js";
-import { C as G } from "./CreatureForm-0qANtZM4.js";
-import { T as Ee } from "./ToastNotification-fRZSVqeg.js";
-import "./PowerCard-gTEwp1Dh.js";
+  z as ge,
+  N as $e,
+} from "./index-QwuuguuZ.js";
+import { C as Ae } from "./CreatureCard-s_WgZwXj.js";
+import { S as Ie } from "./SearchInput-Vr9n0nUP.js";
+import { L as U } from "./LoadingView-BDyk9qee.js";
+import { H as x, g as S, b as Le } from "./firebase-UUb4pQvs.js";
+import { P as Te } from "./PrivateFeat-2NQL7iKE.js";
+import { C as J } from "./CreatureForm-WPZOCJnR.js";
+import { T as Ee } from "./ToastNotification-2J6AO8ev.js";
+import "./PowerCard-beWm0GIY.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./add-icon-fJ4uQHUZ.js";
 import "./default-tJ6A0c0K.js";
 import "./forms-8DDAOOVU.js";
 import "./lodash-gzw5KmHd.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
-import "./RitualCard-jh65SH0c.js";
+import "./RitualCard-888T3wVY.js";
 import "./d20-icon-vaz1En3o.js";
-import "./DropdownSimple-sMKo2Ani.js";
-import "./CursedItemCard-kPjF_7dN.js";
+import "./DropdownSimple-O-H8dkm7.js";
+import "./CursedItemCard-CUwaY77V.js";
+import "./share-icon-J6b_MEIl.js";
+import "./trash-icon-Dl18GMfa.js";
+import "./creatureData-ozdxpDUT.js";
 import "./blank-profile-picture-wMh28flS.js";
-import "./creatureData-jLpja1fz.js";
-import "./PictureModal-gas6WAr8.js";
-import "./index.esm2017-YDfvp0os.js";
+import "./PictureModal-TrL67c-c.js";
+import "./index.esm2017-JfeAG2s4.js";
 import "./v4-cyCr5FZV.js";
 const Ue = { key: 0 },
   Pe = { key: 0 },
-  Be = { key: 0 },
-  Se = { class: "header-container" },
   xe = { key: 0 },
-  Ne = { key: 1 },
+  Be = { class: "header-container" },
+  Ne = { key: 0 },
+  Se = { key: 1 },
   De = ["disabled"],
   Me = { key: 0, class: "search-container" },
   Re = { key: 1, class: "class-abilities-content" },
@@ -74,7 +76,7 @@ const Ue = { key: 0 },
   Fe = { key: 1, class: "no-content" },
   Oe = { key: 1 },
   Qe = { key: 1 },
-  Ke = { key: 1 },
+  ze = { key: 1 },
   We = H({
     __name: "HomebrewCreaturesList",
     props: { homebrewList: Boolean },
@@ -84,7 +86,7 @@ const Ue = { key: 0 },
       const v = h,
         r = _,
         o = E(),
-        a = S(),
+        a = B(),
         n = l(!0),
         s = l([]),
         d = l(""),
@@ -94,7 +96,7 @@ const Ue = { key: 0 },
         C = l(0),
         g = l(!0),
         $ = l(0),
-        J = (c) => r("handleAddCreature", c),
+        K = (c) => r("handleAddCreature", c),
         X = (c) => r("handleEditCreature", c);
       j(async () => {
         var V, q, F, O;
@@ -102,36 +104,36 @@ const Ue = { key: 0 },
         const c = k(a, "homebrewRituals"),
           w = A(
             c,
-            L("uid", "==", (V = o.currentUser) == null ? void 0 : V.uid)
+            I("uid", "==", (V = o.currentUser) == null ? void 0 : V.uid)
           ),
-          f = await I(w),
+          f = await L(w),
           ae = k(a, "homebrewItems"),
           se = A(
             ae,
-            L("uid", "==", (q = o.currentUser) == null ? void 0 : q.uid)
+            I("uid", "==", (q = o.currentUser) == null ? void 0 : q.uid)
           ),
-          re = await I(se),
+          re = await L(se),
           oe = k(a, "homebrewPowers"),
           ne = A(
             oe,
-            L("uid", "==", (F = o.currentUser) == null ? void 0 : F.uid)
+            I("uid", "==", (F = o.currentUser) == null ? void 0 : F.uid)
           ),
-          ie = await I(ne),
+          ie = await L(ne),
           le = k(a, "homebrewCreatures"),
           ue = A(
             le,
-            L("uid", "==", (O = o.currentUser) == null ? void 0 : O.uid)
+            I("uid", "==", (O = o.currentUser) == null ? void 0 : O.uid)
           ),
-          M = await I(ue);
+          M = await L(ue);
         (C.value =
           re.docs.length + ie.docs.length + f.docs.length + M.docs.length),
-          C.value >= B && (g.value = !1);
+          C.value >= x && (g.value = !1);
         const R = [];
         for (const Q of M.docs) {
-          const K = Q.data();
-          (K.id = Q.id), R.push(K);
+          const z = Q.data();
+          (z.id = Q.id), R.push(z);
         }
-        (s.value = R), ($.value = await N(o.currentUser.uid)), (n.value = !1);
+        (s.value = R), ($.value = await S(o.currentUser.uid)), (n.value = !1);
       });
       const Y = W(() => (v.homebrewList ? "0" : "0.5rem")),
         D = W(() =>
@@ -150,17 +152,17 @@ const Ue = { key: 0 },
           (m.value = ""), (i.value = !1), (p.value = void 0);
         },
         te = () => {
-          fe(z(a, "homebrewCreatures", m.value)),
+          fe(G(a, "homebrewCreatures", m.value)),
             s.value.splice(p.value, 1),
             (m.value = ""),
             (i.value = !1),
             (p.value = void 0),
             C.value--,
-            C.value < B ? (g.value = !0) : (g.value = !1);
+            C.value < x ? (g.value = !0) : (g.value = !1);
         };
       return (c, w) =>
         n.value
-          ? (e(), t("div", Ke, [u(U)]))
+          ? (e(), t("div", ze, [u(U)]))
           : (e(),
             t("div", Ue, [
               $.value >= 3
@@ -182,18 +184,18 @@ const Ue = { key: 0 },
                           ),
                         ]))
                       : (e(),
-                        t("div", Be, [
-                          T("div", Se, [
+                        t("div", xe, [
+                          T("div", Be, [
                             $.value < 4
                               ? (e(),
                                 t(
                                   "h3",
-                                  xe,
-                                  " Homebrew " + P(C.value) + "/" + P(be(B)),
+                                  Ne,
+                                  " Homebrew " + P(C.value) + "/" + P(be(x)),
                                   1
                                 ))
                               : (e(),
-                                t("h3", Ne, " Homebrew " + P(C.value), 1)),
+                                t("h3", Se, " Homebrew " + P(C.value), 1)),
                             T(
                               "button",
                               {
@@ -213,7 +215,7 @@ const Ue = { key: 0 },
                             ? (e(),
                               t("div", Me, [
                                 u(
-                                  Le,
+                                  Ie,
                                   {
                                     value: d.value,
                                     dark: !h.homebrewList,
@@ -251,7 +253,7 @@ const Ue = { key: 0 },
                                               "can-use": "",
                                               "can-share": "",
                                               onHandleDelete: Z,
-                                              onHandleAdd: J,
+                                              onHandleAdd: K,
                                               onHandleEdit: X,
                                             },
                                             null,
@@ -283,17 +285,17 @@ const Ue = { key: 0 },
             ]));
     },
   }),
-  je = x(We, [["__scopeId", "data-v-0c7f4afe"]]),
-  ze = { key: 0 },
-  Ge = { key: 1 },
-  Je = H({
+  je = N(We, [["__scopeId", "data-v-0c7f4afe"]]),
+  Ge = { key: 0 },
+  Je = { key: 1 },
+  Ke = H({
     __name: "HomebrewCreaturesCreate",
     props: { homebrewList: Boolean },
     emits: ["handleClose"],
     setup(h, { emit: _ }) {
       const v = _,
         r = E(),
-        o = S(),
+        o = B(),
         a = l(!1),
         n = l({ message: "", type: "error", alive: !1, timeout: 0 }),
         s = async (i) => {
@@ -301,8 +303,8 @@ const Ue = { key: 0 },
           if (!r.currentUser) return;
           if (
             ((a.value = !0),
-            (await N((p = r.currentUser) == null ? void 0 : p.uid)) < 4 &&
-              !(await Ie(r.currentUser.uid)))
+            (await S((p = r.currentUser) == null ? void 0 : p.uid)) < 4 &&
+              !(await Le(r.currentUser.uid)))
           ) {
             (a.value = !1),
               (n.value.message = "Homebrew limit reached"),
@@ -329,10 +331,10 @@ const Ue = { key: 0 },
       };
       return (i, m) =>
         a.value
-          ? (e(), t("div", Ge, [u(U)]))
+          ? (e(), t("div", Je, [u(U)]))
           : (e(),
-            t("div", ze, [
-              u(G, {
+            t("div", Ge, [
+              u(J, {
                 "add-mode": "",
                 onHandleEdit: s,
                 onHandleClose: m[0] || (m[0] = (p) => i.$emit("handleClose")),
@@ -373,12 +375,12 @@ const Ue = { key: 0 },
     setup(h, { emit: _ }) {
       const v = _,
         r = E(),
-        o = S(),
+        o = B(),
         a = l(!1),
         n = async (s) => {
           r.currentUser &&
             ((a.value = !0),
-            await $e(z(o, "homebrewCreatures", s.id), s),
+            await $e(G(o, "homebrewCreatures", s.id), s),
             (a.value = !1),
             v("handleClose"));
         };
@@ -388,7 +390,7 @@ const Ue = { key: 0 },
           : (e(),
             t("div", Xe, [
               u(
-                G,
+                J,
                 {
                   creature: s.creature,
                   onHandleEdit: n,
@@ -444,7 +446,7 @@ const Ue = { key: 0 },
             ? (e(),
               t("div", at, [
                 u(
-                  Je,
+                  Ke,
                   {
                     "homebrew-list": h.homebrewList,
                     onHandleClose: i[1] || (i[1] = (m) => (o.value = a.list)),
@@ -481,7 +483,7 @@ const Ue = { key: 0 },
       );
     },
   }),
-  nt = x(ot, [["__scopeId", "data-v-203c4723"]]),
+  nt = N(ot, [["__scopeId", "data-v-203c4723"]]),
   it = { key: 0, class: "container" },
   lt = { class: "homebrew-page" },
   ut = { class: "tab-nav-container" },
@@ -504,7 +506,7 @@ const Ue = { key: 0 },
         j(async () => {
           var s;
           v.currentUser &&
-            ((o.value = await N((s = v.currentUser) == null ? void 0 : s.uid)),
+            ((o.value = await S((s = v.currentUser) == null ? void 0 : s.uid)),
             (a.value = !1));
         }),
         (s, d) =>
@@ -543,11 +545,11 @@ const Ue = { key: 0 },
       );
     },
   }),
-  mt = x(ct, [["__scopeId", "data-v-f1fa1eae"]]),
-  Rt = H({
+  mt = N(ct, [["__scopeId", "data-v-f1fa1eae"]]),
+  qt = H({
     __name: "HomebrewList",
     setup(h) {
       return (_, v) => (e(), y(mt));
     },
   });
-export { Rt as default };
+export { qt as default };

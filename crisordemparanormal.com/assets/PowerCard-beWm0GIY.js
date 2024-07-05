@@ -1,38 +1,38 @@
 import {
-  d as f,
+  d as y,
   r as M,
   u as B,
-  o as t,
-  c as s,
+  o as s,
+  c as n,
   a as o,
-  J as r,
-  j as n,
-  m as i,
-  t as l,
+  a1 as l,
+  j as t,
+  m as r,
+  t as h,
   k as b,
-  v as H,
-  T as I,
-  I as S,
+  x as H,
+  T as S,
+  a4 as I,
   p as R,
   b as L,
   _ as E,
-} from "./index-sE6ml22p.js";
-import { _ as D } from "./show-more-icon-VvUXKiHG.js";
-import { _ as N } from "./add-icon-fJ4uQHUZ.js";
-const v = (e) => (R("data-v-5e90856c"), (e = e()), L(), e),
-  O = { class: "card" },
-  T = v(() => o("img", { src: D, alt: "ver mais" }, null, -1)),
-  g = [T],
-  x = { key: 1, class: "button-container" },
+} from "./index-QwuuguuZ.js";
+import { _ as x } from "./show-more-icon-VvUXKiHG.js";
+import { _ as D } from "./add-icon-fJ4uQHUZ.js";
+const v = (e) => (R("data-v-5df45b4a"), (e = e()), L(), e),
+  N = { class: "card" },
+  O = v(() => o("img", { src: x, alt: "ver mais" }, null, -1)),
+  T = [O],
+  g = { key: 1, class: "button-container" },
   P = ["onClick"],
-  V = v(() => o("img", { src: N, alt: "adicionar" }, null, -1)),
+  V = v(() => o("img", { src: D, alt: "adicionar" }, null, -1)),
   j = [V],
   q = { key: 2, class: "button-container" },
   z = ["onClick", "onMouseup"],
-  J = { key: 0 },
-  $ = { class: "content" },
-  F = { key: 0 },
-  G = { class: "sheet-content" },
+  $ = { key: 0 },
+  F = { class: "content" },
+  G = { key: 0 },
+  J = { class: "sheet-content" },
   K = { key: 1 },
   Q = ["innerHTML"],
   U = { key: 2, class: "card-footer" },
@@ -41,7 +41,7 @@ const v = (e) => (R("data-v-5e90856c"), (e = e()), L(), e),
   Y = { key: 3, class: "card-footer" },
   Z = { class: "button-container" },
   ee = ["onClick", "onMouseup"],
-  oe = f({
+  oe = y({
     __name: "PowerCard",
     props: {
       power: { type: Object, required: !0 },
@@ -55,114 +55,120 @@ const v = (e) => (R("data-v-5e90856c"), (e = e()), L(), e),
       canHomebrewAdd: Boolean,
     },
     emits: ["handleAdd", "handleRemove", "handleEdit", "handleAddHomebrew"],
-    setup(e, { emit: _ }) {
+    setup(e, { emit: k }) {
       const d = e,
-        c = _,
+        c = k,
         a = M(!!d.homebrewAdd),
-        k = B(),
-        C = () => {
+        p = B(),
+        _ = () => {
           c("handleAdd", d.power);
         },
-        p = () => {
+        C = () => {
           c("handleRemove", d.id);
         },
         A = () => {
           c("handleEdit", d.power);
         },
-        h = () => {
+        m = () => {
           c("handleAddHomebrew", d.power);
         },
-        m = () => {
-          const u = k.resolve({
+        u = () => {
+          const w = p.resolve({
             name: "homebrews-power",
             params: { id: d.id },
           });
-          window.open(u.href, "_blank");
+          window.open(w.href, "_blank");
         },
-        y = () => {
+        f = () => {
           d.homebrewAdd || (a.value = !a.value);
         };
-      return (u, w) => (
-        t(),
-        s("div", O, [
+      return (w, i) => (
+        s(),
+        n("div", N, [
           o(
             "div",
             {
-              class: r(["header", { "homebrew-add": e.homebrewAdd }]),
-              onClick: y,
+              class: l(["header", { "homebrew-add": e.homebrewAdd }]),
+              onClick: f,
             },
             [
               e.homebrewAdd
-                ? i("", !0)
-                : (t(),
-                  s(
+                ? r("", !0)
+                : (s(),
+                  n(
                     "button",
                     {
                       key: 0,
-                      class: r(["show-more", { rotate: a.value }]),
+                      class: l(["show-more", { rotate: a.value }]),
                       onClick:
-                        w[0] ||
-                        (w[0] = n((te) => (a.value = !a.value), ["stop"])),
+                        i[0] ||
+                        (i[0] = t((te) => (a.value = !a.value), ["stop"])),
                     },
-                    g,
+                    T,
                     2
                   )),
               o(
                 "h3",
-                { class: r(["title", { "sheet-title": e.sheet }]) },
-                l(e.power.name),
+                { class: l(["title", { "sheet-title": e.sheet }]) },
+                h(e.power.name),
                 3
               ),
               !e.onlyShow && !e.homebrewList && !e.homebrewAdd
-                ? (t(),
-                  s("div", x, [
+                ? (s(),
+                  n("div", g, [
                     o(
                       "button",
-                      { class: "button-primary", onClick: n(C, ["stop"]) },
+                      { class: "button-primary", onClick: t(_, ["stop"]) },
                       j,
                       8,
                       P
                     ),
                   ]))
-                : i("", !0),
+                : r("", !0),
               e.homebrewList
-                ? (t(),
-                  s("div", q, [
+                ? (s(),
+                  n("div", q, [
                     o(
                       "button",
                       {
                         class: "button-secondary",
-                        onClick: n(m, ["stop"]),
-                        onMouseup: n(m, ["middle"]),
+                        onClick: t(u, ["stop"]),
+                        onMouseup: t(u, ["middle"]),
+                        onMousedown:
+                          i[1] ||
+                          (i[1] = t(() => {}, ["middle", "prevent", "stop"])),
                       },
                       " SHARE ",
                       40,
                       z
                     ),
                   ]))
-                : i("", !0),
+                : r("", !0),
             ],
             2
           ),
           b(
-            I,
+            S,
             { name: "card", mode: "out-in" },
             {
               default: H(() => [
                 a.value
-                  ? (t(),
-                    s("div", J, [
-                      b(S),
-                      o("div", $, [
+                  ? (s(),
+                    n("div", $, [
+                      b(I),
+                      o("div", F, [
                         e.power.description[0] !== "<"
-                          ? (t(),
-                            s("div", F, [o("p", G, l(e.power.description), 1)]))
-                          : (t(),
-                            s("div", K, [
+                          ? (s(),
+                            n("div", G, [o("p", J, h(e.power.description), 1)]))
+                          : (s(),
+                            n("div", K, [
                               o(
                                 "div",
                                 {
-                                  class: r({ "sheet-content": e.sheet }),
+                                  class: l([
+                                    "description",
+                                    { "sheet-content": e.sheet },
+                                  ]),
                                   innerHTML: e.power.description,
                                 },
                                 null,
@@ -171,15 +177,15 @@ const v = (e) => (R("data-v-5e90856c"), (e = e()), L(), e),
                               ),
                             ])),
                         e.sheet && !e.disabled
-                          ? (t(),
-                            s("div", U, [
+                          ? (s(),
+                            n("div", U, [
                               o(
                                 "button",
                                 {
                                   class: "button-remove",
-                                  onClick: n(p, ["stop"]),
+                                  onClick: t(C, ["stop"]),
                                 },
-                                l(e.homebrew ? "Delete" : "Remove"),
+                                h(e.homebrew ? "Delete" : "Remove"),
                                 9,
                                 W
                               ),
@@ -187,24 +193,31 @@ const v = (e) => (R("data-v-5e90856c"), (e = e()), L(), e),
                                 "button",
                                 {
                                   class: "button-remove button-edit",
-                                  onClick: n(A, ["stop"]),
+                                  onClick: t(A, ["stop"]),
                                 },
                                 " Edit ",
                                 8,
                                 X
                               ),
                             ]))
-                          : i("", !0),
+                          : r("", !0),
                         e.canHomebrewAdd
-                          ? (t(),
-                            s("div", Y, [
+                          ? (s(),
+                            n("div", Y, [
                               o("div", Z, [
                                 o(
                                   "button",
                                   {
                                     class: "button-secondary",
-                                    onClick: n(h, ["stop"]),
-                                    onMouseup: n(h, ["middle"]),
+                                    onClick: t(m, ["stop"]),
+                                    onMouseup: t(m, ["middle"]),
+                                    onMousedown:
+                                      i[2] ||
+                                      (i[2] = t(() => {}, [
+                                        "middle",
+                                        "prevent",
+                                        "stop",
+                                      ])),
                                   },
                                   " ADD TO MY COLLECTION ",
                                   40,
@@ -212,10 +225,10 @@ const v = (e) => (R("data-v-5e90856c"), (e = e()), L(), e),
                                 ),
                               ]),
                             ]))
-                          : i("", !0),
+                          : r("", !0),
                       ]),
                     ]))
-                  : i("", !0),
+                  : r("", !0),
               ]),
               _: 1,
             }
@@ -224,5 +237,5 @@ const v = (e) => (R("data-v-5e90856c"), (e = e()), L(), e),
       );
     },
   }),
-  ae = E(oe, [["__scopeId", "data-v-5e90856c"]]);
+  ae = E(oe, [["__scopeId", "data-v-5df45b4a"]]);
 export { ae as P };

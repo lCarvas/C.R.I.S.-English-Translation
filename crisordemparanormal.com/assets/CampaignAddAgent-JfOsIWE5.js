@@ -6,36 +6,37 @@ import {
   S as j,
   r as c,
   e as G,
-  H as I,
+  A as I,
   P as l,
-  R as H,
-  F as $,
-  B as q,
-  l as K,
-  f as Q,
-  h as z,
+  R as $,
+  F as q,
+  B as H,
+  l as Q,
+  f as z,
+  h as J,
   o as s,
   c as t,
-  k as S,
-  m as J,
+  k as A,
+  m as K,
   a as g,
   n as O,
   q as W,
-  K as X,
-  L as Y,
+  L as X,
+  N as Y,
   p as Z,
   b as aa,
   _ as ea,
-} from "./index-sE6ml22p.js";
-import { C as sa } from "./CharacterCard-IgqtWy5n.js";
-import { L as ta } from "./LoadingView-ZyngFh7H.js";
-import { S as na } from "./SearchInput-_zErXjng.js";
-import { g as L, h as oa, A as ia } from "./firebase-lKn9MVSr.js";
-import "./open-in-new-icon-p91krxL-.js";
-const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
+} from "./index-QwuuguuZ.js";
+import { C as sa } from "./CharacterCard-15p3vqPf.js";
+import { L as ta } from "./LoadingView-BDyk9qee.js";
+import { S as na } from "./SearchInput-Vr9n0nUP.js";
+import { g as L, h as oa, A as ia } from "./firebase-UUb4pQvs.js";
+import "./share-icon-J6b_MEIl.js";
+import "./trash-icon-Dl18GMfa.js";
+const N = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
   ra = { key: 0, class: "campaign-join-container" },
   ca = { key: 0 },
-  da = P(() =>
+  da = N(() =>
     g(
       "div",
       { class: "text" },
@@ -46,7 +47,7 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
   ma = { key: 0 },
   ua = { class: "cards-container" },
   pa = { key: 1 },
-  la = P(() =>
+  la = N(() =>
     g(
       "div",
       { class: "info-message" },
@@ -60,32 +61,32 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
     setup(d) {
       const i = M(),
         r = x(),
-        w = E(),
+        S = E(),
         n = j().params.id,
         h = c(!0),
         f = c(!1),
         v = c([]),
         _ = c(""),
-        T = c(0),
-        F = ia;
+        P = c(0),
+        T = ia;
       G(async () => {
-        var y, A;
+        var w, y;
         if (!i.currentUser) return;
-        T.value = await L((y = i.currentUser) == null ? void 0 : y.uid);
+        P.value = await L((w = i.currentUser) == null ? void 0 : w.uid);
         const e = (await I(l(r, "campaigns", n))).data(),
           m = (await I(l(r, "users", e.uid))).data();
         if (
           ((await L(m.uid)) < 4 &&
-            (f.value = await oa("campaignDocId", n, "characters", F)),
+            (f.value = await oa("campaignDocId", n, "characters", T)),
           !f.value)
         ) {
           const C = [],
-            R = H(r, "characters"),
-            V = $(
+            R = $(r, "characters"),
+            V = q(
               R,
-              q("uid", "==", (A = i.currentUser) == null ? void 0 : A.uid)
+              H("uid", "==", (y = i.currentUser) == null ? void 0 : y.uid)
             ),
-            b = await K(V);
+            b = await Q(V);
           for (const u of b.docs) {
             const p = u.data();
             (p.id = u.id), C.push(p);
@@ -101,7 +102,7 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
         }
         h.value = !1;
       });
-      const N = Q(() => v.value.filter((o) => z(o.name, _.value))),
+      const F = z(() => v.value.filter((o) => J(o.name, _.value))),
         D = async (o) => {
           var m;
           if (!((m = i.currentUser) != null && m.uid)) return;
@@ -110,12 +111,12 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
               .data()
               .campaignsId.includes(n)
               ? (await Y(l(r, "characters", o), { campaignDocId: n }),
-                w.push({ name: "campaign-page", params: { id: n } }))
-              : w.push({ name: "campaign-page-denied" });
+                S.push({ name: "campaign-page", params: { id: n } }))
+              : S.push({ name: "campaign-page-denied" });
         };
       return (o, e) =>
         h.value
-          ? (s(), t("div", ga, [S(ta, { "page-loading": "" })]))
+          ? (s(), t("div", ga, [A(ta, { "page-loading": "" })]))
           : (s(),
             t("div", ra, [
               f.value
@@ -143,7 +144,7 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
                     v.value.length > 6
                       ? (s(),
                         t("div", ma, [
-                          S(
+                          A(
                             na,
                             {
                               value: _.value,
@@ -154,18 +155,18 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
                             ["value"]
                           ),
                         ]))
-                      : J("", !0),
+                      : K("", !0),
                     g("div", ua, [
                       (s(!0),
                       t(
                         O,
                         null,
                         W(
-                          N.value,
+                          F.value,
                           (a) => (
                             s(),
                             t("div", { key: a.id }, [
-                              S(
+                              A(
                                 sa,
                                 {
                                   "join-campaign-mode": "",
@@ -198,5 +199,5 @@ const P = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
             ]));
     },
   }),
-  Aa = ea(ha, [["__scopeId", "data-v-7a3223f6"]]);
-export { Aa as default };
+  Ua = ea(ha, [["__scopeId", "data-v-7a3223f6"]]);
+export { Ua as default };

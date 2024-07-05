@@ -1,41 +1,41 @@
 import {
   d as H,
   g as $,
-  M as z,
+  M as J,
   u as Q,
   S as j,
   r as c,
-  f as D,
-  e as J,
-  H as W,
+  f as I,
+  e as z,
+  A as W,
   P as l,
-  i as I,
+  i as D,
   o as V,
   c as S,
   a,
-  x as k,
-  y as E,
+  C as k,
+  D as E,
   k as v,
-  v as M,
-  L as b,
-  z as X,
+  x as M,
+  N as b,
+  E as X,
   p as Y,
   b as Z,
-  C as R,
+  H as R,
   R as x,
   F as L,
   B as U,
   l as B,
-  N as aa,
-  D as q,
-  E as ea,
+  O as aa,
+  I as q,
+  J as ea,
   _ as sa,
-} from "./index-sE6ml22p.js";
+} from "./index-QwuuguuZ.js";
 import { c as ta } from "./default-tJ6A0c0K.js";
 import { v as oa } from "./forms-8DDAOOVU.js";
-import { L as na } from "./LoadingView-ZyngFh7H.js";
-import { S as ia } from "./SwitchButtonBool-tOvRuQya.js";
-import { g as la } from "./firebase-lKn9MVSr.js";
+import { L as na } from "./LoadingView-BDyk9qee.js";
+import { S as ia } from "./SwitchButtonBool-SDRvIcMo.js";
+import { g as la } from "./firebase-UUb4pQvs.js";
 const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
   ra = { key: 0, class: "page-container" },
   ca = o(() => a("div", { class: "page-title" }, " Edit Campaign ", -1)),
@@ -61,12 +61,12 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
   ga = { class: "second-buttons-container" },
   ba = ["disabled"],
   Ca = { class: "modal-content modal-width" },
-  ya = o(() => a("h2", null, "Delete campaign?", -1)),
-  wa = o(() =>
+  wa = o(() => a("h2", null, "Delete campaign?", -1)),
+  ya = o(() =>
     a("img", { class: "close-icon", src: ea, alt: "fechar" }, null, -1)
   ),
-  Da = [wa],
-  Ia = { class: "modal-body" },
+  Ia = [ya],
+  Da = { class: "modal-body" },
   Va = o(() =>
     a(
       "h3",
@@ -90,20 +90,20 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
     __name: "CampaignEdit",
     setup(d) {
       const _ = $(),
-        n = z(),
+        n = J(),
         h = Q(),
         P = j().params.id,
         e = c(ta),
         r = c(!0),
         u = c(!1),
         p = c(""),
-        N = c(0),
-        A = ["OFF", "ON"],
-        C = D(() => e.value.name === "");
-      J(async () => {
+        A = c(0),
+        N = ["OFF", "ON"],
+        C = I(() => e.value.name === "");
+      z(async () => {
         var s;
         if (!_.currentUser) return;
-        N.value = await la((s = _.currentUser) == null ? void 0 : s.uid);
+        A.value = await la((s = _.currentUser) == null ? void 0 : s.uid);
         const i = await W(l(n, "campaigns", P));
         i.data() || h.push({ name: "not-found" }),
           (e.value = i.data()),
@@ -119,23 +119,23 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
               (r.value = !1),
               h.push({ name: "campaign-page", params: { id: e.value.id } })));
         },
-        T = D(() => p.value.toLocaleLowerCase().trim() === "remover"),
+        T = I(() => p.value.toLocaleLowerCase().trim() === "remover"),
         F = () => {
           u.value = !0;
         },
         K = () => {
           (u.value = !1), (p.value = "");
         },
-        y = async () => {
+        w = async () => {
           if (!e.value) return;
           r.value = !0;
           const i = x(n, "characters"),
             s = L(i, U("campaignDocId", "==", e.value.id)),
             f = await B(s);
           for (const m of f.docs) {
-            const w = m.data();
-            (w.id = m.id),
-              await b(l(n, "characters", w.id), { campaignDocId: "" });
+            const y = m.data();
+            (y.id = m.id),
+              await b(l(n, "characters", y.id), { campaignDocId: "" });
           }
           const g = x(n, "users"),
             t = L(g, U("campaignsId", "array-contains", e.value.id)),
@@ -147,8 +147,8 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
             h.push({ name: "campaigns-list" });
         };
       return (i, s) => {
-        const f = I("p-editor"),
-          g = I("vue-final-modal");
+        const f = D("p-editor"),
+          g = D("vue-final-modal");
         return r.value
           ? (V(), S("div", Ra, [v(na, { "page-loading": "" })]))
           : (V(),
@@ -178,7 +178,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                     ia,
                     {
                       value: e.value.privateMasterScreen,
-                      options: A,
+                      options: N,
                       onHandleChange:
                         s[1] ||
                         (s[1] = (t) => (e.value.privateMasterScreen = t)),
@@ -249,10 +249,10 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                     default: M(() => [
                       a("div", Ca, [
                         a("div", { class: "modal-header" }, [
-                          ya,
-                          a("button", { onClick: K }, Da),
+                          wa,
+                          a("button", { onClick: K }, Ia),
                         ]),
-                        a("div", Ia, [
+                        a("div", Da, [
                           Va,
                           Sa,
                           a("div", ka, [
@@ -264,7 +264,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                                     s[4] || (s[4] = (t) => (p.value = t)),
                                   type: "text",
                                   class: "input-primary",
-                                  onKeyup: X(y, ["enter"]),
+                                  onKeyup: X(w, ["enter"]),
                                 },
                                 null,
                                 40,
@@ -277,7 +277,7 @@ const o = (d) => (Y("data-v-bdeefb27"), (d = d()), Z(), d),
                               {
                                 class: "button-remove",
                                 disabled: !T.value,
-                                onClick: y,
+                                onClick: w,
                               },
                               " Confirm ",
                               8,

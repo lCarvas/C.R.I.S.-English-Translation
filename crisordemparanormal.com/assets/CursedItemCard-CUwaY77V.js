@@ -1,55 +1,55 @@
 import {
-  d as E,
+  d as H,
   o,
   c as n,
   a as t,
   t as s,
-  C as c,
-  _ as H,
-  r as I,
-  u as L,
+  H as l,
+  _ as L,
+  r as E,
+  u as R,
   e as N,
-  J as u,
+  a1 as u,
   j as d,
   m as a,
   k as f,
-  v as R,
-  T as B,
-  I as T,
+  x as B,
+  T,
+  a4 as x,
   p as S,
-  b as x,
-  O as F,
+  b as O,
+  Q as F,
   f as q,
-} from "./index-sE6ml22p.js";
-import { _ as O } from "./show-more-icon-VvUXKiHG.js";
+} from "./index-QwuuguuZ.js";
+import { _ } from "./show-more-icon-VvUXKiHG.js";
 import { _ as D } from "./add-icon-fJ4uQHUZ.js";
 const W =
     "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%200%2024%2024'%20width='24px'%20fill='%23A347FF'%3e%3cpath%20d='M0%200h24v24H0V0z'%20fill='none'/%3e%3cpath%20d='M9%2016.2L4.8%2012l-1.4%201.4L9%2019%2021%207l-1.4-1.4L9%2016.2z'/%3e%3c/svg%3e",
-  J = { class: "ammunition-card" },
-  U = { class: "header" },
-  G = { class: "title" },
-  K = { class: "item-info-container" },
-  Q = { class: "item-info" },
-  X = { class: "item-info" },
-  Y = E({
+  p = { class: "ammunition-card" },
+  Q = { class: "header" },
+  U = { class: "title" },
+  G = { class: "item-info-container" },
+  J = { class: "item-info" },
+  K = { class: "item-info" },
+  X = H({
     __name: "AmmunitionCard",
     props: { ammunition: { type: Object, required: !0 } },
     setup(e) {
       return (C, i) => (
         o(),
-        n("div", J, [
-          t("div", U, [
-            t("div", G, [t("h3", null, s(e.ammunition.name), 1)]),
-            t("div", K, [
-              t("div", Q, [
+        n("div", p, [
+          t("div", Q, [
+            t("div", U, [t("h3", null, s(e.ammunition.name), 1)]),
+            t("div", G, [
+              t("div", J, [
                 t("h3", null, [
-                  c("Category: "),
+                  l("Category: "),
                   t("span", null, s(e.ammunition.category), 1),
                 ]),
               ]),
-              t("div", X, [
+              t("div", K, [
                 t("h3", null, [
-                  c("Space: "),
+                  l("Space: "),
                   t("span", null, s(e.ammunition.slots), 1),
                 ]),
               ]),
@@ -59,19 +59,19 @@ const W =
       );
     },
   }),
-  Z = H(Y, [["__scopeId", "data-v-0c4dbb3a"]]),
-  P = (e) => (S("data-v-cbd16892"), (e = e()), x(), e),
-  p = { class: "card" },
-  ee = P(() => t("img", { src: O, alt: "ver mais" }, null, -1)),
+  Y = L(X, [["__scopeId", "data-v-0c4dbb3a"]]),
+  P = (e) => (S("data-v-cd556095"), (e = e()), O(), e),
+  Z = { class: "card" },
+  ee = P(() => t("img", { src: _, alt: "ver mais" }, null, -1)),
   te = [ee],
   oe = { class: "first-row" },
   ne = { key: 0, class: "item-info-category" },
   se = { class: "item-info-container" },
   ie = { key: 0, class: "item-info" },
-  ae = { class: "item-info" },
-  de = { key: 0 },
-  ce = { class: "item-info" },
-  le = { key: 0 },
+  de = { class: "item-info" },
+  ae = { key: 0 },
+  le = { class: "item-info" },
+  ce = { key: 0 },
   he = { key: 1 },
   ue = { key: 2 },
   re = { key: 1, class: "flex-row" },
@@ -90,20 +90,20 @@ const W =
   Ie = { key: 0 },
   Ee = { class: "content" },
   He = { key: 0, class: "only-sheet-content-container" },
-  _e = { class: "item-info-category-sheet" },
-  Le = { class: "item-info" },
-  Re = { key: 0, class: "item-info" },
-  Be = { class: "item-info" },
+  Le = { class: "item-info-category-sheet" },
+  Re = { class: "item-info" },
+  Be = { key: 0, class: "item-info" },
   Te = { class: "item-info" },
+  xe = { class: "item-info" },
   Se = { key: 1, class: "item-info" },
-  xe = ["innerHTML"],
-  Oe = { key: 2, class: "card-footer" },
+  Oe = ["innerHTML"],
+  _e = { key: 2, class: "card-footer" },
   De = ["onClick"],
   Ne = ["onClick"],
   qe = { key: 3, class: "card-footer" },
   We = { class: "button-container" },
   Pe = ["onClick", "onMouseup"],
-  Ve = E({
+  Ve = H({
     __name: "WeaponCard",
     props: {
       weapon: { type: Object, required: !0 },
@@ -126,17 +126,17 @@ const W =
     setup(e, { emit: C }) {
       const i = e,
         h = C,
-        l = I(!!i.homebrewAdd),
-        w = L(),
-        r = I(window.innerWidth),
+        c = E(!!i.homebrewAdd),
+        b = R(),
+        w = E(window.innerWidth),
         $ = () => {
           h("handleAdd", i.weapon);
         },
-        g = () => {
+        M = () => {
           const m = { id: i.weapon.id || i.id, itemType: i.weapon.itemType };
           h("handleRemove", m);
         },
-        M = () => {
+        I = () => {
           h("handleEquip", i.id);
         },
         A = () => {
@@ -146,21 +146,21 @@ const W =
           h("handleAddHomebrew", i.weapon);
         },
         y = () => {
-          const m = w.resolve({ name: "homebrews-item", params: { id: i.id } });
+          const m = b.resolve({ name: "homebrews-item", params: { id: i.id } });
           window.open(m.href, "_blank");
         },
         v = () => {
-          i.homebrewAdd || (l.value = !l.value);
+          i.homebrewAdd || (c.value = !c.value);
         };
       return (
         N(() => {
           window.addEventListener("resize", () => {
-            r.value = window.innerWidth;
+            w.value = window.innerWidth;
           });
         }),
-        (m, b) => (
+        (m, r) => (
           o(),
-          n("div", p, [
+          n("div", Z, [
             t(
               "div",
               {
@@ -175,10 +175,10 @@ const W =
                       "button",
                       {
                         key: 0,
-                        class: u(["show-more", { rotate: l.value }]),
+                        class: u(["show-more", { rotate: c.value }]),
                         onClick:
-                          b[0] ||
-                          (b[0] = d((_) => (l.value = !l.value), ["stop"])),
+                          r[0] ||
+                          (r[0] = d((g) => (c.value = !c.value), ["stop"])),
                       },
                       te,
                       2
@@ -196,12 +196,12 @@ const W =
                       s(e.weapon.name),
                       3
                     ),
-                    (!e.sheet || e.homebrew) && r.value >= 1023
+                    (!e.sheet || e.homebrew) && w.value >= 1023
                       ? (o(),
                         n("div", ne, [
                           t("h3", null, [
                             t("b", null, s(e.weapon.proficiencie), 1),
-                            c(" - "),
+                            l(" - "),
                             t(
                               "i",
                               null,
@@ -213,33 +213,33 @@ const W =
                       : a("", !0),
                   ]),
                   t("div", se, [
-                    (!e.sheet || e.homebrew) && r.value >= 1023
+                    (!e.sheet || e.homebrew) && w.value >= 1023
                       ? (o(),
                         n("div", ie, [
                           t("h3", null, [
-                            c("Category: "),
+                            l("Category: "),
                             t("span", null, s(e.weapon.category), 1),
                           ]),
                         ]))
                       : a("", !0),
-                    t("div", ae, [
+                    t("div", de, [
                       t("h3", null, [
-                        c(" Damage: "),
+                        l(" Damage: "),
                         t("span", null, s(e.weapon.damage), 1),
                         e.weapon.secondaryDamage
                           ? (o(),
-                            n("span", de, "/" + s(e.weapon.secondaryDamage), 1))
+                            n("span", ae, "/" + s(e.weapon.secondaryDamage), 1))
                           : a("", !0),
                       ]),
                     ]),
-                    t("div", ce, [
+                    t("div", le, [
                       t("h3", null, [
-                        c(" Critical: "),
+                        l(" Critical: "),
                         e.weapon.criticalRange < 20 && e.weapon.criticalMult > 2
                           ? (o(),
                             n(
                               "span",
-                              le,
+                              ce,
                               s(e.weapon.criticalRange) +
                                 "/x" +
                                 s(e.weapon.criticalMult),
@@ -251,27 +251,27 @@ const W =
                             n("span", ue, "x" + s(e.weapon.criticalMult), 1)),
                       ]),
                     ]),
-                    (!e.sheet || e.homebrew) && r.value >= 1023
+                    (!e.sheet || e.homebrew) && w.value >= 1023
                       ? (o(),
                         n("div", re, [
                           e.weapon.range !== "-"
                             ? (o(),
                               n("div", me, [
                                 t("h3", null, [
-                                  c("Range: "),
+                                  l("Range: "),
                                   t("span", null, s(e.weapon.range), 1),
                                 ]),
                               ]))
                             : a("", !0),
                           t("div", we, [
                             t("h3", null, [
-                              c("Type: "),
+                              l("Type: "),
                               t("span", null, s(e.weapon.damageType), 1),
                             ]),
                           ]),
                           t("div", be, [
                             t("h3", null, [
-                              c("Space: "),
+                              l("Space: "),
                               t("span", null, s(e.weapon.slots), 1),
                             ]),
                           ]),
@@ -279,7 +279,7 @@ const W =
                             ? (o(),
                               n("div", ve, [
                                 t("h3", null, [
-                                  c("Ammo: "),
+                                  l("Ammo: "),
                                   t(
                                     "span",
                                     null,
@@ -314,6 +314,9 @@ const W =
                           class: "button-secondary",
                           onClick: d(y, ["stop"]),
                           onMouseup: d(y, ["middle"]),
+                          onMousedown:
+                            r[1] ||
+                            (r[1] = d(() => {}, ["middle", "prevent", "stop"])),
                         },
                         " SHARE ",
                         40,
@@ -332,7 +335,7 @@ const W =
                             { disabled: e.disabled },
                           ]),
                           disabled: e.disabled,
-                          onClick: d(M, ["stop"]),
+                          onClick: d(I, ["stop"]),
                         },
                         [
                           t(
@@ -358,22 +361,22 @@ const W =
               2
             ),
             f(
-              B,
+              T,
               { name: "card", mode: "out-in" },
               {
-                default: R(() => [
-                  l.value
+                default: B(() => [
+                  c.value
                     ? (o(),
                       n("div", Ie, [
-                        f(T),
+                        f(x),
                         t("div", Ee, [
-                          (e.sheet && !e.homebrew) || !(r.value >= 1023)
+                          (e.sheet && !e.homebrew) || !(w.value >= 1023)
                             ? (o(),
                               n("div", He, [
-                                t("div", _e, [
+                                t("div", Le, [
                                   t("h3", null, [
                                     t("b", null, s(e.weapon.proficiencie), 1),
-                                    c(" - "),
+                                    l(" - "),
                                     t(
                                       "i",
                                       null,
@@ -384,30 +387,30 @@ const W =
                                     ),
                                   ]),
                                 ]),
-                                t("div", Le, [
+                                t("div", Re, [
                                   t("h3", null, [
-                                    c("Category: "),
+                                    l("Category: "),
                                     t("span", null, s(e.weapon.category), 1),
                                   ]),
                                 ]),
                                 e.weapon.range !== "-"
                                   ? (o(),
-                                    n("div", Re, [
+                                    n("div", Be, [
                                       t("h3", null, [
-                                        c("Range: "),
+                                        l("Range: "),
                                         t("span", null, s(e.weapon.range), 1),
                                       ]),
                                     ]))
                                   : a("", !0),
-                                t("div", Be, [
+                                t("div", Te, [
                                   t("h3", null, [
-                                    c("Type: "),
+                                    l("Type: "),
                                     t("span", null, s(e.weapon.damageType), 1),
                                   ]),
                                 ]),
-                                t("div", Te, [
+                                t("div", xe, [
                                   t("h3", null, [
-                                    c("Space: "),
+                                    l("Space: "),
                                     t("span", null, s(e.weapon.slots), 1),
                                   ]),
                                 ]),
@@ -415,7 +418,7 @@ const W =
                                   ? (o(),
                                     n("div", Se, [
                                       t("h3", null, [
-                                        c("Ammo: "),
+                                        l("Ammo: "),
                                         t(
                                           "span",
                                           null,
@@ -439,7 +442,7 @@ const W =
                                 },
                                 [
                                   f(
-                                    Z,
+                                    Y,
                                     { ammunition: e.weapon.ammunition },
                                     null,
                                     8,
@@ -452,23 +455,24 @@ const W =
                           t(
                             "div",
                             {
-                              class: u({
-                                "sheet-content": e.sheet && !e.homebrew,
-                              }),
+                              class: u([
+                                "description",
+                                { "sheet-content": e.sheet && !e.homebrew },
+                              ]),
                               innerHTML: e.weapon.description,
                             },
                             null,
                             10,
-                            xe
+                            Oe
                           ),
                           e.sheet && !e.disabled
                             ? (o(),
-                              n("div", Oe, [
+                              n("div", _e, [
                                 t(
                                   "button",
                                   {
                                     class: "button-remove",
-                                    onClick: d(g, ["stop"]),
+                                    onClick: d(M, ["stop"]),
                                   },
                                   s(e.homebrew ? "Delete" : "Remove"),
                                   9,
@@ -496,6 +500,13 @@ const W =
                                       class: "button-secondary",
                                       onClick: d(k, ["stop"]),
                                       onMouseup: d(k, ["middle"]),
+                                      onMousedown:
+                                        r[2] ||
+                                        (r[2] = d(() => {}, [
+                                          "middle",
+                                          "prevent",
+                                          "stop",
+                                        ])),
                                     },
                                     " ADD TO MY COLLECTION ",
                                     40,
@@ -516,30 +527,30 @@ const W =
       );
     },
   }),
-  ko = H(Ve, [["__scopeId", "data-v-cbd16892"]]),
-  V = (e) => (S("data-v-35c065de"), (e = e()), x(), e),
+  ko = L(Ve, [["__scopeId", "data-v-cd556095"]]),
+  V = (e) => (S("data-v-040f7620"), (e = e()), O(), e),
   je = { class: "card" },
-  ze = V(() => t("img", { src: O, alt: "ver mais" }, null, -1)),
+  ze = V(() => t("img", { src: _, alt: "ver mais" }, null, -1)),
   Fe = [ze],
-  Je = { class: "first-row" },
-  Ue = { class: "item-info-container" },
-  Ge = { class: "item-info" },
-  Ke = { key: 0, class: "flex-row" },
-  Qe = { class: "item-info" },
-  Xe = { class: "item-info" },
-  Ye = { key: 1, class: "button-container" },
-  Ze = ["onClick"],
-  pe = V(() => t("img", { src: D, alt: "adicionar" }, null, -1)),
-  et = [pe],
+  pe = { class: "first-row" },
+  Qe = { class: "item-info-container" },
+  Ue = { class: "item-info" },
+  Ge = { key: 0, class: "flex-row" },
+  Je = { class: "item-info" },
+  Ke = { class: "item-info" },
+  Xe = { key: 1, class: "button-container" },
+  Ye = ["onClick"],
+  Ze = V(() => t("img", { src: D, alt: "adicionar" }, null, -1)),
+  et = [Ze],
   tt = { key: 2, class: "button-container" },
   ot = ["onClick", "onMouseup"],
   nt = { key: 3, class: "button-container" },
   st = ["disabled", "onClick"],
   it = { key: 0 },
-  at = { class: "content" },
-  dt = { key: 0, class: "only-sheet-content-container" },
-  ct = { class: "item-info" },
+  dt = { class: "content" },
+  at = { key: 0, class: "only-sheet-content-container" },
   lt = { class: "item-info" },
+  ct = { class: "item-info" },
   ht = ["innerHTML"],
   ut = { key: 1, class: "card-footer" },
   rt = ["onClick"],
@@ -547,7 +558,7 @@ const W =
   wt = { key: 2, class: "card-footer" },
   bt = { class: "button-container" },
   vt = ["onClick", "onMouseup"],
-  kt = E({
+  kt = H({
     __name: "ProtectionCard",
     props: {
       protection: { type: Object, required: !0 },
@@ -570,20 +581,20 @@ const W =
     setup(e, { emit: C }) {
       const i = e,
         h = C,
-        l = I(!!i.homebrewAdd),
-        w = L(),
-        r = I(window.innerWidth),
+        c = E(!!i.homebrewAdd),
+        b = R(),
+        w = E(window.innerWidth),
         $ = () => {
           h("handleAdd", i.protection);
         },
-        g = () => {
+        M = () => {
           const m = {
             id: i.protection.id || i.id,
             itemType: i.protection.itemType,
           };
           h("handleRemove", m);
         },
-        M = () => {
+        I = () => {
           h("handleEquip", i.id);
         },
         A = () => {
@@ -593,19 +604,19 @@ const W =
           h("handleAddHomebrew", i.protection);
         },
         y = () => {
-          const m = w.resolve({ name: "homebrews-item", params: { id: i.id } });
+          const m = b.resolve({ name: "homebrews-item", params: { id: i.id } });
           window.open(m.href, "_blank");
         },
         v = () => {
-          i.homebrewAdd || (l.value = !l.value);
+          i.homebrewAdd || (c.value = !c.value);
         };
       return (
         N(() => {
           window.addEventListener("resize", () => {
-            r.value = window.innerWidth;
+            w.value = window.innerWidth;
           });
         }),
-        (m, b) => (
+        (m, r) => (
           o(),
           n("div", je, [
             t(
@@ -622,16 +633,16 @@ const W =
                       "button",
                       {
                         key: 0,
-                        class: u(["show-more", { rotate: l.value }]),
+                        class: u(["show-more", { rotate: c.value }]),
                         onClick:
-                          b[0] ||
-                          (b[0] = d((_) => (l.value = !l.value), ["stop"])),
+                          r[0] ||
+                          (r[0] = d((g) => (c.value = !c.value), ["stop"])),
                       },
                       Fe,
                       2
                     )),
                 t("div", null, [
-                  t("div", Je, [
+                  t("div", pe, [
                     t(
                       "h3",
                       {
@@ -644,25 +655,25 @@ const W =
                       3
                     ),
                   ]),
-                  t("div", Ue, [
-                    t("div", Ge, [
+                  t("div", Qe, [
+                    t("div", Ue, [
                       t("h3", null, [
-                        c("Defense: "),
+                        l("Defense: "),
                         t("span", null, "+" + s(e.protection.defense), 1),
                       ]),
                     ]),
-                    (!e.sheet || e.homebrew) && r.value >= 1023
+                    (!e.sheet || e.homebrew) && w.value >= 1023
                       ? (o(),
-                        n("div", Ke, [
-                          t("div", Qe, [
+                        n("div", Ge, [
+                          t("div", Je, [
                             t("h3", null, [
-                              c("Category: "),
+                              l("Category: "),
                               t("span", null, s(e.protection.category), 1),
                             ]),
                           ]),
-                          t("div", Xe, [
+                          t("div", Ke, [
                             t("h3", null, [
-                              c("Space: "),
+                              l("Space: "),
                               t("span", null, s(e.protection.slots), 1),
                             ]),
                           ]),
@@ -672,13 +683,13 @@ const W =
                 ]),
                 !e.onlyShow && !e.homebrewList && !e.homebrewAdd
                   ? (o(),
-                    n("div", Ye, [
+                    n("div", Xe, [
                       t(
                         "button",
                         { class: "button-primary", onClick: d($, ["stop"]) },
                         et,
                         8,
-                        Ze
+                        Ye
                       ),
                     ]))
                   : a("", !0),
@@ -691,8 +702,11 @@ const W =
                           class: "button-secondary",
                           onClick: d(y, ["stop"]),
                           onMouseup: d(y, ["middle"]),
+                          onMousedown:
+                            r[1] ||
+                            (r[1] = d(() => {}, ["middle", "prevent", "stop"])),
                         },
-                        " COMPARTILHAR ",
+                        " SHARE ",
                         40,
                         ot
                       ),
@@ -709,7 +723,7 @@ const W =
                             { disabled: e.disabled },
                           ]),
                           disabled: e.disabled,
-                          onClick: d(M, ["stop"]),
+                          onClick: d(I, ["stop"]),
                         },
                         [
                           t(
@@ -735,21 +749,21 @@ const W =
               2
             ),
             f(
-              B,
+              T,
               { name: "card", mode: "out-in" },
               {
-                default: R(() => [
-                  l.value
+                default: B(() => [
+                  c.value
                     ? (o(),
                       n("div", it, [
-                        f(T),
-                        t("div", at, [
-                          e.sheet || !(r.value >= 1023)
+                        f(x),
+                        t("div", dt, [
+                          e.sheet || !(w.value >= 1023)
                             ? (o(),
-                              n("div", dt, [
-                                t("div", ct, [
+                              n("div", at, [
+                                t("div", lt, [
                                   t("h3", null, [
-                                    c("Category: "),
+                                    l("Categoria: "),
                                     t(
                                       "span",
                                       null,
@@ -758,9 +772,9 @@ const W =
                                     ),
                                   ]),
                                 ]),
-                                t("div", lt, [
+                                t("div", ct, [
                                   t("h3", null, [
-                                    c("Space: "),
+                                    l("Space: "),
                                     t("span", null, s(e.protection.slots), 1),
                                   ]),
                                 ]),
@@ -769,7 +783,10 @@ const W =
                           t(
                             "div",
                             {
-                              class: u({ "sheet-content": e.sheet }),
+                              class: u([
+                                "description",
+                                { "sheet-content": e.sheet },
+                              ]),
                               innerHTML: e.protection.description,
                             },
                             null,
@@ -783,7 +800,7 @@ const W =
                                   "button",
                                   {
                                     class: "button-remove",
-                                    onClick: d(g, ["stop"]),
+                                    onClick: d(M, ["stop"]),
                                   },
                                   s(e.homebrew ? "Delete" : "Remove"),
                                   9,
@@ -811,6 +828,13 @@ const W =
                                       class: "button-secondary",
                                       onClick: d(k, ["stop"]),
                                       onMouseup: d(k, ["middle"]),
+                                      onMousedown:
+                                        r[2] ||
+                                        (r[2] = d(() => {}, [
+                                          "middle",
+                                          "prevent",
+                                          "stop",
+                                        ])),
                                     },
                                     " ADD TO MY COLLECTION ",
                                     40,
@@ -831,10 +855,10 @@ const W =
       );
     },
   }),
-  yo = H(kt, [["__scopeId", "data-v-35c065de"]]),
-  j = (e) => (S("data-v-075898a5"), (e = e()), x(), e),
+  yo = L(kt, [["__scopeId", "data-v-040f7620"]]),
+  j = (e) => (S("data-v-cdd4c86a"), (e = e()), O(), e),
   yt = { class: "card" },
-  ft = j(() => t("img", { src: O, alt: "ver mais" }, null, -1)),
+  ft = j(() => t("img", { src: _, alt: "ver mais" }, null, -1)),
   Ct = [ft],
   $t = { class: "first-row" },
   At = { key: 0, class: "item-info-category" },
@@ -843,21 +867,21 @@ const W =
   It = { class: "item-info" },
   Et = { key: 1, class: "button-container" },
   Ht = ["onClick"],
-  _t = j(() => t("img", { src: D, alt: "adicionar" }, null, -1)),
-  Lt = [_t],
-  Rt = { key: 2, class: "button-container" },
-  Bt = ["onClick", "onMouseup"],
-  Tt = { key: 0 },
+  Lt = j(() => t("img", { src: D, alt: "adicionar" }, null, -1)),
+  Rt = [Lt],
+  Bt = { key: 2, class: "button-container" },
+  Tt = ["onClick", "onMouseup"],
+  xt = { key: 0 },
   St = { class: "content" },
-  xt = { key: 0, class: "item-info-category-sheet" },
-  Ot = ["innerHTML"],
+  Ot = { key: 0, class: "item-info-category-sheet" },
+  _t = ["innerHTML"],
   Dt = { key: 1, class: "card-footer" },
   Nt = ["onClick"],
   qt = ["onClick"],
   Wt = { key: 2, class: "card-footer" },
   Pt = { class: "button-container" },
   Vt = ["onClick", "onMouseup"],
-  jt = E({
+  jt = H({
     __name: "MiscCard",
     props: {
       misc: { type: Object, required: !0 },
@@ -874,33 +898,33 @@ const W =
     setup(e, { emit: C }) {
       const i = e,
         h = C,
-        l = I(!!i.homebrewAdd),
-        w = L(),
-        r = I(window.innerWidth),
+        c = E(!!i.homebrewAdd),
+        b = R(),
+        w = E(window.innerWidth),
         $ = () => {
           h("handleAdd", i.misc);
         },
-        g = () => {
+        M = () => {
           const v = { id: i.misc.id || i.id, itemType: i.misc.itemType };
           h("handleRemove", v);
         },
-        M = () => {
+        I = () => {
           h("handleEdit", i.misc);
         },
         A = () => {
           h("handleAddHomebrew", i.misc);
         },
         k = () => {
-          const v = w.resolve({ name: "homebrews-item", params: { id: i.id } });
+          const v = b.resolve({ name: "homebrews-item", params: { id: i.id } });
           window.open(v.href, "_blank");
         },
         y = () => {
-          i.homebrewAdd || (l.value = !l.value);
+          i.homebrewAdd || (c.value = !c.value);
         };
       return (
         N(() => {
           window.addEventListener("resize", () => {
-            r.value = window.innerWidth;
+            w.value = window.innerWidth;
           });
         }),
         (v, m) => (
@@ -920,10 +944,10 @@ const W =
                       "button",
                       {
                         key: 0,
-                        class: u(["show-more", { rotate: l.value }]),
+                        class: u(["show-more", { rotate: c.value }]),
                         onClick:
                           m[0] ||
-                          (m[0] = d((b) => (l.value = !l.value), ["stop"])),
+                          (m[0] = d((r) => (c.value = !c.value), ["stop"])),
                       },
                       Ct,
                       2
@@ -941,7 +965,7 @@ const W =
                       s(e.misc.name),
                       3
                     ),
-                    (!e.sheet || e.homebrew) && r.value >= 1023
+                    (!e.sheet || e.homebrew) && w.value >= 1023
                       ? (o(),
                         n("div", At, [
                           t("h3", null, [t("i", null, s(e.misc.tag), 1)]),
@@ -951,13 +975,13 @@ const W =
                   t("div", gt, [
                     t("div", Mt, [
                       t("h3", null, [
-                        c("Category: "),
+                        l("Category: "),
                         t("span", null, s(e.misc.category), 1),
                       ]),
                     ]),
                     t("div", It, [
                       t("h3", null, [
-                        c("Space: "),
+                        l("Space: "),
                         t("span", null, s(e.misc.slots), 1),
                       ]),
                     ]),
@@ -969,7 +993,7 @@ const W =
                       t(
                         "button",
                         { class: "button-primary", onClick: d($, ["stop"]) },
-                        Lt,
+                        Rt,
                         8,
                         Ht
                       ),
@@ -977,17 +1001,20 @@ const W =
                   : a("", !0),
                 e.homebrewList
                   ? (o(),
-                    n("div", Rt, [
+                    n("div", Bt, [
                       t(
                         "button",
                         {
                           class: "button-secondary",
                           onClick: d(k, ["stop"]),
                           onMouseup: d(k, ["middle"]),
+                          onMousedown:
+                            m[1] ||
+                            (m[1] = d(() => {}, ["middle", "prevent", "stop"])),
                         },
                         " SHARE ",
                         40,
-                        Bt
+                        Tt
                       ),
                     ]))
                   : a("", !0),
@@ -995,30 +1022,33 @@ const W =
               2
             ),
             f(
-              B,
+              T,
               { name: "card", mode: "out-in" },
               {
-                default: R(() => [
-                  l.value
+                default: B(() => [
+                  c.value
                     ? (o(),
-                      n("div", Tt, [
-                        f(T),
+                      n("div", xt, [
+                        f(x),
                         t("div", St, [
-                          e.sheet || !(r.value >= 1023)
+                          e.sheet || !(w.value >= 1023)
                             ? (o(),
-                              n("div", xt, [
+                              n("div", Ot, [
                                 t("h3", null, [t("i", null, s(e.misc.tag), 1)]),
                               ]))
                             : a("", !0),
                           t(
                             "div",
                             {
-                              class: u({ "sheet-content": e.sheet }),
+                              class: u([
+                                "description",
+                                { "sheet-content": e.sheet },
+                              ]),
                               innerHTML: e.misc.description,
                             },
                             null,
                             10,
-                            Ot
+                            _t
                           ),
                           e.sheet && !e.disabled
                             ? (o(),
@@ -1027,7 +1057,7 @@ const W =
                                   "button",
                                   {
                                     class: "button-remove",
-                                    onClick: d(g, ["stop"]),
+                                    onClick: d(M, ["stop"]),
                                   },
                                   s(e.homebrew ? "Delete" : "Remove"),
                                   9,
@@ -1037,7 +1067,7 @@ const W =
                                   "button",
                                   {
                                     class: "button-remove button-edit",
-                                    onClick: d(M, ["stop"]),
+                                    onClick: d(I, ["stop"]),
                                   },
                                   " Edit ",
                                   8,
@@ -1055,6 +1085,13 @@ const W =
                                       class: "button-secondary",
                                       onClick: d(A, ["stop"]),
                                       onMouseup: d(A, ["middle"]),
+                                      onMousedown:
+                                        m[2] ||
+                                        (m[2] = d(() => {}, [
+                                          "middle",
+                                          "prevent",
+                                          "stop",
+                                        ])),
                                     },
                                     " ADD TO MY COLLECTION ",
                                     40,
@@ -1075,19 +1112,19 @@ const W =
       );
     },
   }),
-  fo = H(jt, [["__scopeId", "data-v-075898a5"]]),
-  z = (e) => (S("data-v-9de3db32"), (e = e()), x(), e),
+  fo = L(jt, [["__scopeId", "data-v-cdd4c86a"]]),
+  z = (e) => (S("data-v-bd08b91a"), (e = e()), O(), e),
   zt = { class: "card" },
-  Ft = z(() => t("img", { src: O, alt: "ver mais" }, null, -1)),
-  Jt = [Ft],
-  Ut = { class: "item-info-container" },
+  Ft = z(() => t("img", { src: _, alt: "ver mais" }, null, -1)),
+  pt = [Ft],
+  Qt = { class: "item-info-container" },
+  Ut = { class: "item-info" },
   Gt = { class: "item-info" },
-  Kt = { class: "item-info" },
-  Qt = { key: 1, class: "button-container" },
-  Xt = ["onClick"],
-  Yt = z(() => t("img", { src: D, alt: "adicionar" }, null, -1)),
-  Zt = [Yt],
-  pt = { key: 2, class: "button-container" },
+  Jt = { key: 1, class: "button-container" },
+  Kt = ["onClick"],
+  Xt = z(() => t("img", { src: D, alt: "adicionar" }, null, -1)),
+  Yt = [Xt],
+  Zt = { key: 2, class: "button-container" },
   eo = ["onClick", "onMouseup"],
   to = { key: 0 },
   oo = { class: "item-element" },
@@ -1095,11 +1132,11 @@ const W =
   so = ["innerHTML"],
   io = { key: 0, class: "card-footer" },
   ao = ["onClick"],
-  co = ["onClick"],
-  lo = { key: 1, class: "card-footer" },
+  lo = ["onClick"],
+  co = { key: 1, class: "card-footer" },
   ho = { class: "button-container" },
   uo = ["onClick", "onMouseup"],
-  ro = E({
+  ro = H({
     __name: "CursedItemCard",
     props: {
       cursedItem: { type: Object, required: !0 },
@@ -1114,30 +1151,30 @@ const W =
     },
     emits: ["handleAdd", "handleRemove", "handleEdit", "handleAddHomebrew"],
     setup(e, { emit: C }) {
-      F((b) => ({ "5ee78c94": $.value, bfd8c83e: g.value }));
+      F((r) => ({ "68a16f19": $.value, c5429834: M.value }));
       const i = e,
         h = C,
-        l = {
-          knowledge: "#ff8c00",
-          energy: "#7000AC",
-          death: "#121212",
-          blood: "#d9534f",
-          fear: "#dae4e6",
-          varies: "#fff",
+        c = {
+            knowledge: "#ff8c00",
+            energy: "#7000AC",
+            death: "#121212",
+            blood: "#d9534f",
+            fear: "#dae4e6",
+            varies: "#fff",
         },
-        w = I(!!i.homebrewAdd),
-        r = L(),
-        $ = q(() => l[i.cursedItem.element.toLowerCase()]),
-        g = q(() => ($.value === "#fff" || "#dae4e6" ? "#121212" : "#fff")),
-        M = () => {
+        b = E(!!i.homebrewAdd),
+        w = R(),
+        $ = q(() => c[i.cursedItem.element.toLowerCase()]),
+        M = q(() => ($.value === "#fff" || "#dae4e6" ? "#121212" : "#fff")),
+        I = () => {
           h("handleAdd", i.cursedItem);
         },
         A = () => {
-          const b = {
+          const r = {
             id: i.cursedItem.id || i.id,
             itemType: i.cursedItem.itemType,
           };
-          h("handleRemove", b);
+          h("handleRemove", r);
         },
         k = () => {
           h("handleEdit", i.cursedItem);
@@ -1146,13 +1183,13 @@ const W =
           h("handleAddHomebrew", i.cursedItem);
         },
         v = () => {
-          const b = r.resolve({ name: "homebrews-item", params: { id: i.id } });
-          window.open(b.href, "_blank");
+          const r = w.resolve({ name: "homebrews-item", params: { id: i.id } });
+          window.open(r.href, "_blank");
         },
         m = () => {
-          i.homebrewAdd || (w.value = !w.value);
+          i.homebrewAdd || (b.value = !b.value);
         };
-      return (b, _) => (
+      return (r, g) => (
         o(),
         n("div", zt, [
           t(
@@ -1169,12 +1206,12 @@ const W =
                     "button",
                     {
                       key: 0,
-                      class: u(["show-more", { rotate: w.value }]),
+                      class: u(["show-more", { rotate: b.value }]),
                       onClick:
-                        _[0] ||
-                        (_[0] = d((mo) => (w.value = !w.value), ["stop"])),
+                        g[0] ||
+                        (g[0] = d((mo) => (b.value = !b.value), ["stop"])),
                     },
-                    Jt,
+                    pt,
                     2
                   )),
               t("div", null, [
@@ -1189,16 +1226,16 @@ const W =
                   s(e.cursedItem.name),
                   3
                 ),
-                t("div", Ut, [
-                  t("div", Gt, [
+                t("div", Qt, [
+                  t("div", Ut, [
                     t("h3", null, [
-                      c("Category: "),
+                      l("Category: "),
                       t("span", null, s(e.cursedItem.category), 1),
                     ]),
                   ]),
-                  t("div", Kt, [
+                  t("div", Gt, [
                     t("h3", null, [
-                      c("Space: "),
+                      l("Space: "),
                       t("span", null, s(e.cursedItem.slots), 1),
                     ]),
                   ]),
@@ -1206,25 +1243,28 @@ const W =
               ]),
               !e.onlyShow && !e.homebrewList && !e.homebrewAdd
                 ? (o(),
-                  n("div", Qt, [
+                  n("div", Jt, [
                     t(
                       "button",
-                      { class: "button-primary", onClick: d(M, ["stop"]) },
-                      Zt,
+                      { class: "button-primary", onClick: d(I, ["stop"]) },
+                      Yt,
                       8,
-                      Xt
+                      Kt
                     ),
                   ]))
                 : a("", !0),
               e.homebrewList
                 ? (o(),
-                  n("div", pt, [
+                  n("div", Zt, [
                     t(
                       "button",
                       {
                         class: "button-secondary",
                         onClick: d(v, ["stop"]),
                         onMouseup: d(v, ["middle"]),
+                        onMousedown:
+                          g[1] ||
+                          (g[1] = d(() => {}, ["middle", "prevent", "stop"])),
                       },
                       " SHARE ",
                       40,
@@ -1236,14 +1276,14 @@ const W =
             2
           ),
           f(
-            B,
+            T,
             { name: "card", mode: "out-in" },
             {
-              default: R(() => [
-                w.value
+              default: B(() => [
+                b.value
                   ? (o(),
                     n("div", to, [
-                      f(T),
+                      f(x),
                       t("div", oo, [
                         t("h3", null, s(e.cursedItem.element.toUpperCase()), 1),
                       ]),
@@ -1251,7 +1291,10 @@ const W =
                         t(
                           "div",
                           {
-                            class: u({ "sheet-content": e.sheet }),
+                            class: u([
+                              "description",
+                              { "sheet-content": e.sheet },
+                            ]),
                             innerHTML: e.cursedItem.description,
                           },
                           null,
@@ -1279,13 +1322,13 @@ const W =
                                 },
                                 " Edit ",
                                 8,
-                                co
+                                lo
                               ),
                             ]))
                           : a("", !0),
                         e.canHomebrewAdd
                           ? (o(),
-                            n("div", lo, [
+                            n("div", co, [
                               t("div", ho, [
                                 t(
                                   "button",
@@ -1293,6 +1336,13 @@ const W =
                                     class: "button-secondary",
                                     onClick: d(y, ["stop"]),
                                     onMouseup: d(y, ["middle"]),
+                                    onMousedown:
+                                      g[2] ||
+                                      (g[2] = d(() => {}, [
+                                        "middle",
+                                        "prevent",
+                                        "stop",
+                                      ])),
                                   },
                                   " ADD TO MY COLLECTION ",
                                   40,
@@ -1312,5 +1362,5 @@ const W =
       );
     },
   }),
-  Co = H(ro, [["__scopeId", "data-v-9de3db32"]]);
+  Co = L(ro, [["__scopeId", "data-v-bd08b91a"]]);
 export { Co as C, fo as M, yo as P, ko as W };

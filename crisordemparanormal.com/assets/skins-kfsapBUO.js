@@ -307,5 +307,172 @@ const e = [
     description:
       "<p>You use this skill as a saving throw against effects that require determination, such as intimidation and mind-affecting rituals. The DC is determined by the effect. You also use Will to cast rituals in adverse conditions.</p>",
   },
+],
+a = [
+  {
+    label: "Ametista",
+    img: "/img/skins/ametista-skin-dice-icon.webp",
+    color: "#7F1ECC",
+    isSolid: !0,
+  },
+  {
+    label: "Esmeralda",
+    img: "/img/skins/esmeralda-skin-dice-icon.webp",
+    color: "#8DEA9A",
+    isSolid: !0,
+  },
+  {
+    label: "Lápis Lazuli",
+    img: "/img/skins/lapis-lazuli-skin-dice-icon.webp",
+    color: "#0054D2",
+    isSolid: !0,
+  },
+  {
+    label: "Obsidiana",
+    img: "/img/skins/obsidiana-skin-dice-icon.webp",
+    color: "#0C0C0C",
+    isSolid: !0,
+  },
+  {
+    label: "Quartzo",
+    img: "/img/skins/quartzo-skin-dice-icon.webp",
+    color: "#FFF",
+    isSolid: !0,
+  },
+  {
+    label: "Rubi",
+    img: "/img/skins/rubi-skin-dice-icon.webp",
+    color: "#F80753",
+    isSolid: !0,
+  },
+],
+o = [
+  {
+    label: "Conhecimento",
+    img: "/img/skins/conhecimento-skin-dice-icon.webp",
+    color: "#E4B303",
+    isSolid: !0,
+  },
+  {
+    label: "Energia",
+    img: "/img/skins/energia-skin-dice-icon.webp",
+    color: "#7F1ECC",
+    isSolid: !0,
+  },
+  {
+    label: "Morte",
+    img: "/img/skins/morte-skin-dice-icon.webp",
+    color: "#000000",
+    isSolid: !0,
+  },
+  {
+    label: "Sangue",
+    img: "/img/skins/sangue-skin-dice-icon.webp",
+    color: "#93003C",
+    isSolid: !0,
+  },
+  {
+    label: "Medo",
+    img: "/img/skins/medo-skin-dice-icon.webp",
+    color: "#010028",
+    isSolid: !0,
+  },
+],
+s = [
+  {
+    label: "Progresso",
+    img: "/img/skins/progresso-skin-dice-icon.webp",
+    color:
+      "linear-gradient(to right, #ED1B24, #FF8027, #FEF102, #24B04D, #1617FF, #8C3D8C, #FFFFFF, #FEAEC9, #81FDFD, #7B4D33) 1",
+    isSolid: !1,
+  },
+  {
+    label: "LGBTQIAPN+",
+    img: "/img/skins/lgbtqiapn-skin-dice-icon.webp",
+    color:
+      "linear-gradient(#E21F16, #F18916, #EEE524, #78B82A, #2D5AA6, #6E2481) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Lésbica",
+    img: "/img/skins/lesbica-skin-dice-icon.webp",
+    color: "linear-gradient(#D62E01, #FF9B57, #FFFFFF, #D461A4, #A50162) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Gay",
+    img: "/img/skins/gay-skin-dice-icon.webp",
+    color:
+      "linear-gradient(#0B7A6A, #42A4A7, #5AC7D7, #E9EEFC, #F2F0FE, #F2F0FE, #7AADE2, #1083C9, #0B3474) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Bissexual",
+    img: "/img/skins/bissexual-skin-dice-icon.webp",
+    color:
+      "linear-gradient(#D60471, #D60471, #9C4E98, #9C4E98, #9C4E98, #0038A7, #0038A7) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Transgênero",
+    img: "/img/skins/transgenero-skin-dice-icon.webp",
+    color: "linear-gradient(#5BCEFA, #F5A9B8, #FFFFFF, #F5A9B8, #5BCEFA) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Queer",
+    img: "/img/skins/queer-skin-dice-icon.webp",
+    color: "linear-gradient(#B57EDC, #FFFFFF, #4A8123) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Intersexual",
+    img: "/img/skins/intersexual-skin-dice-icon.webp",
+    color: "linear-gradient(#FFD800, #7902AA, #FFD800) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Assexual",
+    img: "/img/skins/assexual-skin-dice-icon.webp",
+    color: "linear-gradient(#000000, #A3A3A3, #FFFFFF, #820080) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Pansexual",
+    img: "/img/skins/pansexual-skin-dice-icon.webp",
+    color: "linear-gradient(#FF228C, #FFD900, #20B2FF) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Não Binário",
+    img: "/img/skins/nao-binario-skin-dice-icon.webp",
+    color: "linear-gradient(#FEF332, #FEFEFE, #9A58CF, #2C2C2C) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Agênero",
+    img: "/img/skins/agenero-skin-dice-icon.webp",
+    color:
+      "linear-gradient(#000000, #BCC4C6, #FFFFFF, #B6F583, #FFFFFF, #A9A9A9, #000000) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Arromântico",
+    img: "/img/skins/arromantico-skin-dice-icon.webp",
+    color: "linear-gradient(#3DA542, #A7D379, #FFFFFF, #A9A9A9, #000000) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Demissexual",
+    img: "/img/skins/demissexual-skin-dice-icon.webp",
+    color: "linear-gradient(#FFFFFF, #6E0070, #FFFFFF) 1",
+    isSolid: !1,
+  },
+  {
+    label: "Gênero Fluido",
+    img: "/img/skins/genero-fluido-skin-dice-icon.webp",
+    color: "linear-gradient(#FF76A3, #F5F5F5, #BF11D7, #282828, #303CBE) 1",
+    isSolid: !1,
+  },
 ];
-export { e as S };
+export { e as S, o as e, s as o, a as s };

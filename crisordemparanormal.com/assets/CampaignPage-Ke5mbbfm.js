@@ -2,54 +2,54 @@ import {
   d as Ta,
   g as La,
   M as Na,
-  u as Ha,
-  S as xa,
-  r,
-  e as Ea,
-  H as ua,
+  u as xa,
+  S as Ha,
+  r as d,
+  e as Fa,
+  A as ra,
   P as C,
-  R as J,
-  F as z,
-  B as S,
-  Z as ca,
-  $ as Fa,
-  w as da,
+  R as z,
+  F as Z,
+  B as V,
+  Z as ua,
+  $ as Oa,
+  w as ca,
   i as ja,
   o as s,
   c as i,
   a as e,
   m as h,
-  K as aa,
-  j as K,
+  L as aa,
+  j as w,
   t as ma,
-  k as d,
+  k as c,
   n as ea,
   q as ta,
-  v as V,
+  x as D,
   T as Aa,
-  L as w,
-  A as Oa,
+  N as M,
+  v as Ea,
   p as $a,
   b as Ba,
   l as va,
-  N as pa,
-  E as Z,
+  O as pa,
+  J as G,
   _ as qa,
-} from "./index-sE6ml22p.js";
-import { L as ha } from "./LoadingView-ZyngFh7H.js";
-import { C as Ja } from "./CharacterCard-IgqtWy5n.js";
-import { T as za } from "./ToastNotification-fRZSVqeg.js";
-import { P as Ka } from "./PictureModal-gas6WAr8.js";
-import { T as Za } from "./TabNav-cxdIuInn.js";
-import { P as Ga } from "./PlayerCard--6aKxKG8.js";
-import { C as Qa } from "./CombatCard-1XRFnSl2.js";
-import { g as Wa } from "./firebase-lKn9MVSr.js";
-import { P as Xa } from "./PrivateFeat-2T9otaZW.js";
-import "./open-in-new-icon-p91krxL-.js";
-import "./index.esm2017-YDfvp0os.js";
+} from "./index-QwuuguuZ.js";
+import { L as ha } from "./LoadingView-BDyk9qee.js";
+import { C as Ja } from "./CharacterCard-15p3vqPf.js";
+import { T as za } from "./ToastNotification-2J6AO8ev.js";
+import { P as Za } from "./PictureModal-TrL67c-c.js";
+import { T as Ga } from "./TabNav-0k8MUq4h.js";
+import { P as Ka } from "./PlayerCard-u6avled0.js";
+import { C as Qa } from "./CombatCard-Gc3bqO4T.js";
+import { g as Wa } from "./firebase-UUb4pQvs.js";
+import { P as Xa } from "./PrivateFeat-2NQL7iKE.js";
+import "./share-icon-J6b_MEIl.js";
+import "./trash-icon-Dl18GMfa.js";
+import "./index.esm2017-JfeAG2s4.js";
 import "./v4-cyCr5FZV.js";
-import "./colors-NalZ6sWE.js";
-const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
+const m = (E) => ($a("data-v-7f75eedc"), (E = E()), Ba(), E),
   Ya = { key: 0, class: "container" },
   ae = { class: "header-buttons" },
   ee = ["onMouseup"],
@@ -59,10 +59,10 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
   se = { class: "campaign-content" },
   ie = { key: 0, class: "campaign-img-container" },
   le = ["src"],
-  re = { class: "campaign-description" },
-  ue = ["innerHTML"],
-  ce = { key: 0, class: "campaign-list-container" },
-  de = { key: 0 },
+  de = { class: "campaign-description" },
+  re = ["innerHTML"],
+  ue = { key: 0, class: "campaign-list-container" },
+  ce = { key: 0 },
   me = { key: 0 },
   ve = { class: "cards-container" },
   pe = { key: 1 },
@@ -74,9 +74,9 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
       -1
     )
   ),
-  _e = [he],
-  fe = { key: 1 },
-  ge = { key: 0 },
+  fe = [he],
+  ge = { key: 1 },
+  _e = { key: 0 },
   be = { class: "cards-container" },
   Ce = { key: 1 },
   ke = m(() =>
@@ -100,11 +100,11 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
   Te = { key: 1 },
   Le = { key: 2 },
   Ne = m(() => e("h2", null, "Remove agent from campaign?", -1)),
-  He = m(() =>
-    e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
+  xe = m(() =>
+    e("img", { class: "close-icon", src: G, alt: "fechar" }, null, -1)
   ),
-  xe = [He],
-  Ee = m(() =>
+  He = [xe],
+  Fe = m(() =>
     e(
       "h4",
       null,
@@ -112,12 +112,12 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
       -1
     )
   ),
-  Fe = { key: 3 },
+  Oe = { key: 3 },
   je = m(() => e("h2", null, "Remove player from campaign?", -1)),
   Ae = m(() =>
-    e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
+    e("img", { class: "close-icon", src: G, alt: "fechar" }, null, -1)
   ),
-  Oe = [Ae],
+  Ee = [Ae],
   $e = m(() =>
     e(
       "h4",
@@ -131,17 +131,17 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
     e("h2", { class: "modal-title" }, " Link to join the Campaign ", -1)
   ),
   Je = m(() =>
-    e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
+    e("img", { class: "close-icon", src: G, alt: "fechar" }, null, -1)
   ),
   ze = [Je],
-  Ke = { class: "modal-body" },
-  Ze = { class: "campaign-link-container" },
-  Ge = ["href"],
+  Ze = { class: "modal-body" },
+  Ge = { class: "campaign-link-container" },
+  Ke = ["href"],
   Qe = { key: 0, class: "campaign-link-buttons" },
   We = { key: 1, class: "campaign-link-buttons-no-dm" },
   Xe = m(() => e("h2", null, "Leave campaign?", -1)),
   Ye = m(() =>
-    e("img", { class: "close-icon", src: Z, alt: "fechar" }, null, -1)
+    e("img", { class: "close-icon", src: G, alt: "fechar" }, null, -1)
   ),
   at = [Ye],
   et = m(() =>
@@ -155,171 +155,171 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
   tt = { key: 1 },
   ot = Ta({
     __name: "CampaignPage",
-    setup(A) {
-      const f = La(),
-        c = Na(),
-        v = Ha(),
-        oa = xa().params.id,
-        G = "https://crisordemparanormal.com/",
-        M = r(!0),
-        O = r(!1),
-        D = r(!1),
-        I = r(!1),
-        $ = r(!1),
-        T = r(!1),
-        L = r(),
-        R = r(),
-        U = r(!1),
-        t = r(),
-        N = r([]),
-        H = r([]),
-        P = r(0),
-        Q = r(),
-        W = r(),
-        _ = r(!1),
-        X = r(0),
-        na = r([
+    setup(E) {
+      const g = La(),
+        u = Na(),
+        v = xa(),
+        oa = Ha().params.id,
+        K = "https://crisordemparanormal.com/",
+        I = d(!0),
+        $ = d(!1),
+        T = d(!1),
+        R = d(!1),
+        B = d(!1),
+        L = d(!1),
+        N = d(),
+        U = d(),
+        P = d(!1),
+        t = d(),
+        x = d([]),
+        H = d([]),
+        S = d(0),
+        Q = d(),
+        W = d(),
+        f = d(!1),
+        X = d(0),
+        na = d([
           { label: "Agents", value: 0 },
           { label: "Players", value: 1 },
         ]),
-        x = r(0),
-        u = r({ message: "", type: "info", alive: !1, timeout: 0 });
-      Ea(async () => {
-        var E, n, y;
-        if (!f.currentUser) return;
-        X.value = await Wa((E = f.currentUser) == null ? void 0 : E.uid);
-        const o = await ua(C(c, "campaigns", oa));
+        F = d(0),
+        r = d({ message: "", type: "info", alive: !1, timeout: 0 });
+      Fa(async () => {
+        var O, n, y;
+        if (!g.currentUser) return;
+        X.value = await Wa((O = g.currentUser) == null ? void 0 : O.uid);
+        const o = await ra(C(u, "campaigns", oa));
         o.data() || v.push({ name: "not-found" }),
           (t.value = o.data()),
           (t.value.id = o.id),
-          (await ua(C(c, "users", f.currentUser.uid)))
+          (await ra(C(u, "users", g.currentUser.uid)))
             .data()
             .campaignsId.includes(oa) ||
             v.push({ name: "campaign-page-denied" }),
-          ((n = f.currentUser) == null ? void 0 : n.uid) ===
+          ((n = g.currentUser) == null ? void 0 : n.uid) ===
             ((y = t.value) == null ? void 0 : y.uid) &&
-            ((_.value = !0), na.value.push({ label: "Encounters", value: 2 }));
-        const p = J(c, "characters"),
-          g = z(p, S("campaignDocId", "==", t.value.id));
-        Q.value = ca(g, (Y) => {
-          const F = [];
-          for (const j of Y.docs) {
-            const q = j.data();
-            (q.id = j.id), F.push(q);
+            ((f.value = !0), na.value.push({ label: "Encounters", value: 2 }));
+        const p = z(u, "characters"),
+          _ = Z(p, V("campaignDocId", "==", t.value.id));
+        Q.value = ua(_, (Y) => {
+          const j = [];
+          for (const A of Y.docs) {
+            const J = A.data();
+            (J.id = A.id), j.push(J);
           }
-          (N.value = F), P.value < 2 && P.value++;
+          (x.value = j), S.value < 2 && S.value++;
         });
-        const b = J(c, "users"),
-          B = z(b, S("campaignsId", "array-contains", t.value.id));
-        W.value = ca(B, (Y) => {
-          var j;
-          const F = [];
-          for (const q of Y.docs) {
-            const ra = q.data();
-            ra.uid !== ((j = t.value) == null ? void 0 : j.uid) && F.push(ra);
+        const b = z(u, "users"),
+          q = Z(b, V("campaignsId", "array-contains", t.value.id));
+        W.value = ua(q, (Y) => {
+          var A;
+          const j = [];
+          for (const J of Y.docs) {
+            const da = J.data();
+            da.uid !== ((A = t.value) == null ? void 0 : A.uid) && j.push(da);
           }
-          (H.value = F), P.value < 2 && P.value++;
+          (H.value = j), S.value < 2 && S.value++;
         });
       }),
-        Fa(() => {
+        Oa(() => {
           Q.value && Q.value(), W.value && W.value();
         }),
-        da(P, () => {
-          M.value !== !1 && P.value >= 2 && (M.value = !1);
+        ca(S, () => {
+          I.value !== !1 && S.value >= 2 && (I.value = !1);
         });
-      const _a = () => {
+      const fa = () => {
           t.value &&
-            _.value &&
+            f.value &&
             ((t.value.joinId = crypto.randomUUID().substring(0, 13)),
-            w(C(c, "campaigns", t.value.id), t.value));
+            M(C(u, "campaigns", t.value.id), t.value));
         },
         sa = async () => {
           t.value &&
             (await navigator.clipboard.writeText(
-              G + "campanha/entrar/" + t.value.joinId
+              K + "campanha/entrar/" + t.value.joinId
             ),
-            (u.value.message = "Link copied"),
-            (u.value.alive = !0),
+            (r.value.message = "Link copied"),
+            (r.value.alive = !0),
             k());
         };
-      da(
-        () => u.value.alive,
+      ca(
+        () => r.value.alive,
         () => {
-          u.value.alive === !0 &&
-            (u.value.timeout = window.setTimeout(
-              () => (u.value.alive = !1),
+          r.value.alive === !0 &&
+            (r.value.timeout = window.setTimeout(
+              () => (r.value.alive = !1),
               3e3
             ));
         }
       );
-      const fa = () => {
-          (u.value.alive = !1), clearTimeout(u.value.timeout);
+      const ga = () => {
+          (r.value.alive = !1), clearTimeout(r.value.timeout);
         },
-        ga = (o) => {
+        _a = (o) => {
           var a;
-          if (f.currentUser && o)
+          if (g.currentUser && o)
             return (
-              f.currentUser.uid === o ||
-              f.currentUser.uid === ((a = t.value) == null ? void 0 : a.uid)
+              g.currentUser.uid === o ||
+              g.currentUser.uid === ((a = t.value) == null ? void 0 : a.uid)
             );
         },
         ba = async () => {
           var a, l;
-          if (!((a = L.value) != null && a.id)) return;
-          U.value = !0;
-          const o = (l = L.value) == null ? void 0 : l.id;
-          await w(C(c, "characters", o), { campaignDocId: "" }),
+          if (!((a = N.value) != null && a.id)) return;
+          P.value = !0;
+          const o = (l = N.value) == null ? void 0 : l.id;
+          await M(C(u, "characters", o), { campaignDocId: "" }),
             k(),
-            (U.value = !1),
-            (u.value.message = "Agent removed from the campaign!"),
-            (u.value.alive = !0);
+            (P.value = !1),
+            (r.value.message = "Agent removed from the campaign!"),
+            (r.value.alive = !0);
         },
         Ca = async () => {
           var p;
-          if (!t.value || !R.value) return;
-          U.value = !0;
-          const o = J(c, "characters"),
-            a = z(
+          if (!t.value || !U.value) return;
+          P.value = !0;
+          const o = z(u, "characters"),
+            a = Z(
               o,
-              S("campaignDocId", "==", t.value.id),
-              S("uid", "==", (p = R.value) == null ? void 0 : p.uid)
+              V("campaignDocId", "==", t.value.id),
+              V("uid", "==", (p = U.value) == null ? void 0 : p.uid)
             ),
             l = await va(a);
-          for (const g of l.docs) {
-            const b = g.data();
-            (b.id = g.id),
-              await w(C(c, "characters", b.id), { campaignDocId: "" });
+          for (const _ of l.docs) {
+            const b = _.data();
+            (b.id = _.id),
+              await M(C(u, "characters", b.id), { campaignDocId: "" });
           }
-          await w(C(c, "users", R.value.uid), { campaignsId: pa(t.value.id) }),
+          await M(C(u, "users", U.value.uid), { campaignsId: pa(t.value.id) }),
             k(),
-            (U.value = !1),
-            (u.value.message = "Player removed from the campaign!"),
-            (u.value.alive = !0);
+            (P.value = !1),
+            (r.value.message = "Player removed from the campaign!"),
+            (r.value.alive = !0);
         },
         ka = async () => {
           var p;
-          if (_.value || !t.value || !f.currentUser) return;
-          k(), (U.value = !0);
-          const o = J(c, "characters"),
-            a = z(
+          if (f.value || !t.value || !g.currentUser) return;
+          k(), (P.value = !0);
+          const o = z(u, "characters"),
+            a = Z(
               o,
-              S("campaignDocId", "==", t.value.id),
-              S("uid", "==", (p = f.currentUser) == null ? void 0 : p.uid)
+              V("campaignDocId", "==", t.value.id),
+              V("uid", "==", (p = g.currentUser) == null ? void 0 : p.uid)
             ),
             l = await va(a);
-          for (const g of l.docs) {
-            const b = g.data();
-            (b.id = g.id),
-              await w(C(c, "characters", b.id), { campaignDocId: "" });
+          for (const _ of l.docs) {
+            const b = _.data();
+            (b.id = _.id),
+              await M(C(u, "characters", b.id), { campaignDocId: "" });
           }
-          await w(C(c, "users", f.currentUser.uid), {
+          await M(C(u, "users", g.currentUser.uid), {
             campaignsId: pa(t.value.id),
           }),
             v.push({ name: "campaigns-list" });
         },
         ya = () => {
           var o;
-          (M.value = !0),
+          (I.value = !0),
             v.push({
               name: "campaign-edit",
               params: { id: (o = t.value) == null ? void 0 : o.id },
@@ -335,7 +335,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
         },
         ia = () => {
           var o;
-          (M.value = !0),
+          (I.value = !0),
             v.push({
               name: "campaign-create-combat",
               params: { id: (o = t.value) == null ? void 0 : o.id },
@@ -351,7 +351,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
         },
         Ma = () => {
           var o;
-          (M.value = !0),
+          (I.value = !0),
             v.push({
               name: "master-screen",
               params: { id: (o = t.value) == null ? void 0 : o.id },
@@ -370,28 +370,28 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
           window.open(a.href, "_blank");
         },
         Ua = (o) => {
-          const a = N.value.findIndex((l) => l.id === o);
-          (L.value = N.value[a]), (O.value = !0);
+          const a = x.value.findIndex((l) => l.id === o);
+          (N.value = x.value[a]), ($.value = !0);
         },
         Pa = (o) => {
           const a = H.value.findIndex((l) => (l.uid = o));
-          (R.value = H.value[a]), ($.value = !0);
+          (U.value = H.value[a]), (B.value = !0);
         },
         k = () => {
-          ($.value = !1),
-            (D.value = !1),
-            (I.value = !1),
-            (O.value = !1),
+          (B.value = !1),
             (T.value = !1),
-            (L.value = void 0),
-            (R.value = void 0);
+            (R.value = !1),
+            ($.value = !1),
+            (L.value = !1),
+            (N.value = void 0),
+            (U.value = void 0);
         },
         Sa = (o, a) => {
           t.value &&
-            _.value &&
+            f.value &&
             ((t.value.pictureURL = o),
             (t.value.pictureFullPath = a),
-            w(C(c, "campaigns", t.value.id), t.value),
+            M(C(u, "campaigns", t.value.id), t.value),
             k());
         },
         Va = async (o) => {
@@ -401,11 +401,11 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
           const a = t.value.combats.findIndex((p) => p.id === o);
           t.value.currentCombat === a && (t.value.currentCombat = -1),
             t.value.combats.splice(a, 1),
-            await w(C(c, "campaigns", t.value.id), t.value);
+            await M(C(u, "campaigns", t.value.id), t.value);
         },
         Da = (o) => {
           var a;
-          (M.value = !0),
+          (I.value = !0),
             v.push({
               name: "campaign-edit-combat",
               params: {
@@ -415,14 +415,14 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
             });
         };
       return (o, a) => {
-        var p, g, b, B, E;
+        var p, _, b, q, O;
         const l = ja("vue-final-modal");
-        return M.value
-          ? (s(), i("div", tt, [d(ha, { "page-loading": "" })]))
+        return I.value
+          ? (s(), i("div", tt, [c(ha, { "page-loading": "" })]))
           : (s(),
             i("div", Ya, [
               e("div", ae, [
-                _.value
+                f.value
                   ? h("", !0)
                   : (s(),
                     i(
@@ -430,18 +430,18 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                       {
                         key: 0,
                         class: "button-primary campaign-buttons",
-                        onClick: a[0] || (a[0] = (n) => (T.value = !T.value)),
+                        onClick: a[0] || (a[0] = (n) => (L.value = !L.value)),
                       },
                       " Leave Campaign "
                     )),
-                _.value
+                f.value
                   ? (s(),
                     i(
                       "button",
                       {
                         key: 1,
                         class: "button-primary campaign-buttons",
-                        onClick: a[1] || (a[1] = (n) => (I.value = !I.value)),
+                        onClick: a[1] || (a[1] = (n) => (R.value = !R.value)),
                       },
                       " Cover Photo "
                     ))
@@ -466,11 +466,11 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                   "button",
                   {
                     class: "button-primary campaign-buttons",
-                    onClick: a[3] || (a[3] = (n) => (D.value = !D.value)),
+                    onClick: a[3] || (a[3] = (n) => (T.value = !T.value)),
                   },
                   " Invite Players "
                 ),
-                _.value
+                f.value
                   ? (s(),
                     i(
                       "button",
@@ -478,14 +478,17 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         key: 2,
                         class: "button-primary campaign-buttons",
                         onClick: ya,
-                        onMouseup: K(wa, ["middle"]),
+                        onMouseup: w(wa, ["middle"]),
+                        onMousedown:
+                          a[4] ||
+                          (a[4] = w(() => {}, ["middle", "prevent", "stop"])),
                       },
                       " Edit Campaign ",
                       40,
                       ee
                     ))
                   : h("", !0),
-                _.value && X.value >= 3
+                f.value && X.value >= 3
                   ? (s(),
                     i(
                       "button",
@@ -493,14 +496,17 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         key: 3,
                         class: "button-primary campaign-buttons",
                         onClick: ia,
-                        onMouseup: K(la, ["middle"]),
+                        onMouseup: w(la, ["middle"]),
+                        onMousedown:
+                          a[5] ||
+                          (a[5] = w(() => {}, ["middle", "prevent", "stop"])),
                       },
                       " Create Encounter ",
                       40,
                       te
                     ))
                   : h("", !0),
-                !((p = t.value) != null && p.privateMasterScreen) || _.value
+                !((p = t.value) != null && p.privateMasterScreen) || f.value
                   ? (s(),
                     i(
                       "button",
@@ -508,7 +514,10 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                         key: 4,
                         class: "button-primary campaign-buttons",
                         onClick: Ma,
-                        onMouseup: K(Ia, ["middle"]),
+                        onMouseup: w(Ia, ["middle"]),
+                        onMousedown:
+                          a[6] ||
+                          (a[6] = w(() => {}, ["middle", "prevent", "stop"])),
                       },
                       " DM Screen ",
                       40,
@@ -516,7 +525,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                     ))
                   : h("", !0),
               ]),
-              e("div", ne, ma((g = t.value) == null ? void 0 : g.name), 1),
+              e("div", ne, ma((_ = t.value) == null ? void 0 : _.name), 1),
               e("div", se, [
                 (b = t.value) != null && b.pictureURL
                   ? (s(),
@@ -534,39 +543,40 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                       ),
                     ]))
                   : h("", !0),
-                e("div", re, [
+                e("div", de, [
                   e(
                     "div",
                     {
-                      innerHTML: (B = t.value) == null ? void 0 : B.description,
+                      class: "description",
+                      innerHTML: (q = t.value) == null ? void 0 : q.description,
                     },
                     null,
                     8,
-                    ue
+                    re
                   ),
                 ]),
               ]),
-              U.value
-                ? (s(), i("div", Te, [d(ha, { "page-loading": "" })]))
+              P.value
+                ? (s(), i("div", Te, [c(ha, { "page-loading": "" })]))
                 : (s(),
-                  i("div", ce, [
-                    d(
-                      Za,
+                  i("div", ue, [
+                    c(
+                      Ga,
                       {
                         "font-size-big": "",
-                        "current-tab": x.value,
+                        "current-tab": F.value,
                         "tab-options": na.value,
                         onHandleNavigation:
-                          a[4] || (a[4] = (n) => (x.value = n)),
+                          a[7] || (a[7] = (n) => (F.value = n)),
                       },
                       null,
                       8,
                       ["current-tab", "tab-options"]
                     ),
-                    x.value === 0
+                    F.value === 0
                       ? (s(),
-                        i("div", de, [
-                          N.value.length > 0
+                        i("div", ce, [
+                          x.value.length > 0
                             ? (s(),
                               i("div", me, [
                                 e("div", ve, [
@@ -575,11 +585,11 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                     ea,
                                     null,
                                     ta(
-                                      N.value,
+                                      x.value,
                                       (n) => (
                                         s(),
                                         i("div", { key: n.id }, [
-                                          d(
+                                          c(
                                             Ja,
                                             {
                                               "campaign-page": "",
@@ -589,7 +599,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                               timestamp: n.timestamp.seconds,
                                               "sheet-picture":
                                                 n.sheetPictureURL,
-                                              "can-remove-from-campaign": ga(
+                                              "can-remove-from-campaign": _a(
                                                 n.uid
                                               ),
                                               onHandleOpenSheetMidClick: Ra,
@@ -619,15 +629,15 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                   )),
                                 ]),
                               ]))
-                            : (s(), i("div", pe, _e)),
+                            : (s(), i("div", pe, fe)),
                         ]))
                       : h("", !0),
-                    x.value === 1
+                    F.value === 1
                       ? (s(),
-                        i("div", fe, [
+                        i("div", ge, [
                           H.value.length > 0
                             ? (s(),
-                              i("div", ge, [
+                              i("div", _e, [
                                 e("div", be, [
                                   (s(!0),
                                   i(
@@ -638,12 +648,12 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                       (n) => (
                                         s(),
                                         i("div", { key: n.uid }, [
-                                          d(
-                                            Ga,
+                                          c(
+                                            Ka,
                                             {
                                               user: n,
                                               "can-remove-from-campaign":
-                                                _.value,
+                                                f.value,
                                               onHandleRemove: Pa,
                                             },
                                             null,
@@ -660,14 +670,14 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                             : (s(), i("div", Ce, ye)),
                         ]))
                       : h("", !0),
-                    x.value === 2
+                    F.value === 2
                       ? (s(),
                         i("div", we, [
                           X.value >= 3
                             ? (s(),
                               i("div", Ie, [
-                                (E = t.value) != null &&
-                                E.combats &&
+                                (O = t.value) != null &&
+                                O.combats &&
                                 t.value.combats.length > 0
                                   ? (s(),
                                     i("div", Re, [
@@ -681,7 +691,7 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                             (n) => (
                                               s(),
                                               i("div", { key: n.id }, [
-                                                d(
+                                                c(
                                                   Qa,
                                                   {
                                                     combat: n,
@@ -708,7 +718,14 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                           {
                                             class: "button-primary",
                                             onClick: ia,
-                                            onMouseup: K(la, ["middle"]),
+                                            onMouseup: w(la, ["middle"]),
+                                            onMousedown:
+                                              a[8] ||
+                                              (a[8] = w(() => {}, [
+                                                "middle",
+                                                "prevent",
+                                                "stop",
+                                              ])),
                                           },
                                           " Create Encounter ",
                                           40,
@@ -717,30 +734,30 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                                       ]),
                                     ])),
                               ]))
-                            : (s(), i("div", Me, [d(Xa)])),
+                            : (s(), i("div", Me, [c(Xa)])),
                         ]))
                       : h("", !0),
                   ])),
-              L.value
+              N.value
                 ? (s(),
                   i("div", Le, [
-                    d(
+                    c(
                       l,
                       {
-                        modelValue: O.value,
+                        modelValue: $.value,
                         "onUpdate:modelValue":
-                          a[5] || (a[5] = (n) => (O.value = n)),
+                          a[9] || (a[9] = (n) => ($.value = n)),
                         classes: "modal-container",
                       },
                       {
-                        default: V(() => [
+                        default: D(() => [
                           e("div", { class: "modal-content modal-width" }, [
                             e("div", { class: "modal-header" }, [
                               Ne,
-                              e("button", { onClick: k }, xe),
+                              e("button", { onClick: k }, He),
                             ]),
                             e("div", { class: "modal-body" }, [
-                              Ee,
+                              Fe,
                               e("div", { class: "button-container" }, [
                                 e(
                                   "button",
@@ -758,23 +775,23 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                     ),
                   ]))
                 : h("", !0),
-              R.value
+              U.value
                 ? (s(),
-                  i("div", Fe, [
-                    d(
+                  i("div", Oe, [
+                    c(
                       l,
                       {
-                        modelValue: $.value,
+                        modelValue: B.value,
                         "onUpdate:modelValue":
-                          a[6] || (a[6] = (n) => ($.value = n)),
+                          a[10] || (a[10] = (n) => (B.value = n)),
                         classes: "modal-container",
                       },
                       {
-                        default: V(() => [
+                        default: D(() => [
                           e("div", { class: "modal-content modal-width" }, [
                             e("div", { class: "modal-header" }, [
                               je,
-                              e("button", { onClick: k }, Oe),
+                              e("button", { onClick: k }, Ee),
                             ]),
                             e("div", { class: "modal-body" }, [
                               $e,
@@ -795,15 +812,16 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                     ),
                   ]))
                 : h("", !0),
-              d(
+              c(
                 l,
                 {
-                  modelValue: D.value,
-                  "onUpdate:modelValue": a[7] || (a[7] = (n) => (D.value = n)),
+                  modelValue: T.value,
+                  "onUpdate:modelValue":
+                    a[11] || (a[11] = (n) => (T.value = n)),
                   classes: "modal-container",
                 },
                 {
-                  default: V(() => {
+                  default: D(() => {
                     var n, y;
                     return [
                       e("div", Be, [
@@ -811,34 +829,34 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                           qe,
                           e("button", { onClick: k }, ze),
                         ]),
-                        e("div", Ke, [
-                          e("div", Ze, [
+                        e("div", Ze, [
+                          e("div", Ge, [
                             e(
                               "a",
                               {
                                 class: "campaign-link",
                                 href:
-                                  aa(G) +
+                                  aa(K) +
                                   "campanha/entrar/" +
                                   ((n = t.value) == null ? void 0 : n.joinId),
                               },
                               ma(
-                                aa(G) +
+                                aa(K) +
                                   "campanha/entrar/" +
                                   ((y = t.value) == null ? void 0 : y.joinId)
                               ),
                               9,
-                              Ge
+                              Ke
                             ),
                           ]),
-                          _.value
+                          f.value
                             ? (s(),
                               i("div", Qe, [
                                 e(
                                   "button",
                                   {
                                     class: "button-naked reset-button",
-                                    onClick: _a,
+                                    onClick: fa,
                                   },
                                   " Reset "
                                 ),
@@ -871,22 +889,23 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                 8,
                 ["modelValue"]
               ),
-              d(
+              c(
                 l,
                 {
-                  modelValue: I.value,
-                  "onUpdate:modelValue": a[9] || (a[9] = (n) => (I.value = n)),
+                  modelValue: R.value,
+                  "onUpdate:modelValue":
+                    a[13] || (a[13] = (n) => (R.value = n)),
                   classes: "modal-container",
                 },
                 {
-                  default: V(() => [
-                    d(
-                      Ka,
+                  default: D(() => [
+                    c(
+                      Za,
                       {
                         campaign: t.value,
                         "is-campaign": "",
                         onHandleCloseModal:
-                          a[8] || (a[8] = (n) => (I.value = !I.value)),
+                          a[12] || (a[12] = (n) => (R.value = !R.value)),
                         onHandleUpdatePicture: Sa,
                       },
                       null,
@@ -899,16 +918,16 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                 8,
                 ["modelValue"]
               ),
-              d(
+              c(
                 l,
                 {
-                  modelValue: T.value,
+                  modelValue: L.value,
                   "onUpdate:modelValue":
-                    a[10] || (a[10] = (n) => (T.value = n)),
+                    a[14] || (a[14] = (n) => (L.value = n)),
                   classes: "modal-container",
                 },
                 {
-                  default: V(() => [
+                  default: D(() => [
                     e("div", { class: "modal-content modal-width" }, [
                       e("div", { class: "modal-header" }, [
                         Xe,
@@ -931,20 +950,20 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
                 8,
                 ["modelValue"]
               ),
-              d(
+              c(
                 Aa,
                 { name: "toast" },
                 {
-                  default: V(() => [
-                    u.value.alive
+                  default: D(() => [
+                    r.value.alive
                       ? (s(),
-                        Oa(
+                        Ea(
                           za,
                           {
                             key: 0,
-                            toast: u.value,
-                            type: u.value.type,
-                            onDismiss: fa,
+                            toast: r.value,
+                            type: r.value.type,
+                            onDismiss: ga,
                           },
                           null,
                           8,
@@ -959,5 +978,5 @@ const m = (A) => ($a("data-v-d80a2cc7"), (A = A()), Ba(), A),
       };
     },
   }),
-  bt = qa(ot, [["__scopeId", "data-v-d80a2cc7"]]);
+  bt = qa(ot, [["__scopeId", "data-v-7f75eedc"]]);
 export { bt as default };

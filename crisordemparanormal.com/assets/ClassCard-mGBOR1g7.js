@@ -5,21 +5,21 @@ import {
   a,
   t as o,
   k as n,
-  I as p,
+  a4 as p,
   m as d,
   p as q,
   b as P,
   _ as h,
   n as b,
   q as g,
-  C,
+  H as C,
   r as _,
-  J as k,
+  a1 as k,
   j as S,
-  v as V,
+  x as V,
   T as A,
-} from "./index-sE6ml22p.js";
-import { P as E } from "./PowerCard-gTEwp1Dh.js";
+} from "./index-QwuuguuZ.js";
+import { P as E } from "./PowerCard-beWm0GIY.js";
 import { _ as z } from "./show-more-icon-VvUXKiHG.js";
 const Xa = [
     {
@@ -699,7 +699,7 @@ const Xa = [
     },
   }),
   fa = h(ga, [["__scopeId", "data-v-541a2218"]]),
-  Ca = (e) => (q("data-v-8cfbe0fb"), (e = e()), P(), e),
+  Ca = (e) => (q("data-v-7dfaeb93"), (e = e()), P(), e),
   qa = { class: "card-gray" },
   Pa = Ca(() => a("img", { src: z, alt: "ver mais" }, null, -1)),
   ka = [Pa],
@@ -747,7 +747,10 @@ const Xa = [
                       a("div", Va, [
                         a(
                           "div",
-                          { innerHTML: e.abilitie.description },
+                          {
+                            class: "description",
+                            innerHTML: e.abilitie.description,
+                          },
                           null,
                           8,
                           Aa
@@ -763,7 +766,7 @@ const Xa = [
       );
     },
   }),
-  za = h(Ea, [["__scopeId", "data-v-8cfbe0fb"]]),
+  za = h(Ea, [["__scopeId", "data-v-7dfaeb93"]]),
   Ia = { class: "paths-container card-black" },
   wa = { class: "path-title" },
   Oa = { class: "paths" },
@@ -788,7 +791,13 @@ const Xa = [
                   s(),
                   r("div", { key: t.name }, [
                     a("h3", null, o(t.name), 1),
-                    a("div", { innerHTML: t.description }, null, 8, Ta),
+                    a(
+                      "div",
+                      { class: "description", innerHTML: t.description },
+                      null,
+                      8,
+                      Ta
+                    ),
                     a("div", $a, [
                       (s(!0),
                       r(
@@ -816,7 +825,7 @@ const Xa = [
       );
     },
   }),
-  xa = h(ja, [["__scopeId", "data-v-15e66a27"]]),
+  xa = h(ja, [["__scopeId", "data-v-02642a47"]]),
   ya = { class: "header" },
   Ma = { class: "card-content" },
   Na = { class: "short-description" },
@@ -842,7 +851,13 @@ const Xa = [
             n(p, { "no-margin": "" }),
             a("div", Ma, [
               a("p", Na, o(e.charClass.shortDescription), 1),
-              a("div", { innerHTML: e.charClass.description }, null, 8, Da),
+              a(
+                "div",
+                { class: "description", innerHTML: e.charClass.description },
+                null,
+                8,
+                Da
+              ),
               a("div", null, [
                 n(sa, { "char-class": e.charClass }, null, 8, ["char-class"]),
               ]),
@@ -872,5 +887,5 @@ const Xa = [
       );
     },
   }),
-  Ba = h(La, [["__scopeId", "data-v-82cc09ef"]]);
+  Ba = h(La, [["__scopeId", "data-v-0c1d2fc6"]]);
 export { sa as C, fa as a, Xa as b, Ba as c };

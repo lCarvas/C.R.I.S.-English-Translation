@@ -1,201 +1,202 @@
 import {
-  d as N,
-  f as Q,
+  d as B,
+  f as z,
   o,
-  c as i,
+  c,
   a as e,
-  m as S,
-  t as M,
-  C as _a,
+  m as D,
+  t as S,
+  H as ga,
   k as y,
   p as x,
-  b as X,
-  _ as B,
-  n as j,
+  b as J,
+  _ as L,
+  n as X,
   q as ee,
-  r as $,
-  x as oa,
-  y as sa,
-  z as la,
+  r as R,
+  C as sa,
+  D as la,
   E as ra,
-  g as De,
-  h as ba,
-  J as ga,
-  A as H,
-  e as ia,
-  M as Ca,
-  u as $a,
-  S as ka,
-  H as Ra,
-  P as Z,
-  Z as Re,
+  J as ia,
+  g as Ie,
+  h as Ca,
+  a1 as $a,
+  v as T,
+  e as ca,
+  M as ka,
+  u as Ra,
+  S as Da,
+  A as ya,
+  P as j,
+  Z as De,
   R as Aa,
-  F as ya,
-  B as Da,
-  $ as Ia,
-  w as pe,
-  i as Sa,
-  a0 as z,
-  v as fe,
-  T as Je,
-  L as Ae,
-} from "./index-sE6ml22p.js";
-import { L as Ma } from "./LoadingView-ZyngFh7H.js";
+  F as Ia,
+  B as Sa,
+  $ as Ma,
+  w as _e,
+  i as Ha,
+  a2 as Q,
+  x as se,
+  T as ye,
+  N as le,
+} from "./index-QwuuguuZ.js";
+import { L as Ta } from "./LoadingView-BDyk9qee.js";
 import {
   I as Y,
-  A as Ha,
-  F as Ea,
-  a as Ta,
-  u as wa,
-  C as Ze,
-  d as Pa,
-  r as Oa,
-  T as Va,
-  b as Na,
-  f as Ba,
-  c as La,
-  D as se,
-} from "./characterSheetUtils-BDSwWjsT.js";
-import { T as ye } from "./TabNav-cxdIuInn.js";
-import { _ as Ie } from "./d20-icon-vaz1En3o.js";
-import { S as Ua } from "./SwitchButtonBool-tOvRuQya.js";
-import { C as Fa } from "./CombatCard-1XRFnSl2.js";
-import { l as qa } from "./lodash-gzw5KmHd.js";
-import { C as Ga, A as Ka } from "./ActionModal-IihVvpcZ.js";
-import { g as za } from "./firebase-lKn9MVSr.js";
-import { P as Qa } from "./PrivateFeat-2T9otaZW.js";
-import { T as Wa } from "./ToastNotification-fRZSVqeg.js";
-import { C as ja } from "./CreatureForm-0qANtZM4.js";
-import { v as Ye } from "./v4-cyCr5FZV.js";
+  A as Ea,
+  F as wa,
+  a as Pa,
+  u as Oa,
+  C as Ye,
+  d as Na,
+  r as Va,
+  T as Ba,
+  b as La,
+  c as Ua,
+  f as Fa,
+  e as qa,
+  D as re,
+} from "./ToastAttack-0kHZxpNW.js";
+import { T as Ae } from "./TabNav-0k8MUq4h.js";
+import { _ as Se } from "./d20-icon-vaz1En3o.js";
+import { S as Ga } from "./SwitchButtonBool-SDRvIcMo.js";
+import { C as Ka } from "./CombatCard-Gc3bqO4T.js";
+import { C as Qa, A as za } from "./ActionModal-mT8AY3X3.js";
+import { g as Wa } from "./firebase-UUb4pQvs.js";
+import { P as ja } from "./PrivateFeat-2NQL7iKE.js";
+import { T as Xa } from "./ToastNotification-2J6AO8ev.js";
+import { C as xa } from "./CreatureForm-WPZOCJnR.js";
+import { s as Ja } from "./skins-kfsapBUO.js";
+import { v as ea } from "./v4-cyCr5FZV.js";
 import "./edit-icon-u1vf_q3w.js";
 import "./classes-pvy_AWKl.js";
 import "./show-more-icon-VvUXKiHG.js";
-import "./skills-siTAQjCS.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
-import "./creatureData-jLpja1fz.js";
+import "./creatureData-ozdxpDUT.js";
 import "./default-tJ6A0c0K.js";
 import "./forms-8DDAOOVU.js";
-import "./DropdownSimple-sMKo2Ani.js";
+import "./lodash-gzw5KmHd.js";
+import "./DropdownSimple-O-H8dkm7.js";
 import "./blank-profile-picture-wMh28flS.js";
-import "./PictureModal-gas6WAr8.js";
-import "./index.esm2017-YDfvp0os.js";
-const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
-  xa = { class: "char-status-card-container" },
-  Xa = { class: "header" },
-  Ja = { key: 0 },
-  Za = ["src"],
-  Ya = { key: 0, class: "agent-name" },
-  et = { key: 1, class: "agent-name" },
-  at = { class: "basic-info" },
-  tt = { class: "basic-info" },
-  nt = { class: "basic-combat-info" },
-  ot = { key: 0 },
-  st = { key: 1 },
-  lt = { class: "attributes-container" },
-  rt = { class: "combat-info" },
-  it = q(() => e("div", null, "AGI", -1)),
-  ct = { class: "combat-info-value" },
+import "./PictureModal-TrL67c-c.js";
+import "./index.esm2017-JfeAG2s4.js";
+const q = (v) => (x("data-v-25b5f433"), (v = v()), J(), v),
+  Za = { class: "char-status-card-container" },
+  Ya = { class: "header" },
+  et = { key: 0 },
+  at = ["src"],
+  tt = { key: 0, class: "agent-name" },
+  nt = { key: 1, class: "agent-name" },
+  ot = { class: "basic-info" },
+  st = { class: "basic-info" },
+  lt = { class: "basic-combat-info" },
+  rt = { key: 0 },
+  it = { key: 1 },
+  ct = { class: "attributes-container" },
   ut = { class: "combat-info" },
-  dt = q(() => e("div", null, "STR", -1)),
+  dt = q(() => e("div", null, "AGI", -1)),
   vt = { class: "combat-info-value" },
   mt = { class: "combat-info" },
-  ht = q(() => e("div", null, "INT", -1)),
+  ht = q(() => e("div", null, "STR", -1)),
   pt = { class: "combat-info-value" },
   ft = { class: "combat-info" },
-  _t = q(() => e("div", null, "PRE", -1)),
+  _t = q(() => e("div", null, "INT", -1)),
   bt = { class: "combat-info-value" },
   gt = { class: "combat-info" },
-  Ct = q(() => e("div", null, "VIG", -1)),
+  Ct = q(() => e("div", null, "PRE", -1)),
   $t = { class: "combat-info-value" },
-  kt = { class: "bars-container" },
-  Rt = { class: "combat-info-container-first" },
-  At = { class: "combat-info-row" },
-  yt = q(() => e("div", null, "EP/TURN: ", -1)),
+  kt = { class: "combat-info" },
+  Rt = q(() => e("div", null, "VIG", -1)),
   Dt = { class: "combat-info-value" },
+  yt = { class: "bars-container" },
+  At = { class: "combat-info-container-first" },
   It = { class: "combat-info-row" },
-  St = q(() => e("div", null, "MOV: ", -1)),
+  St = q(() => e("div", null, "EP/TURN: ", -1)),
   Mt = { class: "combat-info-value" },
-  Ht = { class: "combat-info-container" },
-  Et = { class: "combat-info" },
-  Tt = q(() => e("div", null, "DEFENSE", -1)),
-  wt = { class: "combat-info-value" },
+  Ht = { class: "combat-info-row" },
+  Tt = q(() => e("div", null, "MOV: ", -1)),
+  Et = { class: "combat-info-value" },
+  wt = { class: "combat-info-container" },
   Pt = { class: "combat-info" },
-  Ot = q(() => e("div", null, "BLOCK DR", -1)),
-  Vt = { class: "combat-info-value" },
-  Nt = { class: "combat-info" },
-  Bt = q(() => e("div", null, "DODGE", -1)),
+  Ot = q(() => e("div", null, "DEFENSE", -1)),
+  Nt = { class: "combat-info-value" },
+  Vt = { class: "combat-info" },
+  Bt = q(() => e("div", null, "BLOCK DR", -1)),
   Lt = { class: "combat-info-value" },
-  Ut = N({
+  Ut = { class: "combat-info" },
+  Ft = q(() => e("div", null, "DODGE", -1)),
+  qt = { class: "combat-info-value" },
+  Gt = B({
     __name: "CharStatusCard",
     props: { character: {} },
     setup(v) {
-      const c = v,
-        b = "https://crisordemparanormal.com/" + "agente/" + c.character.id,
-        _ = Q(() =>
-          c.character.movement === 0 ? 0 : c.character.movement / 1.5
+      const u = v,
+        C = "https://crisordemparanormal.com/" + "agente/" + u.character.id,
+        _ = z(() =>
+          u.character.movement === 0 ? 0 : u.character.movement / 1.5
         ),
-        D = Q(() => {
-          const u =
+        H = z(() => {
+          const r =
             10 +
-            c.character.attributes.dex +
-            c.character.protectionDefense +
-            c.character.bonusDefense;
-          return u > 0 ? u : 0;
+            u.character.attributes.dex +
+            u.character.protectionDefense +
+            u.character.bonusDefense;
+          return r > 0 ? r : 0;
         }),
-        k = Q(() => c.character.skills[9].bonus),
-        g = Q(() => c.character.skills[20].bonus + D.value);
-      return (u, A) => (
+        k = z(() => u.character.skills[9].bonus),
+        b = z(() => u.character.skills[22].bonus + H.value);
+      return (r, A) => (
         o(),
-        i("div", xa, [
-          e("div", Xa, [
-            u.character.sheetPictureURL
+        c("div", Za, [
+          e("div", Ya, [
+            r.character.sheetPictureURL
               ? (o(),
-                i("div", Ja, [
+                c("div", et, [
                   e(
                     "img",
                     {
                       class: "card-img",
-                      src: u.character.sheetPictureURL,
+                      src: r.character.sheetPictureURL,
                       alt: "foto agente",
                     },
                     null,
                     8,
-                    Za
+                    at
                   ),
                 ]))
-              : S("", !0),
+              : D("", !0),
             e("div", null, [
-              u.character.name !== ""
-                ? (o(), i("div", Ya, M(u.character.name), 1))
-                : (o(), i("div", et, " [Sem nome] ")),
-              e("div", at, M(u.character.className), 1),
-              e("div", tt, M(u.character.backgroundName), 1),
-              e("div", nt, [
-                _a(" NEX: "),
-                u.character.statsClass !== "Mundane"
-                  ? (o(), i("span", ot, M(u.character.nex), 1))
-                  : (o(), i("span", st, "0%")),
+              r.character.name !== ""
+                ? (o(), c("div", tt, S(r.character.name), 1))
+                : (o(), c("div", nt, " [Sem nome] ")),
+              e("div", ot, S(r.character.className), 1),
+              e("div", st, S(r.character.backgroundName), 1),
+              e("div", lt, [
+                ga(" NEX: "),
+                r.character.statsClass !== "Mundane"
+                  ? (o(), c("span", rt, S(r.character.nex), 1))
+                  : (o(), c("span", it, "0%")),
               ]),
             ]),
           ]),
-          e("div", lt, [
-            e("div", rt, [it, e("div", ct, M(u.character.attributes.dex), 1)]),
-            e("div", ut, [dt, e("div", vt, M(u.character.attributes.str), 1)]),
-            e("div", mt, [ht, e("div", pt, M(u.character.attributes.int), 1)]),
-            e("div", ft, [_t, e("div", bt, M(u.character.attributes.pre), 1)]),
-            e("div", gt, [Ct, e("div", $t, M(u.character.attributes.con), 1)]),
+          e("div", ct, [
+            e("div", ut, [dt, e("div", vt, S(r.character.attributes.dex), 1)]),
+            e("div", mt, [ht, e("div", pt, S(r.character.attributes.str), 1)]),
+            e("div", ft, [_t, e("div", bt, S(r.character.attributes.int), 1)]),
+            e("div", gt, [Ct, e("div", $t, S(r.character.attributes.pre), 1)]),
+            e("div", kt, [Rt, e("div", Dt, S(r.character.attributes.con), 1)]),
           ]),
-          e("div", kt, [
+          e("div", yt, [
             y(
               Y,
               {
                 type: "pv",
                 "disabled-sheet": "",
                 "master-screen": "",
-                "max-value": u.character.maxPv,
-                "current-value": u.character.currentPv,
-                marks: u.character.deathMarks,
-                "mark-mode": u.character.deathMode,
+                "max-value": r.character.maxPv,
+                "current-value": r.character.currentPv,
+                marks: r.character.deathMarks,
+                "mark-mode": r.character.deathMode,
               },
               null,
               8,
@@ -207,10 +208,10 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                 type: "san",
                 "disabled-sheet": "",
                 "master-screen": "",
-                "max-value": u.character.maxSan,
-                "current-value": u.character.currentSan,
-                marks: u.character.madnessMarks,
-                "mark-mode": u.character.madnessMode,
+                "max-value": r.character.maxSan,
+                "current-value": r.character.currentSan,
+                marks: r.character.madnessMarks,
+                "mark-mode": r.character.madnessMode,
               },
               null,
               8,
@@ -222,41 +223,41 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                 type: "pe",
                 "disabled-sheet": "",
                 "master-screen": "",
-                "max-value": u.character.maxPe,
-                "current-value": u.character.currentPe,
+                "max-value": r.character.maxPe,
+                "current-value": r.character.currentPe,
               },
               null,
               8,
               ["max-value", "current-value"]
             ),
           ]),
-          e("div", Rt, [
-            e("div", At, [yt, e("span", Dt, M(u.character.peTurn), 1)]),
-            e("div", It, [
-              St,
+          e("div", At, [
+            e("div", It, [St, e("span", Mt, S(r.character.peTurn), 1)]),
+            e("div", Ht, [
+              Tt,
               e(
                 "span",
-                Mt,
-                M(u.character.movement) + "m / " + M(_.value) + "sq ",
+                Et,
+                S(r.character.movement) + "m / " + S(_.value) + "q ",
                 1
               ),
             ]),
           ]),
-          e("div", Ht, [
-            e("div", Et, [Tt, e("div", wt, M(D.value), 1)]),
-            e("div", Pt, [
-              Ot,
-              e("div", Vt, M(u.character.block || k.value), 1),
-            ]),
-            e("div", Nt, [
+          e("div", wt, [
+            e("div", Pt, [Ot, e("div", Nt, S(H.value), 1)]),
+            e("div", Vt, [
               Bt,
-              e("div", Lt, M(u.character.evade || g.value), 1),
+              e("div", Lt, S(r.character.block || k.value), 1),
+            ]),
+            e("div", Ut, [
+              Ft,
+              e("div", qt, S(r.character.evade || b.value), 1),
             ]),
           ]),
           e("div", { class: "footer" }, [
             e(
               "a",
-              { class: "sheet-link", href: b, target: "_blank" },
+              { class: "sheet-link", href: C, target: "_blank" },
               " Sheet "
             ),
           ]),
@@ -264,66 +265,66 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       );
     },
   }),
-  Ft = B(Ut, [["__scopeId", "data-v-25b5f433"]]),
-  qt = (v) => (x("data-v-cd3d2f92"), (v = v()), X(), v),
-  Gt = { key: 0, class: "master-screen-chars-container" },
-  Kt = { key: 1, class: "no-chars-message" },
-  zt = qt(() => e("h3", null, "There are no agents on this campaign", -1)),
-  Qt = [zt],
-  Wt = N({
+  Kt = L(Gt, [["__scopeId", "data-v-25b5f433"]]),
+  Qt = (v) => (x("data-v-cd3d2f92"), (v = v()), J(), v),
+  zt = { key: 0, class: "master-screen-chars-container" },
+  Wt = { key: 1, class: "no-chars-message" },
+  jt = Qt(() => e("h3", null, "There are no agents on this campaign", -1)),
+  Xt = [jt],
+  xt = B({
     __name: "MasterScreenChars",
     props: { characters: {} },
     setup(v) {
-      return (c, m) =>
-        c.characters.length > 0
+      return (u, m) =>
+        u.characters.length > 0
           ? (o(),
-            i("div", Gt, [
+            c("div", zt, [
               (o(!0),
-              i(
-                j,
+              c(
+                X,
                 null,
                 ee(
-                  c.characters,
-                  (b) => (
+                  u.characters,
+                  (C) => (
                     o(),
-                    i("div", { key: b.id }, [
-                      y(Ft, { character: b }, null, 8, ["character"]),
+                    c("div", { key: C.id }, [
+                      y(Kt, { character: C }, null, 8, ["character"]),
                     ])
                   )
                 ),
                 128
               )),
             ]))
-          : (o(), i("div", Kt, Qt));
+          : (o(), c("div", Wt, Xt));
     },
   }),
-  ea = B(Wt, [["__scopeId", "data-v-cd3d2f92"]]),
-  Se = (v) => (x("data-v-91a251a9"), (v = v()), X(), v),
-  jt = { class: "add-dices-button-container" },
-  xt = { class: "input-container" },
-  Xt = { class: "roll-dices-container" },
-  Jt = ["onKeyup"],
-  Zt = Se(() =>
-    e("img", { class: "dice-icon", src: Ie, alt: "rolar" }, null, -1)
+  aa = L(xt, [["__scopeId", "data-v-cd3d2f92"]]),
+  Me = (v) => (x("data-v-91a251a9"), (v = v()), J(), v),
+  Jt = { class: "add-dices-button-container" },
+  Zt = { class: "input-container" },
+  Yt = { class: "roll-dices-container" },
+  en = ["onKeyup"],
+  an = Me(() =>
+    e("img", { class: "dice-icon", src: Se, alt: "rolar" }, null, -1)
   ),
-  Yt = [Zt],
-  en = { class: "master-macro-container" },
-  an = { class: "master-macro" },
-  tn = { class: "master-macro-inputs-container" },
-  nn = ["value", "onBlur"],
-  on = ["value", "onBlur"],
-  sn = { class: "master-macro-card-buttons-container" },
-  ln = ["onClick"],
-  rn = Se(() =>
-    e("img", { class: "close-icon", src: ra, alt: "fechar" }, null, -1)
-  ),
-  cn = [rn],
+  tn = [an],
+  nn = { class: "master-macro-container" },
+  on = { class: "master-macro" },
+  sn = { class: "master-macro-inputs-container" },
+  ln = ["value", "onBlur"],
+  rn = ["value", "onBlur"],
+  cn = { class: "master-macro-card-buttons-container" },
   un = ["onClick"],
-  dn = Se(() =>
-    e("img", { class: "dice-icon", src: Ie, alt: "rolar" }, null, -1)
+  dn = Me(() =>
+    e("img", { class: "close-icon", src: ia, alt: "fechar" }, null, -1)
   ),
   vn = [dn],
-  mn = N({
+  mn = ["onClick"],
+  hn = Me(() =>
+    e("img", { class: "dice-icon", src: Se, alt: "rolar" }, null, -1)
+  ),
+  pn = [hn],
+  fn = B({
     __name: "MasterDices",
     props: { dmPrivateDice: { type: Boolean }, campaign: {} },
     emits: [
@@ -334,127 +335,127 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       "handleChangeDiceMacro",
       "handleRollDiceMacro",
     ],
-    setup(v, { emit: c }) {
-      const m = c,
-        b = $(""),
+    setup(v, { emit: u }) {
+      const m = u,
+        C = R(""),
         _ = () => {
-          m("handleRollMasterDices", b.value), (b.value = "");
+          m("handleRollMasterDices", C.value), (C.value = "");
         },
-        D = ["PUBLIC", "PRIVATE"];
-      return (k, g) => (
+        H = ["PUBLICO", "PRIVADO"];
+      return (k, b) => (
         o(),
-        i(
-          j,
+        c(
+          X,
           null,
           [
-            e("div", jt, [
+            e("div", Jt, [
               e(
                 "button",
                 {
                   class: "button-primary",
                   onClick:
-                    g[0] || (g[0] = (u) => k.$emit("handleAddDiceMacro")),
+                    b[0] || (b[0] = (r) => k.$emit("handleAddDiceMacro")),
                 },
                 " Add Dice "
               ),
             ]),
-            e("div", xt, [
-              e("div", Xt, [
-                oa(
+            e("div", Zt, [
+              e("div", Yt, [
+                sa(
                   e(
                     "input",
                     {
                       "onUpdate:modelValue":
-                        g[1] || (g[1] = (u) => (b.value = u)),
+                        b[1] || (b[1] = (r) => (C.value = r)),
                       type: "text",
                       class: "roll-dice-input",
                       placeholder: "Roll dice",
-                      onKeyup: la(_, ["enter"]),
+                      onKeyup: ra(_, ["enter"]),
                     },
                     null,
                     40,
-                    Jt
+                    en
                   ),
-                  [[sa, b.value]]
+                  [[la, C.value]]
                 ),
-                e("button", { class: "dice-button", onClick: _ }, Yt),
+                e("button", { class: "dice-button", onClick: _ }, tn),
               ]),
               y(
-                Ua,
+                Ga,
                 {
                   value: k.dmPrivateDice,
-                  options: D,
+                  options: H,
                   onHandleChange:
-                    g[2] ||
-                    (g[2] = (u) => k.$emit("handleChangeDmPrivateDice", u)),
+                    b[2] ||
+                    (b[2] = (r) => k.$emit("handleChangeDmPrivateDice", r)),
                 },
                 null,
                 8,
                 ["value"]
               ),
             ]),
-            e("div", en, [
+            e("div", nn, [
               (o(!0),
-              i(
-                j,
+              c(
+                X,
                 null,
                 ee(
                   k.campaign.masterMacros,
-                  (u, A) => (
+                  (r, A) => (
                     o(),
-                    i("div", { key: A, class: "master-macro-card" }, [
-                      e("div", an, [
-                        e("div", tn, [
+                    c("div", { key: A, class: "master-macro-card" }, [
+                      e("div", on, [
+                        e("div", sn, [
                           e(
                             "input",
                             {
-                              value: u.title,
+                              value: r.title,
                               type: "text",
                               class: "master-macro-input-title",
                               placeholder: "Nome",
-                              onBlur: (R) =>
-                                k.$emit("handleChangeDiceMacro", R, "title", A),
+                              onBlur: (g) =>
+                                k.$emit("handleChangeDiceMacro", g, "title", A),
                             },
                             null,
                             40,
-                            nn
+                            ln
                           ),
                           e(
                             "input",
                             {
-                              value: u.value,
+                              value: r.value,
                               type: "text",
                               class: "master-macro-input",
                               placeholder: "Value",
-                              onBlur: (R) =>
-                                k.$emit("handleChangeDiceMacro", R, "value", A),
+                              onBlur: (g) =>
+                                k.$emit("handleChangeDiceMacro", g, "value", A),
                             },
                             null,
                             40,
-                            on
+                            rn
                           ),
                         ]),
-                        e("div", sn, [
+                        e("div", cn, [
                           e(
                             "button",
                             {
                               class: "close-button",
-                              onClick: (R) =>
+                              onClick: (g) =>
                                 k.$emit("handleRemoveDiceMacro", A),
                             },
-                            cn,
+                            vn,
                             8,
-                            ln
+                            un
                           ),
                           e(
                             "button",
                             {
                               class: "dice-button",
-                              onClick: (R) => k.$emit("handleRollDiceMacro", A),
+                              onClick: (g) => k.$emit("handleRollDiceMacro", A),
                             },
-                            vn,
+                            pn,
                             8,
-                            un
+                            mn
                           ),
                         ]),
                       ]),
@@ -470,104 +471,103 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       );
     },
   }),
-  aa = B(mn, [["__scopeId", "data-v-91a251a9"]]),
-  hn = (v) => (x("data-v-55f9b842"), (v = v()), X(), v),
-  pn = { class: "initiative-order-container" },
-  fn = ["onClick"],
-  _n = { class: "initiative-container" },
-  bn = hn(() => e("div", { class: "iniative-label" }, " INITIATIVE ", -1)),
-  gn = ["value", "onBlur"],
-  Cn = { key: 0, class: "profile-picture-container" },
-  $n = ["src"],
-  kn = { key: 1, class: "profile-picture-placeholder" },
-  Rn = { class: "card-name" },
-  An = N({
+  ta = L(fn, [["__scopeId", "data-v-91a251a9"]]),
+  _n = (v) => (x("data-v-ff197a3e"), (v = v()), J(), v),
+  bn = { class: "initiative-order-container" },
+  gn = ["onClick"],
+  Cn = { class: "initiative-container" },
+  $n = _n(() => e("div", { class: "iniative-label" }, " INITIATIVE ", -1)),
+  kn = ["value", "onBlur"],
+  Rn = { key: 0, class: "profile-picture-container" },
+  Dn = ["src"],
+  yn = { key: 1, class: "profile-picture-placeholder" },
+  An = { class: "card-name" },
+  In = B({
     __name: "InitiativeOrder",
     props: { currentCombat: {}, characters: {}, isDm: { type: Boolean } },
     emits: ["handleSelectSheet", "handleChangeInitiative"],
-    setup(v, { emit: c }) {
+    setup(v, { emit: u }) {
       const m = v,
-        b = c,
-        _ = De(),
-        D = $([...m.currentCombat.creatures, ...m.characters]),
-        k = Q(() => {
-          const A = qa.cloneDeep(D.value);
+        C = u,
+        _ = Ie(),
+        H = z(() => {
+          const r = m.characters.concat(m.currentCombat.creatures);
           return (
-            A.sort(
-              (R, l) => (
-                R.initiativeValue || (R.initiativeValue = 0),
-                l.initiativeValue || (l.initiativeValue = 0),
-                l.initiativeValue - R.initiativeValue
+            r.sort(
+              (A, g) => (
+                A.initiativeValue || (A.initiativeValue = 0),
+                g.initiativeValue || (g.initiativeValue = 0),
+                g.initiativeValue - A.initiativeValue
               )
             ),
-            A
+            r
           );
         }),
-        g = (A, R) => {
-          const l = A.target.valueAsNumber;
-          b("handleChangeInitiative", l, R);
+        k = (r, A) => {
+          const g = r.target.valueAsNumber;
+          C("handleChangeInitiative", g, A);
         },
-        u = (A) => {
+        b = (r) => {
           if (m.isDm) {
-            b("handleSelectSheet", A);
+            C("handleSelectSheet", r);
             return;
           }
           _.currentUser &&
             _.currentUser.uid ===
-              D.value[D.value.findIndex((R) => R.id === A)].uid &&
-            b("handleSelectSheet", A);
+              m.characters[m.characters.findIndex((A) => A.id === r)].uid &&
+            C("handleSelectSheet", r);
         };
-      return (A, R) => (
+      return (r, A) => (
         o(),
-        i("div", pn, [
+        c("div", bn, [
           (o(!0),
-          i(
-            j,
+          c(
+            X,
             null,
             ee(
-              k.value,
-              (l) => (
+              H.value,
+              (g) => (
                 o(),
-                i("div", { key: l.id, class: "initiative-card-container" }, [
+                c("div", { key: g.id, class: "initiative-card-container" }, [
                   e(
                     "div",
-                    { class: "order-card-row", onClick: (h) => u(l.id || "") },
+                    { class: "order-card-row", onClick: (l) => b(g.id || "") },
                     [
-                      e("div", _n, [
-                        bn,
+                      e("div", Cn, [
+                        $n,
                         e(
                           "input",
                           {
-                            value: l.initiativeValue,
+                            value: g.initiativeValue,
                             type: "number",
                             class: "sheet-input initiative-input",
-                            onBlur: (h) => g(h, l.id || ""),
+                            onBlur: (l) => k(l, g.id || ""),
                           },
                           null,
                           40,
-                          gn
+                          kn
                         ),
                       ]),
-                      l.sheetPictureURL
+                      g.sheetPictureURL
                         ? (o(),
-                          i("div", Cn, [
+                          c("div", Rn, [
                             e(
                               "img",
                               {
                                 class: "profile-picture",
-                                src: l.sheetPictureURL,
+                                src: g.sheetPictureURL,
                                 alt: "foto agente",
                               },
                               null,
                               8,
-                              $n
+                              Dn
                             ),
                           ]))
-                        : (o(), i("div", kn)),
-                      e("div", Rn, M(l.name), 1),
+                        : (o(), c("div", yn)),
+                      e("div", An, S(g.name), 1),
                     ],
                     8,
-                    fn
+                    gn
                   ),
                 ])
               )
@@ -578,76 +578,76 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       );
     },
   }),
-  yn = B(An, [["__scopeId", "data-v-55f9b842"]]),
-  Dn = { class: "character-header-container" },
-  In = { key: 0 },
-  Sn = ["src"],
-  Mn = { class: "info-container" },
-  Hn = { class: "info-row header-row" },
-  En = { class: "data-container" },
-  Tn = { class: "info-column" },
-  wn = ["title"],
-  Pn = { class: "info-row" },
-  On = { class: "info-text" },
-  Vn = { class: "info-bar-wrapper" },
-  Nn = N({
+  Sn = L(In, [["__scopeId", "data-v-ff197a3e"]]),
+  Mn = { class: "character-header-container" },
+  Hn = { key: 0 },
+  Tn = ["src"],
+  En = { class: "info-container" },
+  wn = { class: "info-row header-row" },
+  Pn = { class: "data-container" },
+  On = { class: "info-column" },
+  Nn = ["title"],
+  Vn = { class: "info-row" },
+  Bn = { class: "info-text" },
+  Ln = { class: "info-bar-wrapper" },
+  Un = B({
     __name: "CharacterCombatSheetHeader",
     props: { character: {} },
     setup(v) {
-      return (c, m) => (
+      return (u, m) => (
         o(),
-        i("div", Dn, [
+        c("div", Mn, [
           e("div", null, [
-            c.character.sheetPictureURL
+            u.character.sheetPictureURL
               ? (o(),
-                i("div", In, [
+                c("div", Hn, [
                   e(
                     "img",
                     {
                       class: "character-picture",
-                      src: c.character.sheetPictureURL,
+                      src: u.character.sheetPictureURL,
                       alt: "foto ameaça",
                     },
                     null,
                     8,
-                    Sn
+                    Tn
                   ),
                 ]))
-              : S("", !0),
+              : D("", !0),
           ]),
-          e("div", Mn, [
-            e("div", Hn, [
-              e("div", En, [
-                e("div", Tn, [
+          e("div", En, [
+            e("div", wn, [
+              e("div", Pn, [
+                e("div", On, [
                   e(
                     "div",
-                    { class: "character-name", title: c.character.name },
-                    M(c.character.name),
+                    { class: "character-name", title: u.character.name },
+                    S(u.character.name),
                     9,
-                    wn
+                    Nn
                   ),
-                  e("div", Pn, [
+                  e("div", Vn, [
                     e(
                       "div",
-                      On,
-                      M(c.character.className) +
+                      Bn,
+                      S(u.character.className) +
                         " - EXP: " +
-                        M(c.character.nex),
+                        S(u.character.nex),
                       1
                     ),
                   ]),
                 ]),
               ]),
             ]),
-            e("div", Vn, [
+            e("div", Ln, [
               y(
                 Y,
                 {
                   type: "pv",
-                  "max-value": c.character.maxPv,
-                  "current-value": c.character.currentPv,
-                  marks: c.character.deathMarks,
-                  "mark-mode": c.character.deathMode,
+                  "max-value": u.character.maxPv,
+                  "current-value": u.character.currentPv,
+                  marks: u.character.deathMarks,
+                  "mark-mode": u.character.deathMode,
                   "combat-sheet": "",
                   "master-screen": "",
                   "disabled-sheet": "",
@@ -660,11 +660,11 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                 Y,
                 {
                   type: "san",
-                  character: c.character,
-                  "max-value": c.character.maxSan,
-                  "current-value": c.character.currentSan,
-                  marks: c.character.madnessMarks,
-                  "mark-mode": c.character.madnessMode,
+                  character: u.character,
+                  "max-value": u.character.maxSan,
+                  "current-value": u.character.currentSan,
+                  marks: u.character.madnessMarks,
+                  "mark-mode": u.character.madnessMode,
                   "combat-sheet": "",
                   "master-screen": "",
                   "disabled-sheet": "",
@@ -683,9 +683,9 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                 Y,
                 {
                   type: "pe",
-                  character: c.character,
-                  "max-value": c.character.maxPe,
-                  "current-value": c.character.currentPe,
+                  character: u.character,
+                  "max-value": u.character.maxPe,
+                  "current-value": u.character.currentPe,
                   "combat-sheet": "",
                   "master-screen": "",
                   "disabled-sheet": "",
@@ -700,67 +700,67 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       );
     },
   }),
-  Bn = B(Nn, [["__scopeId", "data-v-d1624f56"]]),
-  _e = (v) => (x("data-v-6a4e9f30"), (v = v()), X(), v),
-  Ln = { class: "stats-row" },
-  Un = { class: "stats-container" },
-  Fn = _e(() => e("div", { class: "stats-label" }, " DEFENSE ", -1)),
-  qn = { class: "stats-value" },
+  Fn = L(Un, [["__scopeId", "data-v-d1624f56"]]),
+  be = (v) => (x("data-v-6a4e9f30"), (v = v()), J(), v),
+  qn = { class: "stats-row" },
   Gn = { class: "stats-container" },
-  Kn = _e(() => e("div", { class: "stats-label" }, " BLOCK DR ", -1)),
-  zn = { class: "stats-value" },
-  Qn = { class: "stats-container" },
-  Wn = _e(() => e("div", { class: "stats-label" }, " DODGE ", -1)),
+  Kn = be(() => e("div", { class: "stats-label" }, " DEFENSE ", -1)),
+  Qn = { class: "stats-value" },
+  zn = { class: "stats-container" },
+  Wn = be(() => e("div", { class: "stats-label" }, " BLOCK DR ", -1)),
   jn = { class: "stats-value" },
-  xn = { class: "stats-container" },
-  Xn = _e(() => e("div", { class: "stats-label" }, " MOVEMENT ", -1)),
+  Xn = { class: "stats-container" },
+  xn = be(() => e("div", { class: "stats-label" }, " DODGE ", -1)),
   Jn = { class: "stats-value" },
-  Zn = N({
+  Zn = { class: "stats-container" },
+  Yn = be(() => e("div", { class: "stats-label" }, " MOVEMENT ", -1)),
+  eo = { class: "stats-value" },
+  ao = B({
     __name: "CharacterCombatSheetStats",
     props: { character: {} },
     emits: ["handleRollAttribute"],
     setup(v) {
-      const c = v,
-        m = Q(() => {
+      const u = v,
+        m = z(() => {
           const _ =
             10 +
-            c.character.attributes.dex +
-            c.character.protectionDefense +
-            c.character.bonusDefense;
+            u.character.attributes.dex +
+            u.character.protectionDefense +
+            u.character.bonusDefense;
           return _ > 0 ? _ : 0;
         }),
-        b = Q(() =>
-          c.character.movement === 0 ? 0 : c.character.movement / 1.5
+        C = z(() =>
+          u.character.movement === 0 ? 0 : u.character.movement / 1.5
         );
-      return (_, D) => (
+      return (_, H) => (
         o(),
-        i(
-          j,
+        c(
+          X,
           null,
           [
             y(
-              Ha,
+              Ea,
               {
                 character: _.character,
                 "disabled-sheet": !1,
                 "combat-sheet": "",
                 onHandleRollAttribute:
-                  D[0] || (D[0] = (k) => _.$emit("handleRollAttribute", k)),
+                  H[0] || (H[0] = (k) => _.$emit("handleRollAttribute", k)),
               },
               null,
               8,
               ["character"]
             ),
-            e("div", Ln, [
-              e("div", Un, [Fn, e("div", qn, M(m.value), 1)]),
-              e("div", Gn, [Kn, e("div", zn, M(_.character.block), 1)]),
-              e("div", Qn, [Wn, e("div", jn, M(_.character.evade), 1)]),
-              e("div", xn, [
-                Xn,
+            e("div", qn, [
+              e("div", Gn, [Kn, e("div", Qn, S(m.value), 1)]),
+              e("div", zn, [Wn, e("div", jn, S(_.character.block), 1)]),
+              e("div", Xn, [xn, e("div", Jn, S(_.character.evade), 1)]),
+              e("div", Zn, [
+                Yn,
                 e(
                   "div",
-                  Jn,
-                  M(_.character.movement) + "m /" + M(b.value) + "sq ",
+                  eo,
+                  S(_.character.movement) + "m /" + S(C.value) + "q ",
                   1
                 ),
               ]),
@@ -771,25 +771,25 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       );
     },
   }),
-  Yn = B(Zn, [["__scopeId", "data-v-6a4e9f30"]]),
-  Me = (v) => (x("data-v-c14dc827"), (v = v()), X(), v),
-  eo = { class: "character-combat-container" },
-  ao = { key: 0 },
-  to = { class: "roll-dices-container" },
-  no = ["onKeyup"],
-  oo = Me(() =>
-    e("img", { class: "dice-icon", src: Ie, alt: "rolar" }, null, -1)
+  to = L(ao, [["__scopeId", "data-v-6a4e9f30"]]),
+  He = (v) => (x("data-v-c14dc827"), (v = v()), J(), v),
+  no = { class: "character-combat-container" },
+  oo = { key: 0 },
+  so = { class: "roll-dices-container" },
+  lo = ["onKeyup"],
+  ro = He(() =>
+    e("img", { class: "dice-icon", src: Se, alt: "rolar" }, null, -1)
   ),
-  so = [oo],
-  lo = { key: 1 },
-  ro = { key: 0 },
-  io = { key: 1, class: "no-content" },
-  co = Me(() => e("h3", null, "No attack found", -1)),
-  uo = [co],
-  vo = { key: 2, class: "no-content" },
-  mo = Me(() => e("h3", null, "You have no attacks", -1)),
+  io = [ro],
+  co = { key: 1 },
+  uo = { key: 0 },
+  vo = { key: 1, class: "no-content" },
+  mo = He(() => e("h3", null, "No attack found", -1)),
   ho = [mo],
-  po = N({
+  po = { key: 2, class: "no-content" },
+  fo = He(() => e("h3", null, "You have no attacks", -1)),
+  _o = [fo],
+  bo = B({
     __name: "CharacterCombatSheetCombat",
     props: { character: {} },
     emits: [
@@ -799,96 +799,96 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       "handleRollDices",
       "handleRollAttack",
     ],
-    setup(v, { emit: c }) {
+    setup(v, { emit: u }) {
       const m = v,
-        b = c,
-        _ = $(""),
-        D = $(""),
+        C = u,
+        _ = R(""),
+        H = R(""),
         k = () => {
-          b("handleRollDices", _.value), (_.value = "");
+          C("handleRollDices", _.value), (_.value = "");
         },
-        g = (A) => {
-          b("handleRollAttack", A);
+        b = (A) => {
+          C("handleRollAttack", A);
         },
-        u = Q(() =>
-          [...m.character.attacks].filter((R) => ba(R.name, D.value))
+        r = z(() =>
+          [...m.character.attacks].filter((g) => Ca(g.name, H.value))
         );
-      return (A, R) => (
+      return (A, g) => (
         o(),
-        i("div", eo, [
+        c("div", no, [
           A.character.attacks.length > 0
             ? (o(),
-              i("div", ao, [
+              c("div", oo, [
                 y(
-                  Ea,
+                  wa,
                   {
-                    value: D.value,
+                    value: H.value,
                     width: "100%",
                     placeholder: "Filter attacks",
-                    onUpdate: R[0] || (R[0] = (l) => (D.value = l)),
+                    onUpdate: g[0] || (g[0] = (l) => (H.value = l)),
                   },
                   null,
                   8,
                   ["value"]
                 ),
               ]))
-            : S("", !0),
-          e("div", to, [
-            oa(
+            : D("", !0),
+          e("div", so, [
+            sa(
               e(
                 "input",
                 {
-                  "onUpdate:modelValue": R[1] || (R[1] = (l) => (_.value = l)),
+                  "onUpdate:modelValue": g[1] || (g[1] = (l) => (_.value = l)),
                   type: "text",
                   class: "roll-dice-input",
                   placeholder: "Roll dice",
                   disabled: !1,
-                  onKeyup: la(k, ["enter"]),
+                  onKeyup: ra(k, ["enter"]),
                 },
                 null,
                 40,
-                no
+                lo
               ),
-              [[sa, _.value]]
+              [[la, _.value]]
             ),
             e(
               "button",
               {
-                class: ga(["dice-button", { disabled: !1 }]),
+                class: $a(["dice-button", { disabled: !1 }]),
                 disabled: !1,
                 onClick: k,
               },
-              so
+              io
             ),
           ]),
           A.character.attacks.length > 0
             ? (o(),
-              i("div", lo, [
-                u.value.length > 0
+              c("div", co, [
+                r.value.length > 0
                   ? (o(),
-                    i("div", ro, [
+                    c("div", uo, [
                       (o(!0),
-                      i(
-                        j,
+                      c(
+                        X,
                         null,
                         ee(
-                          u.value,
+                          r.value,
                           (l) => (
                             o(),
-                            i("div", { key: l.id, class: "align-card" }, [
+                            c("div", { key: l.id, class: "align-card" }, [
                               y(
-                                Ta,
+                                Pa,
                                 {
                                   id: l.id,
                                   attack: l,
                                   "disabled-edit": "",
                                   onHandleRemoveAttack:
-                                    R[2] ||
-                                    (R[2] = (h) =>
-                                      A.$emit("handleRemoveAttack", h)),
-                                  onHandleEdit: (h) =>
-                                    A.$emit("handleEditAttack", h),
-                                  onHandleRollAttack: g,
+                                    g[2] ||
+                                    (g[2] = (p) =>
+                                      A.$emit("handleRemoveAttack", p)),
+                                  onHandleEdit: (p) =>
+                                    A.$emit("handleEditAttack", p),
+                                  onHandleRollAttack: b,
                                 },
                                 null,
                                 8,
@@ -900,116 +900,116 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                         128
                       )),
                     ]))
-                  : (o(), i("div", io, uo)),
+                  : (o(), c("div", vo, ho)),
               ]))
-            : (o(), i("div", vo, ho)),
+            : (o(), c("div", po, _o)),
         ])
       );
     },
   }),
-  fo = B(po, [["__scopeId", "data-v-c14dc827"]]),
-  _o = { class: "character-sheet-container" },
-  bo = { class: "tab-nav-container" },
-  go = { class: "character-sheet-content-container" },
-  Co = N({
+  go = L(bo, [["__scopeId", "data-v-c14dc827"]]),
+  Co = { class: "character-sheet-container" },
+  $o = { class: "tab-nav-container" },
+  ko = { class: "character-sheet-content-container" },
+  Ro = B({
     __name: "CharacterCombatSheet",
     props: { character: {} },
     emits: ["handleRollAttribute", "handleRollDices", "handleRollAttack"],
-    setup(v, { emit: c }) {
+    setup(v, { emit: u }) {
       const m = v,
-        b = c,
+        C = u,
         _ = [
           { label: "ATTRIBUTES", value: 0 },
           { label: "COMBAT", value: 1 },
         ],
-        D = {
+        H = {
           str: "Strength",
           dex: "Agility",
           int: "Intellect",
           pre: "Presence",
           con: "Vigor",
         },
-        k = $(1),
-        g = (l) => (k.value = l),
-        u = (l) => {
-          b(
+        k = R(1),
+        b = (l) => (k.value = l),
+        r = (l) => {
+          C(
             "handleRollAttribute",
             m.character.attributes[l],
-            D[l],
+            H[l],
             m.character.name
           );
         },
         A = (l) => {
-          b("handleRollDices", l, "Results", m.character.name);
+          C("handleRollDices", l, "Results", m.character.name);
         },
-        R = (l) => {
-          b("handleRollAttack", m.character, l);
+        g = (l) => {
+          C("handleRollAttack", m.character, l);
         };
-      return (l, h) => (
+      return (l, p) => (
         o(),
-        i("div", _o, [
-          y(Bn, { character: l.character }, null, 8, ["character"]),
-          e("div", bo, [
+        c("div", Co, [
+          y(Fn, { character: l.character }, null, 8, ["character"]),
+          e("div", $o, [
             y(
-              ye,
+              Ae,
               {
                 "tab-options": _,
                 "current-tab": k.value,
-                onHandleNavigation: g,
+                onHandleNavigation: b,
               },
               null,
               8,
               ["current-tab"]
             ),
           ]),
-          e("div", go, [
+          e("div", ko, [
             k.value === 0
               ? (o(),
-                H(
-                  Yn,
-                  { key: 0, character: l.character, onHandleRollAttribute: u },
+                T(
+                  to,
+                  { key: 0, character: l.character, onHandleRollAttribute: r },
                   null,
                   8,
                   ["character"]
                 ))
-              : S("", !0),
+              : D("", !0),
             k.value === 1
               ? (o(),
-                H(
-                  fo,
+                T(
+                  go,
                   {
                     key: 1,
                     character: l.character,
                     onHandleRollDices: A,
-                    onHandleRollAttack: R,
+                    onHandleRollAttack: g,
                   },
                   null,
                   8,
                   ["character"]
                 ))
-              : S("", !0),
+              : D("", !0),
           ]),
         ])
       );
     },
   }),
-  $o = B(Co, [["__scopeId", "data-v-f8950f4c"]]),
-  ko = { class: "master-combats-container" },
-  Ro = { key: 0, class: "combat-container" },
-  Ao = { class: "combat-header" },
-  yo = { class: "combat-name" },
-  Do = { class: "combat-content-container" },
-  Io = { class: "initiative-container" },
-  So = { class: "combat-sheet-container" },
-  Mo = { key: 0 },
-  Ho = { key: 0 },
-  Eo = { key: 1 },
-  To = { key: 1, class: "no-sheet-text" },
-  wo = { key: 1 },
-  Po = { key: 0 },
-  Oo = { key: 0, class: "cards-container" },
-  Vo = { key: 1 },
-  No = N({
+  Do = L(Ro, [["__scopeId", "data-v-f8950f4c"]]),
+  yo = { class: "master-combats-container" },
+  Ao = { key: 0, class: "combat-container" },
+  Io = { class: "combat-header" },
+  So = { class: "combat-name" },
+  Mo = { class: "combat-content-container" },
+  Ho = { class: "initiative-container" },
+  To = { class: "combat-sheet-container" },
+  Eo = { key: 0 },
+  wo = { key: 0 },
+  Po = { key: 1 },
+  Oo = { key: 1, class: "no-sheet-text" },
+  No = { key: 1 },
+  Vo = { key: 0 },
+  Bo = { key: 0, class: "cards-container" },
+  Lo = { key: 1 },
+  Uo = B({
     __name: "MasterCombats",
     props: { campaign: {}, characters: {}, isDm: { type: Boolean } },
     emits: [
@@ -1028,19 +1028,19 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       "handleChangeInitiative",
       "handleRollCreatureSkill",
     ],
-    setup(v, { emit: c }) {
+    setup(v, { emit: u }) {
       const m = v,
-        b = c,
-        _ = $(),
-        D = De(),
-        k = $(!0),
-        g = $(0);
-      ia(async () => {
-        D.currentUser &&
-          ((g.value = await za(D.currentUser.uid)), (k.value = !1));
+        C = u,
+        _ = R(),
+        H = Ie(),
+        k = R(!0),
+        b = R(0);
+      ca(async () => {
+        H.currentUser &&
+          ((b.value = await Wa(H.currentUser.uid)), (k.value = !1));
       });
-      const u = () => {
-          (_.value = void 0), b("handleFinishCombat");
+      const r = () => {
+          (_.value = void 0), C("handleFinishCombat");
         },
         A = (l) => {
           if (
@@ -1050,15 +1050,15 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           )
             return;
           if (m.campaign.combats[m.campaign.currentCombat].creatures) {
-            const p = m.campaign.combats[
+            const h = m.campaign.combats[
               m.campaign.currentCombat
             ].creatures.findIndex((f) => f.id === l);
-            p > -1 && (_.value = { index: p, type: "creature" });
+            h > -1 && (_.value = { index: h, type: "creature" });
           }
-          const h = m.characters.findIndex((p) => p.id === l);
-          h > -1 && (_.value = { index: h, type: "character" });
+          const p = m.characters.findIndex((h) => h.id === l);
+          p > -1 && (_.value = { index: p, type: "character" });
         },
-        R = Q(
+        g = z(
           () =>
             !(
               !m.campaign.combats ||
@@ -1066,35 +1066,35 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
               m.campaign.currentCombat < 0
             )
         );
-      return (l, h) => (
+      return (l, p) => (
         o(),
-        i("div", ko, [
+        c("div", yo, [
           l.campaign.combats &&
           l.campaign.currentCombat !== void 0 &&
           l.campaign.currentCombat > -1 &&
-          R.value
+          g.value
             ? (o(),
-              i("div", Ro, [
-                e("div", Ao, [
+              c("div", Ao, [
+                e("div", Io, [
                   e(
                     "div",
-                    yo,
-                    M(l.campaign.combats[l.campaign.currentCombat].name),
+                    So,
+                    S(l.campaign.combats[l.campaign.currentCombat].name),
                     1
                   ),
                   l.isDm
                     ? (o(),
-                      i(
+                      c(
                         "button",
-                        { key: 0, class: "button-secondary", onClick: u },
+                        { key: 0, class: "button-secondary", onClick: r },
                         " Finish Encounter "
                       ))
-                    : S("", !0),
+                    : D("", !0),
                 ]),
-                e("div", Do, [
-                  e("div", Io, [
+                e("div", Mo, [
+                  e("div", Ho, [
                     y(
-                      yn,
+                      Sn,
                       {
                         characters: l.characters,
                         "is-dm": l.isDm,
@@ -1102,85 +1102,85 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                           l.campaign.combats[l.campaign.currentCombat],
                         onHandleSelectSheet: A,
                         onHandleChangeInitiative:
-                          h[0] ||
-                          (h[0] = (p, f) =>
-                            l.$emit("handleChangeInitiative", p, f)),
+                          p[0] ||
+                          (p[0] = (h, f) =>
+                            l.$emit("handleChangeInitiative", h, f)),
                       },
                       null,
                       8,
                       ["characters", "is-dm", "current-combat"]
                     ),
                   ]),
-                  e("div", So, [
+                  e("div", To, [
                     _.value
                       ? (o(),
-                        i("div", Mo, [
+                        c("div", Eo, [
                           _.value.type === "creature"
                             ? (o(),
-                              i("div", Ho, [
+                              c("div", wo, [
                                 y(
-                                  Ga,
+                                  Qa,
                                   {
                                     creature:
                                       l.campaign.combats[
                                         l.campaign.currentCombat
                                       ].creatures[_.value.index],
                                     onHandleChangePvField:
-                                      h[1] ||
-                                      (h[1] = (p, f, I) =>
+                                      p[1] ||
+                                      (p[1] = (h, f, I) =>
                                         l.$emit(
                                           "handleChangeCreaturePvField",
-                                          p,
+                                          h,
                                           f,
                                           I
                                         )),
                                     onHandleChangePv:
-                                      h[2] ||
-                                      (h[2] = (p, f) =>
+                                      p[2] ||
+                                      (p[2] = (h, f) =>
                                         l.$emit(
                                           "handleChangeCreaturePv",
-                                          p,
+                                          h,
                                           f
                                         )),
                                     onHandleRollAttribute:
-                                      h[3] ||
-                                      (h[3] = (p, f, I) =>
-                                        l.$emit("handleRollAttr", p, 0, f, I)),
+                                      p[3] ||
+                                      (p[3] = (h, f, I) =>
+                                        l.$emit("handleRollAttr", h, 0, f, I)),
                                     onHandleAttack:
-                                      h[4] ||
-                                      (h[4] = (p, f) =>
+                                      p[4] ||
+                                      (p[4] = (h, f) =>
                                         l.$emit(
                                           "handleRollCreatureAttack",
-                                          p,
+                                          h,
                                           f
                                         )),
                                     onHandleAdd:
-                                      h[5] ||
-                                      (h[5] = (p, f) =>
-                                        l.$emit("handleAddCreatureCard", p, f)),
+                                      p[5] ||
+                                      (p[5] = (h, f) =>
+                                        l.$emit("handleAddCreatureCard", h, f)),
                                     onHandleRemoveAction:
-                                      h[6] ||
-                                      (h[6] = (p, f, I) =>
-                                        l.$emit("handleRemoveAction", p, f, I)),
+                                      p[6] ||
+                                      (p[6] = (h, f, I) =>
+                                        l.$emit("handleRemoveAction", h, f, I)),
                                     onHandleEditCreature:
-                                      h[7] ||
-                                      (h[7] = (p) =>
-                                        l.$emit("handleEditCreature", p)),
+                                      p[7] ||
+                                      (p[7] = (h) =>
+                                        l.$emit("handleEditCreature", h)),
                                     onHandleEditCreatureAction:
-                                      h[8] ||
-                                      (h[8] = (p, f, I) =>
+                                      p[8] ||
+                                      (p[8] = (h, f, I) =>
                                         l.$emit(
                                           "handleEditCreatureAction",
-                                          p,
+                                          h,
                                           f,
                                           I
                                         )),
                                     onHandleRollSkill:
-                                      h[9] ||
-                                      (h[9] = (p, f, I, ae) =>
+                                      p[9] ||
+                                      (p[9] = (h, f, I, ae) =>
                                         l.$emit(
                                           "handleRollCreatureSkill",
-                                          p,
+                                          h,
                                           f,
                                           I,
                                           ae
@@ -1192,25 +1192,25 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                                 ),
                               ]))
                             : (o(),
-                              i("div", Eo, [
+                              c("div", Po, [
                                 y(
-                                  $o,
+                                  Do,
                                   {
                                     character: l.characters[_.value.index],
                                     onHandleRollAttribute:
-                                      h[10] ||
-                                      (h[10] = (p, f, I) =>
-                                        l.$emit("handleRollAttr", p, 0, f, I)),
+                                      p[10] ||
+                                      (p[10] = (h, f, I) =>
+                                        l.$emit("handleRollAttr", h, 0, f, I)),
                                     onHandleRollDices:
-                                      h[11] ||
-                                      (h[11] = (p, f, I) =>
-                                        l.$emit("handleRollDices", p, f, I)),
+                                      p[11] ||
+                                      (p[11] = (h, f, I) =>
+                                        l.$emit("handleRollDices", h, f, I)),
                                     onHandleRollAttack:
-                                      h[12] ||
-                                      (h[12] = (p, f) =>
+                                      p[12] ||
+                                      (p[12] = (h, f) =>
                                         l.$emit(
                                           "handleRollCharacterAttack",
-                                          p,
+                                          h,
                                           f
                                         )),
                                   },
@@ -1221,35 +1221,35 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                               ])),
                         ]))
                       : (o(),
-                        i(
+                        c(
                           "div",
-                          To,
+                          Oo,
                           " Select the sheet on the initiative tracker to add it here "
                         )),
                   ]),
                 ]),
               ]))
             : (o(),
-              i("div", wo, [
+              c("div", No, [
                 l.isDm
                   ? (o(),
-                    i("div", Po, [
-                      g.value >= 3
+                    c("div", Vo, [
+                      b.value >= 3
                         ? (o(),
-                          i("div", Oo, [
+                          c("div", Bo, [
                             (o(!0),
-                            i(
-                              j,
+                            c(
+                              X,
                               null,
                               ee(
                                 l.campaign.combats,
-                                (p, f) => (
+                                (h, f) => (
                                   o(),
-                                  i("div", { key: p.id }, [
+                                  c("div", { key: h.id }, [
                                     y(
-                                      Fa,
+                                      Ka,
                                       {
-                                        combat: p,
+                                        combat: h,
                                         "is-master-screen": "",
                                         onHandleStart: (I) =>
                                           l.$emit("handleStartCombat", f),
@@ -1264,24 +1264,24 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                               128
                             )),
                           ]))
-                        : (o(), i("div", Vo, [y(Qa)])),
+                        : (o(), c("div", Lo, [y(ja)])),
                     ]))
-                  : S("", !0),
+                  : D("", !0),
               ])),
         ])
       );
     },
   }),
-  ta = B(No, [["__scopeId", "data-v-27c49579"]]),
-  Bo = { class: "textarea-container" },
-  Lo = ["placeholder", "value", "onBlur"],
-  Uo = N({
+  na = L(Uo, [["__scopeId", "data-v-27c49579"]]),
+  Fo = { class: "textarea-container" },
+  qo = ["placeholder", "value", "onBlur"],
+  Go = B({
     __name: "MasterAnotations",
     props: { campaign: {} },
     emits: ["handleChangeCampaignAnotations"],
-    setup(v, { emit: c }) {
-      const m = c,
-        b = [
+    setup(v, { emit: u }) {
+      const m = u,
+        C = [
           {
             title: "General",
             key: "geral",
@@ -1298,32 +1298,32 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
             placeholder: "Important events that occurred...",
           },
         ],
-        _ = (D, k) => {
-          const g = { value: D.target.value, key: k };
-          m("handleChangeCampaignAnotations", g);
+        _ = (H, k) => {
+          const b = { value: H.target.value, key: k };
+          m("handleChangeCampaignAnotations", b);
         };
-      return (D, k) => (
+      return (H, k) => (
         o(),
-        i(
-          j,
+        c(
+          X,
           null,
-          ee(b, (g) =>
-            e("div", { key: g.title }, [
-              e("div", Bo, [
-                e("h3", null, M(g.title), 1),
+          ee(C, (b) =>
+            e("div", { key: b.title }, [
+              e("div", Fo, [
+                e("h3", null, S(b.title), 1),
                 e(
                   "textarea",
                   {
                     class: "textarea description-tab-size",
                     rows: "5",
-                    placeholder: g.placeholder,
-                    value: D.campaign.anotations[g.key],
-                    onBlur: (u) => _(u, g.key),
+                    placeholder: b.placeholder,
+                    value: H.campaign.anotations[b.key],
+                    onBlur: (r) => _(r, b.key),
                   },
                   `\r
       `,
                   40,
-                  Lo
+                  qo
                 ),
               ]),
             ])
@@ -1333,42 +1333,42 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       );
     },
   }),
-  na = B(Uo, [["__scopeId", "data-v-a9aa04a0"]]),
-  ca = (v) => (x("data-v-a513e168"), (v = v()), X(), v),
-  Fo = { class: "modal-content modal-width" },
-  qo = { class: "modal-header" },
-  Go = ca(() => e("h2", null, "Threat", -1)),
-  Ko = ca(() =>
-    e("img", { class: "close-icon", src: ra, alt: "fechar" }, null, -1)
+  oa = L(Go, [["__scopeId", "data-v-a9aa04a0"]]),
+  ua = (v) => (x("data-v-a513e168"), (v = v()), J(), v),
+  Ko = { class: "modal-content modal-width" },
+  Qo = { class: "modal-header" },
+  zo = ua(() => e("h2", null, "Threat", -1)),
+  Wo = ua(() =>
+    e("img", { class: "close-icon", src: ia, alt: "fechar" }, null, -1)
   ),
-  zo = [Ko],
-  Qo = { class: "modal-body modal-height" },
-  Wo = N({
+  jo = [Wo],
+  Xo = { class: "modal-body modal-height" },
+  xo = B({
     __name: "CreatureModal",
     props: { creature: {} },
     emits: ["handleEditCreature", "handleCloseModal"],
     setup(v) {
-      return (c, m) => (
+      return (u, m) => (
         o(),
-        i("div", Fo, [
-          e("div", qo, [
-            Go,
+        c("div", Ko, [
+          e("div", Qo, [
+            zo,
             e(
               "button",
-              { onClick: m[0] || (m[0] = (b) => c.$emit("handleCloseModal")) },
-              zo
+              { onClick: m[0] || (m[0] = (C) => u.$emit("handleCloseModal")) },
+              jo
             ),
           ]),
-          e("div", Qo, [
+          e("div", Xo, [
             y(
-              ja,
+              xa,
               {
-                creature: c.creature,
+                creature: u.creature,
                 "no-padding": "",
                 onHandleEdit:
-                  m[1] || (m[1] = (b) => c.$emit("handleEditCreature", b)),
+                  m[1] || (m[1] = (C) => u.$emit("handleEditCreature", C)),
                 onHandleClose:
-                  m[2] || (m[2] = (b) => c.$emit("handleCloseModal")),
+                  m[2] || (m[2] = (C) => u.$emit("handleCloseModal")),
               },
               null,
               8,
@@ -1379,37 +1379,38 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
       );
     },
   }),
-  jo = B(Wo, [["__scopeId", "data-v-a513e168"]]),
-  xo = (v) => (x("data-v-1bea8a3d"), (v = v()), X(), v),
-  Xo = { key: 0 },
-  Jo = { key: 0, class: "private-master-screen" },
-  Zo = xo(() => e("h1", null, "Private DM Screen", -1)),
-  Yo = { key: 1 },
-  es = { key: 0, class: "screen-master-container" },
-  as = { class: "screen-master-content" },
-  ts = { class: "small-screen-log-container" },
-  ns = { class: "tab-content-container" },
-  os = { class: "tab-nav-container" },
-  ss = { key: 0 },
-  ls = { key: 0 },
-  rs = { key: 1, class: "screen-master-container" },
-  is = { class: "tab-nav-container" },
+  Jo = L(xo, [["__scopeId", "data-v-a513e168"]]),
+  Zo = (v) => (x("data-v-8ca3889b"), (v = v()), J(), v),
+  Yo = { key: 0 },
+  es = { key: 0, class: "private-master-screen" },
+  as = Zo(() => e("h1", null, "Private DM Screen", -1)),
+  ts = { key: 1 },
+  ns = { key: 0, class: "screen-master-container" },
+  os = { class: "screen-master-content" },
+  ss = { class: "small-screen-log-container" },
+  ls = { class: "tab-content-container" },
+  rs = { class: "tab-nav-container" },
+  is = { key: 0 },
   cs = { key: 0 },
-  us = { key: 0 },
-  ds = { key: 0 },
-  vs = { key: 1 },
-  ms = { key: 2 },
-  hs = { key: 3 },
+  us = { key: 1, class: "screen-master-container" },
+  ds = { class: "tab-nav-container" },
+  vs = { key: 0 },
+  ms = { key: 0 },
+  hs = { key: 0 },
   ps = { key: 1 },
-  fs = N({
+  fs = { key: 2 },
+  _s = { key: 2 },
+  bs = { key: 3 },
+  gs = { key: 1 },
+  Cs = B({
     __name: "MasterScreen",
     setup(v) {
-      const { play: c } = wa(Pa),
+      const { play: u } = Oa(Na),
         m = [
           { label: "AGENTS", value: 0 },
           { label: "ENCOUNTERS", value: 1 },
         ],
-        b = [
+        C = [
           { label: "AGENTS", value: 0 },
           { label: "ENCOUNTERS", value: 1 },
           { label: "DM'S DICE", value: 2 },
@@ -1420,40 +1421,40 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           { label: "AGENTS", value: 1 },
           { label: "ENCOUNTERS", value: 2 },
         ],
-        D = [
+        H = [
           { label: "LOG", value: 0 },
-          { label: "AGENTES", value: 1 },
+          { label: "AGENTS", value: 1 },
           { label: "ENCOUNTERS", value: 2 },
           { label: "DM'S DICE", value: 3 },
           { label: "DM'S NOTES", value: 4 },
         ],
-        k = De(),
-        g = Ca(),
-        u = $a(),
-        R = ka().params.id,
-        l = $(0),
-        h = $(!0),
-        p = $(window.innerWidth),
-        f = $(m),
-        I = $(!1),
-        ae = $(!1),
-        P = $(0),
-        t = $(),
-        W = $([]),
-        O = $(),
-        te = $(!1),
-        le = $(!1),
-        re = $(!1),
-        ie = $(),
-        ce = $(),
-        ue = $("Ação"),
-        ne = $(),
-        be = $(),
-        ge = $(),
-        Ce = $(),
-        w = $({ message: "", type: "info", alive: !1, timeout: 0 }),
-        F = $({ title: "", total: 0, output: "", notation: "", alive: !1 }),
-        E = $({
+        k = Ie(),
+        b = ka(),
+        r = Ra(),
+        g = Da().params.id,
+        l = R(0),
+        p = R(!0),
+        h = R(window.innerWidth),
+        f = R(m),
+        I = R(!1),
+        ae = R(!1),
+        P = R(0),
+        t = R(),
+        W = R([]),
+        O = R(),
+        te = R(!1),
+        ie = R(!1),
+        ce = R(!1),
+        ue = R(),
+        de = R(),
+        ve = R("Ação"),
+        ne = R(),
+        ge = R(),
+        Ce = R(),
+        $e = R(),
+        w = R({ message: "", type: "info", alive: !1, timeout: 0 }),
+        U = R({ title: "", total: 0, output: "", notation: "", alive: !1 }),
+        M = R({
           title: "",
           totalAttack: 0,
           totalDamage: 0,
@@ -1465,235 +1466,90 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           damageRollTooltip: "",
           alive: !1,
         });
-      ia(async () => {
-        var r;
+      ca(async () => {
+        var i;
         if (!k.currentUser) return;
-        const a = await Ra(Z(g, "campaigns", R));
-        a.data() || u.push({ name: "not-found" });
-        const n = (r = a.data()) == null ? void 0 : r.campaignLogId;
-        (ge.value = Re(Z(g, "campaigns", R), (C) => {
+        const a = await ya(j(b, "campaigns", g));
+        a.data() || r.push({ name: "not-found" });
+        const n = (i = a.data()) == null ? void 0 : i.campaignLogId;
+        (Ce.value = De(j(b, "campaigns", g), ($) => {
           var G;
-          C.data() || u.push({ name: "not-found" }),
-            (t.value = C.data()),
-            (t.value.id = C.id),
+          $.data() || r.push({ name: "not-found" }),
+            (t.value = $.data()),
+            (t.value.id = $.id),
             t.value.privateMasterScreen ? (ae.value = !0) : (ae.value = !1),
             ((G = k.currentUser) == null ? void 0 : G.uid) === t.value.uid &&
               (I.value = !0),
-            p.value >= 1023
+            h.value >= 1023
               ? I.value
-                ? (f.value = b)
+                ? (f.value = C)
                 : (f.value = m)
               : I.value
-              ? (f.value = D)
+              ? (f.value = H)
               : (f.value = _),
             l.value < 3 && l.value++;
         })),
-          (Ce.value = Re(Z(g, "campaignLogs", n), (C) => {
-            C.data() &&
-              ((O.value = C.data()),
-              (O.value.id = C.id),
+          ($e.value = De(j(b, "campaignLogs", n), ($) => {
+            $.data() &&
+              ((O.value = $.data()),
+              (O.value.id = $.id),
               l.value < 3 && l.value++);
           }));
-        const s = Aa(g, "characters"),
-          d = ya(s, Da("campaignDocId", "==", a.id));
-        (be.value = Re(d, (C) => {
+        const s = Aa(b, "characters"),
+          d = Ia(s, Sa("campaignDocId", "==", a.id));
+        (ge.value = De(d, ($) => {
           const G = [];
-          for (const J of C.docs) {
-            const V = J.data();
-            (V.id = J.id), G.push(V);
+          for (const Z of $.docs) {
+            const V = Z.data();
+            (V.id = Z.id), G.push(V);
           }
           (W.value = G), l.value < 3 && l.value++;
         })),
           window.addEventListener("resize", () => {
-            p.value = window.innerWidth;
+            h.value = window.innerWidth;
           });
       }),
-        Ia(() => {
-          be.value && be.value(),
-            ge.value && ge.value(),
-            Ce.value && Ce.value();
+        Ma(() => {
+          ge.value && ge.value(),
+            Ce.value && Ce.value(),
+            $e.value && $e.value();
         }),
-        pe(l, () => {
-          h.value !== !1 && l.value >= 3 && (h.value = !1);
+        _e(l, () => {
+          p.value !== !1 && l.value >= 3 && (p.value = !1);
         });
-      const He = (a) => (P.value = a),
-        L = () => {
-          t.value && Ae(Z(g, "campaigns", t.value.id), t.value);
+      const Te = (a) => (P.value = a),
+        N = () => {
+          t.value && le(j(b, "campaigns", t.value.id), t.value);
         },
-        ua = () => (F.value.alive = !1),
-        $e = (a) => {
+        da = () => (U.value.alive = !1),
+        Ee = () => (M.value.alive = !1),
+        ke = (a) => {
           t.value &&
             O.value &&
             (O.value.campaignLogMessages.push(a),
             O.value.campaignLogMessages.length > 200 &&
               O.value.campaignLogMessages.shift(),
-            Ae(Z(g, "campaignLogs", O.value.id), O.value));
+            le(j(b, "campaignLogs", O.value.id), O.value));
         },
-        de = (a, n, s, d = !1) => {
+        me = (a, n, s, d = !1) => {
           try {
-            const r = Na(a),
-              C = r.total,
-              G = Ba(r.output),
-              J = La(r.output);
-            (F.value.title = s),
-              (F.value.total = C),
-              (F.value.output = G),
-              (F.value.notation = J);
+            const i = Ua(a),
+              $ = i.total,
+              G = Fa(i.output),
+              Z = qa(i.output);
+            (U.value.title = s),
+              (U.value.total = $),
+              (U.value.output = G),
+              (U.value.notation = Z),
+              (U.value.skinDice = Ja[4]);
             const V = {
               sender: n,
               timestamp: new Date().getTime(),
-              content: F.value,
+              content: U.value,
               contentType: "roll",
               isPrivate: d,
             };
-            $e(V), ve(), (F.value.alive = !0), c();
-          } catch {
-            (w.value.message = "Incorrect dice value"),
-              (w.value.type = "error"),
-              (w.value.alive = !0);
-          }
-        },
-        Ee = (a, n) => {
-          try {
-            const s = Oa(a, n);
-            (E.value.title = n.name),
-              (E.value.totalAttack = s.attackTotal),
-              (E.value.totalDamage = s.damageTotal),
-              (E.value.critical = s.critical),
-              (E.value.attackTooltip = s.attackInfo),
-              (E.value.damageTooltip = s.damageInfo),
-              (E.value.attackRollTooltip = s.attackRollInfo),
-              (E.value.damageRollTooltip = s.damageRollInfo),
-              (E.value.criticalTooltip = s.criticalInfo);
-            const d = {
-              sender: a.name,
-              timestamp: new Date().getTime(),
-              content: E.value,
-              contentType: "attackRoll",
-              isPrivate: !1,
-            };
-            $e(d), ve(), (E.value.alive = !0), c();
-          } catch {
-            (w.value.message = "Incorrect dice value"),
-              (w.value.type = "error"),
-              (w.value.alive = !0);
-          }
-        },
-        da = (a) => {
-          const n = [];
-          if (a.damage)
-            for (const d of a.damage) n.push(`(${d.value} - ${d.damageType})`);
-          return n.join(" + ");
-        },
-        va = (a) => {
-          const n =
-              `${a.rollNumber}d20` +
-              (a.rollBonus !== 0 ? ` + ${a.rollBonus}` : ""),
-            s = da(a),
-            d = `${a.criticalRange}/x${a.criticalMult}`;
-          let r;
-          a.rollNumber > 0
-            ? (r =
-                `${a.rollNumber}d20kh1` +
-                (a.rollBonus !== 0 ? `+${a.rollBonus}` : ""))
-            : (r =
-                `${Math.abs(a.rollNumber) + 2}d20kl1` +
-                (a.rollBonus !== 0 ? `+${a.rollBonus}` : ""));
-          const C = new se(r.trim()),
-            G = C.total,
-            J = C.output
-              .substring(C.output.indexOf("[") + 1, C.output.indexOf("]"))
-              .split(",");
-          let V = 0;
-          if (J.length > 1)
-            J.map((T) => {
-              T.includes("d") ||
-                (parseInt(T) >= a.criticalRange && (V = 1),
-                parseInt(T) === 1 && (V = -1),
-                parseInt(T) === 1 && a.criticalRange === 1 && (V = 1));
-            });
-          else {
-            const T = C.output.substring(
-              C.output.indexOf("[") + 1,
-              C.output.indexOf("]")
-            );
-            parseInt(T) >= a.criticalRange && (V = 1),
-              parseInt(T) === 1 && (V = -1);
-          }
-          const Xe = a.damage[0].value !== "" ? `${a.damage[0].value}` : "0";
-          let he = 0,
-            K = "";
-          if (V === 1)
-            for (let T = 0; T < a.criticalMult; T++) {
-              const U = new se(Xe.trim());
-              (he += U.total),
-                (K +=
-                  U.output.substring(
-                    U.output.indexOf(":") + 1,
-                    U.output.indexOf("=") - 1
-                  ) + "+");
-            }
-          else {
-            const T = new se(Xe.trim());
-            (he += T.total),
-              (K +=
-                T.output.substring(
-                  T.output.indexOf(":") + 1,
-                  T.output.indexOf("=") - 1
-                ) + "+");
-          }
-          if (a.damage.length > 1) {
-            const T = [];
-            for (const fa of a.damage) T.push(fa.value);
-            T.splice(0, 1);
-            const U = new se(T.join("+"));
-            (he += U.total),
-              U.output.includes("[")
-                ? (K +=
-                    U.output.substring(
-                      U.output.indexOf(":") + 1,
-                      U.output.indexOf("=") - 1
-                    ) + "+")
-                : (K += U.total + "+");
-          }
-          return (
-            K.charAt(K.length - 1) === "+" && (K = K.slice(0, -1)),
-            {
-              attackTotal: G,
-              damageTotal: he,
-              critical: V,
-              attackInfo: n,
-              damageInfo: s,
-              criticalInfo: d,
-              attackRollInfo:
-                C.output.substring(
-                  C.output.indexOf("["),
-                  C.output.indexOf("]") + 1
-                ) + (a.rollBonus !== 0 ? `+${a.rollBonus}` : ""),
-              damageRollInfo: `${K.trim().replace(/\s/g, "")}`,
-            }
-          );
-        },
-        Te = (a, n) => {
-          try {
-            const s = va(n);
-            (E.value.title = n.name || "Attack"),
-              (E.value.totalAttack = s.attackTotal),
-              (E.value.totalDamage = s.damageTotal),
-              (E.value.critical = s.critical),
-              (E.value.attackTooltip = s.attackInfo),
-              (E.value.damageTooltip = s.damageInfo),
-              (E.value.attackRollTooltip = s.attackRollInfo),
-              (E.value.damageRollTooltip = s.damageRollInfo),
-              (E.value.criticalTooltip = s.criticalInfo);
-            const d = {
-              sender: a.name,
-              timestamp: new Date().getTime(),
-              content: E.value,
-              contentType: "attackRoll",
-              isPrivate: !1,
-            };
-            $e(d), ve(), (E.value.alive = !0), c();
+            ke(V), he(), Ee(), (U.value.alive = !0), u();
           } catch {
             (w.value.message = "Incorrect dice value"),
               (w.value.type = "error"),
@@ -1701,6 +1557,154 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           }
         },
         we = (a, n) => {
+          try {
+            const s = Va(a, n);
+            (M.value.title = n.name),
+              (M.value.totalAttack = s.attackTotal),
+              (M.value.totalDamage = s.damageTotal),
+              (M.value.critical = s.critical),
+              (M.value.attackTooltip = s.attackInfo),
+              (M.value.damageTooltip = s.damageInfo),
+              (M.value.attackRollTooltip = s.attackRollInfo),
+              (M.value.damageRollTooltip = s.damageRollInfo),
+              (M.value.criticalTooltip = s.criticalInfo),
+              (M.value.skinDice = a.skinDice);
+            const d = {
+              sender: a.name,
+              timestamp: new Date().getTime(),
+              content: M.value,
+              contentType: "attackRoll",
+              isPrivate: !1,
+            };
+            ke(d), he(), (M.value.alive = !0), u();
+          } catch {
+            (w.value.message = "Incorrect dice value"),
+              (w.value.type = "error"),
+              (w.value.alive = !0);
+          }
+        },
+        va = (a) => {
+          const n = [];
+          if (a.damage)
+            for (const d of a.damage) n.push(`(${d.value} - ${d.damageType})`);
+          return n.join(" + ");
+        },
+        ma = (a) => {
+          const n =
+              `${a.rollNumber}d20` +
+              (a.rollBonus && !isNaN(a.rollBonus) ? ` +${a.rollBonus}` : ""),
+            s = va(a),
+            d = `${a.criticalRange}/x${a.criticalMult}`;
+          let i;
+          a.rollNumber > 0
+            ? (i =
+                `${a.rollNumber}d20kh1` +
+                (a.rollBonus && !isNaN(a.rollBonus) ? `+${a.rollBonus}` : ""))
+            : (i =
+                `${Math.abs(a.rollNumber) + 2}d20kl1` +
+                (a.rollBonus && !isNaN(a.rollBonus) ? `+${a.rollBonus}` : ""));
+          const $ = new re(i.trim()),
+            G = $.total,
+            Z = $.output
+              .substring($.output.indexOf("[") + 1, $.output.indexOf("]"))
+              .split(",");
+          let V = 0;
+          if (Z.length > 1)
+            Z.map((E) => {
+              E.includes("d") ||
+                (parseInt(E) >= a.criticalRange && (V = 1),
+                parseInt(E) === 1 && (V = -1),
+                parseInt(E) === 1 && a.criticalRange === 1 && (V = 1));
+            });
+          else {
+            const E = $.output.substring(
+              $.output.indexOf("[") + 1,
+              $.output.indexOf("]")
+            );
+            parseInt(E) >= a.criticalRange && (V = 1),
+              parseInt(E) === 1 && (V = -1);
+          }
+          const Ze = a.damage[0].value !== "" ? `${a.damage[0].value}` : "0";
+          let fe = 0,
+            K = "";
+          if (V === 1)
+            for (let E = 0; E < a.criticalMult; E++) {
+              const F = new re(Ze.trim());
+              (fe += F.total),
+                (K +=
+                  F.output.substring(
+                    F.output.indexOf(":") + 1,
+                    F.output.indexOf("=") - 1
+                  ) + "+");
+            }
+          else {
+            const E = new re(Ze.trim());
+            (fe += E.total),
+              (K +=
+                E.output.substring(
+                  E.output.indexOf(":") + 1,
+                  E.output.indexOf("=") - 1
+                ) + "+");
+          }
+          if (a.damage.length > 1) {
+            const E = [];
+            for (const ba of a.damage) E.push(ba.value);
+            E.splice(0, 1);
+            const F = new re(E.join("+"));
+            (fe += F.total),
+              F.output.includes("[")
+                ? (K +=
+                    F.output.substring(
+                      F.output.indexOf(":") + 1,
+                      F.output.indexOf("=") - 1
+                    ) + "+")
+                : (K += F.total + "+");
+          }
+          return (
+            K.charAt(K.length - 1) === "+" && (K = K.slice(0, -1)),
+            {
+              attackTotal: G,
+              damageTotal: fe,
+              critical: V,
+              attackInfo: n,
+              damageInfo: s,
+              criticalInfo: d,
+              attackRollInfo:
+                $.output.substring(
+                  $.output.indexOf("["),
+                  $.output.indexOf("]") + 1
+                ) + (a.rollBonus !== 0 ? `+${a.rollBonus}` : ""),
+              damageRollInfo: `${K.trim().replace(/\s/g, "")}`,
+            }
+          );
+        },
+        Pe = (a, n) => {
+          try {
+            const s = ma(n);
+            (M.value.title = n.name || "Attack"),
+              (M.value.totalAttack = s.attackTotal),
+              (M.value.totalDamage = s.damageTotal),
+              (M.value.critical = s.critical),
+              (M.value.attackTooltip = s.attackInfo),
+              (M.value.damageTooltip = s.damageInfo),
+              (M.value.attackRollTooltip = s.attackRollInfo),
+              (M.value.damageRollTooltip = s.damageRollInfo),
+              (M.value.criticalTooltip = s.criticalInfo);
+            const d = {
+              sender: a.name,
+              timestamp: new Date().getTime(),
+              content: M.value,
+              contentType: "attackRoll",
+              isPrivate: !1,
+            };
+            ke(d), he(), (M.value.alive = !0), u();
+          } catch {
+            (w.value.message = "Incorrect dice value"),
+              (w.value.type = "error"),
+              (w.value.alive = !0);
+          }
+        },
+        Oe = (a, n) => {
           if (
             !t.value ||
             !t.value.combats ||
@@ -1709,27 +1713,27 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           )
             return;
           const s = t.value.combats[t.value.currentCombat].creatures.findIndex(
-              (r) => r.id === a.id
+              (i) => i.id === a.id
             ),
             d = t.value.combats[t.value.currentCombat].creatures[s];
           n === "actions"
-            ? d[n].push({ id: Ye(), name: "New Action" })
-            : d[n].push({ id: Ye(), name: "New Power" }),
-            L();
+            ? d[n].push({ id: ea(), name: "New Action" })
+            : d[n].push({ id: ea(), name: "New Power" }),
+            N();
         },
-        ke = (a, n = "Result") => {
-          de(a, "DM", n, te.value);
+        Re = (a, n = "Result") => {
+          me(a, "DM", n, te.value);
         };
-      pe(p, () => {
-        p.value >= 1023
+      _e(h, () => {
+        h.value >= 1023
           ? I.value
-            ? (f.value = b)
+            ? (f.value = C)
             : (f.value = m)
           : I.value
-          ? (f.value = D)
+          ? (f.value = H)
           : (f.value = _);
       }),
-        pe(
+        _e(
           () => w.value.alive,
           () => {
             w.value.alive === !0 &&
@@ -1739,56 +1743,56 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
               ));
           }
         ),
-        pe(
+        _e(
           () => P.value,
           () => {
-            P.value === 0 && (F.value.alive = !1);
+            P.value === 0 && (U.value.alive = !1);
           }
         );
-      const ve = () => {
+      const he = () => {
           (w.value.alive = !1), clearTimeout(w.value.timeout);
         },
-        Pe = (a) => {
-          t.value && I.value && ((t.value.anotations[a.key] = a.value), L());
+        Ne = (a) => {
+          t.value && I.value && ((t.value.anotations[a.key] = a.value), N());
         },
-        Oe = () => {
+        Ve = () => {
           var n, s;
           if (!t.value || !I.value) return;
           t.value.masterMacros || (t.value.masterMacros = []);
           const a = { title: "New Die", value: "3d20k1" };
           (s = (n = t.value) == null ? void 0 : n.masterMacros) == null ||
             s.unshift(a),
-            L();
+            N();
         },
-        Ve = (a) => {
+        Be = (a) => {
           var n, s;
           (n = t.value) != null &&
             n.masterMacros &&
-            ((s = t.value) == null || s.masterMacros.splice(a, 1), L());
+            ((s = t.value) == null || s.masterMacros.splice(a, 1), N());
         },
-        Ne = (a, n, s) => {
+        Le = (a, n, s) => {
           var d;
           (d = t.value) != null &&
             d.masterMacros &&
-            ((t.value.masterMacros[s][n] = a.target.value), L());
+            ((t.value.masterMacros[s][n] = a.target.value), N());
         },
-        Be = (a) => {
+        Ue = (a) => {
           var d;
           if (!((d = t.value) != null && d.masterMacros)) return;
           const n = t.value.masterMacros[a].value,
             s = t.value.masterMacros[a].title;
-          ke(n, s);
+          Re(n, s);
         },
-        Le = (a, n) => {
+        Fe = (a, n) => {
           let s;
           return (
             a > 0
               ? (s = `${a}d20kh1` + (n !== 0 ? `+${n}` : ""))
               : (s = `${Math.abs(a) + 2}d20kl1` + (n !== 0 ? `+${n}` : "")),
-            new se(s.trim()).total
+            new re(s.trim()).total
           );
         },
-        Ue = (a) => {
+        qe = (a) => {
           if (!t.value || !t.value.combats) return;
           const n = {
             STR: "str",
@@ -1799,38 +1803,38 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           };
           t.value.currentCombat = a;
           for (const s of W.value) {
-            const d = s.attributes[n[s.skills[10].attribute]];
-            (s.initiativeValue = Le(d, s.skills[10].bonus)),
-              Ae(Z(g, "characters", s.id), s);
+            const d = s.attributes[n[s.skills[11].attribute]];
+            (s.initiativeValue = Fe(d, s.skills[11].bonus)),
+              le(j(b, "characters", s.id), s);
           }
           for (const s of t.value.combats[t.value.currentCombat].creatures)
-            s.initiativeValue = Le(
+            s.initiativeValue = Fe(
               s.skills.initiative.rollNumber,
               s.skills.initiative.rollBonus || 0
             );
-          L();
+          N();
         },
-        Fe = () => {
-          t.value && t.value.combats && ((t.value.currentCombat = -1), L());
+        Ge = () => {
+          t.value && t.value.combats && ((t.value.currentCombat = -1), N());
         },
-        qe = (a, n, s, d) => {
-          let r;
+        Ke = (a, n, s, d) => {
+          let i;
           a > 0
-            ? (r = `${a}d20kh1` + (n !== 0 ? `+${n}` : ""))
-            : (r = `${Math.abs(a) + 2}d20kl1` + (n !== 0 ? `+${n}` : "")),
-            de(r, d, s);
+            ? (i = `${a}d20kh1` + (n !== 0 ? `+${n}` : ""))
+            : (i = `${Math.abs(a) + 2}d20kl1` + (n !== 0 ? `+${n}` : "")),
+            me(i, d, s);
         },
-        Ge = (a, n, s, d) => {
-          let r;
+        Qe = (a, n, s, d) => {
+          let i;
           a > 0
-            ? (r = `${a}d20kh1` + (n !== 0 ? `+${n}` : ""))
-            : (r = `${Math.abs(a) + 2}d20kl1` + (n !== 0 ? `+${n}` : "")),
-            de(r, d, s);
+            ? (i = `${a}d20kh1` + (n !== 0 ? `+${n}` : ""))
+            : (i = `${Math.abs(a) + 2}d20kl1` + (n !== 0 ? `+${n}` : "")),
+            me(i, d, s);
         },
-        Ke = (a, n, s) => {
-          de(a, s, n);
+        ze = (a, n, s) => {
+          me(a, s, n);
         },
-        me = (a, n, s) => {
+        pe = (a, n, s) => {
           if (
             !t.value ||
             !t.value.combats ||
@@ -1839,16 +1843,16 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           )
             return;
           const d = t.value.combats[t.value.currentCombat].creatures.findIndex(
-              (C) => C.id === a.id
+              ($) => $.id === a.id
             ),
-            r = t.value.combats[t.value.currentCombat].creatures[d];
-          r &&
-            (s || (r.pvCurrent = n),
-            s === "current" && (r.pvCurrent = n),
-            s === "max" && (r.pvMax = n),
-            L());
+            i = t.value.combats[t.value.currentCombat].creatures[d];
+          i &&
+            (s || (i.pvCurrent = n),
+            s === "current" && (i.pvCurrent = n),
+            s === "max" && (i.pvMax = n),
+            N());
         },
-        ze = (a, n, s) => {
+        We = (a, n, s) => {
           if (
             !t.value ||
             !t.value.combats ||
@@ -1857,23 +1861,23 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           )
             return;
           const d = t.value.combats[t.value.currentCombat].creatures.find(
-            (r) => r.id === a.id
+            (i) => i.id === a.id
           );
           if (d) {
             if (s === "actions") {
-              const r = d.actions.findIndex((C) => C.id === n);
-              r > -1 && d.actions.splice(r, 1);
+              const i = d.actions.findIndex(($) => $.id === n);
+              i > -1 && d.actions.splice(i, 1);
             } else {
-              const r = d.powers.findIndex((C) => C.id === n);
-              r > -1 && d.powers.splice(r, 1);
+              const i = d.powers.findIndex(($) => $.id === n);
+              i > -1 && d.powers.splice(i, 1);
             }
-            L();
+            N();
           }
         },
-        Qe = (a) => {
-          oe(), (le.value = !0), (ie.value = a);
+        je = (a) => {
+          oe(), (ie.value = !0), (ue.value = a);
         },
-        We = (a, n, s) => {
+        Xe = (a, n, s) => {
           if (
             t.value &&
             t.value.combats &&
@@ -1881,48 +1885,48 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           )
             if (
               (oe(),
-              (re.value = !0),
-              (ce.value = t.value.combats[
+              (ce.value = !0),
+              (de.value = t.value.combats[
                 t.value.currentCombat
               ].creatures.findIndex((d) => d.id === a.id)),
               s === "Action")
             ) {
-              const d = a.actions.findIndex((r) => r.id === n);
-              (ne.value = a.actions[d]), (ue.value = "Action");
+              const d = a.actions.findIndex((i) => i.id === n);
+              (ne.value = a.actions[d]), (ve.value = "Action");
             } else {
-              const d = a.powers.findIndex((r) => r.id === n);
-              (ne.value = a.powers[d]), (ue.value = "Power");
+              const d = a.powers.findIndex((i) => i.id === n);
+              (ne.value = a.powers[d]), (ve.value = "Power");
             }
         },
-        ma = (a) => {
+        ha = (a) => {
           if (
             !t.value ||
             !t.value.combats ||
             t.value.currentCombat === void 0 ||
             t.value.currentCombat < 0 ||
-            ce.value === void 0
+            de.value === void 0
           )
             return;
-          const n = t.value.combats[t.value.currentCombat].creatures[ce.value];
-          if (ue.value === "Action") {
+          const n = t.value.combats[t.value.currentCombat].creatures[de.value];
+          if (ve.value === "Action") {
             const s = n.actions.findIndex((d) => d.id === a.id);
             s > -1 && (n.actions[s] = a);
           } else {
             const s = n.powers.findIndex((d) => d.id === a.id);
             s > -1 && (n.powers[s] = a);
           }
-          L(), oe();
+          N(), oe();
         },
-        je = () => {
-          (le.value = !1), (ie.value = void 0);
+        xe = () => {
+          (ie.value = !1), (ue.value = void 0);
         },
-        ha = () => {
-          (re.value = !1), (ne.value = void 0), (ce.value = void 0);
+        pa = () => {
+          (ce.value = !1), (ne.value = void 0), (de.value = void 0);
         },
         oe = () => {
-          je(), ha();
+          xe(), pa();
         },
-        pa = (a) => {
+        fa = (a) => {
           if (
             !t.value ||
             !t.value.combats ||
@@ -1935,10 +1939,10 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
           );
           n < 0 ||
             ((t.value.combats[t.value.currentCombat].creatures[n] = a),
-            L(),
-            je());
+            N(),
+            xe());
         },
-        xe = (a, n) => {
+        Je = (a, n) => {
           if (
             !t.value ||
             !t.value.combats ||
@@ -1946,86 +1950,95 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
             t.value.currentCombat < 0
           )
             return;
-          const s = W.value.findIndex((r) => r.id === n),
+          const s = W.value.findIndex((i) => i.id === n),
             d = t.value.combats[t.value.currentCombat].creatures.findIndex(
-              (r) => r.id === n
+              (i) => i.id === n
             );
-          s > -1 && (W.value[s].initiativeValue = a),
+          s > -1 &&
+            le(j(b, "characters", W.value[s].id), { initiativeValue: a }),
             d > -1 &&
-              (t.value.combats[t.value.currentCombat].creatures[
+              ((t.value.combats[t.value.currentCombat].creatures[
                 d
-              ].initiativeValue = a);
+              ].initiativeValue = a),
+              N());
+        },
+        _a = () => {
+          I.value &&
+            O.value &&
+            ((O.value.campaignLogMessages = []),
+            le(j(b, "campaignLogs", O.value.id), O.value));
         };
       return (a, n) => {
         var d;
-        const s = Sa("vue-final-modal");
-        return h.value
-          ? (o(), i("div", ps, [y(Ma, { "page-loading": "" })]))
+        const s = Ha("vue-final-modal");
+        return p.value
+          ? (o(), c("div", gs, [y(Ta, { "page-loading": "" })]))
           : (o(),
-            i("div", Xo, [
+            c("div", Yo, [
               ae.value && !I.value
                 ? (o(),
-                  i("div", Jo, [
-                    Zo,
+                  c("div", es, [
+                    as,
                     e(
                       "button",
                       {
                         class: "button-primary",
-                        onClick: n[0] || (n[0] = (r) => a.$router.push("/")),
+                        onClick: n[0] || (n[0] = (i) => a.$router.push("/")),
                       },
                       " Return "
                     ),
                   ]))
                 : (o(),
-                  i("div", Yo, [
-                    p.value >= 1023
+                  c("div", ts, [
+                    h.value >= 1023
                       ? (o(),
-                        i("div", es, [
+                        c("div", ns, [
                           e(
                             "div",
                             {
                               class: "page-title",
                               onClick:
                                 n[1] ||
-                                (n[1] = (r) => {
-                                  var C;
+                                (n[1] = (i) => {
+                                  var $;
                                   return a.$router.push({
                                     name: "campaign-page",
                                     params: {
-                                      id: (C = t.value) == null ? void 0 : C.id,
+                                      id: ($ = t.value) == null ? void 0 : $.id,
                                     },
                                   });
                                 }),
                             },
-                            M((d = t.value) == null ? void 0 : d.name),
+                            S((d = t.value) == null ? void 0 : d.name),
                             1
                           ),
-                          e("div", as, [
-                            e("div", ts, [
+                          e("div", os, [
+                            e("div", ss, [
                               O.value
                                 ? (o(),
-                                  H(
-                                    Ze,
+                                  T(
+                                    Ye,
                                     {
                                       key: 0,
                                       "master-screen": "",
                                       "is-dm": I.value,
                                       "campaign-log": O.value,
+                                      onHandleCleanCampaignLog: _a,
                                     },
                                     null,
                                     8,
                                     ["is-dm", "campaign-log"]
                                   ))
-                                : S("", !0),
+                                : D("", !0),
                             ]),
-                            e("div", ns, [
-                              e("div", os, [
+                            e("div", ls, [
+                              e("div", rs, [
                                 y(
-                                  ye,
+                                  Ae,
                                   {
                                     "tab-options": f.value,
                                     "current-tab": P.value,
-                                    onHandleNavigation: He,
+                                    onHandleNavigation: Te,
                                   },
                                   null,
                                   8,
@@ -2033,122 +2046,122 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                                 ),
                               ]),
                               (o(),
-                              H(
-                                z,
+                              T(
+                                Q,
                                 null,
                                 [
                                   P.value === 0
                                     ? (o(),
-                                      H(
-                                        ea,
+                                      T(
+                                        aa,
                                         { key: 0, characters: W.value },
                                         null,
                                         8,
                                         ["characters"]
                                       ))
-                                    : S("", !0),
+                                    : D("", !0),
                                 ],
                                 1024
                               )),
                               (o(),
-                              H(
-                                z,
+                              T(
+                                Q,
                                 null,
                                 [
                                   P.value === 1 && t.value
                                     ? (o(),
-                                      H(
-                                        ta,
+                                      T(
+                                        na,
                                         {
                                           key: 0,
                                           campaign: t.value,
                                           characters: W.value,
                                           "is-dm": I.value,
-                                          onHandleStartCombat: Ue,
-                                          onHandleFinishCombat: Fe,
-                                          onHandleRollAttr: qe,
-                                          onHandleRollCreatureSkill: Ge,
-                                          onHandleRollDices: Ke,
-                                          onHandleRollCharacterAttack: Ee,
-                                          onHandleRollCreatureAttack: Te,
-                                          onHandleAddCreatureCard: we,
-                                          onHandleChangeCreaturePv: me,
-                                          onHandleChangeCreaturePvField: me,
-                                          onHandleRemoveAction: ze,
-                                          onHandleEditCreature: Qe,
-                                          onHandleEditCreatureAction: We,
-                                          onHandleChangeInitiative: xe,
+                                          onHandleStartCombat: qe,
+                                          onHandleFinishCombat: Ge,
+                                          onHandleRollAttr: Ke,
+                                          onHandleRollCreatureSkill: Qe,
+                                          onHandleRollDices: ze,
+                                          onHandleRollCharacterAttack: we,
+                                          onHandleRollCreatureAttack: Pe,
+                                          onHandleAddCreatureCard: Oe,
+                                          onHandleChangeCreaturePv: pe,
+                                          onHandleChangeCreaturePvField: pe,
+                                          onHandleRemoveAction: We,
+                                          onHandleEditCreature: je,
+                                          onHandleEditCreatureAction: Xe,
+                                          onHandleChangeInitiative: Je,
                                         },
                                         null,
                                         8,
                                         ["campaign", "characters", "is-dm"]
                                       ))
-                                    : S("", !0),
+                                    : D("", !0),
                                 ],
                                 1024
                               )),
                               (o(),
-                              H(
-                                z,
+                              T(
+                                Q,
                                 null,
                                 [
                                   t.value
                                     ? (o(),
-                                      i("div", ss, [
+                                      c("div", is, [
                                         P.value === 2
                                           ? (o(),
-                                            H(
-                                              aa,
+                                            T(
+                                              ta,
                                               {
                                                 key: 0,
                                                 "dm-private-dice": te.value,
                                                 campaign: t.value,
                                                 onHandleChangeDmPrivateDice:
                                                   n[2] ||
-                                                  (n[2] = (r) =>
-                                                    (te.value = r)),
-                                                onHandleRollMasterDices: ke,
-                                                onHandleAddDiceMacro: Oe,
+                                                  (n[2] = (i) =>
+                                                    (te.value = i)),
+                                                onHandleRollMasterDices: Re,
+                                                onHandleAddDiceMacro: Ve,
                                                 onHandleRemoveDiceMacro:
-                                                  n[3] || (n[3] = (r) => Ve(r)),
-                                                onHandleChangeDiceMacro: Ne,
-                                                onHandleRollDiceMacro: Be,
+                                                  n[3] || (n[3] = (i) => Be(i)),
+                                                onHandleChangeDiceMacro: Le,
+                                                onHandleRollDiceMacro: Ue,
                                               },
                                               null,
                                               8,
                                               ["dm-private-dice", "campaign"]
                                             ))
-                                          : S("", !0),
+                                          : D("", !0),
                                       ]))
-                                    : S("", !0),
+                                    : D("", !0),
                                 ],
                                 1024
                               )),
                               (o(),
-                              H(
-                                z,
+                              T(
+                                Q,
                                 null,
                                 [
                                   t.value
                                     ? (o(),
-                                      i("div", ls, [
+                                      c("div", cs, [
                                         P.value === 3
                                           ? (o(),
-                                            H(
-                                              na,
+                                            T(
+                                              oa,
                                               {
                                                 key: 0,
                                                 campaign: t.value,
                                                 onHandleChangeCampaignAnotations:
-                                                  n[4] || (n[4] = (r) => Pe(r)),
+                                                  n[4] || (n[4] = (i) => Ne(i)),
                                               },
                                               null,
                                               8,
                                               ["campaign"]
                                             ))
-                                          : S("", !0),
+                                          : D("", !0),
                                       ]))
-                                    : S("", !0),
+                                    : D("", !0),
                                 ],
                                 1024
                               )),
@@ -2156,14 +2169,14 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                           ]),
                         ]))
                       : (o(),
-                        i("div", rs, [
-                          e("div", is, [
+                        c("div", us, [
+                          e("div", ds, [
                             y(
-                              ye,
+                              Ae,
                               {
                                 "tab-options": f.value,
                                 "current-tab": P.value,
-                                onHandleNavigation: He,
+                                onHandleNavigation: Te,
                               },
                               null,
                               8,
@@ -2172,16 +2185,16 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                           ]),
                           P.value === 0
                             ? (o(),
-                              i("div", cs, [
+                              c("div", vs, [
                                 (o(),
-                                H(
-                                  z,
+                                T(
+                                  Q,
                                   null,
                                   [
                                     O.value
                                       ? (o(),
-                                        H(
-                                          Ze,
+                                        T(
+                                          Ye,
                                           {
                                             key: 0,
                                             "master-screen": "",
@@ -2192,202 +2205,230 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                                           8,
                                           ["is-dm", "campaign-log"]
                                         ))
-                                      : S("", !0),
+                                      : D("", !0),
                                   ],
                                   1024
                                 )),
                               ]))
-                            : S("", !0),
+                            : D("", !0),
                           (o(),
-                          H(
-                            z,
+                          T(
+                            Q,
                             null,
                             [
                               P.value === 1
                                 ? (o(),
-                                  H(
-                                    ea,
+                                  T(
+                                    aa,
                                     { key: 0, characters: W.value },
                                     null,
                                     8,
                                     ["characters"]
                                   ))
-                                : S("", !0),
+                                : D("", !0),
                             ],
                             1024
                           )),
                           (o(),
-                          H(
-                            z,
+                          T(
+                            Q,
                             null,
                             [
                               P.value === 2 && t.value
                                 ? (o(),
-                                  H(
-                                    ta,
+                                  T(
+                                    na,
                                     {
                                       key: 0,
                                       campaign: t.value,
                                       characters: W.value,
                                       "is-dm": I.value,
-                                      onHandleStartCombat: Ue,
-                                      onHandleFinishCombat: Fe,
-                                      onHandleRollAttr: qe,
-                                      onHandleRollCreatureSkill: Ge,
-                                      onHandleRollDices: Ke,
-                                      onHandleRollCharacterAttack: Ee,
-                                      onHandleRollCreatureAttack: Te,
-                                      onHandleAddCreatureCard: we,
-                                      onHandleChangeCreaturePv: me,
-                                      onHandleChangeCreaturePvField: me,
-                                      onHandleRemoveAction: ze,
-                                      onHandleEditCreature: Qe,
-                                      onHandleEditCreatureAction: We,
-                                      onHandleChangeInitiative: xe,
+                                      onHandleStartCombat: qe,
+                                      onHandleFinishCombat: Ge,
+                                      onHandleRollAttr: Ke,
+                                      onHandleRollCreatureSkill: Qe,
+                                      onHandleRollDices: ze,
+                                      onHandleRollCharacterAttack: we,
+                                      onHandleRollCreatureAttack: Pe,
+                                      onHandleAddCreatureCard: Oe,
+                                      onHandleChangeCreaturePv: pe,
+                                      onHandleChangeCreaturePvField: pe,
+                                      onHandleRemoveAction: We,
+                                      onHandleEditCreature: je,
+                                      onHandleEditCreatureAction: Xe,
+                                      onHandleChangeInitiative: Je,
                                     },
                                     null,
                                     8,
                                     ["campaign", "characters", "is-dm"]
                                   ))
-                                : S("", !0),
+                                : D("", !0),
                             ],
                             1024
                           )),
                           (o(),
-                          H(
-                            z,
+                          T(
+                            Q,
                             null,
                             [
                               t.value
                                 ? (o(),
-                                  i("div", us, [
+                                  c("div", ms, [
                                     P.value === 3
                                       ? (o(),
-                                        H(
-                                          aa,
+                                        T(
+                                          ta,
                                           {
                                             key: 0,
                                             "dm-private-dice": te.value,
                                             campaign: t.value,
                                             onHandleChangeDmPrivateDice:
                                               n[5] ||
-                                              (n[5] = (r) => (te.value = r)),
-                                            onHandleRollMasterDices: ke,
-                                            onHandleAddDiceMacro: Oe,
+                                              (n[5] = (i) => (te.value = i)),
+                                            onHandleRollMasterDices: Re,
+                                            onHandleAddDiceMacro: Ve,
                                             onHandleRemoveDiceMacro:
-                                              n[6] || (n[6] = (r) => Ve(r)),
-                                            onHandleChangeDiceMacro: Ne,
-                                            onHandleRollDiceMacro: Be,
+                                              n[6] || (n[6] = (i) => Be(i)),
+                                            onHandleChangeDiceMacro: Le,
+                                            onHandleRollDiceMacro: Ue,
                                           },
                                           null,
                                           8,
                                           ["dm-private-dice", "campaign"]
                                         ))
-                                      : S("", !0),
+                                      : D("", !0),
                                   ]))
-                                : S("", !0),
+                                : D("", !0),
                             ],
                             1024
                           )),
                           (o(),
-                          H(
-                            z,
+                          T(
+                            Q,
                             null,
                             [
                               t.value
                                 ? (o(),
-                                  i("div", ds, [
+                                  c("div", hs, [
                                     P.value === 4
                                       ? (o(),
-                                        H(
-                                          na,
+                                        T(
+                                          oa,
                                           {
                                             key: 0,
                                             campaign: t.value,
                                             onHandleChangeCampaignAnotations:
-                                              n[7] || (n[7] = (r) => Pe(r)),
+                                              n[7] || (n[7] = (i) => Ne(i)),
                                           },
                                           null,
                                           8,
                                           ["campaign"]
                                         ))
-                                      : S("", !0),
+                                      : D("", !0),
                                   ]))
-                                : S("", !0),
+                                : D("", !0),
                             ],
                             1024
                           )),
                           P.value !== 0
                             ? (o(),
-                              i("div", vs, [
+                              c("div", ps, [
                                 y(
-                                  Je,
+                                  ye,
                                   { name: "toast" },
                                   {
-                                    default: fe(() => [
-                                      F.value.alive
+                                    default: se(() => [
+                                      U.value.alive
                                         ? (o(),
-                                          H(
-                                            Va,
+                                          T(
+                                            Ba,
                                             {
                                               key: 0,
-                                              toast: F.value,
-                                              onDismiss: ua,
+                                              toast: U.value,
+                                              onDismiss: da,
                                             },
                                             null,
                                             8,
                                             ["toast"]
                                           ))
-                                        : S("", !0),
+                                        : D("", !0),
                                     ]),
                                     _: 1,
                                   }
                                 ),
                               ]))
-                            : S("", !0),
+                            : D("", !0),
+                          P.value !== 0
+                            ? (o(),
+                              c("div", fs, [
+                                y(
+                                  ye,
+                                  { name: "toast" },
+                                  {
+                                    default: se(() => [
+                                      M.value.alive
+                                        ? (o(),
+                                          T(
+                                            La,
+                                            {
+                                              key: 0,
+                                              toast: M.value,
+                                              onDismiss: Ee,
+                                            },
+                                            null,
+                                            8,
+                                            ["toast"]
+                                          ))
+                                        : D("", !0),
+                                    ]),
+                                    _: 1,
+                                  }
+                                ),
+                              ]))
+                            : D("", !0),
                         ])),
                     y(
-                      Je,
+                      ye,
                       { name: "toast" },
                       {
-                        default: fe(() => [
+                        default: se(() => [
                           w.value.alive
                             ? (o(),
-                              H(
-                                Wa,
+                              T(
+                                Xa,
                                 {
                                   key: 0,
                                   toast: w.value,
                                   type: w.value.type,
-                                  onDismiss: ve,
+                                  onDismiss: he,
                                 },
                                 null,
                                 8,
                                 ["toast", "type"]
                               ))
-                            : S("", !0),
+                            : D("", !0),
                         ]),
                         _: 1,
                       }
                     ),
-                    ie.value
+                    ue.value
                       ? (o(),
-                        i("div", ms, [
+                        c("div", _s, [
                           y(
                             s,
                             {
-                              modelValue: le.value,
+                              modelValue: ie.value,
                               "onUpdate:modelValue":
-                                n[8] || (n[8] = (r) => (le.value = r)),
+                                n[8] || (n[8] = (i) => (ie.value = i)),
                               classes: "modal-container",
                             },
                             {
-                              default: fe(() => [
+                              default: se(() => [
                                 y(
-                                  jo,
+                                  Jo,
                                   {
-                                    creature: ie.value,
-                                    onHandleEditCreature: pa,
+                                    creature: ue.value,
+                                    onHandleEditCreature: fa,
                                     onHandleCloseModal: oe,
                                   },
                                   null,
@@ -2401,27 +2442,27 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                             ["modelValue"]
                           ),
                         ]))
-                      : S("", !0),
+                      : D("", !0),
                     ne.value
                       ? (o(),
-                        i("div", hs, [
+                        c("div", bs, [
                           y(
                             s,
                             {
-                              modelValue: re.value,
+                              modelValue: ce.value,
                               "onUpdate:modelValue":
-                                n[9] || (n[9] = (r) => (re.value = r)),
+                                n[9] || (n[9] = (i) => (ce.value = i)),
                               classes: "modal-container",
                             },
                             {
-                              default: fe(() => [
+                              default: se(() => [
                                 y(
-                                  Ka,
+                                  za,
                                   {
                                     action: ne.value,
-                                    title: ue.value,
+                                    title: ve.value,
                                     onHandleCloseModal: oe,
-                                    onHandleEditAction: ma,
+                                    onHandleEditAction: ha,
                                   },
                                   null,
                                   8,
@@ -2434,11 +2475,11 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), X(), v),
                             ["modelValue"]
                           ),
                         ]))
-                      : S("", !0),
+                      : D("", !0),
                   ])),
             ]));
       };
     },
   }),
-  Ks = B(fs, [["__scopeId", "data-v-1bea8a3d"]]);
-export { Ks as default };
+  js = L(Cs, [["__scopeId", "data-v-8ca3889b"]]);
+export { js as default };
