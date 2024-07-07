@@ -4680,7 +4680,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       target: "yourself",
       duration: "scene",
       description:
-        "<p>Seu sangue escorre para fora do corpo, cobrindo-o sob a forma de uma carapaça que fornece +5 em Defesa. Esse bônus é cumulativo com outros rituais, mas não com bônus fornecido por equipamento.</p><p><strong>Advanced (+5 EP):</strong> muda o efeito para “fornece +10 na Defesa e resistência a balístico, corte, impacto e perfuração 5”. Requires 3rd circle.</p><p><strong>True (+9 EP):</strong> muda o efeito para “fornece +15 na Defesa e resistência a balístico, corte, impacto e perfuração 10”. Requires 4th circle and afinity.</p>",
+        "<p>Your blood flows out of your body, covering it in the form of a shell that provides +5 Defense. This bonus is cumulative with other rituals, but not with bonuses provided by equipment.</p><p><strong>Advanced (+5 EP):</strong> changes the effect to “provides +10 Defense and resistance to ballistic, slashing, impact and piercing damage 5”. Requires 3rd circle.</p><p><strong>True (+9 EP):</strong> changes the effect to “provides +15 Defense and resistance to ballistic, slashing, impact and piercing damage 10”. Requires 4th circle and afinity.</p>",
     },
     {
       name: "Insane Bargain",
@@ -4742,7 +4742,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       discenteDice: "5d8+5",
       verdadeiroDice: "7d8+7",
       description:
-        "<p>Você acelera o tempo ao redor das feridas do alvo, que cicatrizam instantaneamente. O alvo recupera 3d8+3 PV, mas envelhece 1 ano automaticamente.</p><p><strong>Advanced (+2 EP):</strong> aumenta a cura para 5d8+5 PV. Requires 2nd circle.</p><p><strong>True (+9 EP):</strong> muda o alcance para “curto”, o alvo para “seres escolhidos” e aumenta a cura para 7d8+7 PV. Requires 4th circle and afinity com Death.</p>",
+        "<p>You speed up time around the target's wounds, which heal instantly. The target recovers 3d8+3 HP, but ages 1 year automatically.</p><p><strong>Advanced (+2 EP):</strong> increases healing to 5d8+5 HP. Requires 2nd circle.</p><p><strong>True (+9 EP):</strong> changes range to “short”, target to “chosen beings” and increases healing to 7d8+7 HP. Requires 4th circle and afinity with Death.</p>",
     },
     {
       name: "Cineraria",
@@ -4753,7 +4753,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       area: "cloud with 6m radius",
       duration: "scene",
       description:
-        "<p>Você manifesta uma névoa carregada de essência paranormal. Rituais conjurados dentro da névoa têm sua DT aumentada em +5.</p><p><strong>Advanced (+2 EP):</strong> além do normal, rituais conjurados dentro da névoa custam –2 EP.</p><p><strong>True (+5 EP):</strong> além do normal, rituais conjurados dentro da névoa causam dano maximizado.</p>",
+        "<p>You manifest a mist charged with paranormal essence. Rituals cast within the mist have their DC increased by +5.</p><p><strong>Advanced (+2 EP):</strong> in addition to normal, rituals cast within the mist cost –2 EP.</p><p><strong>True (+5 EP):</strong> in addition to normal, rituals cast within the mist deal maximized damage.</p>",
     },
     {
       name: "Forced Coincidence",
@@ -4764,7 +4764,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       target: "1 being",
       duration: "scene",
       description:
-        "<p>Você manipula os caminhos do caos para que o alvo tenha mais sorte. O alvo recebe +2 em testes de perícias.</p><p><strong>Advanced (+2 EP):</strong> muda o alvo para aliados à sua escolha. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> muda o alvo para aliados à sua escolha e o bônus para +5. Requires 3rd circle and afinity.</p>",
+        "<p>You manipulate the paths of chaos so that the target has better luck. The target gets +2 on skill checks.</p><p><strong>Advanced (+2 EP):</strong> changes the target to chosen allies. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> changes the target chosen allies and the bonus to +5. Requires 3rd circle and afinity.</p>",
     },
     {
       name: "Paranormal Understanding",
@@ -4838,7 +4838,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       duration: "sustained",
       save: "Will reduces partially",
       description:
-        "<p>Você domina a mente do alvo, que obedece todos os seus comandos, exceto ordens suicidas. Um alvo tem direito a um teste de Vontade no final de cada um de seus turnos para se livrar do efeito. Alvos que passarem no teste ficam pasmos por 1 rodada.</p><p><strong>Advanced (+5 EP):</strong> muda o alvo para até cinco pessoas ou animais.</p><p><strong>True (+10 EP):</strong> muda o alvo para até dez pessoas ou animais. Requires afinity com Knowledge.</p>",
+        "<p>Você domina a mente do alvo, que obedece todos os seus comandos, exceto ordens suicidas. Um alvo tem direito a um teste de Vontade no final de cada um de seus turnos para se livrar do efeito. Alvos que passarem no teste ficam pasmos por 1 rodada.</p><p><strong>Advanced (+5 EP):</strong> muda o alvo para até cinco pessoas ou animais.</p><p><strong>True (+10 EP):</strong> muda o alvo para até dez pessoas ou animais. Requires afinity with Knowledge.</p>",
     },
     {
       name: "Instantaneous Summon",
@@ -4902,7 +4902,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       duration: "scene",
       save: "Fortitude reduces partially",
       description:
-        "<p>Você dispara uma lufada de cinzas que drena as forças do alvo. A alvo fica fatigado. Se passar no teste de resistência, em vez disso fica vulnerável.</p><p><strong>Advanced (+2 EP):</strong> em vez do normal, o alvo fica exausto. Se passar na resistência, fica fatigado. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> como discente, mas muda o alvo para “até 5 seres”. Requires 3rd circle and afinity com Death.</p>",
+        "<p>Você dispara uma lufada de cinzas que drena as forças do alvo. A alvo fica fatigado. Se passar no teste de resistência, em vez disso fica vulnerável.</p><p><strong>Advanced (+2 EP):</strong> em vez do normal, o alvo fica exausto. Se passar na resistência, fica fatigado. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> como discente, mas muda o alvo para “até 5 seres”. Requires 3rd circle and afinity with Death.</p>",
     },
     {
       name: "Energy Deflagration",
