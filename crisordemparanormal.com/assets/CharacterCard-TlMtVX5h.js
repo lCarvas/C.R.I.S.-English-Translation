@@ -15,7 +15,7 @@ import {
   p as D,
   b as F,
   _ as R,
-} from "./index-QwuuguuZ.js";
+} from "./index-CCe7Lu-B.js";
 import { _ as L, a as P } from "./share-icon-J6b_MEIl.js";
 import { _ as O } from "./trash-icon-Dl18GMfa.js";
 const Z =

@@ -1,5 +1,5 @@
-const e = "/assets/attributes-V37qZCrP.png",
-  a = {
+const a = "/assets/attributes-V37qZCrP.png",
+  e = {
     name: "Mundane",
     shortDescription:
       "You're a normal person, living a normal life. Of course, considering you're a character in Ordem Paranormal RPG, this normality won't last long...",
@@ -840,4 +840,4 @@ const e = "/assets/attributes-V37qZCrP.png",
       ],
     },
   ];
-export { e as _, o as c, a as m };
+export { a as _, o as c, e as m };

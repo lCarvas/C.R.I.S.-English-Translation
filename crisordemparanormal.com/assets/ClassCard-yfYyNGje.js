@@ -1,25 +1,25 @@
 import {
   d as v,
   o as s,
-  c as r,
+  c as i,
   a,
   t as o,
   k as n,
   a4 as p,
   m as d,
   p as q,
-  b as P,
+  b as A,
   _ as h,
-  n as b,
-  q as g,
+  n as f,
+  q as b,
   H as C,
-  r as _,
-  a1 as k,
-  j as S,
-  x as V,
-  T as A,
-} from "./index-QwuuguuZ.js";
-import { P as E } from "./PowerCard-beWm0GIY.js";
+  r as k,
+  a1 as P,
+  j as _,
+  x as S,
+  T as V,
+} from "./index-CCe7Lu-B.js";
+import { P as E } from "./PowerCard-39z67vzg.js";
 import { _ as z } from "./show-more-icon-VvUXKiHG.js";
 const Xa = [
     {
@@ -40,7 +40,7 @@ const Xa = [
       skills: [],
       power: {
         name: "Glimpses of the Past",
-        description:
+                description:
           "Once per session, you can do an Intellect check (DC 10) to recognise familiar people or places, that you might have encountered before you lost your memory. If you pass, you receive 1d4 temporary EP and, at the DM's discretion, a useful information.",
       },
     },
@@ -51,7 +51,7 @@ const Xa = [
       skills: ["Arts", "Deception"],
       power: {
         name: "Magnum Opus",
-        description:
+                description:
           "You became famous for one of your works. Once per mission, you can determine that a character involved in an interaction scene recognizes you. You receive +5 on Presence checks and Presence-based skill checks against that character. At the master's discretion, you can receive these bonuses in other situations in which they would be recognized.",
       },
     },
@@ -62,7 +62,7 @@ const Xa = [
       skills: ["Acrobatics", "Athletics"],
       power: {
         name: "110%",
-        description:
+                description:
           "When you make a Strength or Agility based skill check (excluding Fighting and Marksmanship) you can spend 2 EP to receive +5 on the roll.",
       },
     },
@@ -73,18 +73,18 @@ const Xa = [
       skills: ["Fortitude", "Profession"],
       power: {
         name: "Work Tool",
-        description:
+                description:
           "Choose a simple or tactical weapon that, at the DM's discretion, could be used as tool on your profession (such as a sledgehammer for a mason). You have proficiency on the chosen weapon and you receive +1 on attack rolls, damage rolls and threat margin when using it.",
       },
     },
     {
       name: "Chef",
       description:
-      "<p>Você é um cozinheiro amador ou profissional. Talvez trabalhasse em um restaurante, talvez simplesmente gostasse de cozinhar para a família e amigos. Como sua comida fez com que você se envolvesse com o paranormal? Ninguém sabe. Mas os outros agentes adoram quando você vai para a missão!</p>",
+        "<p>Você é um cozinheiro amador ou profissional. Talvez trabalhasse em um restaurante, talvez simplesmente gostasse de cozinhar para a família e amigos. Como sua comida fez com que você se envolvesse com o paranormal? Ninguém sabe. Mas os outros agentes adoram quando você vai para a missão!</p>",
       skills: ["Fortitude", "Profession (cook)"],
       power: {
         name: "Secret Ingredient",
-        description:
+                description:
           "During interlude scenes, you can use the eating action to cook a special dish. You, and all members of the party that used the eating action, receive the benefit of two dishes (if the same benefit is chosen twice, the effects are cumulative).",
       },
     },
@@ -95,7 +95,7 @@ const Xa = [
       skills: ["Intuition", "Will"],
       power: {
         name: "Civic Spirit",
-        description:
+                description:
           "Every time you make a roll to help, you can spend 1 EP to increase the bonus given by +2.",
       },
     },
@@ -106,14 +106,14 @@ const Xa = [
       skills: ["Investigation", "Occultism"],
       power: {
         name: "I Knew It",
-        description:
+                description:
           "You don't get shaken by entities or anomalies. After all, you always knew of their existence. You gain resistance to mental damage equal to your Intellect.",
       },
     },
     {
       name: "Criminal",
       description:
-      "<p>Você vivia uma vida fora da lei, seja como mero batedor de carteiras, seja como membro de uma facção criminosa. Em algum momento, você se envolveu em um assunto da Ordem — talvez tenha roubado um item amaldiçoado? A organização, por sua vez, achou melhor recrutar seus talentos do que ter você como um estorvo.</p>",
+        "<p>Você vivia uma vida fora da lei, seja como mero batedor de carteiras, seja como membro de uma facção criminosa. Em algum momento, você se envolveu em um assunto da Ordem — talvez tenha roubado um item amaldiçoado? A organização, por sua vez, achou melhor recrutar seus talentos do que ter você como um estorvo.</p>",
       skills: ["Crime", "Stealth"],
       power: {
         name: "Crime Pays Off",
@@ -128,7 +128,7 @@ const Xa = [
       skills: ["Profession", "Technology"],
       power: {
         name: "Favorite Tools",
-        description:
+                description:
           "An item of your choice (excluding weapons) counts as being one category below (for example, an item of category II counts as category I to you).",
       },
     },
@@ -139,30 +139,30 @@ const Xa = [
       skills: ["Diplomacy", "Profession"],
       power: {
         name: "Optimized Process",
-        description:
+                description:
           "Whenever you do a skill check during an extended test, or an action to revise documents (physical or digital), you can spend 2 EP to receive +5 on the roll.",
       },
     },
     {
       name: "Fighter",
       description:
-      "<p>Você pratica uma arte marcial ou esporte de luta, ou cresceu em um bairro perigoso onde aprendeu briga de rua. Já quebrou muitos ossos, tanto seus quanto dos outros. Pode ter conhecido a Ordem após um torneio secreto envolvendo entidades do Outro Lado ou ter sido recrutado pela sua capacidade de luta.</p>",
+        "<p>Você pratica uma arte marcial ou esporte de luta, ou cresceu em um bairro perigoso onde aprendeu briga de rua. Já quebrou muitos ossos, tanto seus quanto dos outros. Pode ter conhecido a Ordem após um torneio secreto envolvendo entidades do Outro Lado ou ter sido recrutado pela sua capacidade de luta.</p>",
       skills: ["Fighting", "Reflexes"],
       power: {
         name: "Heavy Hitter",
-        description:
-        "You receive +2 on damage rolls on melee attacks.",
+                description:
+          "You receive +2 on damage rolls on melee attacks.",
       },
     },
     {
       name: "Forensic Scientist",
       description:
-      "<p>Você trabalhava coletando provas para a resolução de crimes, seja para a polícia, seja para uma empresa privada de investigação. Usava métodos e técnicas adquiridos através de uma graduação em uma área científica ou médica, além de cursos específicos. Recrutado para a Ordem por seus conhecimentos técnicos, seu trabalho não mudou muito - mas o tipo de que você investiga, sim.</p>",
+        "<p>Você trabalhava coletando provas para a resolução de crimes, seja para a polícia, seja para uma empresa privada de investigação. Usava métodos e técnicas adquiridos através de uma graduação em uma área científica ou médica, além de cursos específicos. Recrutado para a Ordem por seus conhecimentos técnicos, seu trabalho não mudou muito - mas o tipo de que você investiga, sim.</p>",
       skills: ["Sciences", "Investigation"],
       power: {
         name: "Investigação Científica",
-        description:
-        "Once per investigation scene, you can use a free action to find clues, using Sciences instead of the skill that would be used instead for the roll.",
+                description:
+          "Once per investigation scene, you can use a free action to find clues, using Sciences instead of the skill that would be used instead for the roll.",
       },
     },
     {
@@ -172,7 +172,7 @@ const Xa = [
       skills: ["Acrobatics", "Reflexes"],
       power: {
         name: "Acrobatic Mobility",
-        description:
+                description:
           "You gain +2 Defense and your movement increases by +3m.",
       },
     },
@@ -190,62 +190,62 @@ const Xa = [
     {
       name: "I.T.",
       description:
-      "<p>Programador, engenheiro de software ou simplesmente “o cara da T.I.”, você tem treinamento e experiência para lidar com sistemas informatizados. Seu talento (ou curiosidade exagerada) chamou a atenção da Ordem.</p>",
+        "<p>Programador, engenheiro de software ou simplesmente “o cara da T.I.”, você tem treinamento e experiência para lidar com sistemas informatizados. Seu talento (ou curiosidade exagerada) chamou a atenção da Ordem.</p>",
       skills: ["Investigation", "Technology"],
       power: {
         name: "Search Engine",
-        description:
+                description:
           "To the DM's discretion, whenever you have access to the internet, you can spend to EP to replace any skill check with a Technology check. ",
       },
     },
     {
       name: "Investigator",
       description:
-      "<p>Você era um investigador do governo, como um perito forense ou policial federal, ou privado, como um detetive particular. Pode ter tido contato com o Paranormal em algum caso ou ter sido recrutado pela Ordem por suas habilidades de resolução de mistérios.</p>",
+        "<p>Você era um investigador do governo, como um perito forense ou policial federal, ou privado, como um detetive particular. Pode ter tido contato com o Paranormal em algum caso ou ter sido recrutado pela Ordem por suas habilidades de resolução de mistérios.</p>",
       skills: ["Investigation", "Perception"],
       power: {
         name: "Clue Sniffer",
-        description:
+                description:
           "Once per scene, when you make a check to search for clues, you can spend 1 EP to receive +5 on the roll.",
       },
     },
     {
       name: "Journalist",
       description:
-      "<p>Uma espécie ameaçada de extinção, você atuava investigando notícias para um jornal, rede de televisão, blog, canal do YouTube... Você se juntou à Ordem porque descobriu algo relacionado ao paranormal, ou foi recrutado para investigar um caso específico. Seja como for, continua buscando a verdade - não mais para informar as pessoas, mas sim para protegê-las.</p>",
+        "<p>Uma espécie ameaçada de extinção, você atuava investigando notícias para um jornal, rede de televisão, blog, canal do YouTube... Você se juntou à Ordem porque descobriu algo relacionado ao paranormal, ou foi recrutado para investigar um caso específico. Seja como for, continua buscando a verdade - não mais para informar as pessoas, mas sim para protegê-las.</p>",
       skills: ["Current Affairs", "Investigation"],
       power: {
         name: "Trustworthy Sources",
-        description:
+                description:
           "Once per session, you can spend 1 EP to contact your sources - people whom you trust with access to information. This allows you to reroll an already made skill check to search for a clue, with an added +5 bonus, or you receive a different relevent information (to the DM's discretion).",
       },
     },
     {
       name: "Magnate",
       description:
-      "<p>Você possui muito dinheiro ou patrimônio. Pode ser o herdeiro de uma família antiga ligada ao oculto, ter criado e vendido uma empresa e decidido usar sua riqueza para uma causa maior, ou ter ganho uma loteria após inadvertidamente escolher números amaldiçoados que formavam um ritual.</p>",
+        "<p>Você possui muito dinheiro ou patrimônio. Pode ser o herdeiro de uma família antiga ligada ao oculto, ter criado e vendido uma empresa e decidido usar sua riqueza para uma causa maior, ou ter ganho uma loteria após inadvertidamente escolher números amaldiçoados que formavam um ritual.</p>",
       skills: ["Diplomacy", "Piloting"],
       power: {
-          name: "Sponsor of the Order",
-          description:
-            "Your credit limit is always considered one above the current one.",
-        },
+        name: "Sponsor of the Order",
+                description:
+          "Your credit limit is always considered one above the current one.",
+      },
     },
     {
       name: "Mercenary",
       description:
         "<p>Você é um soldado de aluguel, que trabalha sozinho ou como parte de alguma organização que vende serviços militares. Escoltas e assassinatos fizeram parte de sua rotina por tempo o suficiente para você se envolver em alguma situação com o Paranormal.</p>",
-        skills: ["Initiative", "Intimidation"],
+      skills: ["Initiative", "Intimidation"],
       power: {
         name: "Combat Postion",
         description:
-        "On the first turn of every action scene, you can spend 2 EP to receive an additional movement action.",
+          "On the first turn of every action scene, you can spend 2 EP to receive an additional movement action.",
       },
     },
     {
       name: "Militar",
       description:
-      "<p>Você serviu em uma força militar, como o exército ou a marinha. Passou muito tempo treinando com armas de fogo, até se tornar um perito no uso delas. Acostumado a obedecer ordens e partir em missões, está em casa na Ordo Realitas. O inimigo é diferente, mas um tiro bem dado continua resolvendo o problema.</p>",
+        "<p>Você serviu em uma força militar, como o exército ou a marinha. Passou muito tempo treinando com armas de fogo, até se tornar um perito no uso delas. Acostumado a obedecer ordens e partir em missões, está em casa na Ordo Realitas. O inimigo é diferente, mas um tiro bem dado continua resolvendo o problema.</p>",
       skills: ["Marksmanship", "Tactics"],
       power: {
         name: "Para Bellum",
@@ -256,13 +256,13 @@ const Xa = [
       name: "Policeman",
       description:
         "<p>Você fez parte de uma força de segurança pública, civil ou militar. Em alguma patrulha ou chamado se deparou com um caso paranormal e sobreviveu para contar a história.</p>",
-        skills: ["Perception", "Marksmanship"],
+      skills: ["Perception", "Marksmanship"],
       power: { name: "Patrol", description: "You receive +2 Defense." },
     },
     {
       name: "Professor",
       description:
-      "<p>Você leciona em uma escola ou universidade, ensinando ciências, artes ou outro campo do saber. Sua profissão é uma das mais nobres de todas e o colocou em contato com muitas pessoas e conhecimentos. Em algum momento, o colocou em contato também com o paranormal. Agora, trabalhando na Ordem, seus alunos são criaturas do Outro Lado, e você planeja reprovar todos esse ano.</p>",
+        "<p>Você leciona em uma escola ou universidade, ensinando ciências, artes ou outro campo do saber. Sua profissão é uma das mais nobres de todas e o colocou em contato com muitas pessoas e conhecimentos. Em algum momento, o colocou em contato também com o paranormal. Agora, trabalhando na Ordem, seus alunos são criaturas do Outro Lado, e você planeja reprovar todos esse ano.</p>",
       skills: ["Sciences", "Intuition"],
       power: {
         name: "Field Class",
@@ -277,41 +277,41 @@ const Xa = [
       skills: ["Stealth", "Will"],
       power: {
         name: "Lone Wolf",
-        description:
+                description:
           "You receive +1 to Defense, skill checks, and your EP limit per turn if there are no allies within short range.",
       },
     },
     {
       name: "Religious",
       description:
-      "<p>Você é devoto ou sacerdote de uma fé. Independentemente da religião que pratica, se dedica a auxiliar as pessoas com problemas espirituais. A partir disso, teve contato com o paranormal, o que fez com que fosse convocado pela Ordem.</p>",
+        "<p>Você é devoto ou sacerdote de uma fé. Independentemente da religião que pratica, se dedica a auxiliar as pessoas com problemas espirituais. A partir disso, teve contato com o paranormal, o que fez com que fosse convocado pela Ordem.</p>",
       skills: ["Religion", "Will"],
       power: {
         name: "Soothe",
-        description:
-        "You receive +5 in Religion checks to calm someone down. Furthermore, when you calm someone down, they receive a number of Sanity points equal to 1d6 + your Presence.",
+                description:
+          "You receive +5 in Religion checks to calm someone down. Furthermore, when you calm someone down, they receive a number of Sanity points equal to 1d6 + your Presence.",
       },
     },
     {
       name: "Repentant Cultist",
       description:
-      "<p>Você fez parte de um culto paranormal. Talvez fossem ignorantes iludidos, que acreditavam estar contatando entidades benevolentes. Talvez soubessem exatamente o que estavam fazendo. Seja como for, algo abriu seus olhos e agora você luta pelo lado certo — embora carregue para sempre traços de sua vida pregressa. Outros membros da Ordem podem desconfiar de sua conversão e você sabe que precisará se esforçar para conquistar a confiança de todos.</p>",
+        "<p>Você fez parte de um culto paranormal. Talvez fossem ignorantes iludidos, que acreditavam estar contatando entidades benevolentes. Talvez soubessem exatamente o que estavam fazendo. Seja como for, algo abriu seus olhos e agora você luta pelo lado certo — embora carregue para sempre traços de sua vida pregressa. Outros membros da Ordem podem desconfiar de sua conversão e você sabe que precisará se esforçar para conquistar a confiança de todos.</p>",
       skills: ["Occultism", "Religion"],
       power: {
         name: "Remnants of the Other Side",
-        description:
-        "You have a paranormal power of your choice. However, you start the game with half the normal Sanity for your class.",
+                description:
+          "You have a paranormal power of your choice. However, you start the game with half the normal Sanity for your class.",
       },
     },
     {
       name: "Rural Worker",
       description:
-      "<p>Você trabalhava no campo ou em áreas isoladas, como fazendeiro, pescador, biólogo, veterinário... Você se acostumou com o convívio com a natureza e os animais e talvez tenha ouvido uma ou outra história de fantasmas ao redor da fogueira. Em algum momento da sua vida, porém, descobriu que muitas dessas histórias são verdadeiras.</p>",
+        "<p>Você trabalhava no campo ou em áreas isoladas, como fazendeiro, pescador, biólogo, veterinário... Você se acostumou com o convívio com a natureza e os animais e talvez tenha ouvido uma ou outra história de fantasmas ao redor da fogueira. Em algum momento da sua vida, porém, descobriu que muitas dessas histórias são verdadeiras.</p>",
       skills: ["Animal Handling", "Survival"],
       power: {
         name: "Pathfinder",
         description:
-        "When you make a Animal Handling or Survival check, you can spend 2 EP to receive +5 on the roll. Furthermore, you don't receive a movement penalty when moving in difficult terrain.",
+          "When you make a Animal Handling or Survival check, you can spend 2 EP to receive +5 on the roll. Furthermore, you don't receive a movement penalty when moving in difficult terrain.",
       },
     },
     {
@@ -321,14 +321,14 @@ const Xa = [
       skills: ["Fighting", "Piloting"],
       power: {
         name: "Scoundrel Fraternity",
-        description:
+                description:
           "Once per round, when an adjacent ally is the target of an attack or effect, you can spend 1 EP to switch places with that ally and become the target of that attack or effect. If you take this action, on your next turn you gain +2 on attack rolls against the attacker.",
       },
     },
     {
       name: "Stray",
       description:
-      "<p>Você não vivia de acordo com as normas da sociedade. Podia ser um eremita, uma pessoa em situação de rua ou simplesmente alguém que descobriu o Paranormal e abandonou sua rotina — sabendo o quão frágil era a existência humana, não conseguia simplesmente continuar indo para o trabalho todo o dia. De qualquer forma, a vida sem os confortos modernos o deixou mais forte.</p>",
+        "<p>Você não vivia de acordo com as normas da sociedade. Podia ser um eremita, uma pessoa em situação de rua ou simplesmente alguém que descobriu o Paranormal e abandonou sua rotina — sabendo o quão frágil era a existência humana, não conseguia simplesmente continuar indo para o trabalho todo o dia. De qualquer forma, a vida sem os confortos modernos o deixou mais forte.</p>",
       skills: ["Fortitude", "Survival"],
       power: {
         name: "Calloused",
@@ -342,36 +342,36 @@ const Xa = [
       skills: ["Piloting", "Reflexes"],
       power: {
         name: "Fearless",
-        description:
+                description:
           "When you make a skill check on which a failure will directly result in damage or a negative condition, you receive +5 to that test.",
       },
     },
     {
       name: "Swindler",
       description:
-      "<p>Uma vida digna exige muito trabalho, então é melhor nem tentar. Você vivia de pequenos golpes, jogatina ilegal e falcatruas. Certo dia, enganou a pessoa errada; no dia seguinte, se viu servindo à Ordem. Pelo menos agora tem a chance de usar sua lábia para o bem.</p>",
+        "<p>Uma vida digna exige muito trabalho, então é melhor nem tentar. Você vivia de pequenos golpes, jogatina ilegal e falcatruas. Certo dia, enganou a pessoa errada; no dia seguinte, se viu servindo à Ordem. Pelo menos agora tem a chance de usar sua lábia para o bem.</p>",
       skills: ["Crime", "Deception"],
       power: {
         name: "Impostor",
-        description:
-        "Once per scene, you can spend 2 EP to replace any skill check by a Deception check.",
+                description:
+          "Once per scene, you can spend 2 EP to replace any skill check by a Deception check.",
       },
     },
     {
       name: "University Student",
       description:
-      "<p>Você era aluno de uma faculdade. Em sua rotina de estudos, provas e festas, acabou descobrindo algo — talvez um livro amaldiçoado na antiga biblioteca do campus? Por seu achado, foi convocado pela Ordem. Agora, estuda com mais afinco: nesse novo curso, ouviu dizer que as provas podem ser mortais.</p>",
+        "<p>Você era aluno de uma faculdade. Em sua rotina de estudos, provas e festas, acabou descobrindo algo — talvez um livro amaldiçoado na antiga biblioteca do campus? Por seu achado, foi convocado pela Ordem. Agora, estuda com mais afinco: nesse novo curso, ouviu dizer que as provas podem ser mortais.</p>",
       skills: ["Current Affairs", "Investigation"],
       power: {
         name: "Dedication",
         description:
-        "You receive +1 EP, and 1 additional EP for each odd EXP (15%, 25%...). Furthermore, your EP per turn limit increases by 1 (on EXP 5% your limit is 2, on EXP 10% it's 3 and so on; this does not affect the DC of your effects).",
+          "You receive +1 EP, and 1 additional EP for each odd EXP (15%, 25%...). Furthermore, your EP per turn limit increases by 1 (on EXP 5% your limit is 2, on EXP 10% it's 3 and so on; this does not affect the DC of your effects).",
       },
     },
     {
       name: "Victim",
       description:
-      "<p>Em algum momento de sua vida — infância, juventude ou início da vida adulta — você encontrou o Paranormal... E a experiência não foi nada boa. Você viu os espíritos dos mortos, foi atacado por uma entidade ou mesmo foi sequestrado para ser sacrificado em um ritual impedido no último momento. A experiência foi traumática, mas você não se abateu; em vez disso, decidiu lutar para impedir que outros inocentes passem pelo mesmo. E, já tendo sendo vítima do Paranormal, se tornou habilidoso em evitar perigos.</p>",
+        "<p>Em algum momento de sua vida — infância, juventude ou início da vida adulta — você encontrou o Paranormal... E a experiência não foi nada boa. Você viu os espíritos dos mortos, foi atacado por uma entidade ou mesmo foi sequestrado para ser sacrificado em um ritual impedido no último momento. A experiência foi traumática, mas você não se abateu; em vez disso, decidiu lutar para impedir que outros inocentes passem pelo mesmo. E, já tendo sendo vítima do Paranormal, se tornou habilidoso em evitar perigos.</p>",
       skills: ["Reflexes", "Will"],
       power: {
         name: "Psychological Scars",
@@ -390,13 +390,13 @@ const Xa = [
       },
     },
   ],
-  u = (e) => (q("data-v-86953969"), (e = e()), P(), e),
+  u = (e) => (q("data-v-86953969"), (e = e()), A(), e),
   I = { class: "features card-black" },
-  w = u(() => a("h3", null, "CHARACTERISTICS", -1)),
-  O = { class: "feat-card" },
+  O = u(() => a("h3", null, "CHARACTERISTICS", -1)),
+  w = { class: "feat-card" },
   T = u(() => a("h4", null, "INITIAL HEALTH POINTS", -1)),
-  $ = { class: "main" },
-  j = { key: 0 },
+  j = { class: "main" },
+  $ = { key: 0 },
   x = u(() => a("h6", null, "For each level of exposition", -1)),
   y = { class: "sub" },
   M = { class: "feat-card" },
@@ -406,7 +406,7 @@ const Xa = [
   L = u(() => a("h6", null, "For each level of exposition", -1)),
   F = { class: "sub" },
   U = { class: "feat-card" },
-  H = u(() => a("h4", null, "INITIAL SANITY", -1)),
+  H = u(() => a("h4", null, "INITIAL", -1)),
   X = { class: "main" },
   B = { key: 0 },
   Q = u(() => a("h6", null, "For each level of exposition", -1)),
@@ -425,20 +425,20 @@ const Xa = [
       isMundano: { type: Boolean, default: !1 },
     },
     setup(e) {
-      return (i, m) => (
+      return (r, m) => (
         s(),
-        r("div", I, [
-          w,
-          a("div", O, [
+        i("div", I, [
+          O,
+          a("div", w, [
             a("div", null, [
               T,
-              a("span", $, o(e.charClass.initialPv) + "+VIGOR", 1),
+              a("span", j, o(e.charClass.initialPv) + "+VIGOR", 1),
             ]),
             n(p, { "no-margin": "" }),
             e.isMundano
               ? d("", !0)
               : (s(),
-                r("div", j, [
+                i("div", $, [
                   x,
                   a("span", y, o(e.charClass.levelPv) + " HP (+Vig)", 1),
                 ])),
@@ -452,7 +452,7 @@ const Xa = [
             e.isMundano
               ? d("", !0)
               : (s(),
-                r("div", R, [
+                i("div", R, [
                   L,
                   a("span", F, o(e.charClass.levelPe) + " EP (+Pre)", 1),
                 ])),
@@ -463,7 +463,7 @@ const Xa = [
             e.isMundano
               ? d("", !0)
               : (s(),
-                r("div", B, [
+                i("div", B, [
                   Q,
                   a("span", G, o(e.charClass.levelSan) + " SAN", 1),
                 ])),
@@ -473,7 +473,7 @@ const Xa = [
             n(p, { "no-margin": "" }),
             e.charClass.trainedSkills.optionSkils.length > 0
               ? (s(),
-                r("div", K, [
+                i("div", K, [
                   a(
                     "h6",
                     null,
@@ -494,7 +494,7 @@ const Xa = [
             e.charClass.trainedSkills.skills.length === 0 &&
             e.charClass.trainedSkills.optionSkils.length === 0
               ? (s(),
-                r("div", W, [
+                i("div", W, [
                   a(
                     "h6",
                     null,
@@ -507,7 +507,7 @@ const Xa = [
               : d("", !0),
             e.charClass.trainedSkills.skills.length > 0
               ? (s(),
-                r("div", Z, [
+                i("div", Z, [
                   a(
                     "h6",
                     null,
@@ -532,10 +532,10 @@ const Xa = [
     },
   }),
   sa = h(oa, [["__scopeId", "data-v-86953969"]]),
-  ra = (e) => (q("data-v-2a9e98a3"), (e = e()), P(), e),
-  ia = { class: "table-content card-black" },
+  ia = (e) => (q("data-v-2a9e98a3"), (e = e()), A(), e),
+  ra = { class: "table-content card-black" },
   ta = { class: "table" },
-  na = ra(() =>
+  na = ia(() =>
     a(
       "thead",
       null,
@@ -554,7 +554,7 @@ const Xa = [
     __name: "ClassCardTable",
     props: { charClass: { type: Object, required: !0 } },
     setup(e) {
-      const i = [
+      const r = [
         "5%",
         "10%",
         "15%",
@@ -578,18 +578,18 @@ const Xa = [
       ];
       return (m, t) => (
         s(),
-        r("div", ia, [
+        i("div", ra, [
           a("table", ta, [
             na,
             a("tbody", null, [
               (s(),
-              r(
-                b,
+              i(
+                f,
                 null,
-                g(i, (c, f) =>
+                b(r, (c, g) =>
                   a("tr", { key: c }, [
                     a("td", da, o(c), 1),
-                    a("td", ca, o(e.charClass.table[f]), 1),
+                    a("td", ca, o(e.charClass.table[g]), 1),
                   ])
                 ),
                 64
@@ -605,15 +605,15 @@ const Xa = [
   pa = { class: "abilitie" },
   va = { key: 0, class: "abilitie" },
   ha = { key: 1, class: "abilitie" },
-  ba = { key: 2, class: "powers" },
-  ga = v({
+  fa = { key: 2, class: "powers" },
+  ba = v({
     __name: "ClassCardAbilities",
     props: {
       charClass: { type: Object, required: !0 },
       isMundano: { type: Boolean, default: !1 },
     },
     setup(e) {
-      const i = e,
+      const r = e,
         m = {
           name: "Path Ability",
           description: `Em NEX 10% você escolhe uma das trilhas de ${i.charClass.name.toLocaleLowerCase()} e recebe o primeiro poder da trilha escolhida. Você recebe um novo poder da trilha escolhida em NEX 40%, 65% e 99%.`,
@@ -622,9 +622,9 @@ const Xa = [
           name: "Power",
           description: `Em NEX 15%, você recebe um poder de ${i.charClass.name.toLocaleLowerCase()} à sua escolha. Você recebe um novo poder de ${i.charClass.name.toLocaleLowerCase()} em NEX 30% e a cada 15 pontos de NEX subsequentes, conforme indicado na tabela. Veja a lista de poderes a seguir.`,
         };
-      return (c, f) => (
+      return (c, g) => (
         s(),
-        r("div", la, [
+        i("div", la, [
           a(
             "h3",
             null,
@@ -632,14 +632,14 @@ const Xa = [
             1
           ),
           (s(!0),
-          r(
-            b,
+          i(
+            f,
             null,
-            g(
+            b(
               e.charClass.abilities,
               (l) => (
                 s(),
-                r("div", { key: l.name }, [
+                i("div", { key: l.name }, [
                   a("div", pa, [
                     a("p", null, [
                       a("span", null, o(l.name) + ". ", 1),
@@ -654,7 +654,7 @@ const Xa = [
           e.isMundano
             ? d("", !0)
             : (s(),
-              r("div", va, [
+              i("div", va, [
                 a("p", null, [
                   a("span", null, o(m.name) + ". ", 1),
                   C(o(m.description), 1),
@@ -663,12 +663,12 @@ const Xa = [
           e.isMundano
             ? d("", !0)
             : (s(),
-              r("div", ha, [
+              i("div", ha, [
                 a("p", null, [
                   a(
                     "span",
                     null,
-                    o(e.charClass.name) + " "  + o(t.name) + ". ",
+                    o(t.name) + " " + o(e.charClass.name) + ". ",
                     1
                   ),
                   C(o(t.description), 1),
@@ -677,16 +677,16 @@ const Xa = [
           e.isMundano
             ? d("", !0)
             : (s(),
-              r("div", ba, [
+              i("div", fa, [
                 (s(!0),
-                r(
-                  b,
+                i(
+                  f,
                   null,
-                  g(
+                  b(
                     e.charClass.powers,
                     (l) => (
                       s(),
-                      r("div", { key: l.name }, [
+                      i("div", { key: l.name }, [
                         n(E, { power: l, "only-show": "" }, null, 8, ["power"]),
                       ])
                     )
@@ -698,53 +698,53 @@ const Xa = [
       );
     },
   }),
-  fa = h(ga, [["__scopeId", "data-v-541a2218"]]),
-  Ca = (e) => (q("data-v-7dfaeb93"), (e = e()), P(), e),
+  ga = h(ba, [["__scopeId", "data-v-541a2218"]]),
+  Ca = (e) => (q("data-v-7dfaeb93"), (e = e()), A(), e),
   qa = { class: "card-gray" },
-  Pa = Ca(() => a("img", { src: z, alt: "ver mais" }, null, -1)),
-  ka = [Pa],
-  _a = { class: "title" },
-  Sa = { key: 0 },
-  Va = { class: "content" },
-  Aa = ["innerHTML"],
+  Aa = Ca(() => a("img", { src: z, alt: "ver mais" }, null, -1)),
+  Pa = [Aa],
+  ka = { class: "title" },
+  _a = { key: 0 },
+  Sa = { class: "content" },
+  Va = ["innerHTML"],
   Ea = v({
     __name: "ClassCardPathAbilitieCard",
     props: { abilitie: { type: Object, required: !0 } },
     setup(e) {
-      const i = _(!1);
+      const r = k(!1);
       return (m, t) => (
         s(),
-        r("div", qa, [
+        i("div", qa, [
           a(
             "div",
             {
               class: "header",
-              onClick: t[1] || (t[1] = (c) => (i.value = !i.value)),
+              onClick: t[1] || (t[1] = (c) => (r.value = !r.value)),
             },
             [
               a(
                 "button",
                 {
-                  class: k(["show-more", { rotate: i.value }]),
+                  class: P(["show-more", { rotate: r.value }]),
                   onClick:
-                    t[0] || (t[0] = S((c) => (i.value = !i.value), ["stop"])),
+                    t[0] || (t[0] = _((c) => (r.value = !r.value), ["stop"])),
                 },
-                ka,
+                Pa,
                 2
               ),
-              a("h3", _a, o(e.abilitie.name), 1),
+              a("h3", ka, o(e.abilitie.name), 1),
             ]
           ),
           n(
-            A,
+            V,
             { name: "card", mode: "out-in" },
             {
-              default: V(() => [
-                i.value
+              default: S(() => [
+                r.value
                   ? (s(),
-                    r("div", Sa, [
+                    i("div", _a, [
                       n(p),
-                      a("div", Va, [
+                      a("div", Sa, [
                         a(
                           "div",
                           {
@@ -753,7 +753,7 @@ const Xa = [
                           },
                           null,
                           8,
-                          Aa
+                          Va
                         ),
                       ]),
                     ]))
@@ -768,28 +768,28 @@ const Xa = [
   }),
   za = h(Ea, [["__scopeId", "data-v-7dfaeb93"]]),
   Ia = { class: "paths-container card-black" },
-  wa = { class: "path-title" },
-  Oa = { class: "paths" },
+  Oa = { class: "path-title" },
+  wa = { class: "paths" },
   Ta = ["innerHTML"],
-  $a = { class: "abilities" },
-  ja = v({
+  ja = { class: "abilities" },
+  $a = v({
     __name: "ClassCardPaths",
     props: { charClass: { type: Object, required: !0 } },
     setup(e) {
-      return (i, m) => (
+      return (r, m) => (
         s(),
-        r("div", Ia, [
-          a("h3", wa, " TRILHAS DE " + o(e.charClass.name.toUpperCase()), 1),
-          a("div", Oa, [
+        i("div", Ia, [
+          a("h3", Oa, o(e.charClass.name.toUpperCase()) + " PATHS ", 1),
+          a("div", wa, [
             (s(!0),
-            r(
-              b,
+            i(
+              f,
               null,
-              g(
+              b(
                 e.charClass.paths,
                 (t) => (
                   s(),
-                  r("div", { key: t.name }, [
+                  i("div", { key: t.name }, [
                     a("h3", null, o(t.name), 1),
                     a(
                       "div",
@@ -798,16 +798,16 @@ const Xa = [
                       8,
                       Ta
                     ),
-                    a("div", $a, [
+                    a("div", ja, [
                       (s(!0),
-                      r(
-                        b,
+                      i(
+                        f,
                         null,
-                        g(
+                        b(
                           t.abilities,
                           (c) => (
                             s(),
-                            r("div", { key: c.name }, [
+                            i("div", { key: c.name }, [
                               n(za, { abilitie: c }, null, 8, ["abilitie"]),
                             ])
                           )
@@ -825,7 +825,7 @@ const Xa = [
       );
     },
   }),
-  xa = h(ja, [["__scopeId", "data-v-02642a47"]]),
+  xa = h($a, [["__scopeId", "data-v-02642a47"]]),
   ya = { class: "header" },
   Ma = { class: "card-content" },
   Na = { class: "short-description" },
@@ -835,17 +835,17 @@ const Xa = [
     __name: "ClassCard",
     props: { charClass: { type: Object, required: !0 }, onlyView: Boolean },
     emits: ["handleAddClass"],
-    setup(e, { emit: i }) {
+    setup(e, { emit: r }) {
       const m = e,
-        t = i,
+        t = r,
         c = () => {
           t("handleAddClass", m.charClass);
         };
-      return (f, l) => (
+      return (g, l) => (
         s(),
-        r(
+        i(
           "div",
-          { class: k(["card-gray", e.onlyView ? "only-view" : "choose-card"]) },
+          { class: P(["card-gray", e.onlyView ? "only-view" : "choose-card"]) },
           [
             a("div", ya, [a("h1", null, o(e.charClass.name), 1)]),
             n(p, { "no-margin": "" }),
@@ -865,7 +865,7 @@ const Xa = [
                 n(ma, { "char-class": e.charClass }, null, 8, ["char-class"]),
               ]),
               a("div", null, [
-                n(fa, { "char-class": e.charClass }, null, 8, ["char-class"]),
+                n(ga, { "char-class": e.charClass }, null, 8, ["char-class"]),
               ]),
               a("div", null, [
                 n(xa, { "char-class": e.charClass }, null, 8, ["char-class"]),
@@ -874,7 +874,7 @@ const Xa = [
             e.onlyView
               ? d("", !0)
               : (s(),
-                r("div", Ra, [
+                i("div", Ra, [
                   a(
                     "button",
                     { class: "choose-button button-primary", onClick: c },
@@ -888,4 +888,4 @@ const Xa = [
     },
   }),
   Ba = h(La, [["__scopeId", "data-v-0c1d2fc6"]]);
-export { sa as C, fa as a, Xa as b, Ba as c };
+export { sa as C, ga as a, Xa as b, Ba as c };

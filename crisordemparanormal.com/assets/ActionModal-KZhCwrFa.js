@@ -28,16 +28,16 @@ import {
   D as S,
   a3 as ce,
   J as me,
-} from "./index-QwuuguuZ.js";
+} from "./index-CCe7Lu-B.js";
 import { _ as te, a as ae, b as ve } from "./edit-icon-u1vf_q3w.js";
 import { b as f, d as pe, c as _e, a as he } from "./creatureData-ozdxpDUT.js";
 import { _ as be } from "./show-more-icon-VvUXKiHG.js";
 import { _ as $e } from "./d20-icon-vaz1En3o.js";
-import { T as ne } from "./TabNav-0k8MUq4h.js";
-import { h as Q } from "./default-tJ6A0c0K.js";
+import { T as ne } from "./TabNav-4AlT8nGd.js";
+import { h as Q } from "./default-dSfWXGfL.js";
 import { i as fe } from "./forms-8DDAOOVU.js";
 import { _ as W, l as O } from "./lodash-gzw5KmHd.js";
-import { D as J } from "./DropdownSimple-O-H8dkm7.js";
+import { D as J } from "./DropdownSimple-1_2dpnbs.js";
 import { v as K } from "./v4-cyCr5FZV.js";
 const D = (l) => (M("data-v-ed0d7802"), (l = l()), T(), l),
   ge = { class: "info-bar" },

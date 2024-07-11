@@ -14,7 +14,7 @@ import {
   f as X,
   v as N,
   L as G,
-  k as A,
+  k as C,
   p as w,
   b as z,
   a3 as xe,
@@ -22,7 +22,7 @@ import {
   H as me,
   h as K,
   C as be,
-  D as Ce,
+  D as Ae,
   E as Mt,
   e as Ee,
   a5 as Pe,
@@ -48,15 +48,15 @@ import {
   l as zt,
   y as Ht,
   z as jt,
-} from "./index-QwuuguuZ.js";
+} from "./index-CCe7Lu-B.js";
 import {
   g as Ut,
-  r as Co,
+  r as Ao,
   b as xt,
   u as Nt,
   a as Lt,
-} from "./index.esm2017-JfeAG2s4.js";
-import { T as Bt } from "./ToastNotification-2J6AO8ev.js";
+} from "./index.esm2017-xnObGOUN.js";
+import { T as Bt } from "./ToastNotification-mRGv3sEv.js";
 import {
   I as ta,
   n as Ft,
@@ -68,7 +68,7 @@ import {
   C as Kt,
   d as Jt,
   g as Yt,
-  h as Ao,
+  h as Co,
   i as Zt,
   j as es,
   k as as,
@@ -88,26 +88,26 @@ import {
   r as ms,
   z as ps,
   T as vs,
-  b as gs,
-  B as hs,
+  b as hs,
+  B as gs,
   E as fs,
   G as bs,
-  H as Cs,
-  J as As,
-} from "./ToastAttack-0kHZxpNW.js";
+  H as As,
+  J as Cs,
+} from "./ToastAttack-BamNNyhq.js";
 import { _ as Mo } from "./d20-icon-vaz1En3o.js";
-import { T as pe } from "./TabNav-0k8MUq4h.js";
-import { P as Be } from "./PowerCard-beWm0GIY.js";
-import { R as Do } from "./RitualCard-888T3wVY.js";
+import { T as pe } from "./TabNav-4AlT8nGd.js";
+import { P as Be } from "./PowerCard-39z67vzg.js";
+import { R as Do } from "./RitualCard-fptzTflG.js";
 import {
   W as Ro,
   P as Vo,
   M as To,
   C as Oo,
-} from "./CursedItemCard-CUwaY77V.js";
-import { c as ze } from "./classes-pvy_AWKl.js";
-import { S as $e } from "./SearchInput-Vr9n0nUP.js";
-import { b as qs, c as ys } from "./ClassCard-mGBOR1g7.js";
+} from "./CursedItemCard-m1uI5mCe.js";
+import { c as ze } from "./classes-wb0vVaNi.js";
+import { S as $e } from "./SearchInput-03fdP_9g.js";
+import { b as qs, c as ys } from "./ClassCard-yfYyNGje.js";
 import {
   H as ks,
   b as $s,
@@ -118,7 +118,7 @@ import {
   P as jo,
   M as la,
   c as Uo,
-} from "./HomebrewItems-DnXyWwLV.js";
+} from "./HomebrewItems-TgSS7jOC.js";
 import {
   d as _e,
   p as xo,
@@ -128,17 +128,17 @@ import {
   f as _s,
   m as Ps,
   g as Ms,
-} from "./default-tJ6A0c0K.js";
+} from "./default-dSfWXGfL.js";
 import { b as Ds } from "./forms-8DDAOOVU.js";
 import { _ as He, l as yo } from "./lodash-gzw5KmHd.js";
-import { D as ye } from "./DropdownSimple-O-H8dkm7.js";
+import { D as ye } from "./DropdownSimple-1_2dpnbs.js";
 import { v as je } from "./v4-cyCr5FZV.js";
-import { S as ra } from "./SwitchButtonBool-SDRvIcMo.js";
+import { S as ra } from "./SwitchButtonBool-v6yCMwuV.js";
 import { _ as Me } from "./blank-profile-picture-wMh28flS.js";
-import { P as Lo } from "./PictureModal-TrL67c-c.js";
-import { L as Rs } from "./LoadingView-BDyk9qee.js";
+import { P as Lo } from "./PictureModal-aYibvNls.js";
+import { L as Rs } from "./LoadingView-QvHCpB6F.js";
 import { s as Bo, e as Vs, o as Ts } from "./skins-kfsapBUO.js";
-import { g as Os, C as ws } from "./firebase-UUb4pQvs.js";
+import { g as Os, C as ws } from "./firebase-gLqIXTO_.js";
 import "./edit-icon-u1vf_q3w.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
@@ -162,7 +162,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     setup(a, { emit: b }) {
       Ue((i) => ({ "35fdf62f": a.buttonWidth }));
       const v = a,
-        g = b,
+        h = b,
         u = $(null),
         p = $(!1);
       _o(u, () => (p.value = !1));
@@ -170,7 +170,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           v.disabled || (p.value = !p.value);
         },
         m = (i) => {
-          (p.value = !1), g("updateValue", i);
+          (p.value = !1), h("updateValue", i);
         };
       return (i, d) => (
         o(),
@@ -223,7 +223,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 "dropdown-content-button",
                                 { bold: a.bold },
                               ]),
-                              onClick: (C) => m(t),
+                              onClick: (A) => m(t),
                             },
                             H(t),
                             11,
@@ -281,12 +281,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   ),
   pn = { class: "defense-input" },
   vn = ["disabled", "value"],
-  gn = Y(() => e("h5", null, "Equip.", -1)),
-  hn = Y(() => e("h4", { class: "defense-plus" }, " + ", -1)),
+  hn = Y(() => e("h5", null, "Equip.", -1)),
+  gn = Y(() => e("h4", { class: "defense-plus" }, " + ", -1)),
   fn = { class: "defense-input" },
   bn = ["disabled", "value"],
-  Cn = Y(() => e("h5", null, "Outros.", -1)),
-  An = { class: "other-defenses-container" },
+  An = Y(() => e("h5", null, "Outros.", -1)),
+  Cn = { class: "other-defenses-container" },
   qn = { class: "other-defense-div" },
   yn = Y(() => e("div", { class: "other-defense-label" }, " BLOCK DR ", -1)),
   kn = ["disabled", "value"],
@@ -318,7 +318,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = xe(),
         p = X(() =>
           v.character.movement === 0 ? 0 : v.character.movement / 1.5
@@ -333,12 +333,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         }),
         m = (d, t) => {
           var c;
-          g("handleChangeCharNumber", { e: d, key: t }),
+          h("handleChangeCharNumber", { e: d, key: t }),
             (c = u == null ? void 0 : u.proxy) == null || c.$forceUpdate();
         },
         i = (d) => {
           var t;
-          g("handleChangeMovementInSquares", d),
+          h("handleChangeMovementInSquares", d),
             (t = u == null ? void 0 : u.proxy) == null || t.$forceUpdate();
         };
       return (d, t) => (
@@ -437,7 +437,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ]),
           ]),
           e("div", sn, [
-            A(
+            C(
               ta,
               {
                 type: "pv",
@@ -446,14 +446,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 marks: d.character.deathMarks,
                 "mark-mode": d.character.deathMode,
                 "disabled-sheet": d.disabledSheet,
-                onHandleChangeCharNumber: t[4] || (t[4] = (c, C) => m(c, C)),
+                onHandleChangeCharNumber: t[4] || (t[4] = (c, A) => m(c, A)),
                 onHandleChangeCharNumberButton:
                   t[5] ||
-                  (t[5] = (c, C) =>
-                    d.$emit("handleChangeCharNumberButton", c, C)),
+                  (t[5] = (c, A) =>
+                    d.$emit("handleChangeCharNumberButton", c, A)),
                 onHandleChangeCharMark:
                   t[6] ||
-                  (t[6] = (c, C) => d.$emit("handleChangeCharMark", c, C)),
+                  (t[6] = (c, A) => d.$emit("handleChangeCharMark", c, A)),
                 onHandleChangeMarkModeToTrue:
                   t[7] ||
                   (t[7] = (c) => d.$emit("handleChangeMarkModeToTrue", c)),
@@ -470,7 +470,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 "disabled-sheet",
               ]
             ),
-            A(
+            C(
               ta,
               {
                 type: "san",
@@ -480,14 +480,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 marks: d.character.madnessMarks,
                 "mark-mode": d.character.madnessMode,
                 "disabled-sheet": d.disabledSheet,
-                onHandleChangeCharNumber: t[9] || (t[9] = (c, C) => m(c, C)),
+                onHandleChangeCharNumber: t[9] || (t[9] = (c, A) => m(c, A)),
                 onHandleChangeCharNumberButton:
                   t[10] ||
-                  (t[10] = (c, C) =>
-                    d.$emit("handleChangeCharNumberButton", c, C)),
+                  (t[10] = (c, A) =>
+                    d.$emit("handleChangeCharNumberButton", c, A)),
                 onHandleChangeCharMark:
                   t[11] ||
-                  (t[11] = (c, C) => d.$emit("handleChangeCharMark", c, C)),
+                  (t[11] = (c, A) => d.$emit("handleChangeCharMark", c, A)),
                 onHandleChangeMarkModeToTrue:
                   t[12] ||
                   (t[12] = (c) => d.$emit("handleChangeMarkModeToTrue", c)),
@@ -505,7 +505,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 "disabled-sheet",
               ]
             ),
-            A(
+            C(
               ta,
               {
                 type: "pe",
@@ -513,11 +513,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 "max-value": d.character.maxPe,
                 "current-value": d.character.currentPe,
                 "disabled-sheet": d.disabledSheet,
-                onHandleChangeCharNumber: t[14] || (t[14] = (c, C) => m(c, C)),
+                onHandleChangeCharNumber: t[14] || (t[14] = (c, A) => m(c, A)),
                 onHandleChangeCharNumberButton:
                   t[15] ||
-                  (t[15] = (c, C) =>
-                    d.$emit("handleChangeCharNumberButton", c, C)),
+                  (t[15] = (c, A) =>
+                    d.$emit("handleChangeCharNumberButton", c, A)),
               },
               null,
               8,
@@ -544,9 +544,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     40,
                     vn
                   ),
-                  gn,
+                  hn,
                 ]),
-                hn,
+                gn,
                 e("div", fn, [
                   e(
                     "input",
@@ -561,11 +561,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     40,
                     bn
                   ),
-                  Cn,
+                  An,
                 ]),
               ]),
             ]),
-            e("div", An, [
+            e("div", Cn, [
               e("div", qn, [
                 yn,
                 e(
@@ -690,26 +690,26 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = b,
-        g = (u) => {
+        h = (u) => {
           v("handleRollAttribute", u);
         };
       return (u, p) => (
         o(),
         n("div", Hn, [
-          A(
+          C(
             Qt,
             {
               character: u.character,
               "disabled-sheet": u.disabledSheet,
               onHandleChangeAttribute:
                 p[0] || (p[0] = (l) => u.$emit("handleChangeAttribute", l)),
-              onHandleRollAttribute: g,
+              onHandleRollAttribute: h,
             },
             null,
             8,
             ["character", "disabled-sheet"]
           ),
-          A(
+          C(
             zn,
             {
               character: u.character,
@@ -766,7 +766,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     setup(a, { emit: b }) {
       Ue((i) => ({ "2c89ebb8": a.color }));
       const v = a,
-        g = b,
+        h = b,
         u = $(null),
         p = $(!1);
       _o(u, () => (p.value = !1));
@@ -774,7 +774,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           v.disabled || (p.value = !p.value);
         },
         m = (i) => {
-          (p.value = !1), g("updateValue", i);
+          (p.value = !1), h("updateValue", i);
         };
       return (i, d) => (
         o(),
@@ -824,7 +824,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             "button",
                             {
                               class: "dropdown-content-button",
-                              onClick: (C) => m(t),
+                              onClick: (A) => m(t),
                             },
                             H(t),
                             9,
@@ -876,9 +876,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleRollSkill",
     ],
     setup(a, { emit: b }) {
-      Ue((C) => ({ "45097c96": i.value }));
+      Ue((A) => ({ "45097c96": i.value }));
       const v = a,
-        g = b,
+        h = b,
         u = ["AGI", "STR", "INT", "PRE", "VIG"],
         p = ["0", "5", "10", "15"],
         l = { trained: "#3d8b40", veteran: "#0a69b7", expert: "#b36b00" },
@@ -893,18 +893,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             : "#fff"
         ),
         d = () => {
-          g("handleOpenSkillModal", v.skill);
+          h("handleOpenSkillModal", v.skill);
         },
-        t = (C, P, M) => {
-          g("handleChangeSkillDropdown", { value: C, skillName: P, key: M });
+        t = (A, P, M) => {
+          h("handleChangeSkillDropdown", { value: A, skillName: P, key: M });
         },
-        c = (C, P) => {
+        c = (A, P) => {
           var f;
-          const M = C.target.valueAsNumber;
-          g("handleChangeSkillOtherBonus", { value: M, skillName: P }),
+          const M = A.target.valueAsNumber;
+          h("handleChangeSkillOtherBonus", { value: M, skillName: P }),
             (f = m == null ? void 0 : m.proxy) == null || f.$forceUpdate();
         };
-      return (C, P) => (
+      return (A, P) => (
         o(),
         n(
           j,
@@ -916,7 +916,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 {
                   class: J(["roll-button", { disabled: a.disabledSheet }]),
                   onClick:
-                    P[0] || (P[0] = (M) => C.$emit("handleRollSkill", a.skill)),
+                    P[0] || (P[0] = (M) => A.$emit("handleRollSkill", a.skill)),
                 },
                 Xn,
                 2
@@ -948,7 +948,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             a.index > a.length - 7
               ? (o(),
                 n("td", Jn, [
-                  A(
+                  C(
                     we,
                     {
                       value: a.skill.attribute,
@@ -966,7 +966,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ]))
               : (o(),
                 n("td", Yn, [
-                  A(
+                  C(
                     we,
                     {
                       value: a.skill.attribute,
@@ -985,7 +985,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             a.index > a.length - 7
               ? (o(),
                 n("td", or, [
-                  A(
+                  C(
                     we,
                     {
                       value: a.skill.trainingDegree,
@@ -1005,7 +1005,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ]))
               : (o(),
                 n("td", tr, [
-                  A(
+                  C(
                     we,
                     {
                       value: a.skill.trainingDegree,
@@ -1091,12 +1091,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = (l) => {
-          v.disabledSheet || g("handleOpenSkillModal", l);
+          v.disabledSheet || h("handleOpenSkillModal", l);
         },
         p = (l) => {
-          v.disabledSheet || g("handleRollSkill", l);
+          v.disabledSheet || h("handleRollSkill", l);
         };
       return (l, m) => (
         o(),
@@ -1114,7 +1114,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   (i, d) => (
                     o(),
                     n("tr", { key: i.name }, [
-                      A(
+                      C(
                         dr,
                         {
                           skill: i,
@@ -1151,14 +1151,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   $o = V(pr, [["__scopeId", "data-v-f2b17d30"]]),
   va = (a) => (w("data-v-f08c1d1d"), (a = a()), z(), a),
   vr = { class: "tab" },
-  gr = { key: 0 },
-  hr = { class: "roll-dices-container" },
+  hr = { key: 0 },
+  gr = { class: "roll-dices-container" },
   fr = ["disabled", "onKeyup"],
   br = ["disabled"],
-  Cr = va(() =>
+  Ar = va(() =>
     e("img", { class: "dice-icon", src: Mo, alt: "rolar" }, null, -1)
   ),
-  Ar = [Cr],
+  Cr = [Ar],
   qr = { key: 2 },
   yr = { key: 0 },
   kr = { key: 1, class: "no-content" },
@@ -1179,14 +1179,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = $(""),
         p = $(""),
         l = () => {
-          v.disabledSheet || (g("handleRollDices", u.value), (u.value = ""));
+          v.disabledSheet || (h("handleRollDices", u.value), (u.value = ""));
         },
         m = (d) => {
-          v.disabledSheet || g("handleRollAttack", d);
+          v.disabledSheet || h("handleRollAttack", d);
         },
         i = X(() => [...v.character.attacks].filter((t) => K(t.name, p.value)));
       return (d, t) => (
@@ -1194,8 +1194,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         n("div", vr, [
           d.character.attacks.length > 0
             ? (o(),
-              n("div", gr, [
-                A(
+              n("div", hr, [
+                C(
                   Le,
                   {
                     value: p.value,
@@ -1209,7 +1209,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ),
               ]))
             : q("", !0),
-          e("div", hr, [
+          e("div", gr, [
             be(
               e(
                 "input",
@@ -1225,7 +1225,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 40,
                 fr
               ),
-              [[Ce, u.value]]
+              [[Ae, u.value]]
             ),
             e(
               "button",
@@ -1234,7 +1234,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 disabled: d.disabledSheet,
                 onClick: l,
               },
-              Ar,
+              Cr,
               10,
               br
             ),
@@ -1267,7 +1267,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           (c) => (
                             o(),
                             n("div", { key: c.id, class: "align-card" }, [
-                              A(
+                              C(
                                 Gt,
                                 {
                                   id: c.id,
@@ -1275,10 +1275,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   disabled: d.disabledSheet,
                                   onHandleRemoveAttack:
                                     t[3] ||
-                                    (t[3] = (C) =>
-                                      d.$emit("handleRemoveAttack", C)),
-                                  onHandleEdit: (C) =>
-                                    d.$emit("handleEditAttack", C),
+                                    (t[3] = (A) =>
+                                      d.$emit("handleRemoveAttack", A)),
+                                  onHandleEdit: (A) =>
+                                    d.$emit("handleEditAttack", A),
                                   onHandleRollAttack: m,
                                 },
                                 null,
@@ -1322,14 +1322,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = $(""),
         p = X(() =>
           [...v.character.powers]
             .filter((i) => K(i.name, u.value))
             .sort((i, d) => i.name.localeCompare(d.name))
         ),
-        l = (m) => g("handleEditPower", m);
+        l = (m) => h("handleEditPower", m);
       return (m, i) => (
         o(),
         n("div", Mr, [
@@ -1337,7 +1337,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             m.character.powers.length > 0
               ? (o(),
                 n("div", Rr, [
-                  A(
+                  C(
                     Le,
                     {
                       value: u.value,
@@ -1393,7 +1393,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           (d) => (
                             o(),
                             n("div", { key: d.id, class: "sheet-card-list" }, [
-                              A(
+                              C(
                                 Be,
                                 {
                                   id: d.id,
@@ -1425,21 +1425,21 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     },
   }),
   Go = V(xr, [["__scopeId", "data-v-79ae51ca"]]),
-  ga = (a) => (w("data-v-d3cb0405"), (a = a()), z(), a),
+  ha = (a) => (w("data-v-d3cb0405"), (a = a()), z(), a),
   Nr = { class: "tab" },
   Lr = { class: "tab-header" },
   Br = { key: 0 },
   Fr = { class: "ritual-dc-wrapper" },
   Qr = { class: "ritual-dc-container" },
-  Gr = ga(() => e("h4", { class: "sheet-subtitle" }, " RITUAL DC ", -1)),
+  Gr = ha(() => e("h4", { class: "sheet-subtitle" }, " RITUAL DC ", -1)),
   Xr = ["disabled", "value"],
   Wr = { key: 1, class: "sheet-cards-container" },
   Kr = { key: 0 },
   Jr = { key: 1, class: "no-content" },
-  Yr = ga(() => e("h3", null, "No ritual found", -1)),
+  Yr = ha(() => e("h3", null, "No ritual found", -1)),
   Zr = [Yr],
   ed = { key: 2, class: "no-content" },
-  ad = ga(() => e("h3", null, "You have yet to add a ritual", -1)),
+  ad = ha(() => e("h3", null, "You have yet to add a ritual", -1)),
   od = [ad],
   td = R({
     __name: "RitualsTab",
@@ -1454,22 +1454,22 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = xe(),
         p = $(""),
         l = X(() =>
           [...v.character.rituals]
             .filter((c) => K(c.name, p.value))
-            .sort((c, C) => c.name.localeCompare(C.name))
+            .sort((c, A) => c.name.localeCompare(A.name))
         ),
         m = (t) => {
           var c;
-          g("handleChangeRitualDc", t),
+          h("handleChangeRitualDc", t),
             (c = u == null ? void 0 : u.proxy) == null || c.$forceUpdate();
         },
-        i = (t) => g("handleEditRitual", t),
+        i = (t) => h("handleEditRitual", t),
         d = (t, c) => {
-          g("handleRollRitual", t, c);
+          h("handleRollRitual", t, c);
         };
       return (t, c) => (
         o(),
@@ -1478,12 +1478,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             t.character.rituals.length > 0
               ? (o(),
                 n("div", Br, [
-                  A(
+                  C(
                     Le,
                     {
                       value: p.value,
                       placeholder: "Filter rituals",
-                      onUpdate: c[0] || (c[0] = (C) => (p.value = C)),
+                      onUpdate: c[0] || (c[0] = (A) => (p.value = A)),
                     },
                     null,
                     8,
@@ -1500,7 +1500,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     key: 1,
                     class: "button-primary add-button",
                     onClick:
-                      c[1] || (c[1] = (C) => t.$emit("handleOpenRitualsModal")),
+                      c[1] || (c[1] = (A) => t.$emit("handleOpenRitualsModal")),
                   },
                   " Add New "
                 )),
@@ -1532,7 +1532,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   key: 0,
                   class: "button-secondary add-new-button",
                   onClick:
-                    c[2] || (c[2] = (C) => t.$emit("handleOpenAddRitual")),
+                    c[2] || (c[2] = (A) => t.$emit("handleOpenAddRitual")),
                 },
                 " New Ritual "
               )),
@@ -1548,14 +1548,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         null,
                         L(
                           l.value,
-                          (C) => (
+                          (A) => (
                             o(),
-                            n("div", { key: C.id, class: "sheet-card-list" }, [
-                              A(
+                            n("div", { key: A.id, class: "sheet-card-list" }, [
+                              C(
                                 Do,
                                 {
-                                  id: C.id,
-                                  ritual: C,
+                                  id: A.id,
+                                  ritual: A,
                                   disabled: t.disabledSheet,
                                   "only-show": "",
                                   sheet: "",
@@ -1598,12 +1598,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   md = { class: "inventory-row" },
   pd = { key: 0 },
   vd = { class: "input-container" },
-  gd = ie(() => e("h4", { class: "sheet-subtitle" }, " ITEM LIMIT ", -1)),
-  hd = ["disabled", "value"],
+  hd = ie(() => e("h4", { class: "sheet-subtitle" }, " ITEM LIMIT ", -1)),
+  gd = ["disabled", "value"],
   fd = ["disabled", "value"],
   bd = ["disabled", "value"],
-  Cd = ["disabled", "value"],
-  Ad = { key: 1 },
+  Ad = ["disabled", "value"],
+  Cd = { key: 1 },
   qd = { class: "input-container" },
   yd = ie(() => e("h4", { class: "sheet-subtitle" }, " ITEM LIMIT ", -1)),
   kd = { class: "mobile-input-container-row" },
@@ -1663,7 +1663,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   mi = { key: 1, class: "no-content" },
   pi = ie(() => e("h3", null, "You have yet to add an item", -1)),
   vi = [pi],
-  gi = R({
+  hi = R({
     __name: "InventoryTab",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -1683,7 +1683,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     setup(a, { emit: b }) {
       Ue((f) => ({ "53e467a2": t.value }));
       const v = a,
-        g = b,
+        h = b,
         u = [
           "Mundane",
           "Recruit",
@@ -1711,17 +1711,17 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         c = X(() =>
           v.character.currentLoad < 0 ? 0 : v.character.currentLoad
         ),
-        C = (f) => g("handleEditItem", f),
+        A = (f) => h("handleEditItem", f),
         P = (f, y) => {
           var B;
           const D = f.target.valueAsNumber;
-          g("handleChangeItemsLimit", { value: D, key: y }),
+          h("handleChangeItemsLimit", { value: D, key: y }),
             (B = l == null ? void 0 : l.proxy) == null || B.$forceUpdate();
         },
         M = (f, y) => {
           var B;
           const D = f.target.valueAsNumber;
-          g("handleChangeInventoryNumber", { value: D, key: y }),
+          h("handleChangeInventoryNumber", { value: D, key: y }),
             (B = l == null ? void 0 : l.proxy) == null || B.$forceUpdate();
         };
       return (
@@ -1731,7 +1731,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           });
         }),
         (f, y) => {
-          var D, B, ve, s, I, k, O, ge;
+          var D, B, ve, s, I, k, O, he;
           return (
             o(),
             n("div", sd, [
@@ -1739,7 +1739,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 f.character.inventory.length > 0
                   ? (o(),
                     n("div", rd, [
-                      A(
+                      C(
                         Le,
                         {
                           value: m.value,
@@ -1785,7 +1785,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       cd
                     ),
                   ]),
-                  A(
+                  C(
                     ua,
                     {
                       title: "RANK",
@@ -1812,7 +1812,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ? (o(),
                       n("div", pd, [
                         e("div", vd, [
-                          gd,
+                          hd,
                           e(
                             "input",
                             {
@@ -1825,7 +1825,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             },
                             null,
                             40,
-                            hd
+                            gd
                           ),
                           e(
                             "input",
@@ -1867,12 +1867,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             },
                             null,
                             40,
-                            Cd
+                            Ad
                           ),
                         ]),
                       ]))
                     : (o(),
-                      n("div", Ad, [
+                      n("div", Cd, [
                         e("div", qd, [
                           yd,
                           e("div", kd, [
@@ -2023,9 +2023,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               "div",
                               Ld,
                               H(
-                                ((ge = f.character.currentItemsLimit) == null
+                                ((he = f.character.currentItemsLimit) == null
                                   ? void 0
-                                  : ge.IV) || "0"
+                                  : he.IV) || "0"
                               ),
                               1
                             ),
@@ -2034,7 +2034,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       ])),
                 ]),
                 e("div", Bd, [
-                  A(
+                  C(
                     ua,
                     {
                       title: "CREDIT LIMIT",
@@ -2220,7 +2220,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                     E.itemType === "weapon"
                                       ? (o(),
                                         n("div", ni, [
-                                          A(
+                                          C(
                                             Ro,
                                             {
                                               id: E.id,
@@ -2242,7 +2242,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                                     "handleEquipItem",
                                                     Z
                                                   )),
-                                              onHandleEdit: C,
+                                              onHandleEdit: A,
                                             },
                                             null,
                                             8,
@@ -2253,7 +2253,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                     E.itemType === "protection"
                                       ? (o(),
                                         n("div", ri, [
-                                          A(
+                                          C(
                                             Vo,
                                             {
                                               id: E.id,
@@ -2275,7 +2275,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                                     "handleEquipItem",
                                                     Z
                                                   )),
-                                              onHandleEdit: C,
+                                              onHandleEdit: A,
                                             },
                                             null,
                                             8,
@@ -2287,7 +2287,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                     E.itemType === "ammunition"
                                       ? (o(),
                                         n("div", di, [
-                                          A(
+                                          C(
                                             To,
                                             {
                                               id: E.id,
@@ -2302,7 +2302,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                                     "handleRemoveItem",
                                                     Z.id
                                                   )),
-                                              onHandleEdit: C,
+                                              onHandleEdit: A,
                                             },
                                             null,
                                             8,
@@ -2313,7 +2313,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                     E.itemType === "cursedItem"
                                       ? (o(),
                                         n("div", ii, [
-                                          A(
+                                          C(
                                             Oo,
                                             {
                                               id: E.id,
@@ -2328,7 +2328,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                                     "handleRemoveItem",
                                                     Z.id
                                                   )),
-                                              onHandleEdit: C,
+                                              onHandleEdit: A,
                                             },
                                             null,
                                             8,
@@ -2352,17 +2352,17 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Wo = V(gi, [["__scopeId", "data-v-d9d5c266"]]),
-  hi = { class: "tab" },
+  Wo = V(hi, [["__scopeId", "data-v-d9d5c266"]]),
+  gi = { class: "tab" },
   fi = { class: "textarea-container" },
   bi = ["disabled", "placeholder", "value", "onBlur"],
-  Ci = R({
+  Ai = R({
     __name: "DescriptionTab",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: ["handleChangeDescription"],
     setup(a, { emit: b }) {
       const v = b,
-        g = (p, l) => {
+        h = (p, l) => {
           const m = { value: p.target.value, key: l };
           v("handleChangeDescription", m);
         },
@@ -2397,7 +2397,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         ];
       return (p, l) => (
         o(),
-        n("div", hi, [
+        n("div", gi, [
           (o(),
           n(
             j,
@@ -2414,7 +2414,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       disabled: p.disabledSheet,
                       placeholder: m.placeholder,
                       value: p.character.description[m.key],
-                      onBlur: (i) => g(i, m.key),
+                      onBlur: (i) => h(i, m.key),
                     },
                     `\r
         `,
@@ -2430,8 +2430,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Ko = V(Ci, [["__scopeId", "data-v-c2fd2df6"]]),
-  Ai = { class: "sheet-tab-container" },
+  Ko = V(Ai, [["__scopeId", "data-v-c2fd2df6"]]),
+  Ci = { class: "sheet-tab-container" },
   qi = { class: "tab-nav-container" },
   yi = R({
     __name: "SheetTabView",
@@ -2471,7 +2471,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = b,
-        g = [
+        h = [
           { label: "COMBAT", value: 0 },
           { label: "ABILITIES", value: 1 },
           { label: "RITUALS", value: 2 },
@@ -2486,7 +2486,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         d = (I) => v("handleChangeAttackDropdown", I),
         t = (I) => v("handleChangeDescription", I),
         c = (I) => v("handleChangeInventoryNumber", I),
-        C = (I) => v("handleChangeItemsLimit", I),
+        A = (I) => v("handleChangeItemsLimit", I),
         P = (I) => v("handleChangeInventoryDropdown", I),
         M = (I) => v("handleRollAttack", I),
         f = (I) => v("handleChangeRitualDc", I),
@@ -2497,12 +2497,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         s = (I, k) => v("handleRollRitual", I, k);
       return (I, k) => (
         o(),
-        n("div", Ai, [
+        n("div", Ci, [
           e("div", qi, [
-            A(
+            C(
               pe,
               {
-                "tab-options": g,
+                "tab-options": h,
                 "current-tab": p.value,
                 "no-gap": "",
                 onHandleNavigation: l,
@@ -2565,7 +2565,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   onHandleChangeAttackDropdown: d,
                   onHandleChangeDescription: t,
                   onHandleChangeInventoryNumber: c,
-                  onHandleChangeItemsLimit: C,
+                  onHandleChangeItemsLimit: A,
                   onHandleChangeInventoryDropdown: P,
                   onHandleRollDices:
                     k[16] || (k[16] = (O) => I.$emit("handleRollDices", O)),
@@ -2604,19 +2604,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             null,
             L(
               a.options,
-              (g) => (
+              (h) => (
                 o(),
                 n(
                   "button",
                   {
-                    key: g.value,
+                    key: h.value,
                     class: J([
                       "switch-button",
-                      { active: g.value === a.value },
+                      { active: h.value === a.value },
                     ]),
-                    onClick: (u) => b.$emit("handleNavigation", g.value),
+                    onClick: (u) => b.$emit("handleNavigation", h.value),
                   },
-                  H(g.label),
+                  H(h.label),
                   11,
                   Ei
                 )
@@ -2628,7 +2628,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  ha = V(Ii, [["__scopeId", "data-v-9be4a122"]]),
+  ga = V(Ii, [["__scopeId", "data-v-9be4a122"]]),
   Si = { class: "class-abilities-container" },
   _i = { key: 0, class: "search-container" },
   Pi = { key: 1, class: "class-abilities-content" },
@@ -2638,17 +2638,17 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = $([]),
         p = $([]),
         l = $([]),
         m = $(0),
         i = $(""),
-        d = (c) => g("handleAddPower", c);
+        d = (c) => h("handleAddPower", c);
       Ee(() => {
         l.value.push({ label: `${v.classValue.name} Powers`, value: 0 }),
-          v.classValue.paths.forEach((c, C) => {
-            l.value.push({ label: c.name, value: C + 1 }), p.value.push(c);
+          v.classValue.paths.forEach((c, A) => {
+            l.value.push({ label: c.name, value: A + 1 }), p.value.push(c);
           });
         for (const c of v.classValue.abilities) u.value.push(c);
         for (const c of v.classValue.powers) u.value.push(c);
@@ -2658,20 +2658,20 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           ? m.value === 0
             ? u.value
                 .filter((c) => K(c.name, i.value))
-                .sort((c, C) => c.name.localeCompare(C.name))
+                .sort((c, A) => c.name.localeCompare(A.name))
             : p.value[m.value - 1].abilities
           : []
       );
-      return (c, C) => (
+      return (c, A) => (
         o(),
         n("div", Si, [
-          A(
+          C(
             pe,
             {
               "current-tab": m.value,
               "tab-options": l.value,
               secondary: "",
-              onHandleNavigation: C[0] || (C[0] = (P) => (m.value = P)),
+              onHandleNavigation: A[0] || (A[0] = (P) => (m.value = P)),
             },
             null,
             8,
@@ -2680,12 +2680,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           m.value === 0
             ? (o(),
               n("div", _i, [
-                A(
+                C(
                   $e,
                   {
                     value: i.value,
                     dark: "",
-                    onUpdate: C[1] || (C[1] = (P) => (i.value = P)),
+                    onUpdate: A[1] || (A[1] = (P) => (i.value = P)),
                   },
                   null,
                   8,
@@ -2705,7 +2705,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     (P) => (
                       o(),
                       n("div", { key: P.name, class: "class-abilitie-card" }, [
-                        A(Be, { power: P, onHandleAdd: d }, null, 8, ["power"]),
+                        C(Be, { power: P, onHandleAdd: d }, null, 8, ["power"]),
                       ])
                     )
                   ),
@@ -2726,7 +2726,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
       const v = b,
-        g = (m) => v("handleAddPower", m),
+        h = (m) => v("handleAddPower", m),
         u = $([]),
         p = $("");
       Ee(() => {
@@ -2741,7 +2741,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         o(),
         n("div", Di, [
           e("div", Ri, [
-            A(
+            C(
               $e,
               {
                 value: p.value,
@@ -2763,7 +2763,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 (d) => (
                   o(),
                   n("div", { key: d.name, class: "class-abilitie-card" }, [
-                    A(Be, { power: d, onHandleAdd: g }, null, 8, ["power"]),
+                    C(Be, { power: d, onHandleAdd: h }, null, 8, ["power"]),
                   ])
                 )
               ),
@@ -2781,133 +2781,133 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       element: "Varies",
       description:
         "<p>Através de uma conexão com as memórias de ocultistas do passado e os segredos das entidades, você aprende e pode conjurar um ritual de 1º circle à sua escolha. Além disso, você pode substituir um ritual que já conhece por outro. A partir de 45% de NEX, quando escolhe este poder, você aprende um ritual de até 2nd circle e, a partir de 75% de NEX, aprende um ritual de até 3rd circle. Você pode escolher esse poder quantas vezes quiser, mas está sujeito ao limite de rituais conhecidos. <em>Este poder conta como um poder do elemento do ritual escolhido.</em></p>",
-    },
+          },
     {
       name: "Resistir a <Elemento>",
       element: "Varies",
       description:
         "<p>Escolha entre Knowledge, Energy, Death ou Blood. Você recebe resistência 10 contra esse elemento. <em>Este poder conta como um poder do elemento escolhido.</em></p><p><span>Afinidade:</span> aumenta a resistência para 20.</p>",
-    },
+          },
     {
       name: "Expansão de Conhecimento",
       element: "Knowledge",
       description:
         "<p>Você se conecta com o Conhecimento do Outro Lado, rompendo os limites de sua compreensão. Você aprende um poder de classe que não pertença à sua classe (caso o poder possua pré-requisitos, você precisa preenchê-los). <em>Pré-requisito:</em> Knowledge 1.</p><p><span>Afinidade:</span> você aprende um segundo poder de classe que não pertença à sua classe.</p>",
-    },
+          },
     {
       name: "Percepção Paranormal",
       element: "Knowledge",
       description:
         "<p>O Conhecimento sussurra em sua mente. Em cenas de investigação, sempre que fizer um teste para procurar pistas, você pode rolar novamente um dado com resultado menor que 10. Você deve aceitar a segunda rolagem, mesmo que seja menor que a primeira.</p><p><span>Afinidade:</span> você pode rolar novamente até dois dados com resultado menor que 10.</p>",
-    },
+          },
     {
       name: "Precognição",
       element: "Knowledge",
       description:
         "<p>Você possui um “sexto sentido” que o avisa do perigo antes que ele aconteça. Você recebe +2 em Defesa e em testes de resistência. <em>Pré-requisito:</em> Knowledge 1.</p><p><span>Afinidade:</span> você fica imune à condição desprevenido.</p>",
-    },
+          },
     {
       name: "Sensitivo",
       element: "Knowledge",
       description:
         "<p>Você consegue sentir as emoções e intenções de outros personagens, como medo, raiva ou malícia, recebendo +5 em testes de Diplomacia, Intimidação e Intuição.</p><p><span>Afinidade:</span> quando você faz um teste oposto usando uma dessas perícias, o oponente sofre –1d20.</p>",
-    },
+          },
     {
       name: "Visão do Oculto",
       element: "Knowledge",
       description:
         "<p>Você não enxerga mais pelos olhos, mas sim pela percepção do Conhecimento em sua mente. Você recebe +5 em testes de Percepção e enxerga no escuro.</p><p><span>Afinidade:</span> você ignora camuflagem.</p>",
-    },
+          },
     {
       name: "Afortunado",
       element: "Energy",
       description:
         "<p>A Energy considera resultados medíocres entediantes. Uma vez por rolagem, você pode rolar novamente um resultado 1 em qualquer dado que não seja d20.</p><p><span>Afinidade:</span> além disso, uma vez por teste, você pode rolar novamente um resultado 1 em d20.</p>",
-    },
+          },
     {
       name: "Campo Protetor",
       element: "Energy",
       description:
         "<p>Você consegue gerar um campo de Energy que o protege de perigos. Quando usa a ação esquiva, você pode gastar 1 EP para receber +5 em Defesa. <em>Pré-requisito:</em> Energy 1.</p><p><span>Afinidade:</span> quando usa este poder, você também recebe +5 em Reflexo e, até o início de seu próximo turno, se passar em um teste de Reflexo que reduziria o dano à metade, em vez disso não sofre nenhum dano.</p>",
-    },
+          },
     {
       name: "Causalidade Fortuita",
       element: "Energy",
       description:
         "<p>A Energy o conduz rumo à descobertas. Em cenas de investigação, a DT para procurar pistas diminui em -5 para você até você encontrar uma pista.</p><p><span>Afinidade:</span> a DT para procurar pistas sempre diminui em –5 para você.</p>",
-    },
+          },
     {
       name: "Golpe de Sorte",
       element: "Energy",
       description:
         "<p>Seus ataques recebem +1 na margem de ameaça. <em>Pré-requisito:</em> Energy 1.</p><p><span>Afinidade:</span> seus ataques recebem +1 no multiplicador de crítico.</p>",
-    },
+          },
     {
       name: "Manipular Entropia",
       element: "Energy",
       description:
         "<p>Nada diverte mais a Energy do que a possibilidade de um desastre ainda maior. Você pode gastar 2 EP para fazer um alvo em alcance curto (exceto você mesmo) rolar novamente um dos dados em um teste de perícia. <em>Pré-requisito:</em> Energy 1.</p><p><span>Afinidade:</span> o alvo rola novamente todos os dados que você escolher.</p>",
-    },
+          },
     {
       name: "Encarar a Death",
       element: "Death",
       description:
         "<p>Sua conexão com a Death faz com que você não hesite em situações de perigo. Durante cenas de ação, seu limite de gasto de EP aumenta em +1 (isso não afeta a DT de seus efeitos).</p><p><span>Afinidade:</span> durante cenas de ação, seu limite de gasto de EP aumenta em +2 (para um total de +3).</p>",
-    },
+          },
     {
       name: "Escapar da Death",
       element: "Death",
       description:
         "<p>A Death tem um interesse especial em sua caminhada. Uma vez por cena, quando receber dano que o deixaria com 0 PV, você fica com 1 PV. Não funciona em caso de dano massivo. <em>Pré-requisito:</em> Death 1.</p><p><span>Afinidade:</span> em vez do normal, você evita completamente o dano. Em caso de dano massivo, você fica com 1 PV.</p>",
-    },
+          },
     {
       name: "Potencial Aprimorado",
       element: "Death",
       description:
         "<p>A Death lhe concede potencial latente de momentos roubados de outro lugar. Você recebe +1 ponto de esforço por NEX. Quando sobe de NEX, os EP que recebe por este poder aumentam de acordo. Por exemplo, se escolher este poder em NEX 30%, recebe 6 EP. Quando subir para NEX 35%, recebe +1 EP adicional, e assim por diante.</p><p><span>Afinidade:</span> você recebe +1 EP adicional por NEX (para um total de +2 EP por NEX).</p>",
-    },
+          },
     {
       name: "Potencial Reaproveitado",
       element: "Death",
       description:
         "<p>Você absorve os momentos desperdiçados de outros seres. Uma vez por rodada, quando passa num teste de resistência, você ganha 2 EP temporários cumulativos. Os pontos desaparecem no final da cena.</p><p><span>Afinidade:</span> você ganha 3 EP temporários, em vez de 2.</p>",
-    },
+          },
     {
       name: "Surto Temporal",
       element: "Death",
       description:
         "<p>A sua percepção temporal se torna distorcida e espiralizada, fazendo com que a noção de passagem do tempo nunca mais seja a mesma para você. Uma vez por cena, durante seu turno, você pode gastar 3 EP para realizar uma ação padrão adicional. <em>Pré-requisito:</em> Death 2.</p><p><span>Afinidade:</span> em vez de uma vez por cena, você pode usar este poder uma vez por turno.</p>",
-    },
+          },
     {
       name: "Anatomia Insana",
       element: "Blood",
       description:
         "<p>O seu corpo é transfigurado e parece desenvolver um instinto próprio separado da sua consciência. Você tem 50% de chance (resultado par em 1d4) de ignorar o dano adicional de um acerto crítico ou ataque furtivo. <em>Pré-requisito:</em> Blood 2.</p><p><span>Afinidade:</span> você é imune aos efeitos de acertos críticos e ataques furtivos.</p>",
-    },
+          },
     {
       name: "Arma de Blood",
       element: "Blood",
       description:
         "<p>O Blood devora parte de seu corpo e se manifesta como parte de você. Você pode gastar uma ação de movimento e 2 EP para produzir garras, chifres ou uma lâmina de sangue cristalizado que brota de seu antebraço. Qualquer que seja sua escolha, é considerada uma arma simples leve que você não precisa empunhar e causa 1d6 pontos de dano de Blood. Uma vez por turno, quando você usa a ação agredir, pode gastar 1 EP para fazer um ataque adicional com essa arma. A arma dura até o final da cena, e então se desfaz numa poça de sangue coagulado.</p><p><span>Afinidade:</span> a arma se torna permanentemente parte de você e causa 1d10 pontos de dano de Blood.</p>",
-    },
+          },
     {
       name: "Blood de Ferro",
       element: "Blood",
       description:
         "<p>O seu sangue flui de forma paranormal e agressiva, concedendo vigor não natural. Você recebe +2 pontos de vida por NEX. Quando sobe de NEX, os PV que recebe por este poder aumentam de acordo. Por exemplo, se escolher este poder em NEX 50%, recebe 20 PV. Quando subir para NEX 55%, recebe +2 PV, e assim por diante.</p><p><span>Afinidade:</span> você recebe +5 em Fortitude e se torna imune a venenos e doenças.</p>",
-    },
+          },
     {
       name: "Blood Fervente",
       element: "Blood",
       description:
         "<p>A intensidade da dor desperta em você sentimentos bestiais e prazerosos que você nem imaginava que existiam. Enquanto estiver machucado, você recebe +1 em Agilidade ou Força, à sua escolha (escolha sempre que este efeito for ativado). <em>Pré-requisito:</em> Blood 2.</p><p><span>Afinidade:</span> o bônus que você recebe em Agilidade ou Força aumenta para +2.</p>",
-    },
+          },
     {
       name: "Blood Vivo",
       element: "Blood",
       description:
         "<p>A carnificina não pode parar, o Blood precisa continuar fluindo. Na primeira vez que ficar machucado durante uma cena, você recebe cura acelerada 2. Esse efeito nunca cura você acima da metade dos PV máximos (ou seja, você nunca deixa de estar machucado) e termina no fim da cena ou caso você perca a condição machucado. <em>Pré-requisito:</em> Blood 1.</p><p><span>Afinidade:</span> a cura acelerada aumenta para 5.</p>",
-    },
+          },
   ],
   zi = { class: "class-abilities-container" },
   Hi = { key: 0, class: "class-abilities-content" },
@@ -2916,7 +2916,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
       const v = b,
-        g = [
+        h = [
           { label: "Knowledge", value: 0 },
           { label: "Energy", value: 1 },
           { label: "Death", value: 2 },
@@ -2925,15 +2925,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         ],
         u = $(0),
         p = (m) => v("handleAddPower", m),
-        l = X(() => wi.filter((m) => m.element === g[u.value].label));
+        l = X(() => wi.filter((m) => m.element === h[u.value].label));
       return (m, i) => (
         o(),
         n("div", zi, [
-          A(
+          C(
             pe,
             {
               "current-tab": u.value,
-              "tab-options": g,
+              "tab-options": h,
               secondary: "",
               onHandleNavigation: i[0] || (i[0] = (d) => (u.value = d)),
             },
@@ -2953,7 +2953,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     (d) => (
                       o(),
                       n("div", { key: d.name, class: "class-abilitie-card" }, [
-                        A(Be, { power: d, onHandleAdd: p }, null, 8, ["power"]),
+                        C(Be, { power: d, onHandleAdd: p }, null, 8, ["power"]),
                       ])
                     )
                   ),
@@ -2978,7 +2978,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleCloseModal", "handleAddPower"],
     setup(a, { emit: b }) {
       const v = b,
-        g = [
+        h = [
           { label: "Combatant", value: 0 },
           { label: "Specialist", value: 1 },
           { label: "Occultist", value: 2 },
@@ -2991,9 +2991,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       return (m, i) => (
         o(),
         n("div", xi, [
-          A(
+          C(
             pe,
-            { "current-tab": u.value, "tab-options": g, onHandleNavigation: p },
+            { "current-tab": u.value, "tab-options": h, onHandleNavigation: p },
             null,
             8,
             ["current-tab"]
@@ -3001,7 +3001,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           u.value === 0
             ? (o(),
               n("div", Ni, [
-                A(
+                C(
                   da,
                   { "class-value": G(ze)[0], onHandleAddPower: l },
                   null,
@@ -3013,7 +3013,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           u.value === 1
             ? (o(),
               n("div", Li, [
-                A(
+                C(
                   da,
                   { "class-value": G(ze)[1], onHandleAddPower: l },
                   null,
@@ -3025,7 +3025,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           u.value === 2
             ? (o(),
               n("div", Bi, [
-                A(
+                C(
                   da,
                   { "class-value": G(ze)[2], onHandleAddPower: l },
                   null,
@@ -3035,10 +3035,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               ]))
             : q("", !0),
           u.value === 3
-            ? (o(), n("div", Fi, [A(Oi, { onHandleAddPower: l })]))
+            ? (o(), n("div", Fi, [C(Oi, { onHandleAddPower: l })]))
             : q("", !0),
           u.value === 4
-            ? (o(), n("div", Qi, [A(Ui, { onHandleAddPower: l })]))
+            ? (o(), n("div", Qi, [C(Ui, { onHandleAddPower: l })]))
             : q("", !0),
         ])
       );
@@ -3060,7 +3060,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleAddPower", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
-        g = [Xi, ks],
+        h = [Xi, ks],
         u = [
           { label: "Abilities", value: 0 },
           { label: "My Abilities", value: 1 },
@@ -3080,8 +3080,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ),
           ]),
           e("div", el, [
-            A(
-              ha,
+            C(
+              ga,
               { value: p.value, options: u, onHandleNavigation: l },
               null,
               8,
@@ -3094,7 +3094,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               [
                 (o(),
                 N(
-                  Pe(g[p.value]),
+                  Pe(h[p.value]),
                   { character: i.character, onHandleAddPower: m },
                   null,
                   40,
@@ -3111,7 +3111,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   ol = V(al, [["__scopeId", "data-v-7388a7f6"]]),
   W = [
     {
-      name: "Short Bullets",
+      name: "Balas Curtas",
       category: "0",
       slots: 1,
       tag: "Ammo",
@@ -4352,13 +4352,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   ml = { key: 0 },
   pl = { key: 1 },
   vl = { key: 2 },
-  gl = { key: 3 },
-  hl = R({
+  hl = { key: 3 },
+  gl = R({
     __name: "InventoryModalContent",
     emits: ["handleAddItem", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
-        g = [
+        h = [
           { label: "Weapons", value: 0 },
           { label: "Ammo", value: 1 },
           { label: "Armor", value: 2 },
@@ -4392,12 +4392,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       return (t, c) => (
         o(),
         n("div", dl, [
-          A(
+          C(
             pe,
             {
               "current-tab": u.value,
-              "tab-options": g,
-              onHandleNavigation: c[0] || (c[0] = (C) => (u.value = C)),
+              "tab-options": h,
+              onHandleNavigation: c[0] || (c[0] = (A) => (u.value = A)),
             },
             null,
             8,
@@ -4406,12 +4406,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           u.value === 0
             ? (o(),
               n("div", il, [
-                A(
+                C(
                   $e,
                   {
                     value: p.value,
                     dark: "",
-                    onUpdate: c[1] || (c[1] = (C) => (p.value = C)),
+                    onUpdate: c[1] || (c[1] = (A) => (p.value = A)),
                   },
                   null,
                   8,
@@ -4422,12 +4422,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           u.value === 3
             ? (o(),
               n("div", ll, [
-                A(
+                C(
                   $e,
                   {
                     value: l.value,
                     dark: "",
-                    onUpdate: c[2] || (c[2] = (C) => (l.value = C)),
+                    onUpdate: c[2] || (c[2] = (A) => (l.value = A)),
                   },
                   null,
                   8,
@@ -4438,12 +4438,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           u.value === 4
             ? (o(),
               n("div", ul, [
-                A(
+                C(
                   $e,
                   {
                     value: m.value,
                     dark: "",
-                    onUpdate: c[3] || (c[3] = (C) => (m.value = C)),
+                    onUpdate: c[3] || (c[3] = (A) => (m.value = A)),
                   },
                   null,
                   8,
@@ -4460,43 +4460,43 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   null,
                   L(
                     d.value,
-                    (C) => (
+                    (A) => (
                       o(),
-                      n("div", { key: C.name, class: "class-abilitie-card" }, [
-                        C.itemType === "weapon"
+                      n("div", { key: A.name, class: "class-abilitie-card" }, [
+                        A.itemType === "weapon"
                           ? (o(),
                             n("div", ml, [
-                              A(Ro, { weapon: C, onHandleAdd: i }, null, 8, [
+                              C(Ro, { weapon: A, onHandleAdd: i }, null, 8, [
                                 "weapon",
                               ]),
                             ]))
                           : q("", !0),
-                        C.itemType === "protection"
+                        A.itemType === "protection"
                           ? (o(),
                             n("div", pl, [
-                              A(
+                              C(
                                 Vo,
-                                { protection: C, onHandleAdd: i },
+                                { protection: A, onHandleAdd: i },
                                 null,
                                 8,
                                 ["protection"]
                               ),
                             ]))
                           : q("", !0),
-                        C.itemType === "misc" || C.itemType === "ammunition"
+                        A.itemType === "misc" || A.itemType === "ammunition"
                           ? (o(),
                             n("div", vl, [
-                              A(To, { misc: C, onHandleAdd: i }, null, 8, [
+                              C(To, { misc: A, onHandleAdd: i }, null, 8, [
                                 "misc",
                               ]),
                             ]))
                           : q("", !0),
-                        C.itemType === "cursedItem"
+                        A.itemType === "cursedItem"
                           ? (o(),
-                            n("div", gl, [
-                              A(
+                            n("div", hl, [
+                              C(
                                 Oo,
-                                { "cursed-item": C, onHandleAdd: i },
+                                { "cursed-item": A, onHandleAdd: i },
                                 null,
                                 8,
                                 ["cursed-item"]
@@ -4514,11 +4514,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  fl = V(hl, [["__scopeId", "data-v-66867a8f"]]),
+  fl = V(gl, [["__scopeId", "data-v-66867a8f"]]),
   Yo = (a) => (w("data-v-8e793024"), (a = a()), z(), a),
   bl = { class: "modal-content modal-width" },
-  Cl = { class: "modal-header" },
-  Al = Yo(() => e("h2", null, "Add Items", -1)),
+  Al = { class: "modal-header" },
+  Cl = Yo(() => e("h2", null, "Add Items", -1)),
   ql = Yo(() =>
     e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
@@ -4530,7 +4530,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleAddItem", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
-        g = [fl, $s],
+        h = [fl, $s],
         u = [
           { label: "Items", value: 0 },
           { label: "My Items", value: 1 },
@@ -4541,8 +4541,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       return (i, d) => (
         o(),
         n("div", bl, [
-          e("div", Cl, [
-            Al,
+          e("div", Al, [
+            Cl,
             e(
               "button",
               { onClick: d[0] || (d[0] = (t) => i.$emit("handleCloseModal")) },
@@ -4550,8 +4550,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ),
           ]),
           e("div", kl, [
-            A(
-              ha,
+            C(
+              ga,
               { value: p.value, options: u, onHandleNavigation: l },
               null,
               8,
@@ -4564,7 +4564,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               [
                 (o(),
                 N(
-                  Pe(g[p.value]),
+                  Pe(h[p.value]),
                   { character: i.character, onHandleAddItem: m },
                   null,
                   40,
@@ -4581,7 +4581,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   El = V($l, [["__scopeId", "data-v-8e793024"]]),
   Se = [
     {
-      name: "Alter Destiny",
+      name: "Alterar Destino",
       circle: "4",
       element: "Energy",
       execution: "reaction",
@@ -5594,7 +5594,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleAddRitual", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
-        g = [
+        h = [
           { label: "All", value: 0 },
           { label: "Knowledge", value: 1 },
           { label: "Energy", value: 2 },
@@ -5628,10 +5628,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               ? Se.filter((t) => K(t.name, m.value)).sort((t, c) =>
                   t.name.localeCompare(c.name)
                 )
-              : Se.filter((t) => t.element === g[p.value].label)
+              : Se.filter((t) => t.element === h[p.value].label)
                   .filter((t) => K(t.name, m.value))
                   .sort((t, c) => t.name.localeCompare(c.name))
-            : Se.filter((t) => t.element === g[p.value].label)
+            : Se.filter((t) => t.element === h[p.value].label)
                 .filter((t) => K(t.name, m.value))
                 .filter((t) => t.circle === u[l.value].circle)
                 .filter((t) => K(t.name, m.value))
@@ -5640,25 +5640,25 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         o(),
         n("div", Il, [
           e("div", Sl, [
-            A(
+            C(
               pe,
               {
                 "current-tab": p.value,
-                "tab-options": g,
-                onHandleNavigation: c[0] || (c[0] = (C) => (p.value = C)),
+                "tab-options": h,
+                onHandleNavigation: c[0] || (c[0] = (A) => (p.value = A)),
               },
               null,
               8,
               ["current-tab"]
             ),
             e("div", _l, [
-              A(
+              C(
                 pe,
                 {
                   "current-tab": l.value,
                   "tab-options": u,
                   secondary: "",
-                  onHandleNavigation: c[1] || (c[1] = (C) => (l.value = C)),
+                  onHandleNavigation: c[1] || (c[1] = (A) => (l.value = A)),
                 },
                 null,
                 8,
@@ -5666,12 +5666,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               ),
             ]),
             e("div", Pl, [
-              A(
+              C(
                 $e,
                 {
                   value: m.value,
                   dark: "",
-                  onUpdate: c[2] || (c[2] = (C) => (m.value = C)),
+                  onUpdate: c[2] || (c[2] = (A) => (m.value = A)),
                 },
                 null,
                 8,
@@ -5687,10 +5687,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     null,
                     L(
                       d.value,
-                      (C) => (
+                      (A) => (
                         o(),
-                        n("div", { key: C.name, class: "class-rituals-card" }, [
-                          A(Do, { ritual: C, onHandleAdd: i }, null, 8, [
+                        n("div", { key: A.name, class: "class-rituals-card" }, [
+                          C(Do, { ritual: A, onHandleAdd: i }, null, 8, [
                             "ritual",
                           ]),
                         ])
@@ -5721,7 +5721,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleAddRitual", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
-        g = [Rl, Es],
+        h = [Rl, Es],
         u = [
           { label: "Rituals", value: 0 },
           { label: "My Rituals", value: 1 },
@@ -5741,8 +5741,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ),
           ]),
           e("div", Hl, [
-            A(
-              ha,
+            C(
+              ga,
               { value: p.value, options: u, onHandleNavigation: l },
               null,
               8,
@@ -5755,7 +5755,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               [
                 (o(),
                 N(
-                  Pe(g[p.value]),
+                  Pe(h[p.value]),
                   { character: i.character, onHandleAddRitual: m },
                   null,
                   40,
@@ -5791,7 +5791,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             e("h2", null, H(b.skill.name), 1),
             e(
               "button",
-              { onClick: v[0] || (v[0] = (g) => b.$emit("handleCloseModal")) },
+              { onClick: v[0] || (v[0] = (h) => b.$emit("handleCloseModal")) },
               Fl
             ),
           ]),
@@ -5829,12 +5829,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   mu = { class: "input-container" },
   pu = ee(() => e("div", { class: "label" }, " Range ", -1)),
   vu = { class: "input-container" },
-  gu = ee(() => e("div", { class: "label" }, " Skill ", -1)),
-  hu = { class: "input-container" },
+  hu = ee(() => e("div", { class: "label" }, " Skill ", -1)),
+  gu = { class: "input-container" },
   fu = ee(() => e("div", { class: "label" }, " Damage Attribute ", -1)),
   bu = { class: "title-container" },
-  Cu = ee(() => e("div", { class: "title" }, " Extra damage ", -1)),
-  Au = { class: "input-row" },
+  Au = ee(() => e("div", { class: "title" }, " Extra ", -1)),
+  Cu = { class: "input-row" },
   qu = { class: "input-container" },
   yu = ee(() => e("div", { class: "label" }, " Damage* ", -1)),
   ku = ["onUpdate:modelValue"],
@@ -5873,7 +5873,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleClose", "handleEditAttack"],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = [
           "Ballistic",
           "Blood",
@@ -5920,14 +5920,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           const f = i.value.aditionalDamage.findIndex((y) => y.id === M);
           i.value.aditionalDamage.splice(f, 1);
         },
-        C = () => {
-          (i.value = He.clone(_e)), g("handleClose");
+        A = () => {
+          (i.value = He.clone(_e)), h("handleClose");
         },
         P = () => {
           if (d.value) return;
           Ds(i.value);
           const M = { attack: i.value };
-          g("handleEditAttack", M), (i.value = He.clone(_e));
+          h("handleEditAttack", M), (i.value = He.clone(_e));
         };
       return (M, f) => {
         const y = ca("p-editor");
@@ -5952,7 +5952,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       null,
                       512
                     ),
-                    [[Ce, i.value.name]]
+                    [[Ae, i.value.name]]
                   ),
                 ]),
                 e("div", Zl, [
@@ -5970,7 +5970,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         null,
                         512
                       ),
-                      [[Ce, i.value.damage]]
+                      [[Ae, i.value.damage]]
                     ),
                   ]),
                   e("div", ou, [
@@ -5987,7 +5987,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         null,
                         512
                       ),
-                      [[Ce, i.value.criticalRange]]
+                      [[Ae, i.value.criticalRange]]
                     ),
                   ]),
                   e("div", su, [
@@ -6004,7 +6004,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         null,
                         512
                       ),
-                      [[Ce, i.value.criticalMult]]
+                      [[Ae, i.value.criticalMult]]
                     ),
                   ]),
                 ]),
@@ -6023,12 +6023,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         null,
                         512
                       ),
-                      [[Ce, i.value.attackBonus]]
+                      [[Ae, i.value.attackBonus]]
                     ),
                   ]),
                   e("div", lu, [
                     uu,
-                    A(
+                    C(
                       ye,
                       {
                         value: i.value.damageType,
@@ -6048,7 +6048,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 e("div", cu, [
                   e("div", mu, [
                     pu,
-                    A(
+                    C(
                       ye,
                       {
                         value: i.value.range,
@@ -6065,8 +6065,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ),
                   ]),
                   e("div", vu, [
-                    gu,
-                    A(
+                    hu,
+                    C(
                       ye,
                       {
                         value: i.value.skillUsed,
@@ -6082,9 +6082,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       ["value"]
                     ),
                   ]),
-                  e("div", hu, [
+                  e("div", gu, [
                     fu,
-                    A(
+                    C(
                       ye,
                       {
                         value: i.value.damageAttribute,
@@ -6102,7 +6102,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ]),
                 ]),
                 e("div", bu, [
-                  Cu,
+                  Au,
                   e(
                     "button",
                     {
@@ -6121,7 +6121,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     (D) => (
                       o(),
                       n("div", { key: D.id }, [
-                        e("div", Au, [
+                        e("div", Cu, [
                           e("div", qu, [
                             yu,
                             be(
@@ -6136,12 +6136,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 8,
                                 ku
                               ),
-                              [[Ce, D.value]]
+                              [[Ae, D.value]]
                             ),
                           ]),
                           e("div", $u, [
                             Eu,
-                            A(
+                            C(
                               ye,
                               {
                                 value: D.damageType,
@@ -6175,7 +6175,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   128
                 )),
                 _u,
-                A(
+                C(
                   y,
                   {
                     modelValue: i.value.description,
@@ -6191,7 +6191,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               e("div", Mu, [
                 e(
                   "button",
-                  { class: "button-cancel", onClick: C },
+                  { class: "button-cancel", onClick: A },
                   " Cancel "
                 ),
                 e(
@@ -6249,7 +6249,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = b,
-        g = { power: 0, ritual: 1, item: 2, attack: 3 },
+        h = { power: 0, ritual: 1, item: 2, attack: 3 },
         u = (i) => v("handleEditPowerSheet", i.power),
         p = (i) => v("handleEditRitualSheet", i.ritual),
         l = (i) => v("handleEditItemSheet", i.item),
@@ -6266,10 +6266,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ),
           ]),
           e("div", Hu, [
-            a.currentEditOption === g.power
+            a.currentEditOption === h.power
               ? (o(),
                 n("div", ju, [
-                  A(
+                  C(
                     wo,
                     {
                       power: a.editPower,
@@ -6285,10 +6285,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentEditOption === g.ritual
+            a.currentEditOption === h.ritual
               ? (o(),
                 n("div", Uu, [
-                  A(
+                  C(
                     zo,
                     {
                       ritual: a.editRitual,
@@ -6304,10 +6304,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentEditOption === g.attack
+            a.currentEditOption === h.attack
               ? (o(),
                 n("div", xu, [
-                  A(
+                  C(
                     et,
                     {
                       attack: a.editAttack,
@@ -6321,13 +6321,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentEditOption === g.item
+            a.currentEditOption === h.item
               ? (o(),
                 n("div", Nu, [
                   a.editItem.itemType === "weapon"
                     ? (o(),
                       n("div", Lu, [
-                        A(
+                        C(
                           Ho,
                           {
                             weapon: a.editItem,
@@ -6347,7 +6347,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   a.editItem.itemType === "protection"
                     ? (o(),
                       n("div", Bu, [
-                        A(
+                        C(
                           jo,
                           {
                             protection: a.editItem,
@@ -6368,7 +6368,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   a.editItem.itemType === "ammunition"
                     ? (o(),
                       n("div", Fu, [
-                        A(
+                        C(
                           la,
                           {
                             misc: a.editItem,
@@ -6388,7 +6388,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   a.editItem.itemType === "cursedItem"
                     ? (o(),
                       n("div", Qu, [
-                        A(
+                        C(
                           Uo,
                           {
                             "cursed-item": a.editItem,
@@ -6465,8 +6465,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleChangeStatsClass", "handleChangeEditPermissions"],
     setup(a, { emit: b }) {
       const v = b,
-        g = ["OFF", "ON"],
-        u = ["Combatant", "Specialist", "Occultist"],
+        h = ["DESLIGADO", "LIGADO"],
+        u = ["Combatente", "Especialista", "Ocultista"],
         p = (m) => {
           v("handleChangeStatsClass", m);
         },
@@ -6483,7 +6483,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               ? (o(),
                 n("div", Wu, [
                   Ku,
-                  A(
+                  C(
                     ye,
                     {
                       value: a.character.statsClass,
@@ -6501,11 +6501,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               : q("", !0),
             e("div", Ju, [
               Yu,
-              A(
+              C(
                 ra,
                 {
                   value: a.character.private,
-                  options: g,
+                  options: h,
                   onHandleChange: i[0] || (i[0] = (d) => l("private", d)),
                 },
                 null,
@@ -6515,11 +6515,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ]),
             e("div", Zu, [
               ec,
-              A(
+              C(
                 ra,
                 {
                   value: a.character.canDMEdit,
-                  options: g,
+                  options: h,
                   onHandleChange: i[1] || (i[1] = (d) => l("canDMEdit", d)),
                 },
                 null,
@@ -6529,11 +6529,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ]),
             e("div", ac, [
               oc,
-              A(
+              C(
                 ra,
                 {
                   value: a.character.canAnyoneEdit,
-                  options: g,
+                  options: h,
                   onHandleChange: i[2] || (i[2] = (d) => l("canAnyoneEdit", d)),
                 },
                 null,
@@ -6571,14 +6571,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   vc = te(() =>
     e("div", { class: "label" }, " Border color of dice results ", -1)
   ),
-  gc = ["value"],
-  hc = { class: "row" },
+  hc = ["value"],
+  gc = { class: "row" },
   fc = te(() =>
     e("div", { class: "label" }, " Injured agent picture ", -1)
   ),
   bc = { key: 0 },
-  Cc = ["src"],
-  Ac = { key: 1 },
+  Ac = ["src"],
+  Cc = { key: 1 },
   qc = te(() =>
     e(
       "img",
@@ -6647,7 +6647,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = a,
-        g = b,
+        h = b,
         u = $(!1),
         p = $(),
         l = (d) => {
@@ -6655,7 +6655,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         },
         m = (d, t) => {
           (u.value = !u.value),
-            g("handleUpdateAlternativePicture", p.value, d, t);
+            h("handleUpdateAlternativePicture", p.value, d, t);
         },
         i = () => {
           window.open(
@@ -6697,8 +6697,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     value: a.character.resultDiceColor || "#fff",
                     onBlur:
                       t[1] ||
-                      (t[1] = (C) =>
-                        d.$emit("handleChangeCharResultDiceColor", C)),
+                      (t[1] = (A) =>
+                        d.$emit("handleChangeCharResultDiceColor", A)),
                   },
                   null,
                   40,
@@ -6715,21 +6715,21 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     value: a.character.resultDiceBorderColor || "#A347FF",
                     onBlur:
                       t[2] ||
-                      (t[2] = (C) =>
-                        d.$emit("handleChangeCharResultDiceBorderColor", C)),
+                      (t[2] = (A) =>
+                        d.$emit("handleChangeCharResultDiceBorderColor", A)),
                   },
                   null,
                   40,
-                  gc
+                  hc
                 ),
               ]),
-              e("div", hc, [
+              e("div", gc, [
                 fc,
                 e(
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[3] || (t[3] = (C) => l("hurt")),
+                    onClick: t[3] || (t[3] = (A) => l("hurt")),
                   },
                   [
                     a.character.sheetPictureHurtURL
@@ -6744,10 +6744,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             },
                             null,
                             8,
-                            Cc
+                            Ac
                           ),
                         ]))
-                      : (o(), n("div", Ac, yc)),
+                      : (o(), n("div", Cc, yc)),
                   ]
                 ),
               ]),
@@ -6757,7 +6757,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[4] || (t[4] = (C) => l("dying")),
+                    onClick: t[4] || (t[4] = (A) => l("dying")),
                   },
                   [
                     a.character.sheetPictureDyingURL
@@ -6785,7 +6785,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[5] || (t[5] = (C) => l("disturbed")),
+                    onClick: t[5] || (t[5] = (A) => l("disturbed")),
                   },
                   [
                     a.character.sheetPictureDisturbedURL
@@ -6813,7 +6813,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[6] || (t[6] = (C) => l("crazy")),
+                    onClick: t[6] || (t[6] = (A) => l("crazy")),
                   },
                   [
                     a.character.sheetPictureCrazyURL
@@ -6838,19 +6838,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               u.value
                 ? (o(),
                   n("div", Bc, [
-                    A(
+                    C(
                       c,
                       {
                         modelValue: u.value,
                         "onUpdate:modelValue":
-                          t[8] || (t[8] = (C) => (u.value = C)),
+                          t[8] || (t[8] = (A) => (u.value = A)),
                         classes: "modal-container",
                       },
                       {
                         default: ke(() => [
-                          A(Lo, {
+                          C(Lo, {
                             onHandleCloseModal:
-                              t[7] || (t[7] = (C) => (u.value = !u.value)),
+                              t[7] || (t[7] = (A) => (u.value = !u.value)),
                             onHandleUpdatePicture: m,
                           }),
                         ]),
@@ -6893,7 +6893,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = b,
-        g = [
+        h = [
           { label: "Sheet", value: 0 },
           { label: "Stream", value: 1 },
         ],
@@ -6919,11 +6919,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ),
           ]),
           e("div", Yc, [
-            A(
+            C(
               pe,
               {
                 "current-tab": u.value,
-                "tab-options": g,
+                "tab-options": h,
                 onHandleNavigation: d[1] || (d[1] = (t) => (u.value = t)),
               },
               null,
@@ -6933,7 +6933,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             u.value === 0
               ? (o(),
                 n("div", Zc, [
-                  A(
+                  C(
                     sc,
                     {
                       character: a.character,
@@ -6949,7 +6949,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             u.value === 1
               ? (o(),
                 n("div", em, [
-                  A(
+                  C(
                     Qc,
                     {
                       character: a.character,
@@ -7001,7 +7001,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleCloseModal", "handleAddClass"],
     setup(a, { emit: b }) {
       const v = b,
-        g = (u) => v("handleAddClass", u);
+        h = (u) => v("handleAddClass", u);
       return (u, p) => (
         o(),
         n("div", tm, [
@@ -7027,9 +7027,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       (l) => (
                         o(),
                         n("div", { key: l.name }, [
-                          A(
+                          C(
                             ys,
-                            { "char-class": l, onHandleAddClass: g },
+                            { "char-class": l, onHandleAddClass: h },
                             null,
                             8,
                             ["char-class"]
@@ -7048,14 +7048,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     },
   }),
   vm = V(pm, [["__scopeId", "data-v-e8d7dd12"]]),
-  gm = (a) => (w("data-v-be964fd1"), (a = a()), z(), a),
-  hm = { class: "modal-content modal-width" },
+  hm = (a) => (w("data-v-be964fd1"), (a = a()), z(), a),
+  gm = { class: "modal-content modal-width" },
   fm = { class: "modal-header" },
-  bm = gm(() =>
+  bm = hm(() =>
     e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
-  Cm = [bm],
-  Am = { class: "modal-body modal-height" },
+  Am = [bm],
+  Cm = { class: "modal-body modal-height" },
   qm = { key: 0 },
   ym = { key: 1 },
   km = { key: 2 },
@@ -7076,7 +7076,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = b,
-        g = {
+        h = {
           attack: 0,
           power: 1,
           ritual: 2,
@@ -7102,20 +7102,20 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         i = (d) => v("handleAddItem", d.item);
       return (d, t) => (
         o(),
-        n("div", hm, [
+        n("div", gm, [
           e("div", fm, [
             e("h2", null, H(u[a.currentAddOption]), 1),
             e(
               "button",
               { onClick: t[0] || (t[0] = (c) => d.$emit("handleCloseModal")) },
-              Cm
+              Am
             ),
           ]),
-          e("div", Am, [
-            a.currentAddOption === g.attack
+          e("div", Cm, [
+            a.currentAddOption === h.attack
               ? (o(),
                 n("div", qm, [
-                  A(
+                  C(
                     et,
                     {
                       attack: G(_e),
@@ -7130,10 +7130,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === g.power
+            a.currentAddOption === h.power
               ? (o(),
                 n("div", ym, [
-                  A(
+                  C(
                     wo,
                     {
                       power: G(xo),
@@ -7150,10 +7150,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === g.ritual
+            a.currentAddOption === h.ritual
               ? (o(),
                 n("div", km, [
-                  A(
+                  C(
                     zo,
                     {
                       ritual: G(No),
@@ -7170,10 +7170,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === g.weapon
+            a.currentAddOption === h.weapon
               ? (o(),
                 n("div", $m, [
-                  A(
+                  C(
                     Ho,
                     {
                       weapon: G(Is),
@@ -7190,10 +7190,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === g.ammunition
+            a.currentAddOption === h.ammunition
               ? (o(),
                 n("div", Em, [
-                  A(
+                  C(
                     la,
                     {
                       misc: G(Ss),
@@ -7210,10 +7210,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === g.protection
+            a.currentAddOption === h.protection
               ? (o(),
                 n("div", Im, [
-                  A(
+                  C(
                     jo,
                     {
                       protection: G(_s),
@@ -7230,10 +7230,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === g.misc
+            a.currentAddOption === h.misc
               ? (o(),
                 n("div", Sm, [
-                  A(
+                  C(
                     la,
                     {
                       misc: G(Ps),
@@ -7250,10 +7250,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === g.cursedItem
+            a.currentAddOption === h.cursedItem
               ? (o(),
                 n("div", _m, [
-                  A(
+                  C(
                     Uo,
                     {
                       "cursed-item": G(Ms),
@@ -7293,14 +7293,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleCloseModal"],
     setup(a) {
       const v = "https://crisordemparanormal.com/agente/" + a.character.id;
-      return (g, u) => (
+      return (h, u) => (
         o(),
         n("div", Dm, [
           e("div", Rm, [
             Vm,
             e(
               "button",
-              { onClick: u[0] || (u[0] = (p) => g.$emit("handleCloseModal")) },
+              { onClick: u[0] || (u[0] = (p) => h.$emit("handleCloseModal")) },
               Om
             ),
           ]),
@@ -7352,7 +7352,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     ],
     setup(a, { emit: b }) {
       const v = b,
-        g = Po(),
+        h = Po(),
         u = $(window.innerWidth),
         p = () => {
           v("handleShareSheet");
@@ -7372,7 +7372,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             a.disabledSheet
               ? (o(),
                 n("div", xm, [
-                  G(g).currentUser
+                  G(h).currentUser
                     ? (o(),
                       n("div", Nm, [
                         a.charAdded
@@ -7474,12 +7474,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   mp = { class: "header-info-row" },
   pp = { class: "info-line" },
   vp = Qe(() => e("h3", null, "CHARACTER", -1)),
-  gp = ["disabled", "value"],
-  hp = { class: "info-line" },
+  hp = ["disabled", "value"],
+  gp = { class: "info-line" },
   fp = Qe(() => e("h3", null, "PLAYER", -1)),
   bp = ["disabled", "value"],
-  Cp = { class: "header-info-row" },
-  Ap = { class: "info-line" },
+  Ap = { class: "header-info-row" },
+  Cp = { class: "info-line" },
   qp = Qe(() => e("h3", null, "BACKGROUND", -1)),
   yp = ["disabled", "value"],
   kp = { class: "info-line" },
@@ -7501,7 +7501,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 disabled: b.disabledSheet,
                 onClick:
                   v[0] ||
-                  (v[0] = (g) => b.$emit("handleOpenChangePictureModal")),
+                  (v[0] = (h) => b.$emit("handleOpenChangePictureModal")),
               },
               [
                 b.character.sheetPictureURL
@@ -7557,18 +7557,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     value: b.character.name,
                     onBlur:
                       v[1] ||
-                      (v[1] = (g) =>
+                      (v[1] = (h) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: g,
+                          e: h,
                           key: "name",
                         })),
                   },
                   null,
                   40,
-                  gp
+                  hp
                 ),
               ]),
-              e("div", hp, [
+              e("div", gp, [
                 fp,
                 e(
                   "input",
@@ -7580,9 +7580,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     value: b.character.player,
                     onBlur:
                       v[2] ||
-                      (v[2] = (g) =>
+                      (v[2] = (h) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: g,
+                          e: h,
                           key: "player",
                         })),
                   },
@@ -7592,8 +7592,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ),
               ]),
             ]),
-            e("div", Cp, [
-              e("div", Ap, [
+            e("div", Ap, [
+              e("div", Cp, [
                 qp,
                 e(
                   "input",
@@ -7605,9 +7605,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     value: b.character.backgroundName,
                     onBlur:
                       v[3] ||
-                      (v[3] = (g) =>
+                      (v[3] = (h) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: g,
+                          e: h,
                           key: "backgroundName",
                         })),
                   },
@@ -7628,9 +7628,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     value: b.character.className,
                     onBlur:
                       v[4] ||
-                      (v[4] = (g) =>
+                      (v[4] = (h) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: g,
+                          e: h,
                           key: "className",
                         })),
                   },
@@ -7660,7 +7660,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleOpenCampaignLog"],
     setup(a) {
       const b = a,
-        g = "https://crisordemparanormal.com/" + "campanha/" + b.campaign.id,
+        h = "https://crisordemparanormal.com/" + "campanha/" + b.campaign.id,
         u = $(window.innerWidth);
       Ee(() => {
         window.addEventListener("resize", () => {
@@ -7668,7 +7668,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         });
       });
       const p = () => {
-        b.disabledSheet || window.open(g, "_blank");
+        b.disabledSheet || window.open(h, "_blank");
       };
       return (l, m) => {
         var i;
@@ -7737,7 +7737,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           "ABILITIES",
           "RITUALS",
         ];
-      return (g, u) => (
+      return (h, u) => (
         o(),
         n(
           j,
@@ -7785,7 +7785,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               "button",
                               {
                                 class: "nav-option-button",
-                                onClick: (m) => g.$emit("handleMobileNav", l),
+                                onClick: (m) => h.$emit("handleMobileNav", l),
                               },
                               H(p),
                               9,
@@ -7825,7 +7825,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 key: 1,
                 class: "campaign-log-button-mobile button-naked",
                 onClick:
-                  v[1] || (v[1] = (g) => b.$emit("handleOpenCampaignLog")),
+                  v[1] || (v[1] = (h) => b.$emit("handleOpenCampaignLog")),
               },
               Fp
             ))
@@ -7836,7 +7836,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 key: 0,
                 class: "campaign-log-button-mobile button-naked",
                 onClick:
-                  v[0] || (v[0] = (g) => b.$emit("handleOpenCampaignLog")),
+                  v[0] || (v[0] = (h) => b.$emit("handleOpenCampaignLog")),
               },
               Lp
             ));
@@ -7856,7 +7856,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ? b.character.skinDice.label === b.skinDice.label
             : !1
         );
-      return (g, u) => (
+      return (h, u) => (
         o(),
         n(
           "div",
@@ -7866,8 +7866,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               e(
                 "img",
                 {
-                  src: g.skinDice.img,
-                  alt: g.skinDice.label,
+                  src: h.skinDice.img,
+                  alt: h.skinDice.label,
                   class: "skin-img",
                 },
                 null,
@@ -7875,7 +7875,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 Wp
               ),
             ]),
-            e("div", Kp, H(g.skinDice.label), 1),
+            e("div", Kp, H(h.skinDice.label), 1),
           ],
           2
         )
@@ -7907,7 +7907,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     emits: ["handleChangeDiceSkin", "handleCloseModal"],
     setup(a, { emit: b }) {
       const v = b,
-        g = (u) => v("handleChangeDiceSkin", u);
+        h = (u) => v("handleChangeDiceSkin", u);
       return (u, p) => (
         o(),
         n("div", Yp, [
@@ -7937,7 +7937,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           key: l.label,
                           "skin-dice": l,
                           character: u.character,
-                          onClick: (m) => g(l),
+                          onClick: (m) => h(l),
                         },
                         null,
                         8,
@@ -7966,7 +7966,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           key: l.label,
                           "skin-dice": l,
                           character: u.character,
-                          onClick: (m) => g(l),
+                          onClick: (m) => h(l),
                         },
                         null,
                         8,
@@ -7995,7 +7995,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           key: l.label,
                           "skin-dice": l,
                           character: u.character,
-                          onClick: (m) => g(l),
+                          onClick: (m) => h(l),
                         },
                         null,
                         8,
@@ -8013,12 +8013,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     },
   }),
   vv = V(pv, [["__scopeId", "data-v-8e69620b"]]),
-  gv = (a) => (w("data-v-1d71ccb1"), (a = a()), z(), a),
-  hv = { key: 0 },
+  hv = (a) => (w("data-v-1d71ccb1"), (a = a()), z(), a),
+  gv = { key: 0 },
   fv = { key: 0, class: "private-sheet" },
-  bv = gv(() => e("h1", null, "Private sheet", -1)),
-  Cv = { key: 1 },
-  Av = { key: 0 },
+  bv = hv(() => e("h1", null, "Private sheet", -1)),
+  Av = { key: 1 },
+  Cv = { key: 0 },
   qv = { class: "sheet-wrapper" },
   yv = { class: "sheet-header" },
   kv = { class: "character-sheet" },
@@ -8041,7 +8041,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     setup(a) {
       const { play: b } = Xt(Jt),
         v = [ol, El, Ul, Wl, Xu, Lo, om, Hm, vm, Mm, vv],
-        g = {
+        h = {
           abilities: 0,
           inventory: 1,
           rituals: 2,
@@ -8071,7 +8071,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         d = Rt(),
         t = Vt(),
         c = d.params.id,
-        C = $(0),
+        A = $(0),
         P = $(!0),
         M = $(),
         f = $(),
@@ -8083,14 +8083,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         I = $(0),
         k = $(!0),
         O = $(!1),
-        ge = $(!1),
+        he = $(!1),
         E = $(!1),
         Z = $(window.innerWidth),
         se = $(0),
         Ge = $(),
-        Ae = $(),
+        Ce = $(),
         U = $({ message: "", type: "", alive: !1, timeout: 0 }),
-        he = $({ title: "", total: 0, output: "", notation: "", alive: !1 }),
+        ge = $({ title: "", total: 0, output: "", notation: "", alive: !1 }),
         Ve = $({
           title: "",
           totalAttack: 0,
@@ -8106,8 +8106,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         F = $(!1),
         Q = $(0),
         Ie = $(0),
-        Ca = $(0),
-        Aa = $();
+        Aa = $(0),
+        Ca = $();
       Ee(async () => {
         var S;
         window.addEventListener("resize", () => {
@@ -8119,44 +8119,44 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             (I.value = await Os((S = l.currentUser) == null ? void 0 : S.uid)),
           (s.value = r.data()),
           (s.value.id = r == null ? void 0 : r.id);
-        let h = !1;
+        let g = !1;
         if (
           (s.value.campaignDocId === void 0 &&
-            ((s.value.campaignDocId = ""), (h = !0)),
+            ((s.value.campaignDocId = ""), (g = !0)),
           !s.value.currentItemsLimit)
         ) {
           const T = { I: 0, II: 0, III: 0, IV: 0 };
-          (s.value.currentItemsLimit = T), (h = !0);
+          (s.value.currentItemsLimit = T), (g = !0);
         }
         if (
-          (s.value.peTurn || ((s.value.peTurn = Wt[s.value.nex]), (h = !0)),
+          (s.value.peTurn || ((s.value.peTurn = Wt[s.value.nex]), (g = !0)),
           s.value.deathMarks === void 0 &&
             ((s.value.deathMarks = [!1, !1, !1]),
             (s.value.madnessMarks = [!1, !1, !1]),
             (s.value.deathMode = !1),
             (s.value.madnessMode = !1),
-            (h = !0)),
+            (g = !0)),
           s.value.sheetPictureURL ||
             ((s.value.sheetPictureURL = ""),
             (s.value.sheetPictureFullPath = ""),
-            (h = !0)),
+            (g = !0)),
           s.value.campaignDocId === void 0 &&
-            ((s.value.campaignDocId = ""), (h = !0)),
+            ((s.value.campaignDocId = ""), (g = !0)),
           s.value.statsClass ||
             (s.value.className === "Combatant" ||
             s.value.className === "Specialist" ||
             s.value.className === "Occultist"
               ? (s.value.statsClass = s.value.className)
               : (s.value.statsClass = "Combatant"),
-            (h = !0)),
+            (g = !0)),
           s.value.description.anotation ||
-            ((s.value.description.anotation = ""), (h = !0)),
-          s.value.canDMEdit === void 0 && ((s.value.canDMEdit = !0), (h = !0)),
+            ((s.value.description.anotation = ""), (g = !0)),
+          s.value.canDMEdit === void 0 && ((s.value.canDMEdit = !0), (g = !0)),
           s.value.canAnyoneEdit === void 0 &&
-            ((s.value.canAnyoneEdit = !1), (h = !0)),
-          s.value.private === void 0 && ((s.value.private = !1), (h = !0)),
+            ((s.value.canAnyoneEdit = !1), (g = !0)),
+          s.value.private === void 0 && ((s.value.private = !1), (g = !0)),
           (s.value.block === void 0 || s.value.block === null) &&
-            ((s.value.block = s.value.skills[9].bonus), (h = !0)),
+            ((s.value.block = s.value.skills[9].bonus), (g = !0)),
           (s.value.evade === void 0 || s.value.evade === null) &&
             ((s.value.evade =
               10 +
@@ -8164,28 +8164,28 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               s.value.protectionDefense +
               s.value.bonusDefense +
               s.value.skills[20].bonus),
-            (h = !0)),
+            (g = !0)),
           s.value.resistencias === void 0 &&
-            ((s.value.resistencias = {}), (h = !0)),
+            ((s.value.resistencias = {}), (g = !0)),
           s.value.imunidades === void 0 &&
-            ((s.value.imunidades = []), (h = !0)),
+            ((s.value.imunidades = []), (g = !0)),
           s.value.vulnerabilidades === void 0 &&
-            ((s.value.vulnerabilidades = []), (h = !0)),
+            ((s.value.vulnerabilidades = []), (g = !0)),
           s.value.skinDice === void 0 && (s.value.skinDice = Bo[0]),
-          h && (await ea(de(m, "characters", s.value.id), s.value)),
+          g && (await ea(de(m, "characters", s.value.id), s.value)),
           s.value.campaignDocId)
         ) {
           const T = await Ze(de(m, "campaigns", s.value.campaignDocId));
           T.data() &&
             ((M.value = T.data()),
             (M.value.id = T.id),
-            (Ae.value = aa(
+            (Ce.value = aa(
               de(m, "campaignLogs", M.value.campaignLogId),
               (x) => {
                 x.data() &&
                   ((f.value = x.data()),
                   (f.value.id = x.id),
-                  C.value < 2 && C.value++);
+                  A.value < 2 && A.value++);
               }
             )));
         }
@@ -8213,33 +8213,33 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 : re.uid) && ((O.value = !1), (k.value = !1)),
             ((qe = l == null ? void 0 : l.currentUser) != null && qe.uid) ||
               (k.value = !0),
-            C.value < 2 && C.value++;
+            A.value < 2 && A.value++;
         });
       }),
         Tt(() => {
-          Ge.value && Ge.value(), Ae.value && Ae.value();
+          Ge.value && Ge.value(), Ce.value && Ce.value();
         }),
-        fe(C, () => {
+        fe(A, () => {
           s.value &&
             P.value !== !1 &&
             (s.value.campaignDocId
-              ? C.value >= 2 && (P.value = !1)
-              : C.value >= 1 && (P.value = !1));
+              ? A.value >= 2 && (P.value = !1)
+              : A.value >= 1 && (P.value = !1));
         }),
         fe(
           () => s.value.campaignDocId,
           async () => {
             if (s.value && !P.value)
               if (s.value.campaignDocId === "")
-                (M.value = void 0), (f.value = void 0), Ae.value && Ae.value();
+                (M.value = void 0), (f.value = void 0), Ce.value && Ce.value();
               else {
                 const r = await Ze(de(m, "campaigns", s.value.campaignDocId));
                 r.data() &&
                   ((M.value = r.data()),
-                  (Ae.value = aa(
+                  (Ce.value = aa(
                     de(m, "campaignLogs", M.value.campaignLogId),
-                    (h) => {
-                      h.data() && ((f.value = h.data()), (f.value.id = h.id));
+                    (g) => {
+                      g.data() && ((f.value = g.data()), (f.value.id = g.id));
                     }
                   )));
               }
@@ -8251,9 +8251,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         Te = () => {
           (U.value.alive = !1), clearTimeout(U.value.timeout);
         },
-        le = () => (he.value.alive = !1),
+        le = () => (ge.value.alive = !1),
         ue = () => (Ve.value.alive = !1),
-        Xe = (r, h) => {
+        Xe = (r, g) => {
           le(),
             ue(),
             (r.message = `${h} added`),
@@ -8267,22 +8267,22 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             (r.type = "error"),
             (r.alive = !0);
         },
-        We = (r, h, S, T, x) => {
+        We = (r, g, S, T, x) => {
           Te(),
             ue(),
-            (r.title = h),
+            (r.title = g),
             (r.total = S),
             (r.output = T),
             (r.notation = x),
             (r.skinDice = s.value.skinDice),
-            go(r, "roll"),
             ho(r, "roll"),
+            go(r, "roll"),
             E.value || (r.alive = !0);
         },
-        lt = (r, h, S, T, x, ne, re, qe, _t, Pt) => {
+        lt = (r, g, S, T, x, ne, re, qe, _t, Pt) => {
           Te(),
             le(),
-            (r.title = h),
+            (r.title = g),
             (r.totalAttack = S),
             (r.totalDamage = T),
             (r.critical = x),
@@ -8292,51 +8292,51 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             (r.damageRollTooltip = _t),
             (r.criticalTooltip = Pt),
             (r.skinDice = s.value.skinDice),
-            go(r, "attackRoll"),
             ho(r, "attackRoll"),
+            go(r, "attackRoll"),
             E.value || (r.alive = !0);
         },
         qa = (r) => {
-          const h = r.e.target.value;
-          (s.value[r.key] = h.trim()), _();
+          const g = r.e.target.value;
+          (s.value[r.key] = g.trim()), _();
         },
         ya = (r) => {
-          const h = r.e.target.value;
-          (s.value[r.key] = h.trim()), _();
+          const g = r.e.target.value;
+          (s.value[r.key] = g.trim()), _();
         },
         ka = (r) => {
-          const h = r.e.target.valueAsNumber;
-          Ao(s.value, h, r.key), _();
+          const g = r.e.target.valueAsNumber;
+          Co(s.value, g, r.key), _();
         },
-        $a = (r, h) => {
-          Ao(s.value, r, h), _();
+        $a = (r, g) => {
+          Co(s.value, r, g), _();
         },
         Ea = (r) => {
-          const h = r.e.target.valueAsNumber;
-          Zt(s.value, h, r.key), _();
+          const g = r.e.target.valueAsNumber;
+          Zt(s.value, g, r.key), _();
         },
         Ia = (r) => {
-          const h = s.value.nex;
-          (s.value[r.key] = r.value), es(s.value, h), _();
+          const g = s.value.nex;
+          (s.value[r.key] = r.value), es(s.value, g), _();
         },
         Sa = (r) => {
-          const h = r.target.valueAsNumber;
-          as(s.value, h), _();
+          const g = r.target.valueAsNumber;
+          as(s.value, g), _();
         },
         _a = (r) => {
           try {
-            const h = os[r],
+            const g = os[r],
               S = ts(s.value, r),
               T = sa(S.output),
               x = na(S.output);
-            We(he.value, h, S.total, T, x), b();
+            We(ge.value, g, S.total, T, x), b();
           } catch {
             Oe(U.value);
           }
         },
-        Pa = (r, h) => {
-          r === "pv" && (s.value.deathMarks[h] = !s.value.deathMarks[h]),
-            r === "san" && (s.value.madnessMarks[h] = !s.value.madnessMarks[h]),
+        Pa = (r, g) => {
+          r === "pv" && (s.value.deathMarks[g] = !s.value.deathMarks[g]),
+            r === "san" && (s.value.madnessMarks[g] = !s.value.madnessMarks[g]),
             _();
         },
         Ma = (r) => {
@@ -8356,49 +8356,49 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             _();
         },
         Ra = () => {
-          (Q.value = g.addClass), (F.value = !0);
+          (Q.value = h.addClass), (F.value = !0);
         },
         Va = (r) => {
-          (Aa.value = r), (Q.value = g.skill), (F.value = !0);
+          (Ca.value = r), (Q.value = h.skill), (F.value = !0);
         },
         Ta = () => {
-          (Q.value = g.config), (F.value = !0);
+          (Q.value = h.config), (F.value = !0);
         },
         ut = () => {
-          (Q.value = g.share), (F.value = !0);
+          (Q.value = h.share), (F.value = !0);
         },
         Oa = (r) => {
-          const h = s.value.skills.findIndex((S) => S.name === r.skillName);
-          (s.value.skills[h][r.key] = r.value), qo(s.value, r.skillName), _();
+          const g = s.value.skills.findIndex((S) => S.name === r.skillName);
+          (s.value.skills[g][r.key] = r.value), qo(s.value, r.skillName), _();
         },
         wa = (r) => {
           ss(s.value, r.value, r.skillName), qo(s.value, r.skillName), _();
         },
         za = (r) => {
           try {
-            const h = r.name,
+            const g = r.name,
               S = ns(s.value, r),
               T = sa(S.output),
               x = na(S.output);
-            We(he.value, h, S.total, T, x), b();
+            We(ge.value, g, S.total, T, x), b();
           } catch {
             Oe(U.value);
           }
         },
         Ha = () => {
-          (Q.value = g.abilities), (F.value = !0);
+          (Q.value = h.abilities), (F.value = !0);
         },
         ja = () => {
-          (Q.value = g.skins), (F.value = !0);
+          (Q.value = h.skins), (F.value = !0);
         },
         Ua = () => {
-          (Q.value = g.rituals), (F.value = !0);
+          (Q.value = h.rituals), (F.value = !0);
         },
         xa = () => {
-          (Q.value = g.inventory), (F.value = !0);
+          (Q.value = h.inventory), (F.value = !0);
         },
         Na = () => {
-          (Q.value = g.picture), (F.value = !0);
+          (Q.value = h.picture), (F.value = !0);
         },
         ct = (r) => {
           (r.id = je()), s.value.attacks.push(r), _(), ae();
@@ -8407,12 +8407,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           rs(s.value, r), _();
         },
         Ke = (r) => {
-          const h = s.value.powers.findIndex((S) => S.id === r);
-          h !== -1 && (s.value.powers.splice(h, 1), _());
+          const g = s.value.powers.findIndex((S) => S.id === r);
+          g !== -1 && (s.value.powers.splice(g, 1), _());
         },
         Ba = (r) => {
-          const h = s.value.rituals.findIndex((S) => S.id === r);
-          s.value.rituals.splice(h, 1), _();
+          const g = s.value.rituals.findIndex((S) => S.id === r);
+          s.value.rituals.splice(g, 1), _();
         },
         Fa = (r) => {
           ds(s.value, r), _();
@@ -8432,105 +8432,105 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         Ka = (r) => {
           us(s.value, r.value, r.key), _();
         },
-        Je = (r = "1d20", h = "Result", S = !1) => {
+        Je = (r = "1d20", g = "Result", S = !1) => {
           try {
-            const T = h,
+            const T = g,
               x = cs(r || "1d20"),
               ne = sa(x.output),
               re = na(x.output);
-            (he.value.defaultColor = S), We(he.value, T, x.total, ne, re), b();
+            (ge.value.defaultColor = S), We(ge.value, T, x.total, ne, re), b();
           } catch {
             Oe(U.value);
           }
         },
         Ja = (r) => {
           try {
-            const h = ms(s.value, r);
+            const g = ms(s.value, r);
             lt(
               Ve.value,
               r.name,
-              h.attackTotal,
-              h.damageTotal,
-              h.critical,
-              h.attackInfo,
-              h.damageInfo,
-              h.attackRollInfo,
-              h.damageRollInfo,
-              h.criticalInfo
+              g.attackTotal,
+              g.damageTotal,
+              g.critical,
+              g.attackInfo,
+              g.damageInfo,
+              g.attackRollInfo,
+              g.damageRollInfo,
+              g.criticalInfo
             ),
               b();
           } catch {
             Oe(U.value);
           }
         },
-        Ya = (r, h) => {
-          h && Je(h, r, !0);
+        Ya = (r, g) => {
+          g && Je(g, r, !0);
         },
         Za = (r) => {
-          const h = r.target.valueAsNumber;
-          ps(s.value, h), _();
+          const g = r.target.valueAsNumber;
+          ps(s.value, g), _();
         },
         mt = (r) => {
-          hs(s.value, r),
+          gs(s.value, r),
             Xe(U.value, r.name),
             _(),
-            Q.value === g.addModal && ae();
+            Q.value === h.addModal && ae();
         },
         pt = (r) => {
           fs(s.value, r),
             Xe(U.value, r.name),
             _(),
-            Q.value === g.addModal && ae();
+            Q.value === h.addModal && ae();
         },
         vt = (r) => {
           bs(s.value, r),
             Xe(U.value, r.name),
             _(),
-            Q.value === g.addModal && ae();
+            Q.value === h.addModal && ae();
         },
-        gt = (r, h) => {
+        ht = (r, g) => {
           (s.value.sheetPictureURL = r),
-            (s.value.sheetPictureFullPath = h),
+            (s.value.sheetPictureFullPath = g),
             _(),
             ae();
         },
-        ht = (r, h, S) => {
+        gt = (r, g, S) => {
           r === "hurt" &&
-            ((s.value.sheetPictureHurtURL = h),
+            ((s.value.sheetPictureHurtURL = g),
             (s.value.sheetPictureHurtFullPathL = S),
             _()),
             r === "dying" &&
-              ((s.value.sheetPictureDyingURL = h),
+              ((s.value.sheetPictureDyingURL = g),
               (s.value.sheetPictureDyingFullPathL = S),
               _()),
             r === "disturbed" &&
-              ((s.value.sheetPictureDisturbedURL = h),
+              ((s.value.sheetPictureDisturbedURL = g),
               (s.value.sheetPictureDisturbedFullPathL = S),
               _()),
             r === "crazy" &&
-              ((s.value.sheetPictureCrazyURL = h),
+              ((s.value.sheetPictureCrazyURL = g),
               (s.value.sheetPictureCrazyFullPathL = S),
               _());
         },
         ft = (r) => {
-          const h = r.target.value;
-          (s.value.resultDiceColor = h), _();
+          const g = r.target.value;
+          (s.value.resultDiceColor = g), _();
         },
         bt = (r) => {
-          const h = r.target.value;
-          (s.value.resultDiceBorderColor = h), _();
+          const g = r.target.value;
+          (s.value.resultDiceBorderColor = g), _();
         },
-        Ct = (r, h) => {
-          (s.value[r] = h), _();
+        At = (r, g) => {
+          (s.value[r] = g), _();
         },
-        At = (r) => {
+        Ct = (r) => {
           (s.value.skinDice = r), _();
         },
         qt = (r) => {
           (s.value.statsClass = r), _();
         },
         ce = (r) => {
-          (Q.value = g.addModal), (Ca.value = r), (F.value = !0);
+          (Q.value = h.addModal), (Aa.value = r), (F.value = !0);
         },
         eo = () => ce(p.attack),
         ao = () => ce(p.power),
@@ -8541,46 +8541,46 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         ro = () => ce(p.misc),
         io = () => ce(p.cursedItem),
         lo = (r) => {
-          (Q.value = g.edit),
+          (Q.value = h.edit),
             (Ie.value = u.attack),
             (F.value = !0),
             (y.value = r);
         },
         uo = (r) => {
-          (Q.value = g.edit),
+          (Q.value = h.edit),
             (Ie.value = u.power),
             (F.value = !0),
             (D.value = r);
         },
         co = (r) => {
-          (Q.value = g.edit),
+          (Q.value = h.edit),
             (Ie.value = u.ritual),
             (F.value = !0),
             (B.value = r);
         },
         mo = (r) => {
-          (Q.value = g.edit),
+          (Q.value = h.edit),
             (Ie.value = u.item),
             (F.value = !0),
             (ve.value = r);
         },
         yt = (r) => {
-          const h = s.value.attacks.findIndex((S) => S.id === r.id);
-          (s.value.attacks[h] = r), _(), ae();
+          const g = s.value.attacks.findIndex((S) => S.id === r.id);
+          (s.value.attacks[g] = r), _(), ae();
         },
         kt = (r) => {
-          const h = s.value.powers.findIndex((S) => S.id === r.id);
-          (s.value.powers[h] = r), _(), ae();
+          const g = s.value.powers.findIndex((S) => S.id === r.id);
+          (s.value.powers[g] = r), _(), ae();
         },
         $t = (r) => {
-          const h = s.value.rituals.findIndex((S) => S.id === r.id);
-          (s.value.rituals[h] = r), _(), ae();
+          const g = s.value.rituals.findIndex((S) => S.id === r.id);
+          (s.value.rituals[g] = r), _(), ae();
         },
         Et = (r) => {
-          Cs(s.value, r), _(), ae();
+          As(s.value, r), _(), ae();
         },
         It = (r) => {
-          As(s.value, r),
+          Cs(s.value, r),
             s.value.mundanoRemoveSkill && Ke(s.value.mundanoRemoveSkill),
             _(),
             ae();
@@ -8597,8 +8597,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             (U.value.alive = !0);
         },
         vo = async () => {
-          var h, S;
-          if (!((h = l.currentUser) != null && h.email) || ge.value) return;
+          var g, S;
+          if (!((g = l.currentUser) != null && g.email) || he.value) return;
           if (I.value < 3) {
             const T = bo(m, "characters"),
               x = Ot(
@@ -8614,7 +8614,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               return;
             }
           }
-          ge.value = !0;
+          he.value = !0;
           const r = He.cloneDeep(s.value);
           if (
             ((r.uid = l.currentUser.uid),
@@ -8623,8 +8623,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             (r.id = ""),
             s.value.sheetPictureURL !== "")
           ) {
-            const T = Co(i, `images/${je()}`),
-              x = Co(i, s.value.sheetPictureFullPath),
+            const T = Ao(i, `images/${je()}`),
+              x = Ao(i, s.value.sheetPictureFullPath),
               ne = await xt(x);
             Nt(T, ne).then(async (re) => {
               const qe = await Lt(re.ref);
@@ -8639,26 +8639,26 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             (U.value.type = "info"),
             (U.value.alive = !0);
         },
-        go = (r, h) => {
+        ho = (r, g) => {
           const S = [];
-          if (h === "roll") {
+          if (g === "roll") {
             const T = r.total;
             S.push(T);
           }
-          if (h === "attackRoll") {
+          if (g === "attackRoll") {
             const T = r.totalAttack,
               x = r.totalDamage;
             S.push(T), S.push(x);
           }
           (s.value.lastDiceResult = S), (s.value.didDiceRoll = je()), _();
         },
-        ho = (r, h) => {
+        go = (r, g) => {
           if (!M.value || !f.value) return;
           const S = {
             sender: s.value.name,
             timestamp: new Date().getTime(),
             content: r,
-            contentType: h,
+            contentType: g,
           };
           f.value.campaignLogMessages.push(S),
             f.value.campaignLogMessages.length > 200 &&
@@ -8670,10 +8670,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         };
       fe(
         () => s.value.skills[9].bonus,
-        (r, h) => {
+        (r, g) => {
           if (s.value.block === null) return;
-          const S = Math.abs(r - h);
-          r > h ? (s.value.block += S) : (s.value.block -= S),
+          const S = Math.abs(r - g);
+          r > g ? (s.value.block += S) : (s.value.block -= S),
             s.value.block < 0 && (s.value.block = 0),
             s.value.block > 999 && (s.value.block = 999),
             _();
@@ -8690,19 +8690,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       return (
         fe(
           () => s.value.skills[22].bonus,
-          (r, h) => {
+          (r, g) => {
             if (s.value.evade === null) return;
-            const S = Math.abs(r - h);
-            r > h ? (s.value.evade += S) : (s.value.evade -= S),
+            const S = Math.abs(r - g);
+            r > g ? (s.value.evade += S) : (s.value.evade -= S),
               s.value.evade < 0 && (s.value.evade = 0),
               s.value.evade > 999 && (s.value.evade = 999),
               _();
           }
         ),
-        fe(St, (r, h) => {
+        fe(St, (r, g) => {
           if (s.value.evade === null) return;
-          const S = Math.abs(r - h);
-          r > h ? (s.value.evade += S) : (s.value.evade -= S),
+          const S = Math.abs(r - g);
+          r > g ? (s.value.evade += S) : (s.value.evade -= S),
             s.value.evade < 0 && (s.value.evade = 0),
             s.value.evade > 999 && (s.value.evade = 999),
             _();
@@ -8720,15 +8720,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         fe(k, () => {
           ae();
         }),
-        (r, h) => {
+        (r, g) => {
           const S = ca("vue-final-modal");
           return (
             o(),
             n("div", null, [
               P.value
-                ? (o(), n("div", zv, [A(Rs, { "page-loading": "" })]))
+                ? (o(), n("div", zv, [C(Rs, { "page-loading": "" })]))
                 : (o(),
-                  n("div", hv, [
+                  n("div", gv, [
                     O.value
                       ? (o(),
                         n("div", fv, [
@@ -8738,19 +8738,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             {
                               class: "button-primary",
                               onClick:
-                                h[0] || (h[0] = (T) => r.$router.push("/")),
+                                g[0] || (g[0] = (T) => r.$router.push("/")),
                             },
                             " Voltar "
                           ),
                         ]))
                       : (o(),
-                        n("div", Cv, [
+                        n("div", Av, [
                           Z.value >= 1023
                             ? (o(),
-                              n("div", Av, [
+                              n("div", Cv, [
                                 e("div", qv, [
                                   e("div", yv, [
-                                    A(
+                                    C(
                                       Io,
                                       {
                                         character: s.value,
@@ -8782,12 +8782,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                           ]
                                         ))
                                       : q("", !0),
-                                    A(
+                                    C(
                                       Eo,
                                       {
                                         character: s.value,
                                         "disabled-sheet": k.value,
-                                        "char-added": ge.value,
+                                        "char-added": he.value,
                                         onHandleShareSheet: po,
                                         onHandleAddAgent: vo,
                                         onHandleOpenConfig: Ta,
@@ -8804,7 +8804,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   ]),
                                   e("div", kv, [
                                     e("div", $v, [
-                                      A(
+                                      C(
                                         ko,
                                         {
                                           character: s.value,
@@ -8827,7 +8827,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                       ),
                                     ]),
                                     e("div", Ev, [
-                                      A(
+                                      C(
                                         $o,
                                         {
                                           character: s.value,
@@ -8843,7 +8843,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                       ),
                                     ]),
                                     e("div", Iv, [
-                                      A(
+                                      C(
                                         ki,
                                         {
                                           character: s.value,
@@ -8888,19 +8888,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             : (o(),
                               n("div", Sv, [
                                 e("div", null, [
-                                  A(xp, {
+                                  C(xp, {
                                     onHandleMobileNav:
-                                      h[1] || (h[1] = (T) => (se.value = T)),
+                                      g[1] || (g[1] = (T) => (se.value = T)),
                                   }),
                                   se.value === 0
                                     ? (o(),
                                       n("div", _v, [
-                                        A(
+                                        C(
                                           Eo,
                                           {
                                             character: s.value,
                                             "disabled-sheet": k.value,
-                                            "char-added": ge.value,
+                                            "char-added": he.value,
                                             onHandleShareSheet: po,
                                             onHandleAddAgent: vo,
                                             onHandleOpenConfig: Ta,
@@ -8915,7 +8915,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                             "char-added",
                                           ]
                                         ),
-                                        A(
+                                        C(
                                           Io,
                                           {
                                             character: s.value,
@@ -8952,7 +8952,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   se.value === 1
                                     ? (o(),
                                       n("div", Pv, [
-                                        A(
+                                        C(
                                           Ko,
                                           {
                                             character: s.value,
@@ -8968,7 +8968,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   se.value === 2
                                     ? (o(),
                                       n("div", Mv, [
-                                        A(
+                                        C(
                                           ko,
                                           {
                                             character: s.value,
@@ -8994,7 +8994,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   se.value === 3
                                     ? (o(),
                                       n("div", Dv, [
-                                        A(
+                                        C(
                                           $o,
                                           {
                                             character: s.value,
@@ -9013,7 +9013,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   se.value === 4
                                     ? (o(),
                                       n("div", Rv, [
-                                        A(
+                                        C(
                                           Fo,
                                           {
                                             character: s.value,
@@ -9033,7 +9033,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   se.value === 5
                                     ? (o(),
                                       n("div", Vv, [
-                                        A(
+                                        C(
                                           Wo,
                                           {
                                             character: s.value,
@@ -9083,7 +9083,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   se.value === 7
                                     ? (o(),
                                       n("div", Ov, [
-                                        A(
+                                        C(
                                           Xo,
                                           {
                                             character: s.value,
@@ -9120,12 +9120,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           F.value
                             ? (o(),
                               n("div", wv, [
-                                A(
+                                C(
                                   S,
                                   {
                                     modelValue: F.value,
                                     "onUpdate:modelValue":
-                                      h[2] || (h[2] = (T) => (F.value = T)),
+                                      g[2] || (g[2] = (T) => (F.value = T)),
                                     classes: "modal-container",
                                   },
                                   {
@@ -9135,9 +9135,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         Pe(v[Q.value]),
                                         {
                                           "current-edit-option": Ie.value,
-                                          "current-add-option": Ca.value,
+                                          "current-add-option": Aa.value,
                                           character: s.value,
-                                          skill: Aa.value,
+                                          skill: Ca.value,
                                           "edit-power": D.value,
                                           "edit-ritual": B.value,
                                           "edit-item": ve.value,
@@ -9151,15 +9151,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                           onHandleAddRitual: pt,
                                           onHandleAddItem: vt,
                                           onHandleCloseModal: ae,
-                                          onHandleUpdatePicture: gt,
+                                          onHandleUpdatePicture: ht,
                                           onHandleChangeStatsClass: qt,
-                                          onHandleUpdateAlternativePicture: ht,
+                                          onHandleUpdateAlternativePicture: gt,
                                           onHandleChangeCharResultDiceColor: ft,
                                           onHandleChangeCharResultDiceBorderColor:
                                             bt,
-                                          onHandleChangeEditPermissions: Ct,
+                                          onHandleChangeEditPermissions: At,
                                           onHandleAddClass: It,
-                                          onHandleChangeDiceSkin: At,
+                                          onHandleChangeDiceSkin: Ct,
                                         },
                                         null,
                                         40,
@@ -9182,7 +9182,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 ),
                               ]))
                             : q("", !0),
-                          A(
+                          C(
                             oa,
                             { name: "toast" },
                             {
@@ -9201,18 +9201,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               _: 1,
                             }
                           ),
-                          A(
+                          C(
                             oa,
                             { name: "toast" },
                             {
                               default: ke(() => [
-                                he.value.alive
+                                ge.value.alive
                                   ? (o(),
                                     N(
                                       vs,
                                       {
                                         key: 0,
-                                        toast: he.value,
+                                        toast: ge.value,
                                         onDismiss: le,
                                       },
                                       null,
@@ -9224,7 +9224,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               _: 1,
                             }
                           ),
-                          A(
+                          C(
                             oa,
                             { name: "toast" },
                             {
@@ -9232,7 +9232,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 Ve.value.alive
                                   ? (o(),
                                     N(
-                                      gs,
+                                      hs,
                                       {
                                         key: 0,
                                         toast: Ve.value,
@@ -9255,7 +9255,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   key: 3,
                                   "campaign-log": f.value,
                                   onHandleCloseCampaignLog:
-                                    h[3] || (h[3] = () => (E.value = !1)),
+                                    g[3] || (g[3] = () => (E.value = !1)),
                                 },
                                 null,
                                 8,
@@ -9270,5 +9270,5 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  pg = V(Hv, [["__scopeId", "data-v-1d71ccb1"]]);
-export { pg as default };
+  ph = V(Hv, [["__scopeId", "data-v-1d71ccb1"]]);
+export { ph as default };
