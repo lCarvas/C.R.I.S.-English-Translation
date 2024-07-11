@@ -1,4 +1,8 @@
-const e = { name: "New Ability", description: "My new ability" },
+const e = {
+    name: "New Ability",
+    description: "My new ability",
+    hasAutomation: !1,
+  },
   a = {
     name: "New Ritual",
     description: "<p>My new ritual</p>",
@@ -123,7 +127,7 @@ const e = { name: "New Ability", description: "My new ability" },
 export {
   u as a,
   p as b,
-  c,
+  l as c,
   r as d,
   o as e,
   i as f,
@@ -132,6 +136,6 @@ export {
   t as m,
   e as p,
   a as r,
-  l as u,
+  c as u,
   n as w,
 };

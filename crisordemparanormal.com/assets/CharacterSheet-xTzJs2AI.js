@@ -3111,7 +3111,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
   ol = V(al, [["__scopeId", "data-v-7388a7f6"]]),
   W = [
     {
-      name: "Balas Curtas",
+      name: "Short Bullets",
       category: "0",
       slots: 1,
       tag: "Ammo",

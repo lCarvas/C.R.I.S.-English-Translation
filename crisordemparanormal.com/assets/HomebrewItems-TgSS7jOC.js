@@ -74,7 +74,7 @@ const It = (a) => (_e("data-v-8b772633"), (a = a()), fe(), a),
   Lt = { class: "delete-wrapper" },
   Tt = { class: "delete-content" },
   At = It(() =>
-    e("h2", null, "Atenção: essa operação é permanente e irreversível!", -1)
+    e("h2", null, "Warning: this operation is permanent and irreversible!", -1)
   ),
   Ut = { class: "buttons-container" },
   Et = x({
