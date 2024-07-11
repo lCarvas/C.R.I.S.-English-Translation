@@ -144,7 +144,7 @@ const q = (v) => (x("data-v-25b5f433"), (v = v()), J(), v),
           return r > 0 ? r : 0;
         }),
         k = z(() => u.character.skills[9].bonus),
-        b = z(() => u.character.skills[22].bonus + H.value);
+        b = z(() => u.character.skills[20].bonus + H.value);
       return (r, A) => (
         o(),
         c("div", Za, [

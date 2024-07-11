@@ -8689,7 +8689,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       });
       return (
         fe(
-          () => s.value.skills[22].bonus,
+          () => s.value.skills[20].bonus,
           (r, g) => {
             if (s.value.evade === null) return;
             const S = Math.abs(r - g);
