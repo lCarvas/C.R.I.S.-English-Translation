@@ -29,6 +29,7 @@ const Xa = [
       skills: ["Sciences", "Investigation"],
       power: {
         name: "Knowledge is Power",
+        hasAutomation: !1,
         description:
           "When you make an Intellect-based check, you can spend 2 EP to receive +5 on the roll.",
       },
@@ -40,7 +41,8 @@ const Xa = [
       skills: [],
       power: {
         name: "Glimpses of the Past",
-                description:
+        hasAutomation: !1,
+        description:
           "Once per session, you can do an Intellect check (DC 10) to recognise familiar people or places, that you might have encountered before you lost your memory. If you pass, you receive 1d4 temporary EP and, at the DM's discretion, a useful information.",
       },
     },
@@ -51,7 +53,8 @@ const Xa = [
       skills: ["Arts", "Deception"],
       power: {
         name: "Magnum Opus",
-                description:
+        hasAutomation: !1,
+        description:
           "You became famous for one of your works. Once per mission, you can determine that a character involved in an interaction scene recognizes you. You receive +5 on Presence checks and Presence-based skill checks against that character. At the master's discretion, you can receive these bonuses in other situations in which they would be recognized.",
       },
     },
@@ -62,7 +65,8 @@ const Xa = [
       skills: ["Acrobatics", "Athletics"],
       power: {
         name: "110%",
-                description:
+        hasAutomation: !1,
+        description:
           "When you make a Strength or Agility based skill check (excluding Fighting and Marksmanship) you can spend 2 EP to receive +5 on the roll.",
       },
     },
@@ -73,7 +77,8 @@ const Xa = [
       skills: ["Fortitude", "Profession"],
       power: {
         name: "Work Tool",
-                description:
+        hasAutomation: !1,
+        description:
           "Choose a simple or tactical weapon that, at the DM's discretion, could be used as tool on your profession (such as a sledgehammer for a mason). You have proficiency on the chosen weapon and you receive +1 on attack rolls, damage rolls and threat margin when using it.",
       },
     },
@@ -84,7 +89,8 @@ const Xa = [
       skills: ["Fortitude", "Profession (cook)"],
       power: {
         name: "Secret Ingredient",
-                description:
+        hasAutomation: !1,
+        description:
           "During interlude scenes, you can use the eating action to cook a special dish. You, and all members of the party that used the eating action, receive the benefit of two dishes (if the same benefit is chosen twice, the effects are cumulative).",
       },
     },
@@ -95,7 +101,8 @@ const Xa = [
       skills: ["Intuition", "Will"],
       power: {
         name: "Civic Spirit",
-                description:
+        hasAutomation: !1,
+        description:
           "Every time you make a roll to help, you can spend 1 EP to increase the bonus given by +2.",
       },
     },
@@ -106,7 +113,8 @@ const Xa = [
       skills: ["Investigation", "Occultism"],
       power: {
         name: "I Knew It",
-                description:
+        hasAutomation: !1,
+        description:
           "You don't get shaken by entities or anomalies. After all, you always knew of their existence. You gain resistance to mental damage equal to your Intellect.",
       },
     },
@@ -117,6 +125,7 @@ const Xa = [
       skills: ["Crime", "Stealth"],
       power: {
         name: "Crime Pays Off",
+        hasAutomation: !1,
         description:
           "At the end of a mission, choose an item found during the mission. On your next mission, you can include that item on your inventory without it counting towards your rank's item limit.",
       },
@@ -128,7 +137,8 @@ const Xa = [
       skills: ["Profession", "Technology"],
       power: {
         name: "Favorite Tools",
-                description:
+        hasAutomation: !1,
+        description:
           "An item of your choice (excluding weapons) counts as being one category below (for example, an item of category II counts as category I to you).",
       },
     },
@@ -139,7 +149,8 @@ const Xa = [
       skills: ["Diplomacy", "Profession"],
       power: {
         name: "Optimized Process",
-                description:
+        hasAutomation: !1,
+        description:
           "Whenever you do a skill check during an extended test, or an action to revise documents (physical or digital), you can spend 2 EP to receive +5 on the roll.",
       },
     },
@@ -150,7 +161,8 @@ const Xa = [
       skills: ["Fighting", "Reflexes"],
       power: {
         name: "Heavy Hitter",
-                description:
+        hasAutomation: !1,
+        description:
           "You receive +2 on damage rolls on melee attacks.",
       },
     },
@@ -161,7 +173,8 @@ const Xa = [
       skills: ["Sciences", "Investigation"],
       power: {
         name: "Investigação Científica",
-                description:
+        hasAutomation: !1,
+        description:
           "Once per investigation scene, you can use a free action to find clues, using Sciences instead of the skill that would be used instead for the roll.",
       },
     },
@@ -172,7 +185,10 @@ const Xa = [
       skills: ["Acrobatics", "Reflexes"],
       power: {
         name: "Acrobatic Mobility",
-                description:
+        hasAutomation: !0,
+        isAutomationOn: !0,
+        automationId: "mobilidade-acrobatica",
+        description:
           "You gain +2 Defense and your movement increases by +3m.",
       },
     },
@@ -183,6 +199,7 @@ const Xa = [
       skills: ["Intuition", "Medicine"],
       power: {
         name: "Medicinal Techniques",
+        hasAutomation: !1,
         description:
           "Whenever you heal a character, you sum your Intellect to the total healed HP.",
       },
@@ -194,7 +211,8 @@ const Xa = [
       skills: ["Investigation", "Technology"],
       power: {
         name: "Search Engine",
-                description:
+        hasAutomation: !1,
+        description:
           "To the DM's discretion, whenever you have access to the internet, you can spend to EP to replace any skill check with a Technology check. ",
       },
     },
@@ -205,7 +223,8 @@ const Xa = [
       skills: ["Investigation", "Perception"],
       power: {
         name: "Clue Sniffer",
-                description:
+        hasAutomation: !1,
+        description:
           "Once per scene, when you make a check to search for clues, you can spend 1 EP to receive +5 on the roll.",
       },
     },
@@ -216,7 +235,8 @@ const Xa = [
       skills: ["Current Affairs", "Investigation"],
       power: {
         name: "Trustworthy Sources",
-                description:
+        hasAutomation: !1,
+        description:
           "Once per session, you can spend 1 EP to contact your sources - people whom you trust with access to information. This allows you to reroll an already made skill check to search for a clue, with an added +5 bonus, or you receive a different relevent information (to the DM's discretion).",
       },
     },
@@ -227,7 +247,8 @@ const Xa = [
       skills: ["Diplomacy", "Piloting"],
       power: {
         name: "Sponsor of the Order",
-                description:
+        hasAutomation: !1,
+        description:
           "Your credit limit is always considered one above the current one.",
       },
     },
@@ -238,6 +259,7 @@ const Xa = [
       skills: ["Initiative", "Intimidation"],
       power: {
         name: "Combat Postion",
+        hasAutomation: !1,
         description:
           "On the first turn of every action scene, you can spend 2 EP to receive an additional movement action.",
       },
@@ -249,6 +271,7 @@ const Xa = [
       skills: ["Marksmanship", "Tactics"],
       power: {
         name: "Para Bellum",
+        hasAutomation: !1,
         description: "Your receive +2 on damage rolls with firearms.",
       },
     },
@@ -257,7 +280,13 @@ const Xa = [
       description:
         "<p>Você fez parte de uma força de segurança pública, civil ou militar. Em alguma patrulha ou chamado se deparou com um caso paranormal e sobreviveu para contar a história.</p>",
       skills: ["Perception", "Marksmanship"],
-      power: { name: "Patrol", description: "You receive +2 Defense." },
+      power: {
+        name: "Patrulha",
+        hasAutomation: !0,
+        isAutomationOn: !0,
+        automationId: "patrulha",
+        description: "Você recebe +2 em Defesa.",
+      },
     },
     {
       name: "Professor",
@@ -266,6 +295,7 @@ const Xa = [
       skills: ["Sciences", "Intuition"],
       power: {
         name: "Field Class",
+        hasAutomation: !1,
         description:
         "You know how to bring out the best in people. Once per scene, you can use a standard action and 2 EP to give +1 to any attribute of a different character in short range until the end of the scene",
       },
@@ -277,7 +307,8 @@ const Xa = [
       skills: ["Stealth", "Will"],
       power: {
         name: "Lone Wolf",
-                description:
+        hasAutomation: !1,
+        description:
           "You receive +1 to Defense, skill checks, and your EP limit per turn if there are no allies within short range.",
       },
     },
@@ -288,7 +319,8 @@ const Xa = [
       skills: ["Religion", "Will"],
       power: {
         name: "Soothe",
-                description:
+        hasAutomation: !1,
+        description:
           "You receive +5 in Religion checks to calm someone down. Furthermore, when you calm someone down, they receive a number of Sanity points equal to 1d6 + your Presence.",
       },
     },
@@ -299,7 +331,8 @@ const Xa = [
       skills: ["Occultism", "Religion"],
       power: {
         name: "Remnants of the Other Side",
-                description:
+        hasAutomation: !1,
+        description:
           "You have a paranormal power of your choice. However, you start the game with half the normal Sanity for your class.",
       },
     },
@@ -310,6 +343,7 @@ const Xa = [
       skills: ["Animal Handling", "Survival"],
       power: {
         name: "Pathfinder",
+        hasAutomation: !1,
         description:
           "When you make a Animal Handling or Survival check, you can spend 2 EP to receive +5 on the roll. Furthermore, you don't receive a movement penalty when moving in difficult terrain.",
       },
@@ -321,7 +355,8 @@ const Xa = [
       skills: ["Fighting", "Piloting"],
       power: {
         name: "Scoundrel Fraternity",
-                description:
+        hasAutomation: !1,
+        description:
           "Once per round, when an adjacent ally is the target of an attack or effect, you can spend 1 EP to switch places with that ally and become the target of that attack or effect. If you take this action, on your next turn you gain +2 on attack rolls against the attacker.",
       },
     },
@@ -332,6 +367,9 @@ const Xa = [
       skills: ["Fortitude", "Survival"],
       power: {
         name: "Calloused",
+        hasAutomation: !0,
+        isAutomationOn: !0,
+        automationId: "calejado",
         description: "You receive +1 HP for every 5% EXP.",
       },
     },
@@ -342,7 +380,8 @@ const Xa = [
       skills: ["Piloting", "Reflexes"],
       power: {
         name: "Fearless",
-                description:
+        hasAutomation: !1,
+        description:
           "When you make a skill check on which a failure will directly result in damage or a negative condition, you receive +5 to that test.",
       },
     },
@@ -353,7 +392,8 @@ const Xa = [
       skills: ["Crime", "Deception"],
       power: {
         name: "Impostor",
-                description:
+        hasAutomation: !1,
+        description:
           "Once per scene, you can spend 2 EP to replace any skill check by a Deception check.",
       },
     },
@@ -364,6 +404,9 @@ const Xa = [
       skills: ["Current Affairs", "Investigation"],
       power: {
         name: "Dedication",
+        hasAutomation: !0,
+        isAutomationOn: !0,
+        automationId: "dedicacao",
         description:
           "You receive +1 EP, and 1 additional EP for each odd EXP (15%, 25%...). Furthermore, your EP per turn limit increases by 1 (on EXP 5% your limit is 2, on EXP 10% it's 3 and so on; this does not affect the DC of your effects).",
       },
@@ -375,6 +418,9 @@ const Xa = [
       skills: ["Reflexes", "Will"],
       power: {
         name: "Psychological Scars",
+        hasAutomation: !0,
+        isAutomationOn: !0,
+        automationId: "cicatrizes-psicologicas",
         description: "You receive +1 Sanity for every 5% EXP.",
       },
     },
@@ -385,6 +431,7 @@ const Xa = [
       skills: ["Arts", "Current Affairs"],
       power: {
         name: "Bagagem de Leitura",
+        hasAutomation: !1,
         description:
           "Due to your profession, you have read - and learned - a bit of everything. Once per scene, you can spend 2 EP to become trained in any skill until the end of the ongoing scene.",
       },
@@ -406,7 +453,7 @@ const Xa = [
   L = u(() => a("h6", null, "For each level of exposition", -1)),
   F = { class: "sub" },
   U = { class: "feat-card" },
-  H = u(() => a("h4", null, "INITIAL", -1)),
+  H = u(() => a("h4", null, "INITIAL SANITY", -1)),
   X = { class: "main" },
   B = { key: 0 },
   Q = u(() => a("h6", null, "For each level of exposition", -1)),
@@ -616,11 +663,11 @@ const Xa = [
       const r = e,
         m = {
           name: "Path Ability",
-          description: `Em NEX 10% você escolhe uma das trilhas de ${i.charClass.name.toLocaleLowerCase()} e recebe o primeiro poder da trilha escolhida. Você recebe um novo poder da trilha escolhida em NEX 40%, 65% e 99%.`,
+          description: `Em NEX 10% você escolhe uma das trilhas de ${r.charClass.name.toLocaleLowerCase()} e recebe o primeiro poder da trilha escolhida. Você recebe um novo poder da trilha escolhida em NEX 40%, 65% e 99%.`,
         },
         t = {
           name: "Power",
-          description: `Em NEX 15%, você recebe um poder de ${i.charClass.name.toLocaleLowerCase()} à sua escolha. Você recebe um novo poder de ${i.charClass.name.toLocaleLowerCase()} em NEX 30% e a cada 15 pontos de NEX subsequentes, conforme indicado na tabela. Veja a lista de poderes a seguir.`,
+          description: `Em NEX 15%, você recebe um poder de ${r.charClass.name.toLocaleLowerCase()} à sua escolha. Você recebe um novo poder de ${r.charClass.name.toLocaleLowerCase()} em NEX 30% e a cada 15 pontos de NEX subsequentes, conforme indicado na tabela. Veja a lista de poderes a seguir.`,
         };
       return (c, g) => (
         s(),
