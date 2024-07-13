@@ -1,4 +1,4 @@
-import { d, o as s, c as a, a as o, t as i, _ as r } from "./index-CCe7Lu-B.js";
+import { d, o as s, c as a, a as o, t as i, _ as r } from "./index-sgISCpYv.js";
 const l = { class: "card" },
   m = { class: "content" },
   c = { class: "player-info" },

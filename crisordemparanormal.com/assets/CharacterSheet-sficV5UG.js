@@ -1,153 +1,156 @@
 import {
-  d as R,
-  Q as Ue,
+  d as T,
+  Q as Ne,
   r as $,
-  a0 as _o,
-  o,
-  c as n,
+  a0 as Mo,
+  o as s,
+  c as r,
   a as e,
-  t as H,
-  a1 as J,
-  n as j,
-  q as L,
+  t as w,
+  a1 as Y,
+  L,
+  n as U,
+  q as B,
   _ as V,
   f as X,
-  v as N,
-  L as G,
-  k as C,
-  p as w,
-  b as z,
-  a3 as xe,
+  v as x,
   m as q,
+  k as C,
+  p as H,
+  b as j,
+  a3 as xe,
   H as me,
-  h as K,
+  h as J,
   C as be,
   D as Ae,
-  E as Mt,
+  E as Rt,
   e as Ee,
-  a5 as Pe,
-  a2 as Ne,
-  J as oe,
-  i as ca,
+  a5 as _e,
+  a2 as Be,
+  J as te,
+  i as ma,
   x as ke,
-  j as fo,
-  g as Po,
-  M as Dt,
-  S as Rt,
-  u as Vt,
-  A as Ze,
+  j as bo,
+  g as _o,
+  M as Tt,
+  S as Vt,
+  u as Ot,
+  A as ea,
   P as de,
-  N as ea,
-  Z as aa,
-  $ as Tt,
+  N as aa,
+  Z as oa,
+  $ as wt,
   w as fe,
-  T as oa,
-  R as bo,
-  F as Ot,
-  B as wt,
-  l as zt,
-  y as Ht,
-  z as jt,
-} from "./index-CCe7Lu-B.js";
+  T as ta,
+  R as Ao,
+  F as zt,
+  B as Ht,
+  l as jt,
+  y as Ut,
+  z as Nt,
+} from "./index-sgISCpYv.js";
 import {
-  g as Ut,
-  r as Ao,
-  b as xt,
-  u as Nt,
-  a as Lt,
-} from "./index.esm2017-xnObGOUN.js";
-import { T as Bt } from "./ToastNotification-mRGv3sEv.js";
+  g as xt,
+  r as Co,
+  b as Bt,
+  u as Lt,
+  a as Ft,
+} from "./index.esm2017-x1dhUp5d.js";
+import { T as Qt } from "./ToastNotification-RIbSpF9b.js";
 import {
-  I as ta,
-  n as Ft,
-  A as Qt,
+  n as la,
+  I as ze,
+  g as Gt,
+  A as Xt,
   F as Le,
-  a as Gt,
-  u as Xt,
-  p as Wt,
-  C as Kt,
-  d as Jt,
-  g as Yt,
-  h as Co,
-  i as Zt,
-  j as es,
-  k as as,
-  l as os,
-  m as ts,
+  a as Wt,
+  u as Kt,
+  p as Jt,
+  C as Yt,
+  d as Zt,
+  h as es,
+  i as qo,
+  j as as,
+  k as os,
+  l as ts,
+  m as ss,
+  o as ns,
   f as sa,
   e as na,
-  o as qo,
-  q as ss,
-  s as ns,
-  t as rs,
-  v as ds,
-  w as is,
-  x as ls,
-  y as us,
-  c as cs,
-  r as ms,
-  z as ps,
-  T as vs,
-  b as hs,
-  B as gs,
-  E as fs,
-  G as bs,
-  H as As,
-  J as Cs,
-} from "./ToastAttack-BamNNyhq.js";
-import { _ as Mo } from "./d20-icon-vaz1En3o.js";
-import { T as pe } from "./TabNav-4AlT8nGd.js";
-import { P as Be } from "./PowerCard-39z67vzg.js";
-import { R as Do } from "./RitualCard-fptzTflG.js";
+  q as yo,
+  s as rs,
+  t as ds,
+  v as is,
+  w as ls,
+  x as us,
+  y as cs,
+  z as ms,
+  c as ps,
+  r as vs,
+  B as hs,
+  T as gs,
+  b as fs,
+  E as bs,
+  G as As,
+  H as Cs,
+  J as qs,
+  K as ys,
+} from "./ToastAttack-UfRjEh-0.js";
+import { _ as Do } from "./d20-icon-vaz1En3o.js";
+import { T as pe } from "./TabNav-J-G_CLvo.js";
+import { P as Fe } from "./PowerCard-5ucuwjr1.js";
+import { R as Ro } from "./RitualCard-Mdj2ju1t.js";
 import {
-  W as Ro,
+  W as To,
   P as Vo,
-  M as To,
-  C as Oo,
-} from "./CursedItemCard-m1uI5mCe.js";
-import { c as ze } from "./classes-wb0vVaNi.js";
-import { S as $e } from "./SearchInput-03fdP_9g.js";
-import { b as qs, c as ys } from "./ClassCard-yfYyNGje.js";
+  M as Oo,
+  C as wo,
+} from "./CursedItemCard-FWdRiU-r.js";
+import { c as Pe } from "./attributes-pd1IMHTT.js";
+import { S as $e } from "./SearchInput-6iu8S-fG.js";
+import { b as ks, c as $s } from "./ClassCard-X4m-3aG6.js";
 import {
-  H as ks,
-  b as $s,
-  a as Es,
-  A as wo,
-  R as zo,
-  W as Ho,
-  P as jo,
-  M as la,
-  c as Uo,
-} from "./HomebrewItems-TgSS7jOC.js";
+  H as Es,
+  b as Ss,
+  a as Is,
+  A as zo,
+  R as Ho,
+  W as jo,
+  P as Uo,
+  M as ua,
+  c as No,
+} from "./HomebrewItems-3lQ9yI6z.js";
 import {
-  d as _e,
+  d as Me,
   p as xo,
-  r as No,
-  w as Is,
-  e as Ss,
+  r as Bo,
+  w as Ps,
+  e as Ms,
   f as _s,
-  m as Ps,
-  g as Ms,
+  m as Ds,
+  g as Rs,
 } from "./default-dSfWXGfL.js";
-import { b as Ds } from "./forms-8DDAOOVU.js";
-import { _ as He, l as yo } from "./lodash-gzw5KmHd.js";
-import { D as ye } from "./DropdownSimple-1_2dpnbs.js";
-import { v as je } from "./v4-cyCr5FZV.js";
-import { S as ra } from "./SwitchButtonBool-v6yCMwuV.js";
-import { _ as Me } from "./blank-profile-picture-wMh28flS.js";
-import { P as Lo } from "./PictureModal-aYibvNls.js";
-import { L as Rs } from "./LoadingView-QvHCpB6F.js";
-import { s as Bo, e as Vs, o as Ts } from "./skins-kfsapBUO.js";
-import { g as Os, C as ws } from "./firebase-gLqIXTO_.js";
+import { b as Ts } from "./forms-8DDAOOVU.js";
+import { _ as je, l as ko } from "./lodash-gzw5KmHd.js";
+import { D as ye } from "./DropdownSimple-nUwB4ryP.js";
+import { v as Ue } from "./v4-cyCr5FZV.js";
+import { S as ra } from "./SwitchButtonBool-9_VU2YCl.js";
+import { _ as De } from "./blank-profile-picture-wMh28flS.js";
+import { P as Lo } from "./PictureModal-CldhdeXT.js";
+import { L as Vs } from "./LoadingView-CeRplIIf.js";
+import { s as Fo, e as Os, o as ws } from "./skins-DFWuoMc3.js";
+import { g as zs, C as Hs } from "./firebase-y1XG5P2D.js";
 import "./edit-icon-u1vf_q3w.js";
-import "./show-more-icon-VvUXKiHG.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
+import "./show-more-icon-VvUXKiHG.js";
 import "./add-icon-fJ4uQHUZ.js";
-const zs = "/assets/shield-icon-FCvc8PM4.png",
-  Hs = { class: "sheet-subtitle" },
-  js = { class: "dropdown-button-container" },
-  Us = ["onClick"],
-  xs = R({
+const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
+  Us = "/assets/sobrevivendo-ao-horror-toggle-ZstI-LrC.webp",
+  Ns = "/assets/shield-icon-FCvc8PM4.png",
+  xs = { class: "sheet-subtitle" },
+  Bs = { class: "dropdown-button-container" },
+  Ls = ["onClick"],
+  Fs = T({
     __name: "SheetDropdown",
     props: {
       title: { type: String, required: !0 },
@@ -157,77 +160,78 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       bold: Boolean,
       disabled: Boolean,
       mobileView: Boolean,
+      isSobrevivendoAoHorror: Boolean,
     },
     emits: ["updateValue"],
     setup(a, { emit: b }) {
-      Ue((i) => ({ "35fdf62f": a.buttonWidth }));
-      const v = a,
-        h = b,
-        u = $(null),
+      Ne((i) => ({ "2d3dd721": a.buttonWidth }));
+      const h = a,
+        v = b,
+        c = $(null),
         p = $(!1);
-      _o(u, () => (p.value = !1));
-      const l = () => {
-          v.disabled || (p.value = !p.value);
+      Mo(c, () => (p.value = !1));
+      const u = () => {
+          h.disabled || (p.value = !p.value);
         },
         m = (i) => {
-          (p.value = !1), h("updateValue", i);
+          (p.value = !1), v("updateValue", i);
         };
-      return (i, d) => (
-        o(),
-        n(
+      return (i, n) => (
+        s(),
+        r(
           "div",
           {
             ref_key: "dropdown",
-            ref: u,
-            class: J([
+            ref: c,
+            class: Y([
               a.mobileView ? "dropdown-container-mobile" : "dropdown-container",
             ]),
           },
           [
-            e("h4", Hs, H(a.title), 1),
-            e("div", js, [
+            e("h4", xs, w(a.title), 1),
+            e("div", Bs, [
               e(
                 "button",
                 {
-                  class: J([
+                  class: Y([
                     "dropdown-button",
                     { bold: a.bold, disabled: a.disabled },
                   ]),
-                  onClick: l,
+                  onClick: u,
                 },
-                H(a.value),
+                w(a.isSobrevivendoAoHorror ? L(la)[a.value] : a.value),
                 3
               ),
               e(
                 "div",
                 {
-                  class: J([
+                  class: Y([
                     "dropdown-content",
                     { "dropdown-content-active": p.value },
                   ]),
                 },
                 [
-                  (o(!0),
-                  n(
-                    j,
+                  (s(!0),
+                  r(
+                    U,
                     null,
-                    L(
+                    B(
                       a.options,
-                      (t, c) => (
-                        o(),
-                        n("div", { key: c }, [
+                      (o, l) => (
+                        s(),
+                        r("div", { key: l }, [
                           e(
                             "button",
                             {
-                              class: J([
+                              class: Y([
                                 "dropdown-content-button",
                                 { bold: a.bold },
                               ]),
-                              onClick: (A) => m(t),
+                              onClick: (A) => m(o),
                             },
-                            H(t),
+                            w(a.isSobrevivendoAoHorror ? L(la)[o] : o),
                             11,
-                            Us
+                            Ls
                           ),
                         ])
                       )
@@ -244,34 +248,65 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  ua = V(xs, [["__scopeId", "data-v-69e3d76a"]]),
-  Y = (a) => (w("data-v-de62832b"), (a = a()), z(), a),
-  Ns = { class: "info-view" },
-  Ls = { class: "info-row" },
-  Bs = { class: "nex-container" },
-  Fs = { key: 1, class: "mundano-nex-container" },
-  Qs = Y(() => e("h4", { class: "sheet-subtitle" }, " EXP ", -1)),
-  Gs = { class: "pe-container" },
-  Xs = { class: "pe" },
-  Ws = ["disabled", "value"],
-  Ks = Y(() => e("h4", null, "EP / TURN", -1)),
-  Js = { class: "desl-container" },
-  Ys = Y(() => e("h3", null, "MOV", -1)),
-  Zs = { class: "desl-input-container" },
-  en = ["disabled", "value"],
-  an = Y(() => e("h4", null, "m /", -1)),
-  on = ["disabled", "value"],
-  tn = Y(() => e("h4", null, "sq", -1)),
-  sn = { class: "info-bar-wrapper" },
-  nn = { class: "info-row" },
-  rn = { class: "defense-container" },
-  dn = { class: "defense-img-container" },
-  ln = Y(() =>
-    e("img", { class: "defense-img", src: zs, alt: "defense" }, null, -1)
+  ca = V(Fs, [["__scopeId", "data-v-c7dc5afd"]]),
+  W = (a) => (H("data-v-829b3fda"), (a = a()), j(), a),
+  Qs = { class: "info-view" },
+  Gs = W(() =>
+    e(
+      "img",
+      {
+        class: "toggle-button-img",
+        src: js,
+        alt: "Alterar versão da ficha",
+        rel: "preload",
+      },
+      null,
+      -1
+    )
   ),
-  un = { class: "defense-value" },
-  cn = { class: "defense-content" },
-  mn = Y(() =>
+  Xs = [Gs],
+  Ws = W(() =>
+    e(
+      "img",
+      {
+        class: "toggle-button-img",
+        src: Us,
+        alt: "Alterar versão da ficha",
+        rel: "preload",
+      },
+      null,
+      -1
+    )
+  ),
+  Ks = [Ws],
+  Js = { class: "info-row1" },
+  Ys = { class: "nex-container" },
+  Zs = { key: 1, class: "mundano-nex-container" },
+  en = { class: "sheet-subtitle" },
+  an = { key: 2, class: "pe-container" },
+  on = { class: "pe" },
+  tn = ["disabled", "value"],
+  sn = W(() => e("h4", { class: "alt-nex" }, " EXP ", -1)),
+  nn = { class: "pe-container" },
+  rn = { class: "pe" },
+  dn = ["disabled", "value"],
+  ln = { class: "desl-container" },
+  un = { class: "desl-input-container" },
+  cn = ["disabled", "value"],
+  mn = W(() => e("h4", null, "m /", -1)),
+  pn = ["disabled", "value"],
+  vn = W(() => e("h4", null, "sq", -1)),
+  hn = W(() => e("h3", null, "SPEED", -1)),
+  gn = { class: "info-bar-wrapper" },
+  fn = { class: "info-row" },
+  bn = { class: "defense-container" },
+  An = { class: "defense-img-container" },
+  Cn = W(() =>
+    e("img", { class: "defense-img", src: Ns, alt: "defense" }, null, -1)
+  ),
+  qn = { class: "defense-value" },
+  yn = { class: "defense-content" },
+  kn = W(() =>
     e(
       "div",
       { class: "defense-text" },
@@ -279,30 +314,30 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  pn = { class: "defense-input" },
-  vn = ["disabled", "value"],
-  hn = Y(() => e("h5", null, "Equip.", -1)),
-  gn = Y(() => e("h4", { class: "defense-plus" }, " + ", -1)),
-  fn = { class: "defense-input" },
-  bn = ["disabled", "value"],
-  An = Y(() => e("h5", null, "Outros.", -1)),
-  Cn = { class: "other-defenses-container" },
-  qn = { class: "other-defense-div" },
-  yn = Y(() => e("div", { class: "other-defense-label" }, " BLOCK DR ", -1)),
-  kn = ["disabled", "value"],
-  $n = { class: "other-defense-div" },
-  En = Y(() => e("div", { class: "other-defense-label" }, " DODGE ", -1)),
-  In = ["disabled", "value"],
-  Sn = { class: "info-line" },
-  _n = Y(() => e("h3", null, "ARMOR", -1)),
-  Pn = ["disabled", "value"],
-  Mn = { class: "info-line" },
-  Dn = Y(() => e("h3", null, "RESISTENCES", -1)),
-  Rn = ["disabled", "value"],
-  Vn = { class: "info-line" },
-  Tn = Y(() => e("h3", null, "PROFICIENCIES", -1)),
-  On = ["disabled", "value"],
-  wn = R({
+  $n = { class: "defense-input" },
+  En = ["disabled", "value"],
+  Sn = W(() => e("h5", null, "Equip.", -1)),
+  In = W(() => e("h4", { class: "defense-plus" }, " + ", -1)),
+  Pn = { class: "defense-input" },
+  Mn = ["disabled", "value"],
+  _n = W(() => e("h5", null, "Outros.", -1)),
+  Dn = { class: "other-defenses-container" },
+  Rn = { class: "other-defense-div" },
+  Tn = W(() => e("div", { class: "other-defense-label" }, " BLOCK DR ", -1)),
+  Vn = ["disabled", "value"],
+  On = { class: "other-defense-div" },
+  wn = W(() => e("div", { class: "other-defense-label" }, " DODGE ", -1)),
+  zn = ["disabled", "value"],
+  Hn = { class: "info-line" },
+  jn = W(() => e("h3", null, "ARMOR", -1)),
+  Un = ["disabled", "value"],
+  Nn = { class: "info-line" },
+  xn = W(() => e("h3", null, "RESISTENCES", -1)),
+  Bn = ["disabled", "value"],
+  Ln = { class: "info-line" },
+  Fn = W(() => e("h3", null, "PROFICIENCIES", -1)),
+  Qn = ["disabled", "value"],
+  Gn = T({
     __name: "InfoView",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -315,150 +350,228 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleChangeMarkModeToTrue",
       "handleMarkHeal",
       "handleOpenModalAddClass",
+      "handleChangeSobrevivendoAoHorror",
     ],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = xe(),
+      const h = a,
+        v = b,
+        c = xe(),
         p = X(() =>
-          v.character.movement === 0 ? 0 : v.character.movement / 1.5
+          h.character.movement === 0 ? 0 : h.character.movement / 1.5
         ),
-        l = X(() => {
-          const d =
+        u = X(() => {
+          const n =
             10 +
-            v.character.attributes.dex +
-            v.character.protectionDefense +
-            v.character.bonusDefense;
-          return d > 0 ? d : 0;
+            h.character.attributes.dex +
+            h.character.protectionDefense +
+            h.character.bonusDefense;
+          return n > 0 ? n : 0;
         }),
-        m = (d, t) => {
-          var c;
-          h("handleChangeCharNumber", { e: d, key: t }),
-            (c = u == null ? void 0 : u.proxy) == null || c.$forceUpdate();
+        m = (n, o) => {
+          var l;
+          v("handleChangeCharNumber", { e: n, key: o }),
+            (l = c == null ? void 0 : c.proxy) == null || l.$forceUpdate();
         },
-        i = (d) => {
-          var t;
-          h("handleChangeMovementInSquares", d),
-            (t = u == null ? void 0 : u.proxy) == null || t.$forceUpdate();
+        i = (n) => {
+          var o;
+          v("handleChangeMovementInSquares", n),
+            (o = c == null ? void 0 : c.proxy) == null || o.$forceUpdate();
         };
-      return (d, t) => (
-        o(),
-        n("div", Ns, [
-          e("div", Ls, [
-            e("div", Bs, [
-              d.character.statsClass !== "Mundane"
-                ? (o(),
-                  N(
-                    ua,
+      return (n, o) => (
+        s(),
+        r("div", Qs, [
+          n.character.isSobrevivendoAoHorror
+            ? (s(),
+              r(
+                "div",
+                {
+                  key: 1,
+                  class: "toggle-button-container",
+                  onClick:
+                    o[1] ||
+                    (o[1] = (l) => v("handleChangeSobrevivendoAoHorror")),
+                },
+                Ks
+              ))
+            : (s(),
+              r(
+                "div",
+                {
+                  key: 0,
+                  class: "toggle-button-container",
+                  onClick:
+                    o[0] ||
+                    (o[0] = (l) => v("handleChangeSobrevivendoAoHorror")),
+                },
+                Xs
+              )),
+          e("div", Js, [
+            e("div", Ys, [
+              n.character.statsClass !== "Mundane"
+                ? (s(),
+                  x(
+                    ca,
                     {
                       key: 0,
-                      title: "EXP",
-                      disabled: d.disabledSheet,
-                      value: d.character.nex,
-                      options: G(Ft),
+                      title: n.character.isSobrevivendoAoHorror
+                        ? "LEVEL"
+                        : "PEX",
+                      disabled: n.disabledSheet,
+                      value: n.character.nex,
+                      options: L(Gt),
+                      "is-sobrevivendo-ao-horror":
+                        n.character.isSobrevivendoAoHorror,
                       bold: "",
                       onUpdateValue:
-                        t[0] ||
-                        (t[0] = (c) =>
-                          d.$emit("handleChangeCharDropdown", {
-                            value: c,
+                        o[2] ||
+                        (o[2] = (l) =>
+                          n.$emit("handleChangeCharDropdown", {
+                            value: l,
                             key: "nex",
                           })),
                     },
                     null,
                     8,
-                    ["disabled", "value", "options"]
+                    [
+                      "title",
+                      "disabled",
+                      "value",
+                      "options",
+                      "is-sobrevivendo-ao-horror",
+                    ]
                   ))
-                : (o(),
-                  n("div", Fs, [
-                    Qs,
+                : (s(),
+                  r("div", Zs, [
+                    e(
+                      "h4",
+                      en,
+                      w(n.character.isSobrevivendoAoHorror ? "LEVEL" : "PEX"),
+                      1
+                    ),
                     e(
                       "button",
                       {
                         class: "mundano-nex-button",
                         onClick:
-                          t[1] ||
-                          (t[1] = (c) => d.$emit("handleOpenModalAddClass")),
+                          o[3] ||
+                          (o[3] = (l) => n.$emit("handleOpenModalAddClass")),
                       },
-                      " 0% "
+                      w(n.character.isSobrevivendoAoHorror ? "0" : "0%"),
+                      1
                     ),
                   ])),
-              e("div", Gs, [
-                e("div", Xs, [
+              n.character.isSobrevivendoAoHorror
+                ? (s(),
+                  r("div", an, [
+                    e("div", on, [
+                      e(
+                        "input",
+                        {
+                          class: "sheet-input pe-input",
+                          type: "text",
+                          disabled: n.disabledSheet,
+                          value: n.character.nexString,
+                          onBlur:
+                            o[4] ||
+                            (o[4] = (l) =>
+                              n.$emit("handleChangeCharText", {
+                                e: l,
+                                key: "nexString",
+                              })),
+                        },
+                        null,
+                        40,
+                        tn
+                      ),
+                    ]),
+                    sn,
+                  ]))
+                : q("", !0),
+              e("div", nn, [
+                e("div", rn, [
                   e(
                     "input",
                     {
                       class: "sheet-input pe-input",
                       type: "number",
-                      disabled: d.disabledSheet,
-                      value: d.character.peTurn,
-                      onBlur: t[2] || (t[2] = (c) => m(c, "peTurn")),
+                      disabled: n.disabledSheet,
+                      value: n.character.peTurn,
+                      onBlur: o[5] || (o[5] = (l) => m(l, "peTurn")),
                     },
                     null,
                     40,
-                    Ws
+                    dn
                   ),
                 ]),
-                Ks,
+                e(
+                  "h4",
+                  null,
+                  w(
+                    n.character.isSobrevivendoAoHorror
+                      ? "DP / TURN"
+                      : "EP / TURN"
+                  ),
+                  1
+                ),
               ]),
             ]),
-            e("div", Js, [
-              Ys,
-              e("div", Zs, [
+            e("div", ln, [
+              e("div", un, [
                 e(
                   "input",
                   {
                     class: "sheet-input",
                     type: "number",
-                    disabled: d.disabledSheet,
-                    value: d.character.movement,
-                    onBlur: t[3] || (t[3] = (c) => m(c, "movement")),
+                    disabled: n.disabledSheet,
+                    value: n.character.movement,
+                    onBlur: o[6] || (o[6] = (l) => m(l, "movement")),
                   },
                   null,
                   40,
-                  en
+                  cn
                 ),
-                an,
+                mn,
                 e(
                   "input",
                   {
                     class: "sheet-input",
                     type: "number",
-                    disabled: d.disabledSheet,
+                    disabled: n.disabledSheet,
                     value: p.value,
                     onBlur: i,
                   },
                   null,
                   40,
-                  on
+                  pn
                 ),
-                tn,
+                vn,
               ]),
+              hn,
             ]),
           ]),
-          e("div", sn, [
+          e("div", gn, [
             C(
-              ta,
+              ze,
               {
                 type: "pv",
-                "max-value": d.character.maxPv,
-                "current-value": d.character.currentPv,
-                marks: d.character.deathMarks,
-                "mark-mode": d.character.deathMode,
-                "disabled-sheet": d.disabledSheet,
-                onHandleChangeCharNumber: t[4] || (t[4] = (c, A) => m(c, A)),
+                "max-value": n.character.maxPv,
+                "current-value": n.character.currentPv,
+                marks: n.character.deathMarks,
+                "mark-mode": n.character.deathMode,
+                "disabled-sheet": n.disabledSheet,
+                onHandleChangeCharNumber: o[7] || (o[7] = (l, A) => m(l, A)),
                 onHandleChangeCharNumberButton:
-                  t[5] ||
-                  (t[5] = (c, A) =>
-                    d.$emit("handleChangeCharNumberButton", c, A)),
+                  o[8] ||
+                  (o[8] = (l, A) =>
+                    n.$emit("handleChangeCharNumberButton", l, A)),
                 onHandleChangeCharMark:
-                  t[6] ||
-                  (t[6] = (c, A) => d.$emit("handleChangeCharMark", c, A)),
+                  o[9] ||
+                  (o[9] = (l, A) => n.$emit("handleChangeCharMark", l, A)),
                 onHandleChangeMarkModeToTrue:
-                  t[7] ||
-                  (t[7] = (c) => d.$emit("handleChangeMarkModeToTrue", c)),
+                  o[10] ||
+                  (o[10] = (l) => n.$emit("handleChangeMarkModeToTrue", l)),
                 onHandleMarkHeal:
-                  t[8] || (t[8] = (c) => d.$emit("handleMarkHeal", c)),
+                  o[11] || (o[11] = (l) => n.$emit("handleMarkHeal", l)),
               },
               null,
               8,
@@ -470,209 +583,259 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 "disabled-sheet",
               ]
             ),
-            C(
-              ta,
-              {
-                type: "san",
-                character: d.character,
-                "max-value": d.character.maxSan,
-                "current-value": d.character.currentSan,
-                marks: d.character.madnessMarks,
-                "mark-mode": d.character.madnessMode,
-                "disabled-sheet": d.disabledSheet,
-                onHandleChangeCharNumber: t[9] || (t[9] = (c, A) => m(c, A)),
-                onHandleChangeCharNumberButton:
-                  t[10] ||
-                  (t[10] = (c, A) =>
-                    d.$emit("handleChangeCharNumberButton", c, A)),
-                onHandleChangeCharMark:
-                  t[11] ||
-                  (t[11] = (c, A) => d.$emit("handleChangeCharMark", c, A)),
-                onHandleChangeMarkModeToTrue:
-                  t[12] ||
-                  (t[12] = (c) => d.$emit("handleChangeMarkModeToTrue", c)),
-                onHandleMarkHeal:
-                  t[13] || (t[13] = (c) => d.$emit("handleMarkHeal", c)),
-              },
-              null,
-              8,
-              [
-                "character",
-                "max-value",
-                "current-value",
-                "marks",
-                "mark-mode",
-                "disabled-sheet",
-              ]
-            ),
-            C(
-              ta,
-              {
-                type: "pe",
-                character: d.character,
-                "max-value": d.character.maxPe,
-                "current-value": d.character.currentPe,
-                "disabled-sheet": d.disabledSheet,
-                onHandleChangeCharNumber: t[14] || (t[14] = (c, A) => m(c, A)),
-                onHandleChangeCharNumberButton:
-                  t[15] ||
-                  (t[15] = (c, A) =>
-                    d.$emit("handleChangeCharNumberButton", c, A)),
-              },
-              null,
-              8,
-              ["character", "max-value", "current-value", "disabled-sheet"]
-            ),
+            n.character.isSobrevivendoAoHorror
+              ? q("", !0)
+              : (s(),
+                x(
+                  ze,
+                  {
+                    key: 0,
+                    type: "san",
+                    character: n.character,
+                    "max-value": n.character.maxSan,
+                    "current-value": n.character.currentSan,
+                    marks: n.character.madnessMarks,
+                    "mark-mode": n.character.madnessMode,
+                    "disabled-sheet": n.disabledSheet,
+                    onHandleChangeCharNumber:
+                      o[12] || (o[12] = (l, A) => m(l, A)),
+                    onHandleChangeCharNumberButton:
+                      o[13] ||
+                      (o[13] = (l, A) =>
+                        n.$emit("handleChangeCharNumberButton", l, A)),
+                    onHandleChangeCharMark:
+                      o[14] ||
+                      (o[14] = (l, A) => n.$emit("handleChangeCharMark", l, A)),
+                    onHandleChangeMarkModeToTrue:
+                      o[15] ||
+                      (o[15] = (l) => n.$emit("handleChangeMarkModeToTrue", l)),
+                    onHandleMarkHeal:
+                      o[16] || (o[16] = (l) => n.$emit("handleMarkHeal", l)),
+                  },
+                  null,
+                  8,
+                  [
+                    "character",
+                    "max-value",
+                    "current-value",
+                    "marks",
+                    "mark-mode",
+                    "disabled-sheet",
+                  ]
+                )),
+            n.character.isSobrevivendoAoHorror
+              ? q("", !0)
+              : (s(),
+                x(
+                  ze,
+                  {
+                    key: 1,
+                    type: "pe",
+                    character: n.character,
+                    "max-value": n.character.maxPe,
+                    "current-value": n.character.currentPe,
+                    "disabled-sheet": n.disabledSheet,
+                    onHandleChangeCharNumber:
+                      o[17] || (o[17] = (l, A) => m(l, A)),
+                    onHandleChangeCharNumberButton:
+                      o[18] ||
+                      (o[18] = (l, A) =>
+                        n.$emit("handleChangeCharNumberButton", l, A)),
+                  },
+                  null,
+                  8,
+                  ["character", "max-value", "current-value", "disabled-sheet"]
+                )),
+            n.character.isSobrevivendoAoHorror
+              ? (s(),
+                x(
+                  ze,
+                  {
+                    key: 2,
+                    type: "pd",
+                    character: n.character,
+                    "max-value": n.character.maxPd,
+                    "current-value": n.character.currentPd,
+                    marks: n.character.pdMarks,
+                    "mark-mode": n.character.pdMode,
+                    "disabled-sheet": n.disabledSheet,
+                    onHandleChangeCharNumber:
+                      o[19] || (o[19] = (l, A) => m(l, A)),
+                    onHandleChangeCharNumberButton:
+                      o[20] ||
+                      (o[20] = (l, A) =>
+                        n.$emit("handleChangeCharNumberButton", l, A)),
+                    onHandleChangeCharMark:
+                      o[21] ||
+                      (o[21] = (l, A) => n.$emit("handleChangeCharMark", l, A)),
+                    onHandleChangeMarkModeToTrue:
+                      o[22] ||
+                      (o[22] = (l) => n.$emit("handleChangeMarkModeToTrue", l)),
+                    onHandleMarkHeal:
+                      o[23] || (o[23] = (l) => n.$emit("handleMarkHeal", l)),
+                  },
+                  null,
+                  8,
+                  [
+                    "character",
+                    "max-value",
+                    "current-value",
+                    "marks",
+                    "mark-mode",
+                    "disabled-sheet",
+                  ]
+                ))
+              : q("", !0),
           ]),
-          e("div", nn, [
-            e("div", rn, [
-              e("div", dn, [ln, e("div", un, [e("h3", null, H(l.value), 1)])]),
-              e("div", cn, [
-                mn,
-                e("div", pn, [
+          e("div", fn, [
+            e("div", bn, [
+              e("div", An, [Cn, e("div", qn, [e("h3", null, w(u.value), 1)])]),
+              e("div", yn, [
+                kn,
+                e("div", $n, [
                   e(
                     "input",
                     {
                       class: "sheet-input",
                       type: "number",
-                      disabled: d.disabledSheet,
-                      value: d.character.protectionDefense,
+                      disabled: n.disabledSheet,
+                      value: n.character.protectionDefense,
                       onBlur:
-                        t[16] || (t[16] = (c) => m(c, "protectionDefense")),
+                        o[24] || (o[24] = (l) => m(l, "protectionDefense")),
                     },
                     null,
                     40,
-                    vn
+                    En
                   ),
-                  hn,
+                  Sn,
                 ]),
-                gn,
-                e("div", fn, [
+                In,
+                e("div", Pn, [
                   e(
                     "input",
                     {
                       class: "sheet-input",
                       type: "number",
-                      disabled: d.disabledSheet,
-                      value: d.character.bonusDefense,
-                      onBlur: t[17] || (t[17] = (c) => m(c, "bonusDefense")),
+                      disabled: n.disabledSheet,
+                      value: n.character.bonusDefense,
+                      onBlur: o[25] || (o[25] = (l) => m(l, "bonusDefense")),
                     },
                     null,
                     40,
-                    bn
+                    Mn
                   ),
-                  An,
+                  _n,
                 ]),
               ]),
             ]),
-            e("div", Cn, [
-              e("div", qn, [
-                yn,
+            e("div", Dn, [
+              e("div", Rn, [
+                Tn,
                 e(
                   "input",
                   {
                     class: "sheet-input underline-input",
                     type: "number",
-                    disabled: d.disabledSheet,
-                    value: d.character.block,
-                    onBlur: t[18] || (t[18] = (c) => m(c, "block")),
+                    disabled: n.disabledSheet,
+                    value: n.character.block,
+                    onBlur: o[26] || (o[26] = (l) => m(l, "block")),
                   },
                   null,
                   40,
-                  kn
+                  Vn
                 ),
               ]),
-              e("div", $n, [
-                En,
+              e("div", On, [
+                wn,
                 e(
                   "input",
                   {
                     class: "sheet-input underline-input",
                     type: "number",
-                    disabled: d.disabledSheet,
-                    value: d.character.evade,
-                    onBlur: t[19] || (t[19] = (c) => m(c, "evade")),
+                    disabled: n.disabledSheet,
+                    value: n.character.evade,
+                    onBlur: o[27] || (o[27] = (l) => m(l, "evade")),
                   },
                   null,
                   40,
-                  In
+                  zn
                 ),
               ]),
             ]),
           ]),
-          e("div", Sn, [
-            _n,
+          e("div", Hn, [
+            jn,
             e(
               "input",
               {
                 class: "sheet-input",
                 type: "text",
-                disabled: d.disabledSheet,
-                value: d.character.currentProtection,
+                disabled: n.disabledSheet,
+                value: n.character.currentProtection,
                 onBlur:
-                  t[20] ||
-                  (t[20] = (c) =>
-                    d.$emit("handleChangeCharText", {
-                      e: c,
+                  o[28] ||
+                  (o[28] = (l) =>
+                    n.$emit("handleChangeCharText", {
+                      e: l,
                       key: "currentProtection",
                     })),
               },
               null,
               40,
-              Pn
+              Un
             ),
           ]),
-          e("div", Mn, [
-            Dn,
+          e("div", Nn, [
+            xn,
             e(
               "input",
               {
                 class: "sheet-input",
                 type: "text",
-                disabled: d.disabledSheet,
-                value: d.character.resistances,
+                disabled: n.disabledSheet,
+                value: n.character.resistances,
                 onBlur:
-                  t[21] ||
-                  (t[21] = (c) =>
-                    d.$emit("handleChangeCharText", {
-                      e: c,
+                  o[29] ||
+                  (o[29] = (l) =>
+                    n.$emit("handleChangeCharText", {
+                      e: l,
                       key: "resistances",
                     })),
               },
               null,
               40,
-              Rn
+              Bn
             ),
           ]),
-          e("div", Vn, [
-            Tn,
+          e("div", Ln, [
+            Fn,
             e(
               "input",
               {
                 class: "sheet-input",
                 type: "text",
-                disabled: d.disabledSheet,
-                value: d.character.proficiencies,
+                disabled: n.disabledSheet,
+                value: n.character.proficiencies,
                 onBlur:
-                  t[22] ||
-                  (t[22] = (c) =>
-                    d.$emit("handleChangeCharText", {
-                      e: c,
+                  o[30] ||
+                  (o[30] = (l) =>
+                    n.$emit("handleChangeCharText", {
+                      e: l,
                       key: "proficiencies",
                     })),
               },
               null,
               40,
-              On
+              Qn
             ),
           ]),
         ])
       );
     },
   }),
-  zn = V(wn, [["__scopeId", "data-v-de62832b"]]),
-  Hn = { class: "sheet-stats-container" },
-  jn = R({
+  Xn = V(Gn, [["__scopeId", "data-v-829b3fda"]]),
+  Wn = { class: "sheet-stats-container" },
+  Kn = T({
     __name: "SheetStats",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -687,56 +850,60 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleChangeMarkModeToTrue",
       "handleMarkHeal",
       "handleOpenModalAddClass",
+      "handleChangeSobrevivendoAoHorror",
     ],
     setup(a, { emit: b }) {
-      const v = b,
-        h = (u) => {
-          v("handleRollAttribute", u);
+      const h = b,
+        v = (c) => {
+          h("handleRollAttribute", c);
         };
-      return (u, p) => (
-        o(),
-        n("div", Hn, [
+      return (c, p) => (
+        s(),
+        r("div", Wn, [
           C(
-            Qt,
+            Xt,
             {
-              character: u.character,
-              "disabled-sheet": u.disabledSheet,
+              character: c.character,
+              "disabled-sheet": c.disabledSheet,
               onHandleChangeAttribute:
-                p[0] || (p[0] = (l) => u.$emit("handleChangeAttribute", l)),
-              onHandleRollAttribute: h,
+                p[0] || (p[0] = (u) => c.$emit("handleChangeAttribute", u)),
+              onHandleRollAttribute: v,
             },
             null,
             8,
             ["character", "disabled-sheet"]
           ),
           C(
-            zn,
+            Xn,
             {
-              character: u.character,
-              "disabled-sheet": u.disabledSheet,
+              character: c.character,
+              "disabled-sheet": c.disabledSheet,
+              onHandleChangeSobrevivendoAoHorror:
+                p[1] ||
+                (p[1] = (u) => c.$emit("handleChangeSobrevivendoAoHorror")),
               onHandleChangeCharText:
-                p[1] || (p[1] = (l) => u.$emit("handleChangeCharText", l)),
+                p[2] || (p[2] = (u) => c.$emit("handleChangeCharText", u)),
               onHandleChangeCharNumber:
-                p[2] || (p[2] = (l) => u.$emit("handleChangeCharNumber", l)),
+                p[3] || (p[3] = (u) => c.$emit("handleChangeCharNumber", u)),
               onHandleChangeCharDropdown:
-                p[3] || (p[3] = (l) => u.$emit("handleChangeCharDropdown", l)),
+                p[4] || (p[4] = (u) => c.$emit("handleChangeCharDropdown", u)),
               onHandleChangeMovementInSquares:
-                p[4] ||
-                (p[4] = (l) => u.$emit("handleChangeMovementInSquares", l)),
-              onHandleChangeCharNumberButton:
                 p[5] ||
-                (p[5] = (l, m) =>
-                  u.$emit("handleChangeCharNumberButton", l, m)),
-              onHandleChangeCharMark:
+                (p[5] = (u) => c.$emit("handleChangeMovementInSquares", u)),
+              onHandleChangeCharNumberButton:
                 p[6] ||
-                (p[6] = (l, m) => u.$emit("handleChangeCharMark", l, m)),
-              onHandleChangeMarkModeToTrue:
+                (p[6] = (u, m) =>
+                  c.$emit("handleChangeCharNumberButton", u, m)),
+              onHandleChangeCharMark:
                 p[7] ||
-                (p[7] = (l) => u.$emit("handleChangeMarkModeToTrue", l)),
+                (p[7] = (u, m) => c.$emit("handleChangeCharMark", u, m)),
+              onHandleChangeMarkModeToTrue:
+                p[8] ||
+                (p[8] = (u) => c.$emit("handleChangeMarkModeToTrue", u)),
               onHandleMarkHeal:
-                p[8] || (p[8] = (l) => u.$emit("handleMarkHeal", l)),
+                p[9] || (p[9] = (u) => c.$emit("handleMarkHeal", u)),
               onHandleOpenModalAddClass:
-                p[9] || (p[9] = (l) => u.$emit("handleOpenModalAddClass")),
+                p[10] || (p[10] = (u) => c.$emit("handleOpenModalAddClass")),
             },
             null,
             8,
@@ -746,13 +913,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  ko = V(jn, [["__scopeId", "data-v-6c164bbf"]]),
-  Un = { class: "dropdown-button-container" },
-  xn = { key: 0, class: "span" },
-  Nn = ["disabled"],
-  Ln = { key: 1, class: "span" },
-  Bn = ["onClick"],
-  Fn = R({
+  $o = V(Kn, [["__scopeId", "data-v-4b3943e4"]]),
+  Jn = { class: "dropdown-button-container" },
+  Yn = { key: 0, class: "span" },
+  Zn = ["disabled"],
+  er = { key: 1, class: "span" },
+  ar = ["onClick"],
+  or = T({
     __name: "SkillsDropdown",
     props: {
       value: { type: String, required: !0 },
@@ -764,45 +931,45 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     },
     emits: ["updateValue"],
     setup(a, { emit: b }) {
-      Ue((i) => ({ "2c89ebb8": a.color }));
-      const v = a,
-        h = b,
-        u = $(null),
+      Ne((i) => ({ "2c89ebb8": a.color }));
+      const h = a,
+        v = b,
+        c = $(null),
         p = $(!1);
-      _o(u, () => (p.value = !1));
-      const l = () => {
-          v.disabled || (p.value = !p.value);
+      Mo(c, () => (p.value = !1));
+      const u = () => {
+          h.disabled || (p.value = !p.value);
         },
         m = (i) => {
-          (p.value = !1), h("updateValue", i);
+          (p.value = !1), v("updateValue", i);
         };
-      return (i, d) => (
-        o(),
-        n(
+      return (i, n) => (
+        s(),
+        r(
           "div",
-          { ref_key: "dropdown", ref: u },
+          { ref_key: "dropdown", ref: c },
           [
-            e("div", Un, [
-              a.underline ? q("", !0) : (o(), n("span", xn, "(")),
+            e("div", Jn, [
+              a.underline ? q("", !0) : (s(), r("span", Yn, "(")),
               e(
                 "button",
                 {
-                  class: J([
+                  class: Y([
                     "dropdown-button",
                     { "dropdown-underline": a.underline, disabled: a.disabled },
                   ]),
                   disabled: a.disabled,
-                  onClick: l,
+                  onClick: u,
                 },
-                H(a.value),
+                w(a.value),
                 11,
-                Nn
+                Zn
               ),
-              a.underline ? q("", !0) : (o(), n("span", Ln, ")")),
+              a.underline ? q("", !0) : (s(), r("span", er, ")")),
               e(
                 "div",
                 {
-                  class: J([
+                  class: Y([
                     "dropdown-content",
                     [
                       { "dropdown-content-active": p.value },
@@ -811,24 +978,24 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ]),
                 },
                 [
-                  (o(!0),
-                  n(
-                    j,
+                  (s(!0),
+                  r(
+                    U,
                     null,
-                    L(
+                    B(
                       a.options,
-                      (t, c) => (
-                        o(),
-                        n("div", { key: c }, [
+                      (o, l) => (
+                        s(),
+                        r("div", { key: l }, [
                           e(
                             "button",
                             {
                               class: "dropdown-content-button",
-                              onClick: (A) => m(t),
+                              onClick: (A) => m(o),
                             },
-                            H(t),
+                            w(o),
                             9,
-                            Bn
+                            ar
                           ),
                         ])
                       )
@@ -845,23 +1012,23 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  we = V(Fn, [["__scopeId", "data-v-7777a8ec"]]),
-  ma = (a) => (w("data-v-05af1f88"), (a = a()), z(), a),
-  Qn = { class: "small" },
-  Gn = ma(() => e("img", { src: Mo, alt: "rolar" }, null, -1)),
-  Xn = [Gn],
-  Wn = { key: 0 },
-  Kn = { key: 1 },
-  Jn = { key: 0 },
-  Yn = { key: 1 },
-  Zn = { class: "skill-bonus" },
-  er = ma(() => e("span", null, "( ", -1)),
-  ar = ma(() => e("span", null, " )", -1)),
-  or = { key: 2 },
-  tr = { key: 3 },
-  sr = { class: "input-container" },
-  nr = ["disabled", "value"],
-  rr = R({
+  He = V(or, [["__scopeId", "data-v-7777a8ec"]]),
+  pa = (a) => (H("data-v-05af1f88"), (a = a()), j(), a),
+  tr = { class: "small" },
+  sr = pa(() => e("img", { src: Do, alt: "rolar" }, null, -1)),
+  nr = [sr],
+  rr = { key: 0 },
+  dr = { key: 1 },
+  ir = { key: 0 },
+  lr = { key: 1 },
+  ur = { class: "skill-bonus" },
+  cr = pa(() => e("span", null, "( ", -1)),
+  mr = pa(() => e("span", null, " )", -1)),
+  pr = { key: 2 },
+  vr = { key: 3 },
+  hr = { class: "input-container" },
+  gr = ["disabled", "value"],
+  fr = T({
     __name: "SkillCard",
     props: {
       skill: { type: Object, required: !0 },
@@ -876,69 +1043,69 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleRollSkill",
     ],
     setup(a, { emit: b }) {
-      Ue((A) => ({ "45097c96": i.value }));
-      const v = a,
-        h = b,
-        u = ["AGI", "STR", "INT", "PRE", "VIG"],
+      Ne((A) => ({ "45097c96": i.value }));
+      const h = a,
+        v = b,
+        c = ["AGI", "STR", "INT", "PRE", "VIG"],
         p = ["0", "5", "10", "15"],
-        l = { trained: "#3d8b40", veteran: "#0a69b7", expert: "#b36b00" },
+        u = { trained: "#3d8b40", veteran: "#0a69b7", expert: "#b36b00" },
         m = xe(),
         i = X(() =>
-          v.skill.trainingDegree === "5"
-            ? l.trained
-            : v.skill.trainingDegree === "10"
-            ? l.veteran
-            : v.skill.trainingDegree === "15"
-            ? l.expert
+          h.skill.trainingDegree === "5"
+            ? u.trained
+            : h.skill.trainingDegree === "10"
+            ? u.veteran
+            : h.skill.trainingDegree === "15"
+            ? u.expert
             : "#fff"
         ),
-        d = () => {
-          h("handleOpenSkillModal", v.skill);
+        n = () => {
+          v("handleOpenSkillModal", h.skill);
         },
-        t = (A, P, M) => {
-          h("handleChangeSkillDropdown", { value: A, skillName: P, key: M });
+        o = (A, M, _) => {
+          v("handleChangeSkillDropdown", { value: A, skillName: M, key: _ });
         },
-        c = (A, P) => {
+        l = (A, M) => {
           var f;
-          const M = A.target.valueAsNumber;
-          h("handleChangeSkillOtherBonus", { value: M, skillName: P }),
+          const _ = A.target.valueAsNumber;
+          v("handleChangeSkillOtherBonus", { value: _, skillName: M }),
             (f = m == null ? void 0 : m.proxy) == null || f.$forceUpdate();
         };
-      return (A, P) => (
-        o(),
-        n(
-          j,
+      return (A, M) => (
+        s(),
+        r(
+          U,
           null,
           [
-            e("td", Qn, [
+            e("td", tr, [
               e(
                 "button",
                 {
-                  class: J(["roll-button", { disabled: a.disabledSheet }]),
+                  class: Y(["roll-button", { disabled: a.disabledSheet }]),
                   onClick:
-                    P[0] || (P[0] = (M) => A.$emit("handleRollSkill", a.skill)),
+                    M[0] || (M[0] = (_) => A.$emit("handleRollSkill", a.skill)),
                 },
-                Xn,
+                nr,
                 2
               ),
             ]),
             e(
               "td",
-              { class: J({ disabled: a.disabledSheet }) },
+              { class: Y({ disabled: a.disabledSheet }) },
               [
                 e(
                   "button",
                   {
-                    class: J([
+                    class: Y([
                       "naked-button left",
                       { disabled: a.disabledSheet },
                     ]),
-                    onClick: d,
+                    onClick: n,
                   },
                   [
-                    me(H(a.skill.name), 1),
-                    a.skill.onlyTrained ? (o(), n("span", Wn, "*")) : q("", !0),
-                    a.skill.loadPenalty ? (o(), n("span", Kn, "+")) : q("", !0),
+                    me(w(a.skill.name), 1),
+                    a.skill.onlyTrained ? (s(), r("span", rr, "*")) : q("", !0),
+                    a.skill.loadPenalty ? (s(), r("span", dr, "+")) : q("", !0),
                   ],
                   2
                 ),
@@ -946,47 +1113,47 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               2
             ),
             a.index > a.length - 7
-              ? (o(),
-                n("td", Jn, [
+              ? (s(),
+                r("td", ir, [
                   C(
-                    we,
+                    He,
                     {
                       value: a.skill.attribute,
-                      options: u,
+                      options: c,
                       color: i.value,
                       disabled: a.disabledSheet,
                       up: "",
                       onUpdateValue:
-                        P[1] || (P[1] = (M) => t(M, a.skill.name, "attribute")),
+                        M[1] || (M[1] = (_) => o(_, a.skill.name, "attribute")),
                     },
                     null,
                     8,
                     ["value", "color", "disabled"]
                   ),
                 ]))
-              : (o(),
-                n("td", Yn, [
+              : (s(),
+                r("td", lr, [
                   C(
-                    we,
+                    He,
                     {
                       value: a.skill.attribute,
-                      options: u,
+                      options: c,
                       color: i.value,
                       disabled: a.disabledSheet,
                       onUpdateValue:
-                        P[2] || (P[2] = (M) => t(M, a.skill.name, "attribute")),
+                        M[2] || (M[2] = (_) => o(_, a.skill.name, "attribute")),
                     },
                     null,
                     8,
                     ["value", "color", "disabled"]
                   ),
                 ])),
-            e("td", null, [e("h3", Zn, [er, me(H(a.skill.bonus), 1), ar])]),
+            e("td", null, [e("h3", ur, [cr, me(w(a.skill.bonus), 1), mr])]),
             a.index > a.length - 7
-              ? (o(),
-                n("td", or, [
+              ? (s(),
+                r("td", pr, [
                   C(
-                    we,
+                    He,
                     {
                       value: a.skill.trainingDegree,
                       options: p,
@@ -995,18 +1162,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       underline: "",
                       up: "",
                       onUpdateValue:
-                        P[3] ||
-                        (P[3] = (M) => t(M, a.skill.name, "trainingDegree")),
+                        M[3] ||
+                        (M[3] = (_) => o(_, a.skill.name, "trainingDegree")),
                     },
                     null,
                     8,
                     ["value", "color", "disabled"]
                   ),
                 ]))
-              : (o(),
-                n("td", tr, [
+              : (s(),
+                r("td", vr, [
                   C(
-                    we,
+                    He,
                     {
                       value: a.skill.trainingDegree,
                       options: p,
@@ -1014,8 +1181,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       disabled: a.disabledSheet,
                       underline: "",
                       onUpdateValue:
-                        P[4] ||
-                        (P[4] = (M) => t(M, a.skill.name, "trainingDegree")),
+                        M[4] ||
+                        (M[4] = (_) => o(_, a.skill.name, "trainingDegree")),
                     },
                     null,
                     8,
@@ -1023,7 +1190,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ])),
             e("td", null, [
-              e("div", sr, [
+              e("div", hr, [
                 e(
                   "input",
                   {
@@ -1031,11 +1198,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     class: "underline-input",
                     disabled: a.disabledSheet,
                     value: a.skill.otherBonus,
-                    onBlur: P[5] || (P[5] = (M) => c(M, a.skill.name)),
+                    onBlur: M[5] || (M[5] = (_) => l(_, a.skill.name)),
                   },
                   null,
                   40,
-                  nr
+                  gr
                 ),
               ]),
             ]),
@@ -1045,12 +1212,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  dr = V(rr, [["__scopeId", "data-v-05af1f88"]]),
-  pa = (a) => (w("data-v-f2b17d30"), (a = a()), z(), a),
-  ir = { class: "skills-container" },
-  lr = pa(() => e("h1", { class: "skills-title" }, " SKILLS ", -1)),
-  ur = { class: "skills-table" },
-  cr = pa(() =>
+  br = V(fr, [["__scopeId", "data-v-05af1f88"]]),
+  va = (a) => (H("data-v-f2b17d30"), (a = a()), j(), a),
+  Ar = { class: "skills-container" },
+  Cr = va(() => e("h1", { class: "skills-title" }, " SKILLS ", -1)),
+  qr = { class: "skills-table" },
+  yr = va(() =>
     e(
       "thead",
       null,
@@ -1067,7 +1234,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  mr = pa(() =>
+  kr = va(() =>
     e(
       "h4",
       { class: "table-caption" },
@@ -1080,7 +1247,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  pr = R({
+  $r = T({
     __name: "SkillsView",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -1090,46 +1257,46 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleRollSkill",
     ],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = (l) => {
-          v.disabledSheet || h("handleOpenSkillModal", l);
+      const h = a,
+        v = b,
+        c = (u) => {
+          h.disabledSheet || v("handleOpenSkillModal", u);
         },
-        p = (l) => {
-          v.disabledSheet || h("handleRollSkill", l);
+        p = (u) => {
+          h.disabledSheet || v("handleRollSkill", u);
         };
-      return (l, m) => (
-        o(),
-        n("div", ir, [
-          lr,
-          e("table", ur, [
-            cr,
+      return (u, m) => (
+        s(),
+        r("div", Ar, [
+          Cr,
+          e("table", qr, [
+            yr,
             e("tbody", null, [
-              (o(!0),
-              n(
-                j,
+              (s(!0),
+              r(
+                U,
                 null,
-                L(
-                  l.character.skills,
-                  (i, d) => (
-                    o(),
-                    n("tr", { key: i.name }, [
+                B(
+                  u.character.skills,
+                  (i, n) => (
+                    s(),
+                    r("tr", { key: i.name }, [
                       C(
-                        dr,
+                        br,
                         {
                           skill: i,
-                          index: d,
-                          length: l.character.skills.length,
-                          "disabled-sheet": l.disabledSheet,
-                          onHandleOpenSkillModal: u,
+                          index: n,
+                          length: u.character.skills.length,
+                          "disabled-sheet": u.disabledSheet,
+                          onHandleOpenSkillModal: c,
                           onHandleChangeSkillDropdown:
                             m[0] ||
-                            (m[0] = (t) =>
-                              l.$emit("handleChangeSkillDropdown", t)),
+                            (m[0] = (o) =>
+                              u.$emit("handleChangeSkillDropdown", o)),
                           onHandleChangeSkillOtherBonus:
                             m[1] ||
-                            (m[1] = (t) =>
-                              l.$emit("handleChangeSkillOtherBonus", t)),
+                            (m[1] = (o) =>
+                              u.$emit("handleChangeSkillOtherBonus", o)),
                           onHandleRollSkill: p,
                         },
                         null,
@@ -1143,31 +1310,31 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               )),
             ]),
           ]),
-          mr,
+          kr,
         ])
       );
     },
   }),
-  $o = V(pr, [["__scopeId", "data-v-f2b17d30"]]),
-  va = (a) => (w("data-v-f08c1d1d"), (a = a()), z(), a),
-  vr = { class: "tab" },
-  hr = { key: 0 },
-  gr = { class: "roll-dices-container" },
-  fr = ["disabled", "onKeyup"],
-  br = ["disabled"],
-  Ar = va(() =>
-    e("img", { class: "dice-icon", src: Mo, alt: "rolar" }, null, -1)
+  Eo = V($r, [["__scopeId", "data-v-f2b17d30"]]),
+  ha = (a) => (H("data-v-f08c1d1d"), (a = a()), j(), a),
+  Er = { class: "tab" },
+  Sr = { key: 0 },
+  Ir = { class: "roll-dices-container" },
+  Pr = ["disabled", "onKeyup"],
+  Mr = ["disabled"],
+  _r = ha(() =>
+    e("img", { class: "dice-icon", src: Do, alt: "rolar" }, null, -1)
   ),
-  Cr = [Ar],
-  qr = { key: 2 },
-  yr = { key: 0 },
-  kr = { key: 1, class: "no-content" },
-  $r = va(() => e("h3", null, "No attack found", -1)),
-  Er = [$r],
-  Ir = { key: 3, class: "no-content" },
-  Sr = va(() => e("h3", null, "You have yet to add attacks", -1)),
-  _r = [Sr],
-  Pr = R({
+  Dr = [_r],
+  Rr = { key: 2 },
+  Tr = { key: 0 },
+  Vr = { key: 1, class: "no-content" },
+  Or = ha(() => e("h3", null, "No attack found", -1)),
+  wr = [Or],
+  zr = { key: 3, class: "no-content" },
+  Hr = ha(() => e("h3", null, "You have yet to add attacks", -1)),
+  jr = [Hr],
+  Ur = T({
     __name: "AttacksTab",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -1178,30 +1345,30 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleRollAttack",
     ],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = $(""),
+      const h = a,
+        v = b,
+        c = $(""),
         p = $(""),
-        l = () => {
-          v.disabledSheet || (h("handleRollDices", u.value), (u.value = ""));
+        u = () => {
+          h.disabledSheet || (v("handleRollDices", c.value), (c.value = ""));
         },
-        m = (d) => {
-          v.disabledSheet || h("handleRollAttack", d);
+        m = (n) => {
+          h.disabledSheet || v("handleRollAttack", n);
         },
-        i = X(() => [...v.character.attacks].filter((t) => K(t.name, p.value)));
-      return (d, t) => (
-        o(),
-        n("div", vr, [
-          d.character.attacks.length > 0
-            ? (o(),
-              n("div", hr, [
+        i = X(() => [...h.character.attacks].filter((o) => J(o.name, p.value)));
+      return (n, o) => (
+        s(),
+        r("div", Er, [
+          n.character.attacks.length > 0
+            ? (s(),
+              r("div", Sr, [
                 C(
                   Le,
                   {
                     value: p.value,
                     width: "100%",
                     placeholder: "Filter attacks",
-                    onUpdate: t[0] || (t[0] = (c) => (p.value = c)),
+                    onUpdate: o[0] || (o[0] = (l) => (p.value = l)),
                   },
                   null,
                   8,
@@ -1209,76 +1376,76 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ),
               ]))
             : q("", !0),
-          e("div", gr, [
+          e("div", Ir, [
             be(
               e(
                 "input",
                 {
-                  "onUpdate:modelValue": t[1] || (t[1] = (c) => (u.value = c)),
+                  "onUpdate:modelValue": o[1] || (o[1] = (l) => (c.value = l)),
                   type: "text",
                   class: "roll-dice-input",
                   placeholder: "Roll dice",
-                  disabled: d.disabledSheet,
-                  onKeyup: Mt(l, ["enter"]),
+                  disabled: n.disabledSheet,
+                  onKeyup: Rt(u, ["enter"]),
                 },
                 null,
                 40,
-                fr
+                Pr
               ),
-              [[Ae, u.value]]
+              [[Ae, c.value]]
             ),
             e(
               "button",
               {
-                class: J(["dice-button", { disabled: d.disabledSheet }]),
-                disabled: d.disabledSheet,
-                onClick: l,
+                class: Y(["dice-button", { disabled: n.disabledSheet }]),
+                disabled: n.disabledSheet,
+                onClick: u,
               },
-              Cr,
+              Dr,
               10,
-              br
+              Mr
             ),
           ]),
-          d.disabledSheet
+          n.disabledSheet
             ? q("", !0)
-            : (o(),
-              n(
+            : (s(),
+              r(
                 "button",
                 {
                   key: 1,
                   class: "button-secondary add-button",
                   onClick:
-                    t[2] || (t[2] = (c) => d.$emit("handleOpenAddAttack")),
+                    o[2] || (o[2] = (l) => n.$emit("handleOpenAddAttack")),
                 },
                 " New Attack "
               )),
-          d.character.attacks.length > 0
-            ? (o(),
-              n("div", qr, [
+          n.character.attacks.length > 0
+            ? (s(),
+              r("div", Rr, [
                 i.value.length > 0
-                  ? (o(),
-                    n("div", yr, [
-                      (o(!0),
-                      n(
-                        j,
+                  ? (s(),
+                    r("div", Tr, [
+                      (s(!0),
+                      r(
+                        U,
                         null,
-                        L(
+                        B(
                           i.value,
-                          (c) => (
-                            o(),
-                            n("div", { key: c.id, class: "align-card" }, [
+                          (l) => (
+                            s(),
+                            r("div", { key: l.id, class: "align-card" }, [
                               C(
-                                Gt,
+                                Wt,
                                 {
-                                  id: c.id,
-                                  attack: c,
-                                  disabled: d.disabledSheet,
+                                  id: l.id,
+                                  attack: l,
+                                  disabled: n.disabledSheet,
                                   onHandleRemoveAttack:
-                                    t[3] ||
-                                    (t[3] = (A) =>
-                                      d.$emit("handleRemoveAttack", A)),
+                                    o[3] ||
+                                    (o[3] = (A) =>
+                                      n.$emit("handleRemoveAttack", A)),
                                   onHandleEdit: (A) =>
-                                    d.$emit("handleEditAttack", A),
+                                    n.$emit("handleEditAttack", A),
                                   onHandleRollAttack: m,
                                 },
                                 null,
@@ -1291,27 +1458,27 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         128
                       )),
                     ]))
-                  : (o(), n("div", kr, Er)),
+                  : (s(), r("div", Vr, wr)),
               ]))
-            : (o(), n("div", Ir, _r)),
+            : (s(), r("div", zr, jr)),
         ])
       );
     },
   }),
-  Fo = V(Pr, [["__scopeId", "data-v-f08c1d1d"]]),
-  Qo = (a) => (w("data-v-79ae51ca"), (a = a()), z(), a),
-  Mr = { class: "tab" },
-  Dr = { class: "tab-header" },
-  Rr = { key: 0 },
-  Vr = { key: 1, class: "sheet-cards-container" },
-  Tr = { key: 0 },
-  Or = { key: 1, class: "no-content" },
-  wr = Qo(() => e("h3", null, "No abilities found", -1)),
-  zr = [wr],
-  Hr = { key: 2, class: "no-content" },
-  jr = Qo(() => e("h3", null, "You have yet to add an ability", -1)),
-  Ur = [jr],
-  xr = R({
+  Qo = V(Ur, [["__scopeId", "data-v-f08c1d1d"]]),
+  Go = (a) => (H("data-v-79ae51ca"), (a = a()), j(), a),
+  Nr = { class: "tab" },
+  xr = { class: "tab-header" },
+  Br = { key: 0 },
+  Lr = { key: 1, class: "sheet-cards-container" },
+  Fr = { key: 0 },
+  Qr = { key: 1, class: "no-content" },
+  Gr = Go(() => e("h3", null, "No abilities found", -1)),
+  Xr = [Gr],
+  Wr = { key: 2, class: "no-content" },
+  Kr = Go(() => e("h3", null, "You have yet to add an ability", -1)),
+  Jr = [Kr],
+  Yr = T({
     __name: "AbilitiesTab",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -1321,28 +1488,28 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleOpenAddPower",
     ],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = $(""),
+      const h = a,
+        v = b,
+        c = $(""),
         p = X(() =>
-          [...v.character.powers]
-            .filter((i) => K(i.name, u.value))
-            .sort((i, d) => i.name.localeCompare(d.name))
+          [...h.character.powers]
+            .filter((i) => J(i.name, c.value))
+            .sort((i, n) => i.name.localeCompare(n.name))
         ),
-        l = (m) => h("handleEditPower", m);
+        u = (m) => v("handleEditPower", m);
       return (m, i) => (
-        o(),
-        n("div", Mr, [
-          e("div", Dr, [
+        s(),
+        r("div", Nr, [
+          e("div", xr, [
             m.character.powers.length > 0
-              ? (o(),
-                n("div", Rr, [
+              ? (s(),
+                r("div", Br, [
                   C(
                     Le,
                     {
-                      value: u.value,
+                      value: c.value,
                       placeholder: "Filter Abilities",
-                      onUpdate: i[0] || (i[0] = (d) => (u.value = d)),
+                      onUpdate: i[0] || (i[0] = (n) => (c.value = n)),
                     },
                     null,
                     8,
@@ -1352,60 +1519,60 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               : q("", !0),
             m.disabledSheet
               ? q("", !0)
-              : (o(),
-                n(
+              : (s(),
+                r(
                   "button",
                   {
                     key: 1,
                     class: "button-primary add-button",
                     onClick:
                       i[1] ||
-                      (i[1] = (d) => m.$emit("handleOpenAbilitiesModal")),
+                      (i[1] = (n) => m.$emit("handleOpenAbilitiesModal")),
                   },
                   " Add New "
                 )),
           ]),
           m.disabledSheet
             ? q("", !0)
-            : (o(),
-              n(
+            : (s(),
+              r(
                 "button",
                 {
                   key: 0,
                   class: "button-secondary add-new-button",
                   onClick:
-                    i[2] || (i[2] = (d) => m.$emit("handleOpenAddPower")),
+                    i[2] || (i[2] = (n) => m.$emit("handleOpenAddPower")),
                 },
                 " New Ability "
               )),
           m.character.powers.length > 0
-            ? (o(),
-              n("div", Vr, [
+            ? (s(),
+              r("div", Lr, [
                 p.value.length > 0
-                  ? (o(),
-                    n("div", Tr, [
-                      (o(!0),
-                      n(
-                        j,
+                  ? (s(),
+                    r("div", Fr, [
+                      (s(!0),
+                      r(
+                        U,
                         null,
-                        L(
+                        B(
                           p.value,
-                          (d) => (
-                            o(),
-                            n("div", { key: d.id, class: "sheet-card-list" }, [
+                          (n) => (
+                            s(),
+                            r("div", { key: n.id, class: "sheet-card-list" }, [
                               C(
-                                Be,
+                                Fe,
                                 {
-                                  id: d.id,
-                                  power: d,
+                                  id: n.id,
+                                  power: n,
                                   disabled: m.disabledSheet,
                                   "only-show": "",
                                   sheet: "",
                                   onHandleRemove:
                                     i[3] ||
-                                    (i[3] = (t) =>
-                                      m.$emit("handleRemovePower", t)),
-                                  onHandleEdit: l,
+                                    (i[3] = (o) =>
+                                      m.$emit("handleRemovePower", o)),
+                                  onHandleEdit: u,
                                 },
                                 null,
                                 8,
@@ -1417,31 +1584,31 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         128
                       )),
                     ]))
-                  : (o(), n("div", Or, zr)),
+                  : (s(), r("div", Qr, Xr)),
               ]))
-            : (o(), n("div", Hr, Ur)),
+            : (s(), r("div", Wr, Jr)),
         ])
       );
     },
   }),
-  Go = V(xr, [["__scopeId", "data-v-79ae51ca"]]),
-  ha = (a) => (w("data-v-d3cb0405"), (a = a()), z(), a),
-  Nr = { class: "tab" },
-  Lr = { class: "tab-header" },
-  Br = { key: 0 },
-  Fr = { class: "ritual-dc-wrapper" },
-  Qr = { class: "ritual-dc-container" },
-  Gr = ha(() => e("h4", { class: "sheet-subtitle" }, " RITUAL DC ", -1)),
-  Xr = ["disabled", "value"],
-  Wr = { key: 1, class: "sheet-cards-container" },
-  Kr = { key: 0 },
-  Jr = { key: 1, class: "no-content" },
-  Yr = ha(() => e("h3", null, "No ritual found", -1)),
-  Zr = [Yr],
-  ed = { key: 2, class: "no-content" },
-  ad = ha(() => e("h3", null, "You have yet to add a ritual", -1)),
-  od = [ad],
-  td = R({
+  Xo = V(Yr, [["__scopeId", "data-v-79ae51ca"]]),
+  ga = (a) => (H("data-v-d3cb0405"), (a = a()), j(), a),
+  Zr = { class: "tab" },
+  ed = { class: "tab-header" },
+  ad = { key: 0 },
+  od = { class: "ritual-dc-wrapper" },
+  td = { class: "ritual-dc-container" },
+  sd = ga(() => e("h4", { class: "sheet-subtitle" }, " RITUAL DC ", -1)),
+  nd = ["disabled", "value"],
+  rd = { key: 1, class: "sheet-cards-container" },
+  dd = { key: 0 },
+  id = { key: 1, class: "no-content" },
+  ld = ga(() => e("h3", null, "No ritual found", -1)),
+  ud = [ld],
+  cd = { key: 2, class: "no-content" },
+  md = ga(() => e("h3", null, "You have yet to add a ritual", -1)),
+  pd = [md],
+  vd = T({
     __name: "RitualsTab",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -1453,37 +1620,37 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleOpenAddRitual",
     ],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = xe(),
+      const h = a,
+        v = b,
+        c = xe(),
         p = $(""),
-        l = X(() =>
-          [...v.character.rituals]
-            .filter((c) => K(c.name, p.value))
-            .sort((c, A) => c.name.localeCompare(A.name))
+        u = X(() =>
+          [...h.character.rituals]
+            .filter((l) => J(l.name, p.value))
+            .sort((l, A) => l.name.localeCompare(A.name))
         ),
-        m = (t) => {
-          var c;
-          h("handleChangeRitualDc", t),
-            (c = u == null ? void 0 : u.proxy) == null || c.$forceUpdate();
+        m = (o) => {
+          var l;
+          v("handleChangeRitualDc", o),
+            (l = c == null ? void 0 : c.proxy) == null || l.$forceUpdate();
         },
-        i = (t) => h("handleEditRitual", t),
-        d = (t, c) => {
-          h("handleRollRitual", t, c);
+        i = (o) => v("handleEditRitual", o),
+        n = (o, l) => {
+          v("handleRollRitual", o, l);
         };
-      return (t, c) => (
-        o(),
-        n("div", Nr, [
-          e("div", Lr, [
-            t.character.rituals.length > 0
-              ? (o(),
-                n("div", Br, [
+      return (o, l) => (
+        s(),
+        r("div", Zr, [
+          e("div", ed, [
+            o.character.rituals.length > 0
+              ? (s(),
+                r("div", ad, [
                   C(
                     Le,
                     {
                       value: p.value,
                       placeholder: "Filter rituals",
-                      onUpdate: c[0] || (c[0] = (A) => (p.value = A)),
+                      onUpdate: l[0] || (l[0] = (A) => (p.value = A)),
                     },
                     null,
                     8,
@@ -1491,80 +1658,80 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            t.disabledSheet
+            o.disabledSheet
               ? q("", !0)
-              : (o(),
-                n(
+              : (s(),
+                r(
                   "button",
                   {
                     key: 1,
                     class: "button-primary add-button",
                     onClick:
-                      c[1] || (c[1] = (A) => t.$emit("handleOpenRitualsModal")),
+                      l[1] || (l[1] = (A) => o.$emit("handleOpenRitualsModal")),
                   },
                   " Add New "
                 )),
           ]),
-          e("div", Fr, [
-            e("div", Qr, [
-              Gr,
+          e("div", od, [
+            e("div", td, [
+              sd,
               e(
                 "input",
                 {
                   type: "number",
                   class: "sheet-input sheet-input-size",
-                  disabled: t.disabledSheet,
-                  value: t.character.ritualsDc,
+                  disabled: o.disabledSheet,
+                  value: o.character.ritualsDc,
                   onBlur: m,
                 },
                 null,
                 40,
-                Xr
+                nd
               ),
             ]),
           ]),
-          t.disabledSheet
+          o.disabledSheet
             ? q("", !0)
-            : (o(),
-              n(
+            : (s(),
+              r(
                 "button",
                 {
                   key: 0,
                   class: "button-secondary add-new-button",
                   onClick:
-                    c[2] || (c[2] = (A) => t.$emit("handleOpenAddRitual")),
+                    l[2] || (l[2] = (A) => o.$emit("handleOpenAddRitual")),
                 },
                 " New Ritual "
               )),
-          t.character.rituals.length > 0
-            ? (o(),
-              n("div", Wr, [
-                l.value.length > 0
-                  ? (o(),
-                    n("div", Kr, [
-                      (o(!0),
-                      n(
-                        j,
+          o.character.rituals.length > 0
+            ? (s(),
+              r("div", rd, [
+                u.value.length > 0
+                  ? (s(),
+                    r("div", dd, [
+                      (s(!0),
+                      r(
+                        U,
                         null,
-                        L(
-                          l.value,
+                        B(
+                          u.value,
                           (A) => (
-                            o(),
-                            n("div", { key: A.id, class: "sheet-card-list" }, [
+                            s(),
+                            r("div", { key: A.id, class: "sheet-card-list" }, [
                               C(
-                                Do,
+                                Ro,
                                 {
                                   id: A.id,
                                   ritual: A,
-                                  disabled: t.disabledSheet,
+                                  disabled: o.disabledSheet,
                                   "only-show": "",
                                   sheet: "",
                                   onHandleRemove:
-                                    c[3] ||
-                                    (c[3] = (P) =>
-                                      t.$emit("handleRemoveRitual", P)),
+                                    l[3] ||
+                                    (l[3] = (M) =>
+                                      o.$emit("handleRemoveRitual", M)),
                                   onHandleEdit: i,
-                                  onHandleRollRitual: d,
+                                  onHandleRollRitual: n,
                                 },
                                 null,
                                 8,
@@ -1576,69 +1743,69 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         128
                       )),
                     ]))
-                  : (o(), n("div", Jr, Zr)),
+                  : (s(), r("div", id, ud)),
               ]))
-            : (o(), n("div", ed, od)),
+            : (s(), r("div", cd, pd)),
         ])
       );
     },
   }),
-  Xo = V(td, [["__scopeId", "data-v-d3cb0405"]]),
-  ie = (a) => (w("data-v-d9d5c266"), (a = a()), z(), a),
-  sd = { class: "tab" },
-  nd = { class: "tab-header" },
-  rd = { key: 0 },
-  dd = { class: "inventory-info-container" },
-  id = { class: "inventory-row" },
-  ld = { class: "input-container" },
-  ud = ie(() =>
+  Wo = V(vd, [["__scopeId", "data-v-d3cb0405"]]),
+  ie = (a) => (H("data-v-d9d5c266"), (a = a()), j(), a),
+  hd = { class: "tab" },
+  gd = { class: "tab-header" },
+  fd = { key: 0 },
+  bd = { class: "inventory-info-container" },
+  Ad = { class: "inventory-row" },
+  Cd = { class: "input-container" },
+  qd = ie(() =>
     e("h4", { class: "sheet-subtitle" }, " PRESTIGE POINTS ", -1)
   ),
-  cd = ["disabled", "value"],
-  md = { class: "inventory-row" },
-  pd = { key: 0 },
-  vd = { class: "input-container" },
-  hd = ie(() => e("h4", { class: "sheet-subtitle" }, " ITEM LIMIT ", -1)),
-  gd = ["disabled", "value"],
-  fd = ["disabled", "value"],
-  bd = ["disabled", "value"],
-  Ad = ["disabled", "value"],
-  Cd = { key: 1 },
-  qd = { class: "input-container" },
-  yd = ie(() => e("h4", { class: "sheet-subtitle" }, " ITEM LIMIT ", -1)),
-  kd = { class: "mobile-input-container-row" },
-  $d = ["disabled", "value"],
-  Ed = ["disabled", "value"],
+  yd = ["disabled", "value"],
+  kd = { class: "inventory-row" },
+  $d = { key: 0 },
+  Ed = { class: "input-container" },
+  Sd = ie(() => e("h4", { class: "sheet-subtitle" }, " ITEM LIMIT ", -1)),
   Id = ["disabled", "value"],
-  Sd = ["disabled", "value"],
-  _d = { class: "inventory-row" },
-  Pd = { key: 0 },
-  Md = { class: "input-container" },
-  Dd = ie(() =>
+  Pd = ["disabled", "value"],
+  Md = ["disabled", "value"],
+  _d = ["disabled", "value"],
+  Dd = { key: 1 },
+  Rd = { class: "input-container" },
+  Td = ie(() => e("h4", { class: "sheet-subtitle" }, " ITEM LIMIT ", -1)),
+  Vd = { class: "mobile-input-container-row" },
+  Od = ["disabled", "value"],
+  wd = ["disabled", "value"],
+  zd = ["disabled", "value"],
+  Hd = ["disabled", "value"],
+  jd = { class: "inventory-row" },
+  Ud = { key: 0 },
+  Nd = { class: "input-container" },
+  xd = ie(() =>
     e("h4", { class: "sheet-subtitle width-to-align" }, " IN INVENTORY ", -1)
   ),
-  Rd = { class: "sheet-div" },
-  Vd = { class: "sheet-div" },
-  Td = { class: "sheet-div" },
-  Od = { class: "sheet-div" },
-  wd = { key: 1 },
-  zd = { class: "input-container" },
-  Hd = ie(() =>
-    e("h4", { class: "sheet-subtitle width-to-align" }, " IN INVENTORY ", -1)
-  ),
-  jd = { class: "mobile-input-container-row" },
-  Ud = { class: "sheet-div" },
-  xd = { class: "sheet-div" },
-  Nd = { class: "sheet-div" },
+  Bd = { class: "sheet-div" },
   Ld = { class: "sheet-div" },
-  Bd = { class: "inventory-row" },
-  Fd = { key: 0 },
-  Qd = { class: "input-container" },
-  Gd = ie(() => e("h4", { class: "sheet-subtitle" }, " MAX LOAD ", -1)),
-  Xd = ["disabled", "value"],
-  Wd = ["disabled", "value"],
-  Kd = { key: 1 },
-  Jd = ie(() =>
+  Fd = { class: "sheet-div" },
+  Qd = { class: "sheet-div" },
+  Gd = { key: 1 },
+  Xd = { class: "input-container" },
+  Wd = ie(() =>
+    e("h4", { class: "sheet-subtitle width-to-align" }, " IN INVENTORY ", -1)
+  ),
+  Kd = { class: "mobile-input-container-row" },
+  Jd = { class: "sheet-div" },
+  Yd = { class: "sheet-div" },
+  Zd = { class: "sheet-div" },
+  ei = { class: "sheet-div" },
+  ai = { class: "inventory-row" },
+  oi = { key: 0 },
+  ti = { class: "input-container" },
+  si = ie(() => e("h4", { class: "sheet-subtitle" }, " MAX LOAD. ", -1)),
+  ni = ["disabled", "value"],
+  ri = ["disabled", "value"],
+  di = { key: 1 },
+  ii = ie(() =>
     e(
       "h4",
       { class: "sheet-subtitle mobile-sheet-subtitle" },
@@ -1646,24 +1813,24 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  Yd = { class: "mobile-input-container-row" },
-  Zd = ["disabled", "value"],
-  ei = ["disabled", "value"],
-  ai = { class: "open-add-buttons-container" },
-  oi = { key: 0, class: "open-add-title" },
-  ti = { key: 0, class: "sheet-cards-container" },
-  si = { key: 0 },
-  ni = { key: 0 },
-  ri = { key: 1 },
-  di = { key: 2 },
-  ii = { key: 3 },
-  li = { key: 1, class: "no-content" },
-  ui = ie(() => e("h3", null, "No item found", -1)),
-  ci = [ui],
-  mi = { key: 1, class: "no-content" },
-  pi = ie(() => e("h3", null, "You have yet to add an item", -1)),
-  vi = [pi],
-  hi = R({
+  li = { class: "mobile-input-container-row" },
+  ui = ["disabled", "value"],
+  ci = ["disabled", "value"],
+  mi = { class: "open-add-buttons-container" },
+  pi = { key: 0, class: "open-add-title" },
+  vi = { key: 0, class: "sheet-cards-container" },
+  hi = { key: 0 },
+  gi = { key: 0 },
+  fi = { key: 1 },
+  bi = { key: 2 },
+  Ai = { key: 3 },
+  Ci = { key: 1, class: "no-content" },
+  qi = ie(() => e("h3", null, "No item found", -1)),
+  yi = [qi],
+  ki = { key: 1, class: "no-content" },
+  $i = ie(() => e("h3", null, "You have yet to add an item", -1)),
+  Ei = [$i],
+  Si = T({
     __name: "InventoryTab",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -1681,10 +1848,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleOpenAddCursedItem",
     ],
     setup(a, { emit: b }) {
-      Ue((f) => ({ "53e467a2": t.value }));
-      const v = a,
-        h = b,
-        u = [
+      Ne((f) => ({ "53e467a2": o.value }));
+      const h = a,
+        v = b,
+        c = [
           "Mundane",
           "Recruit",
           "Operator",
@@ -1693,36 +1860,36 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           "Elite Agent",
         ],
         p = ["Low", "Medium", "High", "Unlimited"],
-        l = xe(),
+        u = xe(),
         m = $(""),
         i = $(window.innerWidth),
-        d = X(() =>
-          [...v.character.inventory]
-            .filter((y) => K(y.name, m.value))
+        n = X(() =>
+          [...h.character.inventory]
+            .filter((y) => J(y.name, m.value))
             .sort((y, D) => y.name.localeCompare(D.name))
         ),
-        t = X(() =>
-          v.character.currentLoad > v.character.maxLoad * 2
+        o = X(() =>
+          h.character.currentLoad > h.character.maxLoad * 2
             ? "#d9534f"
-            : v.character.currentLoad > v.character.maxLoad
+            : h.character.currentLoad > h.character.maxLoad
             ? "#ff8c00"
             : "#fff"
         ),
-        c = X(() =>
-          v.character.currentLoad < 0 ? 0 : v.character.currentLoad
+        l = X(() =>
+          h.character.currentLoad < 0 ? 0 : h.character.currentLoad
         ),
-        A = (f) => h("handleEditItem", f),
-        P = (f, y) => {
-          var B;
-          const D = f.target.valueAsNumber;
-          h("handleChangeItemsLimit", { value: D, key: y }),
-            (B = l == null ? void 0 : l.proxy) == null || B.$forceUpdate();
-        },
+        A = (f) => v("handleEditItem", f),
         M = (f, y) => {
-          var B;
+          var F;
           const D = f.target.valueAsNumber;
-          h("handleChangeInventoryNumber", { value: D, key: y }),
-            (B = l == null ? void 0 : l.proxy) == null || B.$forceUpdate();
+          v("handleChangeItemsLimit", { value: D, key: y }),
+            (F = u == null ? void 0 : u.proxy) == null || F.$forceUpdate();
+        },
+        _ = (f, y) => {
+          var F;
+          const D = f.target.valueAsNumber;
+          v("handleChangeInventoryNumber", { value: D, key: y }),
+            (F = u == null ? void 0 : u.proxy) == null || F.$forceUpdate();
         };
       return (
         Ee(() => {
@@ -1731,14 +1898,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           });
         }),
         (f, y) => {
-          var D, B, ve, s, I, k, O, he;
+          var D, F, ve, t, S, k, O, he;
           return (
-            o(),
-            n("div", sd, [
-              e("div", nd, [
+            s(),
+            r("div", hd, [
+              e("div", gd, [
                 f.character.inventory.length > 0
-                  ? (o(),
-                    n("div", rd, [
+                  ? (s(),
+                    r("div", fd, [
                       C(
                         Le,
                         {
@@ -1754,8 +1921,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   : q("", !0),
                 f.disabledSheet
                   ? q("", !0)
-                  : (o(),
-                    n(
+                  : (s(),
+                    r(
                       "button",
                       {
                         key: 1,
@@ -1767,10 +1934,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       " Add New "
                     )),
               ]),
-              e("div", dd, [
-                e("div", id, [
-                  e("div", ld, [
-                    ud,
+              e("div", bd, [
+                e("div", Ad, [
+                  e("div", Cd, [
+                    qd,
                     e(
                       "input",
                       {
@@ -1778,21 +1945,21 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         class: "sheet-input sheet-input-size",
                         disabled: f.disabledSheet,
                         value: f.character.prestigePoints,
-                        onBlur: y[2] || (y[2] = (E) => M(E, "prestigePoints")),
+                        onBlur: y[2] || (y[2] = (E) => _(E, "prestigePoints")),
                       },
                       null,
                       40,
-                      cd
+                      yd
                     ),
                   ]),
                   C(
-                    ua,
+                    ca,
                     {
                       title: "RANK",
                       disabled: f.disabledSheet,
                       value: f.character.patent,
                       "button-width": "10rem",
-                      options: u,
+                      options: c,
                       "mobile-view": i.value < 1023,
                       onUpdateValue:
                         y[3] ||
@@ -1807,12 +1974,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ["disabled", "value", "mobile-view"]
                   ),
                 ]),
-                e("div", md, [
+                e("div", kd, [
                   i.value >= 1023
-                    ? (o(),
-                      n("div", pd, [
-                        e("div", vd, [
-                          hd,
+                    ? (s(),
+                      r("div", $d, [
+                        e("div", Ed, [
+                          Sd,
                           e(
                             "input",
                             {
@@ -1821,11 +1988,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               placeholder: "I",
                               disabled: f.disabledSheet,
                               value: f.character.itemsLimit.I,
-                              onBlur: y[4] || (y[4] = (E) => P(E, "I")),
+                              onBlur: y[4] || (y[4] = (E) => M(E, "I")),
                             },
                             null,
                             40,
-                            gd
+                            Id
                           ),
                           e(
                             "input",
@@ -1835,11 +2002,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               placeholder: "II",
                               disabled: f.disabledSheet,
                               value: f.character.itemsLimit.II,
-                              onBlur: y[5] || (y[5] = (E) => P(E, "II")),
+                              onBlur: y[5] || (y[5] = (E) => M(E, "II")),
                             },
                             null,
                             40,
-                            fd
+                            Pd
                           ),
                           e(
                             "input",
@@ -1849,11 +2016,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               placeholder: "III",
                               disabled: f.disabledSheet,
                               value: f.character.itemsLimit.III,
-                              onBlur: y[6] || (y[6] = (E) => P(E, "III")),
+                              onBlur: y[6] || (y[6] = (E) => M(E, "III")),
                             },
                             null,
                             40,
-                            bd
+                            Md
                           ),
                           e(
                             "input",
@@ -1863,19 +2030,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               placeholder: "IV",
                               disabled: f.disabledSheet,
                               value: f.character.itemsLimit.IV,
-                              onBlur: y[7] || (y[7] = (E) => P(E, "IV")),
+                              onBlur: y[7] || (y[7] = (E) => M(E, "IV")),
                             },
                             null,
                             40,
-                            Ad
+                            _d
                           ),
                         ]),
                       ]))
-                    : (o(),
-                      n("div", Cd, [
-                        e("div", qd, [
-                          yd,
-                          e("div", kd, [
+                    : (s(),
+                      r("div", Dd, [
+                        e("div", Rd, [
+                          Td,
+                          e("div", Vd, [
                             e(
                               "input",
                               {
@@ -1884,11 +2051,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 placeholder: "I",
                                 disabled: f.disabledSheet,
                                 value: f.character.itemsLimit.I,
-                                onBlur: y[8] || (y[8] = (E) => P(E, "I")),
+                                onBlur: y[8] || (y[8] = (E) => M(E, "I")),
                               },
                               null,
                               40,
-                              $d
+                              Od
                             ),
                             e(
                               "input",
@@ -1898,11 +2065,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 placeholder: "II",
                                 disabled: f.disabledSheet,
                                 value: f.character.itemsLimit.II,
-                                onBlur: y[9] || (y[9] = (E) => P(E, "II")),
+                                onBlur: y[9] || (y[9] = (E) => M(E, "II")),
                               },
                               null,
                               40,
-                              Ed
+                              wd
                             ),
                             e(
                               "input",
@@ -1912,11 +2079,11 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 placeholder: "III",
                                 disabled: f.disabledSheet,
                                 value: f.character.itemsLimit.III,
-                                onBlur: y[10] || (y[10] = (E) => P(E, "III")),
+                                onBlur: y[10] || (y[10] = (E) => M(E, "III")),
                               },
                               null,
                               40,
-                              Id
+                              zd
                             ),
                             e(
                               "input",
@@ -1926,26 +2093,26 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                 placeholder: "IV",
                                 disabled: f.disabledSheet,
                                 value: f.character.itemsLimit.IV,
-                                onBlur: y[11] || (y[11] = (E) => P(E, "IV")),
+                                onBlur: y[11] || (y[11] = (E) => M(E, "IV")),
                               },
                               null,
                               40,
-                              Sd
+                              Hd
                             ),
                           ]),
                         ]),
                       ])),
                 ]),
-                e("div", _d, [
+                e("div", jd, [
                   i.value >= 1023
-                    ? (o(),
-                      n("div", Pd, [
-                        e("div", Md, [
-                          Dd,
+                    ? (s(),
+                      r("div", Ud, [
+                        e("div", Nd, [
+                          xd,
                           e(
                             "div",
-                            Rd,
-                            H(
+                            Bd,
+                            w(
                               ((D = f.character.currentItemsLimit) == null
                                 ? void 0
                                 : D.I) || "0"
@@ -1954,18 +2121,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           ),
                           e(
                             "div",
-                            Vd,
-                            H(
-                              ((B = f.character.currentItemsLimit) == null
+                            Ld,
+                            w(
+                              ((F = f.character.currentItemsLimit) == null
                                 ? void 0
-                                : B.II) || "0"
+                                : F.II) || "0"
                             ),
                             1
                           ),
                           e(
                             "div",
-                            Td,
-                            H(
+                            Fd,
+                            w(
                               ((ve = f.character.currentItemsLimit) == null
                                 ? void 0
                                 : ve.III) || "0"
@@ -1974,35 +2141,35 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                           ),
                           e(
                             "div",
-                            Od,
-                            H(
-                              ((s = f.character.currentItemsLimit) == null
+                            Qd,
+                            w(
+                              ((t = f.character.currentItemsLimit) == null
                                 ? void 0
-                                : s.IV) || "0"
+                                : t.IV) || "0"
                             ),
                             1
                           ),
                         ]),
                       ]))
-                    : (o(),
-                      n("div", wd, [
-                        e("div", zd, [
-                          Hd,
-                          e("div", jd, [
+                    : (s(),
+                      r("div", Gd, [
+                        e("div", Xd, [
+                          Wd,
+                          e("div", Kd, [
                             e(
                               "div",
-                              Ud,
-                              H(
-                                ((I = f.character.currentItemsLimit) == null
+                              Jd,
+                              w(
+                                ((S = f.character.currentItemsLimit) == null
                                   ? void 0
-                                  : I.I) || "0"
+                                  : S.I) || "0"
                               ),
                               1
                             ),
                             e(
                               "div",
-                              xd,
-                              H(
+                              Yd,
+                              w(
                                 ((k = f.character.currentItemsLimit) == null
                                   ? void 0
                                   : k.II) || "0"
@@ -2011,8 +2178,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             ),
                             e(
                               "div",
-                              Nd,
-                              H(
+                              Zd,
+                              w(
                                 ((O = f.character.currentItemsLimit) == null
                                   ? void 0
                                   : O.III) || "0"
@@ -2021,8 +2188,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             ),
                             e(
                               "div",
-                              Ld,
-                              H(
+                              ei,
+                              w(
                                 ((he = f.character.currentItemsLimit) == null
                                   ? void 0
                                   : he.IV) || "0"
@@ -2033,9 +2200,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         ]),
                       ])),
                 ]),
-                e("div", Bd, [
+                e("div", ai, [
                   C(
-                    ua,
+                    ca,
                     {
                       title: "CREDIT LIMIT",
                       disabled: f.disabledSheet,
@@ -2056,10 +2223,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ["disabled", "value", "mobile-view"]
                   ),
                   i.value >= 1023
-                    ? (o(),
-                      n("div", Fd, [
-                        e("div", Qd, [
-                          Gd,
+                    ? (s(),
+                      r("div", oi, [
+                        e("div", ti, [
+                          si,
                           e(
                             "input",
                             {
@@ -2067,13 +2234,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               class:
                                 "sheet-input sheet-input-size current-load-color",
                               disabled: f.disabledSheet,
-                              value: c.value,
+                              value: l.value,
                               onBlur:
-                                y[13] || (y[13] = (E) => M(E, "currentLoad")),
+                                y[13] || (y[13] = (E) => _(E, "currentLoad")),
                             },
                             null,
                             40,
-                            Xd
+                            ni
                           ),
                           e(
                             "input",
@@ -2082,18 +2249,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               class: "sheet-input sheet-input-size",
                               disabled: f.disabledSheet,
                               value: f.character.maxLoad,
-                              onBlur: y[14] || (y[14] = (E) => M(E, "maxLoad")),
+                              onBlur: y[14] || (y[14] = (E) => _(E, "maxLoad")),
                             },
                             null,
                             40,
-                            Wd
+                            ri
                           ),
                         ]),
                       ]))
-                    : (o(),
-                      n("div", Kd, [
-                        Jd,
-                        e("div", Yd, [
+                    : (s(),
+                      r("div", di, [
+                        ii,
+                        e("div", li, [
                           e(
                             "input",
                             {
@@ -2101,13 +2268,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               class:
                                 "sheet-input sheet-input-size current-load-color",
                               disabled: f.disabledSheet,
-                              value: c.value,
+                              value: l.value,
                               onBlur:
-                                y[15] || (y[15] = (E) => M(E, "currentLoad")),
+                                y[15] || (y[15] = (E) => _(E, "currentLoad")),
                             },
                             null,
                             40,
-                            Zd
+                            ui
                           ),
                           e(
                             "input",
@@ -2116,22 +2283,22 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               class: "sheet-input sheet-input-size",
                               disabled: f.disabledSheet,
                               value: f.character.maxLoad,
-                              onBlur: y[16] || (y[16] = (E) => M(E, "maxLoad")),
+                              onBlur: y[16] || (y[16] = (E) => _(E, "maxLoad")),
                             },
                             null,
                             40,
-                            ei
+                            ci
                           ),
                         ]),
                       ])),
                 ]),
               ]),
-              e("div", ai, [
-                f.disabledSheet ? q("", !0) : (o(), n("div", oi, " NEW ")),
+              e("div", mi, [
+                f.disabledSheet ? q("", !0) : (s(), r("div", pi, " NEW ")),
                 f.disabledSheet
                   ? q("", !0)
-                  : (o(),
-                    n(
+                  : (s(),
+                    r(
                       "button",
                       {
                         key: 1,
@@ -2144,8 +2311,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     )),
                 f.disabledSheet
                   ? q("", !0)
-                  : (o(),
-                    n(
+                  : (s(),
+                    r(
                       "button",
                       {
                         key: 2,
@@ -2158,8 +2325,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     )),
                 f.disabledSheet
                   ? q("", !0)
-                  : (o(),
-                    n(
+                  : (s(),
+                    r(
                       "button",
                       {
                         key: 3,
@@ -2172,8 +2339,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     )),
                 f.disabledSheet
                   ? q("", !0)
-                  : (o(),
-                    n(
+                  : (s(),
+                    r(
                       "button",
                       {
                         key: 4,
@@ -2186,8 +2353,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     )),
                 f.disabledSheet
                   ? q("", !0)
-                  : (o(),
-                    n(
+                  : (s(),
+                    r(
                       "button",
                       {
                         key: 5,
@@ -2200,28 +2367,28 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     )),
               ]),
               f.character.inventory.length > 0
-                ? (o(),
-                  n("div", ti, [
-                    d.value.length > 0
-                      ? (o(),
-                        n("div", si, [
-                          (o(!0),
-                          n(
-                            j,
+                ? (s(),
+                  r("div", vi, [
+                    n.value.length > 0
+                      ? (s(),
+                        r("div", hi, [
+                          (s(!0),
+                          r(
+                            U,
                             null,
-                            L(
-                              d.value,
+                            B(
+                              n.value,
                               (E) => (
-                                o(),
-                                n(
+                                s(),
+                                r(
                                   "div",
                                   { key: E.id, class: "sheet-card-list" },
                                   [
                                     E.itemType === "weapon"
-                                      ? (o(),
-                                        n("div", ni, [
+                                      ? (s(),
+                                        r("div", gi, [
                                           C(
-                                            Ro,
+                                            To,
                                             {
                                               id: E.id,
                                               weapon: E,
@@ -2251,8 +2418,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ]))
                                       : q("", !0),
                                     E.itemType === "protection"
-                                      ? (o(),
-                                        n("div", ri, [
+                                      ? (s(),
+                                        r("div", fi, [
                                           C(
                                             Vo,
                                             {
@@ -2285,10 +2452,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                       : q("", !0),
                                     E.itemType === "misc" ||
                                     E.itemType === "ammunition"
-                                      ? (o(),
-                                        n("div", di, [
+                                      ? (s(),
+                                        r("div", bi, [
                                           C(
-                                            To,
+                                            Oo,
                                             {
                                               id: E.id,
                                               misc: E,
@@ -2311,10 +2478,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ]))
                                       : q("", !0),
                                     E.itemType === "cursedItem"
-                                      ? (o(),
-                                        n("div", ii, [
+                                      ? (s(),
+                                        r("div", Ai, [
                                           C(
-                                            Oo,
+                                            wo,
                                             {
                                               id: E.id,
                                               "cursed-item": E,
@@ -2343,30 +2510,30 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             128
                           )),
                         ]))
-                      : (o(), n("div", li, ci)),
+                      : (s(), r("div", Ci, yi)),
                   ]))
-                : (o(), n("div", mi, vi)),
+                : (s(), r("div", ki, Ei)),
             ])
           );
         }
       );
     },
   }),
-  Wo = V(hi, [["__scopeId", "data-v-d9d5c266"]]),
-  gi = { class: "tab" },
-  fi = { class: "textarea-container" },
-  bi = ["disabled", "placeholder", "value", "onBlur"],
-  Ai = R({
+  Ko = V(Si, [["__scopeId", "data-v-d9d5c266"]]),
+  Ii = { class: "tab" },
+  Pi = { class: "textarea-container" },
+  Mi = ["disabled", "placeholder", "value", "onBlur"],
+  _i = T({
     __name: "DescriptionTab",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: ["handleChangeDescription"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = (p, l) => {
-          const m = { value: p.target.value, key: l };
-          v("handleChangeDescription", m);
+      const h = b,
+        v = (p, u) => {
+          const m = { value: p.target.value, key: u };
+          h("handleChangeDescription", m);
         },
-        u = [
+        c = [
           {
             title: "Notes",
             key: "anotation",
@@ -2395,17 +2562,17 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               "Why did the agent join the Order? Why do they fight against the Other Side?",
           },
         ];
-      return (p, l) => (
-        o(),
-        n("div", gi, [
-          (o(),
-          n(
-            j,
+      return (p, u) => (
+        s(),
+        r("div", Ii, [
+          (s(),
+          r(
+            U,
             null,
-            L(u, (m) =>
+            B(c, (m) =>
               e("div", { key: m.title }, [
-                e("div", fi, [
-                  e("h3", null, H(m.title), 1),
+                e("div", Pi, [
+                  e("h3", null, w(m.title), 1),
                   e(
                     "textarea",
                     {
@@ -2414,12 +2581,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       disabled: p.disabledSheet,
                       placeholder: m.placeholder,
                       value: p.character.description[m.key],
-                      onBlur: (i) => h(i, m.key),
+                      onBlur: (i) => v(i, m.key),
                     },
                     `\r
         `,
                     40,
-                    bi
+                    Mi
                   ),
                 ]),
               ])
@@ -2430,10 +2597,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Ko = V(Ai, [["__scopeId", "data-v-c2fd2df6"]]),
-  Ci = { class: "sheet-tab-container" },
-  qi = { class: "tab-nav-container" },
-  yi = R({
+  Jo = V(_i, [["__scopeId", "data-v-c2fd2df6"]]),
+  Di = { class: "sheet-tab-container" },
+  Ri = { class: "tab-nav-container" },
+  Ti = T({
     __name: "SheetTabView",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: [
@@ -2470,108 +2637,108 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleOpenAddCursedItem",
     ],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [
+      const h = b,
+        v = [
           { label: "COMBAT", value: 0 },
           { label: "ABILITIES", value: 1 },
           { label: "RITUALS", value: 2 },
           { label: "INVENTORY", value: 3 },
           { label: "DESCRIPTION", value: 4 },
         ],
-        u = [Fo, Go, Xo, Wo, Ko],
+        c = [Qo, Xo, Wo, Ko, Jo],
         p = $(0),
-        l = (I) => (p.value = I),
-        m = (I) => v("handleChangeAttackText", I),
-        i = (I) => v("handleChangeAttackNumber", I),
-        d = (I) => v("handleChangeAttackDropdown", I),
-        t = (I) => v("handleChangeDescription", I),
-        c = (I) => v("handleChangeInventoryNumber", I),
-        A = (I) => v("handleChangeItemsLimit", I),
-        P = (I) => v("handleChangeInventoryDropdown", I),
-        M = (I) => v("handleRollAttack", I),
-        f = (I) => v("handleChangeRitualDc", I),
-        y = (I) => v("handleEditPower", I),
-        D = (I) => v("handleEditRitual", I),
-        B = (I) => v("handleEditAttack", I),
-        ve = (I) => v("handleEditItem", I),
-        s = (I, k) => v("handleRollRitual", I, k);
-      return (I, k) => (
-        o(),
-        n("div", Ci, [
-          e("div", qi, [
+        u = (S) => (p.value = S),
+        m = (S) => h("handleChangeAttackText", S),
+        i = (S) => h("handleChangeAttackNumber", S),
+        n = (S) => h("handleChangeAttackDropdown", S),
+        o = (S) => h("handleChangeDescription", S),
+        l = (S) => h("handleChangeInventoryNumber", S),
+        A = (S) => h("handleChangeItemsLimit", S),
+        M = (S) => h("handleChangeInventoryDropdown", S),
+        _ = (S) => h("handleRollAttack", S),
+        f = (S) => h("handleChangeRitualDc", S),
+        y = (S) => h("handleEditPower", S),
+        D = (S) => h("handleEditRitual", S),
+        F = (S) => h("handleEditAttack", S),
+        ve = (S) => h("handleEditItem", S),
+        t = (S, k) => h("handleRollRitual", S, k);
+      return (S, k) => (
+        s(),
+        r("div", Di, [
+          e("div", Ri, [
             C(
               pe,
               {
-                "tab-options": h,
+                "tab-options": v,
                 "current-tab": p.value,
                 "no-gap": "",
-                onHandleNavigation: l,
+                onHandleNavigation: u,
               },
               null,
               8,
               ["current-tab"]
             ),
           ]),
-          (o(),
-          N(
-            Ne,
+          (s(),
+          x(
+            Be,
             null,
             [
-              (o(),
-              N(
-                Pe(u[p.value]),
+              (s(),
+              x(
+                _e(c[p.value]),
                 {
-                  character: I.character,
-                  "disabled-sheet": I.disabledSheet,
+                  character: S.character,
+                  "disabled-sheet": S.disabledSheet,
                   onHandleOpenAbilitiesModal:
-                    k[0] || (k[0] = (O) => I.$emit("handleOpenAbilitiesModal")),
+                    k[0] || (k[0] = (O) => S.$emit("handleOpenAbilitiesModal")),
                   onHandleOpenRitualsModal:
-                    k[1] || (k[1] = (O) => I.$emit("handleOpenRitualsModal")),
+                    k[1] || (k[1] = (O) => S.$emit("handleOpenRitualsModal")),
                   onHandleOpenItemsModal:
-                    k[2] || (k[2] = (O) => I.$emit("handleOpenItemsModal")),
+                    k[2] || (k[2] = (O) => S.$emit("handleOpenItemsModal")),
                   onHandleOpenAddAttack:
-                    k[3] || (k[3] = (O) => I.$emit("handleOpenAddAttack")),
+                    k[3] || (k[3] = (O) => S.$emit("handleOpenAddAttack")),
                   onHandleOpenAddPower:
-                    k[4] || (k[4] = (O) => I.$emit("handleOpenAddPower")),
+                    k[4] || (k[4] = (O) => S.$emit("handleOpenAddPower")),
                   onHandleOpenAddRitual:
-                    k[5] || (k[5] = (O) => I.$emit("handleOpenAddRitual")),
+                    k[5] || (k[5] = (O) => S.$emit("handleOpenAddRitual")),
                   onHandleOpenAddWeapon:
-                    k[6] || (k[6] = (O) => I.$emit("handleOpenAddWeapon")),
+                    k[6] || (k[6] = (O) => S.$emit("handleOpenAddWeapon")),
                   onHandleOpenAddProtection:
-                    k[7] || (k[7] = (O) => I.$emit("handleOpenAddProtection")),
+                    k[7] || (k[7] = (O) => S.$emit("handleOpenAddProtection")),
                   onHandleOpenAddAmmunition:
-                    k[8] || (k[8] = (O) => I.$emit("handleOpenAddAmmunition")),
+                    k[8] || (k[8] = (O) => S.$emit("handleOpenAddAmmunition")),
                   onHandleOpenAddMisc:
-                    k[9] || (k[9] = (O) => I.$emit("handleOpenAddMisc")),
+                    k[9] || (k[9] = (O) => S.$emit("handleOpenAddMisc")),
                   onHandleOpenAddCursedItem:
                     k[10] ||
-                    (k[10] = (O) => I.$emit("handleOpenAddCursedItem")),
+                    (k[10] = (O) => S.$emit("handleOpenAddCursedItem")),
                   onHandleRemoveAttack:
-                    k[11] || (k[11] = (O) => I.$emit("handleRemoveAttack", O)),
-                  onHandleEditAttack: B,
+                    k[11] || (k[11] = (O) => S.$emit("handleRemoveAttack", O)),
+                  onHandleEditAttack: F,
                   onHandleEditPower: y,
                   onHandleEditRitual: D,
                   onHandleEditItem: ve,
                   onHandleRemovePower:
-                    k[12] || (k[12] = (O) => I.$emit("handleRemovePower", O)),
+                    k[12] || (k[12] = (O) => S.$emit("handleRemovePower", O)),
                   onHandleRemoveRitual:
-                    k[13] || (k[13] = (O) => I.$emit("handleRemoveRitual", O)),
+                    k[13] || (k[13] = (O) => S.$emit("handleRemoveRitual", O)),
                   onHandleRemoveItem:
-                    k[14] || (k[14] = (O) => I.$emit("handleRemoveItem", O)),
+                    k[14] || (k[14] = (O) => S.$emit("handleRemoveItem", O)),
                   onHandleEquipItem:
-                    k[15] || (k[15] = (O) => I.$emit("handleEquipItem", O)),
+                    k[15] || (k[15] = (O) => S.$emit("handleEquipItem", O)),
                   onHandleChangeAttackText: m,
                   onHandleChangeAttackNumber: i,
-                  onHandleChangeAttackDropdown: d,
-                  onHandleChangeDescription: t,
-                  onHandleChangeInventoryNumber: c,
+                  onHandleChangeAttackDropdown: n,
+                  onHandleChangeDescription: o,
+                  onHandleChangeInventoryNumber: l,
                   onHandleChangeItemsLimit: A,
-                  onHandleChangeInventoryDropdown: P,
+                  onHandleChangeInventoryDropdown: M,
                   onHandleRollDices:
-                    k[16] || (k[16] = (O) => I.$emit("handleRollDices", O)),
-                  onHandleRollAttack: M,
+                    k[16] || (k[16] = (O) => S.$emit("handleRollDices", O)),
+                  onHandleRollAttack: _,
                   onHandleChangeRitualDc: f,
-                  onHandleRollRitual: s,
+                  onHandleRollRitual: t,
                 },
                 null,
                 40,
@@ -2584,10 +2751,10 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  ki = V(yi, [["__scopeId", "data-v-ff57a115"]]),
-  $i = { class: "switch-container" },
-  Ei = ["onClick"],
-  Ii = R({
+  Vi = V(Ti, [["__scopeId", "data-v-ff57a115"]]),
+  Oi = { class: "switch-container" },
+  wi = ["onClick"],
+  zi = T({
     __name: "SwitchButton",
     props: {
       value: { type: Number, required: !0 },
@@ -2595,30 +2762,30 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
     },
     emits: ["handleNavigation"],
     setup(a) {
-      return (b, v) => (
-        o(),
-        n("div", $i, [
-          (o(!0),
-          n(
-            j,
+      return (b, h) => (
+        s(),
+        r("div", Oi, [
+          (s(!0),
+          r(
+            U,
             null,
-            L(
+            B(
               a.options,
-              (h) => (
-                o(),
-                n(
+              (v) => (
+                s(),
+                r(
                   "button",
                   {
-                    key: h.value,
-                    class: J([
+                    key: v.value,
+                    class: Y([
                       "switch-button",
-                      { active: h.value === a.value },
+                      { active: v.value === a.value },
                     ]),
-                    onClick: (u) => b.$emit("handleNavigation", h.value),
+                    onClick: (c) => b.$emit("handleNavigation", v.value),
                   },
-                  H(h.label),
+                  w(v.label),
                   11,
-                  Ei
+                  wi
                 )
               )
             ),
@@ -2628,64 +2795,64 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  ga = V(Ii, [["__scopeId", "data-v-9be4a122"]]),
-  Si = { class: "class-abilities-container" },
-  _i = { key: 0, class: "search-container" },
-  Pi = { key: 1, class: "class-abilities-content" },
-  Mi = R({
+  fa = V(zi, [["__scopeId", "data-v-9be4a122"]]),
+  Hi = { class: "class-abilities-container" },
+  ji = { key: 0, class: "search-container" },
+  Ui = { key: 1, class: "class-abilities-content" },
+  Ni = T({
     __name: "ClassAbilities",
     props: { classValue: {} },
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = $([]),
+      const h = a,
+        v = b,
+        c = $([]),
         p = $([]),
-        l = $([]),
+        u = $([]),
         m = $(0),
         i = $(""),
-        d = (c) => h("handleAddPower", c);
+        n = (l) => v("handleAddPower", l);
       Ee(() => {
-        l.value.push({ label: `${v.classValue.name} Powers`, value: 0 }),
-          v.classValue.paths.forEach((c, A) => {
-            l.value.push({ label: c.name, value: A + 1 }), p.value.push(c);
+        u.value.push({ label: `Poderes de ${h.classValue.name}`, value: 0 }),
+          h.classValue.paths.forEach((l, A) => {
+            u.value.push({ label: l.name, value: A + 1 }), p.value.push(l);
           });
-        for (const c of v.classValue.abilities) u.value.push(c);
-        for (const c of v.classValue.powers) u.value.push(c);
+        for (const l of h.classValue.abilities) c.value.push(l);
+        for (const l of h.classValue.powers) c.value.push(l);
       });
-      const t = X(() =>
-        u.value
+      const o = X(() =>
+        c.value
           ? m.value === 0
-            ? u.value
-                .filter((c) => K(c.name, i.value))
-                .sort((c, A) => c.name.localeCompare(A.name))
+            ? c.value
+                .filter((l) => J(l.name, i.value))
+                .sort((l, A) => l.name.localeCompare(A.name))
             : p.value[m.value - 1].abilities
           : []
       );
-      return (c, A) => (
-        o(),
-        n("div", Si, [
+      return (l, A) => (
+        s(),
+        r("div", Hi, [
           C(
             pe,
             {
               "current-tab": m.value,
-              "tab-options": l.value,
+              "tab-options": u.value,
               secondary: "",
-              onHandleNavigation: A[0] || (A[0] = (P) => (m.value = P)),
+              onHandleNavigation: A[0] || (A[0] = (M) => (m.value = M)),
             },
             null,
             8,
             ["current-tab", "tab-options"]
           ),
           m.value === 0
-            ? (o(),
-              n("div", _i, [
+            ? (s(),
+              r("div", ji, [
                 C(
                   $e,
                   {
                     value: i.value,
                     dark: "",
-                    onUpdate: A[1] || (A[1] = (P) => (i.value = P)),
+                    onUpdate: A[1] || (A[1] = (M) => (i.value = M)),
                   },
                   null,
                   8,
@@ -2693,19 +2860,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ),
               ]))
             : q("", !0),
-          t.value.length > 0
-            ? (o(),
-              n("div", Pi, [
-                (o(!0),
-                n(
-                  j,
+          o.value.length > 0
+            ? (s(),
+              r("div", Ui, [
+                (s(!0),
+                r(
+                  U,
                   null,
-                  L(
-                    t.value,
-                    (P) => (
-                      o(),
-                      n("div", { key: P.name, class: "class-abilitie-card" }, [
-                        C(Be, { power: P, onHandleAdd: d }, null, 8, ["power"]),
+                  B(
+                    o.value,
+                    (M) => (
+                      s(),
+                      r("div", { key: M.name, class: "class-abilitie-card" }, [
+                        C(Fe, { power: M, onHandleAdd: n }, null, 8, ["power"]),
                       ])
                     )
                   ),
@@ -2717,53 +2884,53 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  da = V(Mi, [["__scopeId", "data-v-bb507b22"]]),
-  Di = { class: "class-abilities-container" },
-  Ri = { class: "search-container" },
-  Vi = { class: "class-abilities-content" },
-  Ti = R({
+  da = V(Ni, [["__scopeId", "data-v-bb507b22"]]),
+  xi = { class: "class-abilities-container" },
+  Bi = { class: "search-container" },
+  Li = { class: "class-abilities-content" },
+  Fi = T({
     __name: "BackgroundPower",
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = (m) => v("handleAddPower", m),
-        u = $([]),
+      const h = b,
+        v = (m) => h("handleAddPower", m),
+        c = $([]),
         p = $("");
       Ee(() => {
-        for (const m of qs) u.value.push(m.power);
+        for (const m of ks) c.value.push(m.power);
       });
-      const l = X(() =>
-        u.value
-          .filter((m) => K(m.name, p.value))
+      const u = X(() =>
+        c.value
+          .filter((m) => J(m.name, p.value))
           .sort((m, i) => m.name.localeCompare(i.name))
       );
       return (m, i) => (
-        o(),
-        n("div", Di, [
-          e("div", Ri, [
+        s(),
+        r("div", xi, [
+          e("div", Bi, [
             C(
               $e,
               {
                 value: p.value,
                 dark: "",
-                onUpdate: i[0] || (i[0] = (d) => (p.value = d)),
+                onUpdate: i[0] || (i[0] = (n) => (p.value = n)),
               },
               null,
               8,
               ["value"]
             ),
           ]),
-          e("div", Vi, [
-            (o(!0),
-            n(
-              j,
+          e("div", Li, [
+            (s(!0),
+            r(
+              U,
               null,
-              L(
-                l.value,
-                (d) => (
-                  o(),
-                  n("div", { key: d.name, class: "class-abilitie-card" }, [
-                    C(Be, { power: d, onHandleAdd: h }, null, 8, ["power"]),
+              B(
+                u.value,
+                (n) => (
+                  s(),
+                  r("div", { key: n.name, class: "class-abilitie-card" }, [
+                    C(Fe, { power: n, onHandleAdd: v }, null, 8, ["power"]),
                   ])
                 )
               ),
@@ -2774,8 +2941,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Oi = V(Ti, [["__scopeId", "data-v-5db4501a"]]),
-  wi = [
+  Qi = V(Fi, [["__scopeId", "data-v-5db4501a"]]),
+  Gi = [
     {
       name: "Aprender Ritual",
       element: "Varies",
@@ -2907,53 +3074,53 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       element: "Blood",
       description:
         "<p>A carnificina não pode parar, o Blood precisa continuar fluindo. Na primeira vez que ficar machucado durante uma cena, você recebe cura acelerada 2. Esse efeito nunca cura você acima da metade dos PV máximos (ou seja, você nunca deixa de estar machucado) e termina no fim da cena ou caso você perca a condição machucado. <em>Pré-requisito:</em> Blood 1.</p><p><span>Afinidade:</span> a cura acelerada aumenta para 5.</p>",
-          },
+      },
   ],
-  zi = { class: "class-abilities-container" },
-  Hi = { key: 0, class: "class-abilities-content" },
-  ji = R({
+  Xi = { class: "class-abilities-container" },
+  Wi = { key: 0, class: "class-abilities-content" },
+  Ki = T({
     __name: "ParanormalPowers",
     emits: ["handleAddPower"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [
+      const h = b,
+        v = [
           { label: "Knowledge", value: 0 },
           { label: "Energy", value: 1 },
           { label: "Death", value: 2 },
           { label: "Blood", value: 3 },
           { label: "Varies", value: 4 },
         ],
-        u = $(0),
-        p = (m) => v("handleAddPower", m),
-        l = X(() => wi.filter((m) => m.element === h[u.value].label));
+        c = $(0),
+        p = (m) => h("handleAddPower", m),
+        u = X(() => Gi.filter((m) => m.element === v[c.value].label));
       return (m, i) => (
-        o(),
-        n("div", zi, [
+        s(),
+        r("div", Xi, [
           C(
             pe,
             {
-              "current-tab": u.value,
-              "tab-options": h,
+              "current-tab": c.value,
+              "tab-options": v,
               secondary: "",
-              onHandleNavigation: i[0] || (i[0] = (d) => (u.value = d)),
+              onHandleNavigation: i[0] || (i[0] = (n) => (c.value = n)),
             },
             null,
             8,
             ["current-tab"]
           ),
-          l.value.length > 0
-            ? (o(),
-              n("div", Hi, [
-                (o(!0),
-                n(
-                  j,
+          u.value.length > 0
+            ? (s(),
+              r("div", Wi, [
+                (s(!0),
+                r(
+                  U,
                   null,
-                  L(
-                    l.value,
-                    (d) => (
-                      o(),
-                      n("div", { key: d.name, class: "class-abilitie-card" }, [
-                        C(Be, { power: d, onHandleAdd: p }, null, 8, ["power"]),
+                  B(
+                    u.value,
+                    (n) => (
+                      s(),
+                      r("div", { key: n.name, class: "class-abilitie-card" }, [
+                        C(Fe, { power: n, onHandleAdd: p }, null, 8, ["power"]),
                       ])
                     )
                   ),
@@ -2965,136 +3132,136 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Ui = V(ji, [["__scopeId", "data-v-05246a49"]]),
-  xi = { class: "abilities-modal-content" },
-  Ni = { key: 0 },
-  Li = { key: 1 },
-  Bi = { key: 2 },
-  Fi = { key: 3 },
-  Qi = { key: 4 },
-  Gi = R({
+  Ji = V(Ki, [["__scopeId", "data-v-05246a49"]]),
+  Yi = { class: "abilities-modal-content" },
+  Zi = { key: 0 },
+  el = { key: 1 },
+  al = { key: 2 },
+  ol = { key: 3 },
+  tl = { key: 4 },
+  sl = T({
     __name: "AbilitiesModalContent",
     props: { character: {} },
     emits: ["handleCloseModal", "handleAddPower"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [
+      const h = b,
+        v = [
           { label: "Combatant", value: 0 },
           { label: "Specialist", value: 1 },
           { label: "Occultist", value: 2 },
           { label: "Backgrounds", value: 3 },
           { label: "Paranormal Powers", value: 4 },
         ],
-        u = $(0),
-        p = (m) => (u.value = m),
-        l = (m) => v("handleAddPower", m);
+        c = $(0),
+        p = (m) => (c.value = m),
+        u = (m) => h("handleAddPower", m);
       return (m, i) => (
-        o(),
-        n("div", xi, [
+        s(),
+        r("div", Yi, [
           C(
             pe,
-            { "current-tab": u.value, "tab-options": h, onHandleNavigation: p },
+            { "current-tab": c.value, "tab-options": v, onHandleNavigation: p },
             null,
             8,
             ["current-tab"]
           ),
-          u.value === 0
-            ? (o(),
-              n("div", Ni, [
+          c.value === 0
+            ? (s(),
+              r("div", Zi, [
                 C(
                   da,
-                  { "class-value": G(ze)[0], onHandleAddPower: l },
+                  { "class-value": L(Pe)[0], onHandleAddPower: u },
                   null,
                   8,
                   ["class-value"]
                 ),
               ]))
             : q("", !0),
-          u.value === 1
-            ? (o(),
-              n("div", Li, [
+          c.value === 1
+            ? (s(),
+              r("div", el, [
                 C(
                   da,
-                  { "class-value": G(ze)[1], onHandleAddPower: l },
+                  { "class-value": L(Pe)[1], onHandleAddPower: u },
                   null,
                   8,
                   ["class-value"]
                 ),
               ]))
             : q("", !0),
-          u.value === 2
-            ? (o(),
-              n("div", Bi, [
+          c.value === 2
+            ? (s(),
+              r("div", al, [
                 C(
                   da,
-                  { "class-value": G(ze)[2], onHandleAddPower: l },
+                  { "class-value": L(Pe)[2], onHandleAddPower: u },
                   null,
                   8,
                   ["class-value"]
                 ),
               ]))
             : q("", !0),
-          u.value === 3
-            ? (o(), n("div", Fi, [C(Oi, { onHandleAddPower: l })]))
+          c.value === 3
+            ? (s(), r("div", ol, [C(Qi, { onHandleAddPower: u })]))
             : q("", !0),
-          u.value === 4
-            ? (o(), n("div", Qi, [C(Ui, { onHandleAddPower: l })]))
+          c.value === 4
+            ? (s(), r("div", tl, [C(Ji, { onHandleAddPower: u })]))
             : q("", !0),
         ])
       );
     },
   }),
-  Xi = V(Gi, [["__scopeId", "data-v-84328ffc"]]),
-  Jo = (a) => (w("data-v-7388a7f6"), (a = a()), z(), a),
-  Wi = { class: "modal-content modal-width" },
-  Ki = { class: "modal-header" },
-  Ji = Jo(() => e("h2", null, "Add Abilities", -1)),
-  Yi = Jo(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  nl = V(sl, [["__scopeId", "data-v-84328ffc"]]),
+  Yo = (a) => (H("data-v-7388a7f6"), (a = a()), j(), a),
+  rl = { class: "modal-content modal-width" },
+  dl = { class: "modal-header" },
+  il = Yo(() => e("h2", null, "Add Abilities", -1)),
+  ll = Yo(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  Zi = [Yi],
-  el = { class: "modal-body modal-height" },
-  al = R({
+  ul = [ll],
+  cl = { class: "modal-body modal-height" },
+  ml = T({
     __name: "AbilitiesModal",
     props: { character: {} },
     emits: ["handleAddPower", "handleCloseModal"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [Xi, ks],
-        u = [
+      const h = b,
+        v = [nl, Es],
+        c = [
           { label: "Abilities", value: 0 },
           { label: "My Abilities", value: 1 },
         ],
         p = $(0),
-        l = (i) => (p.value = i),
-        m = (i) => v("handleAddPower", i);
-      return (i, d) => (
-        o(),
-        n("div", Wi, [
-          e("div", Ki, [
-            Ji,
+        u = (i) => (p.value = i),
+        m = (i) => h("handleAddPower", i);
+      return (i, n) => (
+        s(),
+        r("div", rl, [
+          e("div", dl, [
+            il,
             e(
               "button",
-              { onClick: d[0] || (d[0] = (t) => i.$emit("handleCloseModal")) },
-              Zi
+              { onClick: n[0] || (n[0] = (o) => i.$emit("handleCloseModal")) },
+              ul
             ),
           ]),
-          e("div", el, [
+          e("div", cl, [
             C(
-              ga,
-              { value: p.value, options: u, onHandleNavigation: l },
+              fa,
+              { value: p.value, options: c, onHandleNavigation: u },
               null,
               8,
               ["value"]
             ),
-            (o(),
-            N(
-              Ne,
+            (s(),
+            x(
+              Be,
               null,
               [
-                (o(),
-                N(
-                  Pe(h[p.value]),
+                (s(),
+                x(
+                  _e(v[p.value]),
                   { character: i.character, onHandleAddPower: m },
                   null,
                   40,
@@ -3108,8 +3275,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  ol = V(al, [["__scopeId", "data-v-7388a7f6"]]),
-  W = [
+  pl = V(ml, [["__scopeId", "data-v-7388a7f6"]]),
+  K = [
     {
       name: "Short Bullets",
       category: "0",
@@ -3165,7 +3332,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         "<p>Disparado por bazucas. Ao contrário de outras munições, cada foguete dura um único disparo, não uma cena. Para fazer vários ataques, você precisará carregar vários foguetes.</p>",
     },
   ],
-  tl = [
+  vl = [
     {
       name: "Buttstroke",
       proficiencie: "Simple Weapons",
@@ -3309,7 +3476,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "0",
       slots: 2,
-      ammunitionName: W[4].name,
+      ammunitionName: K[4].name,
       itemType: "weapon",
       description: "<p>Um arco e flecha comum, próprio para tiro ao alvo.</p>",
     },
@@ -3325,7 +3492,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "0",
       slots: 2,
-      ammunitionName: W[4].name,
+      ammunitionName: K[4].name,
       itemType: "weapon",
       description:
         "<p>Esta arma da antiguidade exige uma ação de movimento para ser recarregada a cada disparo.</p>",
@@ -3342,7 +3509,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Short",
       category: "I",
       slots: 1,
-      ammunitionName: W[0].name,
+      ammunitionName: K[0].name,
       itemType: "weapon",
       description:
         "<p>Uma arma de mão comum entre policiais e militares por ser facilmente recarregável.</p>",
@@ -3359,7 +3526,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Short",
       category: "I",
       slots: 1,
-      ammunitionName: W[0].name,
+      ammunitionName: K[0].name,
       itemType: "weapon",
       description:
         "<p>A arma de fogo mais comum, e uma das mais confiáveis.</p>",
@@ -3376,7 +3543,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "I",
       slots: 2,
-      ammunitionName: W[1].name,
+      ammunitionName: K[1].name,
       itemType: "weapon",
       description:
         "<p>Esta arma de fogo é bastante popular entre fazendeiros, caçadores e atiradores esportistas.</p>",
@@ -3602,7 +3769,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "I",
       slots: 2,
-      ammunitionName: W[4].name,
+      ammunitionName: K[4].name,
       itemType: "weapon",
       description:
         "<p>Este arco moderno usa materiais de alta tensão e um sistema de roldanas para gerar mais pressão. Ao contrário de outras armas de disparo, permite que você aplique seu valor de Força às rolagens de dano.</p>",
@@ -3619,7 +3786,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "I",
       slots: 2,
-      ammunitionName: W[4].name,
+      ammunitionName: K[4].name,
       itemType: "weapon",
       description:
         "<p>Uma besta pesada, capaz de disparos poderosos. Exige uma ação de movimento para ser recarregada a cada disparo.</p>",
@@ -3636,7 +3803,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Short",
       category: "I",
       slots: 1,
-      ammunitionName: W[0].name,
+      ammunitionName: K[0].name,
       itemType: "weapon",
       description:
         "<p>Esta arma de fogo automática pode ser empunhada com apenas uma mão.</p>",
@@ -3653,7 +3820,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Short",
       category: "I",
       slots: 2,
-      ammunitionName: W[2].name,
+      ammunitionName: K[2].name,
       itemType: "weapon",
       description:
         "<p>Arma de fogo longa e com cano liso. A espingarda causa apenas metade do dano em alcance médio ou maior.</p>",
@@ -3670,7 +3837,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "II",
       slots: 2,
-      ammunitionName: W[1].name,
+      ammunitionName: K[1].name,
       itemType: "weapon",
       description:
         "<p>A arma de fogo padrão da maioria dos exércitos modernos. É uma arma automática.</p>",
@@ -3687,7 +3854,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Long",
       category: "III",
       slots: 2,
-      ammunitionName: W[1].name,
+      ammunitionName: K[1].name,
       itemType: "weapon",
       description:
         "<p>Esta arma de fogo de uso militar é projetada para disparos longos e precisos. Se for veterano em Pontaria e mirar com um fuzil de precisão, você recebe +5 na margem de ameaça de seu ataque.</p>",
@@ -3704,7 +3871,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "III",
       slots: 2,
-      ammunitionName: W[5].name,
+      ammunitionName: K[5].name,
       itemType: "weapon",
       description:
         "<p>Este lança-foguetes foi concebido como uma arma anti-tanques, mas também se mostrou eficaz contra criaturas. A bazuca causa seu dano no alvo atingido e em todos os seres num raio de 3m; esses seres (mas não o alvo atingido diretamente) têm direito a um teste de Reflexos (DT Agi) para reduzir o dano à metade. Você pode disparar o foguete num ponto qualquer em alcance médio, em vez de num ser específico; nesse caso, não precisa rolar ataque e não tem chance de errar (mas também não acerta nenhum ser diretamente). A bazuca exige uma ação de movimento para ser recarregada a cada disparo.</p>",
@@ -3721,7 +3888,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Short",
       category: "III",
       slots: 2,
-      ammunitionName: W[3].name,
+      ammunitionName: K[3].name,
       itemType: "weapon",
       description:
         "<p>Equipamento militar que esguicha líquido inflamável incandescente. Um lança-chamas atinge todos os seres em uma linha de 1,5m de largura com alcance curto, mas não alcança além disso. Faça um único teste de ataque e compare o resultado com a Defesa de todos os seres na área. Além de sofrer dano, seres atingidos ficam em chamas.</p>",
@@ -3738,13 +3905,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       range: "Medium",
       category: "II",
       slots: 2,
-      ammunitionName: W[1].name,
+      ammunitionName: K[1].name,
       itemType: "weapon",
       description:
         "<p>Uma arma de fogo pesada, de uso militar. Para atacar com uma metralhadora, você precisa ter Força 4 ou maior ou gastar uma ação de movimento para apoiá-la em seu tripé ou suporte apropriado; caso contrário, sofre –5 em seus ataques. Uma metralhadora é uma arma automática.</p>",
     },
   ],
-  sl = [
+  hl = [
     {
       name: "Light Armor",
       defense: 5,
@@ -3773,7 +3940,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         "<p>Um escudo medieval ou moderno, como aqueles usados por tropas de choque. Para efeitos de proficiência, conta como proteção pesada. Precisa ser empunhado em uma mão e fornece Defesa +2.</p>",
     },
   ],
-  nl = [
+  gl = [
     {
       name: "Skill Kit",
       tag: "Accessories",
@@ -4081,7 +4248,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         "<p>Este item é composto por um dispositivo conectado a pequenos objetos amaldiçoados de uma entidade específica e adornado com uma série de sigilos. Ativar o scanner é uma ação padrão. Quando ativado, o scanner consome 1 EP por rodada do usuário, que sempre sabe a direção de todas as manifestações paranormais ativas (rituais, criaturas, itens amaldiçoados etc.) do elemento escolhido em alcance longo. Se o elemento principal de uma criatura for outro, mas ela tiver como complemento o elemento escolhido do scanner, também será detectada.</p>",
     },
   ],
-  rl = [
+  fl = [
     {
       name: "Coração Pulsante",
       element: "Blood",
@@ -4344,74 +4511,74 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         "<p><em>Um conjunto de sigilos gravados em um objeto pequeno, como um pergaminho, moeda, pedra preciosa, osso humano...</em> Cada selo contém um ritual. Para ativar um selo, você deve empunhá-lo e ler os sigilos em voz alta. Isso exige uma ação padrão ou a ação necessária para conjurar o ritual, o que for maior. Você também deve conhecer o ritual inscrito nele ou passar em um teste de Ocultismo (DT 20 + custo em EP do ritual).</p><p>Quando o selo é ativado, o ritual é conjurado e o selo se desfaz em cinzas. Você sofre os efeitos das regras “O Custo do Paranormal” e “Invocando o Medo”, caso aplicáveis, e toma quaisquer decisões exigidas pelo ritual, como se o tivesse conjurado você mesmo. Caso conheça o ritual, você pode aplicar quaisquer habilidades que possua que se aplicariam aos seus próprios rituais, e pode usar versões avançadas dele, pagando o custo adicional em pontos de esforço (e apenas o custo adicional). Você não precisa de componentes ritualísticos para ativar um selo, o que o torna um objeto bastante útil para ocultistas em certas situações.</p><p>A categoria de um selo é igual ao circle do ritual contido nele: categoria I para rituais de 1º circle, categoria II para rituais de 2nd circle, e assim por diante.</p>",
     },
   ],
-  dl = { class: "class-abilities-container" },
-  il = { key: 0, class: "search-container" },
-  ll = { key: 1, class: "search-container" },
-  ul = { key: 2, class: "search-container" },
-  cl = { key: 3, class: "class-abilities-content" },
-  ml = { key: 0 },
-  pl = { key: 1 },
-  vl = { key: 2 },
-  hl = { key: 3 },
-  gl = R({
+  bl = { class: "class-abilities-container" },
+  Al = { key: 0, class: "search-container" },
+  Cl = { key: 1, class: "search-container" },
+  ql = { key: 2, class: "search-container" },
+  yl = { key: 3, class: "class-abilities-content" },
+  kl = { key: 0 },
+  $l = { key: 1 },
+  El = { key: 2 },
+  Sl = { key: 3 },
+  Il = T({
     __name: "InventoryModalContent",
     emits: ["handleAddItem", "handleCloseModal"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [
+      const h = b,
+        v = [
           { label: "Weapons", value: 0 },
           { label: "Ammo", value: 1 },
           { label: "Armor", value: 2 },
           { label: "General", value: 3 },
           { label: "Cursed Items", value: 4 },
         ],
-        u = $(0),
+        c = $(0),
         p = $(""),
-        l = $(""),
+        u = $(""),
         m = $(""),
-        i = (t) => v("handleAddItem", t),
-        d = X(() =>
-          u.value === 0
-            ? tl
-                .filter((t) => K(t.name, p.value))
-                .sort((t, c) => t.name.localeCompare(c.name))
-            : u.value === 1
-            ? W.sort((t, c) => t.name.localeCompare(c.name))
-            : u.value === 2
-            ? sl.sort((t, c) => t.name.localeCompare(c.name))
-            : u.value === 3
-            ? nl
-                .filter((t) => K(t.name, l.value))
-                .sort((t, c) => t.name.localeCompare(c.name))
-            : u.value === 4
-            ? rl
-                .filter((t) => K(t.name, m.value))
-                .sort((t, c) => t.name.localeCompare(c.name))
+        i = (o) => h("handleAddItem", o),
+        n = X(() =>
+          c.value === 0
+            ? vl
+                .filter((o) => J(o.name, p.value))
+                .sort((o, l) => o.name.localeCompare(l.name))
+            : c.value === 1
+            ? K.sort((o, l) => o.name.localeCompare(l.name))
+            : c.value === 2
+            ? hl.sort((o, l) => o.name.localeCompare(l.name))
+            : c.value === 3
+            ? gl
+                .filter((o) => J(o.name, u.value))
+                .sort((o, l) => o.name.localeCompare(l.name))
+            : c.value === 4
+            ? fl
+                .filter((o) => J(o.name, m.value))
+                .sort((o, l) => o.name.localeCompare(l.name))
             : []
         );
-      return (t, c) => (
-        o(),
-        n("div", dl, [
+      return (o, l) => (
+        s(),
+        r("div", bl, [
           C(
             pe,
             {
-              "current-tab": u.value,
-              "tab-options": h,
-              onHandleNavigation: c[0] || (c[0] = (A) => (u.value = A)),
+              "current-tab": c.value,
+              "tab-options": v,
+              onHandleNavigation: l[0] || (l[0] = (A) => (c.value = A)),
             },
             null,
             8,
             ["current-tab"]
           ),
-          u.value === 0
-            ? (o(),
-              n("div", il, [
+          c.value === 0
+            ? (s(),
+              r("div", Al, [
                 C(
                   $e,
                   {
                     value: p.value,
                     dark: "",
-                    onUpdate: c[1] || (c[1] = (A) => (p.value = A)),
+                    onUpdate: l[1] || (l[1] = (A) => (p.value = A)),
                   },
                   null,
                   8,
@@ -4419,15 +4586,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ),
               ]))
             : q("", !0),
-          u.value === 3
-            ? (o(),
-              n("div", ll, [
+          c.value === 3
+            ? (s(),
+              r("div", Cl, [
                 C(
                   $e,
                   {
-                    value: l.value,
+                    value: u.value,
                     dark: "",
-                    onUpdate: c[2] || (c[2] = (A) => (l.value = A)),
+                    onUpdate: l[2] || (l[2] = (A) => (u.value = A)),
                   },
                   null,
                   8,
@@ -4435,15 +4602,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ),
               ]))
             : q("", !0),
-          u.value === 4
-            ? (o(),
-              n("div", ul, [
+          c.value === 4
+            ? (s(),
+              r("div", ql, [
                 C(
                   $e,
                   {
                     value: m.value,
                     dark: "",
-                    onUpdate: c[3] || (c[3] = (A) => (m.value = A)),
+                    onUpdate: l[3] || (l[3] = (A) => (m.value = A)),
                   },
                   null,
                   8,
@@ -4451,29 +4618,29 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 ),
               ]))
             : q("", !0),
-          d.value.length > 0
-            ? (o(),
-              n("div", cl, [
-                (o(!0),
-                n(
-                  j,
+          n.value.length > 0
+            ? (s(),
+              r("div", yl, [
+                (s(!0),
+                r(
+                  U,
                   null,
-                  L(
-                    d.value,
+                  B(
+                    n.value,
                     (A) => (
-                      o(),
-                      n("div", { key: A.name, class: "class-abilitie-card" }, [
+                      s(),
+                      r("div", { key: A.name, class: "class-abilitie-card" }, [
                         A.itemType === "weapon"
-                          ? (o(),
-                            n("div", ml, [
-                              C(Ro, { weapon: A, onHandleAdd: i }, null, 8, [
+                          ? (s(),
+                            r("div", kl, [
+                              C(To, { weapon: A, onHandleAdd: i }, null, 8, [
                                 "weapon",
                               ]),
                             ]))
                           : q("", !0),
                         A.itemType === "protection"
-                          ? (o(),
-                            n("div", pl, [
+                          ? (s(),
+                            r("div", $l, [
                               C(
                                 Vo,
                                 { protection: A, onHandleAdd: i },
@@ -4484,18 +4651,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             ]))
                           : q("", !0),
                         A.itemType === "misc" || A.itemType === "ammunition"
-                          ? (o(),
-                            n("div", vl, [
-                              C(To, { misc: A, onHandleAdd: i }, null, 8, [
+                          ? (s(),
+                            r("div", El, [
+                              C(Oo, { misc: A, onHandleAdd: i }, null, 8, [
                                 "misc",
                               ]),
                             ]))
                           : q("", !0),
                         A.itemType === "cursedItem"
-                          ? (o(),
-                            n("div", hl, [
+                          ? (s(),
+                            r("div", Sl, [
                               C(
-                                Oo,
+                                wo,
                                 { "cursed-item": A, onHandleAdd: i },
                                 null,
                                 8,
@@ -4514,57 +4681,57 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  fl = V(gl, [["__scopeId", "data-v-66867a8f"]]),
-  Yo = (a) => (w("data-v-8e793024"), (a = a()), z(), a),
-  bl = { class: "modal-content modal-width" },
-  Al = { class: "modal-header" },
-  Cl = Yo(() => e("h2", null, "Add Items", -1)),
-  ql = Yo(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  Pl = V(Il, [["__scopeId", "data-v-66867a8f"]]),
+  Zo = (a) => (H("data-v-8e793024"), (a = a()), j(), a),
+  Ml = { class: "modal-content modal-width" },
+  _l = { class: "modal-header" },
+  Dl = Zo(() => e("h2", null, "Add Items", -1)),
+  Rl = Zo(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  yl = [ql],
-  kl = { class: "modal-body modal-height" },
-  $l = R({
+  Tl = [Rl],
+  Vl = { class: "modal-body modal-height" },
+  Ol = T({
     __name: "InventoryModal",
     props: { character: {} },
     emits: ["handleAddItem", "handleCloseModal"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [fl, $s],
-        u = [
+      const h = b,
+        v = [Pl, Ss],
+        c = [
           { label: "Items", value: 0 },
           { label: "My Items", value: 1 },
         ],
         p = $(0),
-        l = (i) => (p.value = i),
-        m = (i) => v("handleAddItem", i);
-      return (i, d) => (
-        o(),
-        n("div", bl, [
-          e("div", Al, [
-            Cl,
+        u = (i) => (p.value = i),
+        m = (i) => h("handleAddItem", i);
+      return (i, n) => (
+        s(),
+        r("div", Ml, [
+          e("div", _l, [
+            Dl,
             e(
               "button",
-              { onClick: d[0] || (d[0] = (t) => i.$emit("handleCloseModal")) },
-              yl
+              { onClick: n[0] || (n[0] = (o) => i.$emit("handleCloseModal")) },
+              Tl
             ),
           ]),
-          e("div", kl, [
+          e("div", Vl, [
             C(
-              ga,
-              { value: p.value, options: u, onHandleNavigation: l },
+              fa,
+              { value: p.value, options: c, onHandleNavigation: u },
               null,
               8,
               ["value"]
             ),
-            (o(),
-            N(
-              Ne,
+            (s(),
+            x(
+              Be,
               null,
               [
-                (o(),
-                N(
-                  Pe(h[p.value]),
+                (s(),
+                x(
+                  _e(v[p.value]),
                   { character: i.character, onHandleAddItem: m },
                   null,
                   40,
@@ -4578,8 +4745,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  El = V($l, [["__scopeId", "data-v-8e793024"]]),
-  Se = [
+  wl = V(Ol, [["__scopeId", "data-v-8e793024"]]),
+  Ie = [
     {
       name: "Alterar Destino",
       circle: "4",
@@ -5584,17 +5751,17 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         '<p>Você zera completamente a entropia do alvo em relação ao ambiente, deixando-o paralisado. Se passar na resistência, em vez disso fica lento. No início de cada um de seus turnos, o alvo pode gastar uma ação completa para fazer um novo teste de Vontade. Se passar, encerra o efeito.</p><p><strong>Advanced (+4 EP):</strong> muda o alvo para "1 ser". Requires 4th circle.</p><p><strong>True (+11 EP):</strong> muda o alvo para "seres escolhidos". Requires 4th circle.</p>',
     },
   ],
-  Il = { class: "rituals-modal-content" },
-  Sl = { class: "class-rituals-container" },
-  _l = { class: "secondary-tab-container" },
-  Pl = { class: "search-container" },
-  Ml = { key: 0, class: "class-rituals-content" },
-  Dl = R({
+  zl = { class: "rituals-modal-content" },
+  Hl = { class: "class-rituals-container" },
+  jl = { class: "secondary-tab-container" },
+  Ul = { class: "search-container" },
+  Nl = { key: 0, class: "class-rituals-content" },
+  xl = T({
     __name: "RitualsModalContent",
     emits: ["handleAddRitual", "handleCloseModal"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [
+      const h = b,
+        v = [
           { label: "All", value: 0 },
           { label: "Knowledge", value: 1 },
           { label: "Energy", value: 2 },
@@ -5603,7 +5770,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           { label: "Fear", value: 5 },
           { label: "Varies", value: 6 },
         ],
-        u = [
+        c = [
           { label: "All", circle: "-", value: 0 },
           { label: "1st Circle", circle: "1", value: 1 },
           { label: "2nd Circle", circle: "2", value: 2 },
@@ -5611,86 +5778,86 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           { label: "4th Circle", circle: "4", value: 4 },
         ],
         p = $(0),
-        l = $(0),
+        u = $(0),
         m = $(""),
-        i = (t) => v("handleAddRitual", t),
-        d = X(() =>
+        i = (o) => h("handleAddRitual", o),
+        n = X(() =>
           p.value === 0
-            ? l.value === 0
-              ? Se.filter((t) => K(t.name, m.value)).sort((t, c) =>
-                  t.name.localeCompare(c.name)
+            ? u.value === 0
+              ? Ie.filter((o) => J(o.name, m.value)).sort((o, l) =>
+                  o.name.localeCompare(l.name)
                 )
-              : Se.filter((t) => t.circle === u[l.value].circle)
-                  .filter((t) => K(t.name, m.value))
-                  .sort((t, c) => t.name.localeCompare(c.name))
-            : l.value === 0
+              : Ie.filter((o) => o.circle === c[u.value].circle)
+                  .filter((o) => J(o.name, m.value))
+                  .sort((o, l) => o.name.localeCompare(l.name))
+            : u.value === 0
             ? p.value === 0
-              ? Se.filter((t) => K(t.name, m.value)).sort((t, c) =>
-                  t.name.localeCompare(c.name)
+              ? Ie.filter((o) => J(o.name, m.value)).sort((o, l) =>
+                  o.name.localeCompare(l.name)
                 )
-              : Se.filter((t) => t.element === h[p.value].label)
-                  .filter((t) => K(t.name, m.value))
-                  .sort((t, c) => t.name.localeCompare(c.name))
-            : Se.filter((t) => t.element === h[p.value].label)
-                .filter((t) => K(t.name, m.value))
-                .filter((t) => t.circle === u[l.value].circle)
-                .filter((t) => K(t.name, m.value))
+              : Ie.filter((o) => o.element === v[p.value].label)
+                  .filter((o) => J(o.name, m.value))
+                  .sort((o, l) => o.name.localeCompare(l.name))
+            : Ie.filter((o) => o.element === v[p.value].label)
+                .filter((o) => J(o.name, m.value))
+                .filter((o) => o.circle === c[u.value].circle)
+                .filter((o) => J(o.name, m.value))
         );
-      return (t, c) => (
-        o(),
-        n("div", Il, [
-          e("div", Sl, [
+      return (o, l) => (
+        s(),
+        r("div", zl, [
+          e("div", Hl, [
             C(
               pe,
               {
                 "current-tab": p.value,
-                "tab-options": h,
-                onHandleNavigation: c[0] || (c[0] = (A) => (p.value = A)),
+                "tab-options": v,
+                onHandleNavigation: l[0] || (l[0] = (A) => (p.value = A)),
               },
               null,
               8,
               ["current-tab"]
             ),
-            e("div", _l, [
+            e("div", jl, [
               C(
                 pe,
                 {
-                  "current-tab": l.value,
-                  "tab-options": u,
+                  "current-tab": u.value,
+                  "tab-options": c,
                   secondary: "",
-                  onHandleNavigation: c[1] || (c[1] = (A) => (l.value = A)),
+                  onHandleNavigation: l[1] || (l[1] = (A) => (u.value = A)),
                 },
                 null,
                 8,
                 ["current-tab"]
               ),
             ]),
-            e("div", Pl, [
+            e("div", Ul, [
               C(
                 $e,
                 {
                   value: m.value,
                   dark: "",
-                  onUpdate: c[2] || (c[2] = (A) => (m.value = A)),
+                  onUpdate: l[2] || (l[2] = (A) => (m.value = A)),
                 },
                 null,
                 8,
                 ["value"]
               ),
             ]),
-            d.value.length > 0
-              ? (o(),
-                n("div", Ml, [
-                  (o(!0),
-                  n(
-                    j,
+            n.value.length > 0
+              ? (s(),
+                r("div", Nl, [
+                  (s(!0),
+                  r(
+                    U,
                     null,
-                    L(
-                      d.value,
+                    B(
+                      n.value,
                       (A) => (
-                        o(),
-                        n("div", { key: A.name, class: "class-rituals-card" }, [
-                          C(Do, { ritual: A, onHandleAdd: i }, null, 8, [
+                        s(),
+                        r("div", { key: A.name, class: "class-rituals-card" }, [
+                          C(Ro, { ritual: A, onHandleAdd: i }, null, 8, [
                             "ritual",
                           ]),
                         ])
@@ -5705,57 +5872,57 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Rl = V(Dl, [["__scopeId", "data-v-46739282"]]),
-  Zo = (a) => (w("data-v-13a40b03"), (a = a()), z(), a),
-  Vl = { class: "modal-content modal-width" },
-  Tl = { class: "modal-header" },
-  Ol = Zo(() => e("h2", null, "Add Rituals", -1)),
-  wl = Zo(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  Bl = V(xl, [["__scopeId", "data-v-46739282"]]),
+  et = (a) => (H("data-v-13a40b03"), (a = a()), j(), a),
+  Ll = { class: "modal-content modal-width" },
+  Fl = { class: "modal-header" },
+  Ql = et(() => e("h2", null, "Add Rituals", -1)),
+  Gl = et(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  zl = [wl],
-  Hl = { class: "modal-body modal-height" },
-  jl = R({
+  Xl = [Gl],
+  Wl = { class: "modal-body modal-height" },
+  Kl = T({
     __name: "RitualsModal",
     props: { character: {} },
     emits: ["handleAddRitual", "handleCloseModal"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [Rl, Es],
-        u = [
+      const h = b,
+        v = [Bl, Is],
+        c = [
           { label: "Rituals", value: 0 },
           { label: "My Rituals", value: 1 },
         ],
         p = $(0),
-        l = (i) => (p.value = i),
-        m = (i) => v("handleAddRitual", i);
-      return (i, d) => (
-        o(),
-        n("div", Vl, [
-          e("div", Tl, [
-            Ol,
+        u = (i) => (p.value = i),
+        m = (i) => h("handleAddRitual", i);
+      return (i, n) => (
+        s(),
+        r("div", Ll, [
+          e("div", Fl, [
+            Ql,
             e(
               "button",
-              { onClick: d[0] || (d[0] = (t) => i.$emit("handleCloseModal")) },
-              zl
+              { onClick: n[0] || (n[0] = (o) => i.$emit("handleCloseModal")) },
+              Xl
             ),
           ]),
-          e("div", Hl, [
+          e("div", Wl, [
             C(
-              ga,
-              { value: p.value, options: u, onHandleNavigation: l },
+              fa,
+              { value: p.value, options: c, onHandleNavigation: u },
               null,
               8,
               ["value"]
             ),
-            (o(),
-            N(
-              Ne,
+            (s(),
+            x(
+              Be,
               null,
               [
-                (o(),
-                N(
-                  Pe(h[p.value]),
+                (s(),
+                x(
+                  _e(v[p.value]),
                   { character: i.character, onHandleAddRitual: m },
                   null,
                   40,
@@ -5769,80 +5936,80 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Ul = V(jl, [["__scopeId", "data-v-13a40b03"]]),
-  xl = (a) => (w("data-v-25deaea6"), (a = a()), z(), a),
-  Nl = { class: "modal-content modal-width" },
-  Ll = { class: "modal-header" },
-  Bl = xl(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  Jl = V(Kl, [["__scopeId", "data-v-13a40b03"]]),
+  Yl = (a) => (H("data-v-25deaea6"), (a = a()), j(), a),
+  Zl = { class: "modal-content modal-width" },
+  eu = { class: "modal-header" },
+  au = Yl(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  Fl = [Bl],
-  Ql = { class: "modal-body" },
-  Gl = ["innerHTML"],
-  Xl = R({
+  ou = [au],
+  tu = { class: "modal-body" },
+  su = ["innerHTML"],
+  nu = T({
     __name: "SkillModal",
     props: { skill: {} },
     emits: ["handleCloseModal"],
     setup(a) {
-      return (b, v) => (
-        o(),
-        n("div", Nl, [
-          e("div", Ll, [
-            e("h2", null, H(b.skill.name), 1),
+      return (b, h) => (
+        s(),
+        r("div", Zl, [
+          e("div", eu, [
+            e("h2", null, w(b.skill.name), 1),
             e(
               "button",
-              { onClick: v[0] || (v[0] = (h) => b.$emit("handleCloseModal")) },
-              Fl
+              { onClick: h[0] || (h[0] = (v) => b.$emit("handleCloseModal")) },
+              ou
             ),
           ]),
-          e("div", Ql, [
+          e("div", tu, [
             e(
               "div",
               { class: "description", innerHTML: b.skill.description },
               null,
               8,
-              Gl
+              su
             ),
           ]),
         ])
       );
     },
   }),
-  Wl = V(Xl, [["__scopeId", "data-v-25deaea6"]]),
-  ee = (a) => (w("data-v-ad846a05"), (a = a()), z(), a),
-  Kl = { class: "form-container" },
-  Jl = { class: "input-container" },
-  Yl = ee(() => e("div", { class: "label" }, " Name* ", -1)),
-  Zl = { class: "input-row" },
-  eu = { class: "input-container" },
-  au = ee(() => e("div", { class: "label" }, " Damage* ", -1)),
-  ou = { class: "input-container" },
-  tu = ee(() => e("div", { class: "label" }, " Critical* ", -1)),
-  su = { class: "input-container" },
-  nu = ee(() => e("div", { class: "label" }, " Multiplier* ", -1)),
-  ru = { class: "input-row" },
-  du = { class: "input-container" },
-  iu = ee(() => e("div", { class: "label" }, " Attack Bonus ", -1)),
-  lu = { class: "input-container" },
-  uu = ee(() => e("div", { class: "label" }, " Damage Type ", -1)),
-  cu = { class: "input-row" },
-  mu = { class: "input-container" },
-  pu = ee(() => e("div", { class: "label" }, " Range ", -1)),
-  vu = { class: "input-container" },
-  hu = ee(() => e("div", { class: "label" }, " Skill ", -1)),
-  gu = { class: "input-container" },
-  fu = ee(() => e("div", { class: "label" }, " Damage Attribute ", -1)),
-  bu = { class: "title-container" },
-  Au = ee(() => e("div", { class: "title" }, " Extra ", -1)),
-  Cu = { class: "input-row" },
-  qu = { class: "input-container" },
-  yu = ee(() => e("div", { class: "label" }, " Damage* ", -1)),
-  ku = ["onUpdate:modelValue"],
-  $u = { class: "input-container" },
-  Eu = ee(() => e("div", { class: "label" }, " Type* ", -1)),
-  Iu = { class: "button-remove-container" },
-  Su = ["onClick"],
-  _u = ee(() =>
+  ru = V(nu, [["__scopeId", "data-v-25deaea6"]]),
+  ae = (a) => (H("data-v-ad846a05"), (a = a()), j(), a),
+  du = { class: "form-container" },
+  iu = { class: "input-container" },
+  lu = ae(() => e("div", { class: "label" }, " Name* ", -1)),
+  uu = { class: "input-row" },
+  cu = { class: "input-container" },
+  mu = ae(() => e("div", { class: "label" }, " Damage* ", -1)),
+  pu = { class: "input-container" },
+  vu = ae(() => e("div", { class: "label" }, " Critical* ", -1)),
+  hu = { class: "input-container" },
+  gu = ae(() => e("div", { class: "label" }, " Multiplier* ", -1)),
+  fu = { class: "input-row" },
+  bu = { class: "input-container" },
+  Au = ae(() => e("div", { class: "label" }, " Attack Bonus ", -1)),
+  Cu = { class: "input-container" },
+  qu = ae(() => e("div", { class: "label" }, " Damage Type ", -1)),
+  yu = { class: "input-row" },
+  ku = { class: "input-container" },
+  $u = ae(() => e("div", { class: "label" }, " Range ", -1)),
+  Eu = { class: "input-container" },
+  Su = ae(() => e("div", { class: "label" }, " Skill ", -1)),
+  Iu = { class: "input-container" },
+  Pu = ae(() => e("div", { class: "label" }, " Damage Attribute ", -1)),
+  Mu = { class: "title-container" },
+  _u = ae(() => e("div", { class: "title" }, " Extra ", -1)),
+  Du = { class: "input-row" },
+  Ru = { class: "input-container" },
+  Tu = ae(() => e("div", { class: "label" }, " Damage* ", -1)),
+  Vu = ["onUpdate:modelValue"],
+  Ou = { class: "input-container" },
+  wu = ae(() => e("div", { class: "label" }, " Type* ", -1)),
+  zu = { class: "button-remove-container" },
+  Hu = ["onClick"],
+  ju = ae(() =>
     e(
       "div",
       { class: "label" },
@@ -5853,7 +6020,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  Pu = ee(() =>
+  Uu = ae(() =>
     e(
       "span",
       { class: "ql-formats" },
@@ -5865,16 +6032,16 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  Mu = { class: "buttons-container" },
-  Du = ["disabled"],
-  Ru = R({
+  Nu = { class: "buttons-container" },
+  xu = ["disabled"],
+  Bu = T({
     __name: "AttackForm",
-    props: { attack: { type: Object, default: _e }, addMode: Boolean },
+    props: { attack: { type: Object, default: Me }, addMode: Boolean },
     emits: ["handleClose", "handleEditAttack"],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = [
+      const h = a,
+        v = b,
+        c = [
           "Ballistic",
           "Blood",
           "Bludgeoning",
@@ -5890,7 +6057,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           "Slashing",
         ],
         p = ["-", "Short", "Medium", "Long", "Extreme", "Unlimited"],
-        l = [
+        u = [
           "Fighting",
           "Marksmanship",
           "Occultism",
@@ -5899,47 +6066,47 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           "Technology",
         ],
         m = ["None", "Agility", "Strength", "Intellect", "Presence", "Vigor"],
-        i = $(He.clone(v.attack)),
-        d = X(
+        i = $(je.clone(h.attack)),
+        n = X(
           () =>
             i.value.name === "" ||
             i.value.damage === "" ||
             i.value.criticalRange.toString() === "" ||
             i.value.criticalMult.toString() === ""
         ),
-        t = () => {
-          yo.isArray(i.value.aditionalDamage) || (i.value.aditionalDamage = []),
+        o = () => {
+          ko.isArray(i.value.aditionalDamage) || (i.value.aditionalDamage = []),
             i.value.aditionalDamage.push({
-              id: je(),
+              id: Ue(),
               value: "1d6",
               damageType: "Ballistic",
             });
         },
-        c = (M) => {
-          if (!yo.isArray(i.value.aditionalDamage)) return;
-          const f = i.value.aditionalDamage.findIndex((y) => y.id === M);
+        l = (_) => {
+          if (!ko.isArray(i.value.aditionalDamage)) return;
+          const f = i.value.aditionalDamage.findIndex((y) => y.id === _);
           i.value.aditionalDamage.splice(f, 1);
         },
         A = () => {
-          (i.value = He.clone(_e)), h("handleClose");
+          (i.value = je.clone(Me)), v("handleClose");
         },
-        P = () => {
-          if (d.value) return;
-          Ds(i.value);
-          const M = { attack: i.value };
-          h("handleEditAttack", M), (i.value = He.clone(_e));
+        M = () => {
+          if (n.value) return;
+          Ts(i.value);
+          const _ = { attack: i.value };
+          v("handleEditAttack", _), (i.value = je.clone(Me));
         };
-      return (M, f) => {
-        const y = ca("p-editor");
+      return (_, f) => {
+        const y = ma("p-editor");
         return (
-          o(),
-          n(
-            j,
+          s(),
+          r(
+            U,
             null,
             [
-              e("div", Kl, [
-                e("div", Jl, [
-                  Yl,
+              e("div", du, [
+                e("div", iu, [
+                  lu,
                   be(
                     e(
                       "input",
@@ -5955,9 +6122,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     [[Ae, i.value.name]]
                   ),
                 ]),
-                e("div", Zl, [
-                  e("div", eu, [
-                    au,
+                e("div", uu, [
+                  e("div", cu, [
+                    mu,
                     be(
                       e(
                         "input",
@@ -5973,8 +6140,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       [[Ae, i.value.damage]]
                     ),
                   ]),
-                  e("div", ou, [
-                    tu,
+                  e("div", pu, [
+                    vu,
                     be(
                       e(
                         "input",
@@ -5990,8 +6157,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       [[Ae, i.value.criticalRange]]
                     ),
                   ]),
-                  e("div", su, [
-                    nu,
+                  e("div", hu, [
+                    gu,
                     be(
                       e(
                         "input",
@@ -6008,9 +6175,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ),
                   ]),
                 ]),
-                e("div", ru, [
-                  e("div", du, [
-                    iu,
+                e("div", fu, [
+                  e("div", bu, [
+                    Au,
                     be(
                       e(
                         "input",
@@ -6026,13 +6193,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       [[Ae, i.value.attackBonus]]
                     ),
                   ]),
-                  e("div", lu, [
-                    uu,
+                  e("div", Cu, [
+                    qu,
                     C(
                       ye,
                       {
                         value: i.value.damageType,
-                        options: u,
+                        options: c,
                         width: "7.5rem",
                         "content-width": "7.5rem",
                         "form-input": "",
@@ -6045,9 +6212,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ),
                   ]),
                 ]),
-                e("div", cu, [
-                  e("div", mu, [
-                    pu,
+                e("div", yu, [
+                  e("div", ku, [
+                    $u,
                     C(
                       ye,
                       {
@@ -6064,13 +6231,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       ["value"]
                     ),
                   ]),
-                  e("div", vu, [
-                    hu,
+                  e("div", Eu, [
+                    Su,
                     C(
                       ye,
                       {
                         value: i.value.skillUsed,
-                        options: l,
+                        options: u,
                         width: "6.5rem",
                         "content-width": "6.5rem",
                         "form-input": "",
@@ -6082,8 +6249,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       ["value"]
                     ),
                   ]),
-                  e("div", gu, [
-                    fu,
+                  e("div", Iu, [
+                    Pu,
                     C(
                       ye,
                       {
@@ -6101,71 +6268,71 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ),
                   ]),
                 ]),
-                e("div", bu, [
-                  Au,
+                e("div", Mu, [
+                  _u,
                   e(
                     "button",
                     {
                       class: "button-secondary",
-                      onClick: f[9] || (f[9] = (D) => t()),
+                      onClick: f[9] || (f[9] = (D) => o()),
                     },
                     " Add "
                   ),
                 ]),
-                (o(!0),
-                n(
-                  j,
+                (s(!0),
+                r(
+                  U,
                   null,
-                  L(
+                  B(
                     i.value.aditionalDamage,
                     (D) => (
-                      o(),
-                      n("div", { key: D.id }, [
-                        e("div", Cu, [
-                          e("div", qu, [
-                            yu,
+                      s(),
+                      r("div", { key: D.id }, [
+                        e("div", Du, [
+                          e("div", Ru, [
+                            Tu,
                             be(
                               e(
                                 "input",
                                 {
-                                  "onUpdate:modelValue": (B) => (D.value = B),
+                                  "onUpdate:modelValue": (F) => (D.value = F),
                                   type: "text",
                                   class: "input-primary dark",
                                 },
                                 null,
                                 8,
-                                ku
+                                Vu
                               ),
                               [[Ae, D.value]]
                             ),
                           ]),
-                          e("div", $u, [
-                            Eu,
+                          e("div", Ou, [
+                            wu,
                             C(
                               ye,
                               {
                                 value: D.damageType,
-                                options: u,
+                                options: c,
                                 width: "7.5rem",
                                 "content-width": "7.5rem",
                                 "form-input": "",
-                                onUpdateValue: (B) => (D.damageType = B),
+                                onUpdateValue: (F) => (D.damageType = F),
                               },
                               null,
                               8,
                               ["value", "onUpdateValue"]
                             ),
                           ]),
-                          e("div", Iu, [
+                          e("div", zu, [
                             e(
                               "button",
                               {
                                 class: "button-secondary",
-                                onClick: (B) => c(D.id),
+                                onClick: (F) => l(D.id),
                               },
                               " Remove ",
                               8,
-                              Su
+                              Hu
                             ),
                           ]),
                         ]),
@@ -6174,7 +6341,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                   128
                 )),
-                _u,
+                ju,
                 C(
                   y,
                   {
@@ -6183,12 +6350,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       f[10] || (f[10] = (D) => (i.value.description = D)),
                     "editor-style": "height: 12rem",
                   },
-                  { toolbar: ke(() => [Pu]), _: 1 },
+                  { toolbar: ke(() => [Uu]), _: 1 },
                   8,
                   ["modelValue"]
                 ),
               ]),
-              e("div", Mu, [
+              e("div", Nu, [
                 e(
                   "button",
                   { class: "button-cancel", onClick: A },
@@ -6198,12 +6365,12 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   "button",
                   {
                     class: "button-primary big",
-                    disabled: d.value,
-                    onClick: P,
+                    disabled: n.value,
+                    onClick: M,
                   },
-                  H(v.addMode ? "Add" : "Edit"),
+                  w(h.addMode ? "Add" : "Edit"),
                   9,
-                  Du
+                  xu
                 ),
               ]),
             ],
@@ -6213,32 +6380,32 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       };
     },
   }),
-  et = V(Ru, [["__scopeId", "data-v-ad846a05"]]),
-  at = (a) => (w("data-v-6ad99d7a"), (a = a()), z(), a),
-  Vu = { class: "modal-content modal-width" },
-  Tu = { class: "modal-header" },
-  Ou = at(() => e("h2", null, "Editar", -1)),
-  wu = at(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  at = V(Bu, [["__scopeId", "data-v-ad846a05"]]),
+  ot = (a) => (H("data-v-6ad99d7a"), (a = a()), j(), a),
+  Lu = { class: "modal-content modal-width" },
+  Fu = { class: "modal-header" },
+  Qu = ot(() => e("h2", null, "Editar", -1)),
+  Gu = ot(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  zu = [wu],
-  Hu = { class: "modal-body modal-height" },
-  ju = { key: 0 },
-  Uu = { key: 1 },
-  xu = { key: 2 },
-  Nu = { key: 3 },
-  Lu = { key: 0 },
-  Bu = { key: 1 },
-  Fu = { key: 2 },
-  Qu = { key: 3 },
-  Gu = R({
+  Xu = [Gu],
+  Wu = { class: "modal-body modal-height" },
+  Ku = { key: 0 },
+  Ju = { key: 1 },
+  Yu = { key: 2 },
+  Zu = { key: 3 },
+  ec = { key: 0 },
+  ac = { key: 1 },
+  oc = { key: 2 },
+  tc = { key: 3 },
+  sc = T({
     __name: "EditModal",
     props: {
       currentEditOption: { type: Number, required: !0 },
       editPower: { type: Object, default: xo },
-      editRitual: { type: Object, default: No },
+      editRitual: { type: Object, default: Bo },
       editItem: { type: Object, required: !0 },
-      editAttack: { type: Object, default: _e },
+      editAttack: { type: Object, default: Me },
     },
     emits: [
       "handleCloseModal",
@@ -6248,36 +6415,36 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleEditAttackSheet",
     ],
     setup(a, { emit: b }) {
-      const v = b,
-        h = { power: 0, ritual: 1, item: 2, attack: 3 },
-        u = (i) => v("handleEditPowerSheet", i.power),
-        p = (i) => v("handleEditRitualSheet", i.ritual),
-        l = (i) => v("handleEditItemSheet", i.item),
-        m = (i) => v("handleEditAttackSheet", i.attack);
-      return (i, d) => (
-        o(),
-        n("div", Vu, [
-          e("div", Tu, [
-            Ou,
+      const h = b,
+        v = { power: 0, ritual: 1, item: 2, attack: 3 },
+        c = (i) => h("handleEditPowerSheet", i.power),
+        p = (i) => h("handleEditRitualSheet", i.ritual),
+        u = (i) => h("handleEditItemSheet", i.item),
+        m = (i) => h("handleEditAttackSheet", i.attack);
+      return (i, n) => (
+        s(),
+        r("div", Lu, [
+          e("div", Fu, [
+            Qu,
             e(
               "button",
-              { onClick: d[0] || (d[0] = (t) => i.$emit("handleCloseModal")) },
-              zu
+              { onClick: n[0] || (n[0] = (o) => i.$emit("handleCloseModal")) },
+              Xu
             ),
           ]),
-          e("div", Hu, [
-            a.currentEditOption === h.power
-              ? (o(),
-                n("div", ju, [
+          e("div", Wu, [
+            a.currentEditOption === v.power
+              ? (s(),
+                r("div", Ku, [
                   C(
-                    wo,
+                    zo,
                     {
                       power: a.editPower,
                       edit: "",
                       sheet: "",
-                      onHandleEditPower: u,
+                      onHandleEditPower: c,
                       onHandleClose:
-                        d[1] || (d[1] = (t) => i.$emit("handleCloseModal")),
+                        n[1] || (n[1] = (o) => i.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -6285,18 +6452,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentEditOption === h.ritual
-              ? (o(),
-                n("div", Uu, [
+            a.currentEditOption === v.ritual
+              ? (s(),
+                r("div", Ju, [
                   C(
-                    zo,
+                    Ho,
                     {
                       ritual: a.editRitual,
                       edit: "",
                       sheet: "",
                       onHandleEditRitual: p,
                       onHandleClose:
-                        d[2] || (d[2] = (t) => i.$emit("handleCloseModal")),
+                        n[2] || (n[2] = (o) => i.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -6304,16 +6471,16 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentEditOption === h.attack
-              ? (o(),
-                n("div", xu, [
+            a.currentEditOption === v.attack
+              ? (s(),
+                r("div", Yu, [
                   C(
-                    et,
+                    at,
                     {
                       attack: a.editAttack,
                       onHandleEditAttack: m,
                       onHandleClose:
-                        d[3] || (d[3] = (t) => i.$emit("handleCloseModal")),
+                        n[3] || (n[3] = (o) => i.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -6321,22 +6488,22 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentEditOption === h.item
-              ? (o(),
-                n("div", Nu, [
+            a.currentEditOption === v.item
+              ? (s(),
+                r("div", Zu, [
                   a.editItem.itemType === "weapon"
-                    ? (o(),
-                      n("div", Lu, [
+                    ? (s(),
+                      r("div", ec, [
                         C(
-                          Ho,
+                          jo,
                           {
                             weapon: a.editItem,
                             edit: "",
                             sheet: "",
-                            onHandleEditWeapon: l,
+                            onHandleEditWeapon: u,
                             onHandleClose:
-                              d[4] ||
-                              (d[4] = (t) => i.$emit("handleCloseModal")),
+                              n[4] ||
+                              (n[4] = (o) => i.$emit("handleCloseModal")),
                           },
                           null,
                           8,
@@ -6345,18 +6512,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       ]))
                     : q("", !0),
                   a.editItem.itemType === "protection"
-                    ? (o(),
-                      n("div", Bu, [
+                    ? (s(),
+                      r("div", ac, [
                         C(
-                          jo,
+                          Uo,
                           {
                             protection: a.editItem,
                             edit: "",
                             sheet: "",
-                            onHandleEditProtection: l,
+                            onHandleEditProtection: u,
                             onHandleClose:
-                              d[5] ||
-                              (d[5] = (t) => i.$emit("handleCloseModal")),
+                              n[5] ||
+                              (n[5] = (o) => i.$emit("handleCloseModal")),
                           },
                           null,
                           8,
@@ -6366,18 +6533,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     : q("", !0),
                   a.editItem.itemType === "misc" ||
                   a.editItem.itemType === "ammunition"
-                    ? (o(),
-                      n("div", Fu, [
+                    ? (s(),
+                      r("div", oc, [
                         C(
-                          la,
+                          ua,
                           {
                             misc: a.editItem,
                             edit: "",
                             sheet: "",
-                            onHandleEditMisc: l,
+                            onHandleEditMisc: u,
                             onHandleClose:
-                              d[6] ||
-                              (d[6] = (t) => i.$emit("handleCloseModal")),
+                              n[6] ||
+                              (n[6] = (o) => i.$emit("handleCloseModal")),
                           },
                           null,
                           8,
@@ -6386,18 +6553,18 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                       ]))
                     : q("", !0),
                   a.editItem.itemType === "cursedItem"
-                    ? (o(),
-                      n("div", Qu, [
+                    ? (s(),
+                      r("div", tc, [
                         C(
-                          Uo,
+                          No,
                           {
                             "cursed-item": a.editItem,
                             edit: "",
                             sheet: "",
-                            onHandleEditCursedItem: l,
+                            onHandleEditCursedItem: u,
                             onHandleClose:
-                              d[7] ||
-                              (d[7] = (t) => i.$emit("handleCloseModal")),
+                              n[7] ||
+                              (n[7] = (o) => i.$emit("handleCloseModal")),
                           },
                           null,
                           8,
@@ -6412,14 +6579,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Xu = V(Gu, [["__scopeId", "data-v-6ad99d7a"]]),
-  Fe = (a) => (w("data-v-6cd98f8c"), (a = a()), z(), a),
-  Wu = { key: 0, class: "row" },
-  Ku = Fe(() =>
+  nc = V(sc, [["__scopeId", "data-v-6ad99d7a"]]),
+  Qe = (a) => (H("data-v-6cd98f8c"), (a = a()), j(), a),
+  rc = { key: 0, class: "row" },
+  dc = Qe(() =>
     e("div", { class: "label" }, " Class for attribute calculation ", -1)
   ),
-  Ju = { class: "row" },
-  Yu = Fe(() =>
+  ic = { class: "row" },
+  lc = Qe(() =>
     e(
       "div",
       { class: "label" },
@@ -6434,8 +6601,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  Zu = { class: "row" },
-  ec = Fe(() =>
+  uc = { class: "row" },
+  cc = Qe(() =>
     e(
       "div",
       { class: "label" },
@@ -6443,8 +6610,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  ac = { class: "row" },
-  oc = Fe(() =>
+  mc = { class: "row" },
+  pc = Qe(() =>
     e(
       "div",
       { class: "label" },
@@ -6459,35 +6626,35 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  tc = R({
+  vc = T({
     __name: "SheetConfig",
     props: { character: { type: Object, required: !0 } },
     emits: ["handleChangeStatsClass", "handleChangeEditPermissions"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = ["DESLIGADO", "LIGADO"],
-        u = ["Combatente", "Especialista", "Ocultista"],
+      const h = b,
+        v = ["OFF", "ON"],
+        c = ["Combatant", "Specialist", "Occultist"],
         p = (m) => {
-          v("handleChangeStatsClass", m);
+          h("handleChangeStatsClass", m);
         },
-        l = (m, i) => {
-          v("handleChangeEditPermissions", m, i);
+        u = (m, i) => {
+          h("handleChangeEditPermissions", m, i);
         };
       return (m, i) => (
-        o(),
-        n(
-          j,
+        s(),
+        r(
+          U,
           null,
           [
             a.character.statsClass !== "Mundane"
-              ? (o(),
-                n("div", Wu, [
-                  Ku,
+              ? (s(),
+                r("div", rc, [
+                  dc,
                   C(
                     ye,
                     {
                       value: a.character.statsClass,
-                      options: u,
+                      options: c,
                       width: "7.5rem",
                       "content-width": "7.5rem",
                       "form-input": "",
@@ -6499,42 +6666,42 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            e("div", Ju, [
-              Yu,
+            e("div", ic, [
+              lc,
               C(
                 ra,
                 {
                   value: a.character.private,
-                  options: h,
-                  onHandleChange: i[0] || (i[0] = (d) => l("private", d)),
+                  options: v,
+                  onHandleChange: i[0] || (i[0] = (n) => u("private", n)),
                 },
                 null,
                 8,
                 ["value"]
               ),
             ]),
-            e("div", Zu, [
-              ec,
+            e("div", uc, [
+              cc,
               C(
                 ra,
                 {
                   value: a.character.canDMEdit,
-                  options: h,
-                  onHandleChange: i[1] || (i[1] = (d) => l("canDMEdit", d)),
+                  options: v,
+                  onHandleChange: i[1] || (i[1] = (n) => u("canDMEdit", n)),
                 },
                 null,
                 8,
                 ["value"]
               ),
             ]),
-            e("div", ac, [
-              oc,
+            e("div", mc, [
+              pc,
               C(
                 ra,
                 {
                   value: a.character.canAnyoneEdit,
-                  options: h,
-                  onHandleChange: i[2] || (i[2] = (d) => l("canAnyoneEdit", d)),
+                  options: v,
+                  onHandleChange: i[2] || (i[2] = (n) => u("canAnyoneEdit", n)),
                 },
                 null,
                 8,
@@ -6547,14 +6714,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  sc = V(tc, [["__scopeId", "data-v-6cd98f8c"]]),
-  nc =
+  hc = V(vc, [["__scopeId", "data-v-6cd98f8c"]]),
+  gc =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAcklEQVR4Ae2VsRGAIBTFmMDOnXQ8Z2MDGCQ22JLjXmNBepJ7NL8ssQFuoDOhDJgwCzSELDBYXH0CNQ+4vMYBkZ9ZQOT2XgIuTwIuFySQyyXg8uCLRJ4GgMPl+YJH5FngWyLuLOD8KNDIadHBETpwlc0KLy8akHGKumHqAAAAAElFTkSuQmCC",
-  te = (a) => (w("data-v-87004152"), (a = a()), z(), a),
-  rc = { class: "row" },
-  dc = ["onMouseup"],
-  ic = te(() => e("img", { src: nc }, null, -1)),
-  lc = te(() =>
+  se = (a) => (H("data-v-87004152"), (a = a()), j(), a),
+  fc = { class: "row" },
+  bc = ["onMouseup"],
+  Ac = se(() => e("img", { src: gc }, null, -1)),
+  Cc = se(() =>
     e(
       "div",
       { class: "link-eg" },
@@ -6562,82 +6729,82 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       -1
     )
   ),
-  uc = { class: "row" },
-  cc = te(() =>
+  qc = { class: "row" },
+  yc = se(() =>
     e("div", { class: "label" }, " Color of dice results ", -1)
   ),
-  mc = ["value"],
-  pc = { class: "row" },
-  vc = te(() =>
+  kc = ["value"],
+  $c = { class: "row" },
+  Ec = se(() =>
     e("div", { class: "label" }, " Border color of dice results ", -1)
   ),
-  hc = ["value"],
-  gc = { class: "row" },
-  fc = te(() =>
+  Sc = ["value"],
+  Ic = { class: "row" },
+  Pc = se(() =>
     e("div", { class: "label" }, " Injured agent picture ", -1)
   ),
-  bc = { key: 0 },
-  Ac = ["src"],
-  Cc = { key: 1 },
-  qc = te(() =>
+  Mc = { key: 0 },
+  _c = ["src"],
+  Dc = { key: 1 },
+  Rc = se(() =>
     e(
       "img",
-      { class: "profile-picture", src: Me, alt: "foto agente em branco" },
+      { class: "profile-picture", src: De, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
-  yc = [qc],
-  kc = { class: "row" },
-  $c = te(() =>
+  Tc = [Rc],
+  Vc = { class: "row" },
+  Oc = se(() =>
     e("div", { class: "label" }, " Dying agent picture ", -1)
   ),
-  Ec = { key: 0 },
-  Ic = ["src"],
-  Sc = { key: 1 },
-  _c = te(() =>
+  wc = { key: 0 },
+  zc = ["src"],
+  Hc = { key: 1 },
+  jc = se(() =>
     e(
       "img",
-      { class: "profile-picture", src: Me, alt: "foto agente em branco" },
+      { class: "profile-picture", src: De, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
-  Pc = [_c],
-  Mc = { class: "row" },
-  Dc = te(() =>
+  Uc = [jc],
+  Nc = { class: "row" },
+  xc = se(() =>
     e("div", { class: "label" }, " Disturbed agent pictured ", -1)
   ),
-  Rc = { key: 0 },
-  Vc = ["src"],
-  Tc = { key: 1 },
-  Oc = te(() =>
+  Bc = { key: 0 },
+  Lc = ["src"],
+  Fc = { key: 1 },
+  Qc = se(() =>
     e(
       "img",
-      { class: "profile-picture", src: Me, alt: "foto agente em branco" },
+      { class: "profile-picture", src: De, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
-  wc = [Oc],
-  zc = { class: "row" },
-  Hc = te(() =>
+  Gc = [Qc],
+  Xc = { class: "row" },
+  Wc = se(() =>
     e("div", { class: "label" }, " Going Crazy agent picture ", -1)
   ),
-  jc = { key: 0 },
-  Uc = ["src"],
-  xc = { key: 1 },
-  Nc = te(() =>
+  Kc = { key: 0 },
+  Jc = ["src"],
+  Yc = { key: 1 },
+  Zc = se(() =>
     e(
       "img",
-      { class: "profile-picture", src: Me, alt: "foto agente em branco" },
+      { class: "profile-picture", src: De, alt: "foto agente em branco" },
       null,
       -1
     )
   ),
-  Lc = [Nc],
-  Bc = { key: 0 },
-  Fc = R({
+  em = [Zc],
+  am = { key: 0 },
+  om = T({
     __name: "StreamConfig",
     props: { character: { type: Object, required: !0 } },
     emits: [
@@ -6646,49 +6813,49 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleChangeCharResultDiceBorderColor",
     ],
     setup(a, { emit: b }) {
-      const v = a,
-        h = b,
-        u = $(!1),
+      const h = a,
+        v = b,
+        c = $(!1),
         p = $(),
-        l = (d) => {
-          (p.value = d), (u.value = !u.value);
+        u = (n) => {
+          (p.value = n), (c.value = !c.value);
         },
-        m = (d, t) => {
-          (u.value = !u.value),
-            h("handleUpdateAlternativePicture", p.value, d, t);
+        m = (n, o) => {
+          (c.value = !c.value),
+            v("handleUpdateAlternativePicture", p.value, n, o);
         },
         i = () => {
           window.open(
-            "https://crisordemparanormal.com/agente/stream/" + v.character.id
+            "https://crisordemparanormal.com/agente/stream/" + h.character.id
           );
         };
-      return (d, t) => {
-        const c = ca("vue-final-modal");
+      return (n, o) => {
+        const l = ma("vue-final-modal");
         return (
-          o(),
-          n(
-            j,
+          s(),
+          r(
+            U,
             null,
             [
-              e("div", rc, [
+              e("div", fc, [
                 e(
                   "div",
                   {
                     class: "link",
                     onClick: i,
-                    onMouseup: fo(i, ["middle"]),
+                    onMouseup: bo(i, ["middle"]),
                     onMousedown:
-                      t[0] ||
-                      (t[0] = fo(() => {}, ["middle", "prevent", "stop"])),
+                      o[0] ||
+                      (o[0] = bo(() => {}, ["middle", "prevent", "stop"])),
                   },
-                  [me(" Access OBS portrait "), ic],
+                  [me(" Access OBS portrait "), Ac],
                   40,
-                  dc
+                  bc
                 ),
-                lc,
+                Cc,
               ]),
-              e("div", uc, [
-                cc,
+              e("div", qc, [
+                yc,
                 e(
                   "input",
                   {
@@ -6696,17 +6863,17 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     class: "input-primary dark",
                     value: a.character.resultDiceColor || "#fff",
                     onBlur:
-                      t[1] ||
-                      (t[1] = (A) =>
-                        d.$emit("handleChangeCharResultDiceColor", A)),
+                      o[1] ||
+                      (o[1] = (A) =>
+                        n.$emit("handleChangeCharResultDiceColor", A)),
                   },
                   null,
                   40,
-                  mc
+                  kc
                 ),
               ]),
-              e("div", pc, [
-                vc,
+              e("div", $c, [
+                Ec,
                 e(
                   "input",
                   {
@@ -6714,27 +6881,27 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     class: "input-primary dark",
                     value: a.character.resultDiceBorderColor || "#A347FF",
                     onBlur:
-                      t[2] ||
-                      (t[2] = (A) =>
-                        d.$emit("handleChangeCharResultDiceBorderColor", A)),
+                      o[2] ||
+                      (o[2] = (A) =>
+                        n.$emit("handleChangeCharResultDiceBorderColor", A)),
                   },
                   null,
                   40,
-                  hc
+                  Sc
                 ),
               ]),
-              e("div", gc, [
-                fc,
+              e("div", Ic, [
+                Pc,
                 e(
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[3] || (t[3] = (A) => l("hurt")),
+                    onClick: o[3] || (o[3] = (A) => u("hurt")),
                   },
                   [
                     a.character.sheetPictureHurtURL
-                      ? (o(),
-                        n("div", bc, [
+                      ? (s(),
+                        r("div", Mc, [
                           e(
                             "img",
                             {
@@ -6744,25 +6911,25 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             },
                             null,
                             8,
-                            Ac
+                            _c
                           ),
                         ]))
-                      : (o(), n("div", Cc, yc)),
+                      : (s(), r("div", Dc, Tc)),
                   ]
                 ),
               ]),
-              e("div", kc, [
-                $c,
+              e("div", Vc, [
+                Oc,
                 e(
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[4] || (t[4] = (A) => l("dying")),
+                    onClick: o[4] || (o[4] = (A) => u("dying")),
                   },
                   [
                     a.character.sheetPictureDyingURL
-                      ? (o(),
-                        n("div", Ec, [
+                      ? (s(),
+                        r("div", wc, [
                           e(
                             "img",
                             {
@@ -6772,25 +6939,25 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             },
                             null,
                             8,
-                            Ic
+                            zc
                           ),
                         ]))
-                      : (o(), n("div", Sc, Pc)),
+                      : (s(), r("div", Hc, Uc)),
                   ]
                 ),
               ]),
-              e("div", Mc, [
-                Dc,
+              e("div", Nc, [
+                xc,
                 e(
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[5] || (t[5] = (A) => l("disturbed")),
+                    onClick: o[5] || (o[5] = (A) => u("disturbed")),
                   },
                   [
                     a.character.sheetPictureDisturbedURL
-                      ? (o(),
-                        n("div", Rc, [
+                      ? (s(),
+                        r("div", Bc, [
                           e(
                             "img",
                             {
@@ -6800,25 +6967,25 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             },
                             null,
                             8,
-                            Vc
+                            Lc
                           ),
                         ]))
-                      : (o(), n("div", Tc, wc)),
+                      : (s(), r("div", Fc, Gc)),
                   ]
                 ),
               ]),
-              e("div", zc, [
-                Hc,
+              e("div", Xc, [
+                Wc,
                 e(
                   "button",
                   {
                     class: "button-naked",
-                    onClick: t[6] || (t[6] = (A) => l("crazy")),
+                    onClick: o[6] || (o[6] = (A) => u("crazy")),
                   },
                   [
                     a.character.sheetPictureCrazyURL
-                      ? (o(),
-                        n("div", jc, [
+                      ? (s(),
+                        r("div", Kc, [
                           e(
                             "img",
                             {
@@ -6828,29 +6995,29 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             },
                             null,
                             8,
-                            Uc
+                            Jc
                           ),
                         ]))
-                      : (o(), n("div", xc, Lc)),
+                      : (s(), r("div", Yc, em)),
                   ]
                 ),
               ]),
-              u.value
-                ? (o(),
-                  n("div", Bc, [
+              c.value
+                ? (s(),
+                  r("div", am, [
                     C(
-                      c,
+                      l,
                       {
-                        modelValue: u.value,
+                        modelValue: c.value,
                         "onUpdate:modelValue":
-                          t[8] || (t[8] = (A) => (u.value = A)),
+                          o[8] || (o[8] = (A) => (c.value = A)),
                         classes: "modal-container",
                       },
                       {
                         default: ke(() => [
                           C(Lo, {
                             onHandleCloseModal:
-                              t[7] || (t[7] = (A) => (u.value = !u.value)),
+                              o[7] || (o[7] = (A) => (c.value = !c.value)),
                             onHandleUpdatePicture: m,
                           }),
                         ]),
@@ -6868,19 +7035,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       };
     },
   }),
-  Qc = V(Fc, [["__scopeId", "data-v-87004152"]]),
-  ot = (a) => (w("data-v-78a9772d"), (a = a()), z(), a),
-  Gc = { class: "modal-content modal-width" },
-  Xc = { class: "modal-header" },
-  Wc = ot(() => e("h2", null, "Config", -1)),
-  Kc = ot(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  tm = V(om, [["__scopeId", "data-v-87004152"]]),
+  tt = (a) => (H("data-v-78a9772d"), (a = a()), j(), a),
+  sm = { class: "modal-content modal-width" },
+  nm = { class: "modal-header" },
+  rm = tt(() => e("h2", null, "Config", -1)),
+  dm = tt(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  Jc = [Kc],
-  Yc = { class: "modal-body modal-height" },
-  Zc = { key: 0, class: "content-container" },
-  em = { key: 1, class: "content-container" },
-  am = R({
+  im = [dm],
+  lm = { class: "modal-body modal-height" },
+  um = { key: 0, class: "content-container" },
+  cm = { key: 1, class: "content-container" },
+  mm = T({
     __name: "ConfigModal",
     props: { character: { type: Object, required: !0 } },
     emits: [
@@ -6892,49 +7059,49 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleChangeEditPermissions",
     ],
     setup(a, { emit: b }) {
-      const v = b,
-        h = [
+      const h = b,
+        v = [
           { label: "Sheet", value: 0 },
           { label: "Stream", value: 1 },
         ],
-        u = $(0),
+        c = $(0),
         p = (i) => {
-          v("handleChangeStatsClass", i);
+          h("handleChangeStatsClass", i);
         },
-        l = (i, d, t) => {
-          v("handleUpdateAlternativePicture", i, d, t);
+        u = (i, n, o) => {
+          h("handleUpdateAlternativePicture", i, n, o);
         },
-        m = (i, d) => {
-          v("handleChangeEditPermissions", i, d);
+        m = (i, n) => {
+          h("handleChangeEditPermissions", i, n);
         };
-      return (i, d) => (
-        o(),
-        n("div", Gc, [
-          e("div", Xc, [
-            Wc,
+      return (i, n) => (
+        s(),
+        r("div", sm, [
+          e("div", nm, [
+            rm,
             e(
               "button",
-              { onClick: d[0] || (d[0] = (t) => i.$emit("handleCloseModal")) },
-              Jc
+              { onClick: n[0] || (n[0] = (o) => i.$emit("handleCloseModal")) },
+              im
             ),
           ]),
-          e("div", Yc, [
+          e("div", lm, [
             C(
               pe,
               {
-                "current-tab": u.value,
-                "tab-options": h,
-                onHandleNavigation: d[1] || (d[1] = (t) => (u.value = t)),
+                "current-tab": c.value,
+                "tab-options": v,
+                onHandleNavigation: n[1] || (n[1] = (o) => (c.value = o)),
               },
               null,
               8,
               ["current-tab"]
             ),
-            u.value === 0
-              ? (o(),
-                n("div", Zc, [
+            c.value === 0
+              ? (s(),
+                r("div", um, [
                   C(
-                    sc,
+                    hc,
                     {
                       character: a.character,
                       onHandleChangeStatsClass: p,
@@ -6946,22 +7113,22 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            u.value === 1
-              ? (o(),
-                n("div", em, [
+            c.value === 1
+              ? (s(),
+                r("div", cm, [
                   C(
-                    Qc,
+                    tm,
                     {
                       character: a.character,
-                      onHandleUpdateAlternativePicture: l,
+                      onHandleUpdateAlternativePicture: u,
                       onHandleChangeCharResultDiceColor:
-                        d[2] ||
-                        (d[2] = (t) =>
-                          i.$emit("handleChangeCharResultDiceColor", t)),
+                        n[2] ||
+                        (n[2] = (o) =>
+                          i.$emit("handleChangeCharResultDiceColor", o)),
                       onHandleChangeCharResultDiceBorderColor:
-                        d[3] ||
-                        (d[3] = (t) =>
-                          i.$emit("handleChangeCharResultDiceBorderColor", t)),
+                        n[3] ||
+                        (n[3] = (o) =>
+                          i.$emit("handleChangeCharResultDiceBorderColor", o)),
                     },
                     null,
                     8,
@@ -6974,62 +7141,62 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  om = V(am, [["__scopeId", "data-v-78a9772d"]]),
-  fa = (a) => (w("data-v-e8d7dd12"), (a = a()), z(), a),
-  tm = { class: "modal-content modal-width" },
-  sm = { class: "modal-header" },
-  nm = fa(() => e("h2", null, "Choose new class", -1)),
-  rm = fa(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  pm = V(mm, [["__scopeId", "data-v-78a9772d"]]),
+  st = (a) => (H("data-v-2b669bfc"), (a = a()), j(), a),
+  vm = { class: "modal-content modal-width" },
+  hm = { class: "modal-header" },
+  gm = st(() => e("h2", null, "Choose new class", -1)),
+  fm = st(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  dm = [rm],
-  im = { class: "modal-body modal-height" },
-  lm = { class: "content-container" },
-  um = fa(() =>
-    e(
-      "div",
-      { class: "add-class-description" },
-      " To increase your EXP, choose a new class ",
-      -1
-    )
-  ),
-  cm = { class: "classes-container" },
-  mm = { class: "classes-flex" },
-  pm = R({
+  bm = [fm],
+  Am = { class: "modal-body modal-height" },
+  Cm = { class: "content-container" },
+  qm = { class: "add-class-description" },
+  ym = { class: "classes-container" },
+  km = { class: "classes-flex" },
+  $m = T({
     __name: "AddClassModal",
     props: { character: { type: Object, required: !0 } },
     emits: ["handleCloseModal", "handleAddClass"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = (u) => v("handleAddClass", u);
-      return (u, p) => (
-        o(),
-        n("div", tm, [
-          e("div", sm, [
-            nm,
+      const h = b,
+        v = (c) => h("handleAddClass", c);
+      return (c, p) => (
+        s(),
+        r("div", vm, [
+          e("div", hm, [
+            gm,
             e(
               "button",
-              { onClick: p[0] || (p[0] = (l) => u.$emit("handleCloseModal")) },
-              dm
+              { onClick: p[0] || (p[0] = (u) => c.$emit("handleCloseModal")) },
+              bm
             ),
           ]),
-          e("div", im, [
-            e("div", lm, [
-              um,
-              e("div", cm, [
-                e("div", mm, [
-                  (o(!0),
-                  n(
-                    j,
+          e("div", Am, [
+            e("div", Cm, [
+              e(
+                "div",
+                qm,
+                " To increase your " +
+                  w(a.character.isSobrevivendoAoHorror ? "level" : "PEX") +
+                  ", choose a new class ",
+                1
+              ),
+              e("div", ym, [
+                e("div", km, [
+                  (s(!0),
+                  r(
+                    U,
                     null,
-                    L(
-                      G(ze),
-                      (l) => (
-                        o(),
-                        n("div", { key: l.name }, [
+                    B(
+                      L(Pe),
+                      (u) => (
+                        s(),
+                        r("div", { key: u.name }, [
                           C(
-                            ys,
-                            { "char-class": l, onHandleAddClass: h },
+                            $s,
+                            { "char-class": u, onHandleAddClass: v },
                             null,
                             8,
                             ["char-class"]
@@ -7047,24 +7214,24 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  vm = V(pm, [["__scopeId", "data-v-e8d7dd12"]]),
-  hm = (a) => (w("data-v-be964fd1"), (a = a()), z(), a),
-  gm = { class: "modal-content modal-width" },
-  fm = { class: "modal-header" },
-  bm = hm(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  Em = V($m, [["__scopeId", "data-v-2b669bfc"]]),
+  Sm = (a) => (H("data-v-be964fd1"), (a = a()), j(), a),
+  Im = { class: "modal-content modal-width" },
+  Pm = { class: "modal-header" },
+  Mm = Sm(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  Am = [bm],
-  Cm = { class: "modal-body modal-height" },
-  qm = { key: 0 },
-  ym = { key: 1 },
-  km = { key: 2 },
-  $m = { key: 3 },
-  Em = { key: 4 },
-  Im = { key: 5 },
-  Sm = { key: 6 },
-  _m = { key: 7 },
-  Pm = R({
+  _m = [Mm],
+  Dm = { class: "modal-body modal-height" },
+  Rm = { key: 0 },
+  Tm = { key: 1 },
+  Vm = { key: 2 },
+  Om = { key: 3 },
+  wm = { key: 4 },
+  zm = { key: 5 },
+  Hm = { key: 6 },
+  jm = { key: 7 },
+  Um = T({
     __name: "AddModal",
     props: { currentAddOption: { type: Number, required: !0 } },
     emits: [
@@ -7075,8 +7242,8 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleAddItem",
     ],
     setup(a, { emit: b }) {
-      const v = b,
-        h = {
+      const h = b,
+        v = {
           attack: 0,
           power: 1,
           ritual: 2,
@@ -7086,7 +7253,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           misc: 6,
           cursedItem: 7,
         },
-        u = [
+        c = [
           "New Attack",
           "New Ability",
           "New Ritual",
@@ -7096,33 +7263,33 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           "New Item",
           "New Cursed Item",
         ],
-        p = (d) => v("handleAddAttack", d.attack),
-        l = (d) => v("handleAddPower", d.power),
-        m = (d) => v("handleAddRitual", d.ritual),
-        i = (d) => v("handleAddItem", d.item);
-      return (d, t) => (
-        o(),
-        n("div", gm, [
-          e("div", fm, [
-            e("h2", null, H(u[a.currentAddOption]), 1),
+        p = (n) => h("handleAddAttack", n.attack),
+        u = (n) => h("handleAddPower", n.power),
+        m = (n) => h("handleAddRitual", n.ritual),
+        i = (n) => h("handleAddItem", n.item);
+      return (n, o) => (
+        s(),
+        r("div", Im, [
+          e("div", Pm, [
+            e("h2", null, w(c[a.currentAddOption]), 1),
             e(
               "button",
-              { onClick: t[0] || (t[0] = (c) => d.$emit("handleCloseModal")) },
-              Am
+              { onClick: o[0] || (o[0] = (l) => n.$emit("handleCloseModal")) },
+              _m
             ),
           ]),
-          e("div", Cm, [
-            a.currentAddOption === h.attack
-              ? (o(),
-                n("div", qm, [
+          e("div", Dm, [
+            a.currentAddOption === v.attack
+              ? (s(),
+                r("div", Rm, [
                   C(
-                    et,
+                    at,
                     {
-                      attack: G(_e),
+                      attack: L(Me),
                       "add-mode": "",
                       onHandleEditAttack: p,
                       onHandleClose:
-                        t[1] || (t[1] = (c) => d.$emit("handleCloseModal")),
+                        o[1] || (o[1] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7130,19 +7297,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === h.power
-              ? (o(),
-                n("div", ym, [
+            a.currentAddOption === v.power
+              ? (s(),
+                r("div", Tm, [
                   C(
-                    wo,
+                    zo,
                     {
-                      power: G(xo),
+                      power: L(xo),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
-                      onHandleEditPower: l,
+                      onHandleEditPower: u,
                       onHandleClose:
-                        t[2] || (t[2] = (c) => d.$emit("handleCloseModal")),
+                        o[2] || (o[2] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7150,19 +7317,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === h.ritual
-              ? (o(),
-                n("div", km, [
+            a.currentAddOption === v.ritual
+              ? (s(),
+                r("div", Vm, [
                   C(
-                    zo,
+                    Ho,
                     {
-                      ritual: G(No),
+                      ritual: L(Bo),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
                       onHandleEditRitual: m,
                       onHandleClose:
-                        t[3] || (t[3] = (c) => d.$emit("handleCloseModal")),
+                        o[3] || (o[3] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7170,19 +7337,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === h.weapon
-              ? (o(),
-                n("div", $m, [
+            a.currentAddOption === v.weapon
+              ? (s(),
+                r("div", Om, [
                   C(
-                    Ho,
+                    jo,
                     {
-                      weapon: G(Is),
+                      weapon: L(Ps),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
                       onHandleEditWeapon: i,
                       onHandleClose:
-                        t[4] || (t[4] = (c) => d.$emit("handleCloseModal")),
+                        o[4] || (o[4] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7190,19 +7357,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === h.ammunition
-              ? (o(),
-                n("div", Em, [
+            a.currentAddOption === v.ammunition
+              ? (s(),
+                r("div", wm, [
                   C(
-                    la,
+                    ua,
                     {
-                      misc: G(Ss),
+                      misc: L(Ms),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
                       onHandleEditMisc: i,
                       onHandleClose:
-                        t[5] || (t[5] = (c) => d.$emit("handleCloseModal")),
+                        o[5] || (o[5] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7210,19 +7377,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === h.protection
-              ? (o(),
-                n("div", Im, [
+            a.currentAddOption === v.protection
+              ? (s(),
+                r("div", zm, [
                   C(
-                    jo,
+                    Uo,
                     {
-                      protection: G(_s),
+                      protection: L(_s),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
                       onHandleEditProtection: i,
                       onHandleClose:
-                        t[6] || (t[6] = (c) => d.$emit("handleCloseModal")),
+                        o[6] || (o[6] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7230,19 +7397,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === h.misc
-              ? (o(),
-                n("div", Sm, [
+            a.currentAddOption === v.misc
+              ? (s(),
+                r("div", Hm, [
                   C(
-                    la,
+                    ua,
                     {
-                      misc: G(Ps),
+                      misc: L(Ds),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
                       onHandleEditMisc: i,
                       onHandleClose:
-                        t[7] || (t[7] = (c) => d.$emit("handleCloseModal")),
+                        o[7] || (o[7] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7250,19 +7417,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                   ),
                 ]))
               : q("", !0),
-            a.currentAddOption === h.cursedItem
-              ? (o(),
-                n("div", _m, [
+            a.currentAddOption === v.cursedItem
+              ? (s(),
+                r("div", jm, [
                   C(
-                    Uo,
+                    No,
                     {
-                      "cursed-item": G(Ms),
+                      "cursed-item": L(Rs),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
                       onHandleEditCursedItem: i,
                       onHandleClose:
-                        t[8] || (t[8] = (c) => d.$emit("handleCloseModal")),
+                        o[8] || (o[8] = (l) => n.$emit("handleCloseModal")),
                     },
                     null,
                     8,
@@ -7275,72 +7442,72 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Mm = V(Pm, [["__scopeId", "data-v-be964fd1"]]),
-  ba = (a) => (w("data-v-15adeee7"), (a = a()), z(), a),
-  Dm = { class: "modal-content modal-width" },
-  Rm = { class: "modal-header" },
-  Vm = ba(() => e("h2", null, "Compartilhar", -1)),
-  Tm = ba(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  Nm = V(Um, [["__scopeId", "data-v-be964fd1"]]),
+  ba = (a) => (H("data-v-15adeee7"), (a = a()), j(), a),
+  xm = { class: "modal-content modal-width" },
+  Bm = { class: "modal-header" },
+  Lm = ba(() => e("h2", null, "Compartilhar", -1)),
+  Fm = ba(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  Om = [Tm],
-  wm = ba(() =>
+  Qm = [Fm],
+  Gm = ba(() =>
     e("div", { class: "label" }, " Link to share agent ", -1)
   ),
-  zm = R({
+  Xm = T({
     __name: "ShareModal",
     props: { character: { type: Object, required: !0 } },
     emits: ["handleCloseModal"],
     setup(a) {
-      const v = "https://crisordemparanormal.com/agente/" + a.character.id;
-      return (h, u) => (
-        o(),
-        n("div", Dm, [
-          e("div", Rm, [
-            Vm,
+      const h = "https://crisordemparanormal.com/agente/" + a.character.id;
+      return (v, c) => (
+        s(),
+        r("div", xm, [
+          e("div", Bm, [
+            Lm,
             e(
               "button",
-              { onClick: u[0] || (u[0] = (p) => h.$emit("handleCloseModal")) },
-              Om
+              { onClick: c[0] || (c[0] = (p) => v.$emit("handleCloseModal")) },
+              Qm
             ),
           ]),
           e("div", { class: "modal-body modal-height" }, [
             e("div", { class: "share-container" }, [
-              wm,
-              e("div", { class: "value" }, H(v)),
+              Gm,
+              e("div", { class: "value" }, w(h)),
             ]),
           ]),
         ])
       );
     },
   }),
-  Hm = V(zm, [["__scopeId", "data-v-15adeee7"]]),
-  jm =
+  Wm = V(Xm, [["__scopeId", "data-v-15adeee7"]]),
+  Km =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAnUlEQVQ4jd3QsQ2CYBRF4X8A2QArE0ZgDyqXYA1bJ6BmABtqtrAzFtIREkuaz8pEBZGEWOjp3ss9ybsvhD9GrNRolOJ58daddoaiRCUWq1CORfAwXbAOIQRrXL4gTJ3khY+lx4QZb30+aQaLBBu5g6Mrzg5ym/diqn5tBWrpWDzTo1PYSqysJLYKHXrZUDhhLxrsIzucRptMsVz4SW5d6iOF5C1O7AAAAABJRU5ErkJggg==",
-  tt =
+  nt =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAABm0lEQVRYw+2VsUqCYRSGj4M26eIgpoGLdQUaQeRsdA/WLDoVdAviNajw34CL5NSqv+HgKi1N1SCCNTno09DXx69WBJ5vCHy3s7yP/3fe8yqy078XEar0eeedPlUi2vYpRgQ1IqX761ftPxF6X0GF71TRA/jGskuaNF0z+XqAN2N5ICLCgZne9ABTpwByTJw9EQmaLMDJkglzzYyftG1MKTK2ZktaDBUPjSydgJlPXoQIZXoKVUGUGnNr/kyJkF4cQ5R4tuZzakQ12rFHmYgIeXuxAB2ymu04pMXSTmOK+u34pRnXhN20IyxoknDXjhNybttx6rp+FQHOn8j5kn+P6c3WMf3DoZ1rfMV6VRwzCCDvOBRtEeKSl0DZ1YnpQ2LUA3X9ypViXVvIoY0uwAMnIiKc0sDHp8mZBuSCx8BfpkdrJRQeexoxuLU3vylP57H28QLxXVVBayMnPBnLe4444t5MDb2l94xlRkSEjJkGeoCvA0yKiJDUBzSMZZs4cdr6T1RwumQRETxHMbWAvTWExqFtQM5oKlbFTur6AEfWlu1Qg1zXAAAAAElFTkSuQmCC",
-  st =
+  rt =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAABIUlEQVQ4y8XTvS6DARTG8YOEpWNJ8HbFgM0g4ipsBjfRxAV0MnakW5OquIKmw8vUiIWkl9DkrcnuY/gZ0E+kDYlnPDn/5JznPCfiH6ToU8XJgFoPqE0G3GLXPm6/b5qRajqwqOwVect4VbboQFNqZhg40tez84gIl14GqkeD7TkZKtpIrfXqG65x5wyZXB8ooWs+wrZZibqurrrEnM0ICx5Q6gOHntCyEiHx2BvjURJhRQtPDgeH2tFBNUIdDYlEA/UIVXTsjPp0jJMIGQoREQrIIpzgeNzY6YApR/pY+sbqhEsP2Lo1Yuus7QjzusO2vh/u1D2urPfqa1K0VUYONxKNFxcREc49fxONL8K3JP9j+MbivWf3x3j/7oGmfdE/1huxmbTYvNt7qgAAAABJRU5ErkJggg==",
-  De = (a) => (w("data-v-60e2e1d5"), (a = a()), z(), a),
-  Um = { class: "sheet-tools-container" },
-  xm = { key: 0 },
-  Nm = { key: 0 },
-  Lm = { key: 0, class: "added-info" },
-  Bm = { key: 1 },
-  Fm = De(() => e("img", { src: jm, alt: "adicionar" }, null, -1)),
-  Qm = [Fm],
-  Gm = { key: 1, class: "sheet-tools-mobile-container" },
-  Xm = { key: 0, class: "sheet-tools-buttons-container" },
-  Wm = De(() => e("img", { src: tt, alt: "compartilhar" }, null, -1)),
-  Km = [Wm],
-  Jm = De(() => e("img", { src: st, alt: "configurações" }, null, -1)),
-  Ym = [Jm],
-  Zm = { key: 1, class: "share-mobile-container" },
-  ep = De(() => e("img", { src: tt, alt: "compartilhar" }, null, -1)),
-  ap = [ep],
-  op = De(() => e("img", { src: st, alt: "configurações" }, null, -1)),
+  Re = (a) => (H("data-v-60e2e1d5"), (a = a()), j(), a),
+  Jm = { class: "sheet-tools-container" },
+  Ym = { key: 0 },
+  Zm = { key: 0 },
+  ep = { key: 0, class: "added-info" },
+  ap = { key: 1 },
+  op = Re(() => e("img", { src: Km, alt: "adicionar" }, null, -1)),
   tp = [op],
-  sp = R({
+  sp = { key: 1, class: "sheet-tools-mobile-container" },
+  np = { key: 0, class: "sheet-tools-buttons-container" },
+  rp = Re(() => e("img", { src: nt, alt: "compartilhar" }, null, -1)),
+  dp = [rp],
+  ip = Re(() => e("img", { src: rt, alt: "configurações" }, null, -1)),
+  lp = [ip],
+  up = { key: 1, class: "share-mobile-container" },
+  cp = Re(() => e("img", { src: nt, alt: "compartilhar" }, null, -1)),
+  mp = [cp],
+  pp = Re(() => e("img", { src: rt, alt: "configurações" }, null, -1)),
+  vp = [pp],
+  hp = T({
     __name: "SheetTools",
     props: { disabledSheet: Boolean, charAdded: Boolean },
     emits: [
@@ -7351,66 +7518,66 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       "handleOpenSkinsModal",
     ],
     setup(a, { emit: b }) {
-      const v = b,
-        h = Po(),
-        u = $(window.innerWidth),
+      const h = b,
+        v = _o(),
+        c = $(window.innerWidth),
         p = () => {
-          v("handleShareSheet");
+          h("handleShareSheet");
         },
-        l = () => {
-          v("handleAddAgent");
+        u = () => {
+          h("handleAddAgent");
         };
       return (
         Ee(() => {
           window.addEventListener("resize", () => {
-            u.value = window.innerWidth;
+            c.value = window.innerWidth;
           });
         }),
         (m, i) => (
-          o(),
-          n("div", Um, [
+          s(),
+          r("div", Jm, [
             a.disabledSheet
-              ? (o(),
-                n("div", xm, [
-                  G(h).currentUser
-                    ? (o(),
-                      n("div", Nm, [
+              ? (s(),
+                r("div", Ym, [
+                  L(v).currentUser
+                    ? (s(),
+                      r("div", Zm, [
                         a.charAdded
-                          ? (o(),
-                            n("div", Lm, " Agent added to your coletion! "))
-                          : (o(),
-                            n("div", Bm, [
+                          ? (s(),
+                            r("div", ep, " Agent added to your coletion! "))
+                          : (s(),
+                            r("div", ap, [
                               e(
                                 "button",
                                 {
                                   class: "button-naked share-button",
-                                  onClick: l,
+                                  onClick: u,
                                 },
-                                Qm
+                                tp
                               ),
                             ])),
                       ]))
                     : q("", !0),
                 ]))
-              : (o(),
-                n("div", Gm, [
-                  u.value >= 1023
-                    ? (o(),
-                      n("div", Xm, [
+              : (s(),
+                r("div", sp, [
+                  c.value >= 1023
+                    ? (s(),
+                      r("div", np, [
                         e(
                           "button",
                           {
                             class: "customize-button",
                             onClick:
                               i[0] ||
-                              (i[0] = (d) => m.$emit("handleOpenSkinsModal")),
+                              (i[0] = (n) => m.$emit("handleOpenSkinsModal")),
                           },
                           " Customization "
                         ),
                         e(
                           "button",
                           { class: "button-naked share-button", onClick: p },
-                          Km
+                          dp
                         ),
                         e(
                           "button",
@@ -7418,20 +7585,20 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             class: "button-naked share-button",
                             onClick:
                               i[1] ||
-                              (i[1] = (d) => m.$emit("handleOpenConfig")),
+                              (i[1] = (n) => m.$emit("handleOpenConfig")),
                           },
-                          Ym
+                          lp
                         ),
                       ]))
-                    : (o(),
-                      n("div", Zm, [
+                    : (s(),
+                      r("div", up, [
                         e(
                           "button",
                           {
                             class: "customize-button",
                             onClick:
                               i[2] ||
-                              (i[2] = (d) => m.$emit("handleOpenSkinsModal")),
+                              (i[2] = (n) => m.$emit("handleOpenSkinsModal")),
                           },
                           " Customization "
                         ),
@@ -7441,9 +7608,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             class: "button-naked share-button",
                             onClick:
                               i[3] ||
-                              (i[3] = (d) => m.$emit("handleOpenShareModal")),
+                              (i[3] = (n) => m.$emit("handleOpenShareModal")),
                           },
-                          ap
+                          mp
                         ),
                         e(
                           "button",
@@ -7451,9 +7618,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             class: "button-naked share-button",
                             onClick:
                               i[4] ||
-                              (i[4] = (d) => m.$emit("handleOpenConfig")),
+                              (i[4] = (n) => m.$emit("handleOpenConfig")),
                           },
-                          tp
+                          vp
                         ),
                       ])),
                 ])),
@@ -7462,55 +7629,55 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Eo = V(sp, [["__scopeId", "data-v-60e2e1d5"]]),
-  Qe = (a) => (w("data-v-552e0b49"), (a = a()), z(), a),
-  np = { class: "sheet-header-container" },
-  rp = { class: "profile-picture-container" },
-  dp = ["disabled"],
-  ip = { key: 0 },
-  lp = ["src"],
-  up = { key: 1 },
-  cp = { class: "header-info-container" },
-  mp = { class: "header-info-row" },
-  pp = { class: "info-line" },
-  vp = Qe(() => e("h3", null, "CHARACTER", -1)),
-  hp = ["disabled", "value"],
-  gp = { class: "info-line" },
-  fp = Qe(() => e("h3", null, "PLAYER", -1)),
-  bp = ["disabled", "value"],
-  Ap = { class: "header-info-row" },
-  Cp = { class: "info-line" },
-  qp = Qe(() => e("h3", null, "BACKGROUND", -1)),
-  yp = ["disabled", "value"],
-  kp = { class: "info-line" },
-  $p = Qe(() => e("h3", null, "CLASS", -1)),
-  Ep = ["disabled", "value"],
-  Ip = R({
+  So = V(hp, [["__scopeId", "data-v-60e2e1d5"]]),
+  Ge = (a) => (H("data-v-552e0b49"), (a = a()), j(), a),
+  gp = { class: "sheet-header-container" },
+  fp = { class: "profile-picture-container" },
+  bp = ["disabled"],
+  Ap = { key: 0 },
+  Cp = ["src"],
+  qp = { key: 1 },
+  yp = { class: "header-info-container" },
+  kp = { class: "header-info-row" },
+  $p = { class: "info-line" },
+  Ep = Ge(() => e("h3", null, "CHARACTER", -1)),
+  Sp = ["disabled", "value"],
+  Ip = { class: "info-line" },
+  Pp = Ge(() => e("h3", null, "PLAYER", -1)),
+  Mp = ["disabled", "value"],
+  _p = { class: "header-info-row" },
+  Dp = { class: "info-line" },
+  Rp = Ge(() => e("h3", null, "BACKGROUND", -1)),
+  Tp = ["disabled", "value"],
+  Vp = { class: "info-line" },
+  Op = Ge(() => e("h3", null, "CLASS", -1)),
+  wp = ["disabled", "value"],
+  zp = T({
     __name: "SheetHeader",
     props: { character: {}, disabledSheet: { type: Boolean } },
     emits: ["handleChangeCharHeaderText", "handleOpenChangePictureModal"],
     setup(a) {
-      return (b, v) => (
-        o(),
-        n("div", np, [
-          e("div", rp, [
+      return (b, h) => (
+        s(),
+        r("div", gp, [
+          e("div", fp, [
             e(
               "button",
               {
                 class: "button-naked",
                 disabled: b.disabledSheet,
                 onClick:
-                  v[0] ||
-                  (v[0] = (h) => b.$emit("handleOpenChangePictureModal")),
+                  h[0] ||
+                  (h[0] = (v) => b.$emit("handleOpenChangePictureModal")),
               },
               [
                 b.character.sheetPictureURL
-                  ? (o(),
-                    n("div", ip, [
+                  ? (s(),
+                    r("div", Ap, [
                       e(
                         "img",
                         {
-                          class: J([
+                          class: Y([
                             "profile-picture",
                             { "disabled-picture": b.disabledSheet },
                           ]),
@@ -7519,19 +7686,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                         },
                         null,
                         10,
-                        lp
+                        Cp
                       ),
                     ]))
-                  : (o(),
-                    n("div", up, [
+                  : (s(),
+                    r("div", qp, [
                       e(
                         "img",
                         {
-                          class: J([
+                          class: Y([
                             "profile-picture",
                             { "disabled-picture": b.disabledSheet },
                           ]),
-                          src: Me,
+                          src: De,
                           alt: "foto agente em branco",
                         },
                         null,
@@ -7540,13 +7707,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     ])),
               ],
               8,
-              dp
+              bp
             ),
           ]),
-          e("div", cp, [
-            e("div", mp, [
-              e("div", pp, [
-                vp,
+          e("div", yp, [
+            e("div", kp, [
+              e("div", $p, [
+                Ep,
                 e(
                   "input",
                   {
@@ -7556,20 +7723,20 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     disabled: b.disabledSheet,
                     value: b.character.name,
                     onBlur:
-                      v[1] ||
-                      (v[1] = (h) =>
+                      h[1] ||
+                      (h[1] = (v) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: h,
+                          e: v,
                           key: "name",
                         })),
                   },
                   null,
                   40,
-                  hp
+                  Sp
                 ),
               ]),
-              e("div", gp, [
-                fp,
+              e("div", Ip, [
+                Pp,
                 e(
                   "input",
                   {
@@ -7579,22 +7746,22 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     disabled: b.disabledSheet,
                     value: b.character.player,
                     onBlur:
-                      v[2] ||
-                      (v[2] = (h) =>
+                      h[2] ||
+                      (h[2] = (v) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: h,
+                          e: v,
                           key: "player",
                         })),
                   },
                   null,
                   40,
-                  bp
+                  Mp
                 ),
               ]),
             ]),
-            e("div", Ap, [
-              e("div", Cp, [
-                qp,
+            e("div", _p, [
+              e("div", Dp, [
+                Rp,
                 e(
                   "input",
                   {
@@ -7604,20 +7771,20 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     disabled: b.disabledSheet,
                     value: b.character.backgroundName,
                     onBlur:
-                      v[3] ||
-                      (v[3] = (h) =>
+                      h[3] ||
+                      (h[3] = (v) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: h,
+                          e: v,
                           key: "backgroundName",
                         })),
                   },
                   null,
                   40,
-                  yp
+                  Tp
                 ),
               ]),
-              e("div", kp, [
-                $p,
+              e("div", Vp, [
+                Op,
                 e(
                   "input",
                   {
@@ -7627,16 +7794,16 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                     disabled: b.disabledSheet,
                     value: b.character.className,
                     onBlur:
-                      v[4] ||
-                      (v[4] = (h) =>
+                      h[4] ||
+                      (h[4] = (v) =>
                         b.$emit("handleChangeCharHeaderText", {
-                          e: h,
+                          e: v,
                           key: "className",
                         })),
                   },
                   null,
                   40,
-                  Ep
+                  wp
                 ),
               ]),
             ]),
@@ -7645,61 +7812,61 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  Io = V(Ip, [["__scopeId", "data-v-552e0b49"]]),
-  nt =
+  Io = V(zp, [["__scopeId", "data-v-552e0b49"]]),
+  dt =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAYElEQVQ4y9WTwQmAQAwEtzvtwHIsVfDKUDM+T0FJIqfgvmfIPjbSJ6Gj4KXQV2EikrkKK7gtODBsD4W7Lu2EX1ey6wvthXSllMDAEh+fgYuf5m0AjPEHyuFSEpeS+MvZAZYijOCBAmQvAAAAAElFTkSuQmCC",
-  rt = (a) => (w("data-v-92e1679a"), (a = a()), z(), a),
-  Sp = { class: "campaign-log-container" },
-  _p = rt(() => e("img", { src: nt, alt: "log" }, null, -1)),
-  Pp = [_p],
-  Mp = rt(() => e("div", { class: "campaign-label" }, " Campaign: ", -1)),
-  Dp = { class: "campaign-title" },
-  Rp = R({
+  it = (a) => (H("data-v-92e1679a"), (a = a()), j(), a),
+  Hp = { class: "campaign-log-container" },
+  jp = it(() => e("img", { src: dt, alt: "log" }, null, -1)),
+  Up = [jp],
+  Np = it(() => e("div", { class: "campaign-label" }, " Campaign: ", -1)),
+  xp = { class: "campaign-title" },
+  Bp = T({
     __name: "SheetCampaign",
     props: { campaign: {}, campaignLog: {}, disabledSheet: { type: Boolean } },
     emits: ["handleOpenCampaignLog"],
     setup(a) {
       const b = a,
-        h = "https://crisordemparanormal.com/" + "campanha/" + b.campaign.id,
-        u = $(window.innerWidth);
+        v = "https://crisordemparanormal.com/" + "campanha/" + b.campaign.id,
+        c = $(window.innerWidth);
       Ee(() => {
         window.addEventListener("resize", () => {
-          u.value = window.innerWidth;
+          c.value = window.innerWidth;
         });
       });
       const p = () => {
-        b.disabledSheet || window.open(h, "_blank");
+        b.disabledSheet || window.open(v, "_blank");
       };
-      return (l, m) => {
+      return (u, m) => {
         var i;
         return (
-          o(),
-          n("div", Sp, [
-            u.value >= 1023
-              ? (o(),
-                n(
+          s(),
+          r("div", Hp, [
+            c.value >= 1023
+              ? (s(),
+                r(
                   "button",
                   {
                     key: 0,
                     class: "campaign-log-button",
                     onClick:
-                      m[0] || (m[0] = (d) => l.$emit("handleOpenCampaignLog")),
+                      m[0] || (m[0] = (n) => u.$emit("handleOpenCampaignLog")),
                   },
-                  Pp
+                  Up
                 ))
               : q("", !0),
             e(
               "a",
               {
-                class: J([
+                class: Y([
                   "campaign-nav-link",
-                  { "campaign-nav-link-disabled": l.disabledSheet },
+                  { "campaign-nav-link-disabled": u.disabledSheet },
                 ]),
                 onClick: p,
               },
               [
-                Mp,
-                e("div", Dp, H((i = l.campaign) == null ? void 0 : i.name), 1),
+                Np,
+                e("div", xp, w((i = u.campaign) == null ? void 0 : i.name), 1),
               ],
               2
             ),
@@ -7708,26 +7875,26 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       };
     },
   }),
-  So = V(Rp, [["__scopeId", "data-v-92e1679a"]]),
-  Vp =
+  Po = V(Bp, [["__scopeId", "data-v-92e1679a"]]),
+  Lp =
     "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAQAAABKfvVzAAAAHUlEQVQ4y2NgGEbgPxTgYw92DaOhNBpKQyeUaAYAFbUe8L2r+g4AAAAASUVORK5CYII=",
-  dt = (a) => (w("data-v-b0056160"), (a = a()), z(), a),
-  Tp = dt(() =>
-    e("img", { class: "apps-img", src: Vp, alt: "fechar" }, null, -1)
+  lt = (a) => (H("data-v-b0056160"), (a = a()), j(), a),
+  Fp = lt(() =>
+    e("img", { class: "apps-img", src: Lp, alt: "fechar" }, null, -1)
   ),
-  Op = [Tp],
-  wp = dt(() =>
-    e("img", { class: "apps-img", src: oe, alt: "fechar" }, null, -1)
+  Qp = [Fp],
+  Gp = lt(() =>
+    e("img", { class: "apps-img", src: te, alt: "fechar" }, null, -1)
   ),
-  zp = [wp],
-  Hp = { class: "apps-options" },
-  jp = ["onClick"],
-  Up = R({
+  Xp = [Gp],
+  Wp = { class: "apps-options" },
+  Kp = ["onClick"],
+  Jp = T({
     __name: "SheetMobileNav",
     emits: ["handleMobileNav"],
     setup(a) {
       const b = $(!1),
-        v = [
+        h = [
           "INFORMATIONS",
           "DESCRIPTION",
           "ATTRIBUTES",
@@ -7737,59 +7904,59 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           "ABILITIES",
           "RITUALS",
         ];
-      return (h, u) => (
-        o(),
-        n(
-          j,
+      return (v, c) => (
+        s(),
+        r(
+          U,
           null,
           [
             b.value
-              ? (o(),
-                n(
+              ? (s(),
+                r(
                   "button",
                   {
                     key: 1,
                     class: "apps-button button-naked",
-                    onClick: u[1] || (u[1] = (p) => (b.value = !b.value)),
+                    onClick: c[1] || (c[1] = (p) => (b.value = !b.value)),
                   },
-                  zp
+                  Xp
                 ))
-              : (o(),
-                n(
+              : (s(),
+                r(
                   "button",
                   {
                     key: 0,
                     class: "apps-button button-naked",
-                    onClick: u[0] || (u[0] = (p) => (b.value = !b.value)),
+                    onClick: c[0] || (c[0] = (p) => (b.value = !b.value)),
                   },
-                  Op
+                  Qp
                 )),
             b.value
-              ? (o(),
-                n(
+              ? (s(),
+                r(
                   "div",
                   {
                     key: 2,
                     class: "apps-container",
-                    onClick: u[2] || (u[2] = (p) => (b.value = !b.value)),
+                    onClick: c[2] || (c[2] = (p) => (b.value = !b.value)),
                   },
                   [
-                    e("div", Hp, [
-                      (o(),
-                      n(
-                        j,
+                    e("div", Wp, [
+                      (s(),
+                      r(
+                        U,
                         null,
-                        L(v, (p, l) =>
-                          e("div", { key: l }, [
+                        B(h, (p, u) =>
+                          e("div", { key: u }, [
                             e(
                               "button",
                               {
                                 class: "nav-option-button",
-                                onClick: (m) => h.$emit("handleMobileNav", l),
+                                onClick: (m) => v.$emit("handleMobileNav", u),
                               },
-                              H(p),
+                              w(p),
                               9,
-                              jp
+                              Kp
                             ),
                           ])
                         ),
@@ -7805,139 +7972,139 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  xp = V(Up, [["__scopeId", "data-v-b0056160"]]),
-  it = (a) => (w("data-v-f968449f"), (a = a()), z(), a),
-  Np = it(() => e("img", { src: nt, alt: "log" }, null, -1)),
-  Lp = [Np],
-  Bp = it(() => e("img", { src: oe, alt: "close-log" }, null, -1)),
-  Fp = [Bp],
-  Qp = R({
+  Yp = V(Jp, [["__scopeId", "data-v-b0056160"]]),
+  ut = (a) => (H("data-v-f968449f"), (a = a()), j(), a),
+  Zp = ut(() => e("img", { src: dt, alt: "log" }, null, -1)),
+  ev = [Zp],
+  av = ut(() => e("img", { src: te, alt: "close-log" }, null, -1)),
+  ov = [av],
+  tv = T({
     __name: "SheetLogButtonMobile",
     props: { campaignLogOpen: { type: Boolean } },
     emits: ["handleOpenCampaignLog"],
     setup(a) {
-      return (b, v) =>
+      return (b, h) =>
         b.campaignLogOpen
-          ? (o(),
-            n(
+          ? (s(),
+            r(
               "button",
               {
                 key: 1,
                 class: "campaign-log-button-mobile button-naked",
                 onClick:
-                  v[1] || (v[1] = (h) => b.$emit("handleOpenCampaignLog")),
+                  h[1] || (h[1] = (v) => b.$emit("handleOpenCampaignLog")),
               },
-              Fp
+              ov
             ))
-          : (o(),
-            n(
+          : (s(),
+            r(
               "button",
               {
                 key: 0,
                 class: "campaign-log-button-mobile button-naked",
                 onClick:
-                  v[0] || (v[0] = (h) => b.$emit("handleOpenCampaignLog")),
+                  h[0] || (h[0] = (v) => b.$emit("handleOpenCampaignLog")),
               },
-              Lp
+              ev
             ));
     },
   }),
-  Gp = V(Qp, [["__scopeId", "data-v-f968449f"]]),
-  Xp = { class: "skin-img-container" },
-  Wp = ["src", "alt"],
-  Kp = { class: "label" },
-  Jp = R({
+  sv = V(tv, [["__scopeId", "data-v-f968449f"]]),
+  nv = { class: "skin-img-container" },
+  rv = ["src", "alt"],
+  dv = { class: "label" },
+  iv = T({
     __name: "SkinOption",
     props: { character: {}, skinDice: {} },
     setup(a) {
       const b = a,
-        v = X(() =>
+        h = X(() =>
           b.character.skinDice
             ? b.character.skinDice.label === b.skinDice.label
             : !1
         );
-      return (h, u) => (
-        o(),
-        n(
+      return (v, c) => (
+        s(),
+        r(
           "div",
-          { class: J(["skin-option-container", { "skin-selected": v.value }]) },
+          { class: Y(["skin-option-container", { "skin-selected": h.value }]) },
           [
-            e("div", Xp, [
+            e("div", nv, [
               e(
                 "img",
                 {
-                  src: h.skinDice.img,
-                  alt: h.skinDice.label,
+                  src: v.skinDice.img,
+                  alt: v.skinDice.label,
                   class: "skin-img",
                 },
                 null,
                 8,
-                Wp
+                rv
               ),
             ]),
-            e("div", Kp, H(h.skinDice.label), 1),
+            e("div", dv, w(v.skinDice.label), 1),
           ],
           2
         )
       );
     },
   }),
-  ia = V(Jp, [["__scopeId", "data-v-694b426f"]]),
-  Re = (a) => (w("data-v-8e69620b"), (a = a()), z(), a),
-  Yp = { class: "modal-content modal-width" },
-  Zp = { class: "modal-header" },
-  ev = Re(() => e("h2", null, "Skins de Dados", -1)),
-  av = Re(() =>
-    e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
+  ia = V(iv, [["__scopeId", "data-v-694b426f"]]),
+  Te = (a) => (H("data-v-8e69620b"), (a = a()), j(), a),
+  lv = { class: "modal-content modal-width" },
+  uv = { class: "modal-header" },
+  cv = Te(() => e("h2", null, "Skins de Dados", -1)),
+  mv = Te(() =>
+    e("img", { class: "close-icon", src: te, alt: "fechar" }, null, -1)
   ),
-  ov = [av],
-  tv = { class: "modal-body modal-height" },
-  sv = { class: "skins-container" },
-  nv = Re(() => e("div", { class: "skins-title" }, " Colors ", -1)),
-  rv = { class: "skins-options" },
-  dv = { class: "skins-container" },
-  iv = Re(() => e("div", { class: "skins-title" }, " Elements ", -1)),
-  lv = { class: "skins-options" },
-  uv = { class: "skins-container" },
-  cv = Re(() => e("div", { class: "skins-title" }, " Pride ", -1)),
-  mv = { class: "skins-options" },
-  pv = R({
+  pv = [mv],
+  vv = { class: "modal-body modal-height" },
+  hv = { class: "skins-container" },
+  gv = Te(() => e("div", { class: "skins-title" }, " Colors ", -1)),
+  fv = { class: "skins-options" },
+  bv = { class: "skins-container" },
+  Av = Te(() => e("div", { class: "skins-title" }, " Elements ", -1)),
+  Cv = { class: "skins-options" },
+  qv = { class: "skins-container" },
+  yv = Te(() => e("div", { class: "skins-title" }, " Pride ", -1)),
+  kv = { class: "skins-options" },
+  $v = T({
     __name: "SkinsModal",
     props: { character: {} },
     emits: ["handleChangeDiceSkin", "handleCloseModal"],
     setup(a, { emit: b }) {
-      const v = b,
-        h = (u) => v("handleChangeDiceSkin", u);
-      return (u, p) => (
-        o(),
-        n("div", Yp, [
-          e("div", Zp, [
-            ev,
+      const h = b,
+        v = (c) => h("handleChangeDiceSkin", c);
+      return (c, p) => (
+        s(),
+        r("div", lv, [
+          e("div", uv, [
+            cv,
             e(
               "button",
-              { onClick: p[0] || (p[0] = (l) => u.$emit("handleCloseModal")) },
-              ov
+              { onClick: p[0] || (p[0] = (u) => c.$emit("handleCloseModal")) },
+              pv
             ),
           ]),
-          e("div", tv, [
-            e("div", sv, [
-              nv,
-              e("div", rv, [
-                (o(!0),
-                n(
-                  j,
+          e("div", vv, [
+            e("div", hv, [
+              gv,
+              e("div", fv, [
+                (s(!0),
+                r(
+                  U,
                   null,
-                  L(
-                    G(Bo),
-                    (l) => (
-                      o(),
-                      N(
+                  B(
+                    L(Fo),
+                    (u) => (
+                      s(),
+                      x(
                         ia,
                         {
-                          key: l.label,
-                          "skin-dice": l,
-                          character: u.character,
-                          onClick: (m) => h(l),
+                          key: u.label,
+                          "skin-dice": u,
+                          character: c.character,
+                          onClick: (m) => v(u),
                         },
                         null,
                         8,
@@ -7949,24 +8116,24 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 )),
               ]),
             ]),
-            e("div", dv, [
-              iv,
-              e("div", lv, [
-                (o(!0),
-                n(
-                  j,
+            e("div", bv, [
+              Av,
+              e("div", Cv, [
+                (s(!0),
+                r(
+                  U,
                   null,
-                  L(
-                    G(Vs),
-                    (l) => (
-                      o(),
-                      N(
+                  B(
+                    L(Os),
+                    (u) => (
+                      s(),
+                      x(
                         ia,
                         {
-                          key: l.label,
-                          "skin-dice": l,
-                          character: u.character,
-                          onClick: (m) => h(l),
+                          key: u.label,
+                          "skin-dice": u,
+                          character: c.character,
+                          onClick: (m) => v(u),
                         },
                         null,
                         8,
@@ -7978,24 +8145,24 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                 )),
               ]),
             ]),
-            e("div", uv, [
-              cv,
-              e("div", mv, [
-                (o(!0),
-                n(
-                  j,
+            e("div", qv, [
+              yv,
+              e("div", kv, [
+                (s(!0),
+                r(
+                  U,
                   null,
-                  L(
-                    G(Ts),
-                    (l) => (
-                      o(),
-                      N(
+                  B(
+                    L(ws),
+                    (u) => (
+                      s(),
+                      x(
                         ia,
                         {
-                          key: l.label,
-                          "skin-dice": l,
-                          character: u.character,
-                          onClick: (m) => h(l),
+                          key: u.label,
+                          "skin-dice": u,
+                          character: c.character,
+                          onClick: (m) => v(u),
                         },
                         null,
                         8,
@@ -8012,36 +8179,36 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  vv = V(pv, [["__scopeId", "data-v-8e69620b"]]),
-  hv = (a) => (w("data-v-1d71ccb1"), (a = a()), z(), a),
-  gv = { key: 0 },
-  fv = { key: 0, class: "private-sheet" },
-  bv = hv(() => e("h1", null, "Private sheet", -1)),
-  Av = { key: 1 },
-  Cv = { key: 0 },
-  qv = { class: "sheet-wrapper" },
-  yv = { class: "sheet-header" },
-  kv = { class: "character-sheet" },
-  $v = { class: "sheet-stats" },
-  Ev = { class: "sheet-skills" },
-  Iv = { class: "sheet-tab" },
-  Sv = { key: 1 },
-  _v = { key: 0, class: "mobile-container" },
-  Pv = { key: 1, class: "mobile-container" },
-  Mv = { key: 2, class: "mobile-container" },
-  Dv = { key: 3, class: "mobile-container" },
-  Rv = { key: 4, class: "mobile-container" },
-  Vv = { key: 5, class: "mobile-container" },
-  Tv = { key: 6, class: "mobile-container" },
-  Ov = { key: 7, class: "mobile-container" },
-  wv = { key: 2 },
-  zv = { key: 1 },
-  Hv = R({
+  Ev = V($v, [["__scopeId", "data-v-8e69620b"]]),
+  Sv = (a) => (H("data-v-1cb432dd"), (a = a()), j(), a),
+  Iv = { key: 0 },
+  Pv = { key: 0, class: "private-sheet" },
+  Mv = Sv(() => e("h1", null, "Private sheet", -1)),
+  _v = { key: 1 },
+  Dv = { key: 0 },
+  Rv = { class: "sheet-wrapper" },
+  Tv = { class: "sheet-header" },
+  Vv = { class: "character-sheet" },
+  Ov = { class: "sheet-stats" },
+  wv = { class: "sheet-skills" },
+  zv = { class: "sheet-tab" },
+  Hv = { key: 1 },
+  jv = { key: 0, class: "mobile-container" },
+  Uv = { key: 1, class: "mobile-container" },
+  Nv = { key: 2, class: "mobile-container" },
+  xv = { key: 3, class: "mobile-container" },
+  Bv = { key: 4, class: "mobile-container" },
+  Lv = { key: 5, class: "mobile-container" },
+  Fv = { key: 6, class: "mobile-container" },
+  Qv = { key: 7, class: "mobile-container" },
+  Gv = { key: 2 },
+  Xv = { key: 1 },
+  Wv = T({
     __name: "CharacterSheet",
     setup(a) {
-      const { play: b } = Xt(Jt),
-        v = [ol, El, Ul, Wl, Xu, Lo, om, Hm, vm, Mm, vv],
-        h = {
+      const { play: b } = Kt(Zt),
+        h = [pl, wl, Jl, ru, nc, Lo, pm, Wm, Em, Nm, Ev],
+        v = {
           abilities: 0,
           inventory: 1,
           rituals: 2,
@@ -8054,7 +8221,7 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           addModal: 9,
           skins: 10,
         },
-        u = { power: 0, ritual: 1, item: 2, attack: 3 },
+        c = { power: 0, ritual: 1, item: 2, attack: 3 },
         p = {
           attack: 0,
           power: 1,
@@ -8065,31 +8232,31 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           misc: 6,
           cursedItem: 7,
         },
-        l = Po(),
-        m = Dt(),
-        i = Ut(),
-        d = Rt(),
-        t = Vt(),
-        c = d.params.id,
+        u = _o(),
+        m = Tt(),
+        i = xt(),
+        n = Vt(),
+        o = Ot(),
+        l = n.params.id,
         A = $(0),
-        P = $(!0),
-        M = $(),
+        M = $(!0),
+        _ = $(),
         f = $(),
         y = $(),
         D = $(),
-        B = $(),
+        F = $(),
         ve = $(),
-        s = $(Yt),
-        I = $(0),
+        t = $(es),
+        S = $(0),
         k = $(!0),
         O = $(!1),
         he = $(!1),
         E = $(!1),
         Z = $(window.innerWidth),
-        se = $(0),
-        Ge = $(),
+        ne = $(0),
+        Xe = $(),
         Ce = $(),
-        U = $({ message: "", type: "", alive: !1, timeout: 0 }),
+        N = $({ message: "", type: "", alive: !1, timeout: 0 }),
         ge = $({ title: "", total: 0, output: "", notation: "", alive: !1 }),
         Ve = $({
           title: "",
@@ -8103,141 +8270,167 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
           damageRollTooltip: "",
           alive: !1,
         }),
-        F = $(!1),
-        Q = $(0),
-        Ie = $(0),
+        Q = $(!1),
+        G = $(0),
+        Se = $(0),
         Aa = $(0),
         Ca = $();
       Ee(async () => {
-        var S;
+        var I;
         window.addEventListener("resize", () => {
           Z.value = window.innerWidth;
         });
-        const r = await Ze(de(m, "characters", c));
-        r.data() || t.push({ name: "not-found" }),
-          l.currentUser &&
-            (I.value = await Os((S = l.currentUser) == null ? void 0 : S.uid)),
-          (s.value = r.data()),
-          (s.value.id = r == null ? void 0 : r.id);
+        const d = await ea(de(m, "characters", l));
+        d.data() || o.push({ name: "not-found" }),
+          u.currentUser &&
+            (S.value = await zs((I = u.currentUser) == null ? void 0 : I.uid)),
+          (t.value = d.data()),
+          (t.value.id = d == null ? void 0 : d.id);
         let g = !1;
         if (
-          (s.value.campaignDocId === void 0 &&
-            ((s.value.campaignDocId = ""), (g = !0)),
-          !s.value.currentItemsLimit)
+          (t.value.campaignDocId === void 0 &&
+            ((t.value.campaignDocId = ""), (g = !0)),
+          !t.value.currentItemsLimit)
         ) {
-          const T = { I: 0, II: 0, III: 0, IV: 0 };
-          (s.value.currentItemsLimit = T), (g = !0);
+          const R = { I: 0, II: 0, III: 0, IV: 0 };
+          (t.value.currentItemsLimit = R), (g = !0);
         }
         if (
-          (s.value.peTurn || ((s.value.peTurn = Wt[s.value.nex]), (g = !0)),
-          s.value.deathMarks === void 0 &&
-            ((s.value.deathMarks = [!1, !1, !1]),
-            (s.value.madnessMarks = [!1, !1, !1]),
-            (s.value.deathMode = !1),
-            (s.value.madnessMode = !1),
+          (t.value.peTurn || ((t.value.peTurn = Jt[t.value.nex]), (g = !0)),
+          t.value.deathMarks === void 0 &&
+            ((t.value.deathMarks = [!1, !1, !1]),
+            (t.value.madnessMarks = [!1, !1, !1]),
+            (t.value.deathMode = !1),
+            (t.value.madnessMode = !1),
             (g = !0)),
-          s.value.sheetPictureURL ||
-            ((s.value.sheetPictureURL = ""),
-            (s.value.sheetPictureFullPath = ""),
+          t.value.sheetPictureURL ||
+            ((t.value.sheetPictureURL = ""),
+            (t.value.sheetPictureFullPath = ""),
             (g = !0)),
-          s.value.campaignDocId === void 0 &&
-            ((s.value.campaignDocId = ""), (g = !0)),
-          s.value.statsClass ||
-            (s.value.className === "Combatant" ||
-            s.value.className === "Specialist" ||
-            s.value.className === "Occultist"
-              ? (s.value.statsClass = s.value.className)
-              : (s.value.statsClass = "Combatant"),
+          t.value.campaignDocId === void 0 &&
+            ((t.value.campaignDocId = ""), (g = !0)),
+          t.value.statsClass ||
+            (t.value.className === "Combatant" ||
+            t.value.className === "Specialist" ||
+            t.value.className === "Occultist"
+              ? (t.value.statsClass = t.value.className)
+              : (t.value.statsClass = "Combatant"),
             (g = !0)),
-          s.value.description.anotation ||
-            ((s.value.description.anotation = ""), (g = !0)),
-          s.value.canDMEdit === void 0 && ((s.value.canDMEdit = !0), (g = !0)),
-          s.value.canAnyoneEdit === void 0 &&
-            ((s.value.canAnyoneEdit = !1), (g = !0)),
-          s.value.private === void 0 && ((s.value.private = !1), (g = !0)),
-          (s.value.block === void 0 || s.value.block === null) &&
-            ((s.value.block = s.value.skills[9].bonus), (g = !0)),
-          (s.value.evade === void 0 || s.value.evade === null) &&
-            ((s.value.evade =
+          t.value.description.anotation ||
+            ((t.value.description.anotation = ""), (g = !0)),
+          t.value.canDMEdit === void 0 && ((t.value.canDMEdit = !0), (g = !0)),
+          t.value.canAnyoneEdit === void 0 &&
+            ((t.value.canAnyoneEdit = !1), (g = !0)),
+          t.value.private === void 0 && ((t.value.private = !1), (g = !0)),
+          (t.value.block === void 0 || t.value.block === null) &&
+            ((t.value.block = t.value.skills[9].bonus), (g = !0)),
+          (t.value.evade === void 0 || t.value.evade === null) &&
+            ((t.value.evade =
               10 +
-              s.value.attributes.dex +
-              s.value.protectionDefense +
-              s.value.bonusDefense +
-              s.value.skills[20].bonus),
+              t.value.attributes.dex +
+              t.value.protectionDefense +
+              t.value.bonusDefense +
+              t.value.skills[22].bonus),
             (g = !0)),
-          s.value.resistencias === void 0 &&
-            ((s.value.resistencias = {}), (g = !0)),
-          s.value.imunidades === void 0 &&
-            ((s.value.imunidades = []), (g = !0)),
-          s.value.vulnerabilidades === void 0 &&
-            ((s.value.vulnerabilidades = []), (g = !0)),
-          s.value.skinDice === void 0 && (s.value.skinDice = Bo[0]),
-          g && (await ea(de(m, "characters", s.value.id), s.value)),
-          s.value.campaignDocId)
+          t.value.resistencias === void 0 &&
+            ((t.value.resistencias = {}), (g = !0)),
+          t.value.imunidades === void 0 &&
+            ((t.value.imunidades = []), (g = !0)),
+          t.value.vulnerabilidades === void 0 &&
+            ((t.value.vulnerabilidades = []), (g = !0)),
+          t.value.skinDice === void 0 && (t.value.skinDice = Fo[0]),
+          t.value.maxPd === void 0)
         ) {
-          const T = await Ze(de(m, "campaigns", s.value.campaignDocId));
-          T.data() &&
-            ((M.value = T.data()),
-            (M.value.id = T.id),
-            (Ce.value = aa(
-              de(m, "campaignLogs", M.value.campaignLogId),
-              (x) => {
-                x.data() &&
-                  ((f.value = x.data()),
-                  (f.value.id = x.id),
+          if (t.value.statsClass === "Mundane")
+            (t.value.maxPd = 4 + t.value.attributes.pre),
+              (t.value.currentPd = 2);
+          else {
+            const R = Pe.find((ee) => ee.name === t.value.statsClass);
+            if (!R) return;
+            (t.value.maxPd = R.initialPd + t.value.attributes.pre),
+              (t.value.currentPd = t.value.maxPd);
+            const z = la[t.value.nex];
+            if (z >= 2) {
+              const ee = (R.levelPd + t.value.attributes.pre) * (z - 1);
+              (t.value.maxPd += ee), (t.value.currentPd += ee);
+            }
+          }
+          g = !0;
+        }
+        if (
+          (t.value.nexString === void 0 &&
+            ((t.value.nexString = t.value.nex.toString()),
+            t.value.statsClass === "Mundane" && (t.value.nexString = "0%"),
+            (g = !0)),
+          t.value.pdMode === void 0 && ((t.value.pdMode = !1), (g = !0)),
+          t.value.pdMarks === void 0 &&
+            ((t.value.pdMarks = [!1, !1, !1]), (g = !0)),
+          g && (await aa(de(m, "characters", t.value.id), t.value)),
+          t.value.campaignDocId)
+        ) {
+          const R = await ea(de(m, "campaigns", t.value.campaignDocId));
+          R.data() &&
+            ((_.value = R.data()),
+            (_.value.id = R.id),
+            (Ce.value = oa(
+              de(m, "campaignLogs", _.value.campaignLogId),
+              (z) => {
+                z.data() &&
+                  ((f.value = z.data()),
+                  (f.value.id = z.id),
                   A.value < 2 && A.value++);
               }
             )));
         }
-        Ge.value = aa(de(m, "characters", c), (T) => {
-          var x, ne, re, qe;
-          T.data() || t.push({ name: "not-found" }),
-            (s.value = T.data()),
-            (s.value.id = T == null ? void 0 : T.id),
-            s.value.canAnyoneEdit ? (k.value = !1) : (k.value = !0),
-            s.value.uid !==
-              ((x = l == null ? void 0 : l.currentUser) == null
+        Xe.value = oa(de(m, "characters", l), (R) => {
+          var z, ee, re, qe;
+          R.data() || o.push({ name: "not-found" }),
+            (t.value = R.data()),
+            (t.value.id = R == null ? void 0 : R.id),
+            t.value.canAnyoneEdit ? (k.value = !1) : (k.value = !0),
+            t.value.uid !==
+              ((z = u == null ? void 0 : u.currentUser) == null
                 ? void 0
-                : x.uid) && (s.value.private ? (O.value = !0) : (O.value = !1)),
-            s.value.campaignDocId &&
-              M.value &&
-              M.value.uid ===
-                ((ne = l == null ? void 0 : l.currentUser) == null
+                : z.uid) && (t.value.private ? (O.value = !0) : (O.value = !1)),
+            t.value.campaignDocId &&
+              _.value &&
+              _.value.uid ===
+                ((ee = u == null ? void 0 : u.currentUser) == null
                   ? void 0
-                  : ne.uid) &&
+                  : ee.uid) &&
               ((O.value = !1),
-              s.value.canDMEdit ? (k.value = !1) : (k.value = !0)),
-            s.value.uid ===
-              ((re = l == null ? void 0 : l.currentUser) == null
+              t.value.canDMEdit ? (k.value = !1) : (k.value = !0)),
+            t.value.uid ===
+              ((re = u == null ? void 0 : u.currentUser) == null
                 ? void 0
                 : re.uid) && ((O.value = !1), (k.value = !1)),
-            ((qe = l == null ? void 0 : l.currentUser) != null && qe.uid) ||
+            ((qe = u == null ? void 0 : u.currentUser) != null && qe.uid) ||
               (k.value = !0),
             A.value < 2 && A.value++;
         });
       }),
-        Tt(() => {
-          Ge.value && Ge.value(), Ce.value && Ce.value();
+        wt(() => {
+          Xe.value && Xe.value(), Ce.value && Ce.value();
         }),
         fe(A, () => {
-          s.value &&
-            P.value !== !1 &&
-            (s.value.campaignDocId
-              ? A.value >= 2 && (P.value = !1)
-              : A.value >= 1 && (P.value = !1));
+          t.value &&
+            M.value !== !1 &&
+            (t.value.campaignDocId
+              ? A.value >= 2 && (M.value = !1)
+              : A.value >= 1 && (M.value = !1));
         }),
         fe(
-          () => s.value.campaignDocId,
+          () => t.value.campaignDocId,
           async () => {
-            if (s.value && !P.value)
-              if (s.value.campaignDocId === "")
-                (M.value = void 0), (f.value = void 0), Ce.value && Ce.value();
+            if (t.value && !M.value)
+              if (t.value.campaignDocId === "")
+                (_.value = void 0), (f.value = void 0), Ce.value && Ce.value();
               else {
-                const r = await Ze(de(m, "campaigns", s.value.campaignDocId));
-                r.data() &&
-                  ((M.value = r.data()),
-                  (Ce.value = aa(
-                    de(m, "campaignLogs", M.value.campaignLogId),
+                const d = await ea(de(m, "campaigns", t.value.campaignDocId));
+                d.data() &&
+                  ((_.value = d.data()),
+                  (Ce.value = oa(
+                    de(m, "campaignLogs", _.value.campaignLogId),
                     (g) => {
                       g.data() && ((f.value = g.data()), (f.value.id = g.id));
                     }
@@ -8245,210 +8438,216 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
               }
           }
         );
-      const _ = () => {
-          k.value || ea(de(m, "characters", s.value.id), s.value);
+      const P = () => {
+          k.value || aa(de(m, "characters", t.value.id), t.value);
         },
-        Te = () => {
-          (U.value.alive = !1), clearTimeout(U.value.timeout);
+        Oe = () => {
+          (N.value.alive = !1), clearTimeout(N.value.timeout);
         },
         le = () => (ge.value.alive = !1),
         ue = () => (Ve.value.alive = !1),
-        Xe = (r, g) => {
+        We = (d, g) => {
           le(),
             ue(),
-            (r.message = `${h} added`),
-            (r.type = "info"),
-            (r.alive = !0);
+            (d.message = `${g} added`),
+            (d.type = "info"),
+            (d.alive = !0);
         },
-        Oe = (r) => {
+        we = (d) => {
           le(),
             ue(),
-            (r.message = "Incorrect value on dice"),
-            (r.type = "error"),
-            (r.alive = !0);
+            (d.message = "Incorrect value on dice"),
+            (d.type = "error"),
+            (d.alive = !0);
         },
-        We = (r, g, S, T, x) => {
-          Te(),
+        Ke = (d, g, I, R, z) => {
+          Oe(),
             ue(),
-            (r.title = g),
-            (r.total = S),
-            (r.output = T),
-            (r.notation = x),
-            (r.skinDice = s.value.skinDice),
-            ho(r, "roll"),
-            go(r, "roll"),
-            E.value || (r.alive = !0);
+            (d.title = g),
+            (d.total = I),
+            (d.output = R),
+            (d.notation = z),
+            (d.skinDice = t.value.skinDice),
+            ho(d, "roll"),
+            go(d, "roll"),
+            E.value || (d.alive = !0);
         },
-        lt = (r, g, S, T, x, ne, re, qe, _t, Pt) => {
-          Te(),
+        ct = (d, g, I, R, z, ee, re, qe, _t, Dt) => {
+          Oe(),
             le(),
-            (r.title = g),
-            (r.totalAttack = S),
-            (r.totalDamage = T),
-            (r.critical = x),
-            (r.attackTooltip = ne),
-            (r.damageTooltip = re),
-            (r.attackRollTooltip = qe),
-            (r.damageRollTooltip = _t),
-            (r.criticalTooltip = Pt),
-            (r.skinDice = s.value.skinDice),
-            ho(r, "attackRoll"),
-            go(r, "attackRoll"),
-            E.value || (r.alive = !0);
+            (d.title = g),
+            (d.totalAttack = I),
+            (d.totalDamage = R),
+            (d.critical = z),
+            (d.attackTooltip = ee),
+            (d.damageTooltip = re),
+            (d.attackRollTooltip = qe),
+            (d.damageRollTooltip = _t),
+            (d.criticalTooltip = Dt),
+            (d.skinDice = t.value.skinDice),
+            ho(d, "attackRoll"),
+            go(d, "attackRoll"),
+            E.value || (d.alive = !0);
         },
-        qa = (r) => {
-          const g = r.e.target.value;
-          (s.value[r.key] = g.trim()), _();
+        qa = (d) => {
+          const g = d.e.target.value;
+          (t.value[d.key] = g.trim()), P();
         },
-        ya = (r) => {
-          const g = r.e.target.value;
-          (s.value[r.key] = g.trim()), _();
+        ya = (d) => {
+          const g = d.e.target.value;
+          (t.value[d.key] = g.trim()), P();
         },
-        ka = (r) => {
-          const g = r.e.target.valueAsNumber;
-          Co(s.value, g, r.key), _();
+        ka = (d) => {
+          const g = d.e.target.valueAsNumber;
+          qo(t.value, g, d.key), P();
         },
-        $a = (r, g) => {
-          Co(s.value, r, g), _();
+        $a = (d, g) => {
+          qo(t.value, d, g), P();
         },
-        Ea = (r) => {
-          const g = r.e.target.valueAsNumber;
-          Zt(s.value, g, r.key), _();
+        Ea = (d) => {
+          const g = d.e.target.valueAsNumber;
+          as(t.value, g, d.key), P();
         },
-        Ia = (r) => {
-          const g = s.value.nex;
-          (s.value[r.key] = r.value), es(s.value, g), _();
+        Sa = (d) => {
+          const g = t.value.nex;
+          (t.value[d.key] = d.value), os(t.value, g), P();
         },
-        Sa = (r) => {
-          const g = r.target.valueAsNumber;
-          as(s.value, g), _();
+        Ia = (d) => {
+          const g = d.target.valueAsNumber;
+          ts(t.value, g), P();
         },
-        _a = (r) => {
+        Pa = (d) => {
           try {
-            const g = os[r],
-              S = ts(s.value, r),
-              T = sa(S.output),
-              x = na(S.output);
-            We(ge.value, g, S.total, T, x), b();
+            const g = ss[d],
+              I = ns(t.value, d),
+              R = sa(I.output),
+              z = na(I.output);
+            Ke(ge.value, g, I.total, R, z), b();
           } catch {
-            Oe(U.value);
+            we(N.value);
           }
         },
-        Pa = (r, g) => {
-          r === "pv" && (s.value.deathMarks[g] = !s.value.deathMarks[g]),
-            r === "san" && (s.value.madnessMarks[g] = !s.value.madnessMarks[g]),
-            _();
+        Ma = (d, g) => {
+          d === "pv" && (t.value.deathMarks[g] = !t.value.deathMarks[g]),
+            d === "san" && (t.value.madnessMarks[g] = !t.value.madnessMarks[g]),
+            d === "pd" && (t.value.pdMarks[g] = !t.value.pdMarks[g]),
+            P();
         },
-        Ma = (r) => {
-          r === "pv" && (s.value.deathMode = !0),
-            r === "san" && (s.value.madnessMode = !0),
-            _();
+        _a = (d) => {
+          d === "pv" && (t.value.deathMode = !0),
+            d === "san" && (t.value.madnessMode = !0),
+            d === "pd" && (t.value.pdMode = !0),
+            P();
         },
-        Da = (r) => {
-          r === "pv" &&
-            ((s.value.deathMarks = [!1, !1, !1]),
-            (s.value.deathMode = !1),
-            s.value.currentPv === 0 && (s.value.currentPv = 1)),
-            r === "san" &&
-              ((s.value.madnessMarks = [!1, !1, !1]),
-              (s.value.madnessMode = !1),
-              s.value.currentSan === 0 && (s.value.currentSan = 1)),
-            _();
+        Da = (d) => {
+          d === "pv" &&
+            ((t.value.deathMarks = [!1, !1, !1]),
+            (t.value.deathMode = !1),
+            t.value.currentPv === 0 && (t.value.currentPv = 1)),
+            d === "san" &&
+              ((t.value.madnessMarks = [!1, !1, !1]),
+              (t.value.madnessMode = !1),
+              t.value.currentSan === 0 && (t.value.currentSan = 1)),
+            d === "pd" &&
+              ((t.value.pdMarks = [!1, !1, !1]),
+              (t.value.pdMode = !1),
+              t.value.currentPd === 0 && (t.value.currentPd = 1)),
+            P();
         },
         Ra = () => {
-          (Q.value = h.addClass), (F.value = !0);
+          (G.value = v.addClass), (Q.value = !0);
         },
-        Va = (r) => {
-          (Ca.value = r), (Q.value = h.skill), (F.value = !0);
+        Ta = (d) => {
+          (Ca.value = d), (G.value = v.skill), (Q.value = !0);
         },
-        Ta = () => {
-          (Q.value = h.config), (F.value = !0);
+        Va = () => {
+          (G.value = v.config), (Q.value = !0);
         },
-        ut = () => {
-          (Q.value = h.share), (F.value = !0);
+        mt = () => {
+          (G.value = v.share), (Q.value = !0);
         },
-        Oa = (r) => {
-          const g = s.value.skills.findIndex((S) => S.name === r.skillName);
-          (s.value.skills[g][r.key] = r.value), qo(s.value, r.skillName), _();
+        Oa = (d) => {
+          const g = t.value.skills.findIndex((I) => I.name === d.skillName);
+          (t.value.skills[g][d.key] = d.value), yo(t.value, d.skillName), P();
         },
-        wa = (r) => {
-          ss(s.value, r.value, r.skillName), qo(s.value, r.skillName), _();
+        wa = (d) => {
+          rs(t.value, d.value, d.skillName), yo(t.value, d.skillName), P();
         },
-        za = (r) => {
+        za = (d) => {
           try {
-            const g = r.name,
-              S = ns(s.value, r),
-              T = sa(S.output),
-              x = na(S.output);
-            We(ge.value, g, S.total, T, x), b();
+            const g = d.name,
+              I = ds(t.value, d),
+              R = sa(I.output),
+              z = na(I.output);
+            Ke(ge.value, g, I.total, R, z), b();
           } catch {
-            Oe(U.value);
+            we(N.value);
           }
         },
         Ha = () => {
-          (Q.value = h.abilities), (F.value = !0);
+          (G.value = v.abilities), (Q.value = !0);
         },
         ja = () => {
-          (Q.value = h.skins), (F.value = !0);
+          (G.value = v.skins), (Q.value = !0);
         },
         Ua = () => {
-          (Q.value = h.rituals), (F.value = !0);
-        },
-        xa = () => {
-          (Q.value = h.inventory), (F.value = !0);
+          (G.value = v.rituals), (Q.value = !0);
         },
         Na = () => {
-          (Q.value = h.picture), (F.value = !0);
+          (G.value = v.inventory), (Q.value = !0);
         },
-        ct = (r) => {
-          (r.id = je()), s.value.attacks.push(r), _(), ae();
+        xa = () => {
+          (G.value = v.picture), (Q.value = !0);
         },
-        La = (r) => {
-          rs(s.value, r), _();
+        pt = (d) => {
+          (d.id = Ue()), t.value.attacks.push(d), P(), oe();
         },
-        Ke = (r) => {
-          const g = s.value.powers.findIndex((S) => S.id === r);
-          g !== -1 && (s.value.powers.splice(g, 1), _());
+        Ba = (d) => {
+          is(t.value, d), P();
         },
-        Ba = (r) => {
-          const g = s.value.rituals.findIndex((S) => S.id === r);
-          s.value.rituals.splice(g, 1), _();
+        Je = (d) => {
+          const g = t.value.powers.findIndex((I) => I.id === d);
+          g !== -1 && (t.value.powers.splice(g, 1), P());
         },
-        Fa = (r) => {
-          ds(s.value, r), _();
+        La = (d) => {
+          const g = t.value.rituals.findIndex((I) => I.id === d);
+          t.value.rituals.splice(g, 1), P();
         },
-        Qa = (r) => {
-          is(s.value, r), _();
+        Fa = (d) => {
+          ls(t.value, d), P();
         },
-        Ga = (r) => {
-          (s.value.description[r.key] = r.value), _();
+        Qa = (d) => {
+          us(t.value, d), P();
         },
-        Xa = (r) => {
-          (s.value[r.key] = r.value), _();
+        Ga = (d) => {
+          (t.value.description[d.key] = d.value), P();
         },
-        Wa = (r) => {
-          ls(s.value, r.value, r.key), _();
+        Xa = (d) => {
+          (t.value[d.key] = d.value), P();
         },
-        Ka = (r) => {
-          us(s.value, r.value, r.key), _();
+        Wa = (d) => {
+          cs(t.value, d.value, d.key), P();
         },
-        Je = (r = "1d20", g = "Result", S = !1) => {
+        Ka = (d) => {
+          ms(t.value, d.value, d.key), P();
+        },
+        Ye = (d = "1d20", g = "Resultado", I = !1) => {
           try {
-            const T = g,
-              x = cs(r || "1d20"),
-              ne = sa(x.output),
-              re = na(x.output);
-            (ge.value.defaultColor = S), We(ge.value, T, x.total, ne, re), b();
+            const R = g,
+              z = ps(d || "1d20"),
+              ee = sa(z.output),
+              re = na(z.output);
+            (ge.value.defaultColor = I), Ke(ge.value, R, z.total, ee, re), b();
           } catch {
-            Oe(U.value);
+            we(N.value);
           }
         },
-        Ja = (r) => {
+        Ja = (d) => {
           try {
-            const g = ms(s.value, r);
-            lt(
+            const g = vs(t.value, d);
+            ct(
               Ve.value,
-              r.name,
+              d.name,
               g.attackTotal,
               g.damageTotal,
               g.critical,
@@ -8460,77 +8659,77 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
             ),
               b();
           } catch {
-            Oe(U.value);
+            we(N.value);
           }
         },
-        Ya = (r, g) => {
-          g && Je(g, r, !0);
+        Ya = (d, g) => {
+          g && Ye(g, d, !0);
         },
-        Za = (r) => {
-          const g = r.target.valueAsNumber;
-          ps(s.value, g), _();
+        Za = (d) => {
+          const g = d.target.valueAsNumber;
+          hs(t.value, g), P();
         },
-        mt = (r) => {
-          gs(s.value, r),
-            Xe(U.value, r.name),
-            _(),
-            Q.value === h.addModal && ae();
+        vt = (d) => {
+          bs(t.value, d),
+            We(N.value, d.name),
+            P(),
+            G.value === v.addModal && oe();
         },
-        pt = (r) => {
-          fs(s.value, r),
-            Xe(U.value, r.name),
-            _(),
-            Q.value === h.addModal && ae();
+        ht = (d) => {
+          As(t.value, d),
+            We(N.value, d.name),
+            P(),
+            G.value === v.addModal && oe();
         },
-        vt = (r) => {
-          bs(s.value, r),
-            Xe(U.value, r.name),
-            _(),
-            Q.value === h.addModal && ae();
+        gt = (d) => {
+          Cs(t.value, d),
+            We(N.value, d.name),
+            P(),
+            G.value === v.addModal && oe();
         },
-        ht = (r, g) => {
-          (s.value.sheetPictureURL = r),
-            (s.value.sheetPictureFullPath = g),
-            _(),
-            ae();
+        ft = (d, g) => {
+          (t.value.sheetPictureURL = d),
+            (t.value.sheetPictureFullPath = g),
+            P(),
+            oe();
         },
-        gt = (r, g, S) => {
-          r === "hurt" &&
-            ((s.value.sheetPictureHurtURL = g),
-            (s.value.sheetPictureHurtFullPathL = S),
-            _()),
-            r === "dying" &&
-              ((s.value.sheetPictureDyingURL = g),
-              (s.value.sheetPictureDyingFullPathL = S),
-              _()),
-            r === "disturbed" &&
-              ((s.value.sheetPictureDisturbedURL = g),
-              (s.value.sheetPictureDisturbedFullPathL = S),
-              _()),
-            r === "crazy" &&
-              ((s.value.sheetPictureCrazyURL = g),
-              (s.value.sheetPictureCrazyFullPathL = S),
-              _());
+        bt = (d, g, I) => {
+          d === "hurt" &&
+            ((t.value.sheetPictureHurtURL = g),
+            (t.value.sheetPictureHurtFullPathL = I),
+            P()),
+            d === "dying" &&
+              ((t.value.sheetPictureDyingURL = g),
+              (t.value.sheetPictureDyingFullPathL = I),
+              P()),
+            d === "disturbed" &&
+              ((t.value.sheetPictureDisturbedURL = g),
+              (t.value.sheetPictureDisturbedFullPathL = I),
+              P()),
+            d === "crazy" &&
+              ((t.value.sheetPictureCrazyURL = g),
+              (t.value.sheetPictureCrazyFullPathL = I),
+              P());
         },
-        ft = (r) => {
-          const g = r.target.value;
-          (s.value.resultDiceColor = g), _();
+        At = (d) => {
+          const g = d.target.value;
+          (t.value.resultDiceColor = g), P();
         },
-        bt = (r) => {
-          const g = r.target.value;
-          (s.value.resultDiceBorderColor = g), _();
+        Ct = (d) => {
+          const g = d.target.value;
+          (t.value.resultDiceBorderColor = g), P();
         },
-        At = (r, g) => {
-          (s.value[r] = g), _();
+        qt = (d, g) => {
+          (t.value[d] = g), P();
         },
-        Ct = (r) => {
-          (s.value.skinDice = r), _();
+        yt = (d) => {
+          (t.value.skinDice = d), P();
         },
-        qt = (r) => {
-          (s.value.statsClass = r), _();
+        kt = (d) => {
+          (t.value.statsClass = d), P();
         },
-        ce = (r) => {
-          (Q.value = h.addModal), (Aa.value = r), (F.value = !0);
+        ce = (d) => {
+          (G.value = v.addModal), (Aa.value = d), (Q.value = !0);
         },
         eo = () => ce(p.attack),
         ao = () => ce(p.power),
@@ -8540,238 +8739,242 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
         no = () => ce(p.protection),
         ro = () => ce(p.misc),
         io = () => ce(p.cursedItem),
-        lo = (r) => {
-          (Q.value = h.edit),
-            (Ie.value = u.attack),
-            (F.value = !0),
-            (y.value = r);
+        lo = (d) => {
+          (G.value = v.edit),
+            (Se.value = c.attack),
+            (Q.value = !0),
+            (y.value = d);
         },
-        uo = (r) => {
-          (Q.value = h.edit),
-            (Ie.value = u.power),
-            (F.value = !0),
-            (D.value = r);
+        uo = (d) => {
+          (G.value = v.edit),
+            (Se.value = c.power),
+            (Q.value = !0),
+            (D.value = d);
         },
-        co = (r) => {
-          (Q.value = h.edit),
-            (Ie.value = u.ritual),
-            (F.value = !0),
-            (B.value = r);
+        co = (d) => {
+          (G.value = v.edit),
+            (Se.value = c.ritual),
+            (Q.value = !0),
+            (F.value = d);
         },
-        mo = (r) => {
-          (Q.value = h.edit),
-            (Ie.value = u.item),
-            (F.value = !0),
-            (ve.value = r);
+        mo = (d) => {
+          (G.value = v.edit),
+            (Se.value = c.item),
+            (Q.value = !0),
+            (ve.value = d);
         },
-        yt = (r) => {
-          const g = s.value.attacks.findIndex((S) => S.id === r.id);
-          (s.value.attacks[g] = r), _(), ae();
+        $t = (d) => {
+          const g = t.value.attacks.findIndex((I) => I.id === d.id);
+          (t.value.attacks[g] = d), P(), oe();
         },
-        kt = (r) => {
-          const g = s.value.powers.findIndex((S) => S.id === r.id);
-          (s.value.powers[g] = r), _(), ae();
+        Et = (d) => {
+          const g = t.value.powers.findIndex((I) => I.id === d.id);
+          (t.value.powers[g] = d), P(), oe();
         },
-        $t = (r) => {
-          const g = s.value.rituals.findIndex((S) => S.id === r.id);
-          (s.value.rituals[g] = r), _(), ae();
+        St = (d) => {
+          const g = t.value.rituals.findIndex((I) => I.id === d.id);
+          (t.value.rituals[g] = d), P(), oe();
         },
-        Et = (r) => {
-          As(s.value, r), _(), ae();
+        It = (d) => {
+          qs(t.value, d), P(), oe();
         },
-        It = (r) => {
-          Cs(s.value, r),
-            s.value.mundanoRemoveSkill && Ke(s.value.mundanoRemoveSkill),
-            _(),
-            ae();
+        Pt = (d) => {
+          ys(t.value, d),
+            t.value.mundanoRemoveSkill && Je(t.value.mundanoRemoveSkill),
+            P(),
+            oe();
         },
-        ae = () => (F.value = !1),
+        oe = () => (Q.value = !1),
         po = async () => {
           await navigator.clipboard.writeText(
-            "https://crisordemparanormal.com/agente/" + s.value.id
+            "https://crisordemparanormal.com/agente/" + t.value.id
           ),
             le(),
             ue(),
-            (U.value.message = "Link copied"),
-            (U.value.type = "info"),
-            (U.value.alive = !0);
+            (N.value.message = "Link copied"),
+            (N.value.type = "info"),
+            (N.value.alive = !0);
         },
         vo = async () => {
-          var g, S;
-          if (!((g = l.currentUser) != null && g.email) || he.value) return;
-          if (I.value < 3) {
-            const T = bo(m, "characters"),
-              x = Ot(
-                T,
-                wt("uid", "==", (S = l.currentUser) == null ? void 0 : S.uid)
+          var g, I;
+          if (!((g = u.currentUser) != null && g.email) || he.value) return;
+          if (S.value < 3) {
+            const R = Ao(m, "characters"),
+              z = zt(
+                R,
+                Ht("uid", "==", (I = u.currentUser) == null ? void 0 : I.uid)
               );
-            if ((await zt(x)).size >= ws) {
+            if ((await jt(z)).size >= Hs) {
               le(),
                 ue(),
-                (U.value.message = "Agent limit reached!"),
-                (U.value.type = "error"),
-                (U.value.alive = !0);
+                (N.value.message = "Agent limit reached!"),
+                (N.value.type = "error"),
+                (N.value.alive = !0);
               return;
             }
           }
           he.value = !0;
-          const r = He.cloneDeep(s.value);
+          const d = je.cloneDeep(t.value);
           if (
-            ((r.uid = l.currentUser.uid),
-            (r.timestamp = Ht()),
-            (r.campaignDocId = ""),
-            (r.id = ""),
-            s.value.sheetPictureURL !== "")
+            ((d.uid = u.currentUser.uid),
+            (d.timestamp = Ut()),
+            (d.campaignDocId = ""),
+            (d.id = ""),
+            t.value.sheetPictureURL !== "")
           ) {
-            const T = Ao(i, `images/${je()}`),
-              x = Ao(i, s.value.sheetPictureFullPath),
-              ne = await xt(x);
-            Nt(T, ne).then(async (re) => {
-              const qe = await Lt(re.ref);
-              (r.sheetPictureURL = qe),
-                (r.sheetPictureFullPath = re.metadata.fullPath);
+            const R = Co(i, `images/${Ue()}`),
+              z = Co(i, t.value.sheetPictureFullPath),
+              ee = await Bt(z);
+            Lt(R, ee).then(async (re) => {
+              const qe = await Ft(re.ref);
+              (d.sheetPictureURL = qe),
+                (d.sheetPictureFullPath = re.metadata.fullPath);
             });
           }
-          await jt(bo(m, "characters"), r),
+          await Nt(Ao(m, "characters"), d),
             le(),
             ue(),
-            (U.value.message = "Agent addded!"),
-            (U.value.type = "info"),
-            (U.value.alive = !0);
+            (N.value.message = "Agent addded!"),
+            (N.value.type = "info"),
+            (N.value.alive = !0);
         },
-        ho = (r, g) => {
-          const S = [];
+        ho = (d, g) => {
+          const I = [];
           if (g === "roll") {
-            const T = r.total;
-            S.push(T);
+            const R = d.total;
+            I.push(R);
           }
           if (g === "attackRoll") {
-            const T = r.totalAttack,
-              x = r.totalDamage;
-            S.push(T), S.push(x);
+            const R = d.totalAttack,
+              z = d.totalDamage;
+            I.push(R), I.push(z);
           }
-          (s.value.lastDiceResult = S), (s.value.didDiceRoll = je()), _();
+          (t.value.lastDiceResult = I), (t.value.didDiceRoll = Ue()), P();
         },
-        go = (r, g) => {
-          if (!M.value || !f.value) return;
-          const S = {
-            sender: s.value.name,
+        go = (d, g) => {
+          if (!_.value || !f.value) return;
+          const I = {
+            sender: t.value.name,
             timestamp: new Date().getTime(),
-            content: r,
+            content: d,
             contentType: g,
           };
-          f.value.campaignLogMessages.push(S),
+          f.value.campaignLogMessages.push(I),
             f.value.campaignLogMessages.length > 200 &&
               f.value.campaignLogMessages.shift(),
-            ea(de(m, "campaignLogs", f.value.id), f.value);
+            aa(de(m, "campaignLogs", f.value.id), f.value);
         },
-        Ye = () => {
-          Te(), le(), ue(), (E.value = !E.value);
+        Ze = () => {
+          Oe(), le(), ue(), (E.value = !E.value);
+        },
+        fo = () => {
+          (t.value.isSobrevivendoAoHorror = !t.value.isSobrevivendoAoHorror),
+            P();
         };
       fe(
-        () => s.value.skills[9].bonus,
-        (r, g) => {
-          if (s.value.block === null) return;
-          const S = Math.abs(r - g);
-          r > g ? (s.value.block += S) : (s.value.block -= S),
-            s.value.block < 0 && (s.value.block = 0),
-            s.value.block > 999 && (s.value.block = 999),
-            _();
+        () => t.value.skills[9].bonus,
+        (d, g) => {
+          if (t.value.block === null) return;
+          const I = Math.abs(d - g);
+          d > g ? (t.value.block += I) : (t.value.block -= I),
+            t.value.block < 0 && (t.value.block = 0),
+            t.value.block > 999 && (t.value.block = 999),
+            P();
         }
       );
-      const St = X(() => {
-        const r =
+      const Mt = X(() => {
+        const d =
           10 +
-          s.value.attributes.dex +
-          s.value.protectionDefense +
-          s.value.bonusDefense;
-        return r > 0 ? r : 0;
+          t.value.attributes.dex +
+          t.value.protectionDefense +
+          t.value.bonusDefense;
+        return d > 0 ? d : 0;
       });
       return (
         fe(
-          () => s.value.skills[20].bonus,
-          (r, g) => {
-            if (s.value.evade === null) return;
-            const S = Math.abs(r - g);
-            r > g ? (s.value.evade += S) : (s.value.evade -= S),
-              s.value.evade < 0 && (s.value.evade = 0),
-              s.value.evade > 999 && (s.value.evade = 999),
-              _();
+          () => t.value.skills[22].bonus,
+          (d, g) => {
+            if (t.value.evade === null) return;
+            const I = Math.abs(d - g);
+            d > g ? (t.value.evade += I) : (t.value.evade -= I),
+              t.value.evade < 0 && (t.value.evade = 0),
+              t.value.evade > 999 && (t.value.evade = 999),
+              P();
           }
         ),
-        fe(St, (r, g) => {
-          if (s.value.evade === null) return;
-          const S = Math.abs(r - g);
-          r > g ? (s.value.evade += S) : (s.value.evade -= S),
-            s.value.evade < 0 && (s.value.evade = 0),
-            s.value.evade > 999 && (s.value.evade = 999),
-            _();
+        fe(Mt, (d, g) => {
+          if (t.value.evade === null) return;
+          const I = Math.abs(d - g);
+          d > g ? (t.value.evade += I) : (t.value.evade -= I),
+            t.value.evade < 0 && (t.value.evade = 0),
+            t.value.evade > 999 && (t.value.evade = 999),
+            P();
         }),
         fe(
-          () => U.value.alive,
+          () => N.value.alive,
           () => {
-            U.value.alive === !0 &&
-              (U.value.timeout = window.setTimeout(
-                () => (U.value.alive = !1),
+            N.value.alive === !0 &&
+              (N.value.timeout = window.setTimeout(
+                () => (N.value.alive = !1),
                 3e3
               ));
           }
         ),
         fe(k, () => {
-          ae();
+          oe();
         }),
-        (r, g) => {
-          const S = ca("vue-final-modal");
+        (d, g) => {
+          const I = ma("vue-final-modal");
           return (
-            o(),
-            n("div", null, [
-              P.value
-                ? (o(), n("div", zv, [C(Rs, { "page-loading": "" })]))
-                : (o(),
-                  n("div", gv, [
+            s(),
+            r("div", null, [
+              M.value
+                ? (s(), r("div", Xv, [C(Vs, { "page-loading": "" })]))
+                : (s(),
+                  r("div", Iv, [
                     O.value
-                      ? (o(),
-                        n("div", fv, [
-                          bv,
+                      ? (s(),
+                        r("div", Pv, [
+                          Mv,
                           e(
                             "button",
                             {
                               class: "button-primary",
                               onClick:
-                                g[0] || (g[0] = (T) => r.$router.push("/")),
+                                g[0] || (g[0] = (R) => d.$router.push("/")),
                             },
-                            " Voltar "
+                            " Return "
                           ),
                         ]))
-                      : (o(),
-                        n("div", Av, [
+                      : (s(),
+                        r("div", _v, [
                           Z.value >= 1023
-                            ? (o(),
-                              n("div", Cv, [
-                                e("div", qv, [
-                                  e("div", yv, [
+                            ? (s(),
+                              r("div", Dv, [
+                                e("div", Rv, [
+                                  e("div", Tv, [
                                     C(
                                       Io,
                                       {
-                                        character: s.value,
+                                        character: t.value,
                                         "disabled-sheet": k.value,
                                         onHandleChangeCharHeaderText: qa,
-                                        onHandleOpenChangePictureModal: Na,
+                                        onHandleOpenChangePictureModal: xa,
                                       },
                                       null,
                                       8,
                                       ["character", "disabled-sheet"]
                                     ),
-                                    M.value
-                                      ? (o(),
-                                        N(
-                                          So,
+                                    _.value
+                                      ? (s(),
+                                        x(
+                                          Po,
                                           {
                                             key: 0,
                                             "disabled-sheet": k.value,
-                                            campaign: M.value,
+                                            campaign: _.value,
                                             "campaign-log": f.value,
-                                            onHandleOpenCampaignLog: Ye,
+                                            onHandleOpenCampaignLog: Ze,
                                           },
                                           null,
                                           8,
@@ -8783,14 +8986,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ))
                                       : q("", !0),
                                     C(
-                                      Eo,
+                                      So,
                                       {
-                                        character: s.value,
+                                        character: t.value,
                                         "disabled-sheet": k.value,
                                         "char-added": he.value,
                                         onHandleShareSheet: po,
                                         onHandleAddAgent: vo,
-                                        onHandleOpenConfig: Ta,
+                                        onHandleOpenConfig: Va,
                                         onHandleOpenSkinsModal: ja,
                                       },
                                       null,
@@ -8802,22 +9005,24 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                       ]
                                     ),
                                   ]),
-                                  e("div", kv, [
-                                    e("div", $v, [
+                                  e("div", Vv, [
+                                    e("div", Ov, [
                                       C(
-                                        ko,
+                                        $o,
                                         {
-                                          character: s.value,
+                                          character: t.value,
                                           "disabled-sheet": k.value,
+                                          onHandleChangeSobrevivendoAoHorror:
+                                            fo,
                                           onHandleChangeCharText: ya,
                                           onHandleChangeCharNumber: ka,
                                           onHandleChangeCharNumberButton: $a,
                                           onHandleChangeAttribute: Ea,
-                                          onHandleChangeCharDropdown: Ia,
-                                          onHandleChangeMovementInSquares: Sa,
-                                          onHandleRollAttribute: _a,
-                                          onHandleChangeCharMark: Pa,
-                                          onHandleChangeMarkModeToTrue: Ma,
+                                          onHandleChangeCharDropdown: Sa,
+                                          onHandleChangeMovementInSquares: Ia,
+                                          onHandleRollAttribute: Pa,
+                                          onHandleChangeCharMark: Ma,
+                                          onHandleChangeMarkModeToTrue: _a,
                                           onHandleMarkHeal: Da,
                                           onHandleOpenModalAddClass: Ra,
                                         },
@@ -8826,13 +9031,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ["character", "disabled-sheet"]
                                       ),
                                     ]),
-                                    e("div", Ev, [
+                                    e("div", wv, [
                                       C(
-                                        $o,
+                                        Eo,
                                         {
-                                          character: s.value,
+                                          character: t.value,
                                           "disabled-sheet": k.value,
-                                          onHandleOpenSkillModal: Va,
+                                          onHandleOpenSkillModal: Ta,
                                           onHandleChangeSkillDropdown: Oa,
                                           onHandleChangeSkillOtherBonus: wa,
                                           onHandleRollSkill: za,
@@ -8842,15 +9047,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ["character", "disabled-sheet"]
                                       ),
                                     ]),
-                                    e("div", Iv, [
+                                    e("div", zv, [
                                       C(
-                                        ki,
+                                        Vi,
                                         {
-                                          character: s.value,
+                                          character: t.value,
                                           "disabled-sheet": k.value,
                                           onHandleOpenAbilitiesModal: Ha,
                                           onHandleOpenRitualsModal: Ua,
-                                          onHandleOpenItemsModal: xa,
+                                          onHandleOpenItemsModal: Na,
                                           onHandleOpenAddAttack: eo,
                                           onHandleOpenAddPower: ao,
                                           onHandleOpenAddRitual: oo,
@@ -8859,20 +9064,20 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                           onHandleOpenAddProtection: no,
                                           onHandleOpenAddMisc: ro,
                                           onHandleOpenAddCursedItem: io,
-                                          onHandleRemoveAttack: La,
+                                          onHandleRemoveAttack: Ba,
                                           onHandleEditAttack: lo,
-                                          onHandleRemovePower: Ke,
+                                          onHandleRemovePower: Je,
                                           onHandleEditPower: uo,
                                           onHandleEditRitual: co,
                                           onHandleEditItem: mo,
-                                          onHandleRemoveRitual: Ba,
+                                          onHandleRemoveRitual: La,
                                           onHandleRemoveItem: Fa,
                                           onHandleEquipItem: Qa,
                                           onHandleChangeDescription: Ga,
                                           onHandleChangeInventoryDropdown: Xa,
                                           onHandleChangeInventoryNumber: Wa,
                                           onHandleChangeItemsLimit: Ka,
-                                          onHandleRollDices: Je,
+                                          onHandleRollDices: Ye,
                                           onHandleRollAttack: Ja,
                                           onHandleChangeRitualDc: Za,
                                           onHandleRollRitual: Ya,
@@ -8885,26 +9090,26 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                   ]),
                                 ]),
                               ]))
-                            : (o(),
-                              n("div", Sv, [
+                            : (s(),
+                              r("div", Hv, [
                                 e("div", null, [
-                                  C(xp, {
+                                  C(Yp, {
                                     onHandleMobileNav:
-                                      g[1] || (g[1] = (T) => (se.value = T)),
+                                      g[1] || (g[1] = (R) => (ne.value = R)),
                                   }),
-                                  se.value === 0
-                                    ? (o(),
-                                      n("div", _v, [
+                                  ne.value === 0
+                                    ? (s(),
+                                      r("div", jv, [
                                         C(
-                                          Eo,
+                                          So,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
                                             "char-added": he.value,
                                             onHandleShareSheet: po,
                                             onHandleAddAgent: vo,
-                                            onHandleOpenConfig: Ta,
-                                            onHandleOpenShareModal: ut,
+                                            onHandleOpenConfig: Va,
+                                            onHandleOpenShareModal: mt,
                                             onHandleOpenSkinsModal: ja,
                                           },
                                           null,
@@ -8918,25 +9123,25 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         C(
                                           Io,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
                                             onHandleChangeCharHeaderText: qa,
-                                            onHandleOpenChangePictureModal: Na,
+                                            onHandleOpenChangePictureModal: xa,
                                           },
                                           null,
                                           8,
                                           ["character", "disabled-sheet"]
                                         ),
-                                        M.value
-                                          ? (o(),
-                                            N(
-                                              So,
+                                        _.value
+                                          ? (s(),
+                                            x(
+                                              Po,
                                               {
                                                 key: 0,
                                                 "disabled-sheet": k.value,
-                                                campaign: M.value,
+                                                campaign: _.value,
                                                 "campaign-log": f.value,
-                                                onHandleOpenCampaignLog: Ye,
+                                                onHandleOpenCampaignLog: Ze,
                                               },
                                               null,
                                               8,
@@ -8949,13 +9154,13 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                           : q("", !0),
                                       ]))
                                     : q("", !0),
-                                  se.value === 1
-                                    ? (o(),
-                                      n("div", Pv, [
+                                  ne.value === 1
+                                    ? (s(),
+                                      r("div", Uv, [
                                         C(
-                                          Ko,
+                                          Jo,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
                                             onHandleChangeDescription: Ga,
                                           },
@@ -8965,23 +9170,25 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ),
                                       ]))
                                     : q("", !0),
-                                  se.value === 2
-                                    ? (o(),
-                                      n("div", Mv, [
+                                  ne.value === 2
+                                    ? (s(),
+                                      r("div", Nv, [
                                         C(
-                                          ko,
+                                          $o,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
+                                            onHandleChangeSobrevivendoAoHorror:
+                                              fo,
                                             onHandleChangeCharText: ya,
                                             onHandleChangeCharNumber: ka,
                                             onHandleChangeCharNumberButton: $a,
                                             onHandleChangeAttribute: Ea,
-                                            onHandleChangeCharDropdown: Ia,
-                                            onHandleChangeMovementInSquares: Sa,
-                                            onHandleRollAttribute: _a,
-                                            onHandleChangeCharMark: Pa,
-                                            onHandleChangeMarkModeToTrue: Ma,
+                                            onHandleChangeCharDropdown: Sa,
+                                            onHandleChangeMovementInSquares: Ia,
+                                            onHandleRollAttribute: Pa,
+                                            onHandleChangeCharMark: Ma,
+                                            onHandleChangeMarkModeToTrue: _a,
                                             onHandleMarkHeal: Da,
                                             onHandleOpenModalAddClass: Ra,
                                           },
@@ -8991,15 +9198,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ),
                                       ]))
                                     : q("", !0),
-                                  se.value === 3
-                                    ? (o(),
-                                      n("div", Dv, [
+                                  ne.value === 3
+                                    ? (s(),
+                                      r("div", xv, [
                                         C(
-                                          $o,
+                                          Eo,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
-                                            onHandleOpenSkillModal: Va,
+                                            onHandleOpenSkillModal: Ta,
                                             onHandleChangeSkillDropdown: Oa,
                                             onHandleChangeSkillOtherBonus: wa,
                                             onHandleRollSkill: za,
@@ -9010,19 +9217,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ),
                                       ]))
                                     : q("", !0),
-                                  se.value === 4
-                                    ? (o(),
-                                      n("div", Rv, [
+                                  ne.value === 4
+                                    ? (s(),
+                                      r("div", Bv, [
                                         C(
-                                          Fo,
+                                          Qo,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
                                             onHandleOpenAddAttack: eo,
                                             onHandleEditAttack: lo,
-                                            onHandleRemoveAttack: La,
+                                            onHandleRemoveAttack: Ba,
                                             onHandleRollAttack: Ja,
-                                            onHandleRollDices: Je,
+                                            onHandleRollDices: Ye,
                                           },
                                           null,
                                           8,
@@ -9030,20 +9237,20 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ),
                                       ]))
                                     : q("", !0),
-                                  se.value === 5
-                                    ? (o(),
-                                      n("div", Vv, [
+                                  ne.value === 5
+                                    ? (s(),
+                                      r("div", Lv, [
                                         C(
-                                          Wo,
+                                          Ko,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
                                             onHandleChangeInventoryDropdown: Xa,
                                             onHandleChangeInventoryNumber: Wa,
                                             onHandleChangeItemsLimit: Ka,
                                             onHandleEditItem: mo,
                                             onHandleEquipItem: Qa,
-                                            onHandleOpenItemsModal: xa,
+                                            onHandleOpenItemsModal: Na,
                                             onHandleRemoveItem: Fa,
                                             onHandleOpenAddWeapon: to,
                                             onHandleOpenAddAmmunition: so,
@@ -9057,21 +9264,21 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ),
                                       ]))
                                     : q("", !0),
-                                  se.value === 6
-                                    ? (o(),
-                                      n("div", Tv, [
-                                        se.value === 6
-                                          ? (o(),
-                                            N(
-                                              Go,
+                                  ne.value === 6
+                                    ? (s(),
+                                      r("div", Fv, [
+                                        ne.value === 6
+                                          ? (s(),
+                                            x(
+                                              Xo,
                                               {
                                                 key: 0,
-                                                character: s.value,
+                                                character: t.value,
                                                 "disabled-sheet": k.value,
                                                 onHandleEditPower: uo,
                                                 onHandleOpenAddPower: ao,
                                                 onHandleOpenAbilitiesModal: Ha,
-                                                onHandleRemovePower: Ke,
+                                                onHandleRemovePower: Je,
                                               },
                                               null,
                                               8,
@@ -9080,19 +9287,19 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                           : q("", !0),
                                       ]))
                                     : q("", !0),
-                                  se.value === 7
-                                    ? (o(),
-                                      n("div", Ov, [
+                                  ne.value === 7
+                                    ? (s(),
+                                      r("div", Qv, [
                                         C(
-                                          Xo,
+                                          Wo,
                                           {
-                                            character: s.value,
+                                            character: t.value,
                                             "disabled-sheet": k.value,
                                             onHandleChangeRitualDc: Za,
                                             onHandleEditRitual: co,
                                             onHandleOpenRitualsModal: Ua,
                                             onHandleOpenAddRitual: oo,
-                                            onHandleRemoveRitual: Ba,
+                                            onHandleRemoveRitual: La,
                                             onHandleRollRitual: Ya,
                                           },
                                           null,
@@ -9101,14 +9308,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                         ),
                                       ]))
                                     : q("", !0),
-                                  M.value
-                                    ? (o(),
-                                      N(
-                                        Gp,
+                                  _.value
+                                    ? (s(),
+                                      x(
+                                        sv,
                                         {
                                           key: 8,
                                           "campaign-log-open": E.value,
-                                          onHandleOpenCampaignLog: Ye,
+                                          onHandleOpenCampaignLog: Ze,
                                         },
                                         null,
                                         8,
@@ -9117,49 +9324,49 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                                     : q("", !0),
                                 ]),
                               ])),
-                          F.value
-                            ? (o(),
-                              n("div", wv, [
+                          Q.value
+                            ? (s(),
+                              r("div", Gv, [
                                 C(
-                                  S,
+                                  I,
                                   {
-                                    modelValue: F.value,
+                                    modelValue: Q.value,
                                     "onUpdate:modelValue":
-                                      g[2] || (g[2] = (T) => (F.value = T)),
+                                      g[2] || (g[2] = (R) => (Q.value = R)),
                                     classes: "modal-container",
                                   },
                                   {
                                     default: ke(() => [
-                                      (o(),
-                                      N(
-                                        Pe(v[Q.value]),
+                                      (s(),
+                                      x(
+                                        _e(h[G.value]),
                                         {
-                                          "current-edit-option": Ie.value,
+                                          "current-edit-option": Se.value,
                                           "current-add-option": Aa.value,
-                                          character: s.value,
+                                          character: t.value,
                                           skill: Ca.value,
                                           "edit-power": D.value,
-                                          "edit-ritual": B.value,
+                                          "edit-ritual": F.value,
                                           "edit-item": ve.value,
                                           "edit-attack": y.value,
-                                          onHandleEditAttackSheet: yt,
-                                          onHandleEditPowerSheet: kt,
-                                          onHandleEditRitualSheet: $t,
-                                          onHandleEditItemSheet: Et,
-                                          onHandleAddAttack: ct,
-                                          onHandleAddPower: mt,
-                                          onHandleAddRitual: pt,
-                                          onHandleAddItem: vt,
-                                          onHandleCloseModal: ae,
-                                          onHandleUpdatePicture: ht,
-                                          onHandleChangeStatsClass: qt,
-                                          onHandleUpdateAlternativePicture: gt,
-                                          onHandleChangeCharResultDiceColor: ft,
+                                          onHandleEditAttackSheet: $t,
+                                          onHandleEditPowerSheet: Et,
+                                          onHandleEditRitualSheet: St,
+                                          onHandleEditItemSheet: It,
+                                          onHandleAddAttack: pt,
+                                          onHandleAddPower: vt,
+                                          onHandleAddRitual: ht,
+                                          onHandleAddItem: gt,
+                                          onHandleCloseModal: oe,
+                                          onHandleUpdatePicture: ft,
+                                          onHandleChangeStatsClass: kt,
+                                          onHandleUpdateAlternativePicture: bt,
+                                          onHandleChangeCharResultDiceColor: At,
                                           onHandleChangeCharResultDiceBorderColor:
-                                            bt,
-                                          onHandleChangeEditPermissions: At,
-                                          onHandleAddClass: It,
-                                          onHandleChangeDiceSkin: Ct,
+                                            Ct,
+                                          onHandleChangeEditPermissions: qt,
+                                          onHandleAddClass: Pt,
+                                          onHandleChangeDiceSkin: yt,
                                         },
                                         null,
                                         40,
@@ -9183,15 +9390,15 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                               ]))
                             : q("", !0),
                           C(
-                            oa,
+                            ta,
                             { name: "toast" },
                             {
                               default: ke(() => [
-                                U.value.alive
-                                  ? (o(),
-                                    N(
-                                      Bt,
-                                      { key: 0, toast: U.value, onDismiss: Te },
+                                N.value.alive
+                                  ? (s(),
+                                    x(
+                                      Qt,
+                                      { key: 0, toast: N.value, onDismiss: Oe },
                                       null,
                                       8,
                                       ["toast"]
@@ -9202,14 +9409,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             }
                           ),
                           C(
-                            oa,
+                            ta,
                             { name: "toast" },
                             {
                               default: ke(() => [
                                 ge.value.alive
-                                  ? (o(),
-                                    N(
-                                      vs,
+                                  ? (s(),
+                                    x(
+                                      gs,
                                       {
                                         key: 0,
                                         toast: ge.value,
@@ -9225,14 +9432,14 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             }
                           ),
                           C(
-                            oa,
+                            ta,
                             { name: "toast" },
                             {
                               default: ke(() => [
                                 Ve.value.alive
-                                  ? (o(),
-                                    N(
-                                      hs,
+                                  ? (s(),
+                                    x(
+                                      fs,
                                       {
                                         key: 0,
                                         toast: Ve.value,
@@ -9248,9 +9455,9 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
                             }
                           ),
                           E.value
-                            ? (o(),
-                              N(
-                                Kt,
+                            ? (s(),
+                              x(
+                                Yt,
                                 {
                                   key: 3,
                                   "campaign-log": f.value,
@@ -9270,5 +9477,5 @@ const zs = "/assets/shield-icon-FCvc8PM4.png",
       );
     },
   }),
-  ph = V(Hv, [["__scopeId", "data-v-1d71ccb1"]]);
-export { ph as default };
+  $h = V(Wv, [["__scopeId", "data-v-1cb432dd"]]);
+export { $h as default };

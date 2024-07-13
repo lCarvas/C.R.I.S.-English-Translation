@@ -368,7 +368,7 @@ o = [
   {
     label: "Sangue",
     img: "/img/skins/sangue-skin-dice-icon.webp",
-    color: "#93003C",
+      color: "#7b000f",
     isSolid: !0,
   },
   {

@@ -1,6 +1,6 @@
-import { S as o, s as u } from "./skins-kfsapBUO.js";
+import { S as o, s as u } from "./skins-DFWuoMc3.js";
 import { v as t } from "./v4-cyCr5FZV.js";
-const d = {
+const f = {
     name: "",
     player: "",
     attributes: { str: 1, dex: 1, int: 1, con: 1, pre: 1 },
@@ -15,6 +15,10 @@ const d = {
     currentPe: 0,
     maxSan: 0,
     currentSan: 0,
+    maxPd: 0,
+    currentPd: 0,
+    nexString: "0%",
+    isSobrevivendoAoHorror: !1,
     protectionDefense: 0,
     bonusDefense: 0,
     currentProtection: "",
@@ -57,8 +61,10 @@ const d = {
     imunidades: [],
     vulnerabilidades: [],
     skinDice: u[0],
+    pdMarks: [!1, !1, !1],
+    pdMode: !1,
   },
-  f = (e, i) => {
+  a = (e, i) => {
     i.value > 3 && (i.value = 3),
       i.value < 0 && (i.value = 0),
       (e.attributes[i.attribute] = i.value);
@@ -76,7 +82,7 @@ const d = {
       }
     }
   },
-  v = (e, i) => {
+  P = (e, i) => {
     if (i !== null) {
       if (((e.className = i.name), i.name === "Mundane")) {
         const s = i.abilities[0];
@@ -99,6 +105,8 @@ const d = {
         (e.currentPe = e.maxPe),
         (e.maxSan = i.initialSan),
         (e.currentSan = e.maxSan),
+        (e.maxPd = i.initialPd + e.attributes.pre),
+        (e.currentPd = e.maxPd),
         (e.proficiencies = i.proficiencies),
         e.attributes.str === 0
           ? (e.maxLoad = 2)
@@ -106,7 +114,7 @@ const d = {
         (e.ritualsDc = 11 + e.attributes.pre);
     }
   },
-  b = (e, i) => {
+  v = (e, i) => {
     e.description[i.key] = i.value;
   };
-export { f as a, v as b, d as c, p as d, b as u };
+export { a, P as b, f as c, p as d, v as u };

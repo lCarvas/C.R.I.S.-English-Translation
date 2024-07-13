@@ -12,7 +12,7 @@ import {
   W as _,
   X as C,
   _ as k,
-} from "./index-CCe7Lu-B.js";
+} from "./index-sgISCpYv.js";
 const b = { class: "card" },
   R = { class: "profile-img-container" },
   B = ["src"],
