@@ -79,7 +79,7 @@ const Xa = [
         name: "Work Tool",
         hasAutomation: !1,
         description:
-          "Choose a simple or tactical weapon that, at the DM's discretion, could be used as tool on your profession (such as a sledgehammer for a mason). You have proficiency on the chosen weapon and you receive +1 on attack rolls, damage rolls and threat margin when using it.",
+          "Choose a simple or tactical weapon that, at the DM's discretion, could be used as tool on your profession (such as a sledgehammer for a mason). You have proficiency on the chosen weapon and you receive +1 on attack rolls, damage rolls and threat range when using it.",
       },
     },
     {

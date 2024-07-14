@@ -3284,7 +3284,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       tag: "Ammo",
       itemType: "ammunition",
       description:
-        "<p>Munição básica, usada em pistolas, revólveres e submetralhadoras. Um pacote de balas curtas dura duas cenas.</p>",
+        "<p>Basic ammunition, used in pistols, revolvers and submachine guns. A pack of short bullets lasts for two scenes.</p>",
     },
     {
       name: "Long Bullets",
@@ -3293,16 +3293,16 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       tag: "Ammo",
       itemType: "ammunition",
       description:
-        "<p>Maior e mais potente, esta munição é usada em fuzis e metralhadoras. Um pacote de balas longas dura uma cena.</p>",
+        "<p>Larger and more powerful, this ammunition is used in rifles and machine guns. A pack of long bullets lasts for one scene.</p>",
     },
     {
-      name: "Shells",
+      name: "Cartridges",
       category: "I",
       slots: 1,
       tag: "Ammo",
       itemType: "ammunition",
       description:
-        "<p>Usados em espingardas, esses cartuchos são carregados com esferas de chumbo. Um pacote de cartuchos dura uma cena.</p>",
+        "<p>Used in shotguns, these cartridges are loaded with lead pellets. One cartridge pack lasts for one scene.</p>",
     },
     {
       name: "Fuel",
@@ -3311,7 +3311,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       tag: "Ammo",
       itemType: "ammunition",
       description:
-        "<p>Um tanque de combustível para lança-chamas. Dura uma cena.</p>",
+        "<p>A flamethrower fuel tank. Lasts for one scene.</p>",
     },
     {
       name: "Arrows",
@@ -3320,7 +3320,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       tag: "Ammo",
       itemType: "ammunition",
       description:
-        "<p>Usadas em arcos e bestas, flechas podem ser reaproveitadas após cada combate. Por isso, um pacote de flechas dura uma missão inteira.</p>",
+        "<p>Used in bows and crossbows, arrows can be reused after each fight. Therefore, a pack of arrows lasts an entire mission.</p>",
     },
     {
       name: "Rocket",
@@ -3329,7 +3329,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       tag: "Ammo",
       itemType: "ammunition",
       description:
-        "<p>Disparado por bazucas. Ao contrário de outras munições, cada foguete dura um único disparo, não uma cena. Para fazer vários ataques, você precisará carregar vários foguetes.</p>",
+        "<p>Shot by bazookas. Unlike other ammunition, each rocket lasts for a single shot, not a scene. To make multiple attacks, you will need to carry multiple rockets.</p>",
     },
   ],
   vl = [
@@ -3348,7 +3348,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 0,
       itemType: "weapon",
       description:
-        "<p>Você pode usar uma arma de fogo como uma arma corpo a corpo. O dano é 1d4 para armas de fogo leves e de uma mão (como pistolas) e 1d6 para armas de fogo de duas mãos (como fuzis).</p>",
+        "<p>You can use a firearm as a melee weapon. The damage is 1d4 for light and one-handed firearms (such as pistols) and 1d6 for two-handed firearms (such as rifles).</p>",
     },
     {
       name: "Knife",
@@ -3364,7 +3364,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Uma lâmina longa e afiada, como uma navalha, uma faca de churrasco ou uma faca militar (facas de cozinha pequenas causam apenas 1d3 pontos de dano). É uma arma ágil e pode ser arremessada.</p>",
+        "<p>A long, sharp blade, such as a straight razor, barbecue knife, or military knife (small kitchen knives only do 1d3 points of damage). It is an agile weapon and can be thrown.</p>",
     },
     {
       name: "Hammer",
@@ -3380,7 +3380,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Esta ferramenta comum pode ser usada como arma na falta de opções melhores.</p>",
+        "<p>This common tool can be used as a weapon in the absence of better options.</p>",
     },
     {
       name: "Dagger",
@@ -3396,7 +3396,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Uma faca de lâmina longa e pontiaguda, usada por cultistas em seus rituais. É uma arma ágil.</p>",
+        "<p>A knife with a long, pointed blade, used by cultists in their rituals. It's an agile weapon.</p>",
     },
     {
       name: "Bat",
@@ -3413,7 +3413,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Um cilindro de madeira maciça. Pode ser um taco de beisebol, um cacetete da polícia, uma tonfa ou apenas uma clava envolta em pregos ou arame farpado. Você pode empunhar um bastão com uma mão (dano 1d6) ou com as duas (dano 1d8).</p>",
+        "<p>A solid wood cylinder. It could be a baseball bat, a police baton, a tonfa or just a club wrapped in nails or barbed wire. You can wield a bat with one hand (1d6 damage) or both (1d8 damage).</p>",
     },
     {
       name: "Machete",
@@ -3429,7 +3429,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Uma lâmina longa, muito usada como ferramenta para abrir trilhas.</p>",
+        "<p>A long blade, often used as a tool for opening trails.</p>",
     },
     {
       name: "Spear",
@@ -3445,7 +3445,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Uma haste de madeira com uma ponta metálica afiada, a lança é uma arma arcaica, mas usada ainda hoje por artistas marciais. Pode ser arremessada.</p>",
+        "<p>A wooden shaft with a sharp metal tip, the spear is an archaic weapon, but still used today by martial artists. Can be thrown.</p>",
     },
     {
       name: "Staff",
@@ -3462,7 +3462,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Um cabo de madeira ou barra de ferro longo. Inclui cajado o bo usado em artes marciais. É uma arma ágil. Além disso, pode ser usado com Combater com Duas Armas (e poderes similares) para fazer ataques adicionais, como se fosse uma arma de uma mão e uma arma leve.</p>",
+        "<p>A long wooden rod or iron bar. Includes the bō used in martial arts. It's an agile weapon. Additionally, it can be used with Two-Weapon Fighting (and similar powers) to make additional attacks, as if it were a one-handed weapon and a light weapon.</p>",
     },
     {
       name: "Bow",
@@ -3478,7 +3478,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       ammunitionName: K[4].name,
       itemType: "weapon",
-      description: "<p>Um arco e flecha comum, próprio para tiro ao alvo.</p>",
+      description: "<p>A common bow and arrow, suitable for target shooting.</p>",
     },
     {
       name: "Crossbow",
@@ -3495,7 +3495,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[4].name,
       itemType: "weapon",
       description:
-        "<p>Esta arma da antiguidade exige uma ação de movimento para ser recarregada a cada disparo.</p>",
+        "<p>This ancient weapon requires a movement action to reload with each shot.</p>",
     },
     {
       name: "Pistol",
@@ -3512,7 +3512,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[0].name,
       itemType: "weapon",
       description:
-        "<p>Uma arma de mão comum entre policiais e militares por ser facilmente recarregável.</p>",
+        "<p>A common handgun among police and military personnel as it is easily reloadable.</p>",
     },
     {
       name: "Revolver",
@@ -3529,7 +3529,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[0].name,
       itemType: "weapon",
       description:
-        "<p>A arma de fogo mais comum, e uma das mais confiáveis.</p>",
+        "<p>The most common firearm, and one of the most reliable.</p>",
     },
     {
       name: "Hunting Rifle",
@@ -3546,7 +3546,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[1].name,
       itemType: "weapon",
       description:
-        "<p>Esta arma de fogo é bastante popular entre fazendeiros, caçadores e atiradores esportistas.</p>",
+        "<p>This firearm is very popular among farmers, hunters and sports shooters.</p>",
     },
     {
       name: "Hatchet",
@@ -3562,7 +3562,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Ferramenta útil para cortar madeira, pode ser facilmente encontrada em canteiros de obras e fazendas. Pode ser arremessada.</p>",
+        "<p>Useful tool for cutting wood, it can be easily found on construction sites and farms. Can be thrown.</p>",
     },
     {
       name: "Nunchaku",
@@ -3578,7 +3578,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Dois bastões curtos de madeira ligados por uma corrente. É uma arma ágil.</p>",
+        "<p>Two short wooden sticks linked by a chain. It is an agile weapon.</p>",
     },
     {
       name: "Chain",
@@ -3594,7 +3594,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Um pedaço de corrente grossa pode ser usado como uma arma bastante efetiva. A corrente fornece +2 em testes para desarmar e derrubar.</p>",
+        "<p>A piece of thick chain can be used as a very effective weapon. The chain provides +2 on disarm and knockdown checks.</p>",
     },
     {
       name: "Sword",
@@ -3611,7 +3611,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Uma arma medieval, como uma espada longa dos cavaleiros europeus ou uma cimitarra sarracena. Você pode empunhar uma espada com uma mão (dano 1d8) ou com as duas (dano 1d10).</p>",
+        "<p>A medieval weapon, such as a European knight's longsword or a Saracen scimitar. You can wield a sword with one hand (1d8 damage) or with both hands (1d10 damage).</p>",
     },
     {
       name: "Rapier",
@@ -3627,7 +3627,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Esta espada de lâmina fina e comprida é usada por esgrimistas.É uma arma ágil.</p>",
+        "<p>This sword with a thin and long blade is used by fencers. It is an agile weapon.</p>",
     },
     {
       name: "Axe",
@@ -3643,7 +3643,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Uma ferramenta importante para lenhadores e bombeiros, um machado pode causar ferimentos terríveis.</p>",
+        "<p>An important tool for lumberjacks and firefighters, an axe can cause terrible injuries.</p>",
     },
     {
       name: "Mace",
@@ -3659,7 +3659,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "weapon",
       description:
-        "<p>Bastão com uma cabeça metálica cheia de protuberâncias.</p>",
+        "<p>Stick with a metallic head full of protuberances.</p>",
     },
     {
       name: "Poleaxe",
@@ -3675,7 +3675,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Um machado grande e pesado, usado no corte de árvores largas.</p>",
+        "<p>A large, heavy axe, used in cutting down large trees.</p>",
     },
     {
       name: "Scythe",
@@ -3691,7 +3691,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Uma ferramenta agrícola, o gadanho é uma versão maior da foice, para uso com as duas mãos. Foi criada para ceifar cereais, mas também pode ceifar vidas.</p>",
+        "<p>An agricultural tool, used with both hands. It was created to harvest grain, but it can also harvest lives.</p>",
     },
     {
       name: "Katana",
@@ -3707,7 +3707,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Originária do Japão, esta espada longa e levemente curvada transcendeu os séculos. É uma arma ágil. Se você for veterano em Luta pode usá-la como uma arma de uma mão.</p>",
+        "<p>Originating in Japan, this long, gently curved sword has transcended the centuries. It's an agile weapon. If you are Veteran in Fighting you can use it as a one-handed weapon.</p>",
     },
     {
       name: "Sledgehammer",
@@ -3723,7 +3723,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Normalmente usada para demolir paredes, também pode ser usada para demolir pessoas. Use estas estatísticas para outras ferramentas de construção civil, como picaretas.</p>",
+        "<p>Typically used to demolish walls, it can also be used to demolish people. Use these statistics for other construction tools, such as pickaxes.</p>",
     },
     {
       name: "Longsword",
@@ -3739,7 +3739,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Enorme e pesada, esta espada de 1,5m de comprimento foi uma das armas mais poderosas em seu tempo.</p>",
+        "<p>Huge and heavy, this 1.5m long sword was one of the most powerful weapons of its time.</p>",
     },
     {
       name: "Chainsaw",
@@ -3755,7 +3755,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Uma ferramenta motorizada capaz de causar ferimentos profundos; sempre que rolar um 6 em um dado de dano com uma motosserra, role um dado de dano adicional. Apesar de potente, esta arma é muito desajeitada e impõe uma penalidade de -1d20 nos seus testes de ataque. Ligar uma motosserra gasta uma ação de movimento.</p>",
+        "<p>A motorized tool capable of causing deep injuries; whenever you roll a 6 on a chainsaw damage die, roll an additional damage die. Despite being powerful, this weapon is very clumsy and imposes a -1d20 penalty on your attack rolls. Starting a chainsaw takes one movement action.</p>",
     },
     {
       name: "Compound Bow",
@@ -3772,7 +3772,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[4].name,
       itemType: "weapon",
       description:
-        "<p>Este arco moderno usa materiais de alta tensão e um sistema de roldanas para gerar mais pressão. Ao contrário de outras armas de disparo, permite que você aplique seu valor de Força às rolagens de dano.</p>",
+        "<p>This modern bow uses high tension materials and a pulley system to generate more pressure. Unlike other arrow-based weapons, it allows you to apply your Strength value to damage rolls.</p>",
     },
     {
       name: "Crossbow",
@@ -3789,10 +3789,10 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[4].name,
       itemType: "weapon",
       description:
-        "<p>Uma besta pesada, capaz de disparos poderosos. Exige uma ação de movimento para ser recarregada a cada disparo.</p>",
+        "<p>A heavy crossbow, capable of powerful shots. Requires a movement action to be reloaded after each shot.</p>",
     },
     {
-      name: "Sub machine gun",
+      name: "Submachine gun",
       proficiencie: "Tactical Weapons",
       type: "Firearm",
       handling: "One Handed",
@@ -3806,7 +3806,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[0].name,
       itemType: "weapon",
       description:
-        "<p>Esta arma de fogo automática pode ser empunhada com apenas uma mão.</p>",
+        "<p>This automatic firearm can be wielded with just one hand.</p>",
     },
     {
       name: "Shotgun",
@@ -3823,7 +3823,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[2].name,
       itemType: "weapon",
       description:
-        "<p>Arma de fogo longa e com cano liso. A espingarda causa apenas metade do dano em alcance médio ou maior.</p>",
+        "<p>Long firearm with smooth barrel. The shotgun only deals half damage at medium range or greater.</p>",
     },
     {
       name: "Assault Rifle",
@@ -3840,7 +3840,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[1].name,
       itemType: "weapon",
       description:
-        "<p>A arma de fogo padrão da maioria dos exércitos modernos. É uma arma automática.</p>",
+        "<p>The standard firearm of most modern armies. It's an automatic weapon.</p>",
     },
     {
       name: "Sniper Rifle",
@@ -3857,7 +3857,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[1].name,
       itemType: "weapon",
       description:
-        "<p>Esta arma de fogo de uso militar é projetada para disparos longos e precisos. Se for veterano em Pontaria e mirar com um fuzil de precisão, você recebe +5 na margem de ameaça de seu ataque.</p>",
+        "<p>This military-grade firearm is designed for long, accurate shots. If you are a Veteran in Marksmanship and aim with your sniper rifle, you receive +5 to the threat range of your attack.</p>",
     },
     {
       name: "Rocket Launcher",
@@ -3874,7 +3874,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[5].name,
       itemType: "weapon",
       description:
-        "<p>Este lança-foguetes foi concebido como uma arma anti-tanques, mas também se mostrou eficaz contra criaturas. A bazuca causa seu dano no alvo atingido e em todos os seres num raio de 3m; esses seres (mas não o alvo atingido diretamente) têm direito a um teste de Reflexos (DT Agi) para reduzir o dano à metade. Você pode disparar o foguete num ponto qualquer em alcance médio, em vez de num ser específico; nesse caso, não precisa rolar ataque e não tem chance de errar (mas também não acerta nenhum ser diretamente). A bazuca exige uma ação de movimento para ser recarregada a cada disparo.</p>",
+        "<p>This rocket launcher was designed as an anti-tank weapon, but has also proven effective against creatures. The bazooka deals damage to the target it hits and to all beings within a 3m radius; these beings (but not the target directly hit) are entitled to a Reflexes saving throw (DT Agi) to reduce the damage by half. You can fire the rocket at any point in medium range, instead of at a specific being; In this case, you don't need to roll an attack and have no chance of missing (but you also don't hit any being directly). The bazooka requires a movement action to reload after each shot.</p>",
     },
     {
       name: "Flamethrower",
@@ -3891,7 +3891,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[3].name,
       itemType: "weapon",
       description:
-        "<p>Equipamento militar que esguicha líquido inflamável incandescente. Um lança-chamas atinge todos os seres em uma linha de 1,5m de largura com alcance curto, mas não alcança além disso. Faça um único teste de ataque e compare o resultado com a Defesa de todos os seres na área. Além de sofrer dano, seres atingidos ficam em chamas.</p>",
+        "<p>Military equipment that sprays incandescent flammable liquid. A flamethrower hits all beings in a 1.5m wide line within short range, but does not reach beyond that. Make a single attack roll and compare the result to the Defense of all beings in the area. In addition to taking damage, beings hit become On Fire.</p>",
     },
     {
       name: "Machine gun",
@@ -3908,7 +3908,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[1].name,
       itemType: "weapon",
       description:
-        "<p>Uma arma de fogo pesada, de uso militar. Para atacar com uma metralhadora, você precisa ter Força 4 ou maior ou gastar uma ação de movimento para apoiá-la em seu tripé ou suporte apropriado; caso contrário, sofre –5 em seus ataques. Uma metralhadora é uma arma automática.</p>",
+        "<p>A heavy firearm, for military use. To attack with a machine gun, you must have Strength 4 or greater or spend a movement action to rest it on its tripod or appropriate support; otherwise, you suffer –5 to your attacks. A machine gun is an automatic weapon.</p>",
     },
   ],
   hl = [
@@ -3919,7 +3919,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "protection",
       description:
-        "<p>Jaqueta de couro pesada ou um colete de kevlar. Essa proteção é tipicamente usada por seguranças e policiais.</p>",
+        "<p>Heavy leather jacket or a kevlar vest. This protection is typically used by security guards and police officers.</p>",
     },
     {
       name: "Heavy Armor",
@@ -3928,7 +3928,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 5,
       itemType: "protection",
       description:
-        "<p>Equipamento usado por forças especiais da polícia e pelo exército. Consiste de capacete, ombreiras, joelheiras e caneleiras, além de um colete com várias camadas de kevlar. Fornece resistência a balístico, corte, impacto e perfuração 2. No entanto, por ser desconfortável e volumosa, impõe –5 em testes de perícias que sofrem penalidade de carga.</p>",
+        "<p>Equipment used by police special forces and the army. It consists of a helmet, shoulder pads, knee pads and shin pads, as well as a vest with several layers of Kevlar. Provides resistance to ballistic, slashing, impact and piercing damage 2. However, because it is uncomfortable and bulky, it imposes –5 on skill checks that suffer from overburden penalty.</p>",
     },
     {
       name: "Shield",
@@ -3937,7 +3937,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "protection",
       description:
-        "<p>Um escudo medieval ou moderno, como aqueles usados por tropas de choque. Para efeitos de proficiência, conta como proteção pesada. Precisa ser empunhado em uma mão e fornece Defesa +2.</p>",
+        "<p>A medieval or modern shield, such as those used by storm troops. For proficiency purposes, it counts as heavy armor. Needs to be wielded in one hand and provides Defense +2.</p>",
     },
   ],
   gl = [
@@ -4836,7 +4836,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       target: "1 melee weapon",
       duration: "sustained",
       description:
-        "<p>The weapon is covered by crimson veins and exhales an aura of violence. It gives +2 on attack rols and +1 on threat margin.</p><p><strong>Advanced (+2 EP):</strong> changes the attack roll bonus to +5. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> changes the attack roll bonus to +5 and the threat margin and critital multiplier to +2. Requires 3rd circle and afinity.</p>",
+        "<p>The weapon is covered by crimson veins and exhales an aura of violence. It gives +2 on attack rolls and +1 on threat range.</p><p><strong>Advanced (+2 EP):</strong> changes the attack roll bonus to +5. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> changes the attack roll bonus to +5 and the threat range and critital multiplier to +2. Requires 3rd circle and afinity.</p>",
     },
     {
       name: "Blood Armor",

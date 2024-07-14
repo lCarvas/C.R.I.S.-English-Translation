@@ -77,7 +77,7 @@ const a = {
             "<p>Whenever a being voluntarily leaves a space adjacent to yours, you can use a reaction and 1 EP to make a melee attack against them.</p>",
         },
         {
-          name: "Fighting with Two Weapons",
+          name: "Two-Weapon Fighting",
           hasAutomation: !1,
           description:
             "<p>If you are wielding two weapons (and at least one of them is light) and make an attack, you can make two attacks, one with each weapon. If you do so, you suffer –1d20 on all attack rolls until your next turn. <em>Prerequisites:</em> Agi 3, trained in Fighting or Marksmanship.</p>",
@@ -197,13 +197,13 @@ const a = {
               name: "EXP 65% - Sublime Technique",
               hasAutomation: !1,
               description:
-                "<p>You add the following effects to your Secret Technique list:</p><p><span>Lethal.</span> Increases threat margin by +2. You can choose this effect twice to increase the threat margin by +5.</p><p><span><em>Piercing.</em></span> Ignores up to 5 points of any damage resistance type the target has.</p>",
+                "<p>You add the following effects to your Secret Technique list:</p><p><span>Lethal.</span> Increases threat range by +2. You can choose this effect twice to increase the threat range by +5.</p><p><span><em>Piercing.</em></span> Ignores up to 5 points of any damage resistance type the target has.</p>",
             },
             {
               name: "EXP 99% - Killing Machine",
               hasAutomation: !1,
               description:
-                "<p>The favorite weapon's category is now reduced by III, it receives +2 to the threat margin and its damage increases by one die of the same type.</p>",
+                "<p>The favorite weapon's category is now reduced by III, it receives +2 to the threat range and its damage increases by one die of the same type.</p>",
             },
           ],
         },
@@ -247,7 +247,7 @@ const a = {
               name: "EXP 10% - Lethal Technique",
               hasAutomation: !1,
               description:
-                "<p>You gain a +2 increase in threat margin to all of your melee attacks.</p>",
+                "<p>You gain a +2 increase in threat range to all of your melee attacks.</p>",
             },
             {
               name: "EXP 40% - Retaliate",
@@ -501,7 +501,7 @@ const a = {
               name: "EXP 40% - Lethal Shot",
               hasAutomation: !1,
               description:
-                "<p>When you make the aim action, you can spend 1 EP to increase the threat margin of the next attack you make by +2 until the end of your next turn.</p>",
+                "<p>When you make the aim action, you can spend 1 EP to increase the threat range of the next attack you make by +2 until the end of your next turn.</p>",
             },
             {
               name: "EXP 65% - Impactful Shot",
