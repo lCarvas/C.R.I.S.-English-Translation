@@ -179,7 +179,7 @@ const q = (v) => (J("data-v-fdd261f5"), (v = v()), Z(), v),
               l.character.isSobrevivendoAoHorror
                 ? (n(),
                   i("div", dt, [
-                    xe(" NÍVEL: "),
+                    xe(" LEVEL: "),
                     l.character.statsClass !== "Mundane"
                       ? (n(), i("span", vt, S(Ca(wa)[l.character.nex]), 1))
                       : (n(), i("span", mt, "0")),
