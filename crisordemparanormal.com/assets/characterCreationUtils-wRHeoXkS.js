@@ -63,6 +63,8 @@ const f = {
     skinDice: u[0],
     pdMarks: [!1, !1, !1],
     pdMode: !1,
+    isNexLevelOn: !1,
+    isPdOn: !1,
   },
   a = (e, i) => {
     i.value > 3 && (i.value = 3),
