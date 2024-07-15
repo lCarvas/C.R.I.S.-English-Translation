@@ -610,7 +610,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
             { class: "button button-primary", onClick: i },
             " Change Class "
           ),
-          a.charClass.name !== "Mundano"
+          a.charClass.name !== "Mundane"
             ? (o(),
               k(
                 U,
