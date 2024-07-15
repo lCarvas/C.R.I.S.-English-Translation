@@ -470,7 +470,7 @@ const a = {
           name: "First Impressioin",
           hasAutomation: !1,
           description:
-            "<p>You get +2d20 on the first Diplomacy, Deception, Intimidation, or Intuition check you make in a scene.</p>",
+            "<p>You get +2d20 on the first Diplomacy, Deception, Intimidation, or Insight check you make in a scene.</p>",
         },
         {
           name: "Transcend",

@@ -3707,7 +3707,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "weapon",
       description:
-        "<p>Originating in Japan, this long, gently curved sword has transcended the centuries. It's an agile weapon. If you are Veteran in Fighting you can use it as a one-handed weapon.</p>",
+        "<p>Originated in Japan, this long, gently curved sword has transcended the centuries. It's an agile weapon. If you are Veteran in Fighting you can use it as a one-handed weapon.</p>",
     },
     {
       name: "Sledgehammer",
@@ -3874,7 +3874,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       ammunitionName: K[5].name,
       itemType: "weapon",
       description:
-        "<p>This rocket launcher was designed as an anti-tank weapon, but has also proven effective against creatures. The bazooka deals damage to the target it hits and to all beings within a 3m radius; these beings (but not the target directly hit) are entitled to a Reflexes saving throw (DT Agi) to reduce the damage by half. You can fire the rocket at any point in medium range, instead of at a specific being; In this case, you don't need to roll an attack and have no chance of missing (but you also don't hit any being directly). The bazooka requires a movement action to reload after each shot.</p>",
+        "<p>This rocket launcher was designed as an anti-tank weapon, but has also proven effective against creatures. The bazooka deals damage to the target it hits and to all beings within a 3m radius; these beings (but not the target directly hit) are entitled to a Reflexes saving throw (DC Agi) to reduce the damage by half. You can fire the rocket at any point in medium range, instead of at a specific being; In this case, you don't need to roll an attack and have no chance of missing (but you also don't hit any being directly). The bazooka requires a movement action to reload after each shot.</p>",
     },
     {
       name: "Flamethrower",
@@ -3948,7 +3948,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um conjunto de ferramentas necessárias para algumas perícias ou usos de perícias. Sem o kit, você sofre –5 no teste. Existe um kit de perícia para cada perícia que exige este item.</p>",
+        "<p>A set of tools needed for some skills or skill uses. Without the kit, you suffer –5 on the check. There is a skill kit for each skill that requires this item.</p>",
     },
     {
       name: "Utensil",
@@ -3957,7 +3957,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um item comum que tenha uma utilidade específica, como um canivete, uma lupa, um smartphone ou um notebook. Um utensílio concede +2 em um teste de uma perícia a sua escolha (exceto Luta e Pontaria), definida quando o item é adquirido. Por exemplo, um smartphone pode ser usado para acessar a internet e fornecer bônus em Ciências, enquanto um notebook pode ser preparado para invadir sistemas e fornecer bônus em Tecnologia. Você pode inventar itens menos realistas, como um “detector de mentiras portátil” que fornece +2 em Intuição, mas o mestre tem a palavra final se o utensílio é apropriado ou não. Utensílios sempre ocupam 1 espaço e precisam ser empunhados para que o bônus seja aplicado.</p>",
+        "<p>A common item that has a specific use, such as a pocket knife, a magnifying glass, a smartphone or a notebook. A utensil grants +2 on a skill check of your choice (except Fighting and Marksmanship), defined when the item is acquired. For example, a smartphone can be used to access the internet and provide bonuses in Sciences, while a notebook can be prepared to hack systems and provide bonuses in Technology. You can create less realistic items, like a “portable lie detector” that provides +2 Insight, but the GM has the final say on whether the tool is appropriate or not. Utensils always take up 1 space and need to be wielded for the bonus to be applied.</p>",
     },
     {
       name: "Vestment",
@@ -3966,7 +3966,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Uma peça de vestuário que fornece um bônus em uma perícia específica (exceto Luta ou Pontaria). Por exemplo, um par de botas militares pode fornecer +2 em Atletismo, enquanto um terno ou vestido elegante pode fornecer +2 em Diplomacia. Assim como utensílios, o benefício de cada vestimenta deve ser aprovado pelo mestre. Você pode receber os bônus de no máximo duas vestimentas ao mesmo tempo. Vestir ou despir uma vestimenta é uma ação completa.</p>",
+        "<p>A piece of clothing that provides a bonus to a specific skill (except Fighting or Marksmanship). For example, a pair of military boots might provide +2 Athletics, while an elegant suit or dress might provide +2 Diplomacy. Just like utensils, the benefit of each vestment must be approved by the master. You can receive bonuses from a maximum of two vestment at the same time. Putting on or taking off a vestment takes a complete action.</p>",
     },
     {
       name: "Stun Grenade",
@@ -3975,7 +3975,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Também chamadas de flash-bang, por criarem um estouro barulhento e luminoso. Seres na área ficam atordoados por 1 rodada (Fortitude DT Agi reduz para ofuscado e surdo por uma rodada).</p>",
+        "<p>To use a grenade, you must wield it and then spend a standard action to throw it at a point of your choice within medium range. The grenade affects a 6m radius from the point of impact. The effect it causes varies depending on the type of grenade.</p><p>Also called flash-bang, as they create a loud and bright explosion. Beings in the area are Stunned for 1 round (Fortitude DC Agi reduces to Obfuscated and Deafened for one round).</p>",
     },
     {
       name: "Frag Grenade",
@@ -3984,7 +3984,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Espalha fragmentos perfurantes. Seres na área sofrem 8d6 pontos de dano de perfuração (Reflexos DT Agi reduz à metade).</p>",
+        "<p>To use a grenade, you must wield it and then spend a standard action to throw it at a point of your choice within medium range. The grenade affects a 6m radius from the point of impact. The effect it causes varies depending on the type of grenade.</p><p>Spreads piercing fragments. Beings in the area take 8d6 points of piercing damage (Reflex DC Agi halves the damage).</p>",
     },
     {
       name: "Smoke Grenade",
@@ -3993,7 +3993,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Produz uma fumaça espessa e escura. Seres na área ficam cegos e sob camuflagem total. A fumaça dura 2 rodadas.</p>",
+        "<p>To use a grenade, you must wield it and then spend a standard action to throw it at a point of your choice within medium range. The grenade affects a 6m radius from the point of impact. The effect it causes varies depending on the type of grenade.</p><p>It produces thick, dark smoke. Beings in the area are Blinded and under Total Camouflage. The smoke lasts for 2 rounds.</p>",
     },
     {
       name: "Incendiary Grenade",
@@ -4002,7 +4002,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Para usar uma granada, você precisa empunhá-la e então gastar uma ação padrão para arremessá-la em um ponto à sua escolha em alcance médio. A granada afeta um raio de 6m a partir do ponto de impacto. O efeito que ela causa varia conforme o tipo de granada.</p><p>Espalha labaredas incandescentes. Seres na área sofrem 6d6 pontos de dano de fogo e ficam em chamas (Reflexos DT Agi reduz o dano à metade e evita a condição em chamas).</p>",
+        "<p>To use a grenade, you must wield it and then spend a standard action to throw it at a point of your choice within medium range. The grenade affects a 6m radius from the point of impact. The effect it causes varies depending on the type of grenade.</p><p>Spreads incandescent flames. Beings in the area take 6d6 points of fire damage and become On Fire (Reflexes DC Agi halves the damage and prevents the On Fire condition).</p>",
     },
     {
       name: "Antipersonnel mine",
@@ -4011,7 +4011,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Esta mina é ativada por controle remoto. Se você estiver a até alcance longo dela, pode gastar uma ação padrão para detoná-la. Ao explodir, a mina dispara centenas de bolas de aço em um cone de 6m, causando 12d6 pontos de dano de perfuração em todos os seres na área (Reflexos DT Int reduz à metade). Você define a direção do cone quando posiciona a mina no chão. Instalar a mina exige uma ação completa e um teste de Tática contra DT 15. Caso falhe, você gasta a mina, mas ela não funciona. Encontrar uma mina instalada exige um teste de Percepção (DT igual ao resultado do seu teste para instalá-la).</p>",
+        "<p>This mine is activated by remote control. If you are within long range of it, you can spend a standard action to detonate it. When exploding, the mine fires hundreds of steel balls in a 6m cone, dealing 12d6 points of piercing damage to all beings in the area (Reflexes DC Int halves the damage). You set the direction of the cone when you place the mine on the ground. Installing the mine requires a full action and a Tactics check against DC 15. If you fail, you spend the mine, but it doesn't work. Finding a deployed mine requires a Perception check (DC equal to the result of your check to deploy it).</p>",
     },
     {
       name: "Handcuffs",
@@ -4020,7 +4020,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Algemas. Um par de algemas de aço. Para prender uma pessoa que não esteja indefesa você precisa empunhar a algema, agarrar a pessoa e então vencer um novo teste de agarrar contra ela. Você pode prender os dois pulsos da pessoa (–5 em testes que exijam o uso das mãos, impede conjuração) ou um dos pulsos dela em um objeto imóvel adjacente, caso haja, para impedir que ela se mova. Escapar das algemas exige um teste de Acrobacia contra DT 30 (ou ter as chaves...).</p>",
+        "<p>A pair of steel handcuffs. To arrest a person who is not Defenseless you need to wield the handcuffs, Restrain the person and then win a new Restrain check against them. You can bind both of the person's wrists (–5 on checks that require use of the hands, prevents casting) or one of their wrists to an adjacent immovable object, if there is one, to prevent them from moving. Escaping the handcuffs requires an Acrobatics check against DC 30 (or having the keys...).</p>",
     },
     {
       name: "Grappling hook",
@@ -4029,7 +4029,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um gancho de aço amarrado na ponta de uma corda para se fixar em muros, janelas, parapeitos de prédios... Prender um arpéu exige um teste de Pontaria (DT 15). Subir um muro com a ajuda de uma corda fornece +5 no teste de Atletismo.</p>",
+        "<p>A steel hook tied to the end of a rope to attach to walls, windows, building parapets... Attaching a grapnel requires a Marksmanship test (DC 15). Climbing a wall with the help of a rope provides +5 to the Athletics check.</p>",
     },
     {
       name: "Bandolier",
@@ -4038,7 +4038,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um cinto com bolsos e alças. Uma vez por rodada, você pode sacar ou guardar um item em seu inventário como uma ação livre.</p>",
+        "<p>A belt with pockets and straps. Once per round, you may draw or put away an item in your inventory as a free action.</p>",
     },
     {
       name: "Binoculars",
@@ -4047,7 +4047,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Estes binóculos militares fornecem +5 em testes de Percepção para observar coisas distantes.</p>",
+        "<p>These military binoculars provide +5 on Perception checks to observe distant things.</p>",
     },
     {
       name: "Signal Jammer",
@@ -4056,7 +4056,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Este dispositivo compacto emite ondas que “poluem” a frequência de rádio usada por celulares, impedindo que qualquer aparelho desse tipo em alcance médio se conecte.</p>",
+        "<p>This compact device emits waves that “pollute” the radio frequency used by cell phones, preventing any device of this type within medium range from connecting.</p>",
     },
     {
       name: "Healing ointement",
@@ -4065,7 +4065,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um spray contendo um remédio com potente efeito cicatrizante. Você pode gastar uma ação padrão e este item para curar 2d8+2 PV em você ou em um ser adjacente.</p>",
+        "<p>A spray containing a medicine with a powerful healing effect. You can spend a standard action and this item to heal yourself or an adjacent being for 2d8+2 HP.</p>",
     },
     {
       name: "Rope",
@@ -4074,7 +4074,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um rolo com 10 metros de corda resistente. Possui diversas utilidades: pode ajudar a descer um buraco ou prédio (+5 em testes de Atletismo nessas situações), amarrar pessoas inconscientes etc.</p>",
+        "<p>A roll of 10 meters of strong rope. It has several uses: it can help descend a hole or building (+5 on Athletics checks in these situations), tie up unconscious people, etc.</p>",
     },
     {
       name: "Survival Equipment",
@@ -4083,7 +4083,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "misc",
       description:
-        "<p>Uma mochila com saco de dormir, panelas, GPS e outros itens úteis para sobreviver no mato. Fornece +5 em testes de Sobrevivência para acampar e orientar-se e permite que você faça esses testes sem treinamento.</p>",
+        "<p>A backpack with a sleeping bag, pans, GPS and other useful items for surviving in the bush. Provides +5 to Survival checks for camping and orienteering and allows you to make these checks without trainment.</p>",
     },
     {
       name: "Tactical flashlight",
@@ -4092,7 +4092,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Ilumina lugares escuros. Além disso, você pode gastar uma ação de movimento para mirar a luz nos olhos de um ser em alcance curto. Ele fica ofuscado por 1 rodada, mas imune à lanterna pelo resto da cena.</p>",
+        "<p>Lights up dark places. Additionally, you can spend a movement action to shine light into the eyes of a being at short range. He is Obfuscated for 1 round, but immune to the flashlight for the rest of the scene.</p>",
     },
     {
       name: "Gas Mask",
@@ -4101,7 +4101,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Uma máscara com filtro que cobre o rosto inteiro. Fornece +10 em testes de Fortitude contra efeitos que dependam de respiração.</p>",
+        "<p>A mask with a filter that covers the entire face. Provides +10 to Fortitude saving throws against effects that rely on breathing.</p>",
     },
     {
       name: "Military backpack",
@@ -4110,7 +4110,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: -2,
       itemType: "misc",
       description:
-        "<p>Uma mochila leve e de alta qualidade. Ela não usa nenhum espaço e aumenta sua capacidade de carga em 2 espaços.</p>",
+        "<p>A lightweight, high-quality backpack. It uses no space and increases your carrying capacity by 2 spaces.</p>",
     },
     {
       name: "Thermal Vision goggles",
@@ -4119,7 +4119,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Estes óculos eliminam a penalidade em testes por camuflagem.</p>",
+        "<p>These glasses eliminate the penalty on checks for camouflage.</p>",
     },
     {
       name: "Crowbar",
@@ -4128,7 +4128,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Esta barra de ferro fornece +5 em testes de Força para arrombar portas. Pode ser usada em combate como um bastão.</p>",
+        "<p>This iron bar provides +5 on Strength checks to break down doors. Can be used in combat as a bat.</p>",
     },
     {
       name: "Dart Gun",
@@ -4137,7 +4137,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Esta arma dispara dardos com um poderoso sonífero. Para disparar em um ser, faça um ataque à distância contra ele. Se acertá-lo, ele fica inconsciente até o fim da cena (Fortitude DT Agi reduz para desprevenida e lenta por uma rodada). A pistola vem com 2 dardos. Uma caixa adicional com 2 dardos é um item de categoria 0 que ocupa 1 espaço.</p>",
+        "<p>This weapon fires darts with a powerful soporific. To shoot a being, make a ranged attack against it. If you hit it, it is unconscious until the end of the scene (Fortitude DC Agi reduces it to Off-Guard and Slow for one round). The pistol comes with 2 darts. An additional box with 2 darts is a category 0 item that takes up 1 space.</p>",
     },
     {
       name: "Flare Gun",
@@ -4146,7 +4146,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Esta pistola dispara um sinalizador luminoso, útil para chamar outras pessoas para sua localização. Pode ser usada uma vez como uma arma de disparo leve com alcance curto que causa 2d6 pontos de dano de fogo. A pistola vem com 2 cargas. Uma caixa adicional com 2 cargas é um item de categoria 0 que ocupa 1 espaço.</p>",
+        "<p>This pistol fires a flare, useful for calling others to your location. Can be used once as a short-range, light firearm that deals 2d6 points of fire damage. The pistol comes with 2 charges. An additional box with 2 charges is a category 0 item that takes up 1 space.</p>",
     },
     {
       name: "Brass knuckles",
@@ -4155,7 +4155,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Esta peça de metal e usada entre os dedos e permite socos mais perigosos — fornece +1 em rolagens de dano desarmado. Uma soqueira pode receber modificações e maldições de armas corpo a corpo e aplica os efeitos delas em seus ataques desarmados.</p>",
+        "<p>This metal piece is worn between the fingers and allows for more dangerous punches — it provides +1 to unarmed damage rolls. A brass knuckle can receive modifications and curses for melee weapons and apply their effects to your unarmed attacks.</p>",
     },
     {
       name: "Pepper Spray",
@@ -4164,7 +4164,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Este spray dispara um composto químico que causa dor e lacrimejo. Você pode gastar uma ação padrão para atingir um ser adjacente. O ser fica cego por 1d4 rodadas (Fortitude DT Agi evita). A carga do spray dura dois usos.</p>",
+        "<p>This spray shoots a chemical compound that causes pain and tearing. You can spend a standard action to target an adjacent being. The being is Blinded for 1d4 rounds (Fortitude DC Agi avoids the condition). The spray lasts for two uses.</p>",
     },
     {
       name: "Tazer",
@@ -4173,7 +4173,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um dispositivo de eletrochoque capaz de atordoar ou até incapacitar um alvo. Você pode gastar uma ação padrão para atingir um ser adjacente. O alvo sofre 1d6 pontos de dano de eletricidade e fica atordoado por uma rodada (Fortitude DT Agi evita). A bateria do taser dura dois usos.</p>",
+        "<p>An electroshock device capable of stunning or even incapacitating a target. You can spend a standard action to target an adjacent being. The target takes 1d6 points of electricity damage and is Stunned for one round (Fortitude DC Agi prevents the condition). The taser battery lasts for two uses.</p>",
     },
     {
       name: "Hazmat Suit",
@@ -4182,7 +4182,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 2,
       itemType: "misc",
       description:
-        "<p>Uma roupa impermeável e que cobre o corpo inteiro, usada para impedir o contato do usuário com materiais tóxicos. Fornece +5 em testes de resistência contra efeitos ambientais e resistência a químico 10.</p>",
+        "<p>A waterproof, full-body clothing used to prevent the user from coming into contact with toxic materials. Provides +5 on saving throws against environmental effects and resistance to chemical damage 10.</p>",
     },
     {
       name: "(Element) Lashes",
@@ -4191,7 +4191,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Cordas ou correntes feitas de um elemento Paranormal específico. As amarras são preparadas para imobilizar criaturas do Outro Lado que sejam vulneráveis ao elemento que as compõem e podem ser usadas de duas formas.</p><p><span>Armadilha.</span> Você gasta as amarras, uma ação completa e 2 EP e prepara uma armadilha de 3x3m. Uma criatura que atravesse o espaço pela primeira vez em seu turno precisa fazer um teste de de Reflexos (DT Int); se falhar, fica imóvel até o final da cena. Mesmo se passar, considera o espaço ocupado pela armadilha como terreno difícil.</p><p><span>Laçar.</span> Você gasta uma ação padrão e 1 EP e escolhe uma criatura em alcance curto. Se falhar num teste de Vontade (DT Agi), a criatura fica paralisada até o início de seu próximo turno, quando pode repetir o teste. Manter a criatura enlaçada requer o gasto de 1 EP por rodada.</p>",
+        "<p>Ropes or chains made from a specific Paranormal element. The lashes are prepared to immobilize creatures of the Other Side that are vulnerable to the element that composes them and can be used in two ways.</p><p><span>Trap.</span> You spend the lashes, a complete action and 2 EP and prepare a 3x3m trap. A creature that passes through the trapped space for the first time on its turn must make a Reflexes check (DC Int); if it fails, it remains Immobilized until the end of the scene. Even if it passes, it considers the space occupied by the trap to be difficult terrain.</p><p><span>Lasso.</span> You spend a standard action and 1 EP and choose a creature within short range. If it fails on a Will savin throw (DC Agi), the creature is Paralyzed until the start of its next turn, when it can repeat the test. Keeping the creature ensnared requires spending 1 EP per round.</p>",
     },
     {
       name: "Paranormal Aura Camera",
@@ -4200,7 +4200,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Esta câmera amaldiçoada com Energia possui sigilos de Conhecimento para capturar auras paranormais. Tirar uma foto gasta uma ação padrão e 1 EP. As fotos são instantâneas e revelam a presença de auras paranormais em pessoas e objetos. As auras são da cor associada ao elemento.</p>",
+        "<p>This Energy cursed camera has Knowledge sigils to capture paranormal auras. Taking a photo costs a standard action and 1 EP. The photos are instantaneous and reveal the presence of paranormal auras in people and objects. Auras are the color associated with the element.</p>",
     },
     {
       name: "(Element) Ritualistic Components",
@@ -4209,7 +4209,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um conjunto de objetos utilizados em rituais de um elemento entre Sangue, Morte, Conhecimento ou Energia (não existem componentes ritualísticos de Medo). Componentes ritualísticos são necessários para a conjuração de rituais do elemento em questão.</p><p><span>Energia:</span> eletricidade, dispositivos tecnológicos (celulares, computadores etc.), circuitos eletrônicos, fontes de calor e luz, pilhas, baterias, cabos de cobre e prata, pólvora, moedas, dados, ímãs...</p><p><span>Sangue:</span> órgãos, carne, sangue, animais vivos (para sacrifício), navalhas, agulhas, arame farpado, correntes, metal enferrujado, fluídos corporais...</p><p><span>Morte:</span> ossos, dentes, cinzas, fios de cabelo, cristais pretos, relógios, galhos secos, folhas secas, plantas mortas, raízes, areia, poeira, Lodo...</p><p><span>Conhecimento:</span> escrituras, papéis, livros, pergaminhos, pedras preciosas, ouro, cordas, tecido, cristais brancos, vidro, máscaras, instrumentos de escrita (lápis, caneta, tinta, giz etc.)...</p>",
+        "<p>A set of objects used in rituals of a chosen element between Blood, Death, Knowledge or Energy (there are no ritual components of Fear). Ritualistic components are necessary for the conjuration of rituals of the element in question.</p><p><span>Energy:</span> electricity, technological devices (cell phones, computers, etc.), electronic circuits, heat and light sources, cells, batteries, copper and silver cables, gunpowder, coins, dice, magnets...</p><p><span>Blood:</span> organs, meat, blood, live animals (for sacrifice), razors, needles, barbed wire, chains, rusty metal, bodily fluids...</p><p><span>Death:</span> bones, teeth, ashes, strands of hair, black crystals, watches, dry twigs , dry leaves, dead plants, roots, sand, dust, mud...</p><p><span>Knowledge:</span> scriptures, papers, books, parchments, precious stones, gold, ropes, cloth, white crystals, glass, masks, writing instruments (pencil, pen, ink, chalk, etc.)...</p>",
     },
     {
       name: "Paranormal Pulse Emitter",
@@ -4218,7 +4218,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Esta pequena caixa coberta de sigilos foi desenvolvida para servir como uma “isca” de criaturas paranormais. Ativar a caixa gasta uma ação completa e 1 EP. A caixa emite um pulso de um elemento definido pelo ativador, que atrai criaturas do mesmo elemento e afasta criaturas do elemento oposto. As criaturas afetadas têm direito a um teste de Vontade (DT Pre) para evitar o efeito.</p>",
+        "<p>This small box covered in sigils was designed to serve as a “bait” for paranormal creatures. Activating the box takes a full action and 1 EP. The box emits a pulse of an element defined by the activator, which attracts creatures of the same element and drives away creatures of the opposite element. Affected creatures are allowed a Will saving throw (DC Pre) to avoid the effect.</p>",
     },
     {
       name: "Paranormal Noises Wiretap",
@@ -4227,7 +4227,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Este microfone funciona como um aparato espião, com a diferença que consegue captar ruídos paranormais. Ativar a escuta gasta uma ação completa e 2 EP e faz com que ela grave ruídos por até 24 horas. Ouvir a escuta fornece +5 em testes de Ocultismo para identificar criatura.</p>",
+        "<p>This microphone works like a spy device, with the difference being that it can capture paranormal noises. Activating spends a full action and 2 EP and causes it to record noise for up to 24 hours. Listening provides +5 on Occultism checks to identify the creature.</p>",
     },
     {
       name: "Membrane Stability Meter",
@@ -4236,7 +4236,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Um dispositivo complexo, composto por diversos medidores — de temperatura, campo magnético, dilatação temporal... Um agente treinado em Ocultismo pode usar o medidor para avaliar o estado da Membrana em uma área, o que indica a chance de uma entidade se manifestar nela. Um ambiente com valores racionais e constantes ao longo de algumas horas dificilmente originará uma criatura ou manifestação perigosa. Porém, se as leituras apresentarem dados inexplicáveis ou com grandes variações, o lugar poderá conter uma entidade. Apesar de ser um bom indicativo, o medidor não fornece respostas definitivas, já que um ambiente com a Membrana danificada ainda pode não ter sido afetado por manifestações, assim como um lugar com a Membrana protegida por conter uma criatura poderosa vinda de outro lugar.</p>",
+        "<p>A complex device, composed of several meters — temperature, magnetic field, temporal dilation... An agent trained in Occultism can use the meter to assess the state of the Membrane in an area, which indicates the chance of an entity manifesting itself in it . An environment with rational and constant values ​​over a few hours is unlikely to give rise to a dangerous creature or manifestation. However, if the readings present inexplicable data or with large variations, the place may contain an entity. Despite being a good indication, the meter does not provide definitive answers, as an environment with a damaged Membrane may still not have been affected by manifestations, just as a place with a protected Membrane may contain a powerful creature from elsewhere.</p>",
     },
     {
       name: "(Element) Paranormal Manifestation Scanner",
@@ -4245,7 +4245,7 @@ const js = "/assets/ordem-paranormal-toggle-dP8B_BsS.webp",
       slots: 1,
       itemType: "misc",
       description:
-        "<p>Este item é composto por um dispositivo conectado a pequenos objetos amaldiçoados de uma entidade específica e adornado com uma série de sigilos. Ativar o scanner é uma ação padrão. Quando ativado, o scanner consome 1 EP por rodada do usuário, que sempre sabe a direção de todas as manifestações paranormais ativas (rituais, criaturas, itens amaldiçoados etc.) do elemento escolhido em alcance longo. Se o elemento principal de uma criatura for outro, mas ela tiver como complemento o elemento escolhido do scanner, também será detectada.</p>",
+        "<p>This item is comprised of a device connected to small cursed objects belonging to a specific entity and adorned with a series of sigils. Activating the scanner is a standard action. When activated, the scanner consumes 1 EP per round from the user, who always knows the direction of all active paranormal manifestations (rituals, creatures, cursed items, etc.) of the chosen element within long range. If a creature's main element is another, but it has the scanner's chosen element as a complement, it will also be detected.</p>",
     },
   ],
   fl = [

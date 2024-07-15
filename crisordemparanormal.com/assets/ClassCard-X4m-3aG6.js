@@ -98,7 +98,7 @@ const Xa = [
       name: "Civil Servant",
       description:
         "<p>Você possuía carreira em um órgão do governo, lidando com burocracia e atendendo pessoas. Sua rotina foi quebrada quando você viu que o prefeito era um cultista ou que a câmara de vereadores se reunia à noite para realizar rituais. Quando os próprios representantes do povo estão dispostos a sacrificá-lo para entidades malignas, onde reside nossa esperança? Hoje, você sabe a resposta para essa pergunta: na Ordo Realitas.</p>",
-      skills: ["Intuition", "Will"],
+      skills: ["Insight", "Will"],
       power: {
         name: "Civic Spirit",
         hasAutomation: !1,
@@ -196,7 +196,7 @@ const Xa = [
       name: "Healthcare Worker",
       description:
         "<p>Você era um profissional da saúde como um enfermeiro, farmacêutico, médico, psicólogo ou socorrista, treinado no atendimento e cuidado de pessoas. Você pode ter sido surpreendido por um evento paranormal durante o trabalho ou mesmo cuidado de um agente da Ordem em uma emergência, que ficou surpreso com o quão bem você lidou com a situação.</p>",
-      skills: ["Intuition", "Medicine"],
+      skills: ["Insight", "Medicine"],
       power: {
         name: "Medicinal Techniques",
         hasAutomation: !1,
@@ -292,7 +292,7 @@ const Xa = [
       name: "Professor",
       description:
         "<p>Você leciona em uma escola ou universidade, ensinando ciências, artes ou outro campo do saber. Sua profissão é uma das mais nobres de todas e o colocou em contato com muitas pessoas e conhecimentos. Em algum momento, o colocou em contato também com o paranormal. Agora, trabalhando na Ordem, seus alunos são criaturas do Outro Lado, e você planeja reprovar todos esse ano.</p>",
-      skills: ["Sciences", "Intuition"],
+      skills: ["Sciences", "Insight"],
       power: {
         name: "Field Class",
         hasAutomation: !1,

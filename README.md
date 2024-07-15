@@ -1,5 +1,5 @@
 # C.R.I.S. English Translation
-####  Last updated 14/07/2024 22:42 UTC+1
+####  Last updated 15/07/2024 02:45 UTC+1
 
 |Translation Progress|Names/Headers|Descriptions|Interfaces/Other small things|
 |-|:-:|:-:|:-:|
@@ -11,8 +11,8 @@
 |Campaign Page ✅ (Can't fully test, encounters are in development)|
 |DM Screen ✅ (Can't fully test, encounters are in development)|
 |Homebrew Page ✅|
-|Items 🟡|🟡|❌|✅|
-|Rituals 🟡|✅|❌|✅|
+|Items 🟡|🟡|🟡|✅|
+|Rituals 🟡|✅|🟡|✅|
 |Creatures 🟡 (No way to test as feature is in development)|🟡|❌|🟡|
 |Backgrounds 🟡|✅|❌|✅|
 |Classes ✅|
@@ -27,8 +27,7 @@
  - ⬛ Not applicable
 
 ### Support
+#### Last updated ~05/2024
 - Chromium Browsers ✅
 - Firefox 🟡
-  - Harder to use local overrides, website fonts look weird, useable but I don't recomend
-- Opera/Opera GX
-  - Untested
+  - Harder to use local overrides, website fonts look weird, useable but I don't recommend
