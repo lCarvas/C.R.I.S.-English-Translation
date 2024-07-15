@@ -407,7 +407,7 @@ const Ns = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
               )),
           e("div", Zs, [
             e("div", en, [
-              n.character.statsClass !== "MundanE"
+              n.character.statsClass !== "Mundane"
                 ? (s(),
                   x(
                     ma,
