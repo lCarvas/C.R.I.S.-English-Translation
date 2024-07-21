@@ -110,7 +110,7 @@ const r = (e) => ($("data-v-31bd023d"), (e = e()), j(), e),
         h = N(!!d.homebrewAdd),
         E = T(),
         k = D(() => g[d.ritual.element.toLowerCase()]),
-        M = D(() => (k.value === "#fff" || "#dae4e6" ? "#121212" : "#fff")),
+        M = D(() => (k.value === "#fff" || k.value === "#dae4e6" ? "#121212" : "#fff")),
         L = () => {
           m("handleAdd", d.ritual);
         },
@@ -350,7 +350,7 @@ const r = (e) => ($("data-v-31bd023d"), (e = e()), j(), e),
                           ]),
                           t("div", Ee, [
                             t("h3", null, [
-                              u("Execução: "),
+                              u("Execution: "),
                               t(
                                 "span",
                                 null,

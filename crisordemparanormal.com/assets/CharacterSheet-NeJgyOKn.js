@@ -4961,7 +4961,7 @@ const Ns = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       duration: "scene",
       save: "Will nullyfies",
       description:
-        "<p>O ritual confere a você compreensão sobrenatural da linguagem. Se tocar um objeto contendo informação (ou livro, um dispositivo com uma gravação...), você entende as palavras mesmo que não conheça seu idioma, contanto que se trate de um idioma humano (não funciona com símbolos ou sigilos paranormais). Se tocar uma pessoa, pode se comunicar com ela como se falassem um idioma em comum. Se tocar um ser não inteligente, como um animal, pode perceber seus sentimentos básicos, como medo ou felicidade. Um alvo involuntário tem direito a um teste de Vontade.</p><p><strong>Advanced (+2 EP):</strong> muda o alcance para “curto” e o alvo para “alvos escolhidos”. Você pode entender todos os alvos afetados. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> muda o alcance para “pessoal” e o alvo para “você”. Em vez do normal, você pode falar, entender e escrever qualquer idioma humano. Requires 3rd circle.</p>",
+        "<p>The ritual gives you supernatural understanding of language. If you touch an object containing information (or book, a device with a recording...), you understand the words even if you don't know their language, as long as it is a human language (does not work with paranormal symbols or sigils). If you touch a person, you can communicate with them as if you spoke a common language. If you touch a non-intelligent being, such as an animal, you can perceive its basic feelings, such as fear or happiness. An unwilling target is entitled to a Will saving throw.</p><p><strong>Advanced (+2 EP):</strong> changes the range to “short” and the target to “chosen targets”. You can understand all affected targets. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> changes the range to “personal” and the target to “you”. Instead of normal, you can speak, understand and write any human language. Requires 3rd circle.</p>",
     },
     {
       name: "Knowing Fear",
@@ -5000,7 +5000,7 @@ const Ns = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       discenteDice: "6d6",
       verdadeiroDice: "3d6",
       description:
-        "<p>Você suga uma pequena porção do tempo de vida de plantas, insetos e até mesmo do solo ao redor, gerando lodo e recebendo 3d6 pontos de vida temporários. Os PV temporários desaparecem ao final da cena.</p><p><strong>Advanced (+2 EP):</strong> muda os PV temporários recebidos para 6d6. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> muda o alvo para “área: esfera com 6m de raio centrada em você” e a resistência para “Fortitude reduz à metade”. Em vez do normal, você suga energia de todos os seres vivos na área, causando 3d6 pontos de dano de Death em cada um e recebendo PV temporários iguais ao dano total causado até o final da cena. Requires 3rd circle and afinity.</p>",
+        "<p>You suck out a small portion of the lifespan of plants, insects, and even the surrounding soil, generating sludge and gaining 3d6 temporary hit points. Temporary HP disappears at the end of the scene.</p><p><strong>Advanced (+2 EP):</strong> changes temporary HP gained to 6d6. Requires 2nd circle.</p><p><strong>True (+5 EP):</strong> changes the target to “area: sphere with 6m radius centered on you” and the saving throw to “Fortitude halves”. Instead of normal, you suck energy from all living things in the area, dealing 3d6 points of Death damage to each one and gaining temporary HP equal to the total damage dealt until the end of the scene. Requires 3rd circle and afinity.</p>",
     },
     {
       name: "Paranormal Contactl",
@@ -5060,7 +5060,7 @@ const Ns = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       duration: "scene",
       save: "Will parcial, Fortitude reduces partially",
       description:
-        "<p>Este ritual modifica a biologia do alvo para permitir a sobrevivência em ambientes hostis. O alvo fica imune a calor e frio extremos, pode respirar na água se respirar ar (ou vice-versa) e não sufoca em fumaça densa.</p><p><strong>Advanced (+2 EP):</strong> muda a duração para 1 dia.</p><p><strong>True (+5 EP):</strong> muda o alcance para “curto” e o alvo para “pessoas ou animais escolhidos”.</p>",
+        "<p>This ritual modifies the target's biology to allow survival in hostile environments. The target is immune to extreme heat and cold, can breathe underwater if it breathes air (or vice versa), and does not suffocate in dense smoke.</p><p><strong>Advanced (+2 EP):</strong> changes the duration to 1 day.</p><p><strong>True (+5 EP):</strong> changes the range to “short” and the target to “chosen people or animals”.</p>",
     },
     {
       name: "Decadence",
@@ -5075,7 +5075,7 @@ const Ns = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       discenteDice: "3d8+3",
       verdadeiroDice: "8d8+8",
       description:
-        "<p>Espirais de trevas envolvem sua mão e definham o alvo, que sofre 2d8+2 pontos de dano de Death.</p><p><strong>Advanced (+2 EP):</strong> muda a resistência para “nenhuma” e o dano para 3d8+3. Como parte da execução do ritual, você transfere as espirais para uma arma e faz um ataque corpo a corpo contra o alvo com esta arma. Se acertar, causa o dano da arma e do ritual, somados.</p><p><strong>True (+5 EP):</strong> muda o alcance para “pessoal” o alvo para “área: explosão com 6m de raio” e o dano para 8d8+8. As espirais afetam todos os seres na área. Requires 3rd circle.</p>",
+        "<p>Spirals of darkness envelop your hand and wither the target, who takes 2d8+2 points of Death damage.</p><p><strong>Advanced (+2 EP):</strong> changes saving throw to “none” and damage to 3d8+3. As part of performing the ritual, you transfer the spirals to a weapon and make a melee attack against the target with this weapon. If you hit, you deal damage from the weapon and the ritual, combined.</p><p><strong>True (+5 EP):</strong> changes the range to “personal”, the target to “area: explosion with 6m radius” and the damage to 8d8+8. The spirals affect all beings in the area. Requires 3rd circle.</p>",
     },
     {
       name: "Languish",
