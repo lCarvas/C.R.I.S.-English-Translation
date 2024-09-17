@@ -1,5 +1,5 @@
 # C.R.I.S. English Translation
-####  Last updated 21/07/2024 19:03 UTC+1
+####  Last updated 17/09/2024 11:43 UTC+1
 
 |Translation Progress|Names/Headers|Descriptions|Interfaces/Other small things|
 |-|:-:|:-:|:-:|
@@ -8,12 +8,12 @@
 |Character Creation ✅| 
 |Character Sheet ✅|
 |Campaign List Page ✅|
-|Campaign Page ✅ (Can't fully test, encounters are in development)|
-|DM Screen ✅ (Can't fully test, encounters are in development)|
+|Campaign Page ✅|
+|GM Screen ✅|
 |Homebrew Page ✅|
 |Items 🟡|🟡|🟡|✅|
 |Rituals 🟡|✅|🟡|✅|
-|Creatures 🟡 (No way to test as feature is in development)|🟡|❌|🟡|
+|Creatures 🟡
 |Backgrounds 🟡|✅|❌|✅|
 |Classes ✅|
 |Class Paths ✅|
