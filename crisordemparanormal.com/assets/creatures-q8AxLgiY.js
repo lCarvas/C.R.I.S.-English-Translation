@@ -3908,7 +3908,7 @@ const n = [
       pvMax: 30,
       resistencias: { energia: 5 },
       vulnerabilidades: ["conhecimento"],
-      attributes: { dex: 3, str: 2, int: 0, pre: -1, con: 1 },
+      attributes: { dex: 3, str: 2, int: 0, pre: 0, con: 1 },
       movement: 9,
       powers: [
         {
