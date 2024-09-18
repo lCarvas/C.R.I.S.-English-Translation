@@ -48,15 +48,15 @@ import {
   l as Ft,
   y as Nt,
   z as Bt,
-} from "./index-zHTPDNNN.js";
+} from "./index-IvR42Nn2.js";
 import {
   g as Qt,
   r as Eo,
   b as Gt,
   u as Xt,
   a as Wt,
-} from "./index.esm2017-tfIAIMr4.js";
-import { T as Kt } from "./ToastNotification-zJyrOyEq.js";
+} from "./index.esm2017-EftcTv1r.js";
+import { T as Kt } from "./ToastNotification-HpHake5D.js";
 import {
   n as ua,
   I as Ue,
@@ -96,17 +96,17 @@ import {
   J as Sr,
   K as kr,
   L as Rr,
-} from "./ToastAttack-2tC15hUC.js";
+} from "./ToastAttack-Bu2iIdH9.js";
 import { _ as _o } from "./d20-icon-vaz1En3o.js";
-import { T as ge } from "./TabNav-02yrV6SQ.js";
-import { P as Qe } from "./PowerCard-vQpPz3em.js";
-import { R as zo } from "./RitualCard-M75cbSgv.js";
+import { T as ge } from "./TabNav-MN-6__kc.js";
+import { P as Qe } from "./PowerCard-bOri8zy3.js";
+import { R as zo } from "./RitualCard-LG9I20Vy.js";
 import {
   W as Oo,
   P as Uo,
   M as Ho,
   C as Lo,
-} from "./CursedItemCard-8kPqmZKR.js";
+} from "./CursedItemCard-LXl5YYDf.js";
 import {
   S as ga,
   H as Ir,
@@ -119,12 +119,12 @@ import {
   P as No,
   M as ca,
   c as Bo,
-} from "./HomebrewItems-B4V-c5O4.js";
+} from "./HomebrewItems-UVvrBdQC.js";
 import { c as Me } from "./attributes-pd1IMHTT.js";
-import { S as Ae } from "./SearchInput-noFEAZsq.js";
-import { b as Dr, c as Tr } from "./ClassCard-WbCNTMIh.js";
+import { S as Ae } from "./SearchInput-fz3CRdVo.js";
+import { b as Dr, c as Tr } from "./ClassCard-hp0m2Kiz.js";
 import { b as Vr, c as _r } from "./marcasFragmentadas-KD4kpdFJ.js";
-import { S as va } from "./SourcesNavigation-vICtbxLe.js";
+import { S as va } from "./SourcesNavigation-_F9IdAqB.js";
 import { a as zr, b as Or } from "./cultoDaCriacaoContent-BJ8GSvob.js";
 import {
   d as $e,
@@ -138,24 +138,24 @@ import {
 } from "./default-FmxCqAN8.js";
 import { b as Fr } from "./forms-8DDAOOVU.js";
 import { _ as Le, l as ko } from "./lodash-gzw5KmHd.js";
-import { D as Pe } from "./DropdownSimple-n6ql1xHs.js";
-import { P as ha } from "./PictureModal-tMBR_y6C.js";
+import { D as Pe } from "./DropdownSimple-V_cGGleB.js";
+import { P as ha } from "./PictureModal-tykYt349.js";
 import { v as xe } from "./v4-cyCr5FZV.js";
-import { S as we } from "./SwitchButtonBool-etrheqHp.js";
+import { S as we } from "./SwitchButtonBool-I4wCWELt.js";
 import { _ as De } from "./blank-profile-picture-wMh28flS.js";
-import { L as Nr } from "./LoadingView-1IRnYVDG.js";
+import { L as Nr } from "./LoadingView-DPnv1ozC.js";
 import {
   s as Xo,
   e as Br,
   o as Qr,
   c as Gr,
 } from "./characterAutomations-VjVSWhq1.js";
-import { g as Xr, C as Wr } from "./firebase-E9rrJROo.js";
+import { g as Xr, C as Wr } from "./firebase-2BvuJEjF.js";
 import "./edit-icon-3vZQUsyW.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./add-icon-fJ4uQHUZ.js";
-import "./CardSource-B8Pq3XUj.js";
+import "./CardSource-TVMp46kS.js";
 const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   Jr = "/assets/sobrevivendo-ao-horror-on-553JUvpA.webp",
   Yr = "/assets/shield-icon-FCvc8PM4.png",
@@ -3045,6 +3045,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       description:
         "<p>O seu sangue flui de forma paranormal e agressiva, concedendo vigor não natural. Você recebe +2 pontos de vida por NEX. Quando sobe de NEX, os PV que recebe por este poder aumentam de acordo. Por exemplo, se escolher este poder em NEX 50%, recebe 20 PV. Quando subir para NEX 55%, recebe +2 PV, e assim por diante.</p><p><span>Afinidade:</span> você recebe +5 em Fortitude e se torna imune a venenos e doenças.</p>",
       hasAutomation: !0,
+      isAutomationOn: !0,
             automationId: "sangue-de-ferro",
     },
     {
