@@ -1,17 +1,17 @@
 import {
-  A as P,
-  K as S,
-  E as y,
-  D as T,
-  B as k,
-  F as w,
-  R as N,
-  T as B,
-  c as D,
-} from "./creatures-q8AxLgiY.js";
+  c as P,
+  A as S,
+  K as y,
+  E as T,
+  D as k,
+  B as w,
+  F as N,
+  R as B,
+  T as D,
+} from "./creatures-3PDYyihL.js";
 import { c as L } from "./cultoDaCriacaoContent-BJ8GSvob.js";
-import { C as x } from "./CreatureCard-GFAmHv5O.js";
-import { T as E } from "./TabNav-02yrV6SQ.js";
+import { C as x } from "./CreatureCard-CSL04LIH.js";
+import { T as E } from "./TabNav-hmTs2qVs.js";
 import {
   d as F,
   g as I,
@@ -31,16 +31,16 @@ import {
   b as K,
   H as C,
   _ as j,
-} from "./index-zHTPDNNN.js";
-import { g as q } from "./firebase-E9rrJROo.js";
-import { L as O } from "./LoadingView-1IRnYVDG.js";
+} from "./index-y5xotY6D.js";
+import { g as q } from "./firebase-EbSNH8SK.js";
+import { L as O } from "./LoadingView-ZLD11fC3.js";
 import { b as s } from "./creatureData-ozdxpDUT.js";
-import { S as G } from "./SearchInput-noFEAZsq.js";
-import { S as J } from "./SourcesNavigation-vICtbxLe.js";
+import { S as G } from "./SearchInput-3Ri4XWJo.js";
+import { S as J } from "./SourcesNavigation-yVGJmsen.js";
 import { m as Q } from "./marcasFragmentadas-KD4kpdFJ.js";
 import "./share-icon-J6b_MEIl.js";
 import "./trash-icon-Dl18GMfa.js";
-const W = (i) => (z("data-v-9acb32e9"), (i = i()), K(), i),
+const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
   X = { key: 0 },
   Y = W(() =>
     n(
@@ -85,17 +85,18 @@ const W = (i) => (z("data-v-9acb32e9"), (i = i()), K(), i),
       const h = p(() => {
           let r = [];
           return (
-            e.value === "ordemParanormal" && a.value === 0 && (r = P),
-            e.value === "ordemParanormal" && a.value === 1 && (r = S),
-            e.value === "ordemParanormal" && a.value === 2 && (r = y),
-            e.value === "ordemParanormal" && a.value === 3 && (r = T),
-            e.value === "ordemParanormal" && a.value === 4 && (r = k),
-            e.value === "ordemParanormal" && a.value === 5 && (r = w),
-            e.value === "ordemParanormal" && a.value === 6 && (r = N),
-            e.value === "tocaDosMonstros" && (r = B),
+            e.value === "ordemParanormal" && a.value === 0 && (r = S),
+            e.value === "ordemParanormal" && a.value === 1 && (r = y),
+            e.value === "ordemParanormal" && a.value === 2 && (r = T),
+            e.value === "ordemParanormal" && a.value === 3 && (r = k),
+            e.value === "ordemParanormal" && a.value === 4 && (r = w),
+            e.value === "ordemParanormal" && a.value === 5 && (r = N),
+            e.value === "ordemParanormal" && a.value === 6 && (r = B),
+            e.value === "tocaDosMonstros" && (r = D),
             e.value === "cultoDaCriacao" && (r = L),
             e.value === "marcasFragmentadas" && (r = Q),
-            e.value === "comunidade" && (r = D),
+            e.value === "comunidade" &&
+              (r = P.sort((o, t) => o.name.localeCompare(t.name))),
             r.filter((o) => V(o.name, d.value))
           );
         }),
@@ -189,5 +190,5 @@ const W = (i) => (z("data-v-9acb32e9"), (i = i()), K(), i),
             ]));
     },
   }),
-  Ca = j(ra, [["__scopeId", "data-v-9acb32e9"]]);
+  Ca = j(ra, [["__scopeId", "data-v-ac855a96"]]);
 export { Ca as default };

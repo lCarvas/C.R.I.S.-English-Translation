@@ -22,10 +22,10 @@ import {
   b as N,
   Q as J,
   f as j,
-} from "./index-IvR42Nn2.js";
+} from "./index-y5xotY6D.js";
 import { _ } from "./show-more-icon-VvUXKiHG.js";
 import { _ as q } from "./add-icon-fJ4uQHUZ.js";
-import { C as K } from "./CardSource-TVMp46kS.js";
+import { C as K } from "./CardSource-k5lnlnIv.js";
 const z =
     "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%200%2024%2024'%20width='24px'%20fill='%23A347FF'%3e%3cpath%20d='M0%200h24v24H0V0z'%20fill='none'/%3e%3cpath%20d='M9%2016.2L4.8%2012l-1.4%201.4L9%2019%2021%207l-1.4-1.4L9%2016.2z'/%3e%3c/svg%3e",
   X = { class: "ammunition-card" },

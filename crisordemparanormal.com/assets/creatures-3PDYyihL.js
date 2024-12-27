@@ -91,6 +91,1307 @@ const n = [
         adLabel: "cebolinha1501",
       },
     },
+    {
+      imunidades: ["conhecimento"],
+      creatureType: "criatura",
+      skills: {
+        reflex: { rollBonus: 10, rollNumber: 4 },
+        fortitude: { rollBonus: 5, rollNumber: 2 },
+        perception: { rollNumber: 4, rollBonus: 5 },
+        initiative: { rollBonus: 10, rollNumber: 4 },
+        will: { rollBonus: 5, rollNumber: 4 },
+      },
+      defense: 20,
+      name: "Assimilação",
+      extraSkills: [
+        {
+          rollNumber: 4,
+          name: "Enganação",
+          id: "a4d474d8-36e1-42b8-b6c2-18f73da3812f",
+          rollBonus: 10,
+        },
+        {
+          rollNumber: 2,
+          name: "Ciências",
+          id: "5bbcd311-d681-423b-8169-da6fc31bc605",
+          rollBonus: 10,
+        },
+        {
+          id: "8fa89f92-a45c-4ee5-b503-b90fa099ca65",
+          rollBonus: 5,
+          rollNumber: 2,
+          name: "Atualidades",
+        },
+        {
+          name: "Diplomacia",
+          rollBonus: 5,
+          id: "7b83b659-d69c-4dd8-8f93-884e22c53d84",
+          rollNumber: 4,
+        },
+      ],
+      pvMax: 80,
+      vd: 80,
+      description:
+        "<p><strong>O PARASITA MENOR QUE UM TENAZE.</strong></p><p>Tudo começa com um acaso desconhecido. Criaturas se comportam de maneira estranha na floresta, animais fogem de suas casas, e pessoas começam a agir de forma agressiva ao redor da cidade. De repente, aqui estamos, em um quarto de quarentena, isolados e nos perguntando em quem podemos confiar.</p><p><br></p><p>A paranoia e a agonia causadas pela assimilação invadem nossas mentes, fazendo-nos questionar nossa própria identidade. O horror de perder quem somos e lentamente nos tornarmos parte dos planos de um parasita insaciável, que fará de tudo para utilizar nossas memórias e as dos seres ao nosso redor para crescer e se espalhar.</p><p><br></p><p>A assimilação é uma entidade minúscula que se infiltra no corpo e na mente de suas vítimas os Hospedeiros que irão sofrer perante a comunhão consigo mesmos. O Parasita não só consome a carne e o sangue, mas também devora pensamentos e lembranças, deixando apenas uma casca da personalidade do que era a pessoa, mas por dentro temos uma versão obediente e tormentosa do que a vítima era. A cidade inteira está à beira do caos, com vizinhos desconfiando uns dos outros, amigos virando inimigos, e familiares se tornando estranhos.</p><p><br></p><p>Você tem se perguntado pra si mesmo também. Se algo mudou em você, mas você não conseguiu perceber ainda.</p><p><br></p><h3><strong>A Quarentena</strong></h3><p>No quarto de quarentena, os sobreviventes se reúnem, tentando entender o que está acontecendo. A tensão é palpável, e cada gesto ou olhar suspeito pode ser o prenúncio de uma traição. Eles sabem que o parasita pode estar entre eles, escondido sob a aparência familiar de um amigo ou ente querido.</p>",
+      altMovements: [{ value: 9, title: "Escalada" }],
+      creatureSize: "minúsculo",
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Febedae07-c804-4195-916d-5f0d58a795dd?alt=media&token=b1f256e2-ad3f-48ad-a84c-de554ce89300",
+      resistencias: { frio: 10, balistico: 10, corte: 10, impacto: 10 },
+      movement: 12,
+      pvCurrent: 80,
+      powers: [
+        {
+          name: "MEMETIZAR",
+          id: "d4d35ed3-1c3a-4fbf-8560-f5b9316fe4cb",
+          description:
+            "<p>Nos últimos estágios. A ASSIMILAÇÃO consegue de forma quase perfeitamente indistíguivel imitar as características de seu hospedeiro. Consegue também se clonar após um dia em que a criatura já atingiu seu estado final em um hospedeiro.</p><p>Pra determinar se o alvo é um hospedeiro, um teste de Intuição DT 30, de Medicina DT 25 ou de Ciências DT 20 pode ajudar a revelar se a criatura é uma ASSIMILAÇÃO. Mas não pode ajudar a determinar se não é. O que implica na possibilidade de ser, em caso de falha ou mesmo em caso de sucesso. (A depender do mestre a DT desse teste pode mudar.)</p>",
+        },
+        {
+          name: "ENTIDADE INTELIGENTE",
+          description:
+            "<p>No estágio final de seu desenvolvimento. A ASSIMILAÇÃO consegue facilmente imitar os padrões de comportamento da sociedade a qual ela observa, aprender novos idiomas além dos de seus usuários e também consegue treinar e melhorar em perícias das quais ela não é naturalmente treinada, como pontaria por exemplo. Ela ganha uma versão enfraquecida (Com metade da vida) de seu hospedeiro em seu estado mímico, mas consegue utilizar todas as habilidades e perícias como se fosse ele. A ASSIMILAÇÃO, também consegue recordar das memórias de seu hospedeiro, compreender-las como se fosse ele, e soltar um pouco das emoções de seu hospedeiro caso necessário. O Hospedeiro, afetado, pode nem mesmo saber, que está sendo manipulado pela ASSIMILAÇÃO, por acreditar que todas suas decisões e sentimentos foram naturais e ele teve o livre árbitrio de decidir tudo. Quando na verdade, foi a ASSIMILAÇÃO que controlou seus pensamentos e suas decisões de maneira discreta.</p>",
+          id: "5d9a921a-ebeb-459e-a770-f4ed1c5a3937",
+        },
+      ],
+      perceptionType: "Visão No Escuro.",
+      enigmaDoMedo:
+        "<p>Um antígeno pode ser preparado a partir de informações sobre a funcionalidade da criatura. Mas o medicamento só pode ser preparado, após descobrir a origem e a verdadeira natureza e intenção da ASSIMILAÇÃO.</p><p>Depois de resolver o enigma do medo da ASSIMILAÇÃO, a critério do mestre, um teste de medicina ou ciências desenvolve um antigeno contra a ASSIMILAÇÃO, que protege seres de serem contaminados pelo parasita.</p>",
+      element: "conhecimento",
+      secondaryElements: ["sangue", "medo"],
+      attributes: { con: 2, int: 2, pre: 4, dex: 4, str: 3 },
+      actions: [
+        {
+          name: "PADRÃO  AGREDIR",
+          attacks: [
+            {
+              numberOfAttacks: 2,
+              criticalRange: 20,
+              id: "cf7d1286-10a5-4e0e-bfee-536c4022779f",
+              rollBonus: 10,
+              rollNumber: 3,
+              name: "GARRAS",
+              criticalMult: 2,
+              range: "Corpo a corpo",
+              damage: [
+                {
+                  value: "1d6",
+                  id: "d8f871bb-6e62-4b2e-96a2-c6428d0014a4",
+                  damageType: "Corte",
+                },
+              ],
+            },
+          ],
+          id: "6a807d4b-a8d1-40c3-bbc8-a4b13f471cb3",
+        },
+        {
+          id: "58783942-3820-4fb6-8176-1e11cd1b4b8a",
+          attacks: [
+            {
+              criticalRange: 20,
+              rollNumber: 3,
+              range: "Corpo a corpo",
+              criticalMult: 3,
+              name: "MORDIDA",
+              id: "3ca22522-840e-4c55-aa59-67d878c7aad7",
+              damage: [
+                {
+                  damageType: "Perfuração",
+                  value: "2d10",
+                  id: "b9b77e1a-061e-40fb-af0b-d97229f09067",
+                },
+              ],
+              numberOfAttacks: 1,
+              rollBonus: 10,
+            },
+          ],
+          name: "PADRÃO  AGREDIR",
+        },
+        {
+          id: "48f2b427-191d-4c80-a571-fd2d105891d2",
+          name: "LIVRE  ATIRA CORPOS",
+          attacks: [
+            {
+              criticalMult: 2,
+              damage: [
+                {
+                  id: "3a671fbe-7d3a-46b8-b396-54714093a17f",
+                  value: "2d6",
+                  damageType: "Químico",
+                },
+                {
+                  id: "213dc6ec-91ac-4b9d-83bc-11cd88fef258",
+                  damageType: "Impacto",
+                  value: "6d6",
+                },
+              ],
+              id: "4b81789e-06b9-4f04-b119-ffa9badf4f75",
+              numberOfAttacks: 1,
+              range: "Curto",
+              rollBonus: 15,
+              criticalRange: 20,
+              name: "ATIRA CORPOS",
+              rollNumber: 4,
+            },
+          ],
+          description:
+            "<p>A ASSIMILAÇÃO agarra um alvo com uma lingua elástica a distância, o alvo toma 2d6 de dano químico pelos reagentes da entidade e depois a ASSIMILAÇÃO lança o alvo como um projétil em uma velocidade potêncial extrema. O Alvo deve fazer um teste de AGI Acrobacia DT 20 em uma falha o alvo toma 6d6 de dano de impacto, ou metade em caso de sucesso.</p>",
+        },
+      ],
+      presencaPerturbadora: { nex: 40, dt: 20, dice: "3d6" },
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Fb6f3a82c-ad76-420f-8126-304c19a06e13?alt=media&token=0ca843de-a572-4112-826c-399091d0eb4e",
+      vulnerabilidades: ["sangue", "químico"],
+      source: {
+        label: "Solurio",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      skills: {
+        perception: { rollBonus: 20, rollNumber: 4 },
+        reflex: { rollNumber: 2, rollBonus: 15 },
+        fortitude: { rollNumber: 1, rollBonus: 15 },
+        initiative: { rollNumber: 2, rollBonus: 15 },
+        will: { rollNumber: 4, rollBonus: 20 },
+      },
+      powers: [
+        {
+          name: "Entre a realidade e o outro lado",
+          id: "af15a96f-376c-4821-a808-34c7f65cbab1",
+          description:
+            "<p>O único motivo que faz o Colecionador se afastar de sua floresta é seu desejo insaciável de aumentar sua coleção. Ao encontrar alguém com um item ou um ritual que seja de seu interesse, ele passa a seguir essa pessoa de forma imperceptível. Enquanto estiver escondido entre o outro lado e a realidade, ele é inofensivo; porém, seu alvo começa a se sentir inquieto e observado a todo momento.</p>",
+        },
+        {
+          id: "1121f875-5458-496a-a126-6ad3bab614c7",
+          description:
+            "<p>O Colecionador é um ser que existe há muitos anos e, devido ao seu longo tempo de vida, aprendeu e dominou a língua humana, podendo assim se comunicar com maestria, além de poder ler e escrever.</p>",
+          name: "Compreensão Anormal",
+        },
+        {
+          description:
+            "<p>O Colecionador possui um grande arsenal de itens guardados, conseguindo carregar muito mais do que aparenta. Para aumentar sua coleção, ele está constantemente realizando trocas, compras e vendas. O Colecionador armazena não apenas itens, mas também rituais, colocados em objetos ou selos, e até mesmo poderes paranormais. A coleção dele ficará a critério do mestre, mas leve em conta que ele, na maioria das vezes, carregará muitos itens de variadas categorias. (As categorias dos rituais do Colecionador são baseadas em círculos. Por exemplo, um ritual de primeiro círculo se tornará um item de categoria 1, e os poderes paranormais se baseiam no nível do pré-requisito)</p>",
+          name: "Oferta e Demanda",
+          id: "77dbf640-0863-4ea6-a122-b3b83bb5959f",
+        },
+        {
+          name: "Humanos transfigurados",
+          id: "a29bca8d-9da0-471d-9feb-d7ec22bbe0d3",
+          description:
+            '<p>O colecionador não pode conjurar rituais ou o usar os poderes que roubou de suas vítimas. Porém, o colecionador carrega corpos ressecados e comprimidos paranormalmente a tamanhos de pequenos objetos (como celulares,&nbsp;pedras ou pequenos animais como ratos) de alvos que ele já os matou. Esses humanos transfigurados ao serem liberados se descomprimem, tornando-se "existidos". Esses "existidos" surgem e conjuram os rituais ou usam os poderes pelo colecionador (usando a dt de presença perturbadora do colecionador como dt ritualística e de efeitos) e se comprimem novamente voltando para seu estoque de humanos transfigurados e ficam inutilizados por 24h. O colecionador possui 4 desses humanos transfigurados, mas ao ser finalizado, os corpos surgem se descomprimem como existidos com cada um metade de seus PVs.</p>',
+        },
+        {
+          name: "O Fim da Coleção",
+          id: "99bd3773-619c-4f83-90a4-7372684d8ae1",
+          description:
+            '<p>Ao ser derrotado, a máscara do Colecionador, que tem 100 pontos de vida, deve ser destruída em até 3 rodadas. Caso contrário, a máscara desaparecerá, ativando a habilidade "Entre o Outro Lado e a Realidade". Com o passar das semanas, o Colecionador se reconstituirá, retornando à vida em uma nova forma corrompida, porém muito mais poderosa. Se ele voltar à vida, terá uma sede de vingança insaciável contra aqueles que levaram sua coleção.</p><p><br></p><p>https://crisordemparanormal.com/homebrews/ameacas/Ax5ajMxVRYwtYZMOn1vP</p>',
+        },
+      ],
+      pvCurrent: 400,
+      vd: 150,
+      actions: [
+        {
+          name: "Movimento - Análise de Inventário",
+          id: "f89b215f-2305-4e9a-af75-6307884e0df6",
+          description:
+            '<p><span style="background-color: oklab(0.0852327 0.00000386313 0.00000170618 / 0.06); color: oklab(0.899401 -0.00192499 -0.00481987);">O Colecionador, como ação de movimento, pode realizar um teste de Ocultismo em um ser (DT 30) para descobrir todos os seus itens, habilidades e poderes paranormais. Ao pegar o item em mãos, o Colecionador entende exatamente como ele funciona, independentemente de testes. No entanto, na maioria das vezes, ele não utiliza os itens de sua coleção com o intuito de preservá-los.</span></p>',
+        },
+        {
+          description:
+            '<p><span style="background-color: oklab(0.0852327 0.00000386313 0.00000170618 / 0.06); color: oklab(0.899401 -0.00192499 -0.00481987);">Ao tocar em um alvo como ação completa, o Colecionador consegue acessar o "inventário" de rituais e poderes paranormais do mesmo, podendo roubá-los. No entanto, ele só pode roubar um por vez. O alvo pode tentar resistir realizando um teste de Vontade (DT 25). Caso falhe, perde a habilidade para sempre, não podendo aprendê-la novamente, mas recebe de volta 1d12 de sanidade. Se o Colecionador for morto dentro de um período de 48 horas, a pessoa que teve seus poderes furtados os recupera. Além de tudo já mencionado, é importante ressaltar que, se a troca for consentida, o alvo não precisa realizar um teste de resistência, pois não é considerado um roubo. (O Colecionador só pode usar essa habilidade se tiver utilizado a Análise de Inventário no alvo anteriormente).</span></p>',
+          id: "d69bb9d3-5438-4eac-a06d-e0d465f9cde8",
+          name: "Completa - Invasão de Estoque",
+        },
+        {
+          id: "7cb472e6-22f5-4763-8d9f-9ae75f167030",
+          name: "Padrão - Agredir",
+          attacks: [
+            {
+              numberOfAttacks: 1,
+              rollBonus: 20,
+              damage: [
+                {
+                  value: "3d10",
+                  id: "caf6eb8e-4486-4d7d-9ef1-cdf28c2205bf",
+                  damageType: "Impacto",
+                },
+                {
+                  damageType: "Conhecimento",
+                  id: "22136b69-f632-4c08-8efe-0d3b9a8bc307",
+                  value: "10",
+                },
+              ],
+              range: "Corpo a corpo",
+              criticalMult: 2,
+              name: "Dedos Longos",
+              id: "454a0e97-08c0-429a-9100-40efd4daab5b",
+              rollNumber: 2,
+              criticalRange: 20,
+            },
+          ],
+        },
+        {
+          name: "Padrão - Humanos Transfigurados",
+          id: "0fe471e8-edfe-4c82-8eae-a866643b0f50",
+          description:
+            '<p>O colecionador não pode conjurar rituais ou o usar os poderes que roubou de suas vítimas. Porém, o colecionador carrega corpos ressecados e comprimidos paranormalmente a tamanhos de pequenos objetos (como celulares, pedras ou pequenos animais como ratos) de alvos que ele já os matou. Esses humanos transfigurados ao serem liberados se descomprimem, tornando-se "existidos". Esses "existidos" surgem e conjuram os rituais ou usam os poderes pelo colecionador (usando a dt de presença perturbadora do colecionador como dt ritualística e de efeitos) e se comprimem novamente voltando para seu estoque de humanos transfigurados e ficam inutilizados por 24h. O colecionador possui 4 desses humanos transfigurados, mas ao ser finalizado, os corpos surgem se descomprimem como existidos com cada um metade de seus PVs.</p>',
+        },
+      ],
+      resistencias: { conhecimento: 20, impacto: 10, corte: 10, balistico: 10 },
+      extraSkills: [
+        {
+          name: "Ocultismo",
+          rollNumber: 4,
+          rollBonus: 20,
+          id: "de3eabb6-86b8-45fd-b111-97c7686b770a",
+        },
+        {
+          rollBonus: 20,
+          name: "Atualidades",
+          id: "69fd36ff-7506-45ec-b3d7-7137e815e569",
+          rollNumber: 4,
+        },
+        {
+          rollNumber: 4,
+          id: "7a28ba3a-df02-4800-aec0-2fec13f36377",
+          name: "Diplomacia",
+          rollBonus: 20,
+        },
+        {
+          rollBonus: 20,
+          name: "Investigação",
+          rollNumber: 4,
+          id: "d9cb7e37-f29a-45fc-a58d-aa39b0a3c134",
+        },
+      ],
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F0a2804b4-1c1d-489e-9361-d40c1fd30928?alt=media&token=e16b4015-1e36-4d04-bbf4-871fd567c4f0",
+      imunidades: ["dano"],
+      creatureType: "criatura",
+      description:
+        "<p>Resguardada nos confins da floresta, há uma criatura senciente que coleciona objetos amaldiçoados e segredos indiscutíveis da verdade, que pode realizar negociações para aumentar seu arsenal. Se uma proposta de acordo for negada, tanto por ele quanto pela outra parte, o Colecionador não desistirá. Ele pode até ir embora no momento, mas retornará com outras ofertas e propostas. Porém, não ache que ele é seu amigo, o colecionador é uma criatura suja e podre, cujo primeiro item de sua coleção foi o corpo de uma jovem criança que se perdeu em uma floresta, o mesmo corpo que ele usa até hoje como pele, completamente esticado pútrido, não conseguindo comportar por completo o real corpo do colecionador. Ele é um ser que busca apenas aumentar sua coleção, podendo servir até mesmo como um NPC. No entanto, devido aos seus itens extremamente valiosos, pessoas podem buscar seus tesouros, e é aí que ele se torna perigoso. Nunca roube o Colecionador, ou ele se voltará contra você. <strong><u>E um último aviso: nunca remova sua máscara.</u></strong></p>",
+      defense: 30,
+      movement: 12,
+      creatureSize: "médio",
+      name: "O Colecionador",
+      attributes: { pre: 4, con: 1, dex: 2, int: 4, str: 2 },
+      presencaPerturbadora: { dt: 30, dice: "6d6" },
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Feb5ff2aa-0c9c-4d82-b67f-5aa5e760cec0?alt=media&token=5722eabc-8310-4565-8f0d-466b95538366",
+      element: "conhecimento",
+      vulnerabilidades: [],
+      pvMax: 400,
+      secondaryElements: ["medo"],
+      enigmaDoMedo:
+        "<p><strong><u>Trato Feito</u></strong></p><p>Ao se deparar com um grupo de pessoas, o Colecionador irá escolher uma dessas pessoas e propor uma oferta justa, como o de um item amaldiçoado de sua coleção por um outro item amaldiçoado, ou um ritual ou uma habilidade que o seu negociante possua. Se ambos não entrarem em consenso, um combate irá se iniciar e o colecionador ativa a sua presença perturbadora para tentar a todo custo conseguir obter a sua parte da negociação. Se o Colecionador e seu negociante chegarem a um acordo de troca justa, o acordo será realizado e o Colecionador irá embora para os confins de sua floresta. Um ser que troque um ritual ou um item amaldiçoado em uma oferta com o Colecionador nunca mais poderá o aprender, se for um ritual, ou o portar, se for um item amaldiçoado com a maldição negando se vincular com o alvo. Quando estiver com o seu poder Entre a Realidade e o Outro Lado ativo, permanece com a sua imunidade a dano, mas ao encontrar um personagem com item, ritual ou habilidade que seja de seu interesse, e uma negociação iniciar, ele desativa sua habilidade e perde sua imunidade a dano.</p>",
+      source: {
+        label: "Frizzero",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      description:
+        "<p>O Ladrão de Sentimentos é uma criatura extremamente perigosa para agentes inexperientes em seu primeiro estágio. Porém, em seus próximos estágios, a criatura se torna fatal até para aqueles que tem mais contato com o paranormal. O Ladrão é praticamente impossível de se ver a olho nu, mas o frio de seu corpo é extremamente perceptível quando este chega perto.</p>",
+      attributes: { pre: 3, dex: 5, con: 0, int: 3, str: 1 },
+      actions: [
+        {
+          name: "REAÇÃO - Fuga",
+          description:
+            "<p>Se o Ladrão for encontrado, percebido ou detectado, ele irá sentir no exato momento e tentará uma fuga (Teste de AGI e Furtividade).</p>",
+          id: "7e375045-5d55-4dc8-aa56-efa4e53d5913",
+        },
+        {
+          name: "PADRÃO - Estrangular",
+          description:
+            "<p>O Ladrão pega a vítima pelo pescoço com seus dedos longos e aperta seu pescoço (dano inicial 3d4*2). A vítima deve fazer um teste de VIG para aguentar o aperto e um teste de FOR para fugir das mãos da criatura (DT 18 ambos).</p>",
+          attacks: [],
+          id: "2c29ce51-57e9-446d-b5f4-b0bf4dd83043",
+        },
+      ],
+      perceptionType: "Visão no Escuro",
+      vulnerabilidades: ["sangue"],
+      extraSkills: [
+        {
+          name: "Furtividade",
+          id: "3a8510dc-df2a-48c2-8a3d-836773d9cdc3",
+          rollNumber: 6,
+          rollBonus: 10,
+        },
+        {
+          rollBonus: 15,
+          id: "3d5fbf1f-31f8-40ce-b093-6491d2bfa44e",
+          name: "Ocultismo",
+          rollNumber: 3,
+        },
+      ],
+      imunidades: ["corte", "impacto", "conhecimento"],
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Fd6c55ecb-5235-4b3a-a2a6-1d47aa60e867?alt=media&token=2e93361d-1012-456c-9c44-80b5400518c1",
+      defense: 15,
+      powers: [
+        {
+          name: "Coisa Ruim",
+          id: "4ae9698e-ebde-41ec-82b9-66163f36e6f4",
+          description:
+            "<p>Essa habilidade causa um mau sentimento em quem o Ladrão tocar. Durante o uso dela, o Ladrão se torna invisível e incorpóreo. Caso seja usada mais de 1 vez, causa 2d6 de dano mental. Conforme for usando mais e mais vezes, o dano aumentará da seguinte forma:</p><p><strong>1ª Vez: Desconforto | 2ª Vez: 2d6 de dano mental | 3ª Vez: 4d6 de dano mental | 4ª Vez: 2d12*2 de dano mental | 5ª Vez: 4d12*2 de dano mental | 6ª Vez: 6d12*5 de dano mental |</strong></p>",
+        },
+        {
+          name: "Absorver Sentimentos",
+          id: "da5537bb-49a2-4ce8-92e6-ec5d2a2b1f24",
+          description:
+            "<p>O ladrão toca a vítima e rouba seus sentimentos após absorver seu corpo. O processo de absorção demora 1 semana para ser concluído. Essa voltará de forma repentina e extremamente egoísta, afastando todos os seus conhecidos. Caso a pessoa não volte à realidade com ajuda das outras, ela chegará ao limite e o ego se transformará em uma depressão&nbsp;profunda, causando o suicídio do personagem. Caso passe da DT do ritual fazendo um teste de Vontade (durante o primeiro contato), seu personagem sentirá um vazio em suas memórias. O DM decidirá qual memória o personagem perderá.&nbsp;Caso entre em contato com a criatura por mais de uma vez, perderá todas as suas memórias e morrerá após seu cérebro escorrer pela sua boca.</p>",
+        },
+      ],
+      creatureSize: "grande",
+      presencaPerturbadora: { nex: 50, dt: 20, dice: "6d4" },
+      vd: 210,
+      resistencias: {
+        medo: 5,
+        mental: 20,
+        eletricidade: 5,
+        corte: 15,
+        conhecimento: 25,
+        balistico: 5,
+        frio: 35,
+        fogo: 5,
+        morte: 5,
+        quimico: 10,
+        perfuracao: 5,
+        impacto: 15,
+        sangue: 0,
+        energia: 5,
+      },
+      pvCurrent: 80,
+      creatureType: "criatura",
+      element: "conhecimento",
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Faf41ced4-5e19-4958-9147-89ab27566da4?alt=media&token=20345dfe-ec5a-44a7-802c-d692744033a1",
+      name: "Ladrão de Sentimentos",
+      skills: {
+        reflex: { rollBonus: 10, rollNumber: 5 },
+        perception: { rollNumber: 3, rollBonus: 5 },
+        initiative: { rollBonus: 10, rollNumber: 3 },
+        will: { rollNumber: 3, rollBonus: 15 },
+        fortitude: { rollNumber: 2, rollBonus: 10 },
+      },
+      movement: 15,
+      pvMax: 80,
+      secondaryElements: [],
+      source: {
+        label: "Master Amity",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      altMovements: [{ value: 9, title: "Flutuar" }],
+      actions: [
+        {
+          id: "8ea7e14a-ba63-49ef-886b-7eb6db1eab25",
+          description:
+            '<p>O Corpo de Vela afeta aleatóriamente e por proximidade dois seres ou objetos eletrônicos em alcance curto para causar o efeito do ritual "eletrocução" nesses objetos. Adicionalmente, role 1d6 para determinar um efeito adicional a essa habilidade.</p><p>1-2 Nada acontece.</p><p>3-4 Mais Dois seres ou objetos eletrônicos em alcance médio viram alvos desse efeito.</p><p>5-6 Mais Dois seres ou objetos eletrônicos em alcance longo viram alvos desse efeito, role 1d6 novamente para definir se mais algum efeito irá acontecer.</p>',
+          name: "LIVRE - CONDUTIVIDADE",
+        },
+        {
+          name: "MOVIMENTO - PADRÃO HIPNÓTICO",
+          description:
+            "<p>O Corpo de Vela começa um comportamento padronizado de dança, como flama luzes dançantes em uma ordem errática e bela, vibrantes e coloridas, vagando na escuridão sem fim. Todos os seres que verem esse efeito a alcance médio. Devem fazer um teste de PRESENÇA DT 25. Em uma falha, o alvo se torna fascinado e obrigatoriamente usa sua ação de movimento para se deslocar em direção ao Corpo de Vela, com a inteção de tocar-lo. Se suceder o alvo se fica confuso até o final de seu próximo turno e se torna imune a esse efeito pelas próximas 24 horas.</p>",
+          id: "3ee47acf-0e58-4678-882c-3f95813c50fe",
+        },
+        {
+          description:
+            "<p>Quando está ameaçado a ser extirpado da realidade o corpo de vela toma uma posição defensiva. Ele irá começar a procurar um corpo isolante pra se esconder. Caso não encontre ele irá optar por um ser vivo mesmo, e irá possuir-lo. Ele entra no espaço corpo a corpo do ser. Causando 2d10 de dano de energia. Depois disso, ele entra em uma espécie de hibernação onde ele recupera 1d6 pontos de vida por dia inativo. Voltando a sua forma original e interagível na próxima noite em que o Corpo de Vela estiver com seu máximo de pontos de vida recuperados e quando o ser possuído ou objeto estiver sob um ambiente escuro. O objeto em que o corpo de vela está possuindo se torna um ima fraco, Com polos positivos e negativos em suas respectivas extremidades (parte superior e inferior). Um teste extendido de Ocultismo ou Religião DT 25 pode remover o corpo de vela a força do objeto.</p>",
+          id: "946f3445-7b2e-4e2c-b60a-6d49ab51035f",
+          name: "PADRÃO - ESCONDER",
+        },
+      ],
+      secondaryElements: ["morte"],
+      name: "Corpo De Vela",
+      movement: 9,
+      creatureType: "criatura",
+      powers: [
+        {
+          description:
+            "<p>O Corpo de Vela é parcialmente intangível, e pode atravessar obstáculos sólidos como paredes.</p>",
+          id: "f1ded570-540d-4aea-aee3-a30bfb77f3fe",
+          name: "Espirito de Plasma",
+        },
+        {
+          name: "Campo de Interferência",
+          id: "9f53b5cb-2a2c-451c-9ada-c248c8a31e9a",
+          description:
+            "<p>Todo equipamento eletrônico deixa de funcionar em um raio de distância longa de um corpo de vela.</p>",
+        },
+        {
+          id: "f6ca1e6c-6ef2-40aa-81b2-930d801a21b2",
+          description:
+            "<p>O Corpo de Vela é atraído por objetos com energia estática, condutores ou objetos orgânicos, como vegetais ou cadaveres que possuam algum tipo de isolamento. Como um gabinete de um computador, o interior de um fio isolado de cobre ou uma abóbora oca do dia das bruxas.</p>",
+          name: "Capa de Isolamento",
+        },
+      ],
+      defense: 24,
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F2a0536d7-d851-4278-895a-1c89ed4be59f?alt=media&token=6296ad4f-fafe-4213-81de-4d38a9004eda",
+      vulnerabilidades: ["conhecimento"],
+      pvMax: 240,
+      vd: 120,
+      resistencias: { corte: 10, balistico: 10, perfuracao: 10, energia: 20 },
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F2a6b55f9-3781-4b51-81d8-b4f7218a6583?alt=media&token=80ef8e05-53af-40ea-b4a5-3b95c8ff05f0",
+      imunidadesAditional: "todas as condições",
+      presencaPerturbadora: { nex: 50, dt: 21, dice: "4d6" },
+      skills: {
+        fortitude: { rollNumber: 1, rollBonus: 0 },
+        will: { rollBonus: 5, rollNumber: 3 },
+        initiative: { rollNumber: 3, rollBonus: 5 },
+        perception: { rollBonus: 5, rollNumber: 3 },
+        reflex: { rollBonus: 5, rollNumber: 3 },
+      },
+      imunidades: ["fogo"],
+      description:
+        '<p>Em trevas sombrias uma luz dança na escuridão. O Corpo de Vela, uma chama etérea e atraente, é uma entidade que personifica o engano e a traição. Sua luz, suave e sedutora, balança como uma chama inconstante, atraindo os desorientados e desesperados para sua perdição.</p><p>	O Corpo de Vela não possui uma forma física clara, mas assume a forma de uma pequena esfera luminosa, de cores azuis ou verdes, que flutua e se contorce de maneira errática. Às vezes, a luz pode criar contornos vagos, simulando uma figura humana ou uma face distorcida, apenas para confundir e enganar suas vítimas.</p><p>	O Corpo de Vela é um mestre do engano e da desorientação. Ele vagueia por pântanos, florestas densas e cavernas escuras, oferecendo sua luz como uma falsa esperança. Aqueles que se perdem ou se encontram em estado de desespero são atraídos pela sua luz, acreditando que encontraram um caminho seguro. No entanto, a luz é um truque cruel, levando-os mais fundo em sua perdição.</p><p>Quando uma vítima se aproxima, a luz do Corpo de Vela provoca uma sensação crescente de desorientação e confusão. O espaço e o tempo parecem distorcidos, e visões perturbadoras intensificam o medo e a angústia, alimentando a entidade e fortalecendo seu poder.</p><p>	O que um dia já foi o espirito de um ser, agora vaga como uma mera lâmpada  acesa, na escuridão crescente de uma noite sem fim. Na história, muitos encontros com corpos assim já foram catalogados. Na ciência, têm-se o estudo sobre o raro fenômeno eletrofísico de "bola-raio." No ocultismo, têm-se por sua vez, o Corpo de vela, que conduz a curiosidade destes questionadores, para alimentar-se de sua perdição.</p>',
+      creatureSize: "pequeno",
+      element: "energia",
+      perceptionType: "Percepção As Cegas",
+      pvCurrent: 240,
+      attributes: { con: 2, int: 2, pre: 3, dex: 3, str: 1 },
+      source: {
+        label: "Solurio",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      description:
+        "<p>Um sofá, uma cama, uma Geladeira ou um cabinete, você sempre tem dúvida de o que você pode encontrar lá. Talvez uma moeda, talvez um controla, mas infelizmente não é seu dia de sorte</p><p><br></p><p>Uma aberração de sangue sai com inúmeros dentes por toda parte, braços longos e pulsantes, um tentáculo enorme que sai de dentro de sua boca, como se fosse uma língua, que agarra , devora e tritura qualquer coisa.</p><p><br></p><p>Para um Mímico surgir, é necessário que uma pessoa seja torturada e após morta, suas partes sejam escondidas em objetos. Um mímico pode chegar até no máximo em um tamanho grande.</p>",
+      pvMax: 160,
+      attributes: { str: 3, dex: 4, int: 3, con: 1, pre: 2 },
+      extraSkills: [
+        {
+          id: "b861079f-2552-41d3-a2af-e0de3870a3c9",
+          rollNumber: 4,
+          rollBonus: 15,
+          name: "Furtividade",
+        },
+      ],
+      altMovements: [{ title: "Andar pela parede", value: 9 }],
+      creatureType: "criatura",
+      secondaryElements: ["conhecimento"],
+      pvCurrent: 160,
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F3d751090-181a-4a73-a045-925e79a1fc5e?alt=media&token=9b44a4f0-5f31-4c43-9221-4151c07854d6",
+      movement: 9,
+      resistencias: { balistico: 10, perfuracao: 10, impacto: 10, sangue: 20 },
+      actions: [
+        {
+          attacks: [
+            {
+              id: "3d3ab7e6-d842-436d-89cd-e0615053447c",
+              numberOfAttacks: 1,
+              range: "Corpo a corpo",
+              name: "Mordida",
+              rollNumber: 4,
+              criticalRange: 20,
+              criticalMult: 2,
+              rollBonus: 10,
+              damage: [
+                {
+                  value: "2d12+4",
+                  id: "435a6c1d-bf24-4cf5-ab5c-0f428dd08e1d",
+                  damageType: "Perfuração",
+                },
+                {
+                  id: "8f1250af-4229-4c01-b34a-e5c2184c8b9f",
+                  value: "2d6",
+                  damageType: "Sangue",
+                },
+              ],
+            },
+          ],
+          id: "5ee7bb05-336a-4a2e-b8ce-e26872ab5dd3",
+          description:
+            "<p>O mímico abre sua boa em um ângulo de 85 graus e fecha com tudo, mordendo a parte mais próxima dele e triturando ela como se seus dentes fossem cerras, desmantelando qualquer coisa.</p><p><br></p><p>Caso um ser esteja agarrado pela língua do Mímico, recebe +10 no teste de ataque e +6 de dano perfurante.</p>",
+          name: "PADRÃO - AGREDIR",
+        },
+        {
+          attacks: [
+            {
+              range: "Curto",
+              name: "Linguada",
+              id: "6159ae6c-7338-416f-b4da-3f0faa679f9e",
+              criticalMult: 2,
+              rollBonus: 10,
+              criticalRange: 20,
+              damage: [
+                {
+                  id: "795de273-09e5-4bca-b640-1709f82952c4",
+                  damageType: "Sangue",
+                  value: "3d6+6",
+                },
+              ],
+              rollNumber: 4,
+              numberOfAttacks: 1,
+            },
+          ],
+          description:
+            "<p>O Mímico propulsona sua língua áspera adianta, que se garra na pele e a arranca do corpo do alvo, deixando a carne do alvo esposta.</p>",
+          name: "PADRÃO - AGREDIR",
+          id: "5233890b-db02-4901-813d-cdae25be161a",
+        },
+        {
+          name: "REACÃO - PRENDER E PUXAR",
+          id: "961d71d3-464b-4dec-870c-b210ee486313",
+          description:
+            "<p>Caso o Mímico acerte um ataque com sua língua, ele pode usar uma reação para tentar agarrar a pessoa e força lá a ir até ele, (ele recebe 3d20+17).</p><p><br></p><p>O Mímico pode usar uma acão livre para  arrastar o alvo por 5 metros para a direção do próprio a cada rodada e o atingido pode fazer um teste (DT 25) para reduzir a distância que vai ser arrastado pela metade.</p>",
+        },
+        {
+          description:
+            "<p>em sua forma de objeto, o Mímico ataque um ser corpo a corpo que tem investigar ele.</p><p><br></p><p>o alvo tem que fazer um teste de percepção&nbsp;contra um teste de furtividade do Mímico, caso passe, deverá fazer um teste de Reflexo (DT 30) para poder ter uma reação ao ataque do Mímico</p><p><br></p><p>ao acerto do ataque, Mímico ganha +2&nbsp;dados do tipo de dano da mordida e +1 dado de dano de sangue.</p>",
+          id: "6b52a704-5574-454e-9a7a-3ff976d37cd6",
+          attacks: [
+            {
+              id: "218e8d5b-2851-452e-8358-ffaff4ab5697",
+              name: "Ataque oportuno",
+              numberOfAttacks: 1,
+              rollNumber: 4,
+              damage: [
+                {
+                  value: "4d12+12",
+                  id: "55ef6759-4ad8-47f6-862c-4c7d5264d5a8",
+                  damageType: "Perfuração",
+                },
+                {
+                  id: "85b2796a-4bd8-4556-8061-7d392e06e69c",
+                  value: "3d6",
+                  damageType: "Sangue",
+                },
+              ],
+              rollBonus: 20,
+              range: "Corpo a corpo",
+              criticalRange: 20,
+              criticalMult: 2,
+            },
+          ],
+          name: "LIVRE - AGREDIR",
+        },
+        {
+          id: "97b77e73-db9b-4a74-a7f5-cf8d833d7128",
+          description:
+            "<p>Caso alguém esteja em morre em alcance corpo a corpo do Mímico, ela vai gastar uma ação completa para devorar a pessoa.</p><p><br></p><p>O Mímico recupera metade dos PV que o alvo tinha, para si mesmo, caso extrapole, o PV entra como vida temporária para o Mímico.</p>",
+          name: "COMPLETA - DEVORAR",
+        },
+      ],
+      powers: [],
+      perceptionType: "Percepção as cegas",
+      vd: 180,
+      creatureSize: "médio",
+      skills: {
+        will: { rollBonus: 10, rollNumber: 2 },
+        reflex: { rollBonus: 15, rollNumber: 4 },
+        initiative: { rollNumber: 3, rollBonus: 15 },
+        perception: { rollBonus: 10, rollNumber: 2 },
+        fortitude: { rollBonus: 10, rollNumber: 1 },
+      },
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F7d364d3e-f62d-41bb-abeb-6e38d3ee80b9?alt=media&token=9569ea7a-02d8-4e1b-9dcf-154416b17fb3",
+      element: "sangue",
+      name: "Mímico Atormentado",
+      presencaPerturbadora: { nex: 60, dice: "7d6", dt: 25 },
+      defense: 25,
+      imunidades: [],
+      vulnerabilidades: ["morte"],
+      source: {
+        label: "Ncon",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      creatureType: "criatura",
+      altMovements: [],
+      element: "conhecimento",
+      imunidades: ["dano"],
+      actions: [
+        {
+          attacks: [
+            {
+              name: "Garras",
+              damage: [
+                {
+                  damageType: "Conhecimento",
+                  id: "e8671ebb-8684-4bd9-bbed-cf165c3ec9e2",
+                  value: "4d6+5",
+                },
+              ],
+              rollNumber: 2,
+              criticalMult: 2,
+              range: "Corpo a corpo",
+              criticalRange: 20,
+              id: "2ffa4b54-da05-4f1a-9556-46b309f12e0c",
+              rollBonus: 10,
+              numberOfAttacks: 2,
+            },
+          ],
+          name: "PADRÃO - AGREDIR",
+          description: "",
+          id: "68a386eb-8796-4862-86b2-918d64283363",
+        },
+        {
+          id: "d4c5848a-4857-41c4-8999-8337062e00f1",
+          name: "REAÇÃO - CONTEMPLAR MEMÓRIA",
+          description:
+            "<p>Ao acertar GARRAS o Espelhado pode usar sua reação, para agarrar um alvo e ler suas memórias revivendo coisas que podem causar horror ao alvo com tal recebendo 3d6 de dano mental. Caso passe em um teste de Vontade DT 20 recebe metade.</p>",
+        },
+        {
+          id: "ee094376-147e-4f73-9f2a-4f81d5585fd3",
+          name: "MOVIMENTO - RASTEJAR ENTRE ESPELHOS",
+          description:
+            "<p>O <strong>Espelhado</strong> entra em um espelho que esteja adjacente a ele. Podendo se mover para qualquer outro espelho em alcance longo e caso não tenha sido visto o <strong>Espelhado</strong> recebe <strong>+2d20</strong> em furtividade.</p>",
+        },
+        {
+          name: "COMPLETA - QUIMERA DE MIL FACES",
+          id: "847301ab-021b-4db7-abe0-06c091db41a3",
+          description:
+            '<p>O <strong>Espelhado</strong> já teve muitos alvos, com isso ele já esteve em diversas peles, absorvendo o conhecimento dos corpos dessas pessoas e algumas poderiam conhecer o <strong>Outro Lado</strong> e as criaturas nascidas dele. O <strong>Espelhado</strong> pode usar seu conhecimento sobre as criaturas do <strong>Outro Lado</strong> para assim transmutar 1 vez por rodada partes de "seu" corpo alcançando no máximo 2, para receber uma <strong>habilidade</strong> ou <strong>ação</strong> de uma criatura que seja de <strong>Conhecimento</strong> ou <strong>Sangue</strong> e que tenha um VD menor que o do <strong>Espelhado</strong>.</p>',
+        },
+      ],
+      perceptionType: "Percepção às cegas",
+      description:
+        '<p>O Espelhado é uma criatura com a característica de copiar a aparência de pessoas e fingir ser elas, agindo quase perfeitamente ao alvo do "Reflexo". O Espelhado é antigo e foi originado do Medo que as pessoas tem de ver algo ou alguém igual a elas que pode fazer coisas horríveis com a culpa das ações sendo direcionadas para suas vitimas. O Espelhado busca pessoas solitárias que possuam amigos e conhecidos mas que morem sozinhas, ele age de uma forma sádica fingindo ser seu alvo assim brincando com sua mente fazendo coisas e direcionando a culpa ao "Refletido" até o momento em que ele aparece em sua casa para terminar o "ciclo". As pessoas Refletidas somem, até serem encontradas pelas autoridades mortas em suas casas com os seus rostos arrancados e pendurados em um dos espelho de sua residência.</p><p><span style="background-color: oklab(0.0852327 0.00000386313 0.00000170618 / 0.06); color: oklab(0.899401 -0.00192499 -0.00481987);"> </span>A forma verdadeira do Espelhado é desconhecida mas rumores dizem que aqueles que presenciaram a sua real aparência nunca mais esqueceram do seu vislumbre ou foram mortas por terem "visto de mais". O Espelhado é definitivamente uma criatura perigosa pelo mistério e o perigo que pode estar por trás de um rosto... então só uma pergunta... <strong>Aquele é você do Outro Lado da rua?</strong></p>',
+      name: "Espelhado",
+      vd: 170,
+      creatureSize: "médio",
+      skills: {
+        fortitude: { rollBonus: 10, rollNumber: 2 },
+        reflex: { rollBonus: 5, rollNumber: 2 },
+        initiative: { rollBonus: 10, rollNumber: 3 },
+        will: { rollNumber: 3, rollBonus: 20 },
+        perception: { rollNumber: 3, rollBonus: 15 },
+      },
+      resistencias: {
+        corte: 10,
+        balistico: 10,
+        perfuracao: 10,
+        impacto: 10,
+        mental: 0,
+        dano: 0,
+        conhecimento: 20,
+      },
+      pvCurrent: 300,
+      enigmaDoMedo:
+        "<p>O <strong>Espelhado</strong> é uma criatura que se move pelos espelhos se tornando imbatível enquanto está dentro deles, como descrito na ação <strong>RASTEJAR ENTRE ESPELHOS</strong> ele consegue viajar entre espelhos em alcance longo. O único jeito de derrotar o <strong>Espelhado</strong> e destruindo todos os espelhos dentro desse alcance assim tirando uma rota de fuga dele. Ao resolver o <strong>Enigma do Medo</strong> do Espelhado ele será consumido por um grande odio assim perdendo a sua imunidade a dano e retirando as transformações atuais causadas pela ação <strong>QUIMERA DE MIL FACES</strong> mas ainda podendo utilizar essa ação novamente.</p>",
+      movement: 9,
+      vulnerabilidades: ["sangue"],
+      attributes: { int: 4, dex: 3, str: 2, con: 2, pre: 3 },
+      powers: [
+        {
+          name: "REFLETIR",
+          description:
+            "<p>Ao escolher um alvo o <strong>Espelhado</strong> reflete a sua aparência assim se tornando igual a esse ser. o Espelhado tem a capacidade de conjurar o ritual <strong>Distorcer Aparência</strong> sem precisar de componentes e gastar <strong>PE</strong>.</p>",
+          id: "72f1b73b-c223-4fce-88d6-e7659093e877",
+          attacks: [],
+        },
+        {
+          description:
+            "<p>Ao Refletir um alvo o <strong>Espelhado</strong> ganha uma das habilidades desse ser, se for um <strong>Poder Paranormal</strong> de <strong>Conhecimento</strong> e <strong>Sangue</strong> o <strong>Espelhado</strong> receberá as vantagens da afinidade mas se for de outros Elementos o <strong>Espelhado</strong> recebe as vantagens normais, se for um <strong>ritual</strong> o <strong>Espelhado</strong> terá no máximo 15 <strong>PE</strong> para gastar e terá a capacidade de usar até o circulo do alvo.</p>",
+          id: "c45f8032-2d95-403b-9f56-bc97057fe036",
+          name: "ESPELHAR",
+        },
+        {
+          name: "FRATURA REVELADA",
+          id: "801e7461-4aab-4ac4-a256-9063fc7af9c0",
+          description:
+            "<p>Ao ser descoberto o <strong>Espelhado</strong> revela sua farsa assim ganhando garras e abrindo um grande olho com uma pupila dourada e brilhante no rosto de quem ele Refletiu, causando assim sua <strong>Presença Perturbadora </strong>e<strong> </strong>decidindo eliminar aqueles que o descobriram assim iniciando sua caçada.</p>",
+        },
+      ],
+      secondaryElements: ["sangue", "medo"],
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Ffad4dc5b-bcc7-4121-a55f-88ced8adde04?alt=media&token=e4c0d18c-8e6b-4d4d-a7c0-5f44b2cc356b",
+      extraSkills: [
+        {
+          rollBonus: 15,
+          name: "Enganação",
+          id: "c141790c-dd05-443e-b81e-637555a043e8",
+          rollNumber: 3,
+        },
+        {
+          id: "af7661d2-639e-4b6c-8b3c-c05c9e80834d",
+          rollBonus: 15,
+          rollNumber: 3,
+          name: "Diplomacia",
+        },
+        {
+          name: "Intuição",
+          rollNumber: 3,
+          id: "dd368a08-1d6a-4b51-98e1-a0478931be44",
+          rollBonus: 5,
+        },
+      ],
+      defense: 30,
+      pvMax: 300,
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F8eff5c41-cb2f-44d9-a556-ae936175c1e1?alt=media&token=3fe304cb-5355-4beb-a1db-03d73b3ae5b1",
+      presencaPerturbadora: { nex: 55, dt: 25, dice: "5d8" },
+      source: {
+        label: "Julispanopontomp4",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      movement: 21,
+      altMovements: [
+        { title: "Escalada", value: 21 },
+        { value: 21, title: "Natação" },
+      ],
+      secondaryElements: ["conhecimento", "medo"],
+      pvCurrent: 280,
+      resistencias: {
+        fogo: 10,
+        impacto: 10,
+        perfuracao: 10,
+        balistico: 10,
+        sangue: 20,
+      },
+      extraSkills: [
+        {
+          id: "8abe5a26-05c4-4c66-a56d-5f2afbe2daca",
+          rollBonus: 10,
+          name: "Furtividade",
+          rollNumber: 5,
+        },
+      ],
+      actions: [
+        {
+          id: "ab4db6fc-3063-44f2-93a7-316871ce7e48",
+          attacks: [
+            {
+              name: "PUNHOS",
+              numberOfAttacks: 2,
+              id: "0ebff628-baf9-42eb-b653-637231eec811",
+              damage: [
+                {
+                  value: "2d10",
+                  damageType: "Impacto",
+                  id: "1ecb20cd-a7d7-4177-b6d6-92eee8871078",
+                },
+              ],
+              criticalRange: 20,
+              criticalMult: 2,
+              rollNumber: 5,
+              rollBonus: 10,
+              range: "Corpo a corpo",
+            },
+            {
+              numberOfAttacks: 1,
+              criticalRange: 20,
+              damage: [
+                {
+                  damageType: "Perfuração",
+                  value: "4d10",
+                  id: "8816aac1-17db-4fe6-8e86-8eccbb2e9392",
+                },
+              ],
+              criticalMult: 2,
+              range: "Corpo a corpo",
+              rollBonus: 10,
+              name: "MORDIDA",
+              rollNumber: 5,
+              id: "5c7d86cc-fe7f-49d1-8524-285d68d53905",
+            },
+            {
+              damage: [
+                {
+                  value: "4d8",
+                  id: "d61ebcdb-a638-4d10-a266-626896f44ad0",
+                  damageType: "Sangue",
+                },
+              ],
+              name: "APÊNDICE",
+              range: "Curto",
+              numberOfAttacks: 1,
+              id: "3faf5dc0-2af9-4a5c-a94c-962d0cd68f75",
+              rollBonus: 10,
+              criticalMult: 2,
+              criticalRange: 20,
+              rollNumber: 5,
+            },
+          ],
+          name: "PADRÃO - AGREDIR",
+        },
+        {
+          name: "MOVIMENTO - IMPRONÚNCIAVEL",
+          description:
+            "<p>O Testemunhado sussurra uma mentira do além e seleciona um alvo a distância corpo a corpo que possa ouvi-lo. O alvo desse efeito fica enjoado por 1 turno, e o Testemunhado altera uma memória do alvo de até, no máximo, 1 ano atrás. É um efeito semelhante ao ritual de conhecimento Alterar Memória. (PRE Vontade DT 25 Evita)</p>",
+          id: "b77963c1-e95f-4251-9860-e5b641f055f4",
+        },
+        {
+          id: "52785bd5-a602-40f6-ab01-d11990f8b5de",
+          name: "MOVIMENTO - TRANSMUTAR",
+          description:
+            "<p>Se um alvo estiver morrendo ou morto a uma distância de corpo a corpo do Testemunhado, ele pode usar 1d3 ações de movimento para transmutar o ser escolhido em um outro Testemunhado, que acordará depois de 4d6+1 minutos.</p>",
+        },
+        {
+          name: "REAÇÃO - PISCA",
+          description:
+            "<p>Se um alvo estiver no alcance corpo a corpo de um Testemunhado, mas não realizar contato visual direto ou tátil com ele, e estiver desprevenido, ofuscado ou cego, o Testemunhado pode atacar o alvo com um golpe súbito e demolidor. Além disso, o alvo começa a sangrar durante 1d6 turnos. (VIG Fortitude DT 20 anula o efeito)</p>",
+          id: "f028d6bc-906d-4683-9939-fd55942d905a",
+          attacks: [
+            {
+              criticalRange: 19,
+              id: "15147961-c057-41c5-993c-6b5a9cd134c0",
+              range: "Corpo a corpo",
+              rollNumber: 5,
+              damage: [
+                {
+                  id: "dd805143-9b48-4f5b-8756-8df24d62c646",
+                  value: "6d6",
+                  damageType: "Impacto",
+                },
+                {
+                  damageType: "Sangue",
+                  id: "c79cd175-4823-4647-95af-33818ae2b070",
+                  value: "2d6",
+                },
+              ],
+              criticalMult: 2,
+              rollBonus: 10,
+              numberOfAttacks: 1,
+              name: "PISCA",
+            },
+          ],
+        },
+        {
+          description:
+            "<p>O Testemunhado se esconde ou disfarça ficando camuflado, e todos os seres a uma distância extrema ficam desprevenidos apenas em relação ao Testemunhado. (PRE Percepção DT 25 anula)</p>",
+          id: "fdf68966-04ab-40fc-9ef4-ac159216fd03",
+          name: "MOVIMENTO - MOVER NAS SOMBRAS",
+        },
+      ],
+      name: "Testemunhado",
+      description:
+        "<p>Um nó na garganta que bloqueia um grito, um clamor de violência, a premissa de uma heresia que desafia a compreensão e discernimento. São aqueles que estiveram no pior, presenciaram o impossível e guardaram um grito de fúria, silêncio e sigilo. Aqueles que puxam as cortinas pálidas para ocultar a verdade impronunciável. Aqueles que levam as mentiras para o caixão, testemunhando o ato de castigo do testemunhado. O Testemunhado parece ter sido um humanoide, deformado pela tormenta de sangue preso sob máscaras e mãos que lembram uma rocha ferrosa e pálida. Desmembrado de uma forma impossível, o Testemunhado é condenado ao sofrimento de permanecer imóvel e ser forçado a sussurrar seus piores segredos. O outro lado lembra do medo de que o silêncio fosse rompido e a verdade impossível viesse à tona. A angústia e agonia de ter que mentir é o que move o grito sem fim do Testemunhado.</p><p>O Testemunhado não se move enquanto as pessoas o observam. O comportamento de um Testemunhado nunca é certo. Alguns se escondem na sombra, em um lamento de vergonha, e atacam quando tentam ser observados. Outros perseguem um alvo específico, sussurrando segredos sobre ele para pessoas próximas, influenciando suas vidas. As mãos que formam o sussurrado simbolizam a malícia e artimanhas da manipulação do que uma vez foi mentira, mas agora é verdade.</p><p>A dor nas juntas é excruciante; o sangue vazando exala um odor de podridão profunda guardada dentro do peito, como uma angústia sem rota. O mudo e suave grito que ninguém pode ouvir, a respiração cada vez mais miasmática e pesada, como se o ar tivesse um peso metálico. Um som enferrujado e quebrado rastejando pelas sombras são sinais de que um objeto pode esconder um martírio de sangue.</p>",
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Ffc0041da-443d-49a2-bb4c-d2055f167f90?alt=media&token=fe9b21d6-a294-4aba-8f0c-58961b48b010",
+      vd: 140,
+      powers: [
+        {
+          description:
+            "<p>Toda vez que o Testemunhado chega à metade de seus pontos de Vida (PV), ele se transforma em uma versão petrificada de sua última posição, similar a uma estátua mofada de mármore, sem sinais de sangue. Após 1d6 minutos, ele retorna com 200 PV e sai desse estado de metamorfose. O Testemunhado não pode ser morto enquanto estiver sob o efeito desse poder.</p>",
+          name: "Castigo Eterno",
+          id: "c69c69d7-ce2b-48f9-8bf0-3a3af46c65a5",
+        },
+        {
+          id: "bcc3706f-551e-4626-8ac5-cc774516206d",
+          name: "Grito Mudo",
+          description:
+            "<p>O Testemunhado só pode realizar ações padrão se estiver machucado com uma quantidade de PV menor ou igual a 140.</p>",
+        },
+        {
+          id: "4676b246-2760-4218-ad6b-caf7d9f5b3b6",
+          description:
+            "<p>O Testemunhado só pode realizar sua ação de movimento se todos os inimigos não fizerem contato visual direto com ele e estiverem desprevenidos, ofuscados ou cegos. Além disso, o Testemunhado tem duas ações de movimento por padrão, mas não pode repetir a mesma ação de movimento.</p>",
+          name: "Movimento Estático",
+        },
+        {
+          description:
+            "<p>O Testemunhado tem tamanho médio, com uma envergadura de até 2 metros. No entanto, devido ao seu corpo desmembrado, ele é capaz de se contorcer e se adaptar de maneiras extraordinárias. Isso lhe permite escalar, andar em altas velocidades e se esconder em espaços pequenos, com no mínimo 30 por 30 centímetros de área, como em compartimentos de guarda-roupas ou caixas de sapato.</p>",
+          name: "Contorcionista",
+          id: "6fe10ff1-ee85-4179-af76-666bf90d0d3e",
+        },
+      ],
+      creatureType: "criatura",
+      skills: {
+        fortitude: { rollBonus: 10, rollNumber: 3 },
+        perception: { rollNumber: 2, rollBonus: 10 },
+        reflex: { rollNumber: 5, rollBonus: 10 },
+        will: { rollNumber: 1, rollBonus: 0 },
+        initiative: { rollBonus: 0, rollNumber: 1 },
+      },
+      presencaPerturbadora: { dt: 25, dice: "4d8", nex: 50 },
+      imunidadesAditional: "Todas as condições",
+      enigmaDoMedo:
+        "<p>O Testemunhado se move quando ninguém o está vendo; ele é mudo e silencioso, quase imperceptível, até que façam-no gritar. Descobrir a verdade trágica sobre o silêncio súbito de um Testemunhado, revelando seu maior segredo por trás de uma memória perdida no óbito, fará com que ele solte sua angústia afogada em mágoas mudas em um grito de violenta fúria ensurdecedora. Caso seu ato de mentira seja testemunhado, o Testemunhado perde sua imunidade a efeitos e seu poder Castigo Eterno se tornando uma estátua inanimada novamente.</p>",
+      creatureSize: "médio",
+      element: "sangue",
+      defense: 26,
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Ff2b69196-8fa7-4a11-9a86-1f9fe6d31c23?alt=media&token=641d210d-6958-4901-8aec-31ddce348b8a",
+      attributes: { dex: 5, str: 5, int: 2, pre: 2, con: 3 },
+      vulnerabilidades: ["morte"],
+      perceptionType: "Percepção as Cegas",
+      pvMax: 280,
+      imunidades: [],
+      source: {
+        label: "Solurio",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      element: "conhecimento",
+      vd: 260,
+      creatureType: "criatura",
+      imunidades: [],
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F67e5efce-27b7-4516-b65d-2820e5ff4932?alt=media&token=81c4fef8-0791-4d5c-acd5-9d8dd72d6cdf",
+      resistencias: {
+        sangue: 0,
+        impacto: 20,
+        dano: 20,
+        conhecimento: 20,
+        corte: 20,
+        energia: 20,
+        balistico: 20,
+        perfuracao: 0,
+      },
+      perceptionType: "Percepção às cegas",
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Fb9de23b8-92fb-4f56-b7b6-5ec75918cad1?alt=media&token=aefb184a-cd43-4234-b1fc-2525e9f5e884",
+      enigmaDoMedo:
+        "<p>Para resolver o Enigma do Medo do Marionetista, é necessário passar em todos os testes de Vontade de sua presença perturbadora, pois assim o jogador irá mostrar que não possui medo do Marionetista. Se conseguir este feito, suas resistências diminuirão em -15 (exceto de Conhecimento, e o Enigma do Medo não inclui em personagens acima de 80% de NEX).</p>",
+      name: "O Marionetista",
+      imunidadesAditional: "",
+      description:
+        "<p>O Marionetista é conhecido por poder manipular as suas vítimas como marionetes e brinquedos. À rumores que, o Marionetista é apenas visto em teatros ou becos escuros, onde ele pode encurralar sua vítima.</p>",
+      presencaPerturbadora: { nex: 80, dt: 35, dice: "8d6" },
+      movement: 9,
+      creatureSize: "grande",
+      actions: [
+        {
+          attacks: [
+            {
+              range: "Corpo a corpo",
+              rollNumber: 5,
+              criticalRange: 20,
+              numberOfAttacks: 2,
+              rollBonus: 25,
+              name: "Garras",
+              criticalMult: 2,
+              id: "139eb64e-035e-4872-b9dc-02fa4c0cda29",
+              damage: [
+                {
+                  id: "f7fc0bbd-890e-4480-b3e4-4e8f16c10ab0",
+                  damageType: "Corte",
+                  value: "4d12",
+                },
+                {
+                  value: "20",
+                  damageType: "Conhecimento",
+                  id: "0321484e-141b-44c5-954c-3b9e47617bfb",
+                },
+              ],
+            },
+          ],
+          id: "42374603-a0ba-41a2-896e-828e0b2a7516",
+          name: "PADRÃO - Agredir",
+        },
+        {
+          id: "b9438b80-938b-438c-8fb1-681689b4e34a",
+          name: "PADRÃO - Marionetizar",
+          description:
+            '<p>O Marionetista começa todo combate usando sua habilidade de "Marionetizar", que é basicamente tentar controlar até 2 personagens, usando eles como marionetes. Fazendo um teste de Vontade (DT 30) tem a capacidade de resistir à esta ação. Porém, se falhar, o Marionetista obtém todas as ações e cada movimento do alvo em suas mãos, podendo controlar cada movimento e ação dele como quiser.</p>',
+        },
+        {
+          id: "7184e385-d855-4980-bbcc-ce5fed3b25d2",
+          name: "LIVRE - Sumir na Névoa",
+          description:
+            "<p>O Marionetista pode sumir na névoa, porém, não foge do combate, e sim apenas se oculta para atacar de forma imprevisível.</p>",
+        },
+        {
+          name: "PADRÃO - Prender",
+          id: "d623b393-49ff-4b94-aba1-f1eb15197803",
+          description:
+            "<p>Com seus fios presos nas mãos, o Marionetista pode prender um alvo (Reflexos DT 30 esquiva), assim, o alvo não poderá se mover até que alguém o solte.</p>",
+        },
+        {
+          id: "37a25112-1802-4bba-9f57-5479129f99ac",
+          name: "COMPLETA - Desmembrar",
+          description:
+            "<p>Ao agarrar o alvo, o Marionetista pode abrir seu tórax, assim, revelando o que parece ser diversos dentes afiados dentro de seu peito. O Marionetista pode arrancar algum membro do alvo, porém, não arranca sua cabeça, já que gosta de brincar com suas vítimas. As condições podem variar dependendo do membro que ele desmembrar, sendo essas:</p><p><strong>Braço: </strong>O alvo terá uma penalidade de -5 em testes de ataque. Se arrancar o braço direito sendo esse alvo destro, a penalidade aumentará para -10.</p><p><strong>Perna: </strong>O deslocamento do alvo cai para 6m. Se for a perna direita sendo esse alvo destro, o deslocamento diminui para 4m.</p><p>Mesmo as penalidades podendo ser variadas, o dano que recebem independente do membro que arrancar, é 3d12+10 pontos de dano.</p>",
+        },
+      ],
+      secondaryElements: ["energia", "medo"],
+      extraSkills: [
+        {
+          rollNumber: 4,
+          id: "596e1ca6-064a-4c74-9518-0c794486641f",
+          rollBonus: 10,
+          name: "Furtividade",
+        },
+      ],
+      pvCurrent: 390,
+      vulnerabilidades: ["sangue"],
+      pvMax: 390,
+      powers: [
+        {
+          name: "Desaparecer e Atacar",
+          id: "73e9631e-aa1a-47a5-8bb1-d54809afcd86",
+          description:
+            '<p>Quando o Marionetista usa a ação "Sumir na Névoa" e ataca um alvo, ele acerta instantaneamente por ser um ataque surpresa (Percepção DT 35 percebe o ataque, e o Marionetista terá que fazer o teste do ataque).</p>',
+        },
+        {
+          name: "Roubar Pontos de Vida",
+          description:
+            "<p>Enquanto o alvo estiver marionetizado pelo Marionetista, a cada turno que o alvo passar, ele perderá 3d6 pontos de PV, que o Marionetista rouba (Não inclui com os pontos de PV do Marionetista maximizados).</p>",
+          id: "c889334f-19ac-4265-98db-372ea92b3208",
+        },
+      ],
+      defense: 37,
+      skills: {
+        reflex: { rollNumber: 4, rollBonus: 10 },
+        initiative: { rollBonus: 10, rollNumber: 4 },
+        fortitude: { rollBonus: 15, rollNumber: 3 },
+        will: { rollNumber: 5, rollBonus: 20 },
+        perception: { rollNumber: 5, rollBonus: 15 },
+      },
+      attributes: { con: 3, pre: 5, str: 4, int: 3, dex: 4 },
+      source: {
+        label: "Akkiel e Rafaelsilver",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "https://www.instagram.com/grimorioparanormal/",
+        adLabel: "grimorioParanormal",
+      },
+    },
+    {
+      element: "conhecimento",
+      name: "Velho do Saco",
+      imunidades: [],
+      pvMax: 420,
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Fb0d462fb-ad4d-42e5-b952-6e76c2fac58c?alt=media&token=22054615-fad4-42a4-b423-3501b8226bac",
+      extraSkills: [
+        {
+          rollNumber: 3,
+          rollBonus: 15,
+          name: "Intuição",
+          id: "fc1a6c98-11b9-4ba6-96e3-5d26a0510411",
+        },
+        {
+          rollNumber: 3,
+          rollBonus: 15,
+          name: "Enganação",
+          id: "25b5d1db-3bed-4392-8a4a-a720bd45e20c",
+        },
+        {
+          rollBonus: 17,
+          name: "Furtividade",
+          id: "435501c5-51d5-4758-b419-0f76f72a0a31",
+          rollNumber: 4,
+        },
+      ],
+      defense: 30,
+      enigmaDoMedo:
+        '<p>O Velho do Saco é uma criatura "consciente" que busca pessoas malcriadas para saciar sua fome interminável. Mas essa "índole" e "moral" humanizada deve ter vindo de algum lugar...</p><p>Se o Enigma de Medo for resolvido, o Velho perde sua habilidade Intuição Onisciente e não pode sequestrar mais que três seres.</p>',
+      actions: [
+        {
+          id: "4230f33d-c539-415e-8088-55dbfc8cb367",
+          attacks: [
+            {
+              rollNumber: 4,
+              numberOfAttacks: 2,
+              damage: [
+                {
+                  value: "2d10+10",
+                  damageType: "Impacto",
+                  id: "430bbb12-8731-4f08-9dab-e75ec451d6d6",
+                },
+              ],
+              name: "Pancada",
+              criticalRange: 20,
+              range: "Corpo a corpo",
+              rollBonus: 15,
+              id: "11cd8d92-b1c9-470f-a109-4c6e3d8b751d",
+              criticalMult: 2,
+            },
+            {
+              rollNumber: 4,
+              range: "Corpo a Corpo",
+              id: "3c63674c-eac0-4d89-816e-14e75edab683",
+              numberOfAttacks: 1,
+              criticalRange: 18,
+              rollBonus: 15,
+              name: "Mordida",
+              criticalMult: 2,
+              damage: [
+                {
+                  value: "3d8+10",
+                  id: "24bfa2bc-892c-439d-8410-9caa84c74954",
+                  damageType: "Perfuração",
+                },
+              ],
+            },
+          ],
+          name: "Padrão – AGREDIR",
+        },
+        {
+          name: "Livre – AGARRÃO",
+          id: "b7fd84bf-1d2a-4a66-9757-1f554b4868e7",
+          description:
+            "<p>Sempre que acertar um ataque em um ser Médio ou menor, o Velho pode agarrá-lo (4d20+17). Caso tente fazer o mesmo com uma criança de 12 anos ou menos, obtém sucesso automático.</p>",
+        },
+        {
+          id: "7d347092-b391-4c44-bcba-b65d1611bf44",
+          name: "Livre – FUGA LIGEIRA",
+          description:
+            "<p><em>Correndo sob os quatro membros, a criatura esguia foge para as sombras como um vulto.</em> O Velho pode se esconder sem penalidades por fazer algo chamativo ou falta de cobertura.</p>",
+        },
+        {
+          id: "c531afed-c3a7-4402-a80e-ecf278e1982a",
+          name: "Padrão – SEQUESTRAR",
+          description:
+            "<p><em>Para aqueles que ousam desrespeitar uma regra sequer, saibam: Seu lugar está reservado, um castigo na imensidão do desconhecido, condenado a ser levado e esquecido, por toda a eternidade.</em> Se estiver adjacente à um ser Médio ou menor enquanto Furtivo ou agarrando um ser, o Velho pode sequestrá-lo (Percepção DT Furtividade ou teste de manobra [4d20+15] evita). Um ser sequestrado sofre 4d6 de dano mental na primeira vez em que for colocado no saco, 4d6 de dano de Conhecimento no início de cada turno do Velho e fica incapaz de realizar ações, só podendo ser liberto se um outro ser abrir o saco, realizando um teste de manobra para agarrar o saco (4d20+15), e outro para abrí-lo (4d20+17). Crianças de 12 anos ou menos não sofrem nenhum dano e ficam inconscientes até o final da cena, mas podem ser libertadas também.</p>",
+        },
+      ],
+      movement: 15,
+      powers: [
+        {
+          name: "Fome Insaciada",
+          id: "bbe3e7dd-1bdb-4999-987f-5c0ee69dada0",
+          description:
+            "<p><em>A fome é constante, não importa o quanto devore, nunca ficará satisfeito</em>. Sempre que acertar um ataque de Mordida, o Velho recupera  metade do dano causado + 20 PV e deixa o alvo Sangrando (Fortitude DT 30 evita condição. O sangramento é cumulativo. Em caso de acerto crítico, causa +1d de dano e deixa um Ferimento Debilitante (OPRPG Sobrevivendo ao Horror pág. 105).</p>",
+        },
+        {
+          id: "4bbc5e1d-2f21-42d2-bef2-ad03a7bb588a",
+          description:
+            "<p><em>O ambiente se adapta à presença do Velho, sombras irreais surgem dos cantos dos olhos, a penumbra é mais intensa, tudo favorecendo a ocultação do perseguidor.</em> Enquanto estiver Furtivo, o Velho ganha +6m em seu deslocamento, pode andar seu deslocamento normal e não sofre penalidades por carga ou seguir um alvo.</p>",
+          name: "Passo Sombrio",
+        },
+        {
+          description:
+            '<p><em>Como uma mãe que aconselha a criança, ou um pai que pressente o perigo, o Velho do Saco não precisa de mais do que um olhar para saber se és malcriado ou não.</em> O Velho do Saco pode analisar um ser em alcance Médio para descobrir sua índole, comportamento ou personalidade. Para crianças de 12 anos ou menos, o Velho sabe tudo acerca dela. Para pessoas com 13 anos ou mais, Velho faz um teste de Intuição (DT PRE da pessoa). Em caso de sucesso, descobre características primárias dela, sejam boas ou ruins, tais como sentimentos predominantes, vontades internas, etc. Se analisar uma pessoa 3 vezes ou mais, descobrirá uma "desobediência" da mesma, ficando mais agressivo com esta e passando a persegui-la com mais fervor, recebendo +2 em testes contra ela e podendo realizar a seguinte ação:</p><p><strong>Olhar de Julgamento.</strong> Enquanto estiver em alcance médio de uma pessoa que tenha analisado 3 vezes ou mais, o Velho pode espreitá-la, julgando-a através de seus atos incorretos ou ilegais. A pessoa deve fazer um teste de Vontade DT 25 + 2 por analise posterior, em caso de falha, sofre 4d6 pontos de dano mental e fica abalada até o final da cena.</p>',
+          name: "Intuição Onisciente",
+          id: "c4ff4af1-5585-43f3-8ed1-fa10358b9048",
+        },
+      ],
+      presencaPerturbadora: { nex: 75, dt: 30, dice: "6d6" },
+      vulnerabilidades: ["sangue"],
+      description:
+        '<p>Uma das mais famosas lendas da América da Latina e além, o velho do saco ou homem do saco é uma lenda usada para assustar e educar crianças levadas, dizendo que seriam sequestradas por um velho decrépito com seu saco de volume infinito, caso desobedecessem seus pais. O Medo gerado através de gerações deu origem ao Velho do Saco, um ser humanoide, esguio e esquelético, anormalmente magro, por volta dos 3 metros de altura, seu rosto é deformado, com uma mandíbula enorme e torta com dentes erráticos e deformados, e no lugar dos olhos apenas uma escuridão fúnebre contendo um único ponto amarelo cintilante, são poucos os longos fios de cabelo grisalhos que cobrem sua cabeça, que leva à uma barba longa e mal feita. Apesar de ser uma criatura paranormal, o Velho tem uma certa "consciência", sempre buscando pelas crianças que considera mal-educadas ou desobedientes. Mas, na maioria dos casos, ele sempre pega mais de uma criança ou até mesmo adultos, inocente ou não,  aumentando ainda mais a sua margem de vítimas.</p><p>O Velho do Saco é uma criatura sorrateira, apenas espera pacientemente pela sua próxima vítima, em meio à floresta escura, que guarda silenciosamente os restos mortais daqueles que foram levados por ele.</p><p><br></p><p>Lembre-se: <em>"Obedeça seus pais e seja comportado, ou o Velho do Saco ficará irritado..."</em></p>',
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F90aedab8-166c-4331-93fa-5650f863915a?alt=media&token=13d76701-c292-43b7-912e-5e5a64a2fe91",
+      attributes: { dex: 4, str: 2, con: 2, pre: 3, int: 3 },
+      altMovements: [],
+      vd: 240,
+      resistencias: { corte: 10, impacto: 10, conhecimento: 20, balistico: 10 },
+      pvCurrent: 420,
+      secondaryElements: ["sangue", "medo"],
+      skills: {
+        fortitude: { rollNumber: 1, rollBonus: 10 },
+        perception: { rollNumber: 3, rollBonus: 15 },
+        reflex: { rollBonus: 15, rollNumber: 4 },
+        initiative: { rollNumber: 4, rollBonus: 15 },
+        will: { rollNumber: 3, rollBonus: 15 },
+      },
+      creatureSize: "grande",
+      perceptionType: "Percepção às cegas",
+      creatureType: "criatura",
+      source: {
+        label: "Interstellar4114",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
+    {
+      pvCurrent: 280,
+      vd: 140,
+      resistencias: {
+        dano: 0,
+        perfuracao: 10,
+        energia: 10,
+        balistico: 10,
+        corte: 10,
+        impacto: 10,
+        quimico: 5,
+      },
+      attributes: { int: 2, con: 3, dex: 3, pre: 3, str: 4 },
+      actions: [
+        {
+          name: "Padrão - Agredir Tentáculos",
+          id: "12a5ecd1-fe5b-495e-ab44-e49124e3aafb",
+          attacks: [
+            {
+              criticalRange: 19,
+              criticalMult: 2,
+              damage: [
+                {
+                  damageType: "Impacto",
+                  id: "5f46a1be-04e7-477c-a292-7345b47f9578",
+                  value: "3d12+10",
+                },
+              ],
+              rollBonus: 15,
+              id: "989308e4-fa60-410c-91e6-6c6b89fdfe3a",
+              range: "Corpo a corpo",
+              numberOfAttacks: 1,
+              rollNumber: 4,
+              name: "Tentáculos",
+            },
+          ],
+        },
+        {
+          id: "c44f9c99-9a23-4117-96fc-b04c8c225cf4",
+          description:
+            '<p>Se no turno passado o alvo deste poder foi atacado pela criatura e sofreu dano, o Dementador ergue sua mão e o personagem é consumido por fagulhas caoticas multicoloridas. O personagem é enviado até o Mundo Invertido, uma dimensão de bolso. Para se libertar do Mundo Invertido, os personagens que estão na cena precisam atacar a criatura e causar dano, e ao fazer isso, devem rolar 1d4, e se tirar 1 , libera o personagem do Mundo Invertido. A cada turno preso nessa dimensão, um ser sofre 2d8+5 pontos de dano de Energia e 1d10+4 de dano mental. Só um personagem por vez pode ser preso no Mundo Invertido, e poderes de teletransporte ou rituais não removem um personagem de dentro dessa dimensão, mas aumentam o bonus para ser solto em +1d4 para cada poder desse tipo utilizado. Se um personagem morrer ou enlouquecer dentro do Mundo Invertido, se torna um Anárquico e é "cuspido" da dimensão.</p>',
+          name: "Completa - Mundo Invertido",
+        },
+      ],
+      name: "Anomalia do Mundo Invertido",
+      element: "energia",
+      movement: 12,
+      sheetPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2Fe6bff6c7-166b-4966-a884-c62457faafcb?alt=media&token=532f422c-d9d2-48d0-8e3e-b4b2269bbd31",
+      pvMax: 280,
+      imunidades: [],
+      creatureSize: "médio",
+      powers: [
+        {
+          description:
+            "<p>A criatura pode atravessar obstruções fisicas não-paranormais, como paredes, objetos ou pessoas. Uma pessoa em que o Dementador atravessou fica Ofuscado por um turno, um personagem só pode sofrer esse efeito uma vez por cena pela criatura.</p>",
+          id: "5d991556-1fe3-4459-b381-c2d866dc5deb",
+          name: "Viagem pelo Mundo Invertido",
+        },
+        {
+          id: "33ba1eb4-9b8f-48a6-aba4-cc3dfdc116cf",
+          name: "Coexistir entre dimensões",
+          description:
+            '<p>Ao sofrer dano, e uma vez por turno, a criatura pode se tornar virtualmente "intangivel", existindo com a Realidade e com o Mundo Invertido ao mesmo tempo, dobrando todas as suas resistencias.</p>',
+        },
+      ],
+      secondaryElements: ["sangue"],
+      creatureType: "criatura",
+      perceptionType: "Visão no escuro",
+      presencaPerturbadora: { nex: 55, dice: "4d8", dt: 25 },
+      defense: 32,
+      vulnerabilidades: ["conhecimento"],
+      fullPictureURL:
+        "https://firebasestorage.googleapis.com/v0/b/cris-ordem-paranormal.appspot.com/o/images%2F30a69972-1970-4533-883a-bfa74efeeabc?alt=media&token=d23e84f1-de2f-487f-8963-d82a2c9c0d64",
+      description:
+        '<p>O Lorde Demônio do Abismo, um ser macabro que possui torso curvado e marcado por cavidades ocas, tentáculos em seus braços e duas cabeças que se desenrolam em carne como uma flor desabrochando, revelando pétalas forradas com dentes pontudos. Consegue exonerar seres através de portais, os enlouquecendo em algum tipo de dimensão de bolso criada pela própria Entidade, conhecida como "O Mundo Invertido".</p>',
+      skills: {
+        will: { rollNumber: 3, rollBonus: 10 },
+        perception: { rollNumber: 3, rollBonus: 10 },
+        initiative: { rollBonus: 15, rollNumber: 3 },
+        fortitude: { rollNumber: 3, rollBonus: 15 },
+        reflex: { rollNumber: 3, rollBonus: 10 },
+      },
+      source: {
+        label: "Xdvitorlol",
+        extra: "Durante o evento #BotaNoCRIS",
+        link: "",
+        adLabel: "",
+      },
+    },
   ],
   e = [
     {
