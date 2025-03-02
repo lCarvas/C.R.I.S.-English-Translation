@@ -29,17 +29,17 @@ import {
   D as E,
   a3 as me,
   J as ve,
-} from "./index-y5xotY6D.js";
+} from "./index-_IEBVZw3.js";
 import { _ as te, a as pe } from "./edit-icon-3vZQUsyW.js";
 import { b as $, d as _e, c as he, a as be } from "./creatureData-ozdxpDUT.js";
 import { _ as ae } from "./d20-icon-vaz1En3o.js";
 import { _ as $e } from "./show-more-icon-VvUXKiHG.js";
-import { T as ne } from "./TabNav-hmTs2qVs.js";
-import { C as fe } from "./CardSource-k5lnlnIv.js";
+import { T as ne } from "./TabNav-8NoDP55z.js";
+import { C as fe } from "./CardSource-rX7V1a1_.js";
 import { h as Q } from "./default-FmxCqAN8.js";
 import { i as ge } from "./forms-8DDAOOVU.js";
 import { _ as G, l as F } from "./lodash-gzw5KmHd.js";
-import { D as J } from "./DropdownSimple-bE1zTUVG.js";
+import { D as J } from "./DropdownSimple-MgTgWHS_.js";
 import { v as K } from "./v4-cyCr5FZV.js";
 const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
   ye = { class: "info-bar" },
@@ -1096,7 +1096,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
                               onHandleEditAction:
                                 i[2] ||
                                 (i[2] = (C) =>
-                                  a.$emit("handleEditAction", C, "Action")),
+                                  a.$emit("handleEditAction", C, "Ação")),
                             },
                             null,
                             8,
@@ -1184,7 +1184,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
     },
   }),
   La = w(Na, [["__scopeId", "data-v-e3c1635c"]]),
-  Fa = (l) => (M("data-v-626fe008"), (l = l()), P(), l),
+  Fa = (l) => (M("data-v-357bb59f"), (l = l()), P(), l),
   Oa = { class: "creature-description-container" },
   qa = ["innerHTML"],
   za = { key: 1 },
@@ -1212,7 +1212,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
                 },
                 null,
                 8,
-                ["label", "ad-label", "link"]
+                ["label", "ad-label", "link", "extra"]
               ))
             : m("", !0),
           y(La, { creature: t.creature }, null, 8, ["creature"]),
@@ -1240,7 +1240,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
       );
     },
   }),
-  Ka = w(Ja, [["__scopeId", "data-v-626fe008"]]),
+  Ka = w(Ja, [["__scopeId", "data-v-357bb59f"]]),
   Wa = { class: "creature-sheet-container" },
   Xa = { class: "sheet-padding" },
   ja = { class: "tab-nav-container" },

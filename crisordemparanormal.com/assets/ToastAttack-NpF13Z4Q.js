@@ -32,7 +32,7 @@ import {
   a4 as Kg,
   ab as ey,
   L as Tt,
-} from "./index-y5xotY6D.js";
+} from "./index-_IEBVZw3.js";
 import { _ as Va } from "./d20-icon-vaz1En3o.js";
 import { _ as Tp, a as ry } from "./edit-icon-3vZQUsyW.js";
 import { S as ty, s as ny, c as Ci } from "./characterAutomations-VjVSWhq1.js";
@@ -1218,8 +1218,8 @@ var I0 = ["Matrix", "Array"],
   R0 = ["number", "BigNumber", "Fraction"],
   fe = function (r) {
     if (r)
-      throw new Error(`The global config is readonly. 
-Please create a mathjs instance if you want to change the default configuration. 
+      throw new Error(`The global config is readonly.
+Please create a mathjs instance if you want to change the default configuration.
 Example:
 
   import { create, all } from 'mathjs';
@@ -27150,7 +27150,7 @@ var am = "lusolve",
       "quantileSeq(A, [prob1, prob2, ...][, sorted])",
       "quantileSeq(A, N[, sorted])",
     ],
-    description: `Compute the prob order quantile of a matrix or a list with values. The sequence is sorted and the middle value is returned. Supported types of sequence values are: Number, BigNumber, Unit Supported types of probablity are: Number, BigNumber. 
+    description: `Compute the prob order quantile of a matrix or a list with values. The sequence is sorted and the middle value is returned. Supported types of sequence values are: Number, BigNumber, Unit Supported types of probablity are: Number, BigNumber.
 
 In case of a (multi dimensional) array or matrix, the prob order quantile of all elements will be calculated.`,
     examples: [

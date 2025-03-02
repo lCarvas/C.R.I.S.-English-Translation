@@ -1,9 +1,9 @@
 import {
   d as m,
   M as C,
-  o as a,
+  o as s,
   c as r,
-  a as s,
+  a,
   a1 as i,
   m as t,
   H as c,
@@ -11,21 +11,21 @@ import {
   ao as g,
   P as v,
   p as k,
-  b,
-  _ as f,
-} from "./index-4XNPBkfT.js";
+  b as f,
+  _ as b,
+} from "./index-_IEBVZw3.js";
 const h = "/assets/op-book-button-Aw__Nrhd.webp",
   w = "/assets/toca-dos-monstros-button-WfZBUjmy.webp",
   S = "/assets/culto-da-criacao-button-62eZitok.webp",
   y = "/assets/arquivos-confidenciais-button-MsJ9zxzp.webp",
   q = "/assets/marcas-fragmentadas-button-rujR1ifA.webp",
   $ = "/assets/comunidade-button-5JJ0-ILt.webp",
-  M = (u) => (k("data-v-9ddb3b33"), (u = u()), b(), u),
+  M = (u) => (k("data-v-f8a10064"), (u = u()), f(), u),
   D = { class: "sources-container" },
   B = { class: "buttons-container" },
   F = { key: 0, class: "text-container" },
   V = M(() =>
-    s(
+    a(
       "a",
       {
         class: "source-link",
@@ -58,10 +58,10 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
           o !== null && p(v(l, "ads", o), { clicks: g(1) });
         };
       return (o, e) => (
-        a(),
+        s(),
         r("div", D, [
-          s("div", B, [
-            s(
+          a("div", B, [
+            a(
               "div",
               {
                 class: "source-button",
@@ -71,7 +71,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                     o.$emit("handleChangeCurrentSource", "ordemParanormal")),
               },
               [
-                s(
+                a(
                   "img",
                   {
                     class: i([
@@ -89,7 +89,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
               ]
             ),
             o.showTocaDosMonstros
-              ? (a(),
+              ? (s(),
                 r(
                   "div",
                   {
@@ -104,7 +104,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                         )),
                   },
                   [
-                    s(
+                    a(
                       "img",
                       {
                         class: i([
@@ -124,7 +124,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                 ))
               : t("", !0),
             o.showCultoDaCriacao
-              ? (a(),
+              ? (s(),
                 r(
                   "div",
                   {
@@ -136,7 +136,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                         o.$emit("handleChangeCurrentSource", "cultoDaCriacao")),
                   },
                   [
-                    s(
+                    a(
                       "img",
                       {
                         class: i([
@@ -156,7 +156,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                 ))
               : t("", !0),
             o.showArquivosConfidenciais
-              ? (a(),
+              ? (s(),
                 r(
                   "div",
                   {
@@ -171,7 +171,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                         )),
                   },
                   [
-                    s(
+                    a(
                       "img",
                       {
                         class: i([
@@ -191,7 +191,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                 ))
               : t("", !0),
             o.showMarcasFragmentadas
-              ? (a(),
+              ? (s(),
                 r(
                   "div",
                   {
@@ -206,7 +206,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                         )),
                   },
                   [
-                    s(
+                    a(
                       "img",
                       {
                         class: i([
@@ -226,7 +226,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                 ))
               : t("", !0),
             o.showComunidade
-              ? (a(),
+              ? (s(),
                 r(
                   "div",
                   {
@@ -238,7 +238,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
                         o.$emit("handleChangeCurrentSource", "comunidade")),
                   },
                   [
-                    s(
+                    a(
                       "img",
                       {
                         class: i([
@@ -258,17 +258,17 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
               : t("", !0),
           ]),
           o.currentSource === "ordemParanormal"
-            ? (a(),
+            ? (s(),
               r("div", F, [
                 c(" Official Ordem Paranormal Content. See More "),
                 V,
               ]))
             : t("", !0),
           o.currentSource === "tocaDosMonstros"
-            ? (a(),
+            ? (s(),
               r("div", j, [
                 c(" Official Toca dos Monstros Content. See More "),
-                s(
+                a(
                   "a",
                   {
                     class: "source-link",
@@ -281,10 +281,10 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
               ]))
             : t("", !0),
           o.currentSource === "cultoDaCriacao"
-            ? (a(),
+            ? (s(),
               r("div", P, [
                 c(" Official Culto da Criação Content. See More "),
-                s(
+                a(
                   "a",
                   {
                     class: "source-link",
@@ -297,10 +297,10 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
               ]))
             : t("", !0),
           o.currentSource === "arquivosConfidenciais"
-            ? (a(),
+            ? (s(),
               r("div", _, [
                 c(" Official Arquivos Confidênciais Content. See More "),
-                s(
+                a(
                   "a",
                   {
                     class: "source-link",
@@ -313,10 +313,10 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
               ]))
             : t("", !0),
           o.currentSource === "marcasFragmentadas"
-            ? (a(),
+            ? (s(),
               r("div", A, [
                 c(" Official Marcas Fragmentadas Content. See More "),
-                s(
+                a(
                   "a",
                   {
                     class: "source-link",
@@ -329,7 +329,7 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
               ]))
             : t("", !0),
           o.currentSource === "comunidade"
-            ? (a(),
+            ? (s(),
               r(
                 "div",
                 N,
@@ -340,5 +340,5 @@ const h = "/assets/op-book-button-Aw__Nrhd.webp",
       );
     },
   }),
-  J = f(T, [["__scopeId", "data-v-9ddb3b33"]]);
+  J = b(T, [["__scopeId", "data-v-f8a10064"]]);
 export { J as S };

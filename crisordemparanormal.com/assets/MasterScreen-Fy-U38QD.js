@@ -42,8 +42,8 @@ import {
   w as Ae,
   a2 as z,
   T as Ue,
-} from "./index-y5xotY6D.js";
-import { L as ut } from "./LoadingView-ZLD11fC3.js";
+} from "./index-_IEBVZw3.js";
+import { L as ut } from "./LoadingView-P3Ten1Qu.js";
 import {
   I as te,
   n as dt,
@@ -61,14 +61,14 @@ import {
   f as Ct,
   g as $t,
   D as me,
-} from "./ToastAttack-Bu2iIdH9.js";
-import { T as De } from "./TabNav-hmTs2qVs.js";
-import { S as pe } from "./SwitchButtonBool-naxJtuad.js";
+} from "./ToastAttack-NpF13Z4Q.js";
+import { T as De } from "./TabNav-8NoDP55z.js";
+import { S as pe } from "./SwitchButtonBool-RM1MKLBr.js";
 import { _ as He } from "./d20-icon-vaz1En3o.js";
-import { C as kt } from "./CombatCard-LvHWIE-K.js";
+import { C as kt } from "./CombatCard-Zas0SpKO.js";
 import { _ as St } from "./exit-icon-7lL51GVi.js";
-import { C as Rt, A as yt } from "./ActionModal-GABZ7qTj.js";
-import { R as It } from "./RitualCard-YQozvJpR.js";
+import { C as Rt, A as yt } from "./ActionModal-AgGja9Jf.js";
+import { R as It } from "./RitualCard-A8rnnYXQ.js";
 import {
   A as At,
   K as Dt,
@@ -79,14 +79,14 @@ import {
   R as wt,
   T as Nt,
   c as Et,
-} from "./creatures-q8AxLgiY.js";
+} from "./creatures-3PDYyihL.js";
 import { c as Ot } from "./cultoDaCriacaoContent-BJ8GSvob.js";
 import { m as Bt } from "./marcasFragmentadas-KD4kpdFJ.js";
-import { C as Vt } from "./CreatureCard-FVv9G11b.js";
-import { S as Ut } from "./SearchInput-fz3CRdVo.js";
-import { S as Lt } from "./SourcesNavigation-_F9IdAqB.js";
-import { T as Ft } from "./ToastNotification-xk7gRJX_.js";
-import { C as qt } from "./CreatureForm-7xg70Mhj.js";
+import { C as Vt } from "./CreatureCard-8Sqn0pTB.js";
+import { S as Ut } from "./SearchInput-8jvDJspv.js";
+import { S as Lt } from "./SourcesNavigation-rmg9bvek.js";
+import { T as Ft } from "./ToastNotification-7RF8hdNk.js";
+import { C as qt } from "./CreatureForm--tw6EU63.js";
 import { s as Na } from "./characterAutomations-VjVSWhq1.js";
 import { v as Le } from "./v4-cyCr5FZV.js";
 import "./edit-icon-3vZQUsyW.js";
@@ -94,17 +94,17 @@ import "./_commonjsHelpers-4gQjN7DL.js";
 import "./attributes-pd1IMHTT.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./creatureData-ozdxpDUT.js";
-import "./CardSource-TVMp46kS.js";
+import "./CardSource-rX7V1a1_.js";
 import "./default-FmxCqAN8.js";
 import "./forms-8DDAOOVU.js";
 import "./lodash-gzw5KmHd.js";
-import "./DropdownSimple-bE1zTUVG.js";
+import "./DropdownSimple-MgTgWHS_.js";
 import "./add-icon-fJ4uQHUZ.js";
 import "./share-icon-J6b_MEIl.js";
 import "./trash-icon-Dl18GMfa.js";
 import "./blank-profile-picture-wMh28flS.js";
-import "./PictureModal-k5rUGgsn.js";
-import "./index.esm2017-EftcTv1r.js";
+import "./PictureModal-kET9VHIy.js";
+import "./index.esm2017-7kKbn8n8.js";
 const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
   Gt = { class: "char-status-card-container" },
   Kt = { class: "header" },
@@ -202,14 +202,14 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
               u.character.isNexLevelOn
                 ? (t(),
                   o("div", en, [
-                    Ta(" NÍVEL: "),
+                    Ta(" LEVEL: "),
                     u.character.statsClass !== "Mundane"
                       ? (t(), o("span", an, A(he(dt)[u.character.nex]), 1))
                       : (t(), o("span", tn, "0")),
                   ]))
                 : (t(),
                   o("div", Zt, [
-                    Ta(" NEX: "),
+                    Ta(" PEX: "),
                     u.character.statsClass !== "Mundane"
                       ? (t(), o("span", Yt, A(u.character.nex), 1))
                       : (t(), o("span", xt, "0%")),
