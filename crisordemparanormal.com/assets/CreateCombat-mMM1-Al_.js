@@ -28,7 +28,7 @@ import {
   p as sa,
   b as ta,
   _ as ra,
-} from "./index-_IEBVZw3.js";
+} from "./index-soWtg56j.js";
 import {
   A as oa,
   K as la,
@@ -42,12 +42,12 @@ import {
 } from "./creatures-3PDYyihL.js";
 import { m as pa } from "./marcasFragmentadas-KD4kpdFJ.js";
 import { c as ha } from "./cultoDaCriacaoContent-BJ8GSvob.js";
-import { C as R } from "./CreatureCard-8Sqn0pTB.js";
-import { T as _a } from "./TabNav-8NoDP55z.js";
-import { S as ba } from "./SearchInput-8jvDJspv.js";
+import { C as R } from "./CreatureCard-k944rGco.js";
+import { T as _a } from "./TabNav-Vghvkjaf.js";
+import { S as ba } from "./SearchInput-hTi_nf9h.js";
 import { a as _ } from "./default-FmxCqAN8.js";
 import { l as b, _ as fa } from "./lodash-gzw5KmHd.js";
-import { S as Ca } from "./SourcesNavigation-rmg9bvek.js";
+import { S as Ca } from "./SourcesNavigation-KK0GVICx.js";
 import { v as k } from "./v4-cyCr5FZV.js";
 import "./share-icon-J6b_MEIl.js";
 import "./trash-icon-Dl18GMfa.js";
@@ -68,9 +68,7 @@ const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
   Ma = { class: "combat-lists-container" },
   Aa = { class: "creatures-list" },
   Ba = { class: "creatures-list-header" },
-  Fa = h(() =>
-    e("div", { class: "creatures-title" }, " Threat List ", -1)
-  ),
+  Fa = h(() => e("div", { class: "creatures-title" }, " Threat List ", -1)),
   Ia = { key: 0, class: "tab-nav-container" },
   Ea = { class: "creature-cards-container creatures-card-mobile" },
   Ha = { class: "creatures-list-add" },

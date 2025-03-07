@@ -42,8 +42,8 @@ import {
   w as Ae,
   a2 as z,
   T as Ue,
-} from "./index-_IEBVZw3.js";
-import { L as ut } from "./LoadingView-P3Ten1Qu.js";
+} from "./index-soWtg56j.js";
+import { L as ut } from "./LoadingView-KPNW7woi.js";
 import {
   I as te,
   n as dt,
@@ -51,60 +51,59 @@ import {
   F as Qa,
   a as mt,
   c as Pa,
-  u as ht,
   C as wa,
-  d as pt,
-  r as bt,
-  T as ft,
-  b as _t,
+  r as ht,
+  T as pt,
+  b as bt,
+  d as ft,
+  f as _t,
   e as gt,
-  f as Ct,
-  g as $t,
-  D as me,
-} from "./ToastAttack-NpF13Z4Q.js";
-import { T as De } from "./TabNav-8NoDP55z.js";
-import { S as pe } from "./SwitchButtonBool-RM1MKLBr.js";
+} from "./ToastAttack-iIEKjpRj.js";
+import { T as De } from "./TabNav-Vghvkjaf.js";
+import { S as pe } from "./SwitchButtonBool-uGSP2BHG.js";
 import { _ as He } from "./d20-icon-vaz1En3o.js";
-import { C as kt } from "./CombatCard-Zas0SpKO.js";
-import { _ as St } from "./exit-icon-7lL51GVi.js";
-import { C as Rt, A as yt } from "./ActionModal-AgGja9Jf.js";
-import { R as It } from "./RitualCard-A8rnnYXQ.js";
+import { C as Ct } from "./CombatCard-dbm6gDhc.js";
+import { _ as $t } from "./exit-icon-7lL51GVi.js";
+import { C as kt, A as St } from "./ActionModal-VQJiab1U.js";
+import { R as Rt } from "./RitualCard-59gIvyFv.js";
 import {
-  A as At,
-  K as Dt,
-  E as Mt,
-  D as Ht,
-  B as Tt,
-  F as Pt,
-  R as wt,
-  T as Nt,
-  c as Et,
+  A as yt,
+  K as It,
+  E as At,
+  D as Dt,
+  B as Mt,
+  F as Ht,
+  R as Tt,
+  T as Pt,
+  c as wt,
 } from "./creatures-3PDYyihL.js";
-import { c as Ot } from "./cultoDaCriacaoContent-BJ8GSvob.js";
-import { m as Bt } from "./marcasFragmentadas-KD4kpdFJ.js";
-import { C as Vt } from "./CreatureCard-8Sqn0pTB.js";
-import { S as Ut } from "./SearchInput-8jvDJspv.js";
-import { S as Lt } from "./SourcesNavigation-rmg9bvek.js";
-import { T as Ft } from "./ToastNotification-7RF8hdNk.js";
-import { C as qt } from "./CreatureForm--tw6EU63.js";
+import { c as Nt } from "./cultoDaCriacaoContent-BJ8GSvob.js";
+import { m as Et } from "./marcasFragmentadas-KD4kpdFJ.js";
+import { C as Ot } from "./CreatureCard-k944rGco.js";
+import { S as Bt } from "./SearchInput-hTi_nf9h.js";
+import { S as Vt } from "./SourcesNavigation-KK0GVICx.js";
+import { u as Ut, d as Lt, D as me } from "./dice-roll-g2p52PvP.js";
+import { T as Ft } from "./ToastNotification-vO3MN8ch.js";
+import { C as qt } from "./CreatureForm-lCNPDD5a.js";
 import { s as Na } from "./characterAutomations-VjVSWhq1.js";
 import { v as Le } from "./v4-cyCr5FZV.js";
 import "./edit-icon-3vZQUsyW.js";
-import "./_commonjsHelpers-4gQjN7DL.js";
 import "./attributes-pd1IMHTT.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./creatureData-ozdxpDUT.js";
-import "./CardSource-rX7V1a1_.js";
+import "./CardSource-BmFlmtci.js";
 import "./default-FmxCqAN8.js";
 import "./forms-8DDAOOVU.js";
 import "./lodash-gzw5KmHd.js";
-import "./DropdownSimple-MgTgWHS_.js";
+import "./_commonjsHelpers-4gQjN7DL.js";
+import "./DropdownSimple-0amtt2-f.js";
 import "./add-icon-fJ4uQHUZ.js";
 import "./share-icon-J6b_MEIl.js";
 import "./trash-icon-Dl18GMfa.js";
 import "./blank-profile-picture-wMh28flS.js";
-import "./PictureModal-kET9VHIy.js";
-import "./index.esm2017-7kKbn8n8.js";
+import "./PictureModal-Y_Qw3LoM.js";
+import "./index.esm2017-Z-XG8S4I.js";
+import "./browser-image-compression-9kymdGFS.js";
 const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
   Gt = { class: "char-status-card-container" },
   Kt = { class: "header" },
@@ -172,7 +171,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
           return u > 0 ? u : 0;
         }),
         l = Y(() => R.character.skills[9].bonus),
-        d = Y(() => R.character.skills[20].bonus + f.value);
+        d = Y(() => R.character.skills[22].bonus + f.value);
       return (u, I) => (
         t(),
         o("div", Gt, [
@@ -333,9 +332,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
   Qe = (v) => (K("data-v-f22e148b"), (v = v()), j(), v),
   Ln = { key: 0, class: "master-screen-chars-button-container" },
   Fn = { class: "row" },
-  qn = Qe(() =>
-    e("div", { class: "label" }, " Hide agents for players ", -1)
-  ),
+  qn = Qe(() => e("div", { class: "label" }, " Hide agents for players ", -1)),
   Gn = { key: 1 },
   Kn = { key: 0, class: "master-screen-chars-container" },
   jn = { key: 1, class: "no-chars-message" },
@@ -619,7 +616,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
   Xo = { class: "exit-button-container" },
   Jo = ["onClick"],
   Zo = za(() =>
-    e("img", { class: "exit-icon", src: St, alt: "sair" }, null, -1)
+    e("img", { class: "exit-icon", src: $t, alt: "sair" }, null, -1)
   ),
   Yo = [Zo],
   xo = { class: "initiative-container" },
@@ -960,7 +957,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                       "div",
                       vs,
                       A(R.character.className) +
-                        " - EXP: " +
+                        " - NEX: " +
                         A(R.character.nex),
                       1
                     ),
@@ -1291,7 +1288,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                             t(),
                             o("div", { key: c.id, class: "align-card" }, [
                               T(
-                                It,
+                                Rt,
                                 {
                                   id: c.id,
                                   ritual: c,
@@ -1570,9 +1567,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
   $r = { class: "modal-body modal-height" },
   kr = { class: "creatures-list" },
   Sr = { class: "creatures-list-header" },
-  Rr = Je(() =>
-    e("div", { class: "creatures-title" }, " Threat List ", -1)
-  ),
+  Rr = Je(() => e("div", { class: "creatures-title" }, " Threat List ", -1)),
   yr = { key: 0, class: "tab-nav-container" },
   Ir = { class: "creature-cards-container creatures-card-mobile" },
   Ar = V({
@@ -1615,20 +1610,20 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
       const s = Y(() => {
           let m = [];
           return (
-            I.value === "ordemParanormal" && l.value === 0 && (m = At),
-            I.value === "ordemParanormal" && l.value === 1 && (m = Dt),
-            I.value === "ordemParanormal" && l.value === 2 && (m = Mt),
-            I.value === "ordemParanormal" && l.value === 3 && (m = Ht),
-            I.value === "ordemParanormal" && l.value === 4 && (m = Tt),
-            I.value === "ordemParanormal" && l.value === 5 && (m = Pt),
-            I.value === "ordemParanormal" && l.value === 6 && (m = wt),
+            I.value === "ordemParanormal" && l.value === 0 && (m = yt),
+            I.value === "ordemParanormal" && l.value === 1 && (m = It),
+            I.value === "ordemParanormal" && l.value === 2 && (m = At),
+            I.value === "ordemParanormal" && l.value === 3 && (m = Dt),
+            I.value === "ordemParanormal" && l.value === 4 && (m = Mt),
+            I.value === "ordemParanormal" && l.value === 5 && (m = Ht),
+            I.value === "ordemParanormal" && l.value === 6 && (m = Tt),
             I.value === "ordemParanormal" &&
               l.value === 7 &&
               (m = u.value || []),
-            I.value === "tocaDosMonstros" && (m = Nt),
-            I.value === "cultoDaCriacao" && (m = Ot),
-            I.value === "marcasFragmentadas" && (m = Bt),
-            I.value === "comunidade" && (m = Et),
+            I.value === "tocaDosMonstros" && (m = Pt),
+            I.value === "cultoDaCriacao" && (m = Nt),
+            I.value === "marcasFragmentadas" && (m = Et),
+            I.value === "comunidade" && (m = wt),
             m.filter((y) => je(y.name, d.value))
           );
         }),
@@ -1652,7 +1647,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
           e("div", $r, [
             e("div", kr, [
               T(
-                Lt,
+                Vt,
                 {
                   "current-source": I.value,
                   "show-toca-dos-monstros": "",
@@ -1669,7 +1664,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
               e("div", Sr, [
                 Rr,
                 T(
-                  Ut,
+                  Bt,
                   {
                     value: d.value,
                     small: "",
@@ -1707,7 +1702,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                       t(),
                       o("div", { key: k.id }, [
                         T(
-                          Vt,
+                          Ot,
                           {
                             creature: k,
                             "is-default": "",
@@ -1743,13 +1738,9 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
   Er = { class: "row" },
   Or = fe(() => e("div", { class: "label" }, " Hide threat HP ", -1)),
   Br = { class: "row" },
-  Vr = fe(() =>
-    e("div", { class: "label" }, " Hide agent attributes ", -1)
-  ),
+  Vr = fe(() => e("div", { class: "label" }, " Hide agent attributes ", -1)),
   Ur = { class: "row" },
-  Lr = fe(() =>
-    e("div", { class: "label" }, " Hide threat dice rolls ", -1)
-  ),
+  Lr = fe(() => e("div", { class: "label" }, " Hide threat dice rolls ", -1)),
   Fr = V({
     __name: "ConfigModal",
     props: { campaign: { type: Object, required: !0 } },
@@ -2015,7 +2006,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                               ? (t(),
                                 o("div", xr, [
                                   T(
-                                    Rt,
+                                    kt,
                                     {
                                       creature:
                                         s.campaign.combats[
@@ -2236,7 +2227,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                                     t(),
                                     o("div", { key: m.id }, [
                                       T(
-                                        kt,
+                                        Ct,
                                         {
                                           combat: m,
                                           "is-master-screen": "",
@@ -2275,7 +2266,8 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
           {
             title: "General",
             key: "geral",
-            placeholder: "General information gathered throughout the game session...",
+            placeholder:
+              "General information gathered throughout the game session...",
           },
           {
             title: "Future Sessions ",
@@ -2981,7 +2973,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
   sc = V({
     __name: "MasterScreen",
     setup(v) {
-      const { play: R } = ht(pt),
+      const { play: R } = Ut(Lt),
         i = [
           { label: "AGENTS", value: 0 },
           { label: "ENCOUNTERS", value: 1 },
@@ -3124,10 +3116,10 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
         },
         de = (n, r, p, g = !1, S) => {
           try {
-            const D = gt(n),
+            const D = ft(n),
               q = D.total,
-              Q = Ct(D.output),
-              X = $t(D.output);
+              Q = _t(D.output),
+              X = gt(D.output);
             (J.value.title = p),
               (J.value.total = q),
               (J.value.output = Q),
@@ -3149,7 +3141,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
         },
         xe = (n, r) => {
           try {
-            const p = bt(n, r);
+            const p = ht(n, r);
             (P.value.title = r.name),
               (P.value.totalAttack = p.attackTotal),
               (P.value.totalDamage = p.damageTotal),
@@ -4257,7 +4249,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                                       J.value.alive
                                         ? (t(),
                                           M(
-                                            ft,
+                                            pt,
                                             {
                                               key: 0,
                                               toast: J.value,
@@ -4285,7 +4277,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                                       P.value.alive
                                         ? (t(),
                                           M(
-                                            _t,
+                                            bt,
                                             {
                                               key: 0,
                                               toast: P.value,
@@ -4373,7 +4365,7 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
                             {
                               default: oe(() => [
                                 T(
-                                  yt,
+                                  St,
                                   {
                                     action: ue.value,
                                     title: ke.value,
@@ -4397,5 +4389,5 @@ const ee = (v) => (K("data-v-df2547a9"), (v = v()), j(), v),
       };
     },
   }),
-  Gc = U(sc, [["__scopeId", "data-v-f87af0af"]]);
-export { Gc as default };
+  jc = U(sc, [["__scopeId", "data-v-f87af0af"]]);
+export { jc as default };

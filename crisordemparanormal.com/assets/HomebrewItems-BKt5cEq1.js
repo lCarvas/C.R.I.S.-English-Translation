@@ -39,11 +39,11 @@ import {
   J as Ht,
   a6 as le,
   a7 as re,
-} from "./index-_IEBVZw3.js";
-import { P as Mt, _ as Ge } from "./PowerCard-lmfampVo.js";
-import { S as ke } from "./SearchInput-8jvDJspv.js";
-import { L as ve } from "./LoadingView-P3Ten1Qu.js";
-import { H as de, g as Le, b as st } from "./firebase-Kh98738y.js";
+} from "./index-soWtg56j.js";
+import { P as Mt, _ as Ge } from "./PowerCard-i0yFMME3.js";
+import { S as ke } from "./SearchInput-hTi_nf9h.js";
+import { L as ve } from "./LoadingView-KPNW7woi.js";
+import { H as de, g as Le, b as st } from "./firebase-4srbeokJ.js";
 import {
   p as Fe,
   r as Oe,
@@ -61,19 +61,19 @@ import {
   g as yt,
   h as wt,
 } from "./forms-8DDAOOVU.js";
-import { S as Pt } from "./SwitchButtonBool-RM1MKLBr.js";
+import { S as Pt } from "./SwitchButtonBool-uGSP2BHG.js";
 import { _ as x } from "./lodash-gzw5KmHd.js";
-import { P as Ee } from "./PictureModal-kET9VHIy.js";
-import { T as it } from "./ToastNotification-7RF8hdNk.js";
-import { R as Lt } from "./RitualCard-A8rnnYXQ.js";
-import { T as Ke } from "./TabNav-8NoDP55z.js";
-import { D as X } from "./DropdownSimple-MgTgWHS_.js";
+import { P as Ee } from "./PictureModal-Y_Qw3LoM.js";
+import { T as it } from "./ToastNotification-vO3MN8ch.js";
+import { R as Lt } from "./RitualCard-59gIvyFv.js";
+import { T as Ke } from "./TabNav-Vghvkjaf.js";
+import { D as X } from "./DropdownSimple-0amtt2-f.js";
 import {
   W as Et,
   P as qt,
   M as Ut,
   C as Rt,
-} from "./CursedItemCard-PR55Azgh.js";
+} from "./CursedItemCard-LnYN-kuv.js";
 import { v as Be } from "./v4-cyCr5FZV.js";
 const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
   Dt = { class: "delete-container" },
@@ -325,8 +325,7 @@ const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
                       : (o(),
                         n("div", Jt, [
                           u.value.length > 0
-                            ? (o(),
-                              n("div", Zt, " No ability found "))
+                            ? (o(), n("div", Zt, " No ability found "))
                             : (o(),
                               n(
                                 "div",
@@ -2454,8 +2453,7 @@ const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
                             ? (o(),
                               n("div", Rn, [
                                 u.value.length > 0
-                                  ? (o(),
-                                    n("div", xn, " No weapon found "))
+                                  ? (o(), n("div", xn, " No weapon found "))
                                   : (o(),
                                     n(
                                       "div",
@@ -2468,12 +2466,7 @@ const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
                             ? (o(),
                               n("div", Sn, [
                                 r.value.length > 0
-                                  ? (o(),
-                                    n(
-                                      "div",
-                                      Bn,
-                                      " No ammo found "
-                                    ))
+                                  ? (o(), n("div", Bn, " No ammo found "))
                                   : (o(),
                                     n(
                                       "div",
@@ -2486,12 +2479,7 @@ const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
                             ? (o(),
                               n("div", On, [
                                 p.value.length > 0
-                                  ? (o(),
-                                    n(
-                                      "div",
-                                      zn,
-                                      " No armor found "
-                                    ))
+                                  ? (o(), n("div", zn, " No armor found "))
                                   : (o(),
                                     n(
                                       "div",
@@ -2504,12 +2492,7 @@ const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
                             ? (o(),
                               n("div", jn, [
                                 i.value.length > 0
-                                  ? (o(),
-                                    n(
-                                      "div",
-                                      Qn,
-                                      " No equipment found "
-                                    ))
+                                  ? (o(), n("div", Qn, " No equipment found "))
                                   : (o(),
                                     n(
                                       "div",
@@ -2523,11 +2506,7 @@ const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
                               n("div", Xn, [
                                 $.value.length > 0
                                   ? (o(),
-                                    n(
-                                      "div",
-                                      Yn,
-                                      " No cursed item found "
-                                    ))
+                                    n("div", Yn, " No cursed item found "))
                                   : (o(),
                                     n(
                                       "div",
@@ -3595,12 +3574,7 @@ const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
       const d = t,
         v = a,
         h = ["Simple Weapons", "Tactical Weapons", "Heavy Weapons"],
-        l = [
-          "Melee",
-          "Throwing Weapons",
-          "Arrow Based",
-          "Firearm",
-        ],
+        l = ["Melee", "Throwing Weapons", "Arrow Based", "Firearm"],
         s = ["Light", "One Handed", "Two Handed"],
         u = [
           "Ballistic",

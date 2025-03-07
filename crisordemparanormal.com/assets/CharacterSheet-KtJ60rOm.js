@@ -48,114 +48,114 @@ import {
   l as Ft,
   y as Nt,
   z as Bt,
-} from "./index-_IEBVZw3.js";
+} from "./index-soWtg56j.js";
 import {
   g as Qt,
   r as Eo,
   b as Gt,
   u as Xt,
   a as Wt,
-} from "./index.esm2017-7kKbn8n8.js";
-import { T as Kt } from "./ToastNotification-7RF8hdNk.js";
+} from "./index.esm2017-Z-XG8S4I.js";
+import { T as Kt } from "./ToastNotification-vO3MN8ch.js";
 import {
   n as ua,
   I as Ue,
-  h as Jt,
+  g as Jt,
   A as Yt,
   F as Be,
   a as Zt,
-  u as er,
-  p as ar,
-  C as or,
-  d as tr,
-  i as rr,
+  p as er,
+  C as ar,
+  h as or,
   c as Po,
+  i as tr,
+  u as rr,
   j as sr,
   k as nr,
   l as ir,
-  m as dr,
-  o as lr,
   f as na,
-  g as ia,
-  q as So,
+  e as ia,
+  m as So,
+  o as dr,
+  q as lr,
   s as ur,
   t as cr,
   v as mr,
   w as pr,
   x as gr,
   y as vr,
-  z as hr,
-  B as fr,
-  e as br,
-  r as qr,
-  E as Cr,
-  T as Ar,
-  b as yr,
-  G as Er,
-  H as Pr,
-  J as Sr,
-  K as kr,
-  L as Rr,
-} from "./ToastAttack-NpF13Z4Q.js";
+  d as hr,
+  r as fr,
+  z as br,
+  T as qr,
+  b as Cr,
+  B as Ar,
+  D as yr,
+  E as Er,
+  G as Pr,
+  H as Sr,
+} from "./ToastAttack-iIEKjpRj.js";
 import { _ as _o } from "./d20-icon-vaz1En3o.js";
-import { T as ge } from "./TabNav-8NoDP55z.js";
-import { P as Qe } from "./PowerCard-lmfampVo.js";
-import { R as zo } from "./RitualCard-A8rnnYXQ.js";
+import { T as ge } from "./TabNav-Vghvkjaf.js";
+import { P as Qe } from "./PowerCard-i0yFMME3.js";
+import { R as zo } from "./RitualCard-59gIvyFv.js";
 import {
   W as Oo,
   P as Uo,
   M as Ho,
   C as Lo,
-} from "./CursedItemCard-PR55Azgh.js";
+} from "./CursedItemCard-LnYN-kuv.js";
 import {
   S as ga,
-  H as Ir,
-  b as Mr,
-  a as $r,
-  _ as wr,
+  H as kr,
+  b as Rr,
+  a as Ir,
+  _ as Mr,
   A as xo,
   R as jo,
   W as Fo,
   P as No,
   M as ca,
   c as Bo,
-} from "./HomebrewItems-mjEonRs8.js";
+} from "./HomebrewItems-BKt5cEq1.js";
 import { c as Me } from "./attributes-pd1IMHTT.js";
-import { S as Ae } from "./SearchInput-8jvDJspv.js";
-import { b as Dr, c as Tr } from "./ClassCard-Ns79b_-p.js";
-import { b as Vr, c as _r } from "./marcasFragmentadas-KD4kpdFJ.js";
-import { S as va } from "./SourcesNavigation-rmg9bvek.js";
-import { a as zr, b as Or } from "./cultoDaCriacaoContent-BJ8GSvob.js";
+import { S as Ae } from "./SearchInput-hTi_nf9h.js";
+import { b as $r, c as wr } from "./ClassCard-6KWDrtlB.js";
+import { b as Dr, c as Tr } from "./marcasFragmentadas-KD4kpdFJ.js";
+import { S as va } from "./SourcesNavigation-KK0GVICx.js";
+import { a as Vr, b as _r } from "./cultoDaCriacaoContent-BJ8GSvob.js";
 import {
   d as $e,
   p as Qo,
   r as Go,
-  w as Ur,
-  e as Hr,
-  f as Lr,
-  m as xr,
-  g as jr,
+  w as zr,
+  e as Or,
+  f as Ur,
+  m as Hr,
+  g as Lr,
 } from "./default-FmxCqAN8.js";
-import { b as Fr } from "./forms-8DDAOOVU.js";
+import { b as xr } from "./forms-8DDAOOVU.js";
 import { _ as Le, l as ko } from "./lodash-gzw5KmHd.js";
-import { D as Pe } from "./DropdownSimple-MgTgWHS_.js";
-import { P as ha } from "./PictureModal-kET9VHIy.js";
+import { D as Pe } from "./DropdownSimple-0amtt2-f.js";
+import { P as ha } from "./PictureModal-Y_Qw3LoM.js";
 import { v as xe } from "./v4-cyCr5FZV.js";
-import { S as we } from "./SwitchButtonBool-RM1MKLBr.js";
+import { S as we } from "./SwitchButtonBool-uGSP2BHG.js";
 import { _ as De } from "./blank-profile-picture-wMh28flS.js";
-import { L as Nr } from "./LoadingView-P3Ten1Qu.js";
+import { L as jr } from "./LoadingView-KPNW7woi.js";
 import {
   s as Xo,
-  e as Br,
-  o as Qr,
-  c as Gr,
+  e as Fr,
+  o as Nr,
+  c as Br,
 } from "./characterAutomations-VjVSWhq1.js";
-import { g as Xr, C as Wr } from "./firebase-Kh98738y.js";
+import { u as Qr, d as Gr } from "./dice-roll-g2p52PvP.js";
+import { g as Xr, C as Wr } from "./firebase-4srbeokJ.js";
 import "./edit-icon-3vZQUsyW.js";
-import "./_commonjsHelpers-4gQjN7DL.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./add-icon-fJ4uQHUZ.js";
-import "./CardSource-rX7V1a1_.js";
+import "./CardSource-BmFlmtci.js";
+import "./_commonjsHelpers-4gQjN7DL.js";
+import "./browser-image-compression-9kymdGFS.js";
 const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   Jr = "/assets/sobrevivendo-ao-horror-on-553JUvpA.webp",
   Yr = "/assets/shield-icon-FCvc8PM4.png",
@@ -2858,7 +2858,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         c = P([]),
         g = P("");
       ke(() => {
-        for (const m of Dr) c.value.push(m.power);
+        for (const m of $r) c.value.push(m.power);
       });
       const u = X(() =>
         c.value
@@ -3046,7 +3046,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         "<p>O seu sangue flui de forma paranormal e agressiva, concedendo vigor não natural. Você recebe +2 pontos de vida por NEX. Quando sobe de NEX, os PV que recebe por este poder aumentam de acordo. Por exemplo, se escolher este poder em NEX 50%, recebe 20 PV. Quando subir para NEX 55%, recebe +2 PV, e assim por diante.</p><p><span>Afinidade:</span> você recebe +5 em Fortitude e se torna imune a venenos e doenças.</p>",
       hasAutomation: !0,
       isAutomationOn: !0,
-            automationId: "sangue-de-ferro",
+      automationId: "sangue-de-ferro",
     },
     {
       name: "Sangue Fervente",
@@ -3327,7 +3327,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
           p.currentSource === "arquivosConfidenciais"
             ? rl
             : p.currentSource === "marcasFragmentadas"
-            ? Vr
+            ? Dr
             : al.filter((d) => d.element === c[g.value].label)
         );
       return (d, r) => (
@@ -3498,7 +3498,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
     emits: ["handleAddPower", "handleCloseModal"],
     setup(o, { emit: b }) {
       const p = b,
-        v = [hl, Ir],
+        v = [hl, kr],
         c = [
           { label: "Abilities", value: 0 },
           { label: "My Abilities", value: 1 },
@@ -5914,7 +5914,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
             : p.currentSource === "tocaDosMonstros"
             ? Ml.sort((y, S) => y.name.localeCompare(S.name))
             : p.currentSource === "cultoDaCriacao"
-            ? zr.sort((y, S) => y.name.localeCompare(S.name))
+            ? Vr.sort((y, S) => y.name.localeCompare(S.name))
             : p.currentSource === "arquivosConfidenciais"
             ? tl.sort((y, S) => y.name.localeCompare(S.name))
             : p.currentSource === "comunidade"
@@ -6153,7 +6153,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
               null,
               [
                 c.value === 1
-                  ? (t(), _(Mr, { key: 0, onHandleAddItem: m }))
+                  ? (t(), _(Rr, { key: 0, onHandleAddItem: m }))
                   : C("", !0),
               ],
               1024
@@ -7357,11 +7357,11 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         r = (l) => v("handleAddRitual", l),
         n = X(() =>
           p.currentSource === "cultoDaCriacao"
-            ? Or.sort((l, q) => l.name.localeCompare(q.name))
+            ? _r.sort((l, q) => l.name.localeCompare(q.name))
             : p.currentSource === "arquivosConfidenciais"
             ? ol.sort((l, q) => l.name.localeCompare(q.name))
             : p.currentSource === "marcasFragmentadas"
-            ? _r.sort((l, q) => l.name.localeCompare(q.name))
+            ? Tr.sort((l, q) => l.name.localeCompare(q.name))
             : u.value === 0
             ? m.value === 0
               ? Ie.filter((l) => K(l.name, d.value)).sort((l, q) =>
@@ -7551,7 +7551,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
               null,
               [
                 c.value === 1
-                  ? (t(), _($r, { key: 0, onHandleAddRitual: m }))
+                  ? (t(), _(Ir, { key: 0, onHandleAddRitual: m }))
                   : C("", !0),
               ],
               1024
@@ -7644,7 +7644,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   ic = Y(() =>
     e(
       "img",
-      { class: "picture", src: wr, alt: "foto agente em branco" },
+      { class: "picture", src: Mr, alt: "foto agente em branco" },
       null,
       -1
     )
@@ -7735,7 +7735,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         },
         S = () => {
           if (n.value) return;
-          Fr(d.value);
+          xr(d.value);
           const E = { attack: d.value };
           v("handleEditAttack", E), (d.value = Le.clone($e));
         },
@@ -7990,7 +7990,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                                         class: "button-primary",
                                         onClick: (R) => q(a.id),
                                       },
-                                      " Remove ",
+                                      " Remover ",
                                       8,
                                       ac
                                     ),
@@ -8913,7 +8913,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                         t(),
                         s("div", { key: u.name }, [
                           A(
-                            Tr,
+                            wr,
                             { "char-class": u, onHandleAddClass: v },
                             null,
                             8,
@@ -9061,7 +9061,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                   A(
                     Fo,
                     {
-                      weapon: B(Ur),
+                      weapon: B(zr),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
@@ -9081,7 +9081,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                   A(
                     ca,
                     {
-                      misc: B(Hr),
+                      misc: B(Or),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
@@ -9101,7 +9101,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                   A(
                     No,
                     {
-                      protection: B(Lr),
+                      protection: B(Ur),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
@@ -9121,7 +9121,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                   A(
                     ca,
                     {
-                      misc: B(xr),
+                      misc: B(Hr),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
@@ -9141,7 +9141,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                   A(
                     Bo,
                     {
-                      "cursed-item": B(jr),
+                      "cursed-item": B(Lr),
                       edit: "",
                       sheet: "",
                       "add-mode": "",
@@ -9844,7 +9844,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                   j,
                   null,
                   Q(
-                    B(Br),
+                    B(Fr),
                     (u) => (
                       t(),
                       _(
@@ -9873,7 +9873,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                   j,
                   null,
                   Q(
-                    B(Qr),
+                    B(Nr),
                     (u) => (
                       t(),
                       _(
@@ -10025,7 +10025,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   Dv = T({
     __name: "CharacterSheet",
     setup(o) {
-      const { play: b } = er(tr),
+      const { play: b } = Qr(Gr),
         p = [Pl, Jl, mu, Au, $c, ha, Um, Cp, Km, mp, Kg, dv],
         v = {
           abilities: 0,
@@ -10066,7 +10066,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         w = P(),
         G = P(),
         ie = P(),
-        a = P(rr),
+        a = P(or),
         R = P(0),
         k = P(!0),
         z = P(!1),
@@ -10116,7 +10116,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
           (a.value.currentItemsLimit = $), (h = !0);
         }
         if (
-          (a.value.peTurn || ((a.value.peTurn = ar[a.value.nex]), (h = !0)),
+          (a.value.peTurn || ((a.value.peTurn = er[a.value.nex]), (h = !0)),
           a.value.deathMarks === void 0 &&
             ((a.value.deathMarks = [!1, !1, !1]),
             (a.value.madnessMarks = [!1, !1, !1]),
@@ -10328,20 +10328,20 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         },
         Ia = (i) => {
           const h = i.e.target.valueAsNumber;
-          sr(a.value, h, i.key), D();
+          tr(a.value, h, i.key), D();
         },
         Ma = (i) => {
           const h = a.value.nex;
-          (a.value[i.key] = i.value), nr(a.value, h), D();
+          (a.value[i.key] = i.value), rr(a.value, h), D();
         },
         $a = (i) => {
           const h = i.target.valueAsNumber;
-          ir(a.value, h), D();
+          sr(a.value, h), D();
         },
         wa = (i) => {
           try {
-            const h = dr[i],
-              M = lr(a.value, i),
+            const h = nr[i],
+              M = ir(a.value, i),
               $ = na(M.output),
               O = ia(M.output);
             Ye(he.value, h, M.total, $, O), b();
@@ -10393,12 +10393,12 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
           (a.value.skills[h][i.key] = i.value), So(a.value, i.skillName), D();
         },
         Ha = (i) => {
-          ur(a.value, i.value, i.skillName), So(a.value, i.skillName), D();
+          dr(a.value, i.value, i.skillName), So(a.value, i.skillName), D();
         },
         La = (i) => {
           try {
             const h = i.name,
-              M = cr(a.value, i),
+              M = lr(a.value, i),
               $ = na(M.output),
               O = ia(M.output);
             Ye(he.value, h, M.total, $, O), b();
@@ -10428,20 +10428,20 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
           (i.id = xe()), a.value.attacks.push(i), D(), te();
         },
         Ga = (i) => {
-          mr(a.value, i), D();
+          ur(a.value, i), D();
         },
         Ze = (i) => {
-          pr(a.value, i), D();
+          cr(a.value, i), D();
         },
         Xa = (i) => {
           const h = a.value.rituals.findIndex((M) => M.id === i);
           a.value.rituals.splice(h, 1), D();
         },
         Wa = (i) => {
-          gr(a.value, i), D();
+          mr(a.value, i), D();
         },
         Ka = (i) => {
-          vr(a.value, i), D();
+          pr(a.value, i), D();
         },
         Ja = (i) => {
           (a.value.description[i.key] = i.value), D();
@@ -10450,15 +10450,15 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
           (a.value[i.key] = i.value), D();
         },
         Za = (i) => {
-          hr(a.value, i.value, i.key), D();
+          gr(a.value, i.value, i.key), D();
         },
         eo = (i) => {
-          fr(a.value, i.value, i.key), D();
+          vr(a.value, i.value, i.key), D();
         },
         ea = (i = "1d20", h = "Resultado", M = !1) => {
           try {
             const $ = h,
-              O = br(i || "1d20"),
+              O = hr(i || "1d20"),
               ee = na(O.output),
               de = ia(O.output);
             (he.value.defaultColor = M), Ye(he.value, $, O.total, ee, de), b();
@@ -10468,7 +10468,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         },
         ao = (i) => {
           try {
-            const h = qr(a.value, i);
+            const h = fr(a.value, i);
             gt(
               _e.value,
               i.name,
@@ -10491,22 +10491,22 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         },
         to = (i) => {
           const h = i.target.valueAsNumber;
-          Cr(a.value, h), D();
+          br(a.value, h), D();
         },
         ft = (i) => {
-          Er(a.value, i),
+          Ar(a.value, i),
             Je(x.value, i.name),
             D(),
             N.value === v.addModal && te();
         },
         bt = (i) => {
-          Pr(a.value, i),
+          yr(a.value, i),
             Je(x.value, i.name),
             D(),
             N.value === v.addModal && te();
         },
         qt = (i) => {
-          Sr(a.value, i),
+          Er(a.value, i),
             Je(x.value, i.name),
             D(),
             N.value === v.addModal && te();
@@ -10597,7 +10597,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
             a.value.powers[h].hasAutomation &&
             a.value.powers[h].isAutomationOn !== i.isAutomationOn
           ) {
-            const $ = Gr.find((O) => O.id === i.automationId);
+            const $ = Br.find((O) => O.id === i.automationId);
             if (i.isAutomationOn) {
               if (!($ != null && $.onAdd)) return;
               $.onAdd(a.value);
@@ -10613,10 +10613,10 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
           (a.value.rituals[h] = i), D(), te();
         },
         $t = (i) => {
-          kr(a.value, i), D(), te();
+          Pr(a.value, i), D(), te();
         },
         wt = (i) => {
-          Rr(a.value, i),
+          Sr(a.value, i),
             a.value.mundanoRemoveSkill && Ze(a.value.mundanoRemoveSkill),
             D(),
             te();
@@ -10765,7 +10765,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
             t(),
             s("div", null, [
               y.value
-                ? (t(), s("div", wv, [A(Nr, { "page-loading": "" })]))
+                ? (t(), s("div", wv, [A(jr, { "page-loading": "" })]))
                 : (t(),
                   s("div", uv, [
                     z.value
@@ -11253,7 +11253,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                                 he.value.alive
                                   ? (t(),
                                     _(
-                                      Ar,
+                                      qr,
                                       {
                                         key: 0,
                                         toast: he.value,
@@ -11276,7 +11276,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                                 _e.value.alive
                                   ? (t(),
                                     _(
-                                      yr,
+                                      Cr,
                                       {
                                         key: 0,
                                         toast: _e.value,
@@ -11294,7 +11294,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                           I.value
                             ? (t(),
                               _(
-                                or,
+                                ar,
                                 {
                                   key: 3,
                                   "campaign-log": f.value,
@@ -11314,5 +11314,5 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       );
     },
   }),
-  ch = V(Dv, [["__scopeId", "data-v-d1fbd0f3"]]);
-export { ch as default };
+  ph = V(Dv, [["__scopeId", "data-v-d1fbd0f3"]]);
+export { ph as default };

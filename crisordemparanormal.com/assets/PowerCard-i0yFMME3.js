@@ -20,7 +20,7 @@ import {
   p as N,
   b as P,
   _ as U,
-} from "./index-_IEBVZw3.js";
+} from "./index-soWtg56j.js";
 import { _ as F } from "./show-more-icon-VvUXKiHG.js";
 import { _ as $ } from "./add-icon-fJ4uQHUZ.js";
 const j =
@@ -82,7 +82,7 @@ const j =
           energia: "#7000AC",
           morte: "#121212",
           sangue: "#d9534f",
-          medo: "#dae4e6",
+          medo: "transparent",
           varia: "#fff",
         },
         v = f(() => {
