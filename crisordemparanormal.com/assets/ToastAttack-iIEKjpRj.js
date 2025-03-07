@@ -1237,7 +1237,7 @@ const Pt = (t) => (A("data-v-36829786"), (t = t()), w(), t),
           : (_ += S.total + "+");
     }
     return (
-      e.damageAttribute !== "Nenhum" &&
+      e.damageAttribute !== "None" &&
         ((L += t.attributes[et[e.damageAttribute]]),
         (_ += t.attributes[et[e.damageAttribute]])),
       _.charAt(_.length - 1) === "+" && (_ = _.slice(0, -1)),
