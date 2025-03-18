@@ -58,7 +58,7 @@ import "./v4-cyCr5FZV.js";
 import "./RitualCard-THjWGXZM.js";
 import "./d20-icon-vaz1En3o.js";
 import "./DropdownSimple-1M6YQ3_X.js";
-import "./CursedItemCard-LnYN-kuv.js";
+import "./CursedItemCard-oq_feAv4.js";
 import "./CardSource-CY4gg4F2.js";
 import "./share-icon-J6b_MEIl.js";
 import "./trash-icon-Dl18GMfa.js";

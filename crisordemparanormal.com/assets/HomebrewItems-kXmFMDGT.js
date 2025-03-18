@@ -73,7 +73,7 @@ import {
   P as qt,
   M as Ut,
   C as Rt,
-} from "./CursedItemCard-LnYN-kuv.js";
+} from "./CursedItemCard-oq_feAv4.js";
 import { v as Be } from "./v4-cyCr5FZV.js";
 const xt = (t) => (be("data-v-8b772633"), (t = t()), _e(), t),
   Dt = { class: "delete-container" },

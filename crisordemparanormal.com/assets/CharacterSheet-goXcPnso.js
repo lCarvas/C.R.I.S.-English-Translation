@@ -104,7 +104,7 @@ import {
   P as Uo,
   M as Ho,
   C as Lo,
-} from "./CursedItemCard-LnYN-kuv.js";
+} from "./CursedItemCard-oq_feAv4.js";
 import {
   S as ga,
   H as kr,

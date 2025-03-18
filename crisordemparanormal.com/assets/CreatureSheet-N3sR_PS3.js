@@ -22,7 +22,7 @@ import {
   b as $,
   N as F,
   _ as G,
-} from "./index-4XNPBkfT.js";
+} from "./index-2ot72JdB.js";
 import { a as J } from "./creatures-7BKS8eWn.js";
 import { C as K, A as Q } from "./ActionModal-6xxUHEKk.js";
 import { L as W } from "./LoadingView-F-Df8Cc9.js";
