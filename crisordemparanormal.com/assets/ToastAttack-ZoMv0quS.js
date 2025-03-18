@@ -1905,7 +1905,7 @@ const Pt = (t) => (A("data-v-36829786"), (t = t()), w(), t),
                         ]),
                         i("div", Rs, [
                           i("h3", null, [
-                            k(" Crítico: "),
+                            k(" Critical: "),
                             t.attack.criticalRange < 20 &&
                             t.attack.criticalMult > 2
                               ? (d(),
