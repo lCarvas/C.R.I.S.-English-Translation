@@ -48,15 +48,15 @@ import {
   l as Ft,
   y as Nt,
   z as Bt,
-} from "./index-soWtg56j.js";
+} from "./index-2ot72JdB.js";
 import {
   g as Qt,
   r as Eo,
   b as Gt,
   u as Xt,
   a as Wt,
-} from "./index.esm2017-Z-XG8S4I.js";
-import { T as Kt } from "./ToastNotification-vO3MN8ch.js";
+} from "./index.esm2017-qlh1EIrw.js";
+import { T as Kt } from "./ToastNotification-EKQk8LMr.js";
 import {
   n as ua,
   I as Ue,
@@ -94,11 +94,11 @@ import {
   E as Er,
   G as Pr,
   H as Sr,
-} from "./ToastAttack-iIEKjpRj.js";
+} from "./ToastAttack-ZoMv0quS.js";
 import { _ as _o } from "./d20-icon-vaz1En3o.js";
-import { T as ge } from "./TabNav-Vghvkjaf.js";
-import { P as Qe } from "./PowerCard-i0yFMME3.js";
-import { R as zo } from "./RitualCard-59gIvyFv.js";
+import { T as ge } from "./TabNav-nKMVvS0V.js";
+import { P as Qe } from "./PowerCard-GTZtm3mF.js";
+import { R as zo } from "./RitualCard-THjWGXZM.js";
 import {
   W as Oo,
   P as Uo,
@@ -117,12 +117,12 @@ import {
   P as No,
   M as ca,
   c as Bo,
-} from "./HomebrewItems-BKt5cEq1.js";
+} from "./HomebrewItems-kXmFMDGT.js";
 import { c as Me } from "./attributes-pd1IMHTT.js";
-import { S as Ae } from "./SearchInput-hTi_nf9h.js";
-import { b as $r, c as wr } from "./ClassCard-6KWDrtlB.js";
+import { S as Ae } from "./SearchInput-i3UuE3jD.js";
+import { b as $r, c as wr } from "./ClassCard-n5bTqxAl.js";
 import { b as Dr, c as Tr } from "./marcasFragmentadas-KD4kpdFJ.js";
-import { S as va } from "./SourcesNavigation-KK0GVICx.js";
+import { S as va } from "./SourcesNavigation-NjoKV_0d.js";
 import { a as Vr, b as _r } from "./cultoDaCriacaoContent-BJ8GSvob.js";
 import {
   d as $e,
@@ -136,24 +136,24 @@ import {
 } from "./default-FmxCqAN8.js";
 import { b as xr } from "./forms-8DDAOOVU.js";
 import { _ as Le, l as ko } from "./lodash-gzw5KmHd.js";
-import { D as Pe } from "./DropdownSimple-0amtt2-f.js";
-import { P as ha } from "./PictureModal-Y_Qw3LoM.js";
+import { D as Pe } from "./DropdownSimple-1M6YQ3_X.js";
+import { P as ha } from "./PictureModal-ZKdikgjw.js";
 import { v as xe } from "./v4-cyCr5FZV.js";
-import { S as we } from "./SwitchButtonBool-uGSP2BHG.js";
+import { S as we } from "./SwitchButtonBool-1h96Hblp.js";
 import { _ as De } from "./blank-profile-picture-wMh28flS.js";
-import { L as jr } from "./LoadingView-KPNW7woi.js";
+import { L as jr } from "./LoadingView-Nt_PwTKW.js";
 import {
   s as Xo,
   e as Fr,
   o as Nr,
   c as Br,
 } from "./characterAutomations-VjVSWhq1.js";
-import { u as Qr, d as Gr } from "./dice-roll-g2p52PvP.js";
-import { g as Xr, C as Wr } from "./firebase-4srbeokJ.js";
+import { u as Qr, d as Gr } from "./dice-roll-L1BgbRVK.js";
+import { g as Xr, C as Wr } from "./firebase-Ru_8T3Ny.js";
 import "./edit-icon-3vZQUsyW.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./add-icon-fJ4uQHUZ.js";
-import "./CardSource-BmFlmtci.js";
+import "./CardSource-CY4gg4F2.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
 import "./browser-image-compression-9kymdGFS.js";
 const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
@@ -1763,9 +1763,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   Mi = { class: "inventory-info-container" },
   $i = { class: "inventory-row" },
   wi = { class: "input-container" },
-  Di = ue(() =>
-    e("h4", { class: "sheet-subtitle" }, " PRESTIGE POINTS ", -1)
-  ),
+  Di = ue(() => e("h4", { class: "sheet-subtitle" }, " PRESTIGE POINTS ", -1)),
   Ti = ["disabled", "value"],
   Vi = { class: "inventory-row" },
   _i = { key: 0 },
@@ -3602,8 +3600,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       slots: 1,
       tag: "Ammo",
       itemType: "ammunition",
-      description:
-        "<p>A flamethrower fuel tank. Lasts for one scene.</p>",
+      description: "<p>A flamethrower fuel tank. Lasts for one scene.</p>",
     },
     {
       name: "Arrows",
@@ -3770,7 +3767,8 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       slots: 2,
       ammunitionName: W[4].name,
       itemType: "weapon",
-      description: "<p>A common bow and arrow, suitable for target shooting.</p>",
+      description:
+        "<p>A common bow and arrow, suitable for target shooting.</p>",
     },
     {
       name: "Crossbow",
@@ -3950,8 +3948,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       category: "I",
       slots: 1,
       itemType: "weapon",
-      description:
-        "<p>Stick with a metallic head full of protuberances.</p>",
+      description: "<p>Stick with a metallic head full of protuberances.</p>",
     },
     {
       name: "Poleaxe",
@@ -7654,10 +7651,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
     e(
       "div",
       { class: "label" },
-      [
-        ne(" Notes"),
-        e("span", null, " (use bold to color the text purple)"),
-      ],
+      [ne(" Notes"), e("span", null, " (use bold to color the text purple)")],
       -1
     )
   ),
@@ -8047,11 +8041,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                 ),
               ]),
               e("div", cc, [
-                e(
-                  "button",
-                  { class: "button-cancel", onClick: y },
-                  " Cancel "
-                ),
+                e("button", { class: "button-cancel", onClick: y }, " Cancel "),
                 e(
                   "button",
                   {
@@ -8448,9 +8438,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
     )
   ),
   Qc = { class: "row" },
-  Gc = re(() =>
-    e("div", { class: "label" }, " Color of dice results ", -1)
-  ),
+  Gc = re(() => e("div", { class: "label" }, " Color of dice results ", -1)),
   Xc = ["value"],
   Wc = { class: "row" },
   Kc = re(() =>
@@ -8458,9 +8446,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   ),
   Jc = ["value"],
   Yc = { class: "row" },
-  Zc = re(() =>
-    e("div", { class: "label" }, " Injured agent picture ", -1)
-  ),
+  Zc = re(() => e("div", { class: "label" }, " Injured agent picture ", -1)),
   em = { key: 0 },
   am = ["src"],
   om = { key: 1 },
@@ -8474,9 +8460,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   ),
   rm = [tm],
   sm = { class: "row" },
-  nm = re(() =>
-    e("div", { class: "label" }, " Dying agent picture ", -1)
-  ),
+  nm = re(() => e("div", { class: "label" }, " Dying agent picture ", -1)),
   im = { key: 0 },
   dm = ["src"],
   lm = { key: 1 },
@@ -8490,9 +8474,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   ),
   cm = [um],
   mm = { class: "row" },
-  pm = re(() =>
-    e("div", { class: "label" }, " Disturbed agent pictur ", -1)
-  ),
+  pm = re(() => e("div", { class: "label" }, " Disturbed agent pictur ", -1)),
   gm = { key: 0 },
   vm = ["src"],
   hm = { key: 1 },
@@ -9169,9 +9151,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
     e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   fp = [hp],
-  bp = Aa(() =>
-    e("div", { class: "label" }, " Link to share agent ", -1)
-  ),
+  bp = Aa(() => e("div", { class: "label" }, " Link to share agent ", -1)),
   qp = T({
     __name: "ShareModal",
     props: { character: { type: Object, required: !0 } },

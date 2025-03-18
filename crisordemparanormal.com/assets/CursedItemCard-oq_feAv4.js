@@ -22,10 +22,10 @@ import {
   b as N,
   Q as J,
   f as j,
-} from "./index-soWtg56j.js";
+} from "./index-2ot72JdB.js";
 import { _ } from "./show-more-icon-VvUXKiHG.js";
 import { _ as q } from "./add-icon-fJ4uQHUZ.js";
-import { C as K } from "./CardSource-BmFlmtci.js";
+import { C as K } from "./CardSource-CY4gg4F2.js";
 const z =
     "data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20height='24px'%20viewBox='0%200%2024%2024'%20width='24px'%20fill='%23A347FF'%3e%3cpath%20d='M0%200h24v24H0V0z'%20fill='none'/%3e%3cpath%20d='M9%2016.2L4.8%2012l-1.4%201.4L9%2019%2021%207l-1.4-1.4L9%2016.2z'/%3e%3c/svg%3e",
   X = { class: "ammunition-card" },
@@ -293,20 +293,20 @@ const z =
                                   ? (o(),
                                     n("div", ye, [
                                       t("h3", null, [
-                                        c("Range: "),
+                                        c("Alcance: "),
                                         t("span", null, i(e.weapon.range), 1),
                                       ]),
                                     ]))
                                   : s("", !0),
                                 t("div", $e, [
                                   t("h3", null, [
-                                    c("Type: "),
+                                    c("Tipo: "),
                                     t("span", null, i(e.weapon.damageType), 1),
                                   ]),
                                 ]),
                                 t("div", Ce, [
                                   t("h3", null, [
-                                    c("Space: "),
+                                    c("Espaços: "),
                                     t("span", null, i(e.weapon.slots), 1),
                                   ]),
                                 ]),
@@ -314,7 +314,7 @@ const z =
                                   ? (o(),
                                     n("div", ge, [
                                       t("h3", null, [
-                                        c("Ammo: "),
+                                        c("Munição: "),
                                         t(
                                           "span",
                                           null,
@@ -360,7 +360,7 @@ const z =
                                     "stop",
                                   ])),
                               },
-                              " SHARE ",
+                              " COMPARTILHAR ",
                               40,
                               Ee
                             ),
@@ -459,7 +459,7 @@ const z =
                                             : s("", !0),
                                           t("div", De, [
                                             t("h3", null, [
-                                              c("Category: "),
+                                              c("Categoria: "),
                                               t(
                                                 "span",
                                                 null,
@@ -472,7 +472,7 @@ const z =
                                             ? (o(),
                                               n("div", Ne, [
                                                 t("h3", null, [
-                                                  c("Range: "),
+                                                  c("Alcance: "),
                                                   t(
                                                     "span",
                                                     null,
@@ -484,7 +484,7 @@ const z =
                                             : s("", !0),
                                           t("div", _e, [
                                             t("h3", null, [
-                                              c("Type: "),
+                                              c("Tipo: "),
                                               t(
                                                 "span",
                                                 null,
@@ -495,7 +495,7 @@ const z =
                                           ]),
                                           t("div", qe, [
                                             t("h3", null, [
-                                              c("Spaces: "),
+                                              c("Espaços: "),
                                               t(
                                                 "span",
                                                 null,
@@ -508,7 +508,7 @@ const z =
                                             ? (o(),
                                               n("div", We, [
                                                 t("h3", null, [
-                                                  c("Ammo: "),
+                                                  c("Munição: "),
                                                   t(
                                                     "span",
                                                     null,
@@ -624,7 +624,7 @@ const z =
                                           class: "button-remove",
                                           onClick: d(E, ["stop"]),
                                         },
-                                        i(e.homebrew ? "Delete" : "Remove"),
+                                        i(e.homebrew ? "Deletar" : "Remover"),
                                         9,
                                         pe
                                       ),
@@ -634,7 +634,7 @@ const z =
                                           class: "button-remove button-edit",
                                           onClick: d(R, ["stop"]),
                                         },
-                                        " Edit ",
+                                        " Editar ",
                                         8,
                                         Qe
                                       ),
@@ -658,7 +658,7 @@ const z =
                                                 "stop",
                                               ])),
                                           },
-                                          " SAVE TO MY COLLECTION ",
+                                          " ADICIONAR À MINHA COLEÇÃO ",
                                           40,
                                           Ke
                                         ),
@@ -857,7 +857,7 @@ const z =
                         t("div", st, [
                           t("div", it, [
                             t("h3", null, [
-                              c("Defense: "),
+                              c("Defesa: "),
                               t("span", null, "+" + i(e.protection.defense), 1),
                             ]),
                           ]),
@@ -866,7 +866,7 @@ const z =
                               n("div", at, [
                                 t("div", dt, [
                                   t("h3", null, [
-                                    c("Category: "),
+                                    c("Categoria: "),
                                     t(
                                       "span",
                                       null,
@@ -877,7 +877,7 @@ const z =
                                 ]),
                                 t("div", lt, [
                                   t("h3", null, [
-                                    c("Space: "),
+                                    c("Espaços: "),
                                     t("span", null, i(e.protection.slots), 1),
                                   ]),
                                 ]),
@@ -917,7 +917,7 @@ const z =
                                     "stop",
                                   ])),
                               },
-                              " SHARE ",
+                              " COMPARTILHAR ",
                               40,
                               vt
                             ),
@@ -990,7 +990,7 @@ const z =
                                           ]),
                                           t("div", gt, [
                                             t("h3", null, [
-                                              c("Space: "),
+                                              c("Espaços: "),
                                               t(
                                                 "span",
                                                 null,
@@ -1049,7 +1049,7 @@ const z =
                                           class: "button-remove",
                                           onClick: d(E, ["stop"]),
                                         },
-                                        i(e.homebrew ? "Delete" : "Remove"),
+                                        i(e.homebrew ? "Deletar" : "Remover"),
                                         9,
                                         Rt
                                       ),
@@ -1083,7 +1083,7 @@ const z =
                                                 "stop",
                                               ])),
                                           },
-                                          " SAVE TO MY COLLECTION ",
+                                          " ADICIONAR À MINHA COLEÇÃO ",
                                           40,
                                           Bt
                                         ),
@@ -1271,13 +1271,13 @@ const z =
                         t("div", _t, [
                           t("div", qt, [
                             t("h3", null, [
-                              c("Category: "),
+                              c("Categoria: "),
                               t("span", null, i(e.misc.category), 1),
                             ]),
                           ]),
                           t("div", Wt, [
                             t("h3", null, [
-                              c("Space: "),
+                              c("Espaços: "),
                               t("span", null, i(e.misc.slots), 1),
                             ]),
                           ]),
@@ -1315,7 +1315,7 @@ const z =
                                     "stop",
                                   ])),
                               },
-                              " SHARE ",
+                              " COMPARTILHAR ",
                               40,
                               Qt
                             ),
@@ -1390,7 +1390,7 @@ const z =
                                           class: "button-remove",
                                           onClick: d(E, ["stop"]),
                                         },
-                                        i(e.homebrew ? "Delete" : "Remove"),
+                                        i(e.homebrew ? "Deletar" : "Remover"),
                                         9,
                                         to
                                       ),
@@ -1400,7 +1400,7 @@ const z =
                                           class: "button-remove button-edit",
                                           onClick: d(H, ["stop"]),
                                         },
-                                        " Edit ",
+                                        " Editar ",
                                         8,
                                         oo
                                       ),
@@ -1424,7 +1424,7 @@ const z =
                                                 "stop",
                                               ])),
                                           },
-                                          " SAVE TO MY COLLECTION ",
+                                          " ADICIONAR À MINHA COLEÇÃO ",
                                           40,
                                           io
                                         ),
@@ -1606,13 +1606,13 @@ const z =
                       t("div", ho, [
                         t("div", vo, [
                           t("h3", null, [
-                            c("Category: "),
+                            c("Categoria: "),
                             t("span", null, i(e.cursedItem.category), 1),
                           ]),
                         ]),
                         t("div", wo, [
                           t("h3", null, [
-                            c("Space: "),
+                            c("Espaços: "),
                             t("span", null, i(e.cursedItem.slots), 1),
                           ]),
                         ]),
@@ -1650,7 +1650,7 @@ const z =
                                   "stop",
                                 ])),
                             },
-                            " SHARE ",
+                            " COMPARTILHAR ",
                             40,
                             Co
                           ),
@@ -1724,7 +1724,7 @@ const z =
                                         class: "button-remove",
                                         onClick: d(R, ["stop"]),
                                       },
-                                      i(e.homebrew ? "Delete" : "Remove"),
+                                      i(e.homebrew ? "Deletar" : "Remover"),
                                       9,
                                       Ho
                                     ),
@@ -1758,7 +1758,7 @@ const z =
                                               "stop",
                                             ])),
                                         },
-                                        " SAVE TO MY COLLECTION ",
+                                        " ADICIONAR À MINHA COLEÇÃO ",
                                         40,
                                         xo
                                       ),

@@ -28,20 +28,20 @@ import {
   b as F,
   H as $,
   _ as j,
-} from "./index-soWtg56j.js";
+} from "./index-2ot72JdB.js";
 import { c as z } from "./default-FmxCqAN8.js";
 import { v as Y } from "./forms-8DDAOOVU.js";
-import { L as J } from "./LoadingView-KPNW7woi.js";
-import { S as K } from "./SwitchButtonBool-uGSP2BHG.js";
-import { T as Q } from "./ToastNotification-vO3MN8ch.js";
-import { g as W, h as X, a as Z } from "./firebase-4srbeokJ.js";
+import { L as J } from "./LoadingView-Nt_PwTKW.js";
+import { S as K } from "./SwitchButtonBool-1h96Hblp.js";
+import { T as Q } from "./ToastNotification-EKQk8LMr.js";
+import { g as W, h as X, a as Z } from "./firebase-Ru_8T3Ny.js";
 const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
   aa = { key: 0 },
   ea = { class: "page-container" },
-  ta = r(() => a("div", { class: "page-title" }, " Create Campaign ", -1)),
+  ta = r(() => a("div", { class: "page-title" }, " Criar Campanha ", -1)),
   sa = { class: "form-container" },
   oa = { class: "input-container" },
-  ia = r(() => a("div", { class: "label" }, " Name* ", -1)),
+  ia = r(() => a("div", { class: "label" }, " Nome* ", -1)),
   na = { class: "input-container" },
   ra = r(() =>
     a(
