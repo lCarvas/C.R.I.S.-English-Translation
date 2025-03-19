@@ -53,17 +53,17 @@ const o = [
       loadPenalty: !0,
       description:
         "<p>You know how to carry out illicit activities.</p><p><span>Breaking in.</span> You open a locked lock. The DC is 20 for common locks (apartment door), 25 for reinforced locks (a store door) and 30 for advanced locks (a bank safe). This uses a complete action.</p><p><span>Theft (DC 20).</span> You take an object from someone else (or place an object in their possession). Use a standard action and make a Crime check. If you pass, you take (or place) what you want. The victim is entitled to a Perception check (DC equal to the result of your Crime check). If they pass, they notice your attempt, whether you succeeded or not</p><p><span>Conceal.</span> You conceal an object within yourself. Use a standard action and make a Crime check opposed by the Perception check of anyone who can see you. If someone searches you, they get +10 on their Perception check.</p><p><span>Sabotage (Veteran).</span> You disable a device. A simple action, like disabling an alarm, has DC 20. A complex action, like sabotaging a pistol so that it explodes when fired, has DT 30. If you fail by 5 or more, something goes wrong (the alarm goes off, you think the weapon is sabotaged, but in fact it still works...). This action takes 1d4+1 complete actions. You may take a -1d20 penalty on your check to do so as a complete action.</p><p>The Theft and Sabotage actions require a thief's kit. Without it, you suffer -5 on the check.</p>",
-  },
-  {
-    name: "Current Affairs",
-    attribute: "INT",
-    bonus: 0,
-    otherBonus: 0,
-    trainingDegree: "0",
-    onlyTrained: !1,
-    loadPenalty: !1,
-    description:
-      "<p>You are knowledgeable about general subjects, such as politics, sports and entertainment, and can answer questions relating to these subjects. The DC is 15 for common information, such as the name of the author of a book, 20 for specific information, such as the story of the founder of a company, and 25 for almost unknown information, such as a forgotten urban legend.</p>",
+    },
+    {
+      name: "Current Affairs",
+      attribute: "INT",
+      bonus: 0,
+      otherBonus: 0,
+      trainingDegree: "0",
+      onlyTrained: !1,
+      loadPenalty: !1,
+      description:
+        "<p>You are knowledgeable about general subjects, such as politics, sports and entertainment, and can answer questions relating to these subjects. The DC is 15 for common information, such as the name of the author of a book, 20 for specific information, such as the story of the founder of a company, and 25 for almost unknown information, such as a forgotten urban legend.</p>",
     },
     {
       name: "Deception",
@@ -86,17 +86,17 @@ const o = [
       loadPenalty: !1,
       description:
         "<p>You convince people with cunningness and convincing arguments.</p><p><span>Calm Down (trained, DT 20).</span> You stabilize an adjacent character who is going crazy, causing him to stay at Sanity 1. The DC increases by +5 for each time they have been calmed during the ongoing scene. This uses one standard action.</p><p><span>Change Attitude.</span> You change the category of an NPC's attitude towards you or someone else (see the next page for the explanation of attitude categories). Make a Diplomacy check opposed by the target's Will check. If you pass, you influence their attitude to shift by one category of your choice. If you pass by 10 or more, their attitude shifts by up to two categories. If failed by 5 or more, the target's attitude shifts one category in the opposite direction. This action takes one minute. You can take -2d20 on the check to do so as a complete action (to avoid a fight, for example). You can only change a person's attitude once per day.</p><p><span>Persuasion (DC 20).</span> You convince a person to do something, such as answer a question or do a favor. If that thing is costly (like borrowing a car) you suffer -5 on your roll. If it is dangerous (like committing a crime) you suffer -10 or automatically fail. By the GM's choice, your roll may be opposed by the person's Will check. This action takes a minute or more, according to the GM's choice.</p>",
-  },
-  {
-    name: "Fighting",
-    attribute: "STR",
-    bonus: 0,
-    otherBonus: 0,
-    trainingDegree: "0",
-    onlyTrained: !1,
-    loadPenalty: !1,
-    description:
-      "<p>You use Fighting to make melee attacks. DC is the target's Defense. If you hit, you deal damage according to the weapon used.</p>",
+    },
+    {
+      name: "Fighting",
+      attribute: "STR",
+      bonus: 0,
+      otherBonus: 0,
+      trainingDegree: "0",
+      onlyTrained: !1,
+      loadPenalty: !1,
+      description:
+        "<p>You use Fighting to make melee attacks. DC is the target's Defense. If you hit, you deal damage according to the weapon used.</p>",
     },
     {
       name: "Fortitude",
@@ -240,28 +240,28 @@ const o = [
       loadPenalty: !1,
       description:
         "<p>You have knowledge of theology and the various religions of the world.</p><p><span>Calm Down (DC 20).</span> You can use Religion as Diplomacy to calm down a character who is going crazy.</p><p><span>Information.</span> You can answer questions relating to myths, prophecies, sacred relics, etc. The DC is 10 for simple questions, 20 for complex questions and 30 for mysteries and enigmas.</p><p><span>Rite (Veteran, DC 20).</span> You perform a religious ceremony (baptism, wedding, funeral...).</p>",
-  },
-  {
-    name: "Sciences",
-    attribute: "INT",
-    bonus: 0,
-    otherBonus: 0,
-    trainingDegree: "0",
-    onlyTrained: !0,
-    loadPenalty: !1,
-    description:
-      "<p>You have studied various scientific fields, such as mathematics, physics, chemistry and biology, and can answer questions relating to these subjects. Simple questions, such as the chemical composition of a known substance, do not require a check. Complex questions, such as details about how a specific scientific procedure works, require a check against DC 20. Finally, questions involving experimental fields, such as evaluating the protective capacity of a newly created metal alloy, require a check against DC 30.</p>",
-  },
-  {
-    name: "Stealth",
-    attribute: "AGI",
-    bonus: 0,
-    otherBonus: 0,
-    trainingDegree: "0",
-    onlyTrained: !1,
-    loadPenalty: !0,
-    description:
-      "<p>You know how to be stealthy.</p><p><span>Hide.</span> Make a Stealth check opposed by Perception checks of anyone who might notice you. Everyone that fails cannot notice you (you have total camouflage against them). Hiding is a free action that you can only do at the end of your turn and only if you end your turn in a place where you can hide (behind a door, in a dark room, in a dense forest, in the middle of a crowd...). If you move during your turn, you suffer -1d20 on the check (you can move at half your normal movement value to avoid this penalty). If you attack or do a very flashy action, you suffer -3d20.</p><p><span>Follow.</span> Make a Stealth check opposed to the Perception check of the person being followed. You suffer -5 if you are in a place with no hiding spots or movement, such as an open field or empty street. The victim receives +5 to their Perception check if they are taking precautions to avoid being followed (such as looking behind him occasionally). If you pass, you tail the person until they reach their destination. If you fail, the person realizes it halfway.</p>",
+    },
+    {
+      name: "Sciences",
+      attribute: "INT",
+      bonus: 0,
+      otherBonus: 0,
+      trainingDegree: "0",
+      onlyTrained: !0,
+      loadPenalty: !1,
+      description:
+        "<p>You have studied various scientific fields, such as mathematics, physics, chemistry and biology, and can answer questions relating to these subjects. Simple questions, such as the chemical composition of a known substance, do not require a check. Complex questions, such as details about how a specific scientific procedure works, require a check against DC 20. Finally, questions involving experimental fields, such as evaluating the protective capacity of a newly created metal alloy, require a check against DC 30.</p>",
+    },
+    {
+      name: "Stealth",
+      attribute: "AGI",
+      bonus: 0,
+      otherBonus: 0,
+      trainingDegree: "0",
+      onlyTrained: !1,
+      loadPenalty: !0,
+      description:
+        "<p>You know how to be stealthy.</p><p><span>Hide.</span> Make a Stealth check opposed by Perception checks of anyone who might notice you. Everyone that fails cannot notice you (you have total camouflage against them). Hiding is a free action that you can only do at the end of your turn and only if you end your turn in a place where you can hide (behind a door, in a dark room, in a dense forest, in the middle of a crowd...). If you move during your turn, you suffer -1d20 on the check (you can move at half your normal movement value to avoid this penalty). If you attack or do a very flashy action, you suffer -3d20.</p><p><span>Follow.</span> Make a Stealth check opposed to the Perception check of the person being followed. You suffer -5 if you are in a place with no hiding spots or movement, such as an open field or empty street. The victim receives +5 to their Perception check if they are taking precautions to avoid being followed (such as looking behind him occasionally). If you pass, you tail the person until they reach their destination. If you fail, the person realizes it halfway.</p>",
     },
     {
       name: "Survival",
@@ -283,7 +283,7 @@ const o = [
       onlyTrained: !0,
       loadPenalty: !1,
       description:
-        "<p>You have received military training.</p><p><span>Reconnaissance (DC 20).</span> As a movement action, you can survey the battlefield. If you pass, you discover an advantage, such as cover, camouflage, or high ground, if available.</p><p><span>Plan of Action (Veteran, DC 20).</span> As a standard action, you guide an ally at medium range. Passing gives +5 to their Initiative. If doing so causes an ally who has not yet acted this round to have a higher Initiative than yours, they act immediately after your turn. On the next rounds, they act according to the new initiative order.</p>",
+        "<p>You have received military training.</p><p><span>Reconnaissance (DC 20).</span> As a movement action, you can survey the battlefield. If you pass, you discover an advantage, such as cover, camouflage, or high ground, if available.</p><p><span>Plan of Action (Veteran, DC 20).</span> As a standard action, you guide an ally at medium range. Succeeding on the skill check gives +5 to their Initiative. If doing so causes an ally who has not yet acted this round to have a higher Initiative than yours, they act immediately after your turn. On the next rounds, they act according to the new initiative order.</p>",
     },
     {
       name: "Technology",
