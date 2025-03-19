@@ -31,7 +31,7 @@ const a = {
       shortDescription:
         "Trained to fight with all types of weapons, and with the strength and courage to face dangers head on, you are the type of agent who prefers more direct approaches and tends to shoot first and ask questions later.",
       description:
-        "<p>From the mercenary specializing in firearms to the expert with swords, combatants present a huge range of special abiltiies and techniques that enhance their efficiency on the battlefield, making them essential members of any extermination mission.</p><p> In addition to training their body, the combatant is also adept at leading their allies in battle and taking care of their combat equipment, always prepared to take the front line when things get tough.</p><p><span>Famous Combatants: </span>Mister Veríssimo, Joui Jouki, Gal, Antônio “Balu” Pontevedra, Tristan Monteiro & Ryder Staten.</p>",
+        "<p>From the mercenary specializing in firearms to the expert with swords, combatants present a huge range of special abilties and techniques that enhance their efficiency on the battlefield, making them essential members of any extermination mission.</p><p> In addition to training their body, the combatant is also adept at leading their allies in battle and taking care of their combat equipment, always prepared to take the front line when things get tough.</p><p><span>Famous Combatants: </span>Mister Veríssimo, Joui Jouki, Gal, Antônio “Balu” Pontevedra, Tristan Monteiro & Ryder Staten.</p>",
       initialPv: 20,
       levelPv: 4,
       initialPe: 2,
