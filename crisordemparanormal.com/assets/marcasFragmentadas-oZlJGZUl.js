@@ -1,4 +1,5 @@
-const e = [
+import { M as n, R as d, F as m, B as u, l as c } from "./index-4umHKyHu.js";
+const l = [
     {
       name: "Adestrador",
       description:
@@ -179,7 +180,7 @@ const e = [
       },
     },
   ],
-  a = [
+  v = [
     {
       name: "Condicionamento",
       element: "morte",
@@ -265,7 +266,7 @@ const e = [
       hasAutomation: !1,
     },
   ],
-  o = [
+  g = [
     {
       name: "Cauterizar",
       circle: "1",
@@ -502,7 +503,7 @@ const e = [
         "<p>Você cria uma área que converte a vida perdida dos seus inimigos em cura. Inimigos dentro da área sofrem 3d6 de dano de morte, mas para cada inimigo atingido por esse ritual é curado 1d10 de todos os aliados na área</p><p><strong>Discente (+3 PE):</strong> O alcance do ritual é aumentado para médio.</p>",
     },
   ],
-  r = [
+  o = [
     {
       name: "Uivante",
       fullPictureURL: "/img/creatures/uivante.webp",
@@ -782,5 +783,16 @@ const e = [
       description:
         "<p>Constantemente filmando o sofrimento alheio, as lentes dessa câmera já foram, muitas vezes, a última coisa que uma pessoa já viu. Se camuflando como uma simples câmera, o Anamnese ronda os locais em que opera, sempre em busca de novas vítimas para gravar e criar memórias. Suas gravações podem se transformar em fitas ou rolos de filme que servem para manter aqueles momentos de sofrimento intactos. Essa criatura, em sua forma original, só se move quando ninguém a observa.</p><p>Caso seja atacada ou perceba que nada está ocorrendo no momento, a criatura decide tomar ação e cumprir sua função, abrindo seu compartimento e com uma fita de filme começa a se mover até criar um redemoinho mimicando uma estrutura corporal, criando mãos e levantando a câmera para filmar o que está prestes a acontecer. O Anamnese irá fazer você sofrer e tornará o seu grito apenas mais um dos que ele toca quando se transforma.</p><p>Caso o Anamnese seja derrotado, ele volta a sua função de câmera e some quando ninguém o observa, voltando em outro momento oportuno para atacar.</p>",
     },
-  ];
-export { e as a, a as b, o as c, r as m };
+  ],
+  f = async () => {
+    const r = n(),
+      s = d(r, "homebrewCreatures"),
+      i = m(s, u("uid", "==", "YiGIHp970LQsSCJOIjzM3UkCZ5z2")),
+      t = await c(i);
+    for (const e of t.docs) {
+      const a = e.data();
+      (a.id = e.id), o.push(a);
+    }
+    return o;
+  };
+export { l as a, v as b, g as c, o as d, f as m };

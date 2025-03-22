@@ -1,5 +1,5 @@
 import { c as d } from "./cultoDaCriacaoContent-BJ8GSvob.js";
-import { m as t } from "./marcasFragmentadas-KD4kpdFJ.js";
+import { d as t } from "./marcasFragmentadas-oZlJGZUl.js";
 const n = [
     {
       name: "Barata",

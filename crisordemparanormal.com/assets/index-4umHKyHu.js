@@ -255,7 +255,7 @@ const ld = (t) => {
       e.length = n;
     }
   },
-  Ca = new WeakMap();
+  Aa = new WeakMap();
 let gs = 0,
   gr = 1;
 const iu = 30;
@@ -322,8 +322,8 @@ function ns() {
 }
 function Ot(t, e, n) {
   if (dr && Xt) {
-    let r = Ca.get(t);
-    r || Ca.set(t, (r = new Map()));
+    let r = Aa.get(t);
+    r || Aa.set(t, (r = new Map()));
     let i = r.get(n);
     i || r.set(n, (i = ld())), yg(i);
   }
@@ -334,7 +334,7 @@ function yg(t, e) {
     n && (t.add(Xt), Xt.deps.push(t));
 }
 function En(t, e, n, r, i, s) {
-  const o = Ca.get(t);
+  const o = Aa.get(t);
   if (!o) return;
   let a = [];
   if (e === "clear") a = [...o.values()];
@@ -374,7 +374,7 @@ function ef(t, e) {
 }
 function K0(t, e) {
   var n;
-  return (n = Ca.get(t)) == null ? void 0 : n.get(e);
+  return (n = Aa.get(t)) == null ? void 0 : n.get(e);
 }
 const G0 = id("__proto__,__v_isRef,__isVue"),
   _g = new Set(
@@ -435,7 +435,7 @@ class wg {
         : a.value
       : Ve(a)
       ? i
-        ? Cg(a)
+        ? Ag(a)
         : Ln(a)
       : a;
   }
@@ -449,7 +449,7 @@ class bg extends wg {
     if (Oi(s) && ot(s) && !ot(r)) return !1;
     if (
       !this._shallow &&
-      (!Aa(r) && !Oi(r) && ((s = be(s)), (r = be(r))),
+      (!Ca(r) && !Oi(r) && ((s = be(s)), (r = be(r))),
       !ie(e) && ot(s) && !ot(r))
     )
       return (s.value = r), !0;
@@ -699,7 +699,7 @@ function Ln(t) {
 function au(t) {
   return hd(t, !1, eb, ab, Tg);
 }
-function Cg(t) {
+function Ag(t) {
   return hd(t, !0, Z0, lb, Ig);
 }
 function hd(t, e, n, r, i) {
@@ -717,10 +717,10 @@ function Ii(t) {
 function Oi(t) {
   return !!(t && t.__v_isReadonly);
 }
-function Aa(t) {
+function Ca(t) {
   return !!(t && t.__v_isShallow);
 }
-function Ag(t) {
+function Cg(t) {
   return Ii(t) || Oi(t);
 }
 function be(t) {
@@ -731,7 +731,7 @@ function kg(t) {
   return Ia(t, "__v_skip", !0), t;
 }
 const Fs = (t) => (Ve(t) ? Ln(t) : t),
-  fd = (t) => (Ve(t) ? Cg(t) : t);
+  fd = (t) => (Ve(t) ? Ag(t) : t);
 function Sg(t) {
   dr && Xt && ((t = be(t)), yg(t.dep || (t.dep = ld())));
 }
@@ -764,7 +764,7 @@ class fb {
     return Sg(this), this._value;
   }
   set value(e) {
-    const n = this.__v_isShallow || Aa(e) || Oi(e);
+    const n = this.__v_isShallow || Ca(e) || Oi(e);
     (e = n ? e : be(e)),
       Qr(e, this._rawValue) &&
         ((this._rawValue = e), (this._value = n ? e : Fs(e)), qg(this));
@@ -898,7 +898,7 @@ let Us = !1,
   lu = !1;
 const mt = [];
 let sn = 0;
-const Ci = [];
+const Ai = [];
 let vn = null,
   Lr = 0;
 const Pg = Promise.resolve();
@@ -931,8 +931,8 @@ function Eb(t) {
 }
 function Tb(t) {
   ie(t)
-    ? Ci.push(...t)
-    : (!vn || !vn.includes(t, t.allowRecurse ? Lr + 1 : Lr)) && Ci.push(t),
+    ? Ai.push(...t)
+    : (!vn || !vn.includes(t, t.allowRecurse ? Lr + 1 : Lr)) && Ai.push(t),
     Og();
 }
 function af(t, e = Us ? sn + 1 : 0) {
@@ -942,9 +942,9 @@ function af(t, e = Us ? sn + 1 : 0) {
   }
 }
 function Dg(t) {
-  if (Ci.length) {
-    const e = [...new Set(Ci)];
-    if (((Ci.length = 0), vn)) {
+  if (Ai.length) {
+    const e = [...new Set(Ai)];
+    if (((Ai.length = 0), vn)) {
       vn.push(...e);
       return;
     }
@@ -975,10 +975,10 @@ function Ng(t) {
       Dg(),
       (Us = !1),
       (pd = null),
-      (mt.length || Ci.length) && Ng();
+      (mt.length || Ai.length) && Ng();
   }
 }
-function Cb(t, e, ...n) {
+function Ab(t, e, ...n) {
   if (t.isUnmounted) return;
   const r = t.vnode.props || Me;
   let i = n;
@@ -1085,26 +1085,26 @@ function wc(t) {
       (_ = rn(
         I.length > 1 ? I(s, { attrs: l, slots: a, emit: c }) : I(s, null)
       )),
-        (E = e.props ? l : Ab(l));
+        (E = e.props ? l : Cb(l));
     }
   } catch (I) {
-    (As.length = 0), hl(I, t, 1), (_ = me(Ht));
+    (Cs.length = 0), hl(I, t, 1), (_ = me(Ht));
   }
-  let A = _;
+  let C = _;
   if (E && y !== !1) {
     const I = Object.keys(E),
-      { shapeFlag: U } = A;
-    I.length && U & 7 && (o && I.some(sd) && (E = kb(E, o)), (A = kn(A, E)));
+      { shapeFlag: U } = C;
+    I.length && U & 7 && (o && I.some(sd) && (E = kb(E, o)), (C = kn(C, E)));
   }
   return (
-    n.dirs && ((A = kn(A)), (A.dirs = A.dirs ? A.dirs.concat(n.dirs) : n.dirs)),
-    n.transition && (A.transition = n.transition),
-    (_ = A),
+    n.dirs && ((C = kn(C)), (C.dirs = C.dirs ? C.dirs.concat(n.dirs) : n.dirs)),
+    n.transition && (C.transition = n.transition),
+    (_ = C),
     ka(v),
     _
   );
 }
-const Ab = (t) => {
+const Cb = (t) => {
     let e;
     for (const n in t)
       (n === "class" || n === "style" || al(n)) && ((e || (e = {}))[n] = t[n]);
@@ -1156,7 +1156,7 @@ function qb({ vnode: t, parent: e }, n) {
 }
 const gd = "components",
   xb = "directives";
-function An(t, e) {
+function Cn(t, e) {
   return vd(gd, t, !0, e) || t;
 }
 const $g = Symbol.for("v-ndc");
@@ -1208,12 +1208,12 @@ function yd(
     d = !1;
   if (
     (ot(t)
-      ? ((c = () => t.value), (u = Aa(t)))
+      ? ((c = () => t.value), (u = Ca(t)))
       : Ii(t)
       ? ((c = () => t), (r = !0))
       : ie(t)
       ? ((d = !0),
-        (u = t.some((I) => Ii(I) || Aa(I))),
+        (u = t.some((I) => Ii(I) || Ca(I))),
         (c = () =>
           t.map((I) => {
             if (ot(I)) return I.value;
@@ -1274,10 +1274,10 @@ function yd(
     : i === "post"
     ? rt(v.run.bind(v), l && l.suspense)
     : v.run();
-  const A = () => {
+  const C = () => {
     v.stop(), l && l.scope && od(l.scope.effects, v);
   };
-  return g && g.push(A), A;
+  return g && g.push(C), C;
 }
 function Ob(t, e, n) {
   const r = this.proxy,
@@ -1422,8 +1422,8 @@ const Ut = [Function, Array],
           l === "in-out" &&
             c.type !== Ht &&
             (y.delayLeave = (_, E, v) => {
-              const A = jg(r, h);
-              (A[String(h.key)] = h),
+              const C = jg(r, h);
+              (C[String(h.key)] = h),
                 (_[er] = () => {
                   E(), (_[er] = void 0), delete u.delayedLeave;
                 }),
@@ -1458,7 +1458,7 @@ function js(t, e, n, r) {
       onAfterAppear: E,
       onAppearCancelled: v,
     } = e,
-    A = String(t.key),
+    C = String(t.key),
     I = jg(n, t),
     U = (N, F) => {
       N && jt(N, r, 9, F);
@@ -1477,7 +1477,7 @@ function js(t, e, n, r) {
           if (i) F = y || a;
           else return;
         N[er] && N[er](!0);
-        const ee = I[A];
+        const ee = I[C];
         ee && rr(t, ee) && ee.el[er] && ee.el[er](), U(F, [N]);
       },
       enter(N) {
@@ -1548,7 +1548,7 @@ function _d(t, e = !1, n) {
 /*! #__NO_SIDE_EFFECTS__ */ function Qe(t, e) {
   return de(t) ? Ke({ name: t.name }, e, { setup: t }) : t;
 }
-const Ai = (t) => !!t.type.__asyncLoader,
+const Ci = (t) => !!t.type.__asyncLoader,
   ml = (t) => t.type.__isKeepAlive,
   Lb = {
     name: "KeepAlive",
@@ -1579,10 +1579,10 @@ const Ai = (t) => !!t.type.__asyncLoader,
           },
         } = r,
         h = d("div");
-      (r.activate = (v, A, I, U, B) => {
+      (r.activate = (v, C, I, U, B) => {
         const z = v.component;
-        c(v, A, I, 0, a),
-          l(z.vnode, v, A, I, z, a, U, v.slotScopeIds, B),
+        c(v, C, I, 0, a),
+          l(z.vnode, v, C, I, z, a, U, v.slotScopeIds, B),
           rt(() => {
             (z.isDeactivated = !1), z.a && Ti(z.a);
             const N = v.props && v.props.onVnodeMounted;
@@ -1590,31 +1590,31 @@ const Ai = (t) => !!t.type.__asyncLoader,
           }, a);
       }),
         (r.deactivate = (v) => {
-          const A = v.component;
+          const C = v.component;
           c(v, h, null, 1, a),
             rt(() => {
-              A.da && Ti(A.da);
+              C.da && Ti(C.da);
               const I = v.props && v.props.onVnodeUnmounted;
-              I && Bt(I, A.parent, v), (A.isDeactivated = !0);
+              I && Bt(I, C.parent, v), (C.isDeactivated = !0);
             }, a);
         });
       function p(v) {
         Ec(v), u(v, n, a, !0);
       }
       function g(v) {
-        i.forEach((A, I) => {
-          const U = pu(A.type);
+        i.forEach((C, I) => {
+          const U = pu(C.type);
           U && (!v || !v(U)) && y(I);
         });
       }
       function y(v) {
-        const A = i.get(v);
-        !o || !rr(A, o) ? p(A) : o && Ec(o), i.delete(v), s.delete(v);
+        const C = i.get(v);
+        !o || !rr(C, o) ? p(C) : o && Ec(o), i.delete(v), s.delete(v);
       }
       pt(
         () => [t.include, t.exclude],
-        ([v, A]) => {
-          v && g((I) => vs(v, I)), A && g((I) => !vs(A, I));
+        ([v, C]) => {
+          v && g((I) => vs(v, I)), C && g((I) => !vs(C, I));
         },
         { flush: "post", deep: !0 }
       );
@@ -1627,8 +1627,8 @@ const Ai = (t) => !!t.type.__asyncLoader,
         wd(E),
         vl(() => {
           i.forEach((v) => {
-            const { subTree: A, suspense: I } = n,
-              U = Tc(A);
+            const { subTree: C, suspense: I } = n,
+              U = Tc(C);
             if (v.type === U.type && v.key === U.key) {
               Ec(U);
               const B = U.component.da;
@@ -1641,20 +1641,20 @@ const Ai = (t) => !!t.type.__asyncLoader,
         () => {
           if (((_ = null), !e.default)) return null;
           const v = e.default(),
-            A = v[0];
+            C = v[0];
           if (v.length > 1) return (o = null), v;
-          if (!zs(A) || (!(A.shapeFlag & 4) && !(A.shapeFlag & 128)))
-            return (o = null), A;
-          let I = Tc(A);
+          if (!zs(C) || (!(C.shapeFlag & 4) && !(C.shapeFlag & 128)))
+            return (o = null), C;
+          let I = Tc(C);
           const U = I.type,
-            B = pu(Ai(I) ? I.type.__asyncResolved || {} : U),
+            B = pu(Ci(I) ? I.type.__asyncResolved || {} : U),
             { include: z, exclude: N, max: F } = t;
           if ((z && (!B || !vs(z, B))) || (N && B && vs(N, B)))
-            return (o = I), A;
+            return (o = I), C;
           const ee = I.key == null ? U : I.key,
             fe = i.get(ee);
           return (
-            I.el && ((I = kn(I)), A.shapeFlag & 128 && (A.ssContent = I)),
+            I.el && ((I = kn(I)), C.shapeFlag & 128 && (C.ssContent = I)),
             (_ = ee),
             fe
               ? ((I.el = fe.el),
@@ -1667,7 +1667,7 @@ const Ai = (t) => !!t.type.__asyncLoader,
                 F && s.size > parseInt(F, 10) && y(s.values().next().value)),
             (I.shapeFlag |= 256),
             (o = I),
-            Vg(A.type) ? A : I
+            Vg(C.type) ? C : I
           );
         }
       );
@@ -1788,7 +1788,7 @@ function Wb(t, e) {
   return t;
 }
 function Li(t, e, n = {}, r, i) {
-  if (at.isCE || (at.parent && Ai(at.parent) && at.parent.isCE))
+  if (at.isCE || (at.parent && Ci(at.parent) && at.parent.isCE))
     return e !== "default" && (n.name = e), me("slot", n, r && r());
   let s = t[e];
   s && s._c && (s._d = !1), R();
@@ -1943,7 +1943,7 @@ function Gb(t) {
     deactivated: _,
     beforeDestroy: E,
     beforeUnmount: v,
-    destroyed: A,
+    destroyed: C,
     unmounted: I,
     render: U,
     renderTracked: B,
@@ -2457,7 +2457,7 @@ function fu(t, e, n, r, i = !1) {
     t.forEach((h, p) => fu(h, e && (ie(e) ? e[p] : e), n, r, i));
     return;
   }
-  if (Ai(r) && !i) return;
+  if (Ci(r) && !i) return;
   const s = r.shapeFlag & 4 ? wl(r.component) || r.component.proxy : r.el,
     o = i ? null : s,
     { i: a, r: l } = t,
@@ -2529,7 +2529,7 @@ function aE(t, e) {
       V = !!m.dynamicChildren
     ) => {
       if (f === m) return;
-      f && !rr(f, m) && ((k = C(f)), Ye(f, x, O, !0), (f = null)),
+      f && !rr(f, m) && ((k = A(f)), Ye(f, x, O, !0), (f = null)),
         m.patchFlag === -2 && ((V = !1), (m.dynamicChildren = null));
       const { type: P, ref: X, shapeFlag: K } = m;
       switch (P) {
@@ -2539,7 +2539,7 @@ function aE(t, e) {
         case Ht:
           E(f, m, b, k);
           break;
-        case Cs:
+        case As:
           f == null && v(m, b, k, $);
           break;
         case Ue:
@@ -2567,7 +2567,7 @@ function aE(t, e) {
     v = (f, m, b, k) => {
       [f.el, f.anchor] = g(f.children, m, b, k, f.el, f.anchor);
     },
-    A = ({ el: f, anchor: m }, b, k) => {
+    C = ({ el: f, anchor: m }, b, k) => {
       let x;
       for (; f && f !== m; ) (x = h(f)), r(f, b, k), (f = x);
       r(m, b, k);
@@ -2594,10 +2594,10 @@ function aE(t, e) {
         z(V, f, f.scopeId, $, k),
         K)
       ) {
-        for (const Ae in K)
-          Ae !== "value" &&
-            !ca(Ae) &&
-            s(V, Ae, null, K[Ae], O, f.children, k, x, W);
+        for (const Ce in K)
+          Ce !== "value" &&
+            !ca(Ce) &&
+            s(V, Ce, null, K[Ce], O, f.children, k, x, W);
         "value" in K && s(V, "value", null, K.value),
           (P = K.onVnodeBeforeMount) && Bt(P, k, f);
       }
@@ -2653,8 +2653,8 @@ function aE(t, e) {
           V & 8)
         ) {
           const ye = m.dynamicProps;
-          for (let Ae = 0; Ae < ye.length; Ae++) {
-            const ke = ye[Ae],
+          for (let Ce = 0; Ce < ye.length; Ce++) {
+            const ke = ye[Ce],
               Nt = K[ke],
               Hn = J[ke];
             (Hn !== Nt || ke === "value") &&
@@ -2738,50 +2738,50 @@ function aE(t, e) {
           if (f.isMounted) {
             let { next: X, bu: K, u: J, parent: te, vnode: oe } = f,
               ye = X,
-              Ae;
+              Ce;
             Rr(f, !1),
               X ? ((X.el = oe.el), Re(f, X, $)) : (X = oe),
               K && Ti(K),
-              (Ae = X.props && X.props.onVnodeBeforeUpdate) &&
-                Bt(Ae, te, X, oe),
+              (Ce = X.props && X.props.onVnodeBeforeUpdate) &&
+                Bt(Ce, te, X, oe),
               Rr(f, !0);
             const ke = wc(f),
               Nt = f.subTree;
             (f.subTree = ke),
-              y(Nt, ke, d(Nt.el), C(Nt), f, x, O),
+              y(Nt, ke, d(Nt.el), A(Nt), f, x, O),
               (X.el = ke.el),
               ye === null && qb(f, ke.el),
               J && rt(J, x),
-              (Ae = X.props && X.props.onVnodeUpdated) &&
-                rt(() => Bt(Ae, te, X, oe), x);
+              (Ce = X.props && X.props.onVnodeUpdated) &&
+                rt(() => Bt(Ce, te, X, oe), x);
           } else {
             let X;
             const { el: K, props: J } = m,
               { bm: te, m: oe, parent: ye } = f,
-              Ae = Ai(m);
+              Ce = Ci(m);
             if (
               (Rr(f, !1),
               te && Ti(te),
-              !Ae && (X = J && J.onVnodeBeforeMount) && Bt(X, ye, m),
+              !Ce && (X = J && J.onVnodeBeforeMount) && Bt(X, ye, m),
               Rr(f, !0),
               K && le)
             ) {
               const ke = () => {
                 (f.subTree = wc(f)), le(K, f.subTree, f, x, null);
               };
-              Ae
+              Ce
                 ? m.type.__asyncLoader().then(() => !f.isUnmounted && ke())
                 : ke();
             } else {
               const ke = (f.subTree = wc(f));
               y(null, ke, b, k, f, x, O), (m.el = ke.el);
             }
-            if ((oe && rt(oe, x), !Ae && (X = J && J.onVnodeMounted))) {
+            if ((oe && rt(oe, x), !Ce && (X = J && J.onVnodeMounted))) {
               const ke = m;
               rt(() => Bt(X, ye, ke), x);
             }
             (m.shapeFlag & 256 ||
-              (ye && Ai(ye.vnode) && ye.vnode.shapeFlag & 256)) &&
+              (ye && Ci(ye.vnode) && ye.vnode.shapeFlag & 256)) &&
               f.a &&
               rt(f.a, x),
               (f.isMounted = !0),
@@ -2873,7 +2873,7 @@ function aE(t, e) {
           const Tt = (m[P] = V ? tr(m[P]) : rn(m[P]));
           Tt.key != null && ye.set(Tt.key, P);
         }
-        let Ae,
+        let Ce,
           ke = 0;
         const Nt = J - oe + 1;
         let Hn = !1,
@@ -2889,9 +2889,9 @@ function aE(t, e) {
           let Ft;
           if (Tt.key != null) Ft = ye.get(Tt.key);
           else
-            for (Ae = oe; Ae <= J; Ae++)
-              if (Sr[Ae - oe] === 0 && rr(Tt, m[Ae])) {
-                Ft = Ae;
+            for (Ce = oe; Ce <= J; Ce++)
+              if (Sr[Ce - oe] === 0 && rr(Tt, m[Ce])) {
+                Ft = Ce;
                 break;
               }
           Ft === void 0
@@ -2902,13 +2902,13 @@ function aE(t, e) {
               ke++);
         }
         const qr = Hn ? cE(Sr) : bi;
-        for (Ae = qr.length - 1, P = Nt - 1; P >= 0; P--) {
+        for (Ce = qr.length - 1, P = Nt - 1; P >= 0; P--) {
           const Tt = oe + P,
             Ft = m[Tt],
             Bo = Tt + 1 < X ? m[Tt + 1].el : k;
           Sr[P] === 0
             ? y(null, Ft, b, Bo, x, O, $, L, V)
-            : Hn && (Ae < 0 || P !== qr[Ae] ? Dt(Ft, b, Bo, 2) : Ae--);
+            : Hn && (Ce < 0 || P !== qr[Ce] ? Dt(Ft, b, Bo, 2) : Ce--);
         }
       }
     },
@@ -2932,8 +2932,8 @@ function aE(t, e) {
         r(f.anchor, m, b);
         return;
       }
-      if ($ === Cs) {
-        A(f, m, b);
+      if ($ === As) {
+        C(f, m, b);
         return;
       }
       if (k !== 2 && P & 1 && L)
@@ -2966,7 +2966,7 @@ function aE(t, e) {
         return;
       }
       const te = X & 1 && J,
-        oe = !Ai(f);
+        oe = !Ci(f);
       let ye;
       if ((oe && (ye = $ && $.onVnodeBeforeUnmount) && Bt(ye, m, f), X & 6))
         S(f.component, b, k);
@@ -2994,7 +2994,7 @@ function aE(t, e) {
         kr(b, k);
         return;
       }
-      if (m === Cs) {
+      if (m === As) {
         I(f);
         return;
       }
@@ -3032,9 +3032,9 @@ function aE(t, e) {
     W = (f, m, b, k = !1, x = !1, O = 0) => {
       for (let $ = O; $ < f.length; $++) Ye(f[$], m, b, k, x);
     },
-    C = (f) =>
+    A = (f) =>
       f.shapeFlag & 6
-        ? C(f.component.subTree)
+        ? A(f.component.subTree)
         : f.shapeFlag & 128
         ? f.suspense.next()
         : h(f.anchor || f.el),
@@ -3055,12 +3055,12 @@ function aE(t, e) {
       mc: N,
       pc: _e,
       pbc: ee,
-      n: C,
+      n: A,
       o: t,
     };
-  let Ce, le;
+  let Ae, le;
   return (
-    e && ([Ce, le] = e(Y)), { render: M, hydrate: Ce, createApp: eE(M, Ce) }
+    e && ([Ae, le] = e(Y)), { render: M, hydrate: Ae, createApp: eE(M, Ae) }
   );
 }
 function Rr({ effect: t, update: e }, n) {
@@ -3108,14 +3108,14 @@ const uE = (t) => t.__isTeleport,
   Ue = Symbol.for("v-fgt"),
   yl = Symbol.for("v-txt"),
   Ht = Symbol.for("v-cmt"),
-  Cs = Symbol.for("v-stc"),
-  As = [];
+  As = Symbol.for("v-stc"),
+  Cs = [];
 let Zt = null;
 function R(t = !1) {
-  As.push((Zt = t ? null : []));
+  Cs.push((Zt = t ? null : []));
 }
 function dE() {
-  As.pop(), (Zt = As[As.length - 1] || null);
+  Cs.pop(), (Zt = Cs[Cs.length - 1] || null);
 }
 let Hs = 1;
 function bf(t) {
@@ -3220,13 +3220,13 @@ function hE(t, e = null, n = null, r = 0, i = null, s = !1) {
     e = rv(e);
     let { class: a, style: l } = e;
     a && !Be(a) && (e.class = Ne(a)),
-      Ve(l) && (Ag(l) && !ie(l) && (l = Ke({}, l)), (e.style = cr(l)));
+      Ve(l) && (Cg(l) && !ie(l) && (l = Ke({}, l)), (e.style = cr(l)));
   }
   const o = Be(t) ? 1 : Vg(t) ? 128 : uE(t) ? 64 : Ve(t) ? 4 : de(t) ? 2 : 0;
   return w(t, e, n, r, i, o, s, !0);
 }
 function rv(t) {
-  return t ? (Ag(t) || _l in t ? Ke({}, t) : t) : null;
+  return t ? (Cg(t) || _l in t ? Ke({}, t) : t) : null;
 }
 function kn(t, e, n = !1) {
   const { props: r, ref: i, patchFlag: s, children: o } = t,
@@ -3272,7 +3272,7 @@ function lt(t = " ", e = 0) {
   return me(yl, null, t, e);
 }
 function Gt(t, e) {
-  const n = me(Cs, null, t);
+  const n = me(As, null, t);
   return (n.staticCount = e), n;
 }
 function Oe(t = "", e = !1) {
@@ -3405,7 +3405,7 @@ function mE(t, e, n) {
   return (
     (s.ctx = { _: s }),
     (s.root = e ? e.root : s),
-    (s.emit = Cb.bind(null, s)),
+    (s.emit = Ab.bind(null, s)),
     t.ce && t.ce(s),
     s
   );
@@ -3554,8 +3554,8 @@ const bE = Symbol.for("v-scx"),
   TE = "3.3.9",
   IE = "http://www.w3.org/2000/svg",
   Mr = typeof document < "u" ? document : null,
-  Cf = Mr && Mr.createElement("template"),
-  CE = {
+  Af = Mr && Mr.createElement("template"),
+  AE = {
     insert: (t, e, n) => {
       e.insertBefore(t, n || null);
     },
@@ -3599,8 +3599,8 @@ const bE = Symbol.for("v-scx"),
 
         );
       else {
-        Cf.innerHTML = r ? `<svg>${t}</svg>` : t;
-        const a = Cf.content;
+        Af.innerHTML = r ? `<svg>${t}</svg>` : t;
+        const a = Af.content;
         if (r) {
           const l = a.firstChild;
           for (; l.firstChild; ) a.appendChild(l.firstChild);
@@ -3634,11 +3634,11 @@ const ov = {
     leaveActiveClass: String,
     leaveToClass: String,
   },
-  AE = (vr.props = Ke({}, Bg, ov)),
+  CE = (vr.props = Ke({}, Bg, ov)),
   Pr = (t, e = []) => {
     ie(t) ? t.forEach((n) => n(...e)) : t && t(...e);
   },
-  Af = (t) => (t ? (ie(t) ? t.some((e) => e.length > 1) : t.length > 1) : !1);
+  Cf = (t) => (t ? (ie(t) ? t.some((e) => e.length > 1) : t.length > 1) : !1);
 function av(t) {
   const e = {};
   for (const H in t) H in ov || (e[H] = t[H]);
@@ -3663,12 +3663,12 @@ function av(t) {
     {
       onBeforeEnter: E,
       onEnter: v,
-      onEnterCancelled: A,
+      onEnterCancelled: C,
       onLeave: I,
       onLeaveCancelled: U,
       onBeforeAppear: B = E,
       onAppear: z = v,
-      onAppearCancelled: N = A,
+      onAppearCancelled: N = C,
     } = e,
     F = (H, se, Ie) => {
       Xn(H, se ? u : a), Xn(H, se ? c : o), Ie && Ie();
@@ -3681,7 +3681,7 @@ function av(t) {
         De = () => F(se, H, Ie);
       Pr(Et, [se, De]),
         kf(() => {
-          Xn(se, H ? l : s), gn(se, H ? u : a), Af(Et) || Sf(se, r, y, De);
+          Xn(se, H ? l : s), gn(se, H ? u : a), Cf(Et) || Sf(se, r, y, De);
         });
     };
   return Ke(e, {
@@ -3700,12 +3700,12 @@ function av(t) {
         cv(),
         gn(H, h),
         kf(() => {
-          H._isLeaving && (Xn(H, d), gn(H, p), Af(I) || Sf(H, r, _, Ie));
+          H._isLeaving && (Xn(H, d), gn(H, p), Cf(I) || Sf(H, r, _, Ie));
         }),
         Pr(I, [H, Ie]);
     },
     onEnterCancelled(H) {
-      F(H, !1), Pr(A, [H]);
+      F(H, !1), Pr(C, [H]);
     },
     onAppearCancelled(H) {
       F(H, !0), Pr(N, [H]);
@@ -3717,13 +3717,13 @@ function av(t) {
 }
 function kE(t) {
   if (t == null) return null;
-  if (Ve(t)) return [Cc(t.enter), Cc(t.leave)];
+  if (Ve(t)) return [Ac(t.enter), Ac(t.leave)];
   {
-    const e = Cc(t);
+    const e = Ac(t);
     return [e, e];
   }
 }
-function Cc(t) {
+function Ac(t) {
   return D0(t);
 }
 function gn(t, e) {
@@ -3804,10 +3804,10 @@ function qE(t, e, n) {
       ? t.setAttribute("class", e)
       : (t.className = e);
 }
-const Cd = Symbol("_vod"),
+const Ad = Symbol("_vod"),
   Rf = {
     beforeMount(t, { value: e }, { transition: n }) {
-      (t[Cd] = t.style.display === "none" ? "" : t.style.display),
+      (t[Ad] = t.style.display === "none" ? "" : t.style.display),
         n && e ? n.beforeEnter(t) : fs(t, e);
     },
     mounted(t, { value: e }, { transition: n }) {
@@ -3828,7 +3828,7 @@ const Cd = Symbol("_vod"),
     },
   };
 function fs(t, e) {
-  t.style.display = e ? t[Cd] : "none";
+  t.style.display = e ? t[Ad] : "none";
 }
 function xE(t, e, n) {
   const r = t.style,
@@ -3839,7 +3839,7 @@ function xE(t, e, n) {
   } else {
     const s = r.display;
     i ? e !== n && (r.cssText = n) : e && t.removeAttribute("style"),
-      Cd in t && (r.display = s);
+      Ad in t && (r.display = s);
   }
 }
 const Pf = /\s*!important$/;
@@ -3854,16 +3854,16 @@ function mu(t, e, n) {
   }
 }
 const Of = ["Webkit", "Moz", "ms"],
-  Ac = {};
+  Cc = {};
 function RE(t, e) {
-  const n = Ac[e];
+  const n = Cc[e];
   if (n) return n;
   let r = dn(e);
-  if (r !== "filter" && r in t) return (Ac[e] = r);
+  if (r !== "filter" && r in t) return (Cc[e] = r);
   r = ul(r);
   for (let i = 0; i < Of.length; i++) {
     const s = Of[i] + r;
-    if (s in t) return (Ac[e] = s);
+    if (s in t) return (Cc[e] = s);
   }
   return e;
 }
@@ -4029,7 +4029,7 @@ function gu(t, e) {
   for (; t.component; ) t = t.component.subTree;
   if (t.shapeFlag & 1 && t.el) vu(t.el, e);
   else if (t.type === Ue) t.children.forEach((n) => gu(n, e));
-  else if (t.type === Cs) {
+  else if (t.type === As) {
     let { el: n, anchor: r } = t;
     for (; n && (vu(n, e), n !== r); ) n = n.nextSibling;
   }
@@ -4046,7 +4046,7 @@ const uv = new WeakMap(),
   $f = Symbol("_enterCb"),
   hv = {
     name: "TransitionGroup",
-    props: Ke({}, AE, { tag: String, moveClass: String }),
+    props: Ke({}, CE, { tag: String, moveClass: String }),
     setup(t, { slots: e }) {
       const n = fo(),
         r = Ug();
@@ -4216,7 +4216,7 @@ const Sc = Symbol("_assign"),
     const r = ri(n.key);
     if (e.some((i) => i === r || XE[i] === r)) return t(n);
   },
-  JE = Ke({ patchProp: UE }, CE);
+  JE = Ke({ patchProp: UE }, AE);
 let Uf;
 function ZE() {
   return Uf || (Uf = oE(JE));
@@ -4600,10 +4600,10 @@ function ET(t, e) {
             );
           }
         }
-        let A = y ? `((?:${v})(?:/(?:${v}))*)` : `(${v})`;
-        d || (A = _ && c.length < 2 ? `(?:/${A})` : "/" + A),
-          _ && (A += "?"),
-          (i += A),
+        let C = y ? `((?:${v})(?:/(?:${v}))*)` : `(${v})`;
+        d || (C = _ && c.length < 2 ? `(?:/${C})` : "/" + C),
+          _ && (C += "?"),
+          (i += C),
           (p += 20),
           _ && (p += -8),
           y && (p += -20),
@@ -4693,11 +4693,11 @@ function Gf(t) {
   const e = t[t.length - 1];
   return t.length > 0 && e[e.length - 1] < 0;
 }
-const CT = { type: 0, value: "" },
-  AT = /[a-zA-Z0-9_]/;
+const AT = { type: 0, value: "" },
+  CT = /[a-zA-Z0-9_]/;
 function kT(t) {
   if (!t) return [[]];
-  if (t === "/") return [[CT]];
+  if (t === "/") return [[AT]];
   if (!t.startsWith("/")) throw new Error(`Invalid path "${t}"`);
   function e(p) {
     throw new Error(`ERR (${n})/"${c}": ${p}`);
@@ -4751,7 +4751,7 @@ function kT(t) {
       case 1:
         l === "("
           ? (n = 2)
-          : AT.test(l)
+          : CT.test(l)
           ? h()
           : (d(), (n = 0), l !== "*" && l !== "?" && l !== "+" && a--);
         break;
@@ -4791,8 +4791,8 @@ function qT(t, e) {
     const y = Xf(e, u),
       _ = [g];
     if ("alias" in u) {
-      const A = typeof u.alias == "string" ? [u.alias] : u.alias;
-      for (const I of A)
+      const C = typeof u.alias == "string" ? [u.alias] : u.alias;
+      for (const I of C)
         _.push(
           Pe({}, g, {
             components: h ? h.record.components : g.components,
@@ -4802,15 +4802,15 @@ function qT(t, e) {
         );
     }
     let E, v;
-    for (const A of _) {
-      const { path: I } = A;
+    for (const C of _) {
+      const { path: I } = C;
       if (d && I[0] !== "/") {
         const U = d.record.path,
           B = U[U.length - 1] === "/" ? "" : "/";
-        A.path = d.record.path + (I && B + I);
+        C.path = d.record.path + (I && B + I);
       }
       if (
-        ((E = ST(A, d, y)),
+        ((E = ST(C, d, y)),
         h
           ? h.alias.push(E)
           : ((v = v || E),
@@ -4972,17 +4972,17 @@ const wv = /#/g,
   FT = /%7C/g,
   Iv = /%7D/g,
   UT = /%20/g;
-function Ad(t) {
+function Cd(t) {
   return encodeURI("" + t)
     .replace(FT, "|")
     .replace(MT, "[")
     .replace($T, "]");
 }
 function BT(t) {
-  return Ad(t).replace(Tv, "{").replace(Iv, "}").replace(Ev, "^");
+  return Cd(t).replace(Tv, "{").replace(Iv, "}").replace(Ev, "^");
 }
 function _u(t) {
-  return Ad(t)
+  return Cd(t)
     .replace(bv, "%2B")
     .replace(UT, "+")
     .replace(wv, "%23")
@@ -4996,7 +4996,7 @@ function jT(t) {
   return _u(t).replace(NT, "%3D");
 }
 function HT(t) {
-  return Ad(t).replace(wv, "%23").replace(LT, "%3F");
+  return Cd(t).replace(wv, "%23").replace(LT, "%3F");
 }
 function zT(t) {
   return t == null ? "" : HT(t).replace(DT, "%2F");
@@ -5331,9 +5331,9 @@ function nI(t) {
     d = qc.bind(null, zT),
     h = qc.bind(null, Pa);
   function p(S, W) {
-    let C, M;
+    let A, M;
     return (
-      vv(S) ? ((C = e.getRecordMatcher(S)), (M = W)) : (M = S), e.addRoute(M, C)
+      vv(S) ? ((A = e.getRecordMatcher(S)), (M = W)) : (M = S), e.addRoute(M, A)
     );
   }
   function g(S) {
@@ -5358,20 +5358,20 @@ function nI(t) {
         href: b,
       });
     }
-    let C;
-    if ("path" in S) C = Pe({}, S, { path: xc(n, S.path, W.path).path });
+    let A;
+    if ("path" in S) A = Pe({}, S, { path: xc(n, S.path, W.path).path });
     else {
       const f = Pe({}, S.params);
       for (const m in f) f[m] == null && delete f[m];
-      (C = Pe({}, S, { params: d(S.params) })), (W.params = d(W.params));
+      (A = Pe({}, S, { params: d(S.params) })), (W.params = d(W.params));
     }
-    const M = e.resolve(C, W),
+    const M = e.resolve(A, W),
       Y = S.hash || "";
     M.params = u(h(M.params));
-    const Ce = iT(r, Pe({}, S, { hash: BT(Y), path: M.path })),
-      le = i.createHref(Ce);
+    const Ae = iT(r, Pe({}, S, { hash: BT(Y), path: M.path })),
+      le = i.createHref(Ae);
     return Pe(
-      { fullPath: Ce, hash: Y, query: r === Jf ? KT(S.query) : S.query || {} },
+      { fullPath: Ae, hash: Y, query: r === Jf ? KT(S.query) : S.query || {} },
       M,
       { redirectedFrom: void 0, href: le }
     );
@@ -5379,7 +5379,7 @@ function nI(t) {
   function v(S) {
     return typeof S == "string" ? xc(n, S, l.value.path) : Pe({}, S);
   }
-  function A(S, W) {
+  function C(S, W) {
     if (c !== S) return Ui(8, { from: W, to: S });
   }
   function I(S) {
@@ -5391,8 +5391,8 @@ function nI(t) {
   function B(S) {
     const W = S.matched[S.matched.length - 1];
     if (W && W.redirect) {
-      const { redirect: C } = W;
-      let M = typeof C == "function" ? C(S) : C;
+      const { redirect: A } = W;
+      let M = typeof A == "function" ? A(S) : A;
       return (
         typeof M == "string" &&
           ((M = M.includes("?") || M.includes("#") ? (M = v(M)) : { path: M }),
@@ -5405,27 +5405,27 @@ function nI(t) {
     }
   }
   function z(S, W) {
-    const C = (c = E(S)),
+    const A = (c = E(S)),
       M = l.value,
       Y = S.state,
-      Ce = S.force,
+      Ae = S.force,
       le = S.replace === !0,
-      f = B(C);
+      f = B(A);
     if (f)
       return z(
         Pe(v(f), {
           state: typeof f == "object" ? Pe({}, Y, f.state) : Y,
-          force: Ce,
+          force: Ae,
           replace: le,
         }),
-        W || C
+        W || A
       );
-    const m = C;
+    const m = A;
     m.redirectedFrom = W;
     let b;
     return (
-      !Ce &&
-        sT(r, M, C) &&
+      !Ae &&
+        sT(r, M, A) &&
         ((b = Ui(16, { to: m, from: M })), Qt(M, M, !0, !1)),
       (b ? Promise.resolve(b) : F(m, M))
         .catch((k) => (mn(k) ? (mn(k, 2) ? k : kt(k)) : Re(k, m, M)))
@@ -5435,7 +5435,7 @@ function nI(t) {
               return z(
                 Pe({ replace: le }, v(k.to), {
                   state: typeof k.to == "object" ? Pe({}, Y, k.to.state) : Y,
-                  force: Ce,
+                  force: Ae,
                 }),
                 W || m
               );
@@ -5445,79 +5445,79 @@ function nI(t) {
     );
   }
   function N(S, W) {
-    const C = A(S, W);
-    return C ? Promise.reject(C) : Promise.resolve();
+    const A = C(S, W);
+    return A ? Promise.reject(A) : Promise.resolve();
   }
   function F(S, W) {
-    let C;
-    const [M, Y, Ce] = rI(S, W);
-    C = Rc(M.reverse(), "beforeRouteLeave", S, W);
+    let A;
+    const [M, Y, Ae] = rI(S, W);
+    A = Rc(M.reverse(), "beforeRouteLeave", S, W);
     for (const f of M)
       f.leaveGuards.forEach((m) => {
-        C.push(nr(m, S, W));
+        A.push(nr(m, S, W));
       });
     const le = N.bind(null, S, W);
     return (
-      C.push(le),
-      pi(C)
+      A.push(le),
+      pi(A)
         .then(() => {
-          C = [];
-          for (const f of s.list()) C.push(nr(f, S, W));
-          return C.push(le), pi(C);
+          A = [];
+          for (const f of s.list()) A.push(nr(f, S, W));
+          return A.push(le), pi(A);
         })
         .then(() => {
-          C = Rc(Y, "beforeRouteUpdate", S, W);
+          A = Rc(Y, "beforeRouteUpdate", S, W);
           for (const f of Y)
             f.updateGuards.forEach((m) => {
-              C.push(nr(m, S, W));
+              A.push(nr(m, S, W));
             });
-          return C.push(le), pi(C);
+          return A.push(le), pi(A);
         })
         .then(() => {
-          C = [];
+          A = [];
           for (const f of S.matched)
             if (f.beforeEnter && !W.matched.includes(f))
               if (tn(f.beforeEnter))
-                for (const m of f.beforeEnter) C.push(nr(m, S, W));
-              else C.push(nr(f.beforeEnter, S, W));
-          return C.push(le), pi(C);
+                for (const m of f.beforeEnter) A.push(nr(m, S, W));
+              else A.push(nr(f.beforeEnter, S, W));
+          return A.push(le), pi(A);
         })
         .then(
           () => (
             S.matched.forEach((f) => (f.enterCallbacks = {})),
-            (C = Rc(Ce, "beforeRouteEnter", S, W)),
-            C.push(le),
-            pi(C)
+            (A = Rc(Ae, "beforeRouteEnter", S, W)),
+            A.push(le),
+            pi(A)
           )
         )
         .then(() => {
-          C = [];
-          for (const f of o.list()) C.push(nr(f, S, W));
-          return C.push(le), pi(C);
+          A = [];
+          for (const f of o.list()) A.push(nr(f, S, W));
+          return A.push(le), pi(A);
         })
         .catch((f) => (mn(f, 8) ? f : Promise.reject(f)))
     );
   }
-  function ee(S, W, C) {
-    for (const M of a.list()) M(S, W, C);
+  function ee(S, W, A) {
+    for (const M of a.list()) M(S, W, A);
   }
-  function fe(S, W, C, M, Y) {
-    const Ce = A(S, W);
-    if (Ce) return Ce;
+  function fe(S, W, A, M, Y) {
+    const Ae = C(S, W);
+    if (Ae) return Ae;
     const le = W === Qn,
       f = vi ? history.state : {};
-    C &&
+    A &&
       (M || le
         ? i.replace(S.fullPath, Pe({ scroll: le && f && f.scroll }, Y))
         : i.push(S.fullPath, Y)),
       (l.value = S),
-      Qt(S, W, C, le),
+      Qt(S, W, A, le),
       kt();
   }
   let H;
   function se() {
     H ||
-      (H = i.listen((S, W, C) => {
+      (H = i.listen((S, W, A) => {
         if (!kr.listening) return;
         const M = E(S),
           Y = B(M);
@@ -5526,9 +5526,9 @@ function nI(t) {
           return;
         }
         c = M;
-        const Ce = l.value;
-        vi && fT(Hf(Ce.fullPath, C.delta), Tl()),
-          F(M, Ce)
+        const Ae = l.value;
+        vi && fT(Hf(Ae.fullPath, A.delta), Tl()),
+          F(M, Ae)
             .catch((le) =>
               mn(le, 12)
                 ? le
@@ -5536,21 +5536,21 @@ function nI(t) {
                 ? (z(le.to, M)
                     .then((f) => {
                       mn(f, 20) &&
-                        !C.delta &&
-                        C.type === Ks.pop &&
+                        !A.delta &&
+                        A.type === Ks.pop &&
                         i.go(-1, !1);
                     })
                     .catch(ks),
                   Promise.reject())
-                : (C.delta && i.go(-C.delta, !1), Re(le, M, Ce))
+                : (A.delta && i.go(-A.delta, !1), Re(le, M, Ae))
             )
             .then((le) => {
-              (le = le || fe(M, Ce, !1)),
+              (le = le || fe(M, Ae, !1)),
                 le &&
-                  (C.delta && !mn(le, 8)
-                    ? i.go(-C.delta, !1)
-                    : C.type === Ks.pop && mn(le, 20) && i.go(-1, !1)),
-                ee(M, Ce, le);
+                  (A.delta && !mn(le, 8)
+                    ? i.go(-A.delta, !1)
+                    : A.type === Ks.pop && mn(le, 20) && i.go(-1, !1)),
+                ee(M, Ae, le);
             })
             .catch(ks);
       }));
@@ -5558,11 +5558,11 @@ function nI(t) {
   let Ie = ps(),
     Et = ps(),
     De;
-  function Re(S, W, C) {
+  function Re(S, W, A) {
     kt(S);
     const M = Et.list();
     return (
-      M.length ? M.forEach((Y) => Y(S, W, C)) : console.error(S),
+      M.length ? M.forEach((Y) => Y(S, W, A)) : console.error(S),
       Promise.reject(S)
     );
   }
@@ -5578,20 +5578,20 @@ function nI(t) {
       De ||
         ((De = !S),
         se(),
-        Ie.list().forEach(([W, C]) => (S ? C(S) : W())),
+        Ie.list().forEach(([W, A]) => (S ? A(S) : W())),
         Ie.reset()),
       S
     );
   }
-  function Qt(S, W, C, M) {
+  function Qt(S, W, A, M) {
     const { scrollBehavior: Y } = t;
     if (!vi || !Y) return Promise.resolve();
-    const Ce =
-      (!C && pT(Hf(S.fullPath, 0))) ||
-      ((M || !C) && history.state && history.state.scroll) ||
+    const Ae =
+      (!A && pT(Hf(S.fullPath, 0))) ||
+      ((M || !A) && history.state && history.state.scroll) ||
       null;
     return ar()
-      .then(() => Y(S, W, Ce))
+      .then(() => Y(S, W, Ae))
       .then((le) => le && hT(le))
       .catch((le) => Re(le, S, W));
   }
@@ -5630,9 +5630,9 @@ function nI(t) {
             !Ye &&
             l.value === Qn &&
             ((Ye = !0), I(i.location).catch((Y) => {}));
-        const C = {};
-        for (const Y in Qn) C[Y] = ge(() => l.value[Y]);
-        S.provide(Il, W), S.provide(kd, Ln(C)), S.provide(wu, l);
+        const A = {};
+        for (const Y in Qn) A[Y] = ge(() => l.value[Y]);
+        S.provide(Il, W), S.provide(kd, Ln(A)), S.provide(wu, l);
         const M = S.unmount;
         pn.add(S),
           (S.unmount = function () {
@@ -5673,10 +5673,10 @@ function is() {
   return en(kd);
 }
 var ip;
-const Cv = typeof window < "u",
+const Av = typeof window < "u",
   iI = (t) => typeof t == "string",
   Pc = () => {};
-Cv &&
+Av &&
   (ip = window == null ? void 0 : window.navigator) != null &&
   ip.userAgent &&
   /iP(ad|hone|od)/.test(window.navigator.userAgent);
@@ -5697,7 +5697,7 @@ function _s(t) {
   const n = sI(t);
   return (e = n == null ? void 0 : n.$el) != null ? e : n;
 }
-const qd = Cv ? window : void 0;
+const qd = Av ? window : void 0;
 function yi(...t) {
   let e, n, r, i;
   if ((iI(t[0]) ? (([n, r, i] = t), (e = qd)) : ([e, n, r, i] = t), !e))
@@ -5840,7 +5840,7 @@ const fI = {
   easeInOutBack: [0.68, -0.6, 0.32, 1.6],
 };
 hI({ linear: oI }, fI);
-function Av(t = {}) {
+function Cv(t = {}) {
   const {
       window: e = qd,
       initialWidth: n = 1 / 0,
@@ -6191,18 +6191,18 @@ class po {
     const r = n[0] || {},
       i = `${this.service}/${e}`,
       s = this.errors[e],
-      o = s ? CI(s, r) : "Error",
+      o = s ? AI(s, r) : "Error",
       a = `${this.serviceName}: ${o} (${i}).`;
     return new Fn(i, a, r);
   }
 }
-function CI(t, e) {
-  return t.replace(AI, (n, r) => {
+function AI(t, e) {
+  return t.replace(CI, (n, r) => {
     const i = e[r];
     return i != null ? String(i) : `<${r}?>`;
   });
 }
-const AI = /\{\$([^}]+)}/g;
+const CI = /\{\$([^}]+)}/g;
 function kI(t) {
   for (const e in t) if (Object.prototype.hasOwnProperty.call(t, e)) return !1;
   return !0;
@@ -7066,7 +7066,7 @@ function Pd(t, e) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const C1 = {
+ */ const A1 = {
     "no-app":
       "No Firebase App '{$appName}' has been created - call Firebase App.initializeApp()",
     "bad-app-name": "Illegal App name: '{$appName}",
@@ -7086,7 +7086,7 @@ function Pd(t, e) {
     "idb-delete":
       "Error thrown when deleting from IndexedDB. Original error: {$originalErrorMessage}.",
   },
-  Jr = new po("app", "Firebase", C1);
+  Jr = new po("app", "Firebase", A1);
 /**
  * @license
  * Copyright 2019 Google LLC
@@ -7102,7 +7102,7 @@ function Pd(t, e) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class A1 {
+ */ class C1 {
   constructor(e, n, r) {
     (this._isDeleted = !1),
       (this._options = Object.assign({}, e)),
@@ -7169,7 +7169,7 @@ function k1(t, e = {}) {
   }
   const s = new DI(r);
   for (const a of Iu.values()) s.addComponent(a);
-  const o = new A1(t, n, s);
+  const o = new C1(t, n, s);
   return Na.set(r, o), o;
 }
 function $v(t = Mv) {
@@ -7599,7 +7599,7 @@ function F1(t, e) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ function Cu() {
+ */ function Au() {
   var t;
   return (
     (typeof self < "u" &&
@@ -7816,7 +7816,7 @@ function W1(t, e) {
     ? Object.assign(Object.assign({}, e), { tenantId: t.tenantId })
     : e;
 }
-async function Cl(t, e, n, r, i = {}) {
+async function Al(t, e, n, r, i = {}) {
   return zv(t, i, async () => {
     let s = {},
       o = {};
@@ -7864,7 +7864,7 @@ async function zv(t, e, n) {
   }
 }
 async function K1(t, e, n, r, i = {}) {
-  const s = await Cl(t, e, n, r, i);
+  const s = await Al(t, e, n, r, i);
   return (
     "mfaPendingCredential" in s &&
       hn(t, "multi-factor-auth-required", { _serverResponse: s }),
@@ -7913,10 +7913,10 @@ function Yo(t, e, n) {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */ async function Q1(t, e) {
-  return Cl(t, "POST", "/v1/accounts:delete", e);
+  return Al(t, "POST", "/v1/accounts:delete", e);
 }
 async function Y1(t, e) {
-  return Cl(t, "POST", "/v1/accounts:lookup", e);
+  return Al(t, "POST", "/v1/accounts:lookup", e);
 }
 /**
  * @license
@@ -8036,7 +8036,7 @@ function Z1({ code: t }) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class eC {
+ */ class eA {
   constructor(e) {
     (this.user = e),
       (this.isRunning = !1),
@@ -8143,9 +8143,9 @@ function Z1({ code: t }) {
   t._notifyReloadListener(s);
   const o =
       !((e = s.providerUserInfo) === null || e === void 0) && e.length
-        ? rC(s.providerUserInfo)
+        ? rA(s.providerUserInfo)
         : [],
-    a = nC(t.providerData, o),
+    a = nA(t.providerData, o),
     l = t.isAnonymous,
     c = !(t.email && s.passwordHash) && !(a != null && a.length),
     u = l ? c : !1,
@@ -8163,19 +8163,19 @@ function Z1({ code: t }) {
     };
   Object.assign(t, d);
 }
-async function tC(t) {
+async function tA(t) {
   const e = bt(t);
   await La(e),
     await e.auth._persistUserIfCurrent(e),
     e.auth._notifyListenersIfCurrent(e);
 }
-function nC(t, e) {
+function nA(t, e) {
   return [
     ...t.filter((r) => !e.some((i) => i.providerId === r.providerId)),
     ...e,
   ];
 }
-function rC(t) {
+function rA(t) {
   return t.map((e) => {
     var { providerId: n } = e,
       r = Od(e, ["providerId"]);
@@ -8204,7 +8204,7 @@ function rC(t) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ async function iC(t, e) {
+ */ async function iA(t, e) {
   const n = await zv(t, {}, async () => {
     const r = mo({ grant_type: "refresh_token", refresh_token: e }).slice(1),
       { tokenApiHost: i, apiKey: s } = t.config,
@@ -8269,7 +8269,7 @@ function rC(t) {
     this.refreshToken = null;
   }
   async refresh(e, n) {
-    const { accessToken: r, refreshToken: i, expiresIn: s } = await iC(e, n);
+    const { accessToken: r, refreshToken: i, expiresIn: s } = await iA(e, n);
     this.updateTokensAndExpiration(r, i, Number(s));
   }
   updateTokensAndExpiration(e, n, r) {
@@ -8335,7 +8335,7 @@ class zr {
     var { uid: n, auth: r, stsTokenManager: i } = e,
       s = Od(e, ["uid", "auth", "stsTokenManager"]);
     (this.providerId = "firebase"),
-      (this.proactiveRefresh = new eC(this)),
+      (this.proactiveRefresh = new eA(this)),
       (this.reloadUserInfo = null),
       (this.reloadListener = null),
       (this.uid = n),
@@ -8367,7 +8367,7 @@ class zr {
     return X1(this, e);
   }
   reload() {
-    return tC(this);
+    return tA(this);
   }
   _assign(e) {
     this !== e &&
@@ -8459,15 +8459,15 @@ class zr {
       E = (c = n.createdAt) !== null && c !== void 0 ? c : void 0,
       v = (u = n.lastLoginAt) !== null && u !== void 0 ? u : void 0,
       {
-        uid: A,
+        uid: C,
         emailVerified: I,
         isAnonymous: U,
         providerData: B,
         stsTokenManager: z,
       } = n;
-    ce(A && z, e, "internal-error");
+    ce(C && z, e, "internal-error");
     const N = Ys.fromJSON(this.name, z);
-    ce(typeof A == "string", e, "internal-error"),
+    ce(typeof C == "string", e, "internal-error"),
       Yn(d, e.name),
       Yn(h, e.name),
       ce(typeof I == "boolean", e, "internal-error"),
@@ -8479,7 +8479,7 @@ class zr {
       Yn(E, e.name),
       Yn(v, e.name);
     const F = new zr({
-      uid: A,
+      uid: C,
       auth: e,
       email: h,
       emailVerified: I,
@@ -8701,25 +8701,25 @@ function Zv(t = wt()) {
 function ey(t = wt()) {
   return /webos/i.test(t);
 }
-function Al(t = wt()) {
+function Cl(t = wt()) {
   return (
     /iphone|ipad|ipod/i.test(t) || (/macintosh/i.test(t) && /mobile/i.test(t))
   );
 }
-function sC(t = wt()) {
+function sA(t = wt()) {
   var e;
   return (
-    Al(t) &&
+    Cl(t) &&
     !!(!((e = window.navigator) === null || e === void 0) && e.standalone)
   );
 }
-function oC() {
+function oA() {
   return bI() && document.documentMode === 10;
 }
 function ty(t = wt()) {
-  return Al(t) || Jv(t) || ey(t) || Zv(t) || /windows phone/i.test(t) || Xv(t);
+  return Cl(t) || Jv(t) || ey(t) || Zv(t) || /windows phone/i.test(t) || Xv(t);
 }
-function aC() {
+function aA() {
   try {
     return !!(window && window !== window.top);
   } catch {
@@ -8771,7 +8771,7 @@ function aC() {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class lC {
+ */ class lA {
   constructor(e) {
     (this.auth = e), (this.queue = []);
   }
@@ -8824,7 +8824,7 @@ function aC() {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class cC {
+ */ class cA {
   constructor(e, n, r) {
     (this.app = e),
       (this.heartbeatServiceProvider = n),
@@ -8834,7 +8834,7 @@ function aC() {
       (this.operations = Promise.resolve()),
       (this.authStateSubscription = new Tp(this)),
       (this.idTokenSubscription = new Tp(this)),
-      (this.beforeStateQueue = new lC(this)),
+      (this.beforeStateQueue = new lA(this)),
       (this.redirectUser = null),
       (this.isProactiveRefreshEnabled = !1),
       (this._canInitEmulator = !0),
@@ -9218,7 +9218,7 @@ class Tp {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const uC = "http://localhost";
+ */ const uA = "http://localhost";
 class Zr extends ry {
   constructor() {
     super(...arguments), (this.pendingToken = null);
@@ -9276,7 +9276,7 @@ class Zr extends ry {
     return (n.autoCreate = !1), Si(e, n);
   }
   buildRequest() {
-    const e = { requestUri: uC, returnSecureToken: !0 };
+    const e = { requestUri: uA, returnSecureToken: !0 };
     if (this.pendingToken) e.pendingToken = this.pendingToken;
     else {
       const n = {};
@@ -9615,7 +9615,7 @@ function iy(t, e, n, r) {
       : s;
   });
 }
-async function dC(t, e, n = !1) {
+async function dA(t, e, n = !1) {
   const r = await Qs(t, e._linkToIdToken(t.auth, await t.getIdToken()), n);
   return ji._forOperation(t, "link", r);
 }
@@ -9634,7 +9634,7 @@ async function dC(t, e, n = !1) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ async function hC(t, e, n = !1) {
+ */ async function hA(t, e, n = !1) {
   var r;
   const { auth: i } = t,
     s = "reauthenticate";
@@ -9668,7 +9668,7 @@ async function dC(t, e, n = !1) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ async function fC(t, e, n = !1) {
+ */ async function fA(t, e, n = !1) {
   const r = "signIn",
     i = await iy(t, r, e),
     s = await ji._fromIdTokenResponse(t, r, i);
@@ -9740,12 +9740,12 @@ const $a = "__sak";
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ function pC() {
+ */ function pA() {
   const t = wt();
-  return Md(t) || Al(t);
+  return Md(t) || Cl(t);
 }
-const mC = 1e3,
-  gC = 10;
+const mA = 1e3,
+  gA = 10;
 class ay extends oy {
   constructor() {
     super(() => window.localStorage, "LOCAL"),
@@ -9753,7 +9753,7 @@ class ay extends oy {
       (this.listeners = {}),
       (this.localCache = {}),
       (this.pollTimer = null),
-      (this.safariLocalStorageNotSynced = pC() && aC()),
+      (this.safariLocalStorageNotSynced = pA() && aA()),
       (this.fallbackToPolling = ty()),
       (this._shouldAllowMigration = !0);
   }
@@ -9788,8 +9788,8 @@ class ay extends oy {
         (!n && this.localCache[r] === o) || this.notifyListeners(r, o);
       },
       s = this.storage.getItem(r);
-    oC() && s !== e.newValue && e.newValue !== e.oldValue
-      ? setTimeout(i, gC)
+    oA() && s !== e.newValue && e.newValue !== e.oldValue
+      ? setTimeout(i, gA)
       : i();
   }
   notifyListeners(e, n) {
@@ -9806,7 +9806,7 @@ class ay extends oy {
             !0
           );
         });
-      }, mC));
+      }, mA));
   }
   stopPolling() {
     this.pollTimer && (clearInterval(this.pollTimer), (this.pollTimer = null));
@@ -9844,7 +9844,7 @@ class ay extends oy {
   }
 }
 ay.type = "LOCAL";
-const vC = ay;
+const vA = ay;
 /**
  * @license
  * Copyright 2020 Google LLC
@@ -9884,7 +9884,7 @@ const cy = ly;
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ function yC(t) {
+ */ function yA(t) {
   return Promise.all(
     t.map(async (e) => {
       try {
@@ -9932,7 +9932,7 @@ const cy = ly;
     if (!(o != null && o.size)) return;
     n.ports[0].postMessage({ status: "ack", eventId: r, eventType: i });
     const a = Array.from(o).map(async (c) => c(n.origin, s)),
-      l = await yC(a);
+      l = await yA(a);
     n.ports[0].postMessage({
       status: "done",
       eventId: r,
@@ -9989,7 +9989,7 @@ kl.receivers = [];
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class _C {
+ */ class _A {
   constructor(e) {
     (this.target = e), (this.handlers = new Set());
   }
@@ -10060,7 +10060,7 @@ kl.receivers = [];
  */ function un() {
   return window;
 }
-function wC(t) {
+function wA(t) {
   un().location.href = t;
 }
 /**
@@ -10084,7 +10084,7 @@ function wC(t) {
     typeof un().importScripts == "function"
   );
 }
-async function bC() {
+async function bA() {
   if (!(navigator != null && navigator.serviceWorker)) return null;
   try {
     return (await navigator.serviceWorker.ready).active;
@@ -10092,7 +10092,7 @@ async function bC() {
     return null;
   }
 }
-function EC() {
+function EA() {
   var t;
   return (
     ((t = navigator == null ? void 0 : navigator.serviceWorker) === null ||
@@ -10101,7 +10101,7 @@ function EC() {
       : t.controller) || null
   );
 }
-function TC() {
+function TA() {
   return uy() ? self : null;
 }
 /**
@@ -10120,7 +10120,7 @@ function TC() {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */ const dy = "firebaseLocalStorageDb",
-  IC = 1,
+  IA = 1,
   Va = "firebaseLocalStorage",
   hy = "fbase_key";
 class _o {
@@ -10141,12 +10141,12 @@ class _o {
 function Sl(t, e) {
   return t.transaction([Va], e ? "readwrite" : "readonly").objectStore(Va);
 }
-function CC() {
+function AA() {
   const t = indexedDB.deleteDatabase(dy);
   return new _o(t).toPromise();
 }
-function Au() {
-  const t = indexedDB.open(dy, IC);
+function Cu() {
+  const t = indexedDB.open(dy, IA);
   return new Promise((e, n) => {
     t.addEventListener("error", () => {
       n(t.error);
@@ -10163,25 +10163,25 @@ function Au() {
         const r = t.result;
         r.objectStoreNames.contains(Va)
           ? e(r)
-          : (r.close(), await CC(), e(await Au()));
+          : (r.close(), await AA(), e(await Cu()));
       });
   });
 }
-async function Cp(t, e, n) {
+async function Ap(t, e, n) {
   const r = Sl(t, !0).put({ [hy]: e, value: n });
   return new _o(r).toPromise();
 }
-async function AC(t, e) {
+async function CA(t, e) {
   const n = Sl(t, !1).get(e),
     r = await new _o(n).toPromise();
   return r === void 0 ? null : r.value;
 }
-function Ap(t, e) {
+function Cp(t, e) {
   const n = Sl(t, !0).delete(e);
   return new _o(n).toPromise();
 }
-const kC = 800,
-  SC = 3;
+const kA = 800,
+  SA = 3;
 class fy {
   constructor() {
     (this.type = "LOCAL"),
@@ -10201,7 +10201,7 @@ class fy {
         ));
   }
   async _openDb() {
-    return this.db ? this.db : ((this.db = await Au()), this.db);
+    return this.db ? this.db : ((this.db = await Cu()), this.db);
   }
   async _withRetries(e) {
     let n = 0;
@@ -10210,7 +10210,7 @@ class fy {
         const r = await this._openDb();
         return await e(r);
       } catch (r) {
-        if (n++ > SC) throw r;
+        if (n++ > SA) throw r;
         this.db && (this.db.close(), (this.db = void 0));
       }
   }
@@ -10218,7 +10218,7 @@ class fy {
     return uy() ? this.initializeReceiver() : this.initializeSender();
   }
   async initializeReceiver() {
-    (this.receiver = kl._getInstance(TC())),
+    (this.receiver = kl._getInstance(TA())),
       this.receiver._subscribe("keyChanged", async (e, n) => ({
         keyProcessed: (await this._poll()).includes(n.key),
       })),
@@ -10226,9 +10226,9 @@ class fy {
   }
   async initializeSender() {
     var e, n;
-    if (((this.activeServiceWorker = await bC()), !this.activeServiceWorker))
+    if (((this.activeServiceWorker = await bA()), !this.activeServiceWorker))
       return;
-    this.sender = new _C(this.activeServiceWorker);
+    this.sender = new _A(this.activeServiceWorker);
     const r = await this.sender._send("ping", {}, 800);
     r &&
       !((e = r[0]) === null || e === void 0) &&
@@ -10242,7 +10242,7 @@ class fy {
       !(
         !this.sender ||
         !this.activeServiceWorker ||
-        EC() !== this.activeServiceWorker
+        EA() !== this.activeServiceWorker
       )
     )
       try {
@@ -10256,8 +10256,8 @@ class fy {
   async _isAvailable() {
     try {
       if (!indexedDB) return !1;
-      const e = await Au();
-      return await Cp(e, $a, "1"), await Ap(e, $a), !0;
+      const e = await Cu();
+      return await Ap(e, $a, "1"), await Cp(e, $a), !0;
     } catch {}
     return !1;
   }
@@ -10272,20 +10272,20 @@ class fy {
   async _set(e, n) {
     return this._withPendingWrite(
       async () => (
-        await this._withRetries((r) => Cp(r, e, n)),
+        await this._withRetries((r) => Ap(r, e, n)),
         (this.localCache[e] = n),
         this.notifyServiceWorker(e)
       )
     );
   }
   async _get(e) {
-    const n = await this._withRetries((r) => AC(r, e));
+    const n = await this._withRetries((r) => CA(r, e));
     return (this.localCache[e] = n), n;
   }
   async _remove(e) {
     return this._withPendingWrite(
       async () => (
-        await this._withRetries((n) => Ap(n, e)),
+        await this._withRetries((n) => Cp(n, e)),
         delete this.localCache[e],
         this.notifyServiceWorker(e)
       )
@@ -10317,7 +10317,7 @@ class fy {
   }
   startPolling() {
     this.stopPolling(),
-      (this.pollTimer = setInterval(async () => this._poll(), kC));
+      (this.pollTimer = setInterval(async () => this._poll(), kA));
   }
   stopPolling() {
     this.pollTimer && (clearInterval(this.pollTimer), (this.pollTimer = null));
@@ -10335,7 +10335,7 @@ class fy {
   }
 }
 fy.type = "LOCAL";
-const qC = fy;
+const qA = fy;
 /**
  * @license
  * Copyright 2020 Google LLC
@@ -10351,7 +10351,7 @@ const qC = fy;
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ function xC() {
+ */ function xA() {
   var t, e;
   return (e =
     (t = document.getElementsByTagName("head")) === null || t === void 0
@@ -10360,7 +10360,7 @@ const qC = fy;
     ? e
     : document;
 }
-function RC(t) {
+function RA(t) {
   return new Promise((e, n) => {
     const r = document.createElement("script");
     r.setAttribute("src", t),
@@ -10371,10 +10371,10 @@ function RC(t) {
       }),
       (r.type = "text/javascript"),
       (r.charset = "UTF-8"),
-      xC().appendChild(r);
+      xA().appendChild(r);
   });
 }
-function PC(t) {
+function PA(t) {
   return `__${t}${Math.floor(Math.random() * 1e6)}`;
 }
 new vo(3e4, 6e4);
@@ -10440,16 +10440,16 @@ new vo(3e4, 6e4);
     return e && (n.idToken = e), n;
   }
 }
-function OC(t) {
-  return fC(t.auth, new Ud(t), t.bypassAuthState);
+function OA(t) {
+  return fA(t.auth, new Ud(t), t.bypassAuthState);
 }
-function DC(t) {
+function DA(t) {
   const { auth: e, user: n } = t;
-  return ce(n, e, "internal-error"), hC(n, new Ud(t), t.bypassAuthState);
+  return ce(n, e, "internal-error"), hA(n, new Ud(t), t.bypassAuthState);
 }
-async function NC(t) {
+async function NA(t) {
   const { auth: e, user: n } = t;
-  return ce(n, e, "internal-error"), dC(n, new Ud(t), t.bypassAuthState);
+  return ce(n, e, "internal-error"), dA(n, new Ud(t), t.bypassAuthState);
 }
 /**
  * @license
@@ -10523,13 +10523,13 @@ async function NC(t) {
     switch (e) {
       case "signInViaPopup":
       case "signInViaRedirect":
-        return OC;
+        return OA;
       case "linkViaPopup":
       case "linkViaRedirect":
-        return NC;
+        return NA;
       case "reauthViaPopup":
       case "reauthViaRedirect":
-        return DC;
+        return DA;
       default:
         hn(this.auth, "internal-error");
     }
@@ -10565,7 +10565,7 @@ async function NC(t) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const LC = new vo(2e3, 1e4);
+ */ const LA = new vo(2e3, 1e4);
 async function Xs(t, e, n) {
   const r = $d(t);
   $1(t, e, Vd);
@@ -10639,7 +10639,7 @@ class Vr extends my {
         }, 2e3);
         return;
       }
-      this.pollId = window.setTimeout(e, LC.get());
+      this.pollId = window.setTimeout(e, LA.get());
     };
     e();
   }
@@ -10660,9 +10660,9 @@ Vr.currentPopupAction = null;
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const MC = "pendingRedirect",
+ */ const MA = "pendingRedirect",
   ma = new Map();
-class $C extends my {
+class $A extends my {
   constructor(e, n, r = !1) {
     super(
       e,
@@ -10677,7 +10677,7 @@ class $C extends my {
     let e = ma.get(this.auth._key());
     if (!e) {
       try {
-        const r = (await VC(this.resolver, this.auth))
+        const r = (await VA(this.resolver, this.auth))
           ? await super.execute()
           : null;
         e = () => Promise.resolve(r);
@@ -10707,26 +10707,26 @@ class $C extends my {
   async onExecution() {}
   cleanUp() {}
 }
-async function VC(t, e) {
-  const n = BC(e),
-    r = UC(t);
+async function VA(t, e) {
+  const n = BA(e),
+    r = UA(t);
   if (!(await r._isAvailable())) return !1;
   const i = (await r._get(n)) === "true";
   return await r._remove(n), i;
 }
-function FC(t, e) {
+function FA(t, e) {
   ma.set(t._key(), e);
 }
-function UC(t) {
+function UA(t) {
   return wn(t._redirectPersistence);
 }
-function BC(t) {
-  return pa(MC, t.config.apiKey, t.name);
+function BA(t) {
+  return pa(MA, t.config.apiKey, t.name);
 }
-async function jC(t, e, n = !1) {
+async function jA(t, e, n = !1) {
   const r = $d(t),
     i = py(r, e),
-    o = await new $C(r, i, n).execute();
+    o = await new $A(r, i, n).execute();
   return (
     o &&
       !n &&
@@ -10751,8 +10751,8 @@ async function jC(t, e, n = !1) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const HC = 10 * 60 * 1e3;
-class zC {
+ */ const HA = 10 * 60 * 1e3;
+class zA {
   constructor(e) {
     (this.auth = e),
       (this.cachedEventUids = new Set()),
@@ -10781,7 +10781,7 @@ class zC {
           ((n = !0), this.sendToConsumer(e, r), this.saveEventToCache(e));
       }),
       this.hasHandledPotentialRedirect ||
-        !WC(e) ||
+        !WA(e) ||
         ((this.hasHandledPotentialRedirect = !0),
         n || ((this.queuedRedirectEvent = e), (n = !0))),
       n
@@ -10803,7 +10803,7 @@ class zC {
   }
   hasEventBeenHandled(e) {
     return (
-      Date.now() - this.lastProcessedEventTime >= HC &&
+      Date.now() - this.lastProcessedEventTime >= HA &&
         this.cachedEventUids.clear(),
       this.cachedEventUids.has(kp(e))
     );
@@ -10822,7 +10822,7 @@ function gy({ type: t, error: e }) {
     t === "unknown" && (e == null ? void 0 : e.code) === "auth/no-auth-event"
   );
 }
-function WC(t) {
+function WA(t) {
   switch (t.type) {
     case "signInViaRedirect":
     case "linkViaRedirect":
@@ -10849,8 +10849,8 @@ function WC(t) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ async function KC(t, e = {}) {
-  return Cl(t, "GET", "/v1/projects", e);
+ */ async function KA(t, e = {}) {
+  return Al(t, "GET", "/v1/projects", e);
 }
 /**
  * @license
@@ -10867,19 +10867,19 @@ function WC(t) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const GC = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/,
-  QC = /^https?/;
-async function YC(t) {
+ */ const GA = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/,
+  QA = /^https?/;
+async function YA(t) {
   if (t.config.emulator) return;
-  const { authorizedDomains: e } = await KC(t);
+  const { authorizedDomains: e } = await KA(t);
   for (const n of e)
     try {
-      if (XC(n)) return;
+      if (XA(n)) return;
     } catch {}
   hn(t, "unauthorized-domain");
 }
-function XC(t) {
-  const e = Cu(),
+function XA(t) {
+  const e = Au(),
     { protocol: n, hostname: r } = new URL(e);
   if (t.startsWith("chrome-extension://")) {
     const o = new URL(t);
@@ -10889,8 +10889,8 @@ function XC(t) {
             e.replace("chrome-extension://", "")
       : n === "chrome-extension:" && o.hostname === r;
   }
-  if (!QC.test(n)) return !1;
-  if (GC.test(t)) return r === t;
+  if (!QA.test(n)) return !1;
+  if (GA.test(t)) return r === t;
   const i = t.replace(/\./g, "\\.");
   return new RegExp("^(.+\\." + i + "|" + i + ")$", "i").test(r);
 }
@@ -10909,7 +10909,7 @@ function XC(t) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const JC = new vo(3e4, 6e4);
+ */ const JA = new vo(3e4, 6e4);
 function Sp() {
   const t = un().___jsl;
   if (t != null && t.H) {
@@ -10923,7 +10923,7 @@ function Sp() {
         for (let n = 0; n < t.CP.length; n++) t.CP[n] = null;
   }
 }
-function ZC(t) {
+function ZA(t) {
   return new Promise((e, n) => {
     var r, i, s;
     function o() {
@@ -10935,7 +10935,7 @@ function ZC(t) {
           ontimeout: () => {
             Sp(), n(cn(t, "network-request-failed"));
           },
-          timeout: JC.get(),
+          timeout: JA.get(),
         });
     }
     if (
@@ -10948,12 +10948,12 @@ function ZC(t) {
       e(gapi.iframes.getContext());
     else if (!((s = un().gapi) === null || s === void 0) && s.load) o();
     else {
-      const a = PC("iframefcb");
+      const a = PA("iframefcb");
       return (
         (un()[a] = () => {
           gapi.load ? o() : n(cn(t, "network-request-failed"));
         }),
-        RC(`https://apis.google.com/js/api.js?onload=${a}`).catch((l) => n(l))
+        RA(`https://apis.google.com/js/api.js?onload=${a}`).catch((l) => n(l))
       );
     }
   }).catch((e) => {
@@ -10961,8 +10961,8 @@ function ZC(t) {
   });
 }
 let ga = null;
-function eA(t) {
-  return (ga = ga || ZC(t)), ga;
+function eC(t) {
+  return (ga = ga || ZA(t)), ga;
 }
 /**
  * @license
@@ -10979,40 +10979,40 @@ function eA(t) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const tA = new vo(5e3, 15e3),
-  nA = "__/auth/iframe",
-  rA = "emulator/auth/iframe",
-  iA = {
+ */ const tC = new vo(5e3, 15e3),
+  nC = "__/auth/iframe",
+  rC = "emulator/auth/iframe",
+  iC = {
     style: { position: "absolute", top: "-100px", width: "1px", height: "1px" },
     "aria-hidden": "true",
     tabindex: "-1",
   },
-  sA = new Map([
+  sC = new Map([
     ["identitytoolkit.googleapis.com", "p"],
     ["staging-identitytoolkit.sandbox.googleapis.com", "s"],
     ["test-identitytoolkit.sandbox.googleapis.com", "t"],
   ]);
-function oA(t) {
+function oC(t) {
   const e = t.config;
   ce(e.authDomain, t, "auth-domain-config-required");
-  const n = e.emulator ? Nd(e, rA) : `https://${t.config.authDomain}/${nA}`,
+  const n = e.emulator ? Nd(e, rC) : `https://${t.config.authDomain}/${nC}`,
     r = { apiKey: e.apiKey, appName: t.name, v: go },
-    i = sA.get(t.config.apiHost);
+    i = sC.get(t.config.apiHost);
   i && (r.eid = i);
   const s = t._getFrameworks();
   return s.length && (r.fw = s.join(",")), `${n}?${mo(r).slice(1)}`;
 }
-async function aA(t) {
-  const e = await eA(t),
+async function aC(t) {
+  const e = await eC(t),
     n = un().gapi;
   return (
     ce(n, t, "internal-error"),
     e.open(
       {
         where: document.body,
-        url: oA(t),
+        url: oC(t),
         messageHandlersFilter: n.iframes.CROSS_ORIGIN_IFRAMES_FILTER,
-        attributes: iA,
+        attributes: iC,
         dontclear: !0,
       },
       (r) =>
@@ -11021,7 +11021,7 @@ async function aA(t) {
           const o = cn(t, "network-request-failed"),
             a = un().setTimeout(() => {
               s(o);
-            }, tA.get());
+            }, tC.get());
           function l() {
             un().clearTimeout(a), i(r);
           }
@@ -11047,16 +11047,16 @@ async function aA(t) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const lA = {
+ */ const lC = {
     location: "yes",
     resizable: "yes",
     statusbar: "yes",
     toolbar: "no",
   },
-  cA = 500,
-  uA = 600,
-  dA = "_blank",
-  hA = "http://localhost";
+  cC = 500,
+  uC = 600,
+  dC = "_blank",
+  hC = "http://localhost";
 class qp {
   constructor(e) {
     (this.window = e), (this.associatedEvent = null);
@@ -11068,20 +11068,20 @@ class qp {
       } catch {}
   }
 }
-function fA(t, e, n, r = cA, i = uA) {
+function fC(t, e, n, r = cC, i = uC) {
   const s = Math.max((window.screen.availHeight - i) / 2, 0).toString(),
     o = Math.max((window.screen.availWidth - r) / 2, 0).toString();
   let a = "";
-  const l = Object.assign(Object.assign({}, lA), {
+  const l = Object.assign(Object.assign({}, lC), {
       width: r.toString(),
       height: i.toString(),
       top: s,
       left: o,
     }),
     c = wt().toLowerCase();
-  n && (a = Yv(c) ? dA : n), Qv(c) && ((e = e || hA), (l.scrollbars = "yes"));
+  n && (a = Yv(c) ? dC : n), Qv(c) && ((e = e || hC), (l.scrollbars = "yes"));
   const u = Object.entries(l).reduce((h, [p, g]) => `${h}${p}=${g},`, "");
-  if (sC(c) && a !== "_self") return pA(e || "", a), new qp(null);
+  if (sA(c) && a !== "_self") return pC(e || "", a), new qp(null);
   const d = window.open(e || "", a, u);
   ce(d, t, "popup-blocked");
   try {
@@ -11089,7 +11089,7 @@ function fA(t, e, n, r = cA, i = uA) {
   } catch {}
   return new qp(d);
 }
-function pA(t, e) {
+function pC(t, e) {
   const n = document.createElement("a");
   (n.href = t), (n.target = e);
   const r = document.createEvent("MouseEvent");
@@ -11127,8 +11127,8 @@ function pA(t, e) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ const mA = "__/auth/handler",
-  gA = "emulator/auth/handler";
+ */ const mC = "__/auth/handler",
+  gC = "emulator/auth/handler";
 function xp(t, e, n, r, i, s) {
   ce(t.config.authDomain, t, "auth-domain-config-required"),
     ce(t.config.apiKey, t, "invalid-api-key");
@@ -11154,10 +11154,10 @@ function xp(t, e, n, r, i, s) {
   t.tenantId && (o.tid = t.tenantId);
   const a = o;
   for (const l of Object.keys(a)) a[l] === void 0 && delete a[l];
-  return `${vA(t)}?${mo(a).slice(1)}`;
+  return `${vC(t)}?${mo(a).slice(1)}`;
 }
-function vA({ config: t }) {
-  return t.emulator ? Nd(t, gA) : `https://${t.authDomain}/${mA}`;
+function vC({ config: t }) {
+  return t.emulator ? Nd(t, gC) : `https://${t.authDomain}/${mC}`;
 }
 /**
  * @license
@@ -11175,14 +11175,14 @@ function vA({ config: t }) {
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */ const Vc = "webStorageSupport";
-class yA {
+class yC {
   constructor() {
     (this.eventManagers = {}),
       (this.iframes = {}),
       (this.originValidationPromises = {}),
       (this._redirectPersistence = cy),
-      (this._completeRedirectFn = jC),
-      (this._overrideRedirectResult = FC);
+      (this._completeRedirectFn = jA),
+      (this._overrideRedirectResult = FA);
   }
   async _openPopup(e, n, r, i) {
     var s;
@@ -11192,13 +11192,13 @@ class yA {
         : s.manager,
       "_initialize() not called before _openPopup()"
     );
-    const o = xp(e, n, r, Cu(), i);
-    return fA(e, o, Fd());
+    const o = xp(e, n, r, Au(), i);
+    return fC(e, o, Fd());
   }
   async _openRedirect(e, n, r, i) {
     return (
       await this._originValidation(e),
-      wC(xp(e, n, r, Cu(), i)),
+      wA(xp(e, n, r, Au(), i)),
       new Promise(() => {})
     );
   }
@@ -11220,8 +11220,8 @@ class yA {
     );
   }
   async initAndGetManager(e) {
-    const n = await aA(e),
-      r = new zC(e);
+    const n = await aC(e),
+      r = new zA(e);
     return (
       n.register(
         "authEvent",
@@ -11255,15 +11255,15 @@ class yA {
     const n = e._key();
     return (
       this.originValidationPromises[n] ||
-        (this.originValidationPromises[n] = YC(e)),
+        (this.originValidationPromises[n] = YA(e)),
       this.originValidationPromises[n]
     );
   }
   get _shouldInitProactively() {
-    return ty() || Md() || Al();
+    return ty() || Md() || Cl();
   }
 }
-const _A = yA;
+const _C = yC;
 var Rp = "@firebase/auth",
   Pp = "0.20.7";
 /**
@@ -11281,7 +11281,7 @@ var Rp = "@firebase/auth",
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class wA {
+ */ class wC {
   constructor(e) {
     (this.auth = e), (this.internalListeners = new Map());
   }
@@ -11346,7 +11346,7 @@ var Rp = "@firebase/auth",
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ function bA(t) {
+ */ function bC(t) {
   switch (t) {
     case "Node":
       return "node";
@@ -11360,7 +11360,7 @@ var Rp = "@firebase/auth",
       return;
   }
 }
-function EA(t) {
+function EC(t) {
   Bi(
     new Yr(
       "auth",
@@ -11382,7 +11382,7 @@ function EA(t) {
               apiScheme: "https",
               sdkClientVersion: ny(t),
             },
-            u = new cC(a, l, c);
+            u = new cA(a, l, c);
           return F1(u, n), u;
         })(r, i);
       },
@@ -11398,12 +11398,12 @@ function EA(t) {
         "auth-internal",
         (e) => {
           const n = $d(e.getProvider("auth").getImmediate());
-          return ((r) => new wA(r))(n);
+          return ((r) => new wC(r))(n);
         },
         "PRIVATE"
       ).setInstantiationMode("EXPLICIT")
     ),
-    pr(Rp, Pp, bA(t)),
+    pr(Rp, Pp, bC(t)),
     pr(Rp, Pp, "esm2017");
 }
 /**
@@ -11425,10 +11425,10 @@ function EA(t) {
   const e = Pd(t, "auth");
   return e.isInitialized()
     ? e.getImmediate()
-    : V1(t, { popupRedirectResolver: _A, persistence: [qC, vC, cy] });
+    : V1(t, { popupRedirectResolver: _C, persistence: [qA, vA, cy] });
 }
-EA("Browser");
-var TA =
+EC("Browser");
+var TC =
     typeof globalThis < "u"
       ? globalThis
       : typeof window < "u"
@@ -11440,7 +11440,7 @@ var TA =
       : {},
   Q,
   Bd = Bd || {},
-  ae = TA || self;
+  ae = TC || self;
 function Fa() {}
 function ql(t) {
   var e = typeof t;
@@ -11453,17 +11453,17 @@ function wo(t) {
   var e = typeof t;
   return (e == "object" && t != null) || e == "function";
 }
-function IA(t) {
+function IC(t) {
   return (
-    (Object.prototype.hasOwnProperty.call(t, Fc) && t[Fc]) || (t[Fc] = ++CA)
+    (Object.prototype.hasOwnProperty.call(t, Fc) && t[Fc]) || (t[Fc] = ++AC)
   );
 }
 var Fc = "closure_uid_" + ((1e9 * Math.random()) >>> 0),
-  CA = 0;
-function AA(t, e, n) {
+  AC = 0;
+function CC(t, e, n) {
   return t.call.apply(t.bind, arguments);
 }
-function kA(t, e, n) {
+function kC(t, e, n) {
   if (!t) throw Error();
   if (2 < arguments.length) {
     var r = Array.prototype.slice.call(arguments, 2);
@@ -11480,8 +11480,8 @@ function vt(t, e, n) {
   return (
     Function.prototype.bind &&
     Function.prototype.bind.toString().indexOf("native code") != -1
-      ? (vt = AA)
-      : (vt = kA),
+      ? (vt = CC)
+      : (vt = kC),
     vt.apply(null, arguments)
   );
 }
@@ -11511,10 +11511,10 @@ function dt(t, e) {
 function br() {
   (this.s = this.s), (this.o = this.o);
 }
-var SA = 0;
+var SC = 0;
 br.prototype.s = !1;
 br.prototype.na = function () {
-  !this.s && ((this.s = !0), this.M(), SA != 0) && IA(this);
+  !this.s && ((this.s = !0), this.M(), SC != 0) && IC(this);
 };
 br.prototype.M = function () {
   if (this.o) for (; this.o.length; ) this.o.shift()();
@@ -11555,7 +11555,7 @@ function yt(t, e) {
 yt.prototype.h = function () {
   this.defaultPrevented = !0;
 };
-var qA = (function () {
+var qC = (function () {
   if (!ae.addEventListener || !Object.defineProperty) return !1;
   var t = !1,
     e = Object.defineProperty({}, "passive", {
@@ -11592,11 +11592,11 @@ function Hd(t) {
   return Hd[" "](t), t;
 }
 Hd[" "] = Fa;
-function xA(t) {
-  var e = OA;
+function xC(t) {
+  var e = OC;
   return Object.prototype.hasOwnProperty.call(e, 9) ? e[9] : (e[9] = t(9));
 }
-var RA = on("Opera"),
+var RC = on("Opera"),
   Hi = on("Trident") || on("MSIE"),
   yy = on("Edge"),
   ku = yy || Hi,
@@ -11605,7 +11605,7 @@ var RA = on("Opera"),
     !(xl().toLowerCase().indexOf("webkit") != -1 && !on("Edge")) &&
     !(on("Trident") || on("MSIE")) &&
     !on("Edge"),
-  PA = xl().toLowerCase().indexOf("webkit") != -1 && !on("Edge");
+  PC = xl().toLowerCase().indexOf("webkit") != -1 && !on("Edge");
 function wy() {
   var t = ae.document;
   return t ? t.documentMode : void 0;
@@ -11618,8 +11618,8 @@ e: {
       if (_y) return /rv:([^\);]+)(\)|;)/.exec(t);
       if (yy) return /Edge\/([\d\.]+)/.exec(t);
       if (Hi) return /\b(?:MSIE|rv)[: ]([^\);]+)(\)|;)/.exec(t);
-      if (PA) return /WebKit\/(\S+)/.exec(t);
-      if (RA) return /(?:Version)[ \/]?(\S+)/.exec(t);
+      if (PC) return /WebKit\/(\S+)/.exec(t);
+      if (RC) return /(?:Version)[ \/]?(\S+)/.exec(t);
     })();
   if ((jc && (Bc = jc ? jc[1] : ""), Hi)) {
     var Hc = wy();
@@ -11630,9 +11630,9 @@ e: {
   }
   Ba = Bc;
 }
-var OA = {};
-function DA() {
-  return xA(function () {
+var OC = {};
+function DC() {
+  return xC(function () {
     let t = 0;
     const e = Dp(String(Ba)).split("."),
       n = Dp("9").split("."),
@@ -11666,7 +11666,7 @@ if (ae.document && Hi) {
   var Np = wy();
   Su = Np || parseInt(Ba, 10) || void 0;
 } else Su = void 0;
-var NA = Su;
+var NC = Su;
 function Js(t, e) {
   if (
     (yt.call(this, t ? t.type : ""),
@@ -11730,29 +11730,29 @@ function Js(t, e) {
       (this.pointerType =
         typeof t.pointerType == "string"
           ? t.pointerType
-          : LA[t.pointerType] || ""),
+          : LC[t.pointerType] || ""),
       (this.state = t.state),
       (this.i = t),
       t.defaultPrevented && Js.X.h.call(this);
   }
 }
 dt(Js, yt);
-var LA = { 2: "touch", 3: "pen", 4: "mouse" };
+var LC = { 2: "touch", 3: "pen", 4: "mouse" };
 Js.prototype.h = function () {
   Js.X.h.call(this);
   var t = this.i;
   t.preventDefault ? t.preventDefault() : (t.returnValue = !1);
 };
 var bo = "closure_listenable_" + ((1e6 * Math.random()) | 0),
-  MA = 0;
-function $A(t, e, n, r, i) {
+  MC = 0;
+function $C(t, e, n, r, i) {
   (this.listener = t),
     (this.proxy = null),
     (this.src = e),
     (this.type = n),
     (this.capture = !!r),
     (this.ha = i),
-    (this.key = ++MA),
+    (this.key = ++MC),
     (this.ba = this.ea = !1);
 }
 function Rl(t) {
@@ -11793,7 +11793,7 @@ Pl.prototype.add = function (t, e, n, r, i) {
   return (
     -1 < o
       ? ((e = t[o]), n || (e.ea = !1))
-      : ((e = new $A(e, this.src, s, !!r, i)), (e.ea = n), t.push(e)),
+      : ((e = new $C(e, this.src, s, !!r, i)), (e.ea = n), t.push(e)),
     e
   );
 };
@@ -11817,7 +11817,7 @@ function xu(t, e, n, r) {
 var Wd = "closure_lm_" + ((1e6 * Math.random()) | 0),
   zc = {};
 function Ty(t, e, n, r, i) {
-  if (r && r.once) return Cy(t, e, n, r, i);
+  if (r && r.once) return Ay(t, e, n, r, i);
   if (Array.isArray(e)) {
     for (var s = 0; s < e.length; s++) Ty(t, e[s], n, r, i);
     return null;
@@ -11834,13 +11834,13 @@ function Iy(t, e, n, r, i, s) {
   if ((a || (t[Wd] = a = new Pl(t)), (n = a.add(e, n, r, o, s)), n.proxy))
     return n;
   if (
-    ((r = VA()),
+    ((r = VC()),
     (n.proxy = r),
     (r.src = t),
     (r.listener = n),
     t.addEventListener)
   )
-    qA || (i = o),
+    qC || (i = o),
       i === void 0 && (i = !1),
       t.addEventListener(e.toString(), r, i);
   else if (t.attachEvent) t.attachEvent(ky(e.toString()), r);
@@ -11848,16 +11848,16 @@ function Iy(t, e, n, r, i, s) {
   else throw Error("addEventListener and attachEvent are unavailable.");
   return n;
 }
-function VA() {
+function VC() {
   function t(n) {
     return e.call(t.src, t.listener, n);
   }
-  const e = FA;
+  const e = FC;
   return t;
 }
-function Cy(t, e, n, r, i) {
+function Ay(t, e, n, r, i) {
   if (Array.isArray(e)) {
-    for (var s = 0; s < e.length; s++) Cy(t, e[s], n, r, i);
+    for (var s = 0; s < e.length; s++) Ay(t, e[s], n, r, i);
     return null;
   }
   return (
@@ -11865,8 +11865,8 @@ function Cy(t, e, n, r, i) {
     t && t[bo] ? t.O(e, n, wo(r) ? !!r.capture : !!r, i) : Iy(t, e, n, !0, r, i)
   );
 }
-function Ay(t, e, n, r, i) {
-  if (Array.isArray(e)) for (var s = 0; s < e.length; s++) Ay(t, e[s], n, r, i);
+function Cy(t, e, n, r, i) {
+  if (Array.isArray(e)) for (var s = 0; s < e.length; s++) Cy(t, e[s], n, r, i);
   else
     (r = wo(r) ? !!r.capture : !!r),
       (n = Qd(n)),
@@ -11908,7 +11908,7 @@ function Kd(t) {
 function ky(t) {
   return t in zc ? zc[t] : (zc[t] = "on" + t);
 }
-function FA(t, e) {
+function FC(t, e) {
   if (t.ba) t = !0;
   else {
     e = new Js(e, this);
@@ -11937,7 +11937,7 @@ function nt() {
 dt(nt, br);
 nt.prototype[bo] = !0;
 nt.prototype.removeEventListener = function (t, e, n, r) {
-  Ay(this, t, e, n, r);
+  Cy(this, t, e, n, r);
 };
 function ct(t, e) {
   var n,
@@ -11990,7 +11990,7 @@ function Jo(t, e, n, r) {
   return i && !r.defaultPrevented;
 }
 var Yd = ae.JSON.stringify;
-function UA() {
+function UC() {
   var t = xy;
   let e = null;
   return (
@@ -11998,7 +11998,7 @@ function UA() {
     e
   );
 }
-class BA {
+class BC {
   constructor() {
     this.h = this.g = null;
   }
@@ -12021,10 +12021,10 @@ var Sy = new (class {
     );
   }
 })(
-  () => new jA(),
+  () => new jC(),
   (t) => t.reset()
 );
-class jA {
+class jC {
   constructor() {
     this.next = this.g = this.h = null;
   }
@@ -12035,29 +12035,29 @@ class jA {
     this.next = this.g = this.h = null;
   }
 }
-function HA(t) {
+function HC(t) {
   ae.setTimeout(() => {
     throw t;
   }, 0);
 }
 function qy(t, e) {
-  Ru || zA(), Pu || (Ru(), (Pu = !0)), xy.add(t, e);
+  Ru || zC(), Pu || (Ru(), (Pu = !0)), xy.add(t, e);
 }
 var Ru;
-function zA() {
+function zC() {
   var t = ae.Promise.resolve(void 0);
   Ru = function () {
-    t.then(WA);
+    t.then(WC);
   };
 }
 var Pu = !1,
-  xy = new BA();
-function WA() {
-  for (var t; (t = UA()); ) {
+  xy = new BC();
+function WC() {
+  for (var t; (t = UC()); ) {
     try {
       t.h.call(t.g);
     } catch (n) {
-      HA(n);
+      HC(n);
     }
     var e = Sy;
     e.j(t), 100 > e.h && (e.h++, (t.next = e.g), (e.g = t));
@@ -12109,7 +12109,7 @@ function Ry(t) {
   const e = t.h;
   (t.h = null), t.m.apply(null, e);
 }
-class KA extends br {
+class KC extends br {
   constructor(e, n) {
     super(),
       (this.m = e),
@@ -12165,7 +12165,7 @@ function Dl() {
 Dl.prototype.Aa = function () {
   this.g = !1;
 };
-function GA(t, e, n, r, i, s) {
+function GC(t, e, n, r, i, s) {
   t.info(function () {
     if (t.g)
       if (s)
@@ -12199,7 +12199,7 @@ function GA(t, e, n, r, i, s) {
     );
   });
 }
-function QA(t, e, n, r, i, s, o) {
+function QC(t, e, n, r, i, s, o) {
   t.info(function () {
     return (
       "XMLHTTP RESP (" +
@@ -12221,16 +12221,16 @@ function QA(t, e, n, r, i, s, o) {
 }
 function _i(t, e, n, r) {
   t.info(function () {
-    return "XMLHTTP TEXT (" + e + "): " + XA(t, n) + (r ? " " + r : "");
+    return "XMLHTTP TEXT (" + e + "): " + XC(t, n) + (r ? " " + r : "");
   });
 }
-function YA(t, e) {
+function YC(t, e) {
   t.info(function () {
     return "TIMEOUT: " + e;
   });
 }
 Dl.prototype.info = function () {};
-function XA(t, e) {
+function XC(t, e) {
   if (!t.g) return e;
   if (!e) return null;
   try {
@@ -12273,7 +12273,7 @@ function Ny(t, e) {
   yt.call(this, ii.STAT_EVENT, t), (this.stat = e);
 }
 dt(Ny, yt);
-function Ct(t) {
+function At(t) {
   const e = Nl();
   ct(e, new Ny(e, t));
 }
@@ -12345,7 +12345,7 @@ function Io(t, e, n, r) {
     (this.m = n),
     (this.U = r || 1),
     (this.S = new Zs(this)),
-    (this.O = JA),
+    (this.O = JC),
     (t = ku ? 125 : void 0),
     (this.T = new Ol(t)),
     (this.H = null),
@@ -12365,7 +12365,7 @@ function Io(t, e, n, r) {
 function Vy() {
   (this.i = null), (this.g = ""), (this.h = !1);
 }
-var JA = 45e3,
+var JC = 45e3,
   Du = {},
   ja = {};
 Q = Io.prototype;
@@ -12376,7 +12376,7 @@ function Nu(t, e, n) {
   (t.K = 1), (t.v = Vl(qn(e))), (t.s = n), (t.P = !0), Fy(t, null);
 }
 function Fy(t, e) {
-  (t.F = Date.now()), Co(t), (t.A = qn(t.v));
+  (t.F = Date.now()), Ao(t), (t.A = qn(t.v));
   var n = t.A,
     r = t.U;
   Array.isArray(r) || (r = [String(r)]),
@@ -12385,7 +12385,7 @@ function Fy(t, e) {
     (n = t.l.H),
     (t.h = new Vy()),
     (t.g = m_(t.l, n ? e : null, !t.s)),
-    0 < t.N && (t.L = new KA(vt(t.Ka, t, t.g), t.N)),
+    0 < t.N && (t.L = new KC(vt(t.Ka, t, t.g), t.N)),
     Py(t.S, t.g, "readystatechange", t.hb),
     (e = t.H ? by(t.H) : {}),
     t.s
@@ -12394,7 +12394,7 @@ function Fy(t, e) {
         t.g.da(t.A, t.u, t.s, e))
       : ((t.u = "GET"), t.g.da(t.A, t.u, null, e)),
     eo(),
-    GA(t.j, t.u, t.A, t.m, t.U, t.s);
+    GC(t.j, t.u, t.A, t.m, t.U, t.s);
 }
 Q.hb = function (t) {
   t = t.target;
@@ -12436,7 +12436,7 @@ Q.Ka = function (t) {
           } else o = this.g.fa();
           if (
             ((this.i = n == 200),
-            QA(this.j, this.u, this.A, this.m, this.U, u, n),
+            QC(this.j, this.u, this.A, this.m, this.U, u, n),
             this.i)
           ) {
             if (this.Z && !this.J) {
@@ -12466,7 +12466,7 @@ Q.Ka = function (t) {
                   (this.J = !0),
                   Lu(this, n);
               else {
-                (this.i = !1), (this.o = 3), Ct(12), Fr(this), xs(this);
+                (this.i = !1), (this.o = 3), At(12), Fr(this), xs(this);
                 break e;
               }
             }
@@ -12480,11 +12480,11 @@ Q.Ka = function (t) {
               u == 4 && Fr(this),
               this.i &&
                 !this.I &&
-                (u == 4 ? d_(this.l, this) : ((this.i = !1), Co(this)));
+                (u == 4 ? d_(this.l, this) : ((this.i = !1), Ao(this)));
           } else
             n == 400 && 0 < o.indexOf("Unknown SID")
-              ? ((this.o = 3), Ct(12))
-              : ((this.o = 0), Ct(13)),
+              ? ((this.o = 3), At(12))
+              : ((this.o = 0), At(13)),
               Fr(this),
               xs(this);
         }
@@ -12500,16 +12500,16 @@ function By(t, e, n) {
   let r = !0,
     i;
   for (; !t.I && t.C < n.length; )
-    if (((i = ZA(t, n)), i == ja)) {
-      e == 4 && ((t.o = 4), Ct(14), (r = !1)),
+    if (((i = ZC(t, n)), i == ja)) {
+      e == 4 && ((t.o = 4), At(14), (r = !1)),
         _i(t.j, t.m, null, "[Incomplete Response]");
       break;
     } else if (i == Du) {
-      (t.o = 4), Ct(15), _i(t.j, t.m, n, "[Invalid Chunk]"), (r = !1);
+      (t.o = 4), At(15), _i(t.j, t.m, n, "[Invalid Chunk]"), (r = !1);
       break;
     } else _i(t.j, t.m, i, null), Lu(t, i);
   Uy(t) && i != ja && i != Du && ((t.h.g = ""), (t.C = 0)),
-    e != 4 || n.length != 0 || t.h.h || ((t.o = 1), Ct(16), (r = !1)),
+    e != 4 || n.length != 0 || t.h.h || ((t.o = 1), At(16), (r = !1)),
     (t.i = t.i && r),
     r
       ? 0 < n.length &&
@@ -12524,7 +12524,7 @@ function By(t, e, n) {
           ),
           lh(e),
           (e.K = !0),
-          Ct(11)))
+          At(11)))
       : (_i(t.j, t.m, n, "[Invalid Chunked Response]"), Fr(t), xs(t));
 }
 Q.gb = function () {
@@ -12532,10 +12532,10 @@ Q.gb = function () {
     var t = bn(this.g),
       e = this.g.fa();
     this.C < e.length &&
-      ($l(this), By(this, t, e), this.i && t != 4 && Co(this));
+      ($l(this), By(this, t, e), this.i && t != 4 && Ao(this));
   }
 };
-function ZA(t, e) {
+function ZC(t, e) {
   var n = t.C,
     r = e.indexOf(
       `
@@ -12553,7 +12553,7 @@ function ZA(t, e) {
 Q.cancel = function () {
   (this.I = !0), Fr(this);
 };
-function Co(t) {
+function Ao(t) {
   (t.V = Date.now() + t.O), jy(t, t.O);
 }
 function jy(t, e) {
@@ -12567,8 +12567,8 @@ Q.fb = function () {
   this.B = null;
   const t = Date.now();
   0 <= t - this.V
-    ? (YA(this.j, this.A),
-      this.K != 2 && (eo(), Ct(17)),
+    ? (YC(this.j, this.A),
+      this.K != 2 && (eo(), At(17)),
       Fr(this),
       (this.o = 2),
       xs(this))
@@ -12603,7 +12603,7 @@ function Lu(t, e) {
               if (n.g)
                 if (n.g.F + 3e3 < t.F) Wa(n), Bl(n);
                 else break e;
-              ah(n), Ct(18);
+              ah(n), At(18);
             }
           } else
             (n.Ba = i[1]),
@@ -12671,7 +12671,7 @@ function Lu(t, e) {
                 Jy(r.h, o);
                 var a = o,
                   l = r.J;
-                l && a.setTimeout(l), a.B && ($l(a), Co(a)), (r.g = o);
+                l && a.setTimeout(l), a.B && ($l(a), Ao(a)), (r.g = o);
               } else c_(r);
               0 < n.i.length && jl(n);
             } else (c[0] != "stop" && c[0] != "close") || Ur(n, 7);
@@ -13058,14 +13058,14 @@ function Zo(t, e, n, r, i) {
       i(r);
   } catch {}
 }
-function Ao(t) {
+function Co(t) {
   (this.l = t.$b || null), (this.j = t.ib || !1);
 }
-dt(Ao, Zd);
-Ao.prototype.g = function () {
+dt(Co, Zd);
+Co.prototype.g = function () {
   return new Fl(this.l, this.j);
 };
-Ao.prototype.i = (function (t) {
+Co.prototype.i = (function (t) {
   return function () {
     return t;
   };
@@ -13277,7 +13277,7 @@ Q.da = function (t, e, n, r) {
   }
 };
 function vk(t) {
-  return Hi && DA() && typeof t.timeout == "number" && t.ontimeout !== void 0;
+  return Hi && DC() && typeof t.timeout == "number" && t.ontimeout !== void 0;
 }
 Q.qa = function () {
   typeof Bd < "u" &&
@@ -13527,7 +13527,7 @@ function oh(t) {
       !n && ae.Image && ((new Image().src = e.v), (n = !0)),
       n || ((e.g = m_(e.l, null)), e.g.da(e.v)),
       (e.F = Date.now()),
-      Co(e);
+      Ao(e);
   }
   f_(t);
 }
@@ -13703,7 +13703,7 @@ Q.cb = function () {
     this.j.info("Buffering proxy detected and switch to long-polling!"),
     (this.L = !1),
     (this.K = !0),
-    Ct(10),
+    At(10),
     Bl(this),
     u_(this));
 };
@@ -13727,7 +13727,7 @@ function u_(t) {
   (t = t.ka), (n.K = 1), (n.v = Vl(qn(e))), (n.s = null), (n.P = !0), Fy(n, t);
 }
 Q.bb = function () {
-  this.v != null && ((this.v = null), Bl(this), ah(this), Ct(19));
+  this.v != null && ((this.v = null), Bl(this), ah(this), At(19));
 };
 function Wa(t) {
   t.v != null && (ae.clearTimeout(t.v), (t.v = null));
@@ -13781,13 +13781,13 @@ function Ur(t, e) {
       (ae.location && ae.location.protocol == "http") || Ha(n, "https"),
       Vl(n)),
       fk(n.toString(), r);
-  } else Ct(2);
+  } else At(2);
   (t.G = 0), t.l && t.l.va(e), f_(t), a_(t);
 }
 Q.jb = function (t) {
   t
-    ? (this.j.info("Successfully pinged google.com"), Ct(2))
-    : (this.j.info("Failed to ping google.com"), Ct(1));
+    ? (this.j.info("Successfully pinged google.com"), At(2))
+    : (this.j.info("Failed to ping google.com"), At(1));
 };
 function f_(t) {
   if (((t.G = 0), (t.la = []), t.l)) {
@@ -13825,7 +13825,7 @@ function m_(t, e, n) {
   if (e && !t.H)
     throw Error("Can't create secondary domain capable XhrIo object.");
   return (
-    (e = n && t.Da && !t.ra ? new Ge(new Ao({ ib: !0 })) : new Ge(t.ra)),
+    (e = n && t.Da && !t.ra ? new Ge(new Co({ ib: !0 })) : new Ge(t.ra)),
     (e.L = t.H),
     e
   );
@@ -13838,7 +13838,7 @@ Q.va = function () {};
 Q.ua = function () {};
 Q.Qa = function () {};
 function Ka() {
-  if (Hi && !(10 <= Number(NA)))
+  if (Hi && !(10 <= Number(NC)))
     throw Error("Environmental error: no available transport.");
 }
 Ka.prototype.g = function (t, e) {
@@ -13884,7 +13884,7 @@ Vt.prototype.m = function () {
   var t = this.g,
     e = this.l,
     n = this.h || void 0;
-  Ct(0),
+  At(0),
     (t.V = e),
     (t.ia = n || {}),
     (t.L = t.Y),
@@ -13998,7 +13998,7 @@ var _k = function () {
     mb: 19,
     ob: 20,
   },
-  Tk = Ao,
+  Tk = Co,
   ea = $y,
   Ik = Ge;
 const Wp = "@firebase/firestore";
@@ -14217,7 +14217,7 @@ let G = class extends Fn {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ let Ck = class {
+ */ let Ak = class {
     constructor(e, n) {
       (this.user = n),
         (this.type = "OAuth"),
@@ -14225,7 +14225,7 @@ let G = class extends Fn {
         this.headers.set("Authorization", `Bearer ${e}`);
     }
   },
-  Ak = class {
+  Ck = class {
     getToken() {
       return Promise.resolve(null);
     }
@@ -14297,7 +14297,7 @@ let G = class extends Fn {
                     this.getToken())
                   : r
                   ? (Le(typeof r.accessToken == "string"),
-                    new Ck(r.accessToken, this.currentUser))
+                    new Ak(r.accessToken, this.currentUser))
                   : null
               )
           : Promise.resolve(null)
@@ -16434,7 +16434,7 @@ function Uu(t) {
     t.filters.length === 0
   );
 }
-class At extends class {} {
+class Ct extends class {} {
   constructor(e, n, r) {
     super(), (this.field = e), (this.op = n), (this.value = r);
   }
@@ -16451,7 +16451,7 @@ class At extends class {} {
       ? new Yk(e, r)
       : n === "array-contains-any"
       ? new Xk(e, r)
-      : new At(e, n, r);
+      : new Ct(e, n, r);
   }
   static lt(e, n, r) {
     return n === "in" ? new Wk(e, r) : new Kk(e, r);
@@ -16484,7 +16484,7 @@ class At extends class {} {
     return ["<", "<=", ">", ">=", "!=", "not-in"].indexOf(this.op) >= 0;
   }
 }
-class zk extends At {
+class zk extends Ct {
   constructor(e, n, r) {
     super(e, n, r), (this.key = re.fromName(r.referenceValue));
   }
@@ -16493,29 +16493,29 @@ class zk extends At {
     return this.ft(n);
   }
 }
-class Wk extends At {
+class Wk extends Ct {
   constructor(e, n) {
-    super(e, "in", n), (this.keys = C_("in", n));
+    super(e, "in", n), (this.keys = A_("in", n));
   }
   matches(e) {
     return this.keys.some((n) => n.isEqual(e.key));
   }
 }
-class Kk extends At {
+class Kk extends Ct {
   constructor(e, n) {
-    super(e, "not-in", n), (this.keys = C_("not-in", n));
+    super(e, "not-in", n), (this.keys = A_("not-in", n));
   }
   matches(e) {
     return !this.keys.some((n) => n.isEqual(e.key));
   }
 }
-function C_(t, e) {
+function A_(t, e) {
   var n;
   return (
     ((n = e.arrayValue) === null || n === void 0 ? void 0 : n.values) || []
   ).map((r) => re.fromName(r.referenceValue));
 }
-class Gk extends At {
+class Gk extends Ct {
   constructor(e, n) {
     super(e, "array-contains", n);
   }
@@ -16524,7 +16524,7 @@ class Gk extends At {
     return dh(n) && so(n.arrayValue, this.value);
   }
 }
-class Qk extends At {
+class Qk extends Ct {
   constructor(e, n) {
     super(e, "in", n);
   }
@@ -16533,7 +16533,7 @@ class Qk extends At {
     return n !== null && so(this.value.arrayValue, n);
   }
 }
-class Yk extends At {
+class Yk extends Ct {
   constructor(e, n) {
     super(e, "not-in", n);
   }
@@ -16543,7 +16543,7 @@ class Yk extends At {
     return n !== null && !so(this.value.arrayValue, n);
   }
 }
-class Xk extends At {
+class Xk extends Ct {
   constructor(e, n) {
     super(e, "array-contains-any", n);
   }
@@ -16653,7 +16653,7 @@ function im(t) {
         t.explicitOrderBy[0].field.isKeyField()))
   );
 }
-function A_(t) {
+function C_(t) {
   return t.explicitOrderBy.length > 0 ? t.explicitOrderBy[0].field : null;
 }
 function k_(t) {
@@ -16668,7 +16668,7 @@ function oo(t) {
   if (e._t === null) {
     e._t = [];
     const n = k_(e),
-      r = A_(e);
+      r = C_(e);
     if (n !== null && r === null)
       n.isKeyField() || e._t.push(new Ps(n)),
         e._t.push(new Ps(gt.keyField(), "asc"));
@@ -17951,7 +17951,7 @@ function TS(t, e) {
 function IS(t, e) {
   return { documents: [zu(t, e.path)] };
 }
-function CS(t, e) {
+function AS(t, e) {
   const n = { structuredQuery: {} },
     r = e.path;
   e.collectionGroup !== null
@@ -18013,7 +18013,7 @@ function CS(t, e) {
     n
   );
 }
-function AS(t) {
+function CS(t) {
   let e = wS(t.parent);
   const n = t.structuredQuery,
     r = n.from ? n.from.length : 0;
@@ -18109,7 +18109,7 @@ function wi(t) {
   return gt.fromServerFormat(t.fieldPath);
 }
 function xS(t) {
-  return At.create(
+  return Ct.create(
     wi(t.fieldFilter.field),
     (function (e) {
       switch (e) {
@@ -18144,16 +18144,16 @@ function RS(t) {
   switch (t.unaryFilter.op) {
     case "IS_NAN":
       const e = wi(t.unaryFilter.field);
-      return At.create(e, "==", { doubleValue: NaN });
+      return Ct.create(e, "==", { doubleValue: NaN });
     case "IS_NULL":
       const n = wi(t.unaryFilter.field);
-      return At.create(n, "==", { nullValue: "NULL_VALUE" });
+      return Ct.create(n, "==", { nullValue: "NULL_VALUE" });
     case "IS_NOT_NAN":
       const r = wi(t.unaryFilter.field);
-      return At.create(r, "!=", { doubleValue: NaN });
+      return Ct.create(r, "!=", { doubleValue: NaN });
     case "IS_NOT_NULL":
       const i = wi(t.unaryFilter.field);
-      return At.create(i, "!=", { nullValue: "NULL_VALUE" });
+      return Ct.create(i, "!=", { nullValue: "NULL_VALUE" });
     default:
       return ue();
   }
@@ -18364,7 +18364,7 @@ class vh {
   }
 }
 function LS(t) {
-  const e = AS({ parent: t.parent, structuredQuery: t.structuredQuery });
+  const e = CS({ parent: t.parent, structuredQuery: t.structuredQuery });
   return t.limitType === "LAST" ? Bu(e, e.limit, "L") : e;
 }
 /**
@@ -20385,16 +20385,16 @@ class sq {
               ((y = E[0]) === null || y === void 0 ? void 0 : y.error);
           if (v) {
             Z("Connection", "WebChannel received error:", v);
-            const A = v.status;
+            const C = v.status;
             let I = (function (B) {
                 const z = He[B];
                 if (z !== void 0) return F_(z);
-              })(A),
+              })(C),
               U = v.message;
             I === void 0 &&
               ((I = q.INTERNAL),
               (U =
-                "Unknown error status: " + A + " with message " + v.message)),
+                "Unknown error status: " + C + " with message " + v.message)),
               (d = !0),
               h.io(new G(I, U)),
               c.close();
@@ -20677,7 +20677,7 @@ class uq extends tw {
         let o;
         const a = s.target;
         return (
-          (o = Uu(a) ? { documents: IS(i, a) } : { query: CS(i, a) }),
+          (o = Uu(a) ? { documents: IS(i, a) } : { query: AS(i, a) }),
           (o.targetId = s.targetId),
           s.resumeToken.approximateByteSize() > 0
             ? (o.resumeToken = K_(i, s.resumeToken))
@@ -21217,7 +21217,7 @@ function wr(t) {
       (this.timerHandle = null));
   }
 }
-function Ch(t, e) {
+function Ah(t, e) {
   if ((xn("AsyncQueue", `${e}: ${t}`), xo(t)))
     return new G(q.UNAVAILABLE, `${e}: ${t}`);
   throw t;
@@ -21425,28 +21425,28 @@ class Xi {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class Cq {
+ */ class Aq {
   constructor() {
     (this.Au = void 0), (this.listeners = []);
   }
 }
-class Aq {
+class Cq {
   constructor() {
     (this.queries = new cs((e) => q_(e), Wl)),
       (this.onlineState = "Unknown"),
       (this.Ru = new Set());
   }
 }
-async function Ah(t, e) {
+async function Ch(t, e) {
   const n = he(t),
     r = e.query;
   let i = !1,
     s = n.queries.get(r);
-  if ((s || ((i = !0), (s = new Cq())), i))
+  if ((s || ((i = !0), (s = new Aq())), i))
     try {
       s.Au = await n.onListen(r);
     } catch (o) {
-      const a = Ch(o, `Initialization of query '${ju(e.query)}' failed`);
+      const a = Ah(o, `Initialization of query '${ju(e.query)}' failed`);
       return void e.onError(a);
     }
   n.queries.set(r, s),
@@ -21809,8 +21809,8 @@ async function Dq(t, e, n, r) {
           g.view.ju(I, E)
         ));
       const v = _ && _.targetChanges.get(g.targetId),
-        A = g.view.applyChanges(E, p.isPrimaryClient, v);
-      return _m(p, g.targetId, A.Yu), A.snapshot;
+        C = g.view.applyChanges(E, p.isPrimaryClient, v);
+      return _m(p, g.targetId, C.Yu), C.snapshot;
     })(t, u, d, h);
   const i = await fm(t.localStore, e, !0),
     s = new qq(e, i.Hi),
@@ -21900,7 +21900,7 @@ async function Lq(t, e, n) {
       await No(r, i.changes),
       await Zl(r.remoteStore);
   } catch (i) {
-    const s = Ch(i, "Failed to persist write");
+    const s = Ah(i, "Failed to persist write");
     n.reject(s);
   }
 }
@@ -22243,7 +22243,7 @@ class Wq {
       await Iq(this.remoteStore, this.syncEngine.isPrimaryClient));
   }
   createEventManager(e) {
-    return new Aq();
+    return new Cq();
   }
   createDatastore(e) {
     const n = Xl(e.databaseInfo.databaseId),
@@ -22416,7 +22416,7 @@ class Wq {
             this.appCheckCredentials.shutdown(),
             e.resolve();
         } catch (n) {
-          const r = Ch(n, "Failed to shutdown persistence");
+          const r = Ah(n, "Failed to shutdown persistence");
           e.reject(r);
         }
       }),
@@ -22502,7 +22502,7 @@ function Jq(t, e, n = {}) {
             error: (d) => l.reject(d),
           }),
           u = new qh(zl(o.path), c, { includeMetadataChanges: !0, Nu: !0 });
-        return Ah(i, u);
+        return Ch(i, u);
       })(await Ja(t), t.asyncQueue, e, n, r)
     ),
     r.promise
@@ -22528,7 +22528,7 @@ function Zq(t, e, n = {}) {
             error: (d) => l.reject(d),
           }),
           u = new qh(o, c, { includeMetadataChanges: !0, Nu: !0 });
-        return Ah(i, u);
+        return Ch(i, u);
       })(await Ja(t), t.asyncQueue, e, n, r)
     ),
     r.promise
@@ -22725,7 +22725,7 @@ function $t(t, e) {
     (this._settings = new Tm(e)),
       e.credentials !== void 0 &&
         (this._authCredentials = (function (n) {
-          if (!n) return new Ak();
+          if (!n) return new Ck();
           switch (n.type) {
             case "gapi":
               const r = n.client;
@@ -23678,7 +23678,7 @@ function Iw(t, e) {
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
- */ class Cw {
+ */ class Aw {
   constructor(e, n, r, i, s) {
     (this._firestore = e),
       (this._userDataWriter = n),
@@ -23717,7 +23717,7 @@ function Iw(t, e) {
     }
   }
 }
-class fx extends Cw {
+class fx extends Aw {
   data() {
     return super.data();
   }
@@ -23755,7 +23755,7 @@ function Mh(t, e) {
     );
   }
 }
-class Aw extends Cw {
+class Cw extends Aw {
   constructor(e, n, r, i, s, o) {
     super(e, n, r, i, o),
       (this._firestore = e),
@@ -23792,7 +23792,7 @@ class Aw extends Cw {
     }
   }
 }
-class wa extends Aw {
+class wa extends Cw {
   data(e = {}) {
     return super.data(e);
   }
@@ -23951,16 +23951,16 @@ class vx extends mx {
               `Invalid Query. You can't perform '${c}' queries on documentId().`
             );
           if (c === "in" || c === "not-in") {
-            Am(u, c);
+            Cm(u, c);
             const p = [];
-            for (const g of u) p.push(Cm(a, i, g));
+            for (const g of u) p.push(Am(a, i, g));
             d = { arrayValue: { values: p } };
-          } else d = Cm(a, i, u);
+          } else d = Am(a, i, u);
         } else
           (c !== "in" && c !== "not-in" && c !== "array-contains-any") ||
-            Am(u, c),
+            Cm(u, c),
             (d = dx(o, s, u, c === "in" || c === "not-in"));
-        const h = At.create(l, c, d);
+        const h = Ct.create(l, c, d);
         return (
           (function (p, g) {
             if (g.dt()) {
@@ -23970,7 +23970,7 @@ class vx extends mx {
                   q.INVALID_ARGUMENT,
                   `Invalid query. All where filters with an inequality (<, <=, !=, not-in, >, or >=) must be on the same field. But you have inequality filters on '${_.toString()}' and '${g.field.toString()}'`
                 );
-              const E = A_(p);
+              const E = C_(p);
               E !== null && _x(p, g.field, E);
             }
             const y = (function (_, E) {
@@ -24052,7 +24052,7 @@ function yx(t, e, n) {
     i = Mh("where", t);
   return new vx(i, r, n);
 }
-function Cm(t, e, n) {
+function Am(t, e, n) {
   if (typeof (n = bt(n)) == "string") {
     if (n === "")
       throw new G(
@@ -24080,7 +24080,7 @@ function Cm(t, e, n) {
     )}.`
   );
 }
-function Am(t, e) {
+function Cm(t, e) {
   if (!Array.isArray(t) || t.length === 0)
     throw new G(
       q.INVALID_ARGUMENT,
@@ -24351,7 +24351,7 @@ function Vh(t, ...e) {
     const y = new Rh(g),
       _ = new qh(h, y, p);
     return (
-      d.asyncQueue.enqueueAndForget(async () => Ah(await Ja(d), _)),
+      d.asyncQueue.enqueueAndForget(async () => Ch(await Ja(d), _)),
       () => {
         y.Rc(), d.asyncQueue.enqueueAndForget(async () => kh(await Ja(d), _));
       }
@@ -24370,7 +24370,7 @@ function sc(t, e) {
 function Rw(t, e, n) {
   const r = n.docs.get(e._key),
     i = new $h(t);
-  return new Aw(
+  return new Cw(
     t,
     i,
     e._key,
@@ -24468,14 +24468,14 @@ const Dw = {
   ci = (t) => (Mn("data-v-9b8d1595"), (t = t()), $n(), t),
   Tx = { class: "header" },
   Ix = { class: "header-content" },
-  Cx = ["onMouseup"],
-  Ax = ci(() =>
+  Ax = ["onMouseup"],
+  Cx = ci(() =>
     w("img", { class: "cris-icon", src: kv, alt: "cris icon" }, null, -1)
   ),
   kx = ci(() =>
     w("img", { class: "cris-text", src: Sv, alt: "cris logo" }, null, -1)
   ),
-  Sx = [Ax, kx],
+  Sx = [Cx, kx],
   qx = { key: 0, class: "nav-container" },
   xx = ci(() =>
     w(
@@ -24566,7 +24566,7 @@ const Dw = {
         rs(() => {
           c.value && c.value();
         });
-      const A = (B) => !!s.path.includes(B),
+      const C = (B) => !!s.path.includes(B),
         I = ge(() => {
           if (l.value)
             return l.value.tier === 1
@@ -24592,7 +24592,7 @@ const Dw = {
         });
       return (B, z) => {
         var F, ee;
-        const N = An("router-link");
+        const N = Cn("router-link");
         return (
           R(),
           j(
@@ -24615,7 +24615,7 @@ const Dw = {
                     },
                     Sx,
                     40,
-                    Cx
+                    Ax
                   ),
                   a.value
                     ? Oe("", !0)
@@ -24629,7 +24629,7 @@ const Dw = {
                                 key: 0,
                                 class: Ne([
                                   "nav-link",
-                                  { "link-border": A("agente") },
+                                  { "link-border": C("agente") },
                                 ]),
                                 to: { name: "character-list" },
                               },
@@ -24644,7 +24644,7 @@ const Dw = {
                                 key: 1,
                                 class: Ne([
                                   "nav-link",
-                                  { "link-border": A("agente") },
+                                  { "link-border": C("agente") },
                                 ]),
                                 onClick:
                                   z[2] || (z[2] = (fe) => E("character-list")),
@@ -24661,7 +24661,7 @@ const Dw = {
                                 class: Ne([
                                   "nav-link",
                                   {
-                                    "link-border": A("campanha") || A("escudo"),
+                                    "link-border": C("campanha") || C("escudo"),
                                   },
                                 ]),
                                 to: { name: "campaigns-list" },
@@ -24678,7 +24678,7 @@ const Dw = {
                                 class: Ne([
                                   "nav-link",
                                   {
-                                    "link-border": A("campanha") || A("escudo"),
+                                    "link-border": C("campanha") || C("escudo"),
                                   },
                                 ]),
                                 onClick:
@@ -24695,7 +24695,7 @@ const Dw = {
                                 key: 4,
                                 class: Ne([
                                   "nav-link",
-                                  { "link-border": A("ameaca") },
+                                  { "link-border": C("ameaca") },
                                 ]),
                                 to: { name: "creatures-list" },
                               },
@@ -24711,7 +24711,7 @@ const Dw = {
                                 class: Ne([
                                   "nav-link",
                                   {
-                                    "link-border": A("campanha") || A("escudo"),
+                                    "link-border": C("campanha") || C("escudo"),
                                   },
                                 ]),
                                 onClick:
@@ -24728,7 +24728,7 @@ const Dw = {
                                 key: 6,
                                 class: Ne([
                                   "nav-link",
-                                  { "link-border": A("homebrew") },
+                                  { "link-border": C("homebrew") },
                                 ]),
                                 to: { name: "homebrews-list" },
                               },
@@ -24743,7 +24743,7 @@ const Dw = {
                                 key: 7,
                                 class: Ne([
                                   "nav-link",
-                                  { "link-border": A("homebrew") },
+                                  { "link-border": C("homebrew") },
                                 ]),
                                 onClick:
                                   z[5] || (z[5] = (fe) => E("/homebrews")),
@@ -25014,7 +25014,7 @@ const Dw = {
         v = () => {
           (h.value = !1), (l.value = !1), g("handleOpenNotificationsModal");
         },
-        A = () => {
+        C = () => {
           (l.value = !1), i.push({ name: "home" });
         },
         I = (N) => {
@@ -25066,7 +25066,7 @@ const Dw = {
         });
       return (N, F) => {
         var fe, H;
-        const ee = An("router-link");
+        const ee = Cn("router-link");
         return l.value
           ? (R(),
             j(
@@ -25249,7 +25249,7 @@ const Dw = {
                           ])),
                     ]),
                   ]),
-                  w("div", { class: "logo", onClick: A }, pR),
+                  w("div", { class: "logo", onClick: C }, pR),
                   a.value
                     ? Oe("", !0)
                     : (R(),
@@ -25442,12 +25442,12 @@ const $w = ht(wR, [
     ["render", IR],
     ["__scopeId", "data-v-b289fa2f"],
   ]),
-  CR = "/assets/novas-armas-update-hJoHQ5qQ.webp",
-  AR = {},
+  AR = "/assets/novas-armas-update-hJoHQ5qQ.webp",
+  CR = {},
   kR = { class: "notification-container" },
   SR = Gt(
     '<div class="title" data-v-548e8bcf> Novas armas chegaram no CRIS! </div><div class="img-container" data-v-548e8bcf><a href="https://x.com/CrisOrdemPrnml/status/1827105984751317480" target="_blank" data-v-548e8bcf><img class="img" src="' +
-      CR +
+      AR +
       '" alt="Novas armas chegaram no CRIS" data-v-548e8bcf></a></div><div class="content" data-v-548e8bcf> Chegou um carregamento inteiro de novas armas no CRIS para vocês estarem ainda mais preparados contra o Outro Lado! Entregues especialmente por @Duhgetsu e @VittoriHanzo Agora é as criaturas que irão sentir medo! </div><div class="link" data-v-548e8bcf><a class="link" href="https://x.com/CrisOrdemPrnml/status/1827105984751317480" target="_blank" data-v-548e8bcf> Veja mais aqui! </a></div>',
     4
   ),
@@ -25455,7 +25455,7 @@ const $w = ht(wR, [
 function xR(t, e) {
   return R(), j("div", kR, qR);
 }
-const Vw = ht(AR, [
+const Vw = ht(CR, [
     ["render", xR],
     ["__scopeId", "data-v-548e8bcf"],
   ]),
@@ -25637,8 +25637,8 @@ const aP = ht(nP, [
     w("img", { class: "close-icon", src: ac, alt: "fechar" }, null, -1)
   ),
   IP = [TP],
-  CP = { class: "notification-modal-body" },
-  AP = zw(() => w("div", { class: "title" }, " Novidades ", -1)),
+  AP = { class: "notification-modal-body" },
+  CP = zw(() => w("div", { class: "title" }, " Novidades ", -1)),
   kP = { key: 0, class: "notifications-container" },
   SP = { class: "notification-list" },
   qP = { class: "notification-list" },
@@ -25679,8 +25679,8 @@ const aP = ht(nP, [
               IP
             ),
           ]),
-          w("div", CP, [
-            AP,
+          w("div", AP, [
+            CP,
             n.value
               ? (R(),
                 j("div", PP, [
@@ -25745,7 +25745,7 @@ const aP = ht(nP, [
       const e = Un(),
         n = Bn(),
         r = is(),
-        { width: i } = Av(),
+        { width: i } = Cv(),
         s = ge(() => r.path),
         o = ne(null),
         a = ne(!1),
@@ -25968,7 +25968,7 @@ const aP = ht(nP, [
         ),
         i = ge(() => (e.path === "/" ? "0" : "2rem"));
       return (s, o) => {
-        const a = An("router-link");
+        const a = Cn("router-link");
         return r.value
           ? (R(),
             j("div", HP, [
@@ -26083,9 +26083,9 @@ const aP = ht(nP, [
         l = ne(!1),
         c = ne(),
         u = async (E, v) => {
-          var A;
+          var C;
           Mo(Kt(e, "ads", v), { clicks: Ow(1) }),
-            (A = window.open(E, "_blank")) == null || A.focus();
+            (C = window.open(E, "_blank")) == null || C.focus();
         },
         d = () => (l.value = !0),
         h = () => {
@@ -26126,8 +26126,8 @@ const aP = ht(nP, [
         nn(async () => {
           const E = ss(Un(), async (v) => {
             if (!v) return;
-            const A = await xw(Kt(e, "users", v.uid));
-            (n.value = A.data()), E();
+            const C = await xw(Kt(e, "users", v.uid));
+            (n.value = C.data()), E();
           });
           (s.value = [...o]), (s.value = nO(s.value)), p(), g();
         }),
@@ -26147,7 +26147,7 @@ const aP = ht(nP, [
                           class: "ad-img",
                           onClick:
                             v[0] ||
-                            (v[0] = (A) =>
+                            (v[0] = (C) =>
                               u(
                                 s.value[a.value].adLink,
                                 s.value[a.value].adId
@@ -26155,7 +26155,7 @@ const aP = ht(nP, [
                           onMouseup:
                             v[1] ||
                             (v[1] = an(
-                              (A) =>
+                              (C) =>
                                 u(
                                   s.value[a.value].adLink,
                                   s.value[a.value].adId
@@ -26185,7 +26185,7 @@ const aP = ht(nP, [
                           loop: "",
                           onClick:
                             v[3] ||
-                            (v[3] = (A) =>
+                            (v[3] = (C) =>
                               u(
                                 s.value[a.value].adLink,
                                 s.value[a.value].adId
@@ -26193,7 +26193,7 @@ const aP = ht(nP, [
                           onMouseup:
                             v[4] ||
                             (v[4] = an(
-                              (A) =>
+                              (C) =>
                                 u(
                                   s.value[a.value].adLink,
                                   s.value[a.value].adId
@@ -26240,7 +26240,7 @@ const aP = ht(nP, [
     setup(t) {
       const e = is();
       return (n, r) => {
-        const i = An("router-view");
+        const i = Cn("router-view");
         return (
           R(),
           j("div", null, [
@@ -26325,8 +26325,8 @@ const aP = ht(nP, [
   IO = Gw(() =>
     w("img", { class: "carousel-arrow-img invert-arrow", src: Kw }, null, -1)
   ),
-  CO = [IO],
-  AO = ["onClick"],
+  AO = [IO],
+  CO = ["onClick"],
   kO = Gw(() => w("img", { class: "carousel-arrow-img", src: Kw }, null, -1)),
   SO = [kO],
   qO = Qe({
@@ -26360,7 +26360,7 @@ const aP = ht(nP, [
             adId: "tocaDosMonstros",
           },
         ],
-        { width: n } = Av(),
+        { width: n } = Cv(),
         r = Bn(),
         i = ne(0),
         s = ne(e),
@@ -26432,7 +26432,7 @@ const aP = ht(nP, [
                   w(
                     "button",
                     { class: "button-naked carousel-arrow-button", onClick: a },
-                    CO
+                    AO
                   ),
                   (R(!0),
                   j(
@@ -26454,7 +26454,7 @@ const aP = ht(nP, [
                           },
                           null,
                           10,
-                          AO
+                          CO
                         )
                       )
                     ),
@@ -26628,14 +26628,14 @@ const aP = ht(nP, [
         path: "/login",
         name: "login-page",
         component: () =>
-          T(() => import("./LoginPage-BuxQUstA.js"), __vite__mapDeps([0, 1])),
+          T(() => import("./LoginPage-JDjIHA_8.js"), __vite__mapDeps([0, 1])),
       },
       {
         path: "/agentes",
         name: "character-list",
         component: () =>
           T(
-            () => import("./CharacterList-nkh0jGlh.js"),
+            () => import("./CharacterList-h4pdvAZQ.js"),
             __vite__mapDeps([
               2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
             ])
@@ -26647,7 +26647,7 @@ const aP = ht(nP, [
         name: "campaigns-list",
         component: () =>
           T(
-            () => import("./CampaignsList-Qzg3WMWJ.js"),
+            () => import("./CampaignsList-tWONIkRA.js"),
             __vite__mapDeps([18, 3, 4, 11, 14, 19])
           ),
         meta: { requiresAuth: !0 },
@@ -26657,7 +26657,7 @@ const aP = ht(nP, [
         name: "homebrews-list",
         component: () =>
           T(
-            () => import("./HomebrewList-aeefWqwB.js"),
+            () => import("./HomebrewList-JfuyJjP4.js"),
             __vite__mapDeps([
               20, 21, 22, 23, 24, 25, 26, 27, 5, 6, 3, 4, 14, 28, 29, 30, 31,
               15, 16, 32, 33, 34, 35, 36, 37, 7, 8, 38, 39, 40, 41, 42, 43, 44,
@@ -26671,7 +26671,7 @@ const aP = ht(nP, [
         name: "homebrews-power",
         component: () =>
           T(
-            () => import("./HomebrewPowerView-0R_S42qQ.js"),
+            () => import("./HomebrewPowerView-6sX-XKWa.js"),
             __vite__mapDeps([
               55, 3, 4, 24, 25, 26, 27, 56, 57, 14, 7, 8, 36, 58,
             ])
@@ -26683,7 +26683,7 @@ const aP = ht(nP, [
         name: "homebrews-ritual",
         component: () =>
           T(
-            () => import("./HomebrewRitualView-MLUfX5bv.js"),
+            () => import("./HomebrewRitualView-LctqPjAq.js"),
             __vite__mapDeps([
               59, 3, 4, 38, 25, 26, 39, 40, 56, 57, 14, 7, 8, 36, 60,
             ])
@@ -26695,7 +26695,7 @@ const aP = ht(nP, [
         name: "homebrews-item",
         component: () =>
           T(
-            () => import("./HomebrewItemView-PW7ramJG.js"),
+            () => import("./HomebrewItemView-_lZ5ixXC.js"),
             __vite__mapDeps([
               61, 3, 4, 56, 57, 43, 25, 26, 44, 45, 46, 14, 7, 8, 36, 62,
             ])
@@ -26707,7 +26707,7 @@ const aP = ht(nP, [
         name: "homebrews-creature",
         component: () =>
           T(
-            () => import("./HomebrewCreatureView-Y2SAwRJ7.js"),
+            () => import("./HomebrewCreatureView-ZROZ30rg.js"),
             __vite__mapDeps([
               63, 3, 4, 48, 10, 11, 49, 50, 56, 57, 14, 7, 8, 36, 64,
             ])
@@ -26719,7 +26719,7 @@ const aP = ht(nP, [
         name: "user-profile",
         component: () =>
           T(
-            () => import("./UserProfile-vjsAx8jz.js"),
+            () => import("./UserProfile-ojddzk3Y.js"),
             __vite__mapDeps([65, 3, 4, 28, 33, 34, 36, 30, 31, 66])
           ),
         meta: { requiresAuth: !0 },
@@ -26729,7 +26729,7 @@ const aP = ht(nP, [
         name: "campaign-create",
         component: () =>
           T(
-            () => import("./CampaignCreate-KQxxYLbk.js"),
+            () => import("./CampaignCreate-aMEq5biF.js"),
             __vite__mapDeps([67, 28, 29, 3, 4, 30, 31, 7, 8, 14, 68])
           ),
         meta: { requiresAuth: !0 },
@@ -26739,7 +26739,7 @@ const aP = ht(nP, [
         name: "campaign-edit",
         component: () =>
           T(
-            () => import("./CampaignEdit-sjm0mIal.js"),
+            () => import("./CampaignEdit-5sZGRNxR.js"),
             __vite__mapDeps([69, 28, 29, 3, 4, 30, 31, 14, 70])
           ),
         meta: { requiresAuth: !0 },
@@ -26749,7 +26749,7 @@ const aP = ht(nP, [
         name: "campaign-page",
         component: () =>
           T(
-            () => import("./CampaignPage-MLe5WO-U.js"),
+            () => import("./CampaignPage-ZlCT2jPU.js"),
             __vite__mapDeps([
               71, 3, 4, 9, 10, 11, 12, 13, 7, 8, 32, 33, 34, 35, 36, 37, 21, 22,
               56, 57, 72, 73, 14, 74,
@@ -26762,7 +26762,7 @@ const aP = ht(nP, [
         name: "campaign-join",
         component: () =>
           T(
-            () => import("./CampaignJoin-ZffovSeZ.js"),
+            () => import("./CampaignJoin-khkI5vfF.js"),
             __vite__mapDeps([75, 3, 4, 14, 76])
           ),
         meta: { requiresAuth: !0 },
@@ -26772,7 +26772,7 @@ const aP = ht(nP, [
         name: "campaign-add-agent",
         component: () =>
           T(
-            () => import("./CampaignAddAgent-WskDoQ-s.js"),
+            () => import("./CampaignAddAgent-g4-z6V4_.js"),
             __vite__mapDeps([77, 9, 10, 11, 12, 13, 3, 4, 5, 6, 14, 78])
           ),
         meta: { requiresAuth: !0 },
@@ -26782,7 +26782,7 @@ const aP = ht(nP, [
         name: "campaign-create-combat",
         component: () =>
           T(
-            () => import("./CreateCombat-LBmL_Vhg.js"),
+            () => import("./CreateCombat-riXIP3_v.js"),
             __vite__mapDeps([
               79, 80, 81, 82, 48, 10, 11, 49, 50, 21, 22, 5, 6, 28, 15, 16, 83,
               84, 36, 85,
@@ -26795,7 +26795,7 @@ const aP = ht(nP, [
         name: "campaign-edit-combat",
         component: () =>
           T(
-            () => import("./EditCombat-aSI93nSU.js"),
+            () => import("./EditCombat-v6WTxDCy.js"),
             __vite__mapDeps([
               86, 80, 81, 82, 48, 10, 11, 49, 50, 21, 22, 5, 6, 28, 15, 16, 83,
               84, 36, 87,
@@ -26808,7 +26808,7 @@ const aP = ht(nP, [
         name: "campaign-page-denied",
         component: () =>
           T(
-            () => import("./CampaignPageDenied-YBbQLxG8.js"),
+            () => import("./CampaignPageDenied-V7lh2t8n.js"),
             __vite__mapDeps([88, 89])
           ),
         meta: { requiresAuth: !0 },
@@ -26818,7 +26818,7 @@ const aP = ht(nP, [
         name: "master-screen",
         component: () =>
           T(
-            () => import("./MasterScreen-menypJ3P.js"),
+            () => import("./MasterScreen-KwfjGyWq.js"),
             __vite__mapDeps([
               90, 3, 4, 91, 39, 92, 93, 94, 16, 95, 36, 25, 96, 21, 22, 30, 31,
               72, 73, 12, 97, 49, 44, 45, 28, 29, 15, 41, 42, 98, 38, 26, 40,
@@ -26833,7 +26833,7 @@ const aP = ht(nP, [
         name: "character-creation",
         component: () =>
           T(
-            () => import("./CharacterCreation-VpK5G80_.js"),
+            () => import("./CharacterCreation-VuymqnUx.js"),
             __vite__mapDeps([
               100, 15, 16, 95, 101, 24, 25, 26, 27, 102, 5, 6, 83, 84, 82, 7, 8,
               3, 4, 103, 93, 36, 14, 104,
@@ -26846,7 +26846,7 @@ const aP = ht(nP, [
         name: "character-sheet",
         component: () =>
           T(
-            () => import("./CharacterSheet-goXcPnso.js"),
+            () => import("./CharacterSheet-RVsWcXRT.js"),
             __vite__mapDeps([
               105, 33, 34, 7, 8, 91, 39, 92, 93, 94, 16, 95, 36, 25, 96, 21, 22,
               24, 26, 27, 38, 40, 43, 44, 45, 46, 23, 5, 6, 3, 4, 14, 28, 29,
@@ -26861,7 +26861,7 @@ const aP = ht(nP, [
         name: "contact",
         component: () =>
           T(
-            () => import("./ContactView-rUm7RTAr.js"),
+            () => import("./ContactView-fI8_6PQ-.js"),
             __vite__mapDeps([107, 108])
           ),
       },
@@ -26870,7 +26870,7 @@ const aP = ht(nP, [
         name: "character-stream",
         component: () =>
           T(
-            () => import("./CharacterStream-SAObiLU-.js"),
+            () => import("./CharacterStream-O7RSjZRG.js"),
             __vite__mapDeps([109, 52, 103, 93, 36, 110])
           ),
       },
@@ -26879,7 +26879,7 @@ const aP = ht(nP, [
         name: "character-despertados-stream",
         component: () =>
           T(
-            () => import("./DespertadosStream-XP4ZbqJv.js"),
+            () => import("./DespertadosStream-aFSPxggL.js"),
             __vite__mapDeps([111, 103, 93, 36, 112])
           ),
       },
@@ -26888,7 +26888,7 @@ const aP = ht(nP, [
         name: "character-ghizzo-stream",
         component: () =>
           T(
-            () => import("./GhizzoStream-760jAuHZ.js"),
+            () => import("./GhizzoStream-YQyddr05.js"),
             __vite__mapDeps([113, 103, 93, 36, 114])
           ),
       },
@@ -26897,7 +26897,7 @@ const aP = ht(nP, [
         name: "character-agua-rica-stream",
         component: () =>
           T(
-            () => import("./AguaRicaStream-80TWssv7.js"),
+            () => import("./AguaRicaStream-yL7H0Wkw.js"),
             __vite__mapDeps([115, 103, 93, 36, 116])
           ),
       },
@@ -26906,7 +26906,7 @@ const aP = ht(nP, [
         name: "character-stream-pv",
         component: () =>
           T(
-            () => import("./CharacterPv-WgAinEPh.js"),
+            () => import("./CharacterPv-IlYzUbn2.js"),
             __vite__mapDeps([117, 103, 93, 36, 118])
           ),
       },
@@ -26915,7 +26915,7 @@ const aP = ht(nP, [
         name: "character-stream-san",
         component: () =>
           T(
-            () => import("./CharacterSan-ocFlsveL.js"),
+            () => import("./CharacterSan--n5tnNe-.js"),
             __vite__mapDeps([119, 103, 93, 36, 120])
           ),
       },
@@ -26924,7 +26924,7 @@ const aP = ht(nP, [
         name: "character-stream-pe",
         component: () =>
           T(
-            () => import("./CharacterPe-1JgtfSSM.js"),
+            () => import("./CharacterPe-vwR8j3Su.js"),
             __vite__mapDeps([121, 103, 93, 36, 122])
           ),
       },
@@ -26933,7 +26933,7 @@ const aP = ht(nP, [
         name: "about-view",
         component: () =>
           T(
-            () => import("./about-view-_NG21Is4.js"),
+            () => import("./about-view-ly9YW9TE.js"),
             __vite__mapDeps([123, 124])
           ),
       },
@@ -26942,7 +26942,7 @@ const aP = ht(nP, [
         name: "privacy-policy",
         component: () =>
           T(
-            () => import("./privacy-policy-jqQm9co3.js"),
+            () => import("./privacy-policy-rmg7Gg5B.js"),
             __vite__mapDeps([125, 126])
           ),
       },
@@ -26951,7 +26951,7 @@ const aP = ht(nP, [
         name: "creatures-list",
         component: () =>
           T(
-            () => import("./CreaturesList--1TR-oAO.js"),
+            () => import("./CreaturesList-E3fQf_Jf.js"),
             __vite__mapDeps([
               127, 80, 81, 82, 48, 10, 11, 49, 50, 21, 22, 14, 3, 4, 5, 6, 83,
               84, 128,
@@ -26964,7 +26964,7 @@ const aP = ht(nP, [
         name: "creature-sheet",
         component: () =>
           T(
-            () => import("./CreatureSheet-odaoJyUM.js"),
+            () => import("./CreatureSheet-WHlkM9BZ.js"),
             __vite__mapDeps([
               129, 80, 81, 82, 97, 92, 49, 39, 25, 21, 22, 44, 45, 28, 29, 15,
               16, 41, 42, 36, 98, 3, 4, 130,
@@ -26977,7 +26977,7 @@ const aP = ht(nP, [
         name: "despertados-dashboard",
         component: () =>
           T(
-            () => import("./StreamDashboard-OG5Wouuw.js"),
+            () => import("./StreamDashboard-1W3xPWJD.js"),
             __vite__mapDeps([131, 132])
           ),
         meta: { requiresAuth: !0 },
@@ -26987,8 +26987,18 @@ const aP = ht(nP, [
         name: "invazores",
         component: () =>
           T(
-            () => import("./InvazoresView-G8rEzOVW.js"),
-            __vite__mapDeps([133, 21, 22, 134, 135])
+            () => import("./InvazoresCharacterList-qfHJty-H.js"),
+            __vite__mapDeps([133, 3, 4, 7, 8, 14, 134, 135])
+          ),
+        meta: { requiresAuth: !0 },
+      },
+      {
+        path: "/invazores/ficha/:id",
+        name: "invazores-ficha",
+        component: () =>
+          T(
+            () => import("./InvazoresView-0uCeyvOH.js"),
+            __vite__mapDeps([136, 21, 22, 137, 134, 138])
           ),
         meta: { requiresAuth: !0 },
       },
@@ -26997,8 +27007,8 @@ const aP = ht(nP, [
         name: "invazores-live",
         component: () =>
           T(
-            () => import("./InvazoresLive-Ra3xXDek.js"),
-            __vite__mapDeps([136, 134, 137])
+            () => import("./InvazoresLive-YYZxyKva.js"),
+            __vite__mapDeps([139, 137, 134, 140])
           ),
       },
       {
@@ -27006,9 +27016,9 @@ const aP = ht(nP, [
         name: "brutal",
         component: () =>
           T(
-            () => import("./BrutalSheet-SJEpZ9l6.js"),
+            () => import("./BrutalSheet-vIgS-we-.js"),
             __vite__mapDeps([
-              138, 139, 140, 141, 33, 34, 3, 4, 35, 36, 94, 16, 142,
+              141, 142, 143, 144, 33, 34, 3, 4, 35, 36, 94, 16, 145,
             ])
           ),
         meta: { requiresAuth: !0 },
@@ -27018,9 +27028,9 @@ const aP = ht(nP, [
         name: "brutal-diretora",
         component: () =>
           T(
-            () => import("./BrutalDirector-XlvlAWPc.js"),
+            () => import("./BrutalDirector-kKLKH9x2.js"),
             __vite__mapDeps([
-              143, 140, 141, 139, 144, 33, 34, 3, 4, 35, 36, 94, 16, 145,
+              146, 143, 144, 142, 147, 33, 34, 3, 4, 35, 36, 94, 16, 148,
             ])
           ),
         meta: { requiresAuth: !0 },
@@ -27030,8 +27040,8 @@ const aP = ht(nP, [
         name: "brutal-camera",
         component: () =>
           T(
-            () => import("./BrutalCamera-ayIFMvmI.js"),
-            __vite__mapDeps([146, 139, 144, 147])
+            () => import("./BrutalCamera-IfH2TSY3.js"),
+            __vite__mapDeps([149, 142, 147, 150])
           ),
       },
       {
@@ -27039,8 +27049,8 @@ const aP = ht(nP, [
         name: "oblivio",
         component: () =>
           T(
-            () => import("./OblivioSheet-9Vo75kGp.js"),
-            __vite__mapDeps([148, 94, 16, 15, 36, 149])
+            () => import("./OblivioSheet-Gz_5uKd3.js"),
+            __vite__mapDeps([151, 94, 16, 15, 36, 152])
           ),
         meta: { requiresAuth: !0 },
       },
@@ -27049,8 +27059,8 @@ const aP = ht(nP, [
         name: "blog-view",
         component: () =>
           T(
-            () => import("./blog-view-GTMgP3Bb.js"),
-            __vite__mapDeps([150, 151, 152])
+            () => import("./blog-view-C19m7k_u.js"),
+            __vite__mapDeps([153, 154, 155])
           ),
       },
       {
@@ -27060,9 +27070,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-vvXP_hgH.js"
+                "./persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-xM_18CIr.js"
               ),
-            __vite__mapDeps([153, 151, 152])
+            __vite__mapDeps([156, 154, 155])
           ),
       },
       {
@@ -27072,9 +27082,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-N-Vp0W5v.js"
+                "./the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-i7nBHeDM.js"
               ),
-            __vite__mapDeps([154, 151, 152])
+            __vite__mapDeps([157, 154, 155])
           ),
       },
       {
@@ -27084,9 +27094,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-mO9S7_tJ.js"
+                "./mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-V_1VGpU-.js"
               ),
-            __vite__mapDeps([155, 151, 152])
+            __vite__mapDeps([158, 154, 155])
           ),
       },
       {
@@ -27096,9 +27106,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./genshin-impact-uma-jornada-alem-dos-limites-Oq5CBGn-.js"
+                "./genshin-impact-uma-jornada-alem-dos-limites-swddQ3a5.js"
               ),
-            __vite__mapDeps([156, 151, 152])
+            __vite__mapDeps([159, 154, 155])
           ),
       },
       {
@@ -27108,9 +27118,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva-t4mGVMzv.js"
+                "./final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva--_xncd2c.js"
               ),
-            __vite__mapDeps([157, 151, 152])
+            __vite__mapDeps([160, 154, 155])
           ),
       },
       {
@@ -27120,9 +27130,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./elden-ring-a-jornada-epica-alem-das-expectativas-K-zPsyWj.js"
+                "./elden-ring-a-jornada-epica-alem-das-expectativas-cTpfhDdo.js"
               ),
-            __vite__mapDeps([158, 151, 152])
+            __vite__mapDeps([161, 154, 155])
           ),
       },
       {
@@ -27132,9 +27142,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-nglgwb7s.js"
+                "./divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-g4mb-kic.js"
               ),
-            __vite__mapDeps([159, 151, 152])
+            __vite__mapDeps([162, 154, 155])
           ),
       },
       {
@@ -27144,9 +27154,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-_Qk6v-5F.js"
+                "./cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-sxa4V0DI.js"
               ),
-            __vite__mapDeps([160, 151, 152])
+            __vite__mapDeps([163, 154, 155])
           ),
       },
       {
@@ -27156,9 +27166,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-8mivZPe9.js"
+                "./assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-Cseh6GaY.js"
               ),
-            __vite__mapDeps([161, 151, 152])
+            __vite__mapDeps([164, 154, 155])
           ),
       },
       {
@@ -27166,8 +27176,8 @@ const aP = ht(nP, [
         name: "o-que-e-rpg-de-mesa",
         component: () =>
           T(
-            () => import("./o-que-e-rpg-de-mesa-phTC6EHu.js"),
-            __vite__mapDeps([162, 151, 152])
+            () => import("./o-que-e-rpg-de-mesa-Z2yBKP9R.js"),
+            __vite__mapDeps([165, 154, 155])
           ),
       },
       {
@@ -27175,8 +27185,8 @@ const aP = ht(nP, [
         name: "o-rpg-ordem-paranormal",
         component: () =>
           T(
-            () => import("./o-rpg-ordem-paranormal-WR4bAp4r.js"),
-            __vite__mapDeps([163, 151, 152])
+            () => import("./o-rpg-ordem-paranormal-iJgcsehh.js"),
+            __vite__mapDeps([166, 154, 155])
           ),
       },
       {
@@ -27184,8 +27194,8 @@ const aP = ht(nP, [
         name: "o-rpg-tormenta20",
         component: () =>
           T(
-            () => import("./o-rpg-tormenta20-xtXf2S5G.js"),
-            __vite__mapDeps([164, 151, 152])
+            () => import("./o-rpg-tormenta20-koh9sWOv.js"),
+            __vite__mapDeps([167, 154, 155])
           ),
       },
       {
@@ -27195,9 +27205,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./3d_t-a-porta-de-entrada-pro-rpg-brasileiro-8agTcFX7.js"
+                "./3d_t-a-porta-de-entrada-pro-rpg-brasileiro-QrdRkdSq.js"
               ),
-            __vite__mapDeps([165, 151, 152])
+            __vite__mapDeps([168, 154, 155])
           ),
       },
       {
@@ -27207,9 +27217,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./vampiro-a-mascara-perdura-ao-longo-das-decadas-03RErnuh.js"
+                "./vampiro-a-mascara-perdura-ao-longo-das-decadas-Fo5Qa-8E.js"
               ),
-            __vite__mapDeps([166, 151, 152])
+            __vite__mapDeps([169, 154, 155])
           ),
       },
       {
@@ -27217,8 +27227,8 @@ const aP = ht(nP, [
         name: "a-popularizacao-de-dungeons-&-dragons",
         component: () =>
           T(
-            () => import("./a-popularizacao-de-dungeons-_-dragons-rM5kdf9k.js"),
-            __vite__mapDeps([167, 151, 152])
+            () => import("./a-popularizacao-de-dungeons-_-dragons-HmXPAOG4.js"),
+            __vite__mapDeps([170, 154, 155])
           ),
       },
       {
@@ -27228,9 +27238,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./criando-personagens-memoraveis-em-rpg-de-mesa-cGPNqnyt.js"
+                "./criando-personagens-memoraveis-em-rpg-de-mesa-G2IxFSCP.js"
               ),
-            __vite__mapDeps([168, 151, 152])
+            __vite__mapDeps([171, 154, 155])
           ),
       },
       {
@@ -27240,9 +27250,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./diferentes-estilos-de-mestres-em-rpg-de-mesa-t9I5SoRG.js"
+                "./diferentes-estilos-de-mestres-em-rpg-de-mesa-wcUQeGfF.js"
               ),
-            __vite__mapDeps([169, 151, 152])
+            __vite__mapDeps([172, 154, 155])
           ),
       },
       {
@@ -27252,9 +27262,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./historia-do-rpg-uma-viagem-pela-evolucao-do-genero-RGajzUvD.js"
+                "./historia-do-rpg-uma-viagem-pela-evolucao-do-genero-k-YHBXOD.js"
               ),
-            __vite__mapDeps([170, 151, 152])
+            __vite__mapDeps([173, 154, 155])
           ),
       },
       {
@@ -27262,8 +27272,8 @@ const aP = ht(nP, [
         name: "gurps-o-rpg-generico",
         component: () =>
           T(
-            () => import("./gurps-o-rpg-generico-RL-ZUVT1.js"),
-            __vite__mapDeps([171, 151, 152])
+            () => import("./gurps-o-rpg-generico-nrcTfvRa.js"),
+            __vite__mapDeps([174, 154, 155])
           ),
       },
       {
@@ -27273,9 +27283,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./pathfinder-o-maior-rival-de-dungeons-_-dragons-EBdf2C8d.js"
+                "./pathfinder-o-maior-rival-de-dungeons-_-dragons--b67xKLb.js"
               ),
-            __vite__mapDeps([172, 151, 152])
+            __vite__mapDeps([175, 154, 155])
           ),
       },
       {
@@ -27283,8 +27293,8 @@ const aP = ht(nP, [
         name: "um-guia-completo-sobre-pathfinder",
         component: () =>
           T(
-            () => import("./um-guia-completo-sobre-pathfinder-tzkV8Sjc.js"),
-            __vite__mapDeps([173, 151, 152])
+            () => import("./um-guia-completo-sobre-pathfinder-PXesZbu8.js"),
+            __vite__mapDeps([176, 154, 155])
           ),
       },
       {
@@ -27294,9 +27304,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-vjhi5UtV.js"
+                "./os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-xO0UxWQQ.js"
               ),
-            __vite__mapDeps([174, 151, 152])
+            __vite__mapDeps([177, 154, 155])
           ),
       },
       {
@@ -27306,9 +27316,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./fate-core-system-e-o-sistema-mais-facil-do-mundo-6Jvd1btP.js"
+                "./fate-core-system-e-o-sistema-mais-facil-do-mundo-HywDGSFz.js"
               ),
-            __vite__mapDeps([175, 151, 152])
+            __vite__mapDeps([178, 154, 155])
           ),
       },
       {
@@ -27316,8 +27326,8 @@ const aP = ht(nP, [
         name: "dicas-para-mestres-de-rpg",
         component: () =>
           T(
-            () => import("./dicas-para-mestres-de-rpg-KfogjHIt.js"),
-            __vite__mapDeps([176, 151, 152])
+            () => import("./dicas-para-mestres-de-rpg-CBtE1wH1.js"),
+            __vite__mapDeps([179, 154, 155])
           ),
       },
       {
@@ -27325,8 +27335,8 @@ const aP = ht(nP, [
         name: "criando-um-mundo-de-rpg-personalizado",
         component: () =>
           T(
-            () => import("./criando-um-mundo-de-rpg-personalizado-qzaA3azh.js"),
-            __vite__mapDeps([177, 151, 152])
+            () => import("./criando-um-mundo-de-rpg-personalizado-mE1XdlAd.js"),
+            __vite__mapDeps([180, 154, 155])
           ),
       },
       {
@@ -27336,9 +27346,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-XzXLXcPq.js"
+                "./a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-euELXl8R.js"
               ),
-            __vite__mapDeps([178, 151, 152])
+            __vite__mapDeps([181, 154, 155])
           ),
       },
       {
@@ -27346,8 +27356,8 @@ const aP = ht(nP, [
         name: "os-beneficios-do-rpg-para-a-vida-real",
         component: () =>
           T(
-            () => import("./os-beneficios-do-rpg-para-a-vida-real-8v24GH_e.js"),
-            __vite__mapDeps([179, 151, 152])
+            () => import("./os-beneficios-do-rpg-para-a-vida-real-SPf6jYuv.js"),
+            __vite__mapDeps([182, 154, 155])
           ),
       },
       {
@@ -27355,8 +27365,8 @@ const aP = ht(nP, [
         name: "a-influencia-de-d&d-na-cultura-pop",
         component: () =>
           T(
-            () => import("./a-influencia-de-d_d-na-cultura-pop-HX_HkJ2x.js"),
-            __vite__mapDeps([180, 151, 152])
+            () => import("./a-influencia-de-d_d-na-cultura-pop-rj834fH-.js"),
+            __vite__mapDeps([183, 154, 155])
           ),
       },
       {
@@ -27364,8 +27374,8 @@ const aP = ht(nP, [
         name: "a-evolucao-das-mecanicas-de-rpg",
         component: () =>
           T(
-            () => import("./a-evolucao-das-mecanicas-de-rpg-IKM4eDwn.js"),
-            __vite__mapDeps([181, 151, 152])
+            () => import("./a-evolucao-das-mecanicas-de-rpg-9x7IplpG.js"),
+            __vite__mapDeps([184, 154, 155])
           ),
       },
       {
@@ -27375,9 +27385,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./racas-e-classes-explorando-as-escolhas-de-personagem-5vNlg0vS.js"
+                "./racas-e-classes-explorando-as-escolhas-de-personagem-7EJL9H77.js"
               ),
-            __vite__mapDeps([182, 151, 152])
+            __vite__mapDeps([185, 154, 155])
           ),
       },
       {
@@ -27385,8 +27395,8 @@ const aP = ht(nP, [
         name: "o-papel-do-mestre-na-narrativa-de-rpg",
         component: () =>
           T(
-            () => import("./o-papel-do-mestre-na-narrativa-de-rpg-hkHfPK2a.js"),
-            __vite__mapDeps([183, 151, 152])
+            () => import("./o-papel-do-mestre-na-narrativa-de-rpg-MhE4FJ_l.js"),
+            __vite__mapDeps([186, 154, 155])
           ),
       },
       {
@@ -27396,9 +27406,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-wmh0yu_m.js"
+                "./mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-Y4xkR_Ch.js"
               ),
-            __vite__mapDeps([184, 151, 152])
+            __vite__mapDeps([187, 154, 155])
           ),
       },
       {
@@ -27407,8 +27417,8 @@ const aP = ht(nP, [
         component: () =>
           T(
             () =>
-              import("./o-impacto-da-arte-na-estetica-dos-rpgs-ZJShePgB.js"),
-            __vite__mapDeps([185, 151, 152])
+              import("./o-impacto-da-arte-na-estetica-dos-rpgs-5UzkCr2R.js"),
+            __vite__mapDeps([188, 154, 155])
           ),
       },
       {
@@ -27418,9 +27428,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-W_kGk-j1.js"
+                "./a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-fYEHpi4D.js"
               ),
-            __vite__mapDeps([186, 151, 152])
+            __vite__mapDeps([189, 154, 155])
           ),
       },
       {
@@ -27430,9 +27440,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-LonfSl_z.js"
+                "./mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-ongs_OL6.js"
               ),
-            __vite__mapDeps([187, 151, 152])
+            __vite__mapDeps([190, 154, 155])
           ),
       },
       {
@@ -27442,9 +27452,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-wgNHhrS7.js"
+                "./o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-r4DFqd4E.js"
               ),
-            __vite__mapDeps([188, 151, 152])
+            __vite__mapDeps([191, 154, 155])
           ),
       },
       {
@@ -27454,9 +27464,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval-av4x8t8g.js"
+                "./rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval--zYdu8a0.js"
               ),
-            __vite__mapDeps([189, 151, 152])
+            __vite__mapDeps([192, 154, 155])
           ),
       },
       {
@@ -27466,9 +27476,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-ZDGUFvsZ.js"
+                "./como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-5Lb1TIAB.js"
               ),
-            __vite__mapDeps([190, 151, 152])
+            __vite__mapDeps([193, 154, 155])
           ),
       },
       {
@@ -27477,8 +27487,8 @@ const aP = ht(nP, [
         component: () =>
           T(
             () =>
-              import("./descobrindo-o-mundo-do-rpg-savage-worlds-6_kSfnBS.js"),
-            __vite__mapDeps([191, 151, 152])
+              import("./descobrindo-o-mundo-do-rpg-savage-worlds-4DcnmpAC.js"),
+            __vite__mapDeps([194, 154, 155])
           ),
       },
       {
@@ -27486,8 +27496,8 @@ const aP = ht(nP, [
         name: "explorando-os-subgeneros-do-rpg",
         component: () =>
           T(
-            () => import("./explorando-os-subgeneros-do-rpg-bZE-DkV2.js"),
-            __vite__mapDeps([192, 151, 152])
+            () => import("./explorando-os-subgeneros-do-rpg-3XvlcfKa.js"),
+            __vite__mapDeps([195, 154, 155])
           ),
       },
       {
@@ -27497,9 +27507,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-GINc6SLl.js"
+                "./baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-KEyjryOq.js"
               ),
-            __vite__mapDeps([193, 151, 152])
+            __vite__mapDeps([196, 154, 155])
           ),
       },
       {
@@ -27509,9 +27519,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-CcDVgBeh.js"
+                "./descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-9-FlEPrY.js"
               ),
-            __vite__mapDeps([194, 151, 152])
+            __vite__mapDeps([197, 154, 155])
           ),
       },
       {
@@ -27521,9 +27531,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./descobrindo-o-universo-do-rpg-world-of-darkness-o3HQMbIG.js"
+                "./descobrindo-o-universo-do-rpg-world-of-darkness-VKaj9GZe.js"
               ),
-            __vite__mapDeps([195, 151, 152])
+            __vite__mapDeps([198, 154, 155])
           ),
       },
       {
@@ -27531,8 +27541,8 @@ const aP = ht(nP, [
         name: "e-dificil-comecar-a-jogar-rpg-de-mesa",
         component: () =>
           T(
-            () => import("./e-dificil-comecar-a-jogar-rpg-de-mesa-FALLbdNM.js"),
-            __vite__mapDeps([196, 151, 152])
+            () => import("./e-dificil-comecar-a-jogar-rpg-de-mesa-0lXanpix.js"),
+            __vite__mapDeps([199, 154, 155])
           ),
       },
       {
@@ -27542,9 +27552,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./a-importancia-da-cooperacao-em-jogos-de-rpg-2BL67SbE.js"
+                "./a-importancia-da-cooperacao-em-jogos-de-rpg-KGrK59YZ.js"
               ),
-            __vite__mapDeps([197, 151, 152])
+            __vite__mapDeps([200, 154, 155])
           ),
       },
       {
@@ -27554,9 +27564,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-F2pO42uR.js"
+                "./criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-uMvOu2bt.js"
               ),
-            __vite__mapDeps([198, 151, 152])
+            __vite__mapDeps([201, 154, 155])
           ),
       },
       {
@@ -27565,8 +27575,8 @@ const aP = ht(nP, [
         component: () =>
           T(
             () =>
-              import("./o-rpg-como-pilar-da-cultura-geek-e-nerd--1qwiiWg.js"),
-            __vite__mapDeps([199, 151, 152])
+              import("./o-rpg-como-pilar-da-cultura-geek-e-nerd-FP9Z2irJ.js"),
+            __vite__mapDeps([202, 154, 155])
           ),
       },
       {
@@ -27576,9 +27586,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./criando-personagens-complexos-e-multidimensionais-no-rpg-4zQeQcWI.js"
+                "./criando-personagens-complexos-e-multidimensionais-no-rpg-v1eBWS__.js"
               ),
-            __vite__mapDeps([200, 151, 152])
+            __vite__mapDeps([203, 154, 155])
           ),
       },
       {
@@ -27588,9 +27598,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-KqSwU6YD.js"
+                "./a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-KD0kDMUg.js"
               ),
-            __vite__mapDeps([201, 151, 152])
+            __vite__mapDeps([204, 154, 155])
           ),
       },
       {
@@ -27600,9 +27610,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./construindo-mundos-de-campanha-de-rpg-atrativos-TPzyaw6Z.js"
+                "./construindo-mundos-de-campanha-de-rpg-atrativos-0jAbS-VS.js"
               ),
-            __vite__mapDeps([202, 151, 152])
+            __vite__mapDeps([205, 154, 155])
           ),
       },
       {
@@ -27612,9 +27622,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-jKht6wju.js"
+                "./o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-BVFhY6Fm.js"
               ),
-            __vite__mapDeps([203, 151, 152])
+            __vite__mapDeps([206, 154, 155])
           ),
       },
       {
@@ -27623,8 +27633,8 @@ const aP = ht(nP, [
         component: () =>
           T(
             () =>
-              import("./as-origens-e-a-evolucao-dos-dados-de-rpg-gMOy7-HT.js"),
-            __vite__mapDeps([204, 151, 152])
+              import("./as-origens-e-a-evolucao-dos-dados-de-rpg-mKgAul11.js"),
+            __vite__mapDeps([207, 154, 155])
           ),
       },
       {
@@ -27632,8 +27642,8 @@ const aP = ht(nP, [
         name: "rpg-como-ferramenta-de-aprendizado",
         component: () =>
           T(
-            () => import("./rpg-como-ferramenta-de-aprendizado-G_SZcBDi.js"),
-            __vite__mapDeps([205, 151, 152])
+            () => import("./rpg-como-ferramenta-de-aprendizado-3mDHJsR4.js"),
+            __vite__mapDeps([208, 154, 155])
           ),
       },
       {
@@ -27643,9 +27653,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-HHNgIZ-5.js"
+                "./inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-gFbP69LS.js"
               ),
-            __vite__mapDeps([206, 151, 152])
+            __vite__mapDeps([209, 154, 155])
           ),
       },
       {
@@ -27655,9 +27665,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-NayS8I5E.js"
+                "./o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-dYdEKkYY.js"
               ),
-            __vite__mapDeps([207, 151, 152])
+            __vite__mapDeps([210, 154, 155])
           ),
       },
       {
@@ -27665,8 +27675,8 @@ const aP = ht(nP, [
         name: "rpgs-para-criancas-e-iniciantes",
         component: () =>
           T(
-            () => import("./rpgs-para-criancas-e-iniciantes-F_xezi3a.js"),
-            __vite__mapDeps([208, 151, 152])
+            () => import("./rpgs-para-criancas-e-iniciantes--JNTMm0i.js"),
+            __vite__mapDeps([211, 154, 155])
           ),
       },
       {
@@ -27675,8 +27685,8 @@ const aP = ht(nP, [
         component: () =>
           T(
             () =>
-              import("./etica-e-responsabilidade-em-jogos-de-rpg-QYNuYg8I.js"),
-            __vite__mapDeps([209, 151, 152])
+              import("./etica-e-responsabilidade-em-jogos-de-rpg-Hzn-L3XD.js"),
+            __vite__mapDeps([212, 154, 155])
           ),
       },
       {
@@ -27686,9 +27696,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./o-uso-de-ferramentas-digitais-em-mesas-de-rpg-LG6L2kWG.js"
+                "./o-uso-de-ferramentas-digitais-em-mesas-de-rpg-EN5wKKEY.js"
               ),
-            __vite__mapDeps([210, 151, 152])
+            __vite__mapDeps([213, 154, 155])
           ),
       },
       {
@@ -27698,9 +27708,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-PpW-qvDH.js"
+                "./criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-F5Y5EXpp.js"
               ),
-            __vite__mapDeps([211, 151, 152])
+            __vite__mapDeps([214, 154, 155])
           ),
       },
       {
@@ -27710,9 +27720,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./a-influencia-das-artes-marciais-em-personagens-de-rpg-0JtIsQRc.js"
+                "./a-influencia-das-artes-marciais-em-personagens-de-rpg-d_W7EMnj.js"
               ),
-            __vite__mapDeps([212, 151, 152])
+            __vite__mapDeps([215, 154, 155])
           ),
       },
       {
@@ -27722,9 +27732,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./a-diversidade-de-estilos-de-narrativa-em-rpg-G5H4hsev.js"
+                "./a-diversidade-de-estilos-de-narrativa-em-rpg-Kn7MKIr-.js"
               ),
-            __vite__mapDeps([213, 151, 152])
+            __vite__mapDeps([216, 154, 155])
           ),
       },
       {
@@ -27732,8 +27742,8 @@ const aP = ht(nP, [
         name: "o-uso-terapeutico-dos-jogos-de-rpg",
         component: () =>
           T(
-            () => import("./o-uso-terapeutico-dos-jogos-de-rpg-L4Qhx0Vg.js"),
-            __vite__mapDeps([214, 151, 152])
+            () => import("./o-uso-terapeutico-dos-jogos-de-rpg-hSCAPzW8.js"),
+            __vite__mapDeps([217, 154, 155])
           ),
       },
       {
@@ -27743,9 +27753,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-oDHcta3Z.js"
+                "./diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-wPsUfjI8.js"
               ),
-            __vite__mapDeps([215, 151, 152])
+            __vite__mapDeps([218, 154, 155])
           ),
       },
       {
@@ -27755,9 +27765,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-1kYcnTgf.js"
+                "./evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-XAQ6_yEG.js"
               ),
-            __vite__mapDeps([216, 151, 152])
+            __vite__mapDeps([219, 154, 155])
           ),
       },
       {
@@ -27766,8 +27776,8 @@ const aP = ht(nP, [
         component: () =>
           T(
             () =>
-              import("./influencia_da_mitologia_em_jogos_de_rpg-iCSFnhRP.js"),
-            __vite__mapDeps([217, 151, 152])
+              import("./influencia_da_mitologia_em_jogos_de_rpg-VGT0hP51.js"),
+            __vite__mapDeps([220, 154, 155])
           ),
       },
       {
@@ -27777,9 +27787,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-UZxKVOFT.js"
+                "./rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-6r0nW12L.js"
               ),
-            __vite__mapDeps([218, 151, 152])
+            __vite__mapDeps([221, 154, 155])
           ),
       },
       {
@@ -27789,9 +27799,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-3cazxyao.js"
+                "./impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-8Gq8Q-OG.js"
               ),
-            __vite__mapDeps([219, 151, 152])
+            __vite__mapDeps([222, 154, 155])
           ),
       },
       {
@@ -27801,9 +27811,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./mundo_das_miniaturas_e_cenarios_personalizados-IsiSVfhT.js"
+                "./mundo_das_miniaturas_e_cenarios_personalizados-BIgrFpln.js"
               ),
-            __vite__mapDeps([220, 151, 152])
+            __vite__mapDeps([223, 154, 155])
           ),
       },
       {
@@ -27813,9 +27823,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-2qjE_kac.js"
+                "./evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-BDDq2btL.js"
               ),
-            __vite__mapDeps([221, 151, 152])
+            __vite__mapDeps([224, 154, 155])
           ),
       },
       {
@@ -27825,9 +27835,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./historia_e_a_evolucao_dos_larp_live_action_role_playing-k4pK6tvw.js"
+                "./historia_e_a_evolucao_dos_larp_live_action_role_playing-5WsHAR_T.js"
               ),
-            __vite__mapDeps([222, 151, 152])
+            __vite__mapDeps([225, 154, 155])
           ),
       },
       {
@@ -27837,9 +27847,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-7BKux8cK.js"
+                "./jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-2dm8xQjT.js"
               ),
-            __vite__mapDeps([223, 151, 152])
+            __vite__mapDeps([226, 154, 155])
           ),
       },
       {
@@ -27849,9 +27859,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-OYdk2i58.js"
+                "./uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-iDgt5prl.js"
               ),
-            __vite__mapDeps([224, 151, 152])
+            __vite__mapDeps([227, 154, 155])
           ),
       },
       {
@@ -27861,9 +27871,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-D_fhVgMF.js"
+                "./mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-hP6umi9H.js"
               ),
-            __vite__mapDeps([225, 151, 152])
+            __vite__mapDeps([228, 154, 155])
           ),
       },
       {
@@ -27873,9 +27883,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-fk0ygHRn.js"
+                "./psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-PoS19bYV.js"
               ),
-            __vite__mapDeps([226, 151, 152])
+            __vite__mapDeps([229, 154, 155])
           ),
       },
       {
@@ -27885,9 +27895,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./papel_das_ferramentas_de_software_em_jogos_de_rpg-lDFtnShU.js"
+                "./papel_das_ferramentas_de_software_em_jogos_de_rpg-ar_fGwQq.js"
               ),
-            __vite__mapDeps([227, 151, 152])
+            __vite__mapDeps([230, 154, 155])
           ),
       },
       {
@@ -27897,9 +27907,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-OuANDrVx.js"
+                "./historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-0gQ4_SgG.js"
               ),
-            __vite__mapDeps([228, 151, 152])
+            __vite__mapDeps([231, 154, 155])
           ),
       },
       {
@@ -27908,8 +27918,8 @@ const aP = ht(nP, [
         component: () =>
           T(
             () =>
-              import("./explorando_a_cultura_do_cosplay_em_rpg-NAdbWxWg.js"),
-            __vite__mapDeps([229, 151, 152])
+              import("./explorando_a_cultura_do_cosplay_em_rpg-H69-8Gwc.js"),
+            __vite__mapDeps([232, 154, 155])
           ),
       },
       {
@@ -27919,9 +27929,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-1vw5f_vS.js"
+                "./rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-RyMEzm_y.js"
               ),
-            __vite__mapDeps([230, 151, 152])
+            __vite__mapDeps([233, 154, 155])
           ),
       },
       {
@@ -27929,8 +27939,8 @@ const aP = ht(nP, [
         name: "uso_de_simbologia_e_mitologia_em_rpgs",
         component: () =>
           T(
-            () => import("./uso_de_simbologia_e_mitologia_em_rpgs-npFuKedq.js"),
-            __vite__mapDeps([231, 151, 152])
+            () => import("./uso_de_simbologia_e_mitologia_em_rpgs-2F133dFK.js"),
+            __vite__mapDeps([234, 154, 155])
           ),
       },
       {
@@ -27940,9 +27950,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./economia_nos_mundos_de_rpg_moedas_e_comercio-cTdA04_a.js"
+                "./economia_nos_mundos_de_rpg_moedas_e_comercio-uKFGpNhJ.js"
               ),
-            __vite__mapDeps([232, 151, 152])
+            __vite__mapDeps([235, 154, 155])
           ),
       },
       {
@@ -27952,9 +27962,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./importancia_da_diversidade_e_representacao_nos_jogos-YaKsPzED.js"
+                "./importancia_da_diversidade_e_representacao_nos_jogos-3KOgyq1l.js"
               ),
-            __vite__mapDeps([233, 151, 152])
+            __vite__mapDeps([236, 154, 155])
           ),
       },
       {
@@ -27964,9 +27974,9 @@ const aP = ht(nP, [
           T(
             () =>
               import(
-                "./futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-XW-4wzof.js"
+                "./futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-Ux61LvT4.js"
               ),
-            __vite__mapDeps([234, 151, 152])
+            __vite__mapDeps([237, 154, 155])
           ),
       },
       {
@@ -27974,8 +27984,8 @@ const aP = ht(nP, [
         name: "not-found",
         component: () =>
           T(
-            () => import("./NotFoundView-A7wztnNz.js"),
-            __vite__mapDeps([235, 236])
+            () => import("./NotFoundView-o_QKe19P.js"),
+            __vite__mapDeps([238, 239])
           ),
       },
     ],
@@ -28524,7 +28534,7 @@ var Ns,
         _ = ne(!1),
         E = ne({}),
         v = ne({}),
-        A = ne(null),
+        C = ne(null),
         I = ne(null),
         U = oa,
         B = oa,
@@ -28550,12 +28560,12 @@ var Ns,
           return qt({}, ee.value !== !1 && { zIndex: ee.value });
         }),
         H = ge(function () {
-          var C = [v.value];
+          var A = [v.value];
           return (
             Array.isArray(t.contentStyle)
-              ? C.push.apply(C, Gr(t.contentStyle))
-              : C.push(t.contentStyle),
-            C
+              ? A.push.apply(A, Gr(t.contentStyle))
+              : A.push(t.contentStyle),
+            A
           );
         });
       function se() {
@@ -28584,8 +28594,8 @@ var Ns,
             kt("before-open", !1))
           )
             return void B("show");
-          var C = Re();
-          if (C || t.attach === !1) {
+          var A = Re();
+          if (A || t.attach === !1) {
             if (t.attach !== !1) {
               if (!i.value)
                 return (
@@ -28594,7 +28604,7 @@ var Ns,
                     Ie();
                   })
                 );
-              C.appendChild(i.value);
+              A.appendChild(i.value);
             }
             var M = t.api.openedModals.findIndex(function (Y) {
               return Y.uid === r;
@@ -28607,25 +28617,25 @@ var Ns,
                 .filter(function (Y) {
                   return Y.uid !== r;
                 })
-                .forEach(function (Y, Ce) {
-                  Y.getAttachElement() === C &&
-                    ((Y.modalStackIndex.value = Ce),
+                .forEach(function (Y, Ae) {
+                  Y.getAttachElement() === A &&
+                    ((Y.modalStackIndex.value = Ae),
                     !Y.props.keepOverlay && (Y.visibility.overlay = !1));
                 }),
               (h.value = !0),
               (p.overlay = !0),
               (p.modal = !0);
           } else
-            C !== !1 &&
+            A !== !1 &&
               console.warn("Unable to locate target ".concat(t.attach));
         }
       }
       function Et() {
-        var C = t.api.openedModals.findIndex(function (Y) {
+        var A = t.api.openedModals.findIndex(function (Y) {
           return Y.uid === r;
         });
         if (
-          (C !== -1 && t.api.openedModals.splice(C, 1),
+          (A !== -1 && t.api.openedModals.splice(A, 1),
           t.api.openedModals.length > 0)
         ) {
           var M = t.api.openedModals[t.api.openedModals.length - 1];
@@ -28636,7 +28646,7 @@ var Ns,
         }
         t.drag && kr(),
           t.resize && W(),
-          (A.value = null),
+          (C.value = null),
           (p.overlay = !1),
           (p.modal = !1);
       }
@@ -28657,20 +28667,20 @@ var Ns,
         );
       }
       function _e() {
-        var C =
+        var A =
           arguments.length > 0 && arguments[0] !== void 0 ? arguments[0] : {};
-        return qt({ ref: se() }, C);
+        return qt({ ref: se() }, A);
       }
-      function kt(C, M) {
+      function kt(A, M) {
         var Y = !1,
-          Ce = _e({
-            type: C,
+          Ae = _e({
+            type: A,
             stop: function () {
               Y = !0;
             },
           });
         return (
-          n(C, Ce),
+          n(A, Ae),
           !!Y &&
             ((_.value = !0),
             ar(function () {
@@ -28679,28 +28689,28 @@ var Ns,
             !0)
         );
       }
-      function Qt(C, M, Y) {
-        (A.value = "".concat(M, ":").concat(Y)), n(A.value, C);
+      function Qt(A, M, Y) {
+        (C.value = "".concat(M, ":").concat(Y)), n(C.value, A);
       }
-      function Dt(C, M) {
+      function Dt(A, M) {
         var Y = arguments;
-        return new Promise(function (Ce, le) {
+        return new Promise(function (Ae, le) {
           (U = function (m) {
-            Ce(m), (U = oa);
+            Ae(m), (U = oa);
           }),
             (B = function (m) {
               le(m), (B = oa);
             });
-          var f = typeof C == "boolean" ? C : !t.modelValue;
+          var f = typeof A == "boolean" ? A : !t.modelValue;
           f && Y.length === 2 && (E.value = M), n("update:modelValue", f);
         });
       }
-      function Ye(C) {
-        C.stopPropagation();
+      function Ye(A) {
+        A.stopPropagation();
         var M,
           Y = "resize",
-          Ce = "drag",
-          le = C.target.getAttribute("direction");
+          Ae = "drag",
+          le = A.target.getAttribute("direction");
         if (le) M = Y;
         else {
           if (
@@ -28708,17 +28718,17 @@ var Ns,
               return (
                 ye === "" || Gr(oe.querySelectorAll(ye)).includes(te.target)
               );
-            })(C, o.value, t.dragSelector)
+            })(A, o.value, t.dragSelector)
           )
             return;
-          M = Ce;
+          M = Ae;
         }
-        Qt(C, M, "start");
+        Qt(A, M, "start");
         var f,
           m,
           b,
           k,
-          x = Rm(C),
+          x = Rm(A),
           O = s.value.getBoundingClientRect(),
           $ = o.value.getBoundingClientRect(),
           L = window.getComputedStyle(o.value).position === "absolute",
@@ -28762,8 +28772,8 @@ var Ns,
             te.stopPropagation(), Qt(te, M, "move");
             var oe,
               ye,
-              Ae = Rm(te),
-              ke = { x: Ae.x - x.x, y: Ae.y - x.y };
+              Ce = Rm(te),
+              ke = { x: Ce.x - x.x, y: Ce.y - x.y };
             M === Y &&
               (ke = (function (Hn, Uo, Sr, qr, Tt) {
                 var Ft = function (St) {
@@ -28793,13 +28803,13 @@ var Ns,
                       getEdge: function (_c) {
                         return qr[Yt] - _c * (Wn ? 1 : -1);
                       },
-                      getOffsetAxis: function (_c, A0) {
+                      getOffsetAxis: function (_c, C0) {
                         var Xh = qr[Yt] - _c;
-                        return A0 ? (Wn ? Xh : 0) : ((Wn ? 1 : -1) * Xh) / 2;
+                        return C0 ? (Wn ? Xh : 0) : ((Wn ? 1 : -1) * Xh) / 2;
                       },
                     };
                   },
-                  C0 = {
+                  A0 = {
                     t: ["top", "height", "y", !0],
                     b: ["bottom", "height", "y", !1],
                     l: ["left", "width", "x", !0],
@@ -28808,7 +28818,7 @@ var Ns,
                   yc = { x: 0, y: 0 };
                 return (
                   Hn.split("").forEach(function (St) {
-                    var Yt = Bo.apply(void 0, Gr(C0[St]));
+                    var Yt = Bo.apply(void 0, Gr(A0[St]));
                     yc = qt(qt({}, yc), Ft(Yt));
                   }),
                   yc
@@ -28817,7 +28827,7 @@ var Ns,
               L
                 ? ((oe = $.top - O.top + ke.y), (ye = $.left - O.left + ke.x))
                 : ((oe = V + ke.y), (ye = P + ke.x)),
-              M === Ce &&
+              M === Ae &&
                 t.fitParent &&
                 ((oe = ra(X.minTop, oe, X.maxTop)),
                 (ye = ra(X.minLeft, ye, X.maxLeft)));
@@ -28875,9 +28885,9 @@ var Ns,
           function () {
             return t.modelValue;
           },
-          function (C) {
+          function (A) {
             if (_.value) _.value = !1;
-            else if ((Ie(), !C)) {
+            else if ((Ie(), !A)) {
               if (kt("before-close", !0)) return void B("hide");
               Et();
             }
@@ -28890,8 +28900,8 @@ var Ns,
           function () {
             return t.hideOverlay;
           },
-          function (C) {
-            t.modelValue && !C && (p.overlay = !0);
+          function (A) {
+            t.modelValue && !A && (p.overlay = !0);
           }
         ),
         pt(function () {
@@ -28899,8 +28909,8 @@ var Ns,
         }, Ie),
         pt(
           F,
-          function (C) {
-            C && ((h.value = !1), (s.value.style.display = "none"));
+          function (A) {
+            A && ((h.value = !1), (s.value.style.display = "none"));
           },
           { flush: "post" }
         ),
@@ -28908,24 +28918,24 @@ var Ns,
           function () {
             return t.drag;
           },
-          function (C) {
-            h.value && (C ? pn() : kr());
+          function (A) {
+            h.value && (A ? pn() : kr());
           }
         ),
         pt(
           function () {
             return t.resize;
           },
-          function (C) {
-            h.value && (C ? S() : W());
+          function (A) {
+            h.value && (A ? S() : W());
           }
         ),
         pt(
           function () {
             return t.keepChangedStyle;
           },
-          function (C) {
-            C || (v.value = {});
+          function (A) {
+            A || (v.value = {});
           }
         ),
         t.api.modals.push(se()),
@@ -28933,10 +28943,10 @@ var Ns,
           Ie();
         }),
         vl(function () {
-          var C;
+          var A;
           Et(),
             t.lockScroll && s.value && Xc(s.value),
-            i == null || (C = i.value) === null || C === void 0 || C.remove();
+            i == null || (A = i.value) === null || A === void 0 || A.remove();
           var M = t.api.modals.findIndex(function (Y) {
             return Y.uid === r;
           });
@@ -28990,21 +29000,21 @@ var Ns,
               (u.value = null),
               t.lockScroll && Xc(s.value),
               t.keepChangedStyle || (v.value = {});
-            var C = !1,
+            var A = !1,
               M = _e({
                 type: "closed",
                 stop: function () {
-                  C = !0;
+                  A = !0;
                 },
               });
-            n("_closed"), n("closed", M), U("hide"), C || (E.value = {});
+            n("_closed"), n("closed", M), U("hide"), A || (E.value = {});
           },
-          onMousedown: function (C) {
-            I.value = C == null ? void 0 : C.target;
+          onMousedown: function (A) {
+            I.value = A == null ? void 0 : A.target;
           },
           onMouseupContainer: function () {
             I.value === s.value &&
-              A.value !== "resize:move" &&
+              C.value !== "resize:move" &&
               (n("click-outside", _e({ type: "click-outside" })),
               t.clickToClose && n("update:modelValue", !1));
           },
@@ -30358,7 +30368,7 @@ var t0 = {
         this.handleLoad())
       : T(
           () => import("./quill-OFcVbw76.js").then((e) => e.q),
-          __vite__mapDeps([237, 16])
+          __vite__mapDeps([240, 16])
         )
           .then((e) => {
             e &&
@@ -31632,8 +31642,8 @@ const gD = (t) => ({
         _ = h === "y" ? "bottom" : "right",
         E = a.reference[p] + a.reference[h] - u[h] - a.floating[p],
         v = u[h] - a.reference[h],
-        A = await l.getOffsetParent({ element: n }),
-        I = A ? (h === "y" ? A.clientHeight || 0 : A.clientWidth || 0) : 0,
+        C = await l.getOffsetParent({ element: n }),
+        I = C ? (h === "y" ? C.clientHeight || 0 : C.clientWidth || 0) : 0,
         U = E / 2 - v / 2,
         B = c[y],
         z = I - g[p] - c[_],
@@ -31686,11 +31696,11 @@ const ED = function (t) {
         if ((n = d.autoPlacement) != null && n.skip) return {};
         const E = bD(p, y, g),
           v = await uc(e, _),
-          A =
+          C =
             (r = (i = d.autoPlacement) == null ? void 0 : i.index) != null
               ? r
               : 0,
-          I = E[A],
+          I = E[C],
           { main: U, cross: B } = r0(I, u);
         if (h !== I) return { x: l, y: c, reset: { placement: E[0] } };
         const z = [v[jn(I)], v[U], v[B]],
@@ -31701,10 +31711,10 @@ const ED = function (t) {
               : []),
             { placement: I, overflows: z },
           ],
-          F = E[A + 1];
+          F = E[C + 1];
         if (F)
           return {
-            data: { index: A + 1, overflows: N },
+            data: { index: C + 1, overflows: N },
             reset: { placement: F },
           };
         const ee = N.slice().sort((H, se) => H.overflows[0] - se.overflows[0]),
@@ -31754,15 +31764,15 @@ const ID = function (t) {
           _ = u || (g === a || !h ? [rl(a)] : TD(a)),
           E = [a, ..._],
           v = await uc(e, p),
-          A = [];
+          C = [];
         let I = ((r = s.flip) == null ? void 0 : r.overflows) || [];
-        if ((l && A.push(v[g]), c)) {
+        if ((l && C.push(v[g]), c)) {
           const { main: N, cross: F } = r0(i, o);
-          A.push(v[N], v[F]);
+          C.push(v[N], v[F]);
         }
         if (
-          ((I = [...I, { placement: i, overflows: A }]),
-          !A.every((N) => N <= 0))
+          ((I = [...I, { placement: i, overflows: C }]),
+          !C.every((N) => N <= 0))
         ) {
           var U, B;
           const N =
@@ -31804,7 +31814,7 @@ const ID = function (t) {
     }
   );
 };
-function CD(t) {
+function AD(t) {
   let { placement: e, rects: n, value: r } = t;
   const i = jn(e),
     s = ["left", "top"].includes(i) ? -1 : 1,
@@ -31815,7 +31825,7 @@ function CD(t) {
         : { mainAxis: 0, crossAxis: 0, ...o };
   return $o(i) === "x" ? { x: l, y: a * s } : { x: a * s, y: l };
 }
-const AD = function (t) {
+const CD = function (t) {
   return (
     t === void 0 && (t = 0),
     {
@@ -31823,7 +31833,7 @@ const AD = function (t) {
       options: t,
       fn(e) {
         const { x: n, y: r, placement: i, rects: s } = e,
-          o = CD({ placement: i, rects: s, value: t });
+          o = AD({ placement: i, rects: s, value: t });
         return { x: n + o.x, y: r + o.y, data: o };
       },
     }
@@ -31861,15 +31871,15 @@ const SD = function (t) {
             const _ = d === "y" ? "top" : "left",
               E = d === "y" ? "bottom" : "right",
               v = p + u[_],
-              A = p - u[E];
-            p = Zu(v, p, A);
+              C = p - u[E];
+            p = Zu(v, p, C);
           }
           if (o) {
             const _ = h === "y" ? "top" : "left",
               E = h === "y" ? "bottom" : "right",
               v = g + u[_],
-              A = g - u[E];
-            g = Zu(v, g, A);
+              C = g - u[E];
+            g = Zu(v, g, C);
           }
           const y = a.fn({ ...e, [d]: p, [h]: g });
           return { ...y, data: { x: y.x - n, y: y.y - r } };
@@ -31993,7 +32003,7 @@ function Zi(t, e) {
     }
   );
 }
-function Cr(t) {
+function Ar(t) {
   return ((xD(t) ? t.ownerDocument : t.document) || window.document)
     .documentElement;
 }
@@ -32003,7 +32013,7 @@ function fc(t) {
     : { scrollLeft: t.scrollLeft, scrollTop: t.scrollTop };
 }
 function o0(t) {
-  return Zi(Cr(t)).left + fc(t).scrollLeft;
+  return Zi(Ar(t)).left + fc(t).scrollLeft;
 }
 function PD(t) {
   const e = Zi(t);
@@ -32011,7 +32021,7 @@ function PD(t) {
 }
 function OD(t, e, n) {
   const r = Nn(e),
-    i = Cr(e),
+    i = Ar(e),
     s = Zi(t, r && PD(e));
   let o = { scrollLeft: 0, scrollTop: 0 };
   const a = { x: 0, y: 0 };
@@ -32030,7 +32040,7 @@ function OD(t, e, n) {
 function pc(t) {
   return Dn(t) === "html"
     ? t
-    : t.assignedSlot || t.parentNode || (i0(t) ? t.host : null) || Cr(t);
+    : t.assignedSlot || t.parentNode || (i0(t) ? t.host : null) || Ar(t);
 }
 function Hm(t) {
   return !Nn(t) || getComputedStyle(t).position === "fixed"
@@ -32061,7 +32071,7 @@ function zm(t) {
 function ND(t) {
   let { rect: e, offsetParent: n, strategy: r } = t;
   const i = Nn(n),
-    s = Cr(n);
+    s = Ar(n);
   if (n === s) return e;
   let o = { scrollLeft: 0, scrollTop: 0 };
   const a = { x: 0, y: 0 };
@@ -32076,7 +32086,7 @@ function ND(t) {
 }
 function LD(t) {
   const e = Ir(t),
-    n = Cr(t),
+    n = Ar(t),
     r = e.visualViewport;
   let i = n.clientWidth,
     s = n.clientHeight,
@@ -32093,7 +32103,7 @@ function LD(t) {
 }
 function MD(t) {
   var e;
-  const n = Cr(t),
+  const n = Ar(t),
     r = fc(t),
     i = (e = t.ownerDocument) == null ? void 0 : e.body,
     s = Ms(
@@ -32161,7 +32171,7 @@ function VD(t) {
   };
 }
 function Wm(t, e) {
-  return e === "viewport" ? Ju(LD(t)) : il(e) ? VD(e) : Ju(MD(Cr(t)));
+  return e === "viewport" ? Ju(LD(t)) : il(e) ? VD(e) : Ju(MD(Ar(t)));
 }
 function FD(t) {
   const e = ol(pc(t)),
@@ -32203,7 +32213,7 @@ const BD = {
     isElement: (t) => il(t),
     getDocumentElement: (t) => {
       let { element: e } = t;
-      return Cr(e);
+      return Ar(e);
     },
     getClippingClientRect: (t) => UD(t),
     getDimensions: (t) => {
@@ -32237,7 +32247,7 @@ function l0(t, e) {
     Object.prototype.hasOwnProperty.call(e, n) &&
       (typeof e[n] == "object" && t[n] ? l0(t[n], e[n]) : (t[n] = e[n]));
 }
-const Cn = {
+const An = {
   disabled: !1,
   distance: 5,
   skidding: 0,
@@ -32279,34 +32289,34 @@ const Cn = {
   },
 };
 function es(t, e) {
-  let n = Cn.themes[t] || {},
+  let n = An.themes[t] || {},
     r;
   do
     (r = n[e]),
       typeof r > "u"
         ? n.$extend
-          ? (n = Cn.themes[n.$extend] || {})
-          : ((n = null), (r = Cn[e]))
+          ? (n = An.themes[n.$extend] || {})
+          : ((n = null), (r = An[e]))
         : (n = null);
   while (n);
   return r;
 }
 function QD(t) {
   const e = [t];
-  let n = Cn.themes[t] || {};
+  let n = An.themes[t] || {};
   do
     n.$extend && !n.$resetCss
-      ? (e.push(n.$extend), (n = Cn.themes[n.$extend] || {}))
+      ? (e.push(n.$extend), (n = An.themes[n.$extend] || {}))
       : (n = null);
   while (n);
   return e.map((r) => `v-popper--theme-${r}`);
 }
 function Qm(t) {
   const e = [t];
-  let n = Cn.themes[t] || {};
+  let n = An.themes[t] || {};
   do
     n.$extend
-      ? (e.push(n.$extend), (n = Cn.themes[n.$extend] || {}))
+      ? (e.push(n.$extend), (n = An.themes[n.$extend] || {}))
       : (n = null);
   while (n);
   return e;
@@ -32666,7 +32676,7 @@ var d0 = () =>
         const e = { strategy: this.strategy, middleware: [] };
         (this.distance || this.skidding) &&
           e.middleware.push(
-            AD({ mainAxis: this.distance, crossAxis: this.skidding })
+            CD({ mainAxis: this.distance, crossAxis: this.skidding })
           );
         const n = this.placement.startsWith("auto");
         if (
@@ -33283,7 +33293,7 @@ const lN = Qe({
   hN = w("div", { class: "v-popper__arrow-inner" }, null, -1),
   fN = [dN, hN];
 function pN(t, e, n, r, i, s) {
-  const o = An("ResizeObserver");
+  const o = Cn("ResizeObserver");
   return (
     R(),
     j(
@@ -33429,8 +33439,8 @@ const mN = Qe({
   },
 });
 function gN(t, e, n, r, i, s) {
-  const o = An("PopperContent"),
-    a = An("Popper");
+  const o = Cn("PopperContent"),
+    a = Cn("Popper");
   return (
     R(),
     xe(
@@ -33582,8 +33592,8 @@ const vN = Qe(Vo(yn({}, zh), { name: "VDropdown", vPopperTheme: "dropdown" })),
   bN = ["innerHTML"],
   EN = ["textContent"];
 function TN(t, e, n, r, i, s) {
-  const o = An("PopperContent"),
-    a = An("Popper");
+  const o = Cn("PopperContent"),
+    a = Cn("Popper");
   return (
     R(),
     xe(
@@ -33674,7 +33684,7 @@ function TN(t, e, n, r, i, s) {
 }
 var IN = mc(wN, [["render", TN]]);
 const g0 = "v-popper--has-tooltip";
-function CN(t, e) {
+function AN(t, e) {
   let n = t.placement;
   if (!n && e) for (const r of u0) e[r] && (n = r);
   return n || (n = es(t.theme || "tooltip", "placement")), n;
@@ -33688,7 +33698,7 @@ function v0(t, e, n) {
       : e && i === "object"
       ? (r = e)
       : (r = { content: !1 }),
-    (r.placement = CN(r, n)),
+    (r.placement = AN(r, n)),
     (r.targetNodes = () => [t]),
     (r.referenceNode = () => t),
     r
@@ -33696,7 +33706,7 @@ function v0(t, e, n) {
 }
 let tu,
   co,
-  AN = 0;
+  CN = 0;
 function kN() {
   if (tu) return;
   (co = ne([])),
@@ -33725,7 +33735,7 @@ function SN(t, e, n) {
   kN();
   const r = ne(v0(t, e, n)),
     i = ne(!1),
-    s = { id: AN++, options: r, shown: i };
+    s = { id: CN++, options: r, shown: i };
   return (
     co.value.push(s),
     t.classList && t.classList.add(g0),
@@ -33826,14 +33836,14 @@ var xN = {
 function RN(t, e = {}) {
   t.$_vTooltipInstalled ||
     ((t.$_vTooltipInstalled = !0),
-    l0(Cn, e),
+    l0(An, e),
     t.directive("tooltip", qN),
     t.directive("close-popper", xN),
     t.component("VTooltip", _N),
     t.component("VDropdown", vN),
     t.component("VMenu", yN));
 }
-const PN = { version: "2.0.0-beta.20", install: RN, options: Cn };
+const PN = { version: "2.0.0-beta.20", install: RN, options: An };
 var ON = "firebase",
   DN = "9.10.0";
 /**
@@ -33887,11 +33897,11 @@ var vc = function () {
     appId: null,
     appVersion: null,
   }),
-  Ar = function () {
+  Cr = function () {
     return mb(T0);
   },
   I0 = ge(function () {
-    var t = Ar(),
+    var t = Cr(),
       e = t.property;
     if (e.value)
       return Array.isArray(e.value)
@@ -33901,17 +33911,17 @@ var vc = function () {
         : e.value;
   }),
   MN = ge(function () {
-    var t = Ar(),
+    var t = Cr(),
       e = t.property;
     return !!(e.value && e.value.id !== null);
   }),
   uo = ge(function () {
-    var t = Ar(),
+    var t = Cr(),
       e = t.property;
     return Array.isArray(e.value) ? e.value : [e.value];
   }),
   $N = ge(function () {
-    var t = Ar(),
+    var t = Cr(),
       e = t.isEnabled,
       n = I0.value;
     return !!(n && n.id && e.value);
@@ -33920,7 +33930,7 @@ var vc = function () {
     var t;
     if (vc()) {
       for (
-        var e = Ar(),
+        var e = Cr(),
           n = e.globalObjectName,
           r = e.useDebugger,
           i = arguments.length,
@@ -33991,7 +34001,7 @@ var vc = function () {
   },
   WN = function () {
     for (
-      var t = Ar(),
+      var t = Cr(),
         e = t.appName,
         n = t.appId,
         r = t.appVersion,
@@ -34039,7 +34049,7 @@ var vc = function () {
   og = ne(!1),
   ag = ne(!1),
   YN = function () {
-    var e = Ar(),
+    var e = Cr(),
       n = e.disableScriptLoader,
       r = e.preconnectOrigin,
       i = e.resourceURL,
@@ -34078,7 +34088,7 @@ var vc = function () {
   },
   JN = function () {
     if (vc()) {
-      var t = Ar(),
+      var t = Cr(),
         e = t.globalObjectName,
         n = t.dataLayerName;
       window[e.value] == null &&
@@ -34153,7 +34163,7 @@ export {
   EL as a6,
   TL as a7,
   tL as a8,
-  Av as a9,
+  Cv as a9,
   Kw as aa,
   Gt as ab,
   Ow as ac,
@@ -34180,7 +34190,7 @@ export {
   ge as f,
   Un as g,
   bL as h,
-  An as i,
+  Cn as i,
   an as j,
   me as k,
   bx as l,
@@ -34202,242 +34212,245 @@ export {
 function __vite__mapDeps(indexes) {
   if (!__vite__mapDeps.viteFileDeps) {
     __vite__mapDeps.viteFileDeps = [
-      "assets/LoginPage-BuxQUstA.js",
+      "assets/LoginPage-JDjIHA_8.js",
       "assets/LoginPage-eaGdDaNQ.css",
-      "assets/CharacterList-nkh0jGlh.js",
-      "assets/LoadingView-Nt_PwTKW.js",
+      "assets/CharacterList-h4pdvAZQ.js",
+      "assets/LoadingView-kkrh3aH3.js",
       "assets/LoadingView-qh-7N428.css",
-      "assets/SearchInput-i3UuE3jD.js",
+      "assets/SearchInput-5qWSH1_X.js",
       "assets/SearchInput-jPRLRlnv.css",
-      "assets/ToastNotification-EKQk8LMr.js",
+      "assets/ToastNotification-toS9TYTv.js",
       "assets/ToastNotification-6ONUaJjV.css",
-      "assets/CharacterCard-Wqbu2AiV.js",
+      "assets/CharacterCard-tnb2EJh7.js",
       "assets/share-icon-J6b_MEIl.js",
       "assets/trash-icon-Dl18GMfa.js",
       "assets/exit-icon-7lL51GVi.js",
       "assets/CharacterCard-ocRKK6cr.css",
-      "assets/firebase-Ru_8T3Ny.js",
+      "assets/firebase-L_tEBjIs.js",
       "assets/lodash-gzw5KmHd.js",
       "assets/_commonjsHelpers-4gQjN7DL.js",
       "assets/CharacterList-vQbJMpxE.css",
-      "assets/CampaignsList-Qzg3WMWJ.js",
+      "assets/CampaignsList-tWONIkRA.js",
       "assets/CampaignsList-tS6h-QvO.css",
-      "assets/HomebrewList-aeefWqwB.js",
-      "assets/TabNav-nKMVvS0V.js",
+      "assets/HomebrewList-JfuyJjP4.js",
+      "assets/TabNav-j_803Ij7.js",
       "assets/TabNav-kWs3AKQq.css",
-      "assets/HomebrewItems-kXmFMDGT.js",
-      "assets/PowerCard-GTZtm3mF.js",
+      "assets/HomebrewItems-NUWQlwwm.js",
+      "assets/PowerCard-vJzrod9G.js",
       "assets/show-more-icon-VvUXKiHG.js",
       "assets/add-icon-fJ4uQHUZ.js",
       "assets/PowerCard-AtvhC0iw.css",
       "assets/default-FmxCqAN8.js",
       "assets/forms-8DDAOOVU.js",
-      "assets/SwitchButtonBool-1h96Hblp.js",
+      "assets/SwitchButtonBool-JBNeasf9.js",
       "assets/SwitchButtonBool-VT84EvRG.css",
-      "assets/PictureModal-ZKdikgjw.js",
-      "assets/index.esm2017-qlh1EIrw.js",
+      "assets/PictureModal-CS6twcIk.js",
+      "assets/index.esm2017-Gqqo4uuQ.js",
       "assets/index-qLpZT18D.css",
       "assets/browser-image-compression-9kymdGFS.js",
       "assets/v4-cyCr5FZV.js",
       "assets/PictureModal-yAp0FYnC.css",
-      "assets/RitualCard-THjWGXZM.js",
+      "assets/RitualCard-dQStL6oM.js",
       "assets/d20-icon-vaz1En3o.js",
       "assets/RitualCard-iFNGvJoI.css",
-      "assets/DropdownSimple-1M6YQ3_X.js",
+      "assets/DropdownSimple-zdPsaNr0.js",
       "assets/DropdownSimple-ElMOUPOp.css",
-      "assets/CursedItemCard-oq_feAv4.js",
-      "assets/CardSource-CY4gg4F2.js",
+      "assets/CursedItemCard-rUXqfBnc.js",
+      "assets/CardSource-U0o9Yhdc.js",
       "assets/CardSource-AYATzklZ.css",
       "assets/CursedItemCard-9o2J_eqG.css",
       "assets/HomebrewItems-ZfmZOS3d.css",
-      "assets/CreatureCard-515WasLb.js",
+      "assets/CreatureCard-BE80EGup.js",
       "assets/creatureData-ozdxpDUT.js",
       "assets/CreatureCard-WoznS8aL.css",
-      "assets/CreatureForm-e5NVwGU0.js",
+      "assets/CreatureForm-8t_dCoZG.js",
       "assets/blank-profile-picture-wMh28flS.js",
       "assets/CreatureForm-c_ldYfwU.css",
       "assets/HomebrewList-eMZ2PHJC.css",
-      "assets/HomebrewPowerView-0R_S42qQ.js",
-      "assets/PlayerCard-m8YrqgyO.js",
+      "assets/HomebrewPowerView-6sX-XKWa.js",
+      "assets/PlayerCard-ZlXQGck7.js",
       "assets/PlayerCard-mAVqW8Kc.css",
       "assets/HomebrewPowerView-oH1rxoLq.css",
-      "assets/HomebrewRitualView-MLUfX5bv.js",
+      "assets/HomebrewRitualView-LctqPjAq.js",
       "assets/HomebrewRitualView-A5dhjcNK.css",
-      "assets/HomebrewItemView-PW7ramJG.js",
+      "assets/HomebrewItemView-_lZ5ixXC.js",
       "assets/HomebrewItemView-xVelEn5u.css",
-      "assets/HomebrewCreatureView-Y2SAwRJ7.js",
+      "assets/HomebrewCreatureView-ZROZ30rg.js",
       "assets/HomebrewCreatureView-_m7VsP0t.css",
-      "assets/UserProfile-vjsAx8jz.js",
+      "assets/UserProfile-ojddzk3Y.js",
       "assets/UserProfile-JwlY0uEO.css",
-      "assets/CampaignCreate-KQxxYLbk.js",
+      "assets/CampaignCreate-aMEq5biF.js",
       "assets/CampaignCreate-ZGKciBb7.css",
-      "assets/CampaignEdit-sjm0mIal.js",
+      "assets/CampaignEdit-5sZGRNxR.js",
       "assets/CampaignEdit-g3a8pHRX.css",
-      "assets/CampaignPage-MLe5WO-U.js",
-      "assets/CombatCard-v-x6kF5j.js",
+      "assets/CampaignPage-ZlCT2jPU.js",
+      "assets/CombatCard-Tbhwrew2.js",
       "assets/CombatCard-2RYFPG_X.css",
       "assets/CampaignPage-yuweHY9U.css",
-      "assets/CampaignJoin-ZffovSeZ.js",
+      "assets/CampaignJoin-khkI5vfF.js",
       "assets/CampaignJoin-Y3mQwTGd.css",
-      "assets/CampaignAddAgent-WskDoQ-s.js",
+      "assets/CampaignAddAgent-g4-z6V4_.js",
       "assets/CampaignAddAgent-ak7wNOog.css",
-      "assets/CreateCombat-LBmL_Vhg.js",
-      "assets/creatures-3PDYyihL.js",
+      "assets/CreateCombat-riXIP3_v.js",
+      "assets/creatures-D2g61G-L.js",
       "assets/cultoDaCriacaoContent-BJ8GSvob.js",
-      "assets/marcasFragmentadas-KD4kpdFJ.js",
-      "assets/SourcesNavigation-NjoKV_0d.js",
+      "assets/marcasFragmentadas-oZlJGZUl.js",
+      "assets/SourcesNavigation-hkMXy3yw.js",
       "assets/SourcesNavigation-DUi0J4RQ.css",
-      "assets/CreateCombat-YNxYCjen.css",
-      "assets/EditCombat-aSI93nSU.js",
-      "assets/EditCombat-yKOa2Dla.css",
-      "assets/CampaignPageDenied-YBbQLxG8.js",
+      "assets/CreateCombat-UR3fjhIS.css",
+      "assets/EditCombat-v6WTxDCy.js",
+      "assets/EditCombat-VHdj6GSZ.css",
+      "assets/CampaignPageDenied-V7lh2t8n.js",
       "assets/CampaignPageDenied-gbq2rXKF.css",
-      "assets/MasterScreen-menypJ3P.js",
-      "assets/ToastAttack-ZoMv0quS.js",
+      "assets/MasterScreen-KwfjGyWq.js",
+      "assets/ToastAttack-ZPb774VK.js",
       "assets/edit-icon-3vZQUsyW.js",
       "assets/characterAutomations-VjVSWhq1.js",
-      "assets/dice-roll-L1BgbRVK.js",
+      "assets/dice-roll-GeFqKSV5.js",
       "assets/attributes-pd1IMHTT.js",
       "assets/ToastAttack-Gof2N8fz.css",
-      "assets/ActionModal-oOuhddFs.js",
+      "assets/ActionModal-1ft6vQ7S.js",
       "assets/ActionModal-QdTpAnn5.css",
-      "assets/MasterScreen-fzJs1KDn.css",
-      "assets/CharacterCreation-VpK5G80_.js",
-      "assets/ClassCard-n5bTqxAl.js",
+      "assets/MasterScreen-cK3TyDt_.css",
+      "assets/CharacterCreation-VuymqnUx.js",
+      "assets/ClassCard-OyP1DUhC.js",
       "assets/ClassCard-Ns6rpgJn.css",
       "assets/characterCreationUtils-SAvFPrg8.js",
       "assets/CharacterCreation-ArZnJCil.css",
-      "assets/CharacterSheet-goXcPnso.js",
+      "assets/CharacterSheet-RVsWcXRT.js",
       "assets/CharacterSheet-yqRbvySH.css",
-      "assets/ContactView-rUm7RTAr.js",
+      "assets/ContactView-fI8_6PQ-.js",
       "assets/ContactView-8FCoscjA.css",
-      "assets/CharacterStream-SAObiLU-.js",
+      "assets/CharacterStream-O7RSjZRG.js",
       "assets/CharacterStream-9tlGFTRM.css",
-      "assets/DespertadosStream-XP4ZbqJv.js",
+      "assets/DespertadosStream-aFSPxggL.js",
       "assets/DespertadosStream-K9tcQO7o.css",
-      "assets/GhizzoStream-760jAuHZ.js",
+      "assets/GhizzoStream-YQyddr05.js",
       "assets/GhizzoStream-hkiw4lYC.css",
-      "assets/AguaRicaStream-80TWssv7.js",
+      "assets/AguaRicaStream-yL7H0Wkw.js",
       "assets/AguaRicaStream-mgLHcY_G.css",
-      "assets/CharacterPv-WgAinEPh.js",
+      "assets/CharacterPv-IlYzUbn2.js",
       "assets/CharacterPv-T9RjlDJ-.css",
-      "assets/CharacterSan-ocFlsveL.js",
+      "assets/CharacterSan--n5tnNe-.js",
       "assets/CharacterSan-5FC5fBOx.css",
-      "assets/CharacterPe-1JgtfSSM.js",
+      "assets/CharacterPe-vwR8j3Su.js",
       "assets/CharacterPe-Akcgawku.css",
-      "assets/about-view-_NG21Is4.js",
+      "assets/about-view-ly9YW9TE.js",
       "assets/about-view-iBvomE2y.css",
-      "assets/privacy-policy-jqQm9co3.js",
+      "assets/privacy-policy-rmg7Gg5B.js",
       "assets/privacy-policy-K8p3o3Le.css",
-      "assets/CreaturesList--1TR-oAO.js",
-      "assets/CreaturesList-wVtiCOYA.css",
-      "assets/CreatureSheet-odaoJyUM.js",
+      "assets/CreaturesList-E3fQf_Jf.js",
+      "assets/CreaturesList-sr6HCtLU.css",
+      "assets/CreatureSheet-WHlkM9BZ.js",
       "assets/CreatureSheet-n4j9BMhI.css",
-      "assets/StreamDashboard-OG5Wouuw.js",
+      "assets/StreamDashboard-1W3xPWJD.js",
       "assets/StreamDashboard-DjeFcF5w.css",
-      "assets/InvazoresView-G8rEzOVW.js",
-      "assets/invazoresUtils-BlAwrXBf.js",
-      "assets/InvazoresView-SNvfgoSM.css",
-      "assets/InvazoresLive-Ra3xXDek.js",
+      "assets/InvazoresCharacterList-qfHJty-H.js",
+      "assets/invazoresUtils-_v7hwIVH.js",
+      "assets/InvazoresCharacterList-hwduwhnw.css",
+      "assets/InvazoresView-0uCeyvOH.js",
+      "assets/invazores-moeda-prata-6q8hM6jy.js",
+      "assets/InvazoresView-eVVZ6LfG.css",
+      "assets/InvazoresLive-YYZxyKva.js",
       "assets/InvazoresLive-mqhiisa9.css",
-      "assets/BrutalSheet-SJEpZ9l6.js",
-      "assets/brutal-dice-Yo34zVrM.js",
-      "assets/brutal-dice-icon-XHQvYzst.js",
+      "assets/BrutalSheet-vIgS-we-.js",
+      "assets/brutal-dice-xuG8fn_-.js",
+      "assets/brutal-dice-icon-k_jQOzKR.js",
       "assets/brutal-dice-icon-gq7szUhM.css",
       "assets/BrutalSheet-mVq-6P0C.css",
-      "assets/BrutalDirector-XlvlAWPc.js",
+      "assets/BrutalDirector-kKLKH9x2.js",
       "assets/brutal-mini-fuga-icon-ZC8U7hLU.js",
       "assets/BrutalDirector-Nb6GRkrH.css",
-      "assets/BrutalCamera-ayIFMvmI.js",
+      "assets/BrutalCamera-IfH2TSY3.js",
       "assets/BrutalCamera-qT_ExUwe.css",
-      "assets/OblivioSheet-9Vo75kGp.js",
+      "assets/OblivioSheet-Gz_5uKd3.js",
       "assets/OblivioSheet-AsfP4TmS.css",
-      "assets/blog-view-GTMgP3Bb.js",
-      "assets/BlogList-tSzalywT.js",
+      "assets/blog-view-C19m7k_u.js",
+      "assets/BlogList-FK6tlwep.js",
       "assets/BlogList-vZBULAIh.css",
-      "assets/persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-vvXP_hgH.js",
-      "assets/the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-N-Vp0W5v.js",
-      "assets/mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-mO9S7_tJ.js",
-      "assets/genshin-impact-uma-jornada-alem-dos-limites-Oq5CBGn-.js",
-      "assets/final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva-t4mGVMzv.js",
-      "assets/elden-ring-a-jornada-epica-alem-das-expectativas-K-zPsyWj.js",
-      "assets/divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-nglgwb7s.js",
-      "assets/cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-_Qk6v-5F.js",
-      "assets/assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-8mivZPe9.js",
-      "assets/o-que-e-rpg-de-mesa-phTC6EHu.js",
-      "assets/o-rpg-ordem-paranormal-WR4bAp4r.js",
-      "assets/o-rpg-tormenta20-xtXf2S5G.js",
-      "assets/3d_t-a-porta-de-entrada-pro-rpg-brasileiro-8agTcFX7.js",
-      "assets/vampiro-a-mascara-perdura-ao-longo-das-decadas-03RErnuh.js",
-      "assets/a-popularizacao-de-dungeons-_-dragons-rM5kdf9k.js",
-      "assets/criando-personagens-memoraveis-em-rpg-de-mesa-cGPNqnyt.js",
-      "assets/diferentes-estilos-de-mestres-em-rpg-de-mesa-t9I5SoRG.js",
-      "assets/historia-do-rpg-uma-viagem-pela-evolucao-do-genero-RGajzUvD.js",
-      "assets/gurps-o-rpg-generico-RL-ZUVT1.js",
-      "assets/pathfinder-o-maior-rival-de-dungeons-_-dragons-EBdf2C8d.js",
-      "assets/um-guia-completo-sobre-pathfinder-tzkV8Sjc.js",
-      "assets/os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-vjhi5UtV.js",
-      "assets/fate-core-system-e-o-sistema-mais-facil-do-mundo-6Jvd1btP.js",
-      "assets/dicas-para-mestres-de-rpg-KfogjHIt.js",
-      "assets/criando-um-mundo-de-rpg-personalizado-qzaA3azh.js",
-      "assets/a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-XzXLXcPq.js",
-      "assets/os-beneficios-do-rpg-para-a-vida-real-8v24GH_e.js",
-      "assets/a-influencia-de-d_d-na-cultura-pop-HX_HkJ2x.js",
-      "assets/a-evolucao-das-mecanicas-de-rpg-IKM4eDwn.js",
-      "assets/racas-e-classes-explorando-as-escolhas-de-personagem-5vNlg0vS.js",
-      "assets/o-papel-do-mestre-na-narrativa-de-rpg-hkHfPK2a.js",
-      "assets/mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-wmh0yu_m.js",
-      "assets/o-impacto-da-arte-na-estetica-dos-rpgs-ZJShePgB.js",
-      "assets/a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-W_kGk-j1.js",
-      "assets/mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-LonfSl_z.js",
-      "assets/o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-wgNHhrS7.js",
-      "assets/rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval-av4x8t8g.js",
-      "assets/como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-ZDGUFvsZ.js",
-      "assets/descobrindo-o-mundo-do-rpg-savage-worlds-6_kSfnBS.js",
-      "assets/explorando-os-subgeneros-do-rpg-bZE-DkV2.js",
-      "assets/baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-GINc6SLl.js",
-      "assets/descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-CcDVgBeh.js",
-      "assets/descobrindo-o-universo-do-rpg-world-of-darkness-o3HQMbIG.js",
-      "assets/e-dificil-comecar-a-jogar-rpg-de-mesa-FALLbdNM.js",
-      "assets/a-importancia-da-cooperacao-em-jogos-de-rpg-2BL67SbE.js",
-      "assets/criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-F2pO42uR.js",
-      "assets/o-rpg-como-pilar-da-cultura-geek-e-nerd--1qwiiWg.js",
-      "assets/criando-personagens-complexos-e-multidimensionais-no-rpg-4zQeQcWI.js",
-      "assets/a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-KqSwU6YD.js",
-      "assets/construindo-mundos-de-campanha-de-rpg-atrativos-TPzyaw6Z.js",
-      "assets/o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-jKht6wju.js",
-      "assets/as-origens-e-a-evolucao-dos-dados-de-rpg-gMOy7-HT.js",
-      "assets/rpg-como-ferramenta-de-aprendizado-G_SZcBDi.js",
-      "assets/inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-HHNgIZ-5.js",
-      "assets/o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-NayS8I5E.js",
-      "assets/rpgs-para-criancas-e-iniciantes-F_xezi3a.js",
-      "assets/etica-e-responsabilidade-em-jogos-de-rpg-QYNuYg8I.js",
-      "assets/o-uso-de-ferramentas-digitais-em-mesas-de-rpg-LG6L2kWG.js",
-      "assets/criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-PpW-qvDH.js",
-      "assets/a-influencia-das-artes-marciais-em-personagens-de-rpg-0JtIsQRc.js",
-      "assets/a-diversidade-de-estilos-de-narrativa-em-rpg-G5H4hsev.js",
-      "assets/o-uso-terapeutico-dos-jogos-de-rpg-L4Qhx0Vg.js",
-      "assets/diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-oDHcta3Z.js",
-      "assets/evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-1kYcnTgf.js",
-      "assets/influencia_da_mitologia_em_jogos_de_rpg-iCSFnhRP.js",
-      "assets/rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-UZxKVOFT.js",
-      "assets/impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-3cazxyao.js",
-      "assets/mundo_das_miniaturas_e_cenarios_personalizados-IsiSVfhT.js",
-      "assets/evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-2qjE_kac.js",
-      "assets/historia_e_a_evolucao_dos_larp_live_action_role_playing-k4pK6tvw.js",
-      "assets/jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-7BKux8cK.js",
-      "assets/uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-OYdk2i58.js",
-      "assets/mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-D_fhVgMF.js",
-      "assets/psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-fk0ygHRn.js",
-      "assets/papel_das_ferramentas_de_software_em_jogos_de_rpg-lDFtnShU.js",
-      "assets/historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-OuANDrVx.js",
-      "assets/explorando_a_cultura_do_cosplay_em_rpg-NAdbWxWg.js",
-      "assets/rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-1vw5f_vS.js",
-      "assets/uso_de_simbologia_e_mitologia_em_rpgs-npFuKedq.js",
-      "assets/economia_nos_mundos_de_rpg_moedas_e_comercio-cTdA04_a.js",
-      "assets/importancia_da_diversidade_e_representacao_nos_jogos-YaKsPzED.js",
-      "assets/futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-XW-4wzof.js",
-      "assets/NotFoundView-A7wztnNz.js",
+      "assets/persona-5-strikers-a-continuacao-eletrizante-de-uma-jornada-inesquecivel-xM_18CIr.js",
+      "assets/the-witcher-3-wild-hunt-um-rpg-de-acao-com-uma-narrativa-rica-e-um-vasto-mundo-aberto-i7nBHeDM.js",
+      "assets/mass-effect-legendary-edition-uma-jornada-remasterizada-pelos-confins-da-galaxia-V_1VGpU-.js",
+      "assets/genshin-impact-uma-jornada-alem-dos-limites-swddQ3a5.js",
+      "assets/final-fantasy-xiv-uma-odisseia-virtual-com-comunidade-forte-e-narrativa-imersiva--_xncd2c.js",
+      "assets/elden-ring-a-jornada-epica-alem-das-expectativas-cTpfhDdo.js",
+      "assets/divinity-original-sin-2-desbravando-os-mundos-magicos-do-rpg-tatico-cooperativo-g4mb-kic.js",
+      "assets/cyberpunk-2077-um-rpg-de-acao-futurista-dos-criadores-de-the-witcher-3-sxa4V0DI.js",
+      "assets/assassins-creed-valhalla-a-fusao-magnifica-entre-acao-e-rpg-Cseh6GaY.js",
+      "assets/o-que-e-rpg-de-mesa-Z2yBKP9R.js",
+      "assets/o-rpg-ordem-paranormal-iJgcsehh.js",
+      "assets/o-rpg-tormenta20-koh9sWOv.js",
+      "assets/3d_t-a-porta-de-entrada-pro-rpg-brasileiro-QrdRkdSq.js",
+      "assets/vampiro-a-mascara-perdura-ao-longo-das-decadas-Fo5Qa-8E.js",
+      "assets/a-popularizacao-de-dungeons-_-dragons-HmXPAOG4.js",
+      "assets/criando-personagens-memoraveis-em-rpg-de-mesa-G2IxFSCP.js",
+      "assets/diferentes-estilos-de-mestres-em-rpg-de-mesa-wcUQeGfF.js",
+      "assets/historia-do-rpg-uma-viagem-pela-evolucao-do-genero-k-YHBXOD.js",
+      "assets/gurps-o-rpg-generico-nrcTfvRa.js",
+      "assets/pathfinder-o-maior-rival-de-dungeons-_-dragons--b67xKLb.js",
+      "assets/um-guia-completo-sobre-pathfinder-PXesZbu8.js",
+      "assets/os-sistemas-mais-faceis-e-mais-dificeis-de-rpg-de-mesa-xO0UxWQQ.js",
+      "assets/fate-core-system-e-o-sistema-mais-facil-do-mundo-HywDGSFz.js",
+      "assets/dicas-para-mestres-de-rpg-CBtE1wH1.js",
+      "assets/criando-um-mundo-de-rpg-personalizado-mE1XdlAd.js",
+      "assets/a-psicologia-do-rpg-influencias-na-tomada-de-decisoes-criatividade-e-pensamento-estrategico-euELXl8R.js",
+      "assets/os-beneficios-do-rpg-para-a-vida-real-SPf6jYuv.js",
+      "assets/a-influencia-de-d_d-na-cultura-pop-rj834fH-.js",
+      "assets/a-evolucao-das-mecanicas-de-rpg-9x7IplpG.js",
+      "assets/racas-e-classes-explorando-as-escolhas-de-personagem-7EJL9H77.js",
+      "assets/o-papel-do-mestre-na-narrativa-de-rpg-MhE4FJ_l.js",
+      "assets/mundos-de-campanhas-de-rpg-famosos-forgotten-realms-greyhawk-eberron-Y4xkR_Ch.js",
+      "assets/o-impacto-da-arte-na-estetica-dos-rpgs-5UzkCr2R.js",
+      "assets/a-psicologia-por-tras-das-escolhas-de-personagens-de-rpg-fYEHpi4D.js",
+      "assets/mitos-e-lendas-folcloricas-no-mundo-dos-rpgs-ongs_OL6.js",
+      "assets/o-uso-de-suplementos-e-modulos-de-aventuras-no-rpg-de-mesa-r4DFqd4E.js",
+      "assets/rpgs-alem-do-medieval-fantastico-explorando-rpgs-que-fogem-do-cenario-medieval--zYdu8a0.js",
+      "assets/como-criar-encontros-e-desafios-equilibrados-rpg-de-mesa-5Lb1TIAB.js",
+      "assets/descobrindo-o-mundo-do-rpg-savage-worlds-4DcnmpAC.js",
+      "assets/explorando-os-subgeneros-do-rpg-3XvlcfKa.js",
+      "assets/baldurs-gate-3-o-sucesso-que-esta-encantando-os-jogadores-KEyjryOq.js",
+      "assets/descobrindo-as-qualidades-e-diferencas-do-rpg-apocalypse-world-9-FlEPrY.js",
+      "assets/descobrindo-o-universo-do-rpg-world-of-darkness-VKaj9GZe.js",
+      "assets/e-dificil-comecar-a-jogar-rpg-de-mesa-0lXanpix.js",
+      "assets/a-importancia-da-cooperacao-em-jogos-de-rpg-KGrK59YZ.js",
+      "assets/criando-e-mantendo-uma-campanha-de-rpg-de-longo-prazo-uMvOu2bt.js",
+      "assets/o-rpg-como-pilar-da-cultura-geek-e-nerd-FP9Z2irJ.js",
+      "assets/criando-personagens-complexos-e-multidimensionais-no-rpg-v1eBWS__.js",
+      "assets/a-psicologia-da-imersao-em-jogos-de-rpg-de-mesa-KD0kDMUg.js",
+      "assets/construindo-mundos-de-campanha-de-rpg-atrativos-0jAbS-VS.js",
+      "assets/o-papel-da-musica-e-da-trilha-sonora-em-jogos-de-rpg-BVFhY6Fm.js",
+      "assets/as-origens-e-a-evolucao-dos-dados-de-rpg-mKgAul11.js",
+      "assets/rpg-como-ferramenta-de-aprendizado-3mDHJsR4.js",
+      "assets/inclusao-de-elementos-da-cultura-pop-em-campanhas-de-rpg-gFbP69LS.js",
+      "assets/o-impacto-dos-livros-de-aventura-oficiais-em-campanhas-de-rpg-dYdEKkYY.js",
+      "assets/rpgs-para-criancas-e-iniciantes--JNTMm0i.js",
+      "assets/etica-e-responsabilidade-em-jogos-de-rpg-Hzn-L3XD.js",
+      "assets/o-uso-de-ferramentas-digitais-em-mesas-de-rpg-EN5wKKEY.js",
+      "assets/criando-e-jogando-em-cenarios-de-rpg-pos-apocalipticos-F5Y5EXpp.js",
+      "assets/a-influencia-das-artes-marciais-em-personagens-de-rpg-d_W7EMnj.js",
+      "assets/a-diversidade-de-estilos-de-narrativa-em-rpg-Kn7MKIr-.js",
+      "assets/o-uso-terapeutico-dos-jogos-de-rpg-hSCAPzW8.js",
+      "assets/diferenca_entre_rpgs_de_mesa_e_rpgs_eletronicos-wPsUfjI8.js",
+      "assets/evolucao_das_mecanicas_de_rpg_de_gygax_a_gurps-XAQ6_yEG.js",
+      "assets/influencia_da_mitologia_em_jogos_de_rpg-VGT0hP51.js",
+      "assets/rgps_de_super_herois_explorando_os_poderes_e_desafios_um_guia_sobre_como_jogar_rpgs_de_super_herois-6r0nW12L.js",
+      "assets/impacto_da_tecnologia_rpgs_de_realidade_virtual_e_aumentada-8Gq8Q-OG.js",
+      "assets/mundo_das_miniaturas_e_cenarios_personalizados-BIgrFpln.js",
+      "assets/evolucao_do_rpg_mobile_jogos_de_rpg_para_dispositivos_moveis-BDDq2btL.js",
+      "assets/historia_e_a_evolucao_dos_larp_live_action_role_playing-5WsHAR_T.js",
+      "assets/jogos_de_rpg_e_empreendedorismo_criando_e_publicando_seu_proprio_rpg-2dm8xQjT.js",
+      "assets/uso_de_enigmas_e_quebra_cabecas_em_campanhas_de_rpg-iDgt5prl.js",
+      "assets/mundos_de_rpg_baseados_em_literatura_classica_cenarios_de_sherlock_holmes_ou_alice_no_pais_das_maravilhas-hP6umi9H.js",
+      "assets/psicologia_dos_viloes_em_rpg_criando_antagonistas_cativantes-PoS19bYV.js",
+      "assets/papel_das_ferramentas_de_software_em_jogos_de_rpg-ar_fGwQq.js",
+      "assets/historia_de_sucesso_no_mundo_dos_rpgs_de_jogadores_a_autores_de_jogos-0gQ4_SgG.js",
+      "assets/explorando_a_cultura_do_cosplay_em_rpg-H69-8Gwc.js",
+      "assets/rpgs_de_construcao_de_imperios_explorando_o_aspecto_estrategico-RyMEzm_y.js",
+      "assets/uso_de_simbologia_e_mitologia_em_rpgs-2F133dFK.js",
+      "assets/economia_nos_mundos_de_rpg_moedas_e_comercio-uKFGpNhJ.js",
+      "assets/importancia_da_diversidade_e_representacao_nos_jogos-3KOgyq1l.js",
+      "assets/futuro_dos_jogos_em_nuvem_streaming_plataformas_de_assinaturas-Ux61LvT4.js",
+      "assets/NotFoundView-o_QKe19P.js",
       "assets/NotFoundView-imReMPlA.css",
       "assets/quill-OFcVbw76.js",
     ];

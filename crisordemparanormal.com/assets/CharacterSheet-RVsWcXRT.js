@@ -48,15 +48,15 @@ import {
   l as Ft,
   y as Nt,
   z as Bt,
-} from "./index-2ot72JdB.js";
+} from "./index-4umHKyHu.js";
 import {
   g as Qt,
   r as Eo,
   b as Gt,
   u as Xt,
   a as Wt,
-} from "./index.esm2017-qlh1EIrw.js";
-import { T as Kt } from "./ToastNotification-EKQk8LMr.js";
+} from "./index.esm2017-Gqqo4uuQ.js";
+import { T as Kt } from "./ToastNotification-toS9TYTv.js";
 import {
   n as ua,
   I as Ue,
@@ -94,17 +94,17 @@ import {
   E as Er,
   G as Pr,
   H as Sr,
-} from "./ToastAttack-ZoMv0quS.js";
+} from "./ToastAttack-ZPb774VK.js";
 import { _ as _o } from "./d20-icon-vaz1En3o.js";
-import { T as ge } from "./TabNav-nKMVvS0V.js";
-import { P as Qe } from "./PowerCard-GTZtm3mF.js";
-import { R as zo } from "./RitualCard-THjWGXZM.js";
+import { T as ge } from "./TabNav-j_803Ij7.js";
+import { P as Qe } from "./PowerCard-vJzrod9G.js";
+import { R as zo } from "./RitualCard-dQStL6oM.js";
 import {
   W as Oo,
   P as Uo,
   M as Ho,
   C as Lo,
-} from "./CursedItemCard-oq_feAv4.js";
+} from "./CursedItemCard-rUXqfBnc.js";
 import {
   S as ga,
   H as kr,
@@ -117,12 +117,12 @@ import {
   P as No,
   M as ca,
   c as Bo,
-} from "./HomebrewItems-kXmFMDGT.js";
+} from "./HomebrewItems-NUWQlwwm.js";
 import { c as Me } from "./attributes-pd1IMHTT.js";
-import { S as Ae } from "./SearchInput-i3UuE3jD.js";
-import { b as $r, c as wr } from "./ClassCard-n5bTqxAl.js";
-import { b as Dr, c as Tr } from "./marcasFragmentadas-KD4kpdFJ.js";
-import { S as va } from "./SourcesNavigation-NjoKV_0d.js";
+import { S as Ae } from "./SearchInput-5qWSH1_X.js";
+import { b as $r, c as wr } from "./ClassCard-OyP1DUhC.js";
+import { b as Dr, c as Tr } from "./marcasFragmentadas-oZlJGZUl.js";
+import { S as va } from "./SourcesNavigation-hkMXy3yw.js";
 import { a as Vr, b as _r } from "./cultoDaCriacaoContent-BJ8GSvob.js";
 import {
   d as $e,
@@ -136,24 +136,24 @@ import {
 } from "./default-FmxCqAN8.js";
 import { b as xr } from "./forms-8DDAOOVU.js";
 import { _ as Le, l as ko } from "./lodash-gzw5KmHd.js";
-import { D as Pe } from "./DropdownSimple-1M6YQ3_X.js";
-import { P as ha } from "./PictureModal-ZKdikgjw.js";
+import { D as Pe } from "./DropdownSimple-zdPsaNr0.js";
+import { P as ha } from "./PictureModal-CS6twcIk.js";
 import { v as xe } from "./v4-cyCr5FZV.js";
-import { S as we } from "./SwitchButtonBool-1h96Hblp.js";
+import { S as we } from "./SwitchButtonBool-JBNeasf9.js";
 import { _ as De } from "./blank-profile-picture-wMh28flS.js";
-import { L as jr } from "./LoadingView-Nt_PwTKW.js";
+import { L as jr } from "./LoadingView-kkrh3aH3.js";
 import {
   s as Xo,
   e as Fr,
   o as Nr,
   c as Br,
 } from "./characterAutomations-VjVSWhq1.js";
-import { u as Qr, d as Gr } from "./dice-roll-L1BgbRVK.js";
-import { g as Xr, C as Wr } from "./firebase-Ru_8T3Ny.js";
+import { u as Qr, d as Gr } from "./dice-roll-GeFqKSV5.js";
+import { g as Xr, C as Wr } from "./firebase-L_tEBjIs.js";
 import "./edit-icon-3vZQUsyW.js";
 import "./show-more-icon-VvUXKiHG.js";
 import "./add-icon-fJ4uQHUZ.js";
-import "./CardSource-CY4gg4F2.js";
+import "./CardSource-U0o9Yhdc.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
 import "./browser-image-compression-9kymdGFS.js";
 const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
@@ -515,7 +515,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                 e(
                   "h4",
                   null,
-                  U(r.character.isPdOn ? "DP / TURNO" : "EP / TURNO"),
+                  U(r.character.isPdOn ? "DP / TURN" : "EP / TURN"),
                   1
                 ),
               ]),
@@ -2772,7 +2772,7 @@ const Kr = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         d = P(""),
         r = (l) => v("handleAddPower", l);
       ke(() => {
-        u.value.push({ label: `Poderes de ${p.classValue.name}`, value: 0 }),
+        u.value.push({ label: `${p.classValue.name} Powers`, value: 0 }),
           p.classValue.paths.forEach((l, q) => {
             u.value.push({ label: l.name, value: q + 1 }), g.value.push(l);
           });

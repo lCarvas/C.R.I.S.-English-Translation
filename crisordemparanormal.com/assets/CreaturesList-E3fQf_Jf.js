@@ -1,48 +1,48 @@
 import {
-  c as P,
-  A as S,
-  K as y,
-  E as T,
+  c as S,
+  A as y,
+  K as T,
+  E as w,
   D as k,
-  B as w,
-  F as N,
-  R as B,
-  T as D,
-} from "./creatures-3PDYyihL.js";
-import { c as L } from "./cultoDaCriacaoContent-BJ8GSvob.js";
-import { C as x } from "./CreatureCard-515WasLb.js";
-import { T as E } from "./TabNav-nKMVvS0V.js";
+  B as N,
+  F as B,
+  R as D,
+  T as L,
+} from "./creatures-D2g61G-L.js";
+import { c as x } from "./cultoDaCriacaoContent-BJ8GSvob.js";
+import { C as E } from "./CreatureCard-BE80EGup.js";
+import { T as F } from "./TabNav-j_803Ij7.js";
 import {
-  d as F,
-  g as I,
-  r as l,
-  e as M,
-  f as p,
-  h as V,
+  d as I,
+  g as M,
+  r as s,
+  e as V,
+  f as b,
+  h as U,
   o as u,
   c,
   a as n,
   k as m,
-  v as U,
-  m as A,
-  n as H,
-  q as R,
-  p as z,
-  b as K,
+  v as A,
+  m as H,
+  n as R,
+  q as z,
+  p as K,
+  b as j,
   H as C,
-  _ as j,
-} from "./index-2ot72JdB.js";
-import { g as q } from "./firebase-Ru_8T3Ny.js";
-import { L as O } from "./LoadingView-Nt_PwTKW.js";
-import { b as s } from "./creatureData-ozdxpDUT.js";
-import { S as G } from "./SearchInput-i3UuE3jD.js";
-import { S as J } from "./SourcesNavigation-NjoKV_0d.js";
-import { m as Q } from "./marcasFragmentadas-KD4kpdFJ.js";
+  _ as q,
+} from "./index-4umHKyHu.js";
+import { g as O } from "./firebase-L_tEBjIs.js";
+import { L as G } from "./LoadingView-kkrh3aH3.js";
+import { b as l } from "./creatureData-ozdxpDUT.js";
+import { S as J } from "./SearchInput-5qWSH1_X.js";
+import { S as Q } from "./SourcesNavigation-hkMXy3yw.js";
+import { m as W } from "./marcasFragmentadas-oZlJGZUl.js";
 import "./share-icon-J6b_MEIl.js";
 import "./trash-icon-Dl18GMfa.js";
-const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
-  X = { key: 0 },
-  Y = W(() =>
+const X = (i) => (K("data-v-d718b6bb"), (i = i()), j(), i),
+  Y = { key: 0 },
+  Z = X(() =>
     n(
       "div",
       { class: "info-container" },
@@ -56,11 +56,11 @@ const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
       -1
     )
   ),
-  Z = { class: "creatures-list-container" },
-  $ = { class: "tab-nav-container" },
-  aa = { class: "creature-cards-container" },
-  ea = { key: 1 },
-  ra = F({
+  $ = { class: "creatures-list-container" },
+  aa = { class: "tab-nav-container" },
+  ea = { class: "creature-cards-container" },
+  ra = { key: 1 },
+  oa = I({
     __name: "CreaturesList",
     setup(i) {
       const g = [
@@ -72,58 +72,61 @@ const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
           { label: "Fear", value: 5 },
           { label: "Reality", value: 6 },
         ],
-        v = I(),
-        f = l(!0),
-        b = l(0),
-        a = l(0),
-        d = l(""),
-        e = l("ordemParanormal");
-      M(async () => {
+        v = M(),
+        f = s(!0),
+        h = s(0),
+        a = s(0),
+        d = s(""),
+        e = s("ordemParanormal"),
+        p = s([]);
+      V(async () => {
         v.currentUser &&
-          ((b.value = await q(v.currentUser.uid)), (f.value = !1));
+          ((h.value = await O(v.currentUser.uid)),
+          (p.value = await W()),
+          (f.value = !1));
       });
-      const h = p(() => {
+      const _ = b(() => {
           let r = [];
           return (
-            e.value === "ordemParanormal" && a.value === 0 && (r = S),
-            e.value === "ordemParanormal" && a.value === 1 && (r = y),
-            e.value === "ordemParanormal" && a.value === 2 && (r = T),
+            e.value === "ordemParanormal" && a.value === 0 && (r = y),
+            e.value === "ordemParanormal" && a.value === 1 && (r = T),
+            e.value === "ordemParanormal" && a.value === 2 && (r = w),
             e.value === "ordemParanormal" && a.value === 3 && (r = k),
-            e.value === "ordemParanormal" && a.value === 4 && (r = w),
-            e.value === "ordemParanormal" && a.value === 5 && (r = N),
-            e.value === "ordemParanormal" && a.value === 6 && (r = B),
-            e.value === "tocaDosMonstros" && (r = D),
-            e.value === "cultoDaCriacao" && (r = L),
-            e.value === "marcasFragmentadas" && (r = Q),
+            e.value === "ordemParanormal" && a.value === 4 && (r = N),
+            e.value === "ordemParanormal" && a.value === 5 && (r = B),
+            e.value === "ordemParanormal" && a.value === 6 && (r = D),
+            e.value === "tocaDosMonstros" && (r = L),
+            e.value === "cultoDaCriacao" && (r = x),
+            e.value === "marcasFragmentadas" && (r = p.value),
             e.value === "comunidade" &&
-              (r = P.sort((o, t) => o.name.localeCompare(t.name))),
-            r.filter((o) => V(o.name, d.value))
+              (r = S.sort((o, t) => o.name.localeCompare(t.name))),
+            r.filter((o) => U(o.name, d.value))
           );
         }),
-        _ = p(() =>
+        P = b(() =>
           a.value === 1
-            ? s.conhecimento.color
+            ? l.conhecimento.color
             : a.value === 2
-            ? s.energia.color
+            ? l.energia.color
             : a.value === 3
-            ? s.morte.color
+            ? l.morte.color
             : a.value === 4
-            ? s.sangue.color
+            ? l.sangue.color
             : a.value === 5
-            ? s.medo.color
+            ? l.medo.color
             : a.value === 6
-            ? s.realidade.color
+            ? l.realidade.color
             : "var(--color-primary)"
         );
       return (r, o) =>
         f.value
-          ? (u(), c("div", ea, [m(O)]))
+          ? (u(), c("div", ra, [m(G)]))
           : (u(),
-            c("div", X, [
-              Y,
-              n("div", Z, [
+            c("div", Y, [
+              Z,
+              n("div", $, [
                 m(
-                  J,
+                  Q,
                   {
                     "current-source": e.value,
                     "show-toca-dos-monstros": "",
@@ -137,16 +140,16 @@ const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
                   8,
                   ["current-source"]
                 ),
-                n("div", $, [
+                n("div", aa, [
                   e.value === "ordemParanormal"
                     ? (u(),
-                      U(
-                        E,
+                      A(
+                        F,
                         {
                           key: 0,
                           "current-tab": a.value,
                           "tab-options": g,
-                          "alt-color": _.value,
+                          "alt-color": P.value,
                           "font-size-big": "",
                           onHandleNavigation:
                             o[1] || (o[1] = (t) => (a.value = t)),
@@ -155,9 +158,9 @@ const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
                         8,
                         ["current-tab", "alt-color"]
                       ))
-                    : A("", !0),
+                    : H("", !0),
                   m(
-                    G,
+                    J,
                     {
                       value: d.value,
                       onUpdate: o[2] || (o[2] = (t) => (d.value = t)),
@@ -167,17 +170,17 @@ const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
                     ["value"]
                   ),
                 ]),
-                n("div", aa, [
+                n("div", ea, [
                   (u(!0),
                   c(
-                    H,
+                    R,
                     null,
-                    R(
-                      h.value,
+                    z(
+                      _.value,
                       (t) => (
                         u(),
                         c("div", { key: t.id, class: "align-creatures" }, [
-                          m(x, { creature: t, "is-default": "" }, null, 8, [
+                          m(E, { creature: t, "is-default": "" }, null, 8, [
                             "creature",
                           ]),
                         ])
@@ -190,5 +193,5 @@ const W = (i) => (z("data-v-ac855a96"), (i = i()), K(), i),
             ]));
     },
   }),
-  Ca = j(ra, [["__scopeId", "data-v-ac855a96"]]);
+  Ca = q(oa, [["__scopeId", "data-v-d718b6bb"]]);
 export { Ca as default };

@@ -29,17 +29,17 @@ import {
   D as E,
   a3 as me,
   J as ve,
-} from "./index-2ot72JdB.js";
+} from "./index-4umHKyHu.js";
 import { _ as te, a as pe } from "./edit-icon-3vZQUsyW.js";
 import { b as $, d as _e, c as he, a as be } from "./creatureData-ozdxpDUT.js";
 import { _ as ae } from "./d20-icon-vaz1En3o.js";
 import { _ as $e } from "./show-more-icon-VvUXKiHG.js";
-import { T as ne } from "./TabNav-nKMVvS0V.js";
-import { C as fe } from "./CardSource-CY4gg4F2.js";
+import { T as ne } from "./TabNav-j_803Ij7.js";
+import { C as fe } from "./CardSource-U0o9Yhdc.js";
 import { h as Q } from "./default-FmxCqAN8.js";
 import { i as ge } from "./forms-8DDAOOVU.js";
 import { _ as G, l as F } from "./lodash-gzw5KmHd.js";
-import { D as J } from "./DropdownSimple-1M6YQ3_X.js";
+import { D as J } from "./DropdownSimple-zdPsaNr0.js";
 import { v as K } from "./v4-cyCr5FZV.js";
 const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
   ye = { class: "info-bar" },

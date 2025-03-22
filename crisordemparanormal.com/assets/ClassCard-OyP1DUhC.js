@@ -18,8 +18,8 @@ import {
   j as _,
   x as S,
   T as V,
-} from "./index-2ot72JdB.js";
-import { P as E } from "./PowerCard-GTZtm3mF.js";
+} from "./index-4umHKyHu.js";
+import { P as E } from "./PowerCard-vJzrod9G.js";
 import { _ as z } from "./show-more-icon-VvUXKiHG.js";
 const Xa = [
     {
@@ -162,8 +162,7 @@ const Xa = [
       power: {
         name: "Heavy Hitter",
         hasAutomation: !1,
-        description:
-          "You receive +2 on damage rolls on melee attacks.",
+        description: "You receive +2 on damage rolls on melee attacks.",
       },
     },
     {
@@ -188,8 +187,7 @@ const Xa = [
         hasAutomation: !0,
         isAutomationOn: !0,
         automationId: "mobilidade-acrobatica",
-        description:
-          "You gain +2 Defense and your movement increases by +3m.",
+        description: "You gain +2 Defense and your movement increases by +3m.",
       },
     },
     {
@@ -297,7 +295,7 @@ const Xa = [
         name: "Field Class",
         hasAutomation: !1,
         description:
-        "You know how to bring out the best in people. Once per scene, you can use a standard action and 2 EP to give +1 to any attribute of a different character in short range until the end of the scene",
+          "You know how to bring out the best in people. Once per scene, you can use a standard action and 2 EP to give +1 to any attribute of a different character in short range until the end of the scene",
       },
     },
     {
@@ -427,7 +425,7 @@ const Xa = [
     {
       name: "Writer",
       description:
-      "<p>Você ganhava a vida inventando mundos, pessoas e histórias - em outra palavras, escrevendo ficção. Em certo momento, seu trabalho tocou ou foi tocado pelo paranormal Talvez as suas histórias tenham gerado Medo, talvez a inspiração para ela viesse do Outro Lado desde o início. Recrutado pela Ordem, você agora luta para que a vida real tenha o final feliz que seus livros não tiveram.</p>",
+        "<p>Você ganhava a vida inventando mundos, pessoas e histórias - em outra palavras, escrevendo ficção. Em certo momento, seu trabalho tocou ou foi tocado pelo paranormal Talvez as suas histórias tenham gerado Medo, talvez a inspiração para ela viesse do Outro Lado desde o início. Recrutado pela Ordem, você agora luta para que a vida real tenha o final feliz que seus livros não tiveram.</p>",
       skills: ["Arts", "Current Affairs"],
       power: {
         name: "Bagagem de Leitura",
@@ -672,12 +670,7 @@ const Xa = [
       return (c, g) => (
         s(),
         i("div", la, [
-          a(
-            "h3",
-            null,
-            o(e.charClass.name.toUpperCase()) + " ABILITIES",
-            1
-          ),
+          a("h3", null, o(e.charClass.name.toUpperCase()) + " ABILITIES", 1),
           (s(!0),
           i(
             f,
@@ -715,7 +708,7 @@ const Xa = [
                   a(
                     "span",
                     null,
-                    o(t.name) + " " + o(e.charClass.name) + ". ",
+                    o(e.charClass.name) + " " + o(t.name) + ". ",
                     1
                   ),
                   C(o(t.description), 1),

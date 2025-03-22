@@ -1,85 +1,87 @@
 import {
-  d as H,
-  g as V,
-  M as U,
-  u as L,
-  S as q,
+  d as V,
+  g as U,
+  M as L,
+  u as q,
+  S as K,
   r as n,
-  f as K,
-  h as O,
-  e as Q,
-  R as Y,
-  F as j,
-  B as z,
-  l as G,
+  f as O,
+  h as Q,
+  e as Y,
+  R as j,
+  F as z,
+  B as G,
+  l as J,
   o as u,
   c,
   a as e,
-  C as J,
-  D as W,
-  t as X,
-  k as d,
-  m as Z,
-  n as T,
-  q as N,
-  N as $,
-  Y as aa,
-  P as ea,
-  p as sa,
-  b as ta,
-  _ as ra,
-} from "./index-2ot72JdB.js";
+  C as W,
+  D as X,
+  t as Z,
+  k as i,
+  m as $,
+  n as N,
+  q as R,
+  N as aa,
+  Y as ea,
+  P as sa,
+  p as ta,
+  b as ra,
+  _ as oa,
+} from "./index-4umHKyHu.js";
 import {
-  A as oa,
-  K as la,
-  E as na,
-  D as ua,
-  B as ca,
+  A as la,
+  K as na,
+  E as ua,
+  D as ca,
+  B as ia,
   F as da,
-  R as ia,
-  T as ma,
-  c as va,
-} from "./creatures-3PDYyihL.js";
-import { m as pa } from "./marcasFragmentadas-KD4kpdFJ.js";
-import { c as ha } from "./cultoDaCriacaoContent-BJ8GSvob.js";
-import { C as R } from "./CreatureCard-515WasLb.js";
-import { T as _a } from "./TabNav-nKMVvS0V.js";
-import { S as ba } from "./SearchInput-i3UuE3jD.js";
+  R as ma,
+  T as va,
+  c as pa,
+} from "./creatures-D2g61G-L.js";
+import { m as ha } from "./marcasFragmentadas-oZlJGZUl.js";
+import { c as _a } from "./cultoDaCriacaoContent-BJ8GSvob.js";
+import { C as k } from "./CreatureCard-BE80EGup.js";
+import { T as ba } from "./TabNav-j_803Ij7.js";
+import { S as fa } from "./SearchInput-5qWSH1_X.js";
 import { a as _ } from "./default-FmxCqAN8.js";
-import { l as b, _ as fa } from "./lodash-gzw5KmHd.js";
-import { S as Ca } from "./SourcesNavigation-NjoKV_0d.js";
-import { v as k } from "./v4-cyCr5FZV.js";
+import { l as b, _ as Ca } from "./lodash-gzw5KmHd.js";
+import { S as ga } from "./SourcesNavigation-hkMXy3yw.js";
+import { v as x } from "./v4-cyCr5FZV.js";
 import "./share-icon-J6b_MEIl.js";
 import "./trash-icon-Dl18GMfa.js";
 import "./creatureData-ozdxpDUT.js";
 import "./_commonjsHelpers-4gQjN7DL.js";
-const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
-  ga = { class: "create-combat-container" },
-  wa = { class: "combat-header-container" },
-  Sa = { class: "create-combat-header" },
-  Da = ["disabled"],
+const h = (d) => (ta("data-v-2427c350"), (d = d()), ra(), d),
+  wa = { class: "create-combat-container" },
+  Sa = { class: "combat-header-container" },
+  Da = { class: "create-combat-header" },
   ya = ["disabled"],
-  Pa = { class: "combat-info-row" },
-  Ta = { class: "input-container" },
-  Na = h(() => e("div", { class: "label" }, " Name* ", -1)),
-  Ra = { class: "vd-container" },
-  ka = h(() => e("div", { class: "vd-label" }, " Total DV ", -1)),
-  xa = { class: "vd-value" },
-  Ma = { class: "combat-lists-container" },
-  Aa = { class: "creatures-list" },
-  Ba = { class: "creatures-list-header" },
-  Fa = h(() => e("div", { class: "creatures-title" }, " Threat List ", -1)),
-  Ia = { key: 0, class: "tab-nav-container" },
-  Ea = { class: "creature-cards-container creatures-card-mobile" },
-  Ha = { class: "creatures-list-add" },
-  Va = h(() =>
+  Pa = ["disabled"],
+  Ta = { class: "combat-info-row" },
+  Na = { class: "input-container" },
+  Ra = h(() => e("div", { class: "label" }, " Name* ", -1)),
+  ka = { class: "vd-container" },
+  xa = h(() => e("div", { class: "vd-label" }, " Total DV ", -1)),
+  Ma = { class: "vd-value" },
+  Aa = { class: "combat-lists-container" },
+  Ba = { class: "creatures-list" },
+  Fa = { class: "creatures-list-header" },
+  Ia = h(() =>
+    e("div", { class: "creatures-title" }, " Threat List ", -1)
+  ),
+  Ea = { key: 0, class: "tab-nav-container" },
+  Ha = { class: "creature-cards-container creatures-card-mobile" },
+  Va = { class: "creatures-list-add" },
+  Ua = h(() =>
     e("div", { class: "creatures-title-add" }, " Selected Threats ", -1)
   ),
-  Ua = { class: "creature-cards-container-add creatures-card-mobile" },
-  La = H({
+  La = { class: "creature-cards-container-add creatures-card-mobile" },
+  qa = V({
     __name: "CreateCombat",
-    setup(i) {
-      const x = [
+    setup(d) {
+      const M = [
           { label: "All", value: 0 },
           { label: "Knowledge", value: 1 },
           { label: "Energy", value: 2 },
@@ -89,105 +91,106 @@ const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
           { label: "Reality", value: 6 },
           { label: "Homebrew", value: 7 },
         ],
-        f = V(),
-        C = U(),
-        g = L(),
-        m = q().params.id,
+        f = U(),
+        C = L(),
+        g = q(),
+        m = K().params.id,
         v = n(!0),
         t = n(b.cloneDeep(_)),
         l = n(0),
         p = n(""),
         w = n(),
         r = n("ordemParanormal"),
-        M = K(() => {
+        S = n([]),
+        A = O(() => {
           let a = [];
           return (
-            r.value === "ordemParanormal" && l.value === 0 && (a = oa),
-            r.value === "ordemParanormal" && l.value === 1 && (a = la),
-            r.value === "ordemParanormal" && l.value === 2 && (a = na),
-            r.value === "ordemParanormal" && l.value === 3 && (a = ua),
-            r.value === "ordemParanormal" && l.value === 4 && (a = ca),
+            r.value === "ordemParanormal" && l.value === 0 && (a = la),
+            r.value === "ordemParanormal" && l.value === 1 && (a = na),
+            r.value === "ordemParanormal" && l.value === 2 && (a = ua),
+            r.value === "ordemParanormal" && l.value === 3 && (a = ca),
+            r.value === "ordemParanormal" && l.value === 4 && (a = ia),
             r.value === "ordemParanormal" && l.value === 5 && (a = da),
-            r.value === "ordemParanormal" && l.value === 6 && (a = ia),
+            r.value === "ordemParanormal" && l.value === 6 && (a = ma),
             r.value === "ordemParanormal" &&
               l.value === 7 &&
               (a = w.value || []),
-            r.value === "tocaDosMonstros" && (a = ma),
-            r.value === "cultoDaCriacao" && (a = ha),
-            r.value === "marcasFragmentadas" && (a = pa),
-            r.value === "comunidade" && (a = va),
-            a.filter((s) => O(s.name, p.value))
+            r.value === "tocaDosMonstros" && (a = va),
+            r.value === "cultoDaCriacao" && (a = _a),
+            r.value === "marcasFragmentadas" && (a = S.value),
+            r.value === "comunidade" && (a = pa),
+            a.filter((s) => Q(s.name, p.value))
           );
         });
-      Q(async () => {
-        var D;
+      Y(async () => {
+        var y;
         if (!f.currentUser) return;
-        const a = Y(C, "homebrewCreatures"),
-          s = j(
+        const a = j(C, "homebrewCreatures"),
+          s = z(
             a,
-            z("uid", "==", (D = f.currentUser) == null ? void 0 : D.uid)
+            G("uid", "==", (y = f.currentUser) == null ? void 0 : y.uid)
           ),
-          o = await G(s),
-          S = [];
-        for (const y of o.docs) {
-          const P = y.data();
-          (P.id = y.id), S.push(P);
+          o = await J(s),
+          D = [];
+        for (const P of o.docs) {
+          const T = P.data();
+          (T.id = P.id), D.push(T);
         }
-        (w.value = S), (v.value = !1);
+        (w.value = D), (S.value = await ha()), (v.value = !1);
       });
-      const A = (a) => {
+      const B = (a) => {
           (l.value = a), (p.value = "");
         },
-        B = () => {
+        F = () => {
           (t.value = b.cloneDeep(_)),
             g.push({ name: "campaign-page", params: { id: m } });
         },
-        F = async () => {
+        I = async () => {
           t.value.name !== "" &&
             m &&
             ((v.value = !0),
-            (t.value.id = k()),
-            await $(ea(C, "campaigns", m), { combats: aa(t.value) }),
+            (t.value.id = x()),
+            await aa(sa(C, "campaigns", m), { combats: ea(t.value) }),
             (t.value = b.cloneDeep(_)),
             g.push({ name: "campaign-page", params: { id: m } }));
         },
-        I = (a) => {
-          const s = fa.cloneDeep(a);
-          (s.id = k()), (t.value.vdTotal += s.vd), t.value.creatures.push(s);
-        },
         E = (a) => {
+          const s = Ca.cloneDeep(a);
+          (s.id = x()), (t.value.vdTotal += s.vd), t.value.creatures.push(s);
+        },
+        H = (a) => {
           const s = t.value.creatures.findIndex((o) => o.id === a);
           (t.value.vdTotal -= t.value.creatures[s].vd),
             t.value.creatures.splice(s, 1);
         };
       return (a, s) => (
         u(),
-        c("div", ga, [
-          e("div", wa, [
-            e("div", Sa, [
+        c("div", wa, [
+          e("div", Sa, [
+            e("div", Da, [
               e(
                 "button",
-                { class: "button-secondary", disabled: v.value, onClick: B },
+                { class: "button-secondary", disabled: v.value, onClick: F },
                 " Quit without saving ",
                 8,
-                Da
+                ya
               ),
               e(
                 "button",
                 {
                   class: "button-primary",
                   disabled: v.value || t.value.name === "",
-                  onClick: F,
+                  onClick: I,
                 },
                 " Save ",
                 8,
-                ya
+                Pa
               ),
             ]),
-            e("div", Pa, [
-              e("div", Ta, [
-                Na,
-                J(
+            e("div", Ta, [
+              e("div", Na, [
+                Ra,
+                W(
                   e(
                     "input",
                     {
@@ -198,16 +201,16 @@ const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
                     null,
                     512
                   ),
-                  [[W, t.value.name]]
+                  [[X, t.value.name]]
                 ),
               ]),
-              e("div", Ra, [ka, e("div", xa, X(t.value.vdTotal), 1)]),
+              e("div", ka, [xa, e("div", Ma, Z(t.value.vdTotal), 1)]),
             ]),
           ]),
-          e("div", Ma, [
-            e("div", Aa, [
-              d(
-                Ca,
+          e("div", Aa, [
+            e("div", Ba, [
+              i(
+                ga,
                 {
                   "current-source": r.value,
                   "show-toca-dos-monstros": "",
@@ -221,10 +224,10 @@ const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
                 8,
                 ["current-source"]
               ),
-              e("div", Ba, [
-                Fa,
-                d(
-                  ba,
+              e("div", Fa, [
+                Ia,
+                i(
+                  fa,
                   {
                     value: p.value,
                     small: "",
@@ -236,38 +239,38 @@ const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
                 ),
                 r.value === "ordemParanormal"
                   ? (u(),
-                    c("div", Ia, [
-                      d(
-                        _a,
+                    c("div", Ea, [
+                      i(
+                        ba,
                         {
                           "current-tab": l.value,
-                          "tab-options": x,
-                          onHandleNavigation: A,
+                          "tab-options": M,
+                          onHandleNavigation: B,
                         },
                         null,
                         8,
                         ["current-tab"]
                       ),
                     ]))
-                  : Z("", !0),
+                  : $("", !0),
               ]),
-              e("div", Ea, [
+              e("div", Ha, [
                 (u(!0),
                 c(
-                  T,
+                  N,
                   null,
-                  N(
-                    M.value,
+                  R(
+                    A.value,
                     (o) => (
                       u(),
                       c("div", { key: o.id }, [
-                        d(
-                          R,
+                        i(
+                          k,
                           {
                             creature: o,
                             "is-default": "",
                             "can-add": "",
-                            onHandleAdd: I,
+                            onHandleAdd: E,
                           },
                           null,
                           8,
@@ -280,25 +283,25 @@ const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
                 )),
               ]),
             ]),
-            e("div", Ha, [
-              Va,
-              e("div", Ua, [
+            e("div", Va, [
+              Ua,
+              e("div", La, [
                 (u(!0),
                 c(
-                  T,
+                  N,
                   null,
-                  N(
+                  R(
                     t.value.creatures,
                     (o) => (
                       u(),
                       c("div", { key: o.id }, [
-                        d(
-                          R,
+                        i(
+                          k,
                           {
                             creature: o,
                             "is-default": "",
                             "can-remove": "",
-                            onHandleRemove: E,
+                            onHandleRemove: H,
                           },
                           null,
                           8,
@@ -316,5 +319,5 @@ const h = (i) => (sa("data-v-377bac41"), (i = i()), ta(), i),
       );
     },
   }),
-  te = ra(La, [["__scopeId", "data-v-377bac41"]]);
-export { te as default };
+  re = oa(qa, [["__scopeId", "data-v-2427c350"]]);
+export { re as default };

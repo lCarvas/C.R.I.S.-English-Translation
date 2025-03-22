@@ -15,7 +15,7 @@ import {
   p as F,
   b as H,
   _ as P,
-} from "./index-2ot72JdB.js";
+} from "./index-4umHKyHu.js";
 import { _ as x, a as O } from "./share-icon-J6b_MEIl.js";
 import { _ as j } from "./trash-icon-Dl18GMfa.js";
 import { _ as q } from "./exit-icon-7lL51GVi.js";
@@ -153,7 +153,7 @@ const L =
                     G
                   )),
             ]),
-            e("div", J, h(t.name ? t.name : "[Sem nome]"), 1),
+            e("div", J, h(t.name ? t.name : "[No Name]"), 1),
             e("div", K, h(t.charClass), 1),
             e("div", Q, " Created on " + h(b.value), 1),
             t.joinCampaignMode
