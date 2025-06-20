@@ -29,10 +29,10 @@ const e = {
     description: "<p>My new ammo</p>",
     category: "0",
     slots: 1,
-    tag: "Ammo",
+    tag: "Munições",
     itemType: "ammunition",
   },
-  i = {
+  n = {
     name: "New Armor",
     description: "<p>My new armor</p>",
     defense: 1,
@@ -40,7 +40,7 @@ const e = {
     slots: 1,
     itemType: "protection",
   },
-  n = {
+  i = {
     name: "New Weapon",
     description: "<p>My new weapon</p>",
     proficiencie: "Simple Weapons",
@@ -133,13 +133,13 @@ const e = {
   };
 export {
   m as a,
-  p as b,
+  n as b,
   c,
-  r as d,
+  s as d,
   o as e,
-  n as f,
-  s as g,
-  u as h,
+  p as f,
+  u as g,
+  r as h,
   t as m,
   e as p,
   a as r,
