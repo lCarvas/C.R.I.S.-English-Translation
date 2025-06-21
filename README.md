@@ -1,6 +1,6 @@
 # C.R.I.S. English Translation
 
-#### Last updated 21/06/2025 17:02 UTC
+#### Last updated 21/06/2025 22:27 UTC
 
 | Translation Progress    | Names/Headers | Descriptions | Interfaces/Other small things |
 | ----------------------- | :-----------: | :----------: | :---------------------------: |
@@ -17,10 +17,10 @@
 | Creatures 🟡            |               |              |                               |
 | Backgrounds 🟡          |      ✅       |      ❌      |              ✅               |
 | Classes ✅              |               |              |                               |
-| Class Paths ✅          |               |              |                               |
+| Subclasses ✅           |               |              |                               |
 | Background Abilities ✅ |               |              |                               |
 | Class Abilities ✅      |               |              |                               |
-| Path Abilities ✅       |               |              |                               |
+| Subclass Abilities ✅   |               |              |                               |
 
 - ✅ Finished
 - 🟡 Started

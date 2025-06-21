@@ -299,7 +299,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   bs = { key: 2, class: "pe-container" },
   qs = { class: "pe" },
   Cs = ["disabled", "value"],
-  As = J(() => e("h4", { class: "alt-nex" }, " EXP ", -1)),
+  As = J(() => e("h4", { class: "alt-nex" }, " LPE ", -1)),
   ys = { class: "pe-container" },
   Ps = { class: "pe" },
   Es = ["disabled", "value"],
@@ -426,7 +426,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                     pa,
                     {
                       key: 0,
-                      title: r.character.isNexLevelOn ? "LEVEL" : "EXP",
+                      title: r.character.isNexLevelOn ? "LEVEL" : "LPE",
                       disabled: r.disabledSheet,
                       value: r.character.nex,
                       options: F(er),
@@ -455,7 +455,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                     e(
                       "h4",
                       fs,
-                      U(r.character.isNexLevelOn ? "LEVEL" : "EXP"),
+                      U(r.character.isNexLevelOn ? "LEVEL" : "LPE"),
                       1
                     ),
                     e(
@@ -1810,12 +1810,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   Pd = ["disabled", "value"],
   Ed = { key: 1 },
   Sd = ce(() =>
-    e(
-      "h4",
-      { class: "sheet-subtitle mobile-sheet-subtitle" },
-      " MAX LOAD ",
-      -1
-    )
+    e("h4", { class: "sheet-subtitle mobile-sheet-subtitle" }, " MAX LOAD ", -1)
   ),
   kd = { class: "mobile-input-container-row" },
   Rd = ["disabled", "value"],
@@ -9011,7 +9006,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                 "div",
                 Ym,
                 " To increase your " +
-                  U(o.character.isSobrevivendoAoHorror ? "level" : "EXP") +
+                  U(o.character.isSobrevivendoAoHorror ? "level" : "LPE") +
                   ", choose a new class ",
                 1
               ),
@@ -10032,11 +10027,11 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       "div",
       { class: "label" },
       [
-        ne(" PEX & Experience "),
+        ne(" LPE & Experience "),
         e(
           "div",
           { class: "label-obs" },
-          " Replaces EXP for seperate Level and EXP "
+          " Replaces LPE for seperate Level and LPE "
         ),
       ],
       -1

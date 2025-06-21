@@ -54,7 +54,7 @@ const a = {
           name: "Special Attack",
           hasAutomation: !1,
           description:
-            "When attacking, you can spend 2 EP to receive +5 on your attack or damage roll. As your EXP increases, you can spend +1 EP to increase this bonus by an extra +5. You can apply each +5 bonus to attack or damage. For example, at EXP 55%, you can spend 4 EP to receive +5 to the attack roll and +10 to the damage roll.",
+            "When attacking, you can spend 2 EP to receive +5 on your attack or damage roll. As your LPE increases, you can spend +1 EP to increase this bonus by an extra +5. You can apply each +5 bonus to attack or damage. For example, at LPE 55%, you can spend 4 EP to receive +5 to the attack roll and +10 to the damage roll.",
         },
       ],
       powers: [
@@ -68,7 +68,7 @@ const a = {
           name: "Martial Artist",
           hasAutomation: !1,
           description:
-            "<p>Your unarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
+            "<p>Your unarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At LPE 35%, the damage increases to 1d8 and, at LPE 70%, to 1d10.</p>",
         },
         {
           name: "Opportunity Attack",
@@ -116,7 +116,7 @@ const a = {
           name: "Heavy Armor",
           hasAutomation: !1,
           description:
-            "<p>You receive proficiency with Heavy Armor. <em>Prerequisite:</em> EXP 30%.</p>",
+            "<p>You receive proficiency with Heavy Armor. <em>Prerequisite:</em> LPE 30%.</p>",
         },
         {
           name: "Defensive Reflexes",
@@ -136,7 +136,7 @@ const a = {
           name: "Hold the Trigger",
           hasAutomation: !1,
           description:
-            "<p>Whenever you hit an attack with a firearm, you can make another attack with the same weapon against the same target, paying 2 EP for each attack already made in the turn. In other words, you can make the first extra attack spending 2 EP and, if you hit, you can make a second extra attack spending another 4 EP and so on, until you miss an attack or reach your EP per round limit. <em>Prerequisite:</em> EXP 60%.</p>",
+            "<p>Whenever you hit an attack with a firearm, you can make another attack with the same weapon against the same target, paying 2 EP for each attack already made in the turn. In other words, you can make the first extra attack spending 2 EP and, if you hit, you can make a second extra attack spending another 4 EP and so on, until you miss an attack or reach your EP per round limit. <em>Prerequisite:</em> LPE 60%.</p>",
         },
         {
           name: "Tactical Senses",
@@ -166,13 +166,13 @@ const a = {
           name: "Transcend",
           hasAutomation: !1,
           description:
-            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
+            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this LPE increase. You can choose this power multiple times.</p>",
         },
         {
           name: "Skill Training",
           hasAutomation: !1,
           description:
-            "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
+            "<p>Choose two skills. You become trained in those skills. From LPE 35% onwards, you can choose skills in which you are already trained to become a veteran. From LPE 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
         },
       ],
       paths: [
@@ -182,25 +182,25 @@ const a = {
             "<p>You are trained to take down targets with efficiency and speed. Your weapons are your best friends and you take just as good care of them as you do your teammates. Maybe even better.</p>",
           abilities: [
             {
-              name: "EXP 10% - The Favorite",
+              name: "LPE 10% - The Favorite",
               hasAutomation: !1,
               description:
                 "<p>Choose a weapon to be your favorite, such as a katana or an assault rifle. The category of the chosen weapon is reduced by I.</p>",
             },
             {
-              name: "EXP 40% - Secret Technique",
+              name: "LPE 40% - Secret Technique",
               hasAutomation: !1,
               description:
                 "<p>The category of the favorite weapon is now reduced by II. When you make an attack with it, you can spend 2 EP to perform one of the effects below as part of the attack. You can add more effects by spending +2 EP per additional effect.</p><p><span><em>Broad.</em></span> The attack can hit an additional target within its range and adjacent to the original (use the same attack roll for both).</p><p><span><em>Destructive.</em></span> Increases the weapon's critical multiplier by +1.</p>",
             },
             {
-              name: "EXP 65% - Sublime Technique",
+              name: "LPE 65% - Sublime Technique",
               hasAutomation: !1,
               description:
                 "<p>You add the following effects to your Secret Technique list:</p><p><span>Lethal.</span> Increases threat range by +2. You can choose this effect twice to increase the threat range by +5.</p><p><span><em>Piercing.</em></span> Ignores up to 5 points of any damage resistance type the target has.</p>",
             },
             {
-              name: "EXP 99% - Killing Machine",
+              name: "LPE 99% - Killing Machine",
               hasAutomation: !1,
               description:
                 "<p>The favorite weapon's category is now reduced by III, it receives +2 to the threat range and its damage increases by one die of the same type.</p>",
@@ -213,25 +213,25 @@ const a = {
             "<p>Without an officer, a battle is nothing more than a bar fight. You are trained to coordinate and assist your companions in combat, making quick decisions and taking best advantage of the situation and the talents of your allies.</p>",
           abilities: [
             {
-              name: "EXP 10% - Inspire Confidence",
+              name: "LPE 10% - Inspire Confidence",
               hasAutomation: !1,
               description:
                 "<p>Your leadership inspires your allies. You can spend a reaction and 2 EP to make an ally in short range reroll a recently performed check.</p>",
             },
             {
-              name: "EXP 40% - Strategist",
+              name: "LPE 40% - Strategist",
               hasAutomation: !1,
               description:
                 "<p>You can direct allies at short range. Spend a standard action and 1 EP per ally you want to direct (limited by your Intellect). On the affected allies' next turn, they gain an additional movement action.</p>",
             },
             {
-              name: "EXP 65% - Breach Their Defenses",
+              name: "LPE 65% - Breach Their Defenses",
               hasAutomation: !1,
               description:
                 "<p>Once per round, when an ally deals damage to an enemy within short range of you, you can use a reaction and 2 EP to have you or another ally within short range make an additional attack against the same enemy. Additionally, the range of Inspire Confidence and Strategist increases to medium.</p>",
             },
             {
-              name: "EXP 99% - Commanding Officer",
+              name: "LPE 99% - Commanding Officer",
               hasAutomation: !1,
               description:
                 "<p>You can use a standard action and 5 EP so that each ally you can see within medium range receives an additional standard action on their next turn.</p>",
@@ -244,25 +244,25 @@ const a = {
             "<p>You have trained your muscles and movements to the point of transforming your body into a true weapon. With melee strikes as powerful as a bullet, you face dangers head on.</p>",
           abilities: [
             {
-              name: "EXP 10% - Lethal Technique",
+              name: "LPE 10% - Lethal Technique",
               hasAutomation: !1,
               description:
                 "<p>You gain a +2 increase in threat range to all of your melee attacks.</p>",
             },
             {
-              name: "EXP 40% - Retaliate",
+              name: "LPE 40% - Retaliate",
               hasAutomation: !1,
               description:
                 "<p>Whenever you block an attack, you can use a reaction and 2 EP to make a melee attack on the enemy that attacked you.</p>",
             },
             {
-              name: "EXP 65% - Oppressive Strength",
+              name: "LPE 65% - Oppressive Strength",
               hasAutomation: !1,
               description:
                 "<p>When you land a melee attack, you can spend 1 EP to perform a knock down or push maneuver against the target of the attack as a free action. If you choose to push, you receive a bonus of +5 for every 10 points of damage you dealt to the target. If you choose to knock down and win the opposed check, you can spend 1 EP to make an additional attack against the now prone target.</p>",
             },
             {
-              name: "EXP 99% - Maximum Power",
+              name: "LPE 99% - Maximum Power",
               hasAutomation: !1,
               description:
                 "<p>When you use your Special Attack with melee weapons, all numerical bonuses are doubled. For example, if you use 5 EP to get +5 on the attack roll and +15 damage, you get +10 on the attack roll and +30 damage.</p>",
@@ -275,25 +275,25 @@ const a = {
             "<p>You are an effective combatant, and your actions are calculated and optimized, always anticipating enemy movements and positioning yourself in the most intelligent way on the battlefield.</p>",
           abilities: [
             {
-              name: "EXP 10% - Upgraded Initiative",
+              name: "LPE 10% - Upgraded Initiative",
               hasAutomation: !1,
               description:
                 "<p>You receive +5 in Initiative and an extra movement action on the first round.</p>",
             },
             {
-              name: "EXP 40% - Extra Attack",
+              name: "LPE 40% - Extra Attack",
               hasAutomation: !1,
               description:
                 "<p>Once per round, when you make an attack, you can spend 2 EP to make an additional attack.</p>",
             },
             {
-              name: "EXP 65% - Adrenaline Rush",
+              name: "LPE 65% - Adrenaline Rush",
               hasAutomation: !1,
               description:
                 "<p>Once per round, you can spend 5 EP to get an additional standard or movement action.</p>",
             },
             {
-              name: "EXP 99% - Always Vigilant",
+              name: "LPE 99% - Always Vigilant",
               hasAutomation: !1,
               description:
                 "<p>You receive an additional standard action at the start of each combat scene.</p>",
@@ -306,27 +306,27 @@ const a = {
             "<p>You are solid as a rock. You have trained your body to resist physical trauma, making it practically unbreakable, and that is why you are not afraid to put yourself between your allies and danger.</p>",
           abilities: [
             {
-              name: "NEX 10% - Hard Skin",
+              name: "LPE 10% - Hard Skin",
               hasAutomation: !0,
               isAutomationOn: !0,
               automationId: "nex-10%-casca-grossa",
               description:
-                "<p>You receive +1 HP for every 5% EXP and, when you block an attack, you add your Vigor to the damage reduction received.</p>",
+                "<p>You receive +1 HP for every 5% LPE and, when you block an attack, you add your Vigor to the damage reduction received.</p>",
             },
             {
-              name: "EXP 40% - Square Up",
+              name: "LPE 40% - Square Up",
               hasAutomation: !1,
               description:
                 "<p>Whenever an opponent within short range attacks one of your allies, you can use a reaction and 1 EP to make that opponent make a Will saving throw (DC Vig). If they fail, the opponent must attack you instead of your ally. This power only works if you can be effectively attacked and are within attack range (for example, adjacent to an opponent attacking in melee or within range of a ranged weapon). An opponent who passes the Will test cannot be affected by your Square Up power until the end of the scene.</p>",
             },
             {
-              name: "EXP 65% - Hard to Kill",
+              name: "LPE 65% - Hard to Kill",
               hasAutomation: !1,
               description:
-                "<p>When you take non-paranormal damage, you can use a reaction and 2 EP to halve that damage. At EXP 85%, you can use this skill to reduce paranormal damage.</p>",
+                "<p>When you take non-paranormal damage, you can use a reaction and 2 EP to halve that damage. At LPE 85%, you can use this skill to reduce paranormal damage.</p>",
             },
             {
-              name: "EXP 99% - Unbreakable",
+              name: "LPE 99% - Unbreakable",
               hasAutomation: !1,
               description:
                 "<p>While you are injured, you receive +5 Defense and +5 damage resistance. While you are dying, instead of normal, you are not defenseless and can still perform actions. You still follow the death rules as normal.</p>",
@@ -336,25 +336,25 @@ const a = {
       ],
       table: [
         "Special attack (2 EP, +5)",
-        "Path ability",
+        "Subclass ability",
         "Combatant power",
         "Attribute increase",
         "Special attack (3 EP, +10)",
         "Combatant power",
         "Training level",
-        "Path ability",
+        "Subclass ability",
         "Combatant power",
         "Attribute increase, versatility",
         "Special attack (4 EP, +15)",
         "Combatant power",
-        "Path ability",
+        "Subclass ability",
         "Training level",
         "Combatant power",
         "Attribute increase",
         "Special attack (5 EP, +20)",
         "Combatant power",
         "Attribute increase",
-        "Path ability",
+        "Subclass ability",
       ],
     },
     {
@@ -384,7 +384,7 @@ const a = {
           name: "Connoisseur",
           hasAutomation: !1,
           description:
-            "Choose two trained skills (except Fighting and Marksmanship). When you do a skill check of the chosen skills, you can spend 2 EP to add +1d6 to the roll. As your EXP increases, you can spend +1EP to increase the bonus dice. For example, at EXP 55%, you can spend 4 EP to receive +1d10 on the roll.",
+            "Choose two trained skills (except Fighting and Marksmanship). When you do a skill check of the chosen skills, you can spend 2 EP to add +1d6 to the roll. As your LPE increases, you can spend +1EP to increase the bonus dice. For example, at LPE 55%, you can spend 4 EP to receive +1d10 on the roll.",
         },
       ],
       powers: [
@@ -392,7 +392,7 @@ const a = {
           name: "Martial Artist",
           hasAutomation: !1,
           description:
-            "<p>Your unarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
+            "<p>Your unarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At LPE 35%, the damage increases to 1d8 and, at LPE 70%, to 1d10.</p>",
         },
         {
           name: "Advanced Ballistics",
@@ -410,7 +410,7 @@ const a = {
           name: "Ingenuity",
           hasAutomation: !1,
           description:
-            "At EXP 40%, when you use your Eclectic ability, you can spend an additional 2 EP to receive the benefits of being a veteran in the skill. At NEX 75%, you can spend an additional 4 EP to receive the benefits of being an expert in the skill.",
+            "At LPE 40%, when you use your Eclectic ability, you can spend an additional 2 EP to receive the benefits of being a veteran in the skill. At LPE 75%, you can spend an additional 4 EP to receive the benefits of being an expert in the skill.",
         },
         {
           name: "Hacker",
@@ -476,13 +476,13 @@ const a = {
           name: "Transcend",
           hasAutomation: !1,
           description:
-            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
+            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this LPE increase. You can choose this power multiple times.</p>",
         },
         {
           name: "Skill Training",
           hasAutomation: !1,
           description:
-            "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
+            "<p>Choose two skills. You become trained in those skills. From LPE 35% onwards, you can choose skills in which you are already trained to become a veteran. From LPE 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
         },
       ],
       paths: [
@@ -492,25 +492,25 @@ const a = {
             "<p>One shot, one kill. Unlike combatants, you are adept at neutralizing threats from afar, ending a fight before it even starts. You treat your weapon as a precision tool, capable of performing incredible feats.</p>",
           abilities: [
             {
-              name: "EXP 10% - Elite Aim",
+              name: "LPE 10% - Elite Aim",
               hasAutomation: !1,
               description:
                 "<p>You receive proficiency with firearms that use long bullets and add your Intellect value on damage rolls with those weapons.</p>",
             },
             {
-              name: "EXP 40% - Lethal Shot",
+              name: "LPE 40% - Lethal Shot",
               hasAutomation: !1,
               description:
                 "<p>When you make the aim action, you can spend 1 EP to increase the threat range of the next attack you make by +2 until the end of your next turn.</p>",
             },
             {
-              name: "EXP 65% - Impactful Shot",
+              name: "LPE 65% - Impactful Shot",
               hasAutomation: !1,
               description:
                 "<p>When you attack using a firearm, you can spend 2 EP to do a combat maneuver instead of dealing damage. Choose one of the following combat maneuvers: knock down, disarm, push or break.</p>",
             },
             {
-              name: "EXP 99% - Shooting to Kill",
+              name: "LPE 99% - Shooting to Kill",
               hasAutomation: !1,
               description:
                 "<p>When you land a critical hit with a firearm, you deal maximum damage, without having to roll dice.</p>",
@@ -523,13 +523,13 @@ const a = {
             "<p>You are an expert in infiltration and know how to neutralize unsuspecting targets without causing a fuss. Combining acrobatic talent, manual dexterity and technical knowledge you are able to overcome any defensive barrier, even when the mission seems impossible.</p>",
           abilities: [
             {
-              name: "EXP 10% - Sneak Attack",
+              name: "LPE 10% - Sneak Attack",
               hasAutomation: !1,
               description:
-                "<p>You know how to hit the vital spots of a distracted enemy. Once per round, when you hit an off-guard target with a melee or short-range attack, or a target you are flanking, you can spend 1 EP to deal +1d6 points of damage of the same type as the weapon. At EXP 40% the additional damage increases to +2d6, at EXP 65% it increases to +3d6 and at EXP 99% it increases to +4d6.</p>",
+                "<p>You know how to hit the vital spots of a distracted enemy. Once per round, when you hit an off-guard target with a melee or short-range attack, or a target you are flanking, you can spend 1 EP to deal +1d6 points of damage of the same type as the weapon. At LPE 40% the additional damage increases to +2d6, at LPE 65% it increases to +3d6 and at LPE 99% it increases to +4d6.</p>",
             },
             {
-              name: "NEX 40% - Prowler",
+              name: "LPE 40% - Prowler",
               hasAutomation: !0,
               isAutomationOn: !0,
               automationId: "nex-40%-gatuno",
@@ -537,13 +537,13 @@ const a = {
                 "<p>You gain +5 to Athletics and Crime and can move your normal movement distance when hiding without penalty (see the Stealth skill).</p>",
             },
             {
-              name: "EXP 65% - Assassinate",
+              name: "LPE 65% - Assassinate",
               hasAutomation: !1,
               description:
                 "<p>You can use a movement action and 3 EP to analyze a target within short range. Until the end of your next turn, your first Sneak Attack that deals damage to it has its bonus damage dice from that ability doubled. Additionally, if it takes damage from your attack, the target becomes unconscious or dies, your choice (Fortitude DC Agi avoids).</p>",
             },
             {
-              name: "EXP 99% - Fleeting Shadow",
+              name: "LPE 99% - Fleeting Shadow",
               hasAutomation: !1,
               description:
                 "<p>When you make a Stealth check after attacking or making another flashy action, you can spend 3 EP to avoid the –3d20 penalty on the check.</p>",
@@ -553,28 +553,28 @@ const a = {
         {
           name: "Field Medic",
           description:
-            "<p>You are trained in first aid and emergency treatment techniques, making you a valuable member of any group of agents. Unlike conventional healthcare professionals, you are used to the battlefield and know how to make quick decisions in the midst of chaos.</p><p><span>Special: </span>to choose this path, you need to be trained in Medicine. To use the abilities of this path, you need to have a medicine kit.</p>",
+            "<p>You are trained in first aid and emergency treatment techniques, making you a valuable member of any group of agents. Unlike conventional healthcare professionals, you are used to the battlefield and know how to make quick decisions in the midst of chaos.</p><p><span>Special: </span>to choose this subclass, you need to be trained in Medicine. To use the abilities of this subclass, you need to have a medicine kit.</p>",
           abilities: [
             {
-              name: "EXP 10% - Paramedic",
+              name: "LPE 10% - Paramedic",
               hasAutomation: !1,
               description:
-                "<p>You can use a standard action and 2 EP to heal yourself or an adjacent ally for 2d10 hit points. You can heal +1d10 HP respectively at EXP 40%, 65% and 99%, spending +1 EP per additional healing die.</p>",
+                "<p>You can use a standard action and 2 EP to heal yourself or an adjacent ally for 2d10 hit points. You can heal +1d10 HP respectively at LPE 40%, 65% and 99%, spending +1 EP per additional healing die.</p>",
             },
             {
-              name: "EXP 40% - Trauma Team",
+              name: "LPE 40% - Trauma Team",
               hasAutomation: !1,
               description:
                 "<p>You can use a standard action and 2 EP to remove a negative condition (except dying) from an adjacent ally.</p>",
             },
             {
-              name: "EXP 65% - Rescue",
+              name: "LPE 65% - Rescue",
               hasAutomation: !1,
               description:
                 "<p>Once per round, if you are within close range of a wounded or dying ally, you can approach the ally as a free action (as long as you are able to do so using your normal movement). Additionally, whenever you heal your ally's HP or remove conditions, you and your ally receive +5 Defense until the start of your next turn. Finally, for you, the total spaces occupied by carrying a character are halved.</p>",
             },
             {
-              name: "EXP 99% - Resuscitation",
+              name: "LPE 99% - Resuscitation",
               hasAutomation: !1,
               description:
                 "<p>Once per scene, you can use a complete action and 10 EP to bring back to life a character who died in the same scene (except death from massive damage).</p>",
@@ -587,25 +587,25 @@ const a = {
             "<p>You are a skilled diplomat and can influence other people, whether through talk or intimidation. Your ability to assess situations quickly and efficiently can get the group out of troubles that not even the most powerful weapon could solve.</p>",
           abilities: [
             {
-              name: "EXP 10% - Eloquence",
+              name: "LPE 10% - Eloquence",
               hasAutomation: !1,
               description:
                 "<p>You can use a complete action and 1 EP per target within short range to affect other characters with your speech. Make a Diplomacy, Deception, or Intimidation test against the targets' Will. If you win, the targets are fascinated as long as you concentrate (one standard action per round). A hostile target or target that is involved in combat receives +5 on their saving throw and is entitled to a new test per round, whenever you concentrate. A character who passes the test is immune to this effect for one day.</p>",
             },
             {
-              name: "EXP 40% - Motivational Discourse",
+              name: "LPE 40% - Motivational Discourse",
               hasAutomation: !1,
               description:
-                "<p>You can use a standard action and 4 EP to inspire your allies with your words. You and all your allies within short range gain +1d20 on skill checks until the end of the scene. Starting at EXP 65%, you can spend 8 EP to provide a total bonus of +2d20.</p>",
+                "<p>You can use a standard action and 4 EP to inspire your allies with your words. You and all your allies within short range gain +1d20 on skill checks until the end of the scene. Starting at LPE 65%, you can spend 8 EP to provide a total bonus of +2d20.</p>",
             },
             {
-              name: "EXP 65% - I Know a Guy",
+              name: "LPE 65% - I Know a Guy",
               hasAutomation: !1,
               description:
                 "<p>Once per mission, you can contact your network of contacts to ask for a favor, such as exchanging all of your group's equipment (as if you had a second mission preparation phase), getting a resting place or even being rescued from a scene. The GM has the final say on when this ability can be used and what favors can be obtained.</p>",
             },
             {
-              name: "EXP 99% - My Best Trick",
+              name: "LPE 99% - My Best Trick",
               hasAutomation: !1,
               description:
                 "<p>Accustomed to a life of pretense and manipulation, you can spend 5 EP to simulate the effect of any ability you saw one of your allies use during the scene. You ignore the skill's prerequisites, but you still have to pay all of its costs, including actions, EP, and materials, and it uses your game parameters as if you were using the skill in question.</p>",
@@ -618,25 +618,25 @@ const a = {
             "<p>Your main skill is maintaining and repairing the valuable equipment your team carries on missions. Your technical knowledge also allows you to improvise tools with whatever you have at your disposal and sabotage items used by your enemies.</p>",
           abilities: [
             {
-              name: "EXP 10% - Optimized Inventory",
+              name: "LPE 10% - Optimized Inventory",
               hasAutomation: !1,
               description:
                 "<p>You add your Intellect to your Strength when calculating your max load. For example, if you have Strength 1 and Intellect 3, your inventory has 20 spaces.</p>",
             },
             {
-              name: "EXP 40% - Mending",
+              name: "LPE 40% - Mending",
               hasAutomation: !1,
               description:
                 "<p>You can spend a complete action and 1 EP to remove the broken condition from adjacent equipment until the end of the scene. Additionally, any general equipment has its category reduced by I for you.</p>",
             },
             {
-              name: "EXP 65% - Improvise",
+              name: "LPE 65% - Improvise",
               hasAutomation: !1,
               description:
                 "<p>You can improvise equipment with materials around you. Choose a general equipment and spend a complete action and 2 EP, plus 2 EP per category of the chosen item. You create a working version of the equipment, which follows its space and category rules as normal. At the end of the scene, your makeshift equipment becomes useless.</p>",
             },
             {
-              name: "EXP 99% - Ready for Everything",
+              name: "LPE 99% - Ready for Everything",
               hasAutomation: !1,
               description:
                 "<p>You always have what you need for any situation. Whenever you need any item (except weapons), you can spend a movement action and 3 EP per item category to remember that you put it at the bottom of your bag! Once found, the item follows normal inventory rules.</p>",
@@ -646,25 +646,25 @@ const a = {
       ],
       table: [
         "Eclectic, connoisseur (2 EP, +1d6)",
-        "Path ability",
+        "Subclass ability",
         "Specialist power",
         "Attribute increase",
         "Connoisseur (3 EP, +1d8)",
         "Specialist power",
         "Training level",
-        "Ingenuity (veteran), path ability",
+        "Ingenuity (veteran), subclass ability",
         "Specialist power",
         "Attribute increase, versatility",
         "Connoisseur (4 EP, +1d10)",
         "Specialist power",
-        "Path ability",
+        "Subclass ability",
         "Training level",
         "Ingenuity (expert), specialist power",
         "Attribute increase",
         "Connoisseur (5 EP, +1d12)",
         "Specialist power",
         "Attribute increase",
-        "Path ability",
+        "Subclass ability",
       ],
     },
     {
@@ -692,7 +692,7 @@ const a = {
           name: "Chosen by the Other Side",
           hasAutomation: !1,
           description:
-            "You had a paranormal experience and were marked by the Other Side, absorbing the knowledge and power necessary to perform rituals. You can cast 1st circle rituals. As your EXP increases, you can launch higher circle rituals (2nd circle at EXP 25%, 3rd circle at EXP 55% and 4th circle at EXP 85%). You start with three 1st circle rituals. Whenever your EXP increases, you learn a ritual from any circle you can cast. These rituals do not count towards your known ritual limit.",
+            "You had a paranormal experience and were marked by the Other Side, absorbing the knowledge and power necessary to perform rituals. You can cast 1st circle rituals. As your LPE increases, you can launch higher circle rituals (2nd circle at LPE 25%, 3rd circle at LPE 55% and 4th circle at LPE 85%). You start with three 1st circle rituals. Whenever your LPE increases, you learn a ritual from any circle you can cast. These rituals do not count towards your known ritual limit.",
         },
       ],
       powers: [
@@ -730,7 +730,7 @@ const a = {
           name: "Power Flow",
           hasAutomation: !1,
           description:
-            "<p>You can keep two sustained effects of active ritual simultaneously with just one free action, paying the cost of each effect separately. <em>Prerequisite:</em> NEX 60%.</p>",
+            "<p>You can keep two sustained effects of active ritual simultaneously with just one free action, paying the cost of each effect separately. <em>Prerequisite:</em> LPE 60%.</p>",
         },
         {
           name: "Guided by the Paranormal",
@@ -760,7 +760,7 @@ const a = {
           name: "Element Master",
           hasAutomation: !1,
           description:
-            "<p>Choose an element. The cost to cast rituals of this element decreases by –1 EP. <em>Prerequisites:</em> Elemental Specialist in chosen element, NEX 45%.</p>",
+            "<p>Choose an element. The cost to cast rituals of this element decreases by –1 EP. <em>Prerequisites:</em> Elemental Specialist in chosen element, LPE 45%.</p>",
         },
         {
           name: "Powerful Ritual",
@@ -784,13 +784,13 @@ const a = {
           name: "Transcend",
           hasAutomation: !1,
           description:
-            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
+            "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this LPE increase. You can choose this power multiple times.</p>",
         },
         {
           name: "Skill Training",
           hasAutomation: !1,
           description:
-            "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
+            "<p>Choose two skills. You become trained in those skills. From LPE 35% onwards, you can choose skills in which you are already trained to become a veteran. From LPE 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
         },
       ],
       paths: [
@@ -800,25 +800,25 @@ const a = {
             "<p>You have mastered the fundamental aspects of ritual casting and are able to increase the range and speed of your casting. As your connection with paranormal entities increases you become able to interfere with the rituals of other occultists.</p>",
           abilities: [
             {
-              name: "EXP 10% - Enlarge Ritual",
+              name: "LPE 10% - Enlarge Ritual",
               hasAutomation: !1,
               description:
                 "<p>When you cast a ritual, you can spend +2 EP to increase its range by one step (short to medium, medium to long or long to extreme) or double its area of effect.</p>",
             },
             {
-              name: "EXP 40% - Accelerate Ritual",
+              name: "LPE 40% - Accelerate Ritual",
               hasAutomation: !1,
               description:
                 "<p>Once per round, you can increase the cost of a ritual by 4 EP to cast it as a free action.</p>",
             },
             {
-              name: "EXP 65% - Nullify Ritual",
+              name: "LPE 65% - Nullify Ritual",
               hasAutomation: !1,
               description:
                 "<p>When you are the target of a ritual, you can spend an amount of EP equal to the cost paid for that ritual and make an opposed Occultism roll against the caster. If you win, you nullify the ritual, canceling all its effects.</p>",
             },
             {
-              name: "EXP 99% - Channel the Fear",
+              name: "LPE 99% - Channel the Fear",
               hasAutomation: !1,
               description: "<p>You learn the ritual Channel the Fear.</p>",
             },
@@ -830,25 +830,25 @@ const a = {
             "<p>Pain is a powerful Paranormal catalyst and you have learned to transform it into power for your rituals. When you become especially powerful, you are able to use the pain and suffering of your enemies as an instrument of your occultist rituals.</p>",
           abilities: [
             {
-              name: "EXP 10% - The Power of Pain",
+              name: "LPE 10% - The Power of Pain",
               hasAutomation: !1,
               description:
                 "<p>When you cast a ritual, you may spend your own health points to pay the effort point cost, at a rate of 2 HP per EP paid. Health points spent in this way can only be recovered by resting.</p>",
             },
             {
-              name: "EXP 40% - Embrace the Pain",
+              name: "LPE 40% - Embrace the Pain",
               hasAutomation: !1,
               description:
                 "<p>Whenever you take non-paranormal damage, you can spend a reaction and 2 EP to halve the damage taken.</p>",
             },
             {
-              name: "EXP 65% - Redeem Agony",
+              name: "LPE 65% - Redeem Agony",
               hasAutomation: !1,
               description:
                 "<p>Whenever you reduce one or more enemies to 0 HP with a ritual, you receive an amount of temporary EP equal to the circle of the ritual used. For example, if you activate this power with a 2nd circle ritual, you will receive 2 EP.</p>",
             },
             {
-              name: "EXP 99% - Tangible Fear",
+              name: "LPE 99% - Tangible Fear",
               hasAutomation: !1,
               description: "<p>You learn the ritual Tangible Fear.</p>",
             },
@@ -860,19 +860,19 @@ const a = {
             "<p>You focus your studies on becoming a versatile and powerful conjurer, knowing more rituals than other occultists and being able to make them more difficult to resist. Your goal is to unveil and master the secrets of the Other Side in depth, whatever the cost.</p>",
           abilities: [
             {
-              name: "EXP 10% - Expanded Knowledge",
+              name: "LPE 10% - Expanded Knowledge",
               hasAutomation: !1,
               description:
                 "<p>You learn a 1st circle ritual. Whenever you gain access to a new circle, you learn an additional ritual from that circle. These rituals do not count towards your ritual limit.</p>",
             },
             {
-              name: "EXP 40% - Ritualistic Grimoire",
+              name: "LPE 40% - Ritualistic Grimoire",
               hasAutomation: !1,
               description:
                 "<p>You create a special grimoire, which stores rituals that your mind would not be able to store. You learn a number of 1st or 2nd circle rituals equal to your Intellect. When you gain access to a new circle, you can add a new ritual from that circle to your grimoire. These rituals do not count towards your known ritual limit. To cast a ritual stored in your grimoire, you must first spend a full action flipping through the grimoire and recalling the ritual. The grimoire occupies 1 space in your inventory. If you lose it, you can replicate it with two interlude actions.</p>",
             },
             {
-              name: "NEX 65% - Efficient Rituals",
+              name: "LPE 65% - Efficient Rituals",
               hasAutomation: !0,
               isAutomationOn: !0,
               automationId: "nex-65%-rituais-eficientes",
@@ -880,7 +880,7 @@ const a = {
                 "<p>The DC to resist all of your rituals increases by +5.</p>",
             },
             {
-              name: "EXP 99% - Knowing Fear",
+              name: "LPE 99% - Knowing Fear",
               hasAutomation: !1,
               description: "<p>You learn the ritual Knowing Fear.</p>",
             },
@@ -892,25 +892,25 @@ const a = {
             "<p>Just as combatants train their bodies to resist physical trauma, you have prepared your mind to resist the effects of the Other Side. Your focus and willpower make you expand the limits of your paranormal capabilities.</p>",
           abilities: [
             {
-              name: "EXP 10% - Sane Mind",
+              name: "LPE 10% - Sane Mind",
               hasAutomation: !1,
               description:
                 "<p>You have a better understanding of the entities on the Other Side, and are less shaken by their effects. You gain +5 paranormal resistance (+5 on saving throws against paranormal effects).</p>",
             },
             {
-              name: "EXP 40% - Powerful Presence",
+              name: "LPE 40% - Powerful Presence",
               hasAutomation: !1,
               description:
                 "<p>Your mental resilience makes it so you can extract more from the Other Side. You add your Presence to your EP limit per turn, but only for casting rituals (not for DC).</p>",
             },
             {
-              name: "EXP 65% - Unshakable",
+              name: "LPE 65% - Unshakable",
               hasAutomation: !1,
               description:
                 "<p>You gain mental and paranormal damage resistance 10. Additionally, when you are targeted by a paranormal effect that allows a Will saving throw to halve the damage, you take no damage if you pass.</p>",
             },
             {
-              name: "EXP 99% - Presence of Fear",
+              name: "LPE 99% - Presence of Fear",
               hasAutomation: !1,
               description: "<p>You learn the ritual Presence of Fear.</p>",
             },
@@ -919,28 +919,28 @@ const a = {
         {
           name: "Paranormal Blade",
           description:
-            "<p>Some occultists prefer to stay closed in their libraries studying books and rituals. Others prefer to investigate paranormal phenomena at their source. You, on the other hand, prefer to use the paranormal as a weapon. You have learned and mastered fighting techniques by blending your casting skills with your combat capabilities. Despite the name, members of this path can use both melee and ranged weapons.</p>",
+            "<p>Some occultists prefer to stay closed in their libraries studying books and rituals. Others prefer to investigate paranormal phenomena at their source. You, on the other hand, prefer to use the paranormal as a weapon. You have learned and mastered fighting techniques by blending your casting skills with your combat capabilities. Despite the name, members of this subclass can use both melee and ranged weapons.</p>",
           abilities: [
             {
-              name: "NEX 10% - Accursed Blade",
+              name: "LPE 10% - Accursed Blade",
               hasAutomation: !1,
               description:
                 "<p>You learn the Curse Weapon ritual. If you already know it, you can spend +1 EP when casting to reduce the casting time to a movement action. Additionally, when you cast this ritual, you can use Occultism, instead of Fighting or Marksmanship, for attack rolls with the cursed weapon.</p>",
             },
             {
-              name: "NEX 40% - Paranormal Gladiator",
+              name: "LPE 40% - Paranormal Gladiator",
               hasAutomation: !1,
               description:
                 "<p>Whenever you land a melee attack on an enemy, you gain 2 temporary EP. You can gain a maximum of temporary EP per scene equal to your EP limit. Temporary EP disappears at the end of the scene.</p>",
             },
             {
-              name: "NEX 65% - Martial Casting",
+              name: "LPE 65% - Martial Casting",
               hasAutomation: !1,
               description:
                 "<p>Once per round, when you cast a ritual as a standard action, you can spend 2 EP to make a melee attack as a free action.</p>",
             },
             {
-              name: "NEX 99% - Blade of Fear",
+              name: "LPE 99% - Blade of Fear",
               hasAutomation: !1,
               description: "<p>You learn the ritual Blade of Fear.</p>",
             },
@@ -949,25 +949,25 @@ const a = {
       ],
       table: [
         "Chosen by the Other Side (1º circle)",
-        "Path ability",
+        "Subclass ability",
         "Occultist power",
         "Attribute increase",
         "Chosen by the Other Side (2º circle)",
         "Occultist power",
         "Training level",
-        "Path ability",
+        "Subclass ability",
         "Occultist power",
         "Attribute increase, versatility",
         "Chosen by the Other Side (3º circle)",
         "Occultist power",
-        "Path ability",
+        "Subclass ability",
         "Training level",
         "Occultist power",
         "Attribute increase",
         "Chosen by the Other Side (4º circle)",
         "Occultist power",
         "Attribute increase",
-        "Path ability",
+        "Subclass ability",
       ],
     },
   ],

@@ -1031,7 +1031,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
                         o(
                           "div",
                           Ba,
-                          " EXP " +
+                          " LPE " +
                             u(a.creature.presencaPerturbadora.nex) +
                             "%+ is immune ",
                           1

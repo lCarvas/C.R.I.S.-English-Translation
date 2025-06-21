@@ -210,7 +210,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
                   ]))
                 : (t(),
                   o("div", an, [
-                    Pa(" PEX: "),
+                    Pa(" LPE: "),
                     i.character.statsClass !== "Mundane"
                       ? (t(), o("span", tn, D(i.character.nex), 1))
                       : (t(), o("span", nn, "0%")),
@@ -959,7 +959,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
                       "div",
                       bs,
                       D(y.character.className) +
-                        " - PEX: " +
+                        " - LPE: " +
                         D(y.character.nex),
                       1
                     ),

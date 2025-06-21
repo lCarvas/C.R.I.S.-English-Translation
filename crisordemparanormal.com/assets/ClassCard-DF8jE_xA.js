@@ -368,7 +368,7 @@ const Xa = [
         hasAutomation: !0,
         isAutomationOn: !0,
         automationId: "calejado",
-        description: "You receive +1 HP for every 5% EXP.",
+        description: "You receive +1 HP for every 5% LPE.",
       },
     },
     {
@@ -406,7 +406,7 @@ const Xa = [
         isAutomationOn: !0,
         automationId: "dedicacao",
         description:
-          "You receive +1 EP, and 1 additional EP for each odd EXP (15%, 25%...). Furthermore, your EP per turn limit increases by 1 (on EXP 5% your limit is 2, on EXP 10% it's 3 and so on; this does not affect the DC of your effects).",
+          "You receive +1 EP, and 1 additional EP for each odd LPE (15%, 25%...). Furthermore, your EP per turn limit increases by 1 (on LPE 5% your limit is 2, on LPE 10% it's 3 and so on; this does not affect the DC of your effects).",
       },
     },
     {
@@ -419,7 +419,7 @@ const Xa = [
         hasAutomation: !0,
         isAutomationOn: !0,
         automationId: "cicatrizes-psicologicas",
-        description: "You receive +1 Sanity for every 5% EXP.",
+        description: "You receive +1 Sanity for every 5% LPE.",
       },
     },
     {
@@ -586,7 +586,7 @@ const Xa = [
       null,
       [
         a("tr", null, [
-          a("th", { class: "center" }, " EXP "),
+          a("th", { class: "center" }, " LPE "),
           a("th", { class: "left" }, " Abilities "),
         ]),
       ],
@@ -660,12 +660,12 @@ const Xa = [
     setup(e) {
       const r = e,
         m = {
-          name: "Path Ability",
-          description: `Em NEX 10% você escolhe uma das trilhas de ${r.charClass.name.toLocaleLowerCase()} e recebe o primeiro poder da trilha escolhida. Você recebe um novo poder da trilha escolhida em NEX 40%, 65% e 99%.`,
+          name: "Subclass Ability",
+          description: `In LPE 10% you choose one of the subclasses from ${r.charClass.name.toLocaleLowerCase()} and receive the first power of the chosen subclass. You receive a new power of the chosen subclass at LPE 40%, 65% and 99%.`,
         },
         t = {
           name: "Power",
-          description: `Em NEX 15%, você recebe um poder de ${r.charClass.name.toLocaleLowerCase()} à sua escolha. Você recebe um novo poder de ${r.charClass.name.toLocaleLowerCase()} em NEX 30% e a cada 15 pontos de NEX subsequentes, conforme indicado na tabela. Veja a lista de poderes a seguir.`,
+          description: `At LPE 15%, you gain a ${r.charClass.name.toLocaleLowerCase()} power of your choice. You gain a new ${r.charClass.name.toLocaleLowerCase()} power at LPE 30% and every 15% LPE thereafter as indicated on the table. See the list of powers below.`,
         };
       return (c, g) => (
         s(),

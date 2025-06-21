@@ -142,7 +142,7 @@ const a = (v) => (Y("data-v-de3e4779"), (v = v()), Z(), v),
   zt = { class: "input-container" },
   Lt = a(() => e("div", { class: "label" }, " Damage ", -1)),
   Ft = { class: "input-container" },
-  $t = a(() => e("div", { class: "label" }, " EXP imune ", -1)),
+  $t = a(() => e("div", { class: "label" }, " LPE imune ", -1)),
   Ht = { class: "editor-container" },
   Gt = a(() =>
     e(
