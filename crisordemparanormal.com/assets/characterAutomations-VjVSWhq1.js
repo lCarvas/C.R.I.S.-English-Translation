@@ -121,6 +121,17 @@ const o = [
         "<p>This skill determines your reaction time. When an action scene begins, each character involved makes an Initiative roll. They then act in descending order of results.</p>",
     },
     {
+      name: "Insight",
+      attribute: "PRE",
+      bonus: 0,
+      otherBonus: 0,
+      trainingDegree: "0",
+      onlyTrained: !1,
+      loadPenalty: !1,
+      description:
+      "<p>This skill measures your emotional perception and “sixth sense”.</p><p><span>Debunk.</span> You can tell if someone is lying (see the Deception skill).</p><p><span>Premonition (trained, DT 20).</span> You analyze a person, to get an idea of their nature or character, or a situation, to notice any strange fact (for example, if the inhabitants of a small town are acting strangely). This use only indicates if there is something abnormal; to find out the cause, see the Investigation skill.</p>",
+    },
+    {
       name: "Intimidation",
       attribute: "PRE",
       bonus: 0,
@@ -130,17 +141,6 @@ const o = [
       loadPenalty: !1,
       description:
         "<p>You can frighten or coerce others. All uses of Intimidation are fear effects.</p><p><span>Scare (trained).</span> Use a standard action and make an Intimidation check opposed by a Will test of a being at short range. If you pass, it is shaken for the rest of the scene (not cumulative). If you pass by 10 or more, they are frightened for one round and then shaken for the rest of the scene.</p><p><span>Coerce.</span> Make an Intimidation check opposed by an adjacent person's Will check. If you pass, they obey an order of yours (like do a small task, let you pass by a place they were protecting, etc.). If you order the person to do something dangerous or that goes against their nature, they receive +5 on the test or pass automatically. This action uses 1 minute or more according to the GM, and makes the person hostile towards you.</p>",
-    },
-    {
-      name: "Insight",
-      attribute: "PRE",
-      bonus: 0,
-      otherBonus: 0,
-      trainingDegree: "0",
-      onlyTrained: !1,
-      loadPenalty: !1,
-      description:
-        "<p>This skill measures your emotional perception and “sixth sense”.</p><p><span>Debunk.</span> You can tell if someone is lying (see the Deception skill).</p><p><span>Premonition (trained, DT 20).</span> You analyze a person, to get an idea of their nature or character, or a situation, to notice any strange fact (for example, if the inhabitants of a small town are acting strangely). This use only indicates if there is something abnormal; to find out the cause, see the Investigation skill.</p>",
     },
     {
       name: "Investigation",
