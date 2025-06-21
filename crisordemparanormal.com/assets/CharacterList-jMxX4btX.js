@@ -80,7 +80,7 @@ const _ = (f) => (ge("data-v-ea4b29be"), (f = f()), we(), f),
     )
   ),
   ze = _(() =>
-    s("h4", null, "Atention: this action is permanent and irreversible!", -1)
+    s("h4", null, "Attention: this action is permanent and irreversible!", -1)
   ),
   Je = { class: "input-container" },
   Ge = ["onKeyup"],
@@ -184,7 +184,7 @@ const _ = (f) => (ge("data-v-ea4b29be"), (f = f()), we(), f),
           const h = v.data();
           (h.id = t.id),
             o.value.unshift(h),
-            (n.value.message = "Agent duplicated succefully"),
+            (n.value.message = "Agent duplicated successfully"),
             (n.value.alive = !0);
         },
         W = async (e) => {

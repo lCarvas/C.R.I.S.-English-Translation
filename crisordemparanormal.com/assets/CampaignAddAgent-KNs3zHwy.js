@@ -136,7 +136,7 @@ const N = (d) => (Z("data-v-7a3223f6"), (d = d()), aa(), d),
                               params: { id: X(n) },
                             })),
                       },
-                      " Voltar "
+                      " Return "
                     ),
                   ]))
                 : (s(),

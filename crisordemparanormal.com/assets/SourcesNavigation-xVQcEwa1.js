@@ -33,7 +33,7 @@ const w = "/assets/op-book-button-Aw__Nrhd.webp",
         href: "https://jamboeditora.com.br/produto/ordem-paranormal-rpg",
         target: "_blank",
       },
-      " aqui ",
+      " here ",
       -1
     )
   ),
@@ -314,7 +314,7 @@ const w = "/assets/op-book-button-Aw__Nrhd.webp",
                     target: "_blank",
                     onClick: a[7] || (a[7] = (n) => u("tocaDosMonstros")),
                   },
-                  " aqui "
+                  " here "
                 ),
               ]))
             : t("", !0),
@@ -330,7 +330,7 @@ const w = "/assets/op-book-button-Aw__Nrhd.webp",
                     target: "_blank",
                     onClick: a[8] || (a[8] = (n) => u("cultoDaCriacao")),
                   },
-                  " aqui "
+                  " here "
                 ),
               ]))
             : t("", !0),
@@ -346,7 +346,7 @@ const w = "/assets/op-book-button-Aw__Nrhd.webp",
                     target: "_blank",
                     onClick: a[9] || (a[9] = (n) => u("arquivosConfidenciais")),
                   },
-                  " aqui "
+                  " here "
                 ),
               ]))
             : t("", !0),
@@ -362,7 +362,7 @@ const w = "/assets/op-book-button-Aw__Nrhd.webp",
                     target: "_blank",
                     onClick: a[10] || (a[10] = (n) => u("marcasFragmentadas")),
                   },
-                  " aqui "
+                  " here "
                 ),
               ]))
             : t("", !0),
@@ -378,17 +378,13 @@ const w = "/assets/op-book-button-Aw__Nrhd.webp",
                     target: "_blank",
                     onClick: a[11] || (a[11] = (n) => u("grimorioParanormal")),
                   },
-                  " aqui "
+                  " here "
                 ),
               ]))
             : t("", !0),
           o.currentSource === "comunidade"
             ? (e(),
-              s(
-                "div",
-                G,
-                " Content made by the Paranormal Order community. "
-              ))
+              s("div", G, " Content made by the Paranormal Order community. "))
             : t("", !0),
         ])
       );

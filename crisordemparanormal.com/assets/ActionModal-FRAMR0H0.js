@@ -385,9 +385,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
   Ft = { class: "value-label" },
   Ot = { class: "value-label" },
   qt = { key: 4, class: "content-container" },
-  zt = T(() =>
-    e("div", { class: "container-title" }, " Vulnerabilities ", -1)
-  ),
+  zt = T(() => e("div", { class: "container-title" }, " Vulnerabilities ", -1)),
   Qt = { class: "value-label" },
   Gt = R({
     __name: "CreatureStats",
@@ -1486,7 +1484,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
     setup(l, { emit: t }) {
       const _ = l,
         d = t,
-        r = ["standard", "movement", "complete", "free", "reation"],
+        r = ["standard", "movement", "complete", "free", "reaction"],
         c = [
           "Ballistic",
           "Bludgeoning",
@@ -1629,11 +1627,7 @@ const D = (l) => (M("data-v-ed0d7802"), (l = l()), P(), l),
                   : m("", !0),
                 e("div", { class: "title-container" }, [
                   on,
-                  e(
-                    "button",
-                    { class: "button-primary", onClick: p },
-                    " Add "
-                  ),
+                  e("button", { class: "button-primary", onClick: p }, " Add "),
                 ]),
                 a.value.attacks && a.value.attacks.length > 0
                   ? (s(),

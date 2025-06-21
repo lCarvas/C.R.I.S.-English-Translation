@@ -45,7 +45,7 @@ import { S as ie } from "./SwitchButtonBool-R2SsgvuJ.js";
 const x = (n) => (N("data-v-97ad44b7"), (n = n()), O(), n),
   re = { class: "modal-content modal-width" },
   ue = { class: "modal-header" },
-  ce = x(() => a("h2", null, " Foto de Perfil ", -1)),
+  ce = x(() => a("h2", null, " Profile Picture ", -1)),
   de = x(() =>
     a("img", { class: "close-icon", src: F, alt: "fechar" }, null, -1)
   ),

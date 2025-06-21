@@ -21,7 +21,7 @@ import { v as H } from "./v4-cyCr5FZV.js";
 const y = (l) => (R("data-v-78210b75"), (l = l()), U(), l),
   O = { class: "modal-content modal-width" },
   T = { class: "modal-header" },
-  x = y(() => a("h2", null, " Imagem ", -1)),
+  x = y(() => a("h2", null, " Image ", -1)),
   z = y(() =>
     a("img", { class: "close-icon", src: F, alt: "fechar" }, null, -1)
   ),

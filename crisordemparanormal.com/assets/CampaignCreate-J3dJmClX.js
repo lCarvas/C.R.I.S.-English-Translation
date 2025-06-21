@@ -38,10 +38,10 @@ import { g as W, h as X, a as Z } from "./firebase-7sah6mo2.js";
 const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
   aa = { key: 0 },
   ea = { class: "page-container" },
-  ta = r(() => a("div", { class: "page-title" }, " Criar Campanha ", -1)),
+  ta = r(() => a("div", { class: "page-title" }, " Create Campaign ", -1)),
   sa = { class: "form-container" },
   oa = { class: "input-container" },
-  ia = r(() => a("div", { class: "label" }, " Nome* ", -1)),
+  ia = r(() => a("div", { class: "label" }, " Name* ", -1)),
   na = { class: "input-container" },
   ra = r(() =>
     a(
@@ -58,7 +58,7 @@ const r = (l) => (O("data-v-87088ff2"), (l = l()), F(), l),
       -1
     )
   ),
-  la = r(() => a("div", { class: "label" }, " Descrição ", -1)),
+  la = r(() => a("div", { class: "label" }, " Description ", -1)),
   ua = r(() =>
     a(
       "span",

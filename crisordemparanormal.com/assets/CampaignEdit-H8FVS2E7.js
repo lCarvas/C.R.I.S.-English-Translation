@@ -80,7 +80,7 @@ const n = (d) => (Y("data-v-641847a6"), (d = d()), Z(), d),
     )
   ),
   Sa = n(() =>
-    a("h4", null, "Atention: this action is permanent and irreversible!", -1)
+    a("h4", null, "Attention: this action is permanent and irreversible!", -1)
   ),
   ka = { class: "input-container-modal" },
   Ea = ["onKeyup"],

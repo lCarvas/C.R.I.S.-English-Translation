@@ -65,7 +65,7 @@ const ie = "/assets/vtt-campaing-page-button-3COS2uxr.svg",
   me = Ba(
     '<div class="locked-img-container" data-v-7c9dc66a><img src="' +
       le +
-      '" alt="cadeado" draggable="false" data-v-7c9dc66a></div><div class="modal-text" data-v-7c9dc66a> Nenhum jogador nessa campanha possui a patente necessária para utilizar a Mesa Virtual </div><div class="main-text" data-v-7c9dc66a> Você pode mudar isso! </div><div class="info-label" data-v-7c9dc66a> Torne-se um AGENTE ESPECIAL ou superior e libere o acesso para todos os jogadores </div>',
+      '" alt="cadeado" draggable="false" data-v-7c9dc66a></div><div class="modal-text" data-v-7c9dc66a> No player in this campaign has the necessary rank to use the VTT </div><div class="main-text" data-v-7c9dc66a> You can change that! </div><div class="info-label" data-v-7c9dc66a> Become an AGENTE ESPECIAL ou higher e give access to all players </div>',
     4
   ),
   ve = { class: "modal-button-container" },
@@ -145,7 +145,7 @@ const ie = "/assets/vtt-campaing-page-button-3COS2uxr.svg",
   fe = { key: 0, class: "container" },
   be = { class: "header-buttons" },
   Ce = ["onMouseup"],
-  ke = u(() => e("div", { class: "vtt-new" }, " Novidade! ", -1)),
+  ke = u(() => e("div", { class: "vtt-new" }, " New! ", -1)),
   ye = u(() => e("img", { src: ie, alt: "Mesa Virtual" }, null, -1)),
   we = [ke, ye],
   Me = ["onMouseup"],
@@ -189,7 +189,7 @@ const ie = "/assets/vtt-campaing-page-button-3COS2uxr.svg",
   ze = { class: "cards-container" },
   Ke = { key: 1 },
   Qe = { class: "no-agents-container" },
-  We = u(() => e("h3", null, "There are no encounters on this compaign!", -1)),
+  We = u(() => e("h3", null, "There are no encounters on this campaign!", -1)),
   Xe = ["onMouseup"],
   Ye = { key: 1 },
   at = { key: 2 },
@@ -198,14 +198,7 @@ const ie = "/assets/vtt-campaing-page-button-3COS2uxr.svg",
     e("img", { class: "close-icon", src: K, alt: "fechar" }, null, -1)
   ),
   ot = [tt],
-  st = u(() =>
-    e(
-      "h4",
-      null,
-      "The agent can be re-added to the campaign",
-      -1
-    )
-  ),
+  st = u(() => e("h4", null, "The agent can be re-added to the campaign", -1)),
   nt = { key: 3 },
   it = u(() => e("h2", null, "Remove player from campaign?", -1)),
   lt = u(() =>

@@ -127,10 +127,10 @@ const Ca =
                 a(
                   "div",
                   Ra,
-                  " Iniciada em: " +
+                  " Started on: " +
                     M($.value) +
                     " | " +
-                    M(p.value ? "GM" : "Jogador"),
+                    M(p.value ? "GM" : "Player"),
                   1
                 ),
               ]),
@@ -196,7 +196,7 @@ const Ca =
     )
   ),
   Ja = R(() =>
-    a("h4", null, "Atention: this action is permanent and irreversible!", -1)
+    a("h4", null, "Attention: this action is permanent and irreversible!", -1)
   ),
   ja = { class: "input-container" },
   Ga = ["onKeyup"],

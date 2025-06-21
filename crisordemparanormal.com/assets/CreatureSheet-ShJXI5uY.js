@@ -61,7 +61,7 @@ const V = (c) => (T("data-v-6a2d37a5"), (c = c()), $(), c),
         u = r(!1),
         i = r(!1),
         v = r(),
-        m = r("Ação");
+        m = r("Action");
       R(async () => {
         if (!w.currentUser) return;
         const o = await j(N(C, "homebrewCreatures", x));
@@ -94,7 +94,7 @@ const V = (c) => (T("data-v-6a2d37a5"), (c = c()), $(), c),
           n > -1 && a.value[t].splice(n, 1), _();
         },
         E = (o, e, t) => {
-          if (((i.value = !0), t === "Ação")) {
+          if (((i.value = !0), t === "Action")) {
             const n = o.actions.findIndex((l) => l.id === e);
             (v.value = o.actions[n]), (m.value = "Action");
           } else {

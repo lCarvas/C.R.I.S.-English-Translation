@@ -691,7 +691,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
               e(
                 "div",
                 Io,
-                " Rodada Atual: " + D(b.currentCombat.currentRound),
+                " Current Round: " + D(b.currentCombat.currentRound),
                 1
               ),
             ]),
@@ -710,7 +710,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
                         (d[0] = (s) =>
                           b.$emit("handleBackTurn", f.value.length)),
                     },
-                    " Voltar Turno ",
+                    " Previous Turn ",
                     8,
                     Do
                   ),
@@ -723,7 +723,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
                         (d[1] = (s) =>
                           b.$emit("handleNextTurn", f.value.length)),
                     },
-                    " Next turn "
+                    " Next Turn "
                   ),
                 ]))
               : _("", !0),
@@ -1100,7 +1100,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
                   {
                     value: f.value,
                     width: "100%",
-                    placeholder: "Filtrar ataques",
+                    placeholder: "Filter attacks",
                     onUpdate: b[0] || (b[0] = (d) => (f.value = d)),
                   },
                   null,
@@ -2395,7 +2395,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
   Ql = ce(() => e("div", { class: "label" }, " Summary ", -1)),
   jl = ["value"],
   zl = { class: "input-container" },
-  Wl = ce(() => e("div", { class: "label" }, " Objetive ", -1)),
+  Wl = ce(() => e("div", { class: "label" }, " Objective ", -1)),
   Xl = ["value"],
   Jl = { class: "input-container" },
   Yl = ce(() => e("div", { class: "label" }, " Questions ", -1)),
@@ -2728,7 +2728,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
                                       onClick: (b) =>
                                         l.$emit("handleRemoveReportSheet", I),
                                     },
-                                    " Deletar ",
+                                    " Delete ",
                                     8,
                                     ui
                                   ))
@@ -3039,7 +3039,7 @@ const ae = (u) => (K("data-v-df2547a9"), (u = u()), Q(), u),
         Ce = M(!1),
         $e = M(),
         ke = M(),
-        Se = M("Ação"),
+        Se = M("Action"),
         de = M(),
         re = M(null),
         le = M(null),

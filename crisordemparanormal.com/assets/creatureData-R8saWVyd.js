@@ -13,7 +13,7 @@ const e = [
     { label: "chemical", key: "quimico" },
     { label: "cold", key: "frio" },
     { label: "death", key: "morte" },
-    { label: "eletricity", key: "eletricidade" },
+    { label: "electricity", key: "eletricidade" },
     { label: "energy", key: "energia" },
     { label: "fear", key: "medo" },
     { label: "fire", key: "fogo" },

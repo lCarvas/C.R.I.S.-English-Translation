@@ -333,7 +333,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   Fs = J(() => e("h4", { class: "defense-plus" }, " + ", -1)),
   Ns = { class: "defense-input" },
   Bs = ["disabled", "value"],
-  Qs = J(() => e("h5", null, "Outros.", -1)),
+  Qs = J(() => e("h5", null, "Other", -1)),
   Gs = { class: "other-defenses-container" },
   Xs = { class: "other-defense-div" },
   Ws = J(() => e("div", { class: "other-defense-label" }, " BLOCK DR ", -1)),
@@ -1764,7 +1764,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   zi = { class: "inventory-info-container" },
   _i = { class: "inventory-row" },
   Oi = { class: "input-container" },
-  Ui = ce(() => e("h4", { class: "sheet-subtitle" }, " PRETIGE POINTS ", -1)),
+  Ui = ce(() => e("h4", { class: "sheet-subtitle" }, " PRESTIGE POINTS ", -1)),
   Li = ["disabled", "value"],
   Hi = { class: "inventory-row" },
   xi = { key: 0 },
@@ -1813,7 +1813,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
     e(
       "h4",
       { class: "sheet-subtitle mobile-sheet-subtitle" },
-      " CARGA MÁX. ",
+      " MAX LOAD ",
       -1
     )
   ),
@@ -2560,7 +2560,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
               "Childhood, family relations, Paranormal contact, good and bad events...",
           },
           {
-            title: "Objetive",
+            title: "Objective",
             key: "goal",
             placeholder:
               "Why did the agent join the Order? Why do they fight against the Other Side?",
@@ -2773,7 +2773,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
         d = E(""),
         r = (p) => v("handleAddPower", p);
       ue(() => {
-        u.value.push({ label: `Poderes de ${l.classValue.name}`, value: 0 }),
+        u.value.push({ label: `${l.classValue.name} Powers`, value: 0 }),
           l.classValue.paths.forEach((p, f) => {
             u.value.push({ label: p.name, value: f + 1 }), g.value.push(p);
           });

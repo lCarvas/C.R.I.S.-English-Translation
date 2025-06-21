@@ -78,12 +78,12 @@ const j =
         g = I(),
         c = b(!1),
         A = {
-          conhecimento: "#ff8c00",
-          energia: "#7000AC",
-          morte: "#121212",
-          sangue: "#d9534f",
-          medo: "transparent",
-          varia: "#fff",
+          knowledge: "#ff8c00",
+          energy: "#7000AC",
+          death: "#121212",
+          blood: "#d9534f",
+          fear: "transparent",
+          varies: "#fff",
         },
         v = f(() => {
           if (d.power.element) return A[d.power.element.toLowerCase()];
@@ -281,7 +281,7 @@ const j =
                                         class: "button-remove button-edit",
                                         onClick: a(B, ["stop"]),
                                       },
-                                      " Editar ",
+                                      " Edit ",
                                       8,
                                       h0
                                     ),
