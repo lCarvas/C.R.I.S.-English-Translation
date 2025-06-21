@@ -18,7 +18,7 @@ const a = {
         name: "Diligence",
         hasAutomation: !1,
         description:
-          "You may not have special training, but you compensate with effort and preserverence. When you do a Skill Check, you can spend 1 EP to get +2 on the result.",
+          "You may not have special training, but you compensate with effort and perseverance. When you do a Skill Check, you can spend 1 EP to get +2 on the result.",
       },
     ],
     powers: [],
@@ -31,7 +31,7 @@ const a = {
       shortDescription:
         "Trained to fight with all types of weapons, and with the strength and courage to face dangers head on, you are the type of agent who prefers more direct approaches and tends to shoot first and ask questions later.",
       description:
-        "<p>From the mercenary specializing in firearms to the expert with swords, combatants present a huge range of special abilties and techniques that enhance their efficiency on the battlefield, making them essential members of any extermination mission.</p><p> In addition to training their body, the combatant is also adept at leading their allies in battle and taking care of their combat equipment, always prepared to take the front line when things get tough.</p><p><span>Famous Combatants: </span>Mister Veríssimo, Joui Jouki, Gal, Antônio “Balu” Pontevedra, Tristan Monteiro & Ryder Staten.</p>",
+        "<p>From the mercenary specializing in firearms to the expert with swords, combatants present a huge range of special abilities and techniques that enhance their efficiency on the battlefield, making them essential members of any extermination mission.</p><p> In addition to training their body, the combatant is also adept at leading their allies in battle and taking care of their combat equipment, always prepared to take the front line when things get tough.</p><p><span>Famous Combatants: </span>Mister Veríssimo, Joui Jouki, Gal, Antônio “Balu” Pontevedra, Tristan Monteiro & Ryder Staten.</p>",
       initialPv: 20,
       levelPv: 4,
       initialPe: 2,
@@ -62,13 +62,13 @@ const a = {
           name: "Heavy Weaponry",
           hasAutomation: !1,
           description:
-            "<p>You receive proficiency with heavy weapons. <em>Pré-requisito:</em> For 2.</p>",
+            "<p>You receive proficiency with heavy weapons. <em>Prerequisite:</em> Str 2.</p>",
         },
         {
           name: "Martial Artist",
           hasAutomation: !1,
           description:
-            "<p>Your unnarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
+            "<p>Your unarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
         },
         {
           name: "Opportunity Attack",
@@ -169,7 +169,7 @@ const a = {
             "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
         },
         {
-          name: "Skill Trainment",
+          name: "Skill Training",
           hasAutomation: !1,
           description:
             "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
@@ -256,7 +256,7 @@ const a = {
                 "<p>Whenever you block an attack, you can use a reaction and 2 EP to make a melee attack on the enemy that attacked you.</p>",
             },
             {
-              name: "EXP 65% - Opressive Strength",
+              name: "EXP 65% - Oppressive Strength",
               hasAutomation: !1,
               description:
                 "<p>When you land a melee attack, you can spend 1 EP to perform a knock down or push maneuver against the target of the attack as a free action. If you choose to push, you receive a bonus of +5 for every 10 points of damage you dealt to the target. If you choose to knock down and win the opposed check, you can spend 1 EP to make an additional attack against the now prone target.</p>",
@@ -341,14 +341,14 @@ const a = {
         "Attribute increase",
         "Special attack (3 EP, +10)",
         "Combatant power",
-        "Trainment level",
+        "Training level",
         "Path ability",
         "Combatant power",
         "Attribute increase, versatility",
         "Special attack (4 EP, +15)",
         "Combatant power",
         "Path ability",
-        "Trainment level",
+        "Training level",
         "Combatant power",
         "Attribute increase",
         "Special attack (5 EP, +20)",
@@ -378,7 +378,7 @@ const a = {
           name: "Eclectic",
           hasAutomation: !1,
           description:
-            "When you do a skill check, you can spend 2 EP to recieve the benefits of being trained on that skill.",
+            "When you do a skill check, you can spend 2 EP to receive the benefits of being trained on that skill.",
         },
         {
           name: "Connoisseur",
@@ -392,7 +392,7 @@ const a = {
           name: "Martial Artist",
           hasAutomation: !1,
           description:
-            "<p>Your unnarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
+            "<p>Your unarmed attacks deal 1d6 points of damage, can deal lethal damage and are considered agile weapons. At EXP 35%, the damage increases to 1d8 and, at EXP 70%, to 1d10.</p>",
         },
         {
           name: "Advanced Ballistics",
@@ -404,7 +404,7 @@ const a = {
           name: "Applied Knowledge",
           hasAutomation: !1,
           description:
-            "<p>When you make a skill check (except Fighting and Marksmanship), you can spend 2 EP to change the skill's base attribute to Int. <em>Prerequesite:</em> Int 2.</p>",
+            "<p>When you make a skill check (except Fighting and Marksmanship), you can spend 2 EP to change the skill's base attribute to Int. <em>Prerequisite:</em> Int 2.</p>",
         },
         {
           name: "Ingenuity",
@@ -467,7 +467,7 @@ const a = {
             "<p>You add your Intellect to the DC to resist your explosives and can exclude a number of targets equal to your Intellect value from the explosion's effects.</p>",
         },
         {
-          name: "First Impressioin",
+          name: "First Impression",
           hasAutomation: !1,
           description:
             "<p>You get +2d20 on the first Diplomacy, Deception, Intimidation, or Insight check you make in a scene.</p>",
@@ -479,7 +479,7 @@ const a = {
             "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
         },
         {
-          name: "Skill Trainment",
+          name: "Skill Training",
           hasAutomation: !1,
           description:
             "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
@@ -582,7 +582,7 @@ const a = {
           ],
         },
         {
-          name: "Negociator",
+          name: "Negotiator",
           description:
             "<p>You are a skilled diplomat and can influence other people, whether through talk or intimidation. Your ability to assess situations quickly and efficiently can get the group out of troubles that not even the most powerful weapon could solve.</p>",
           abilities: [
@@ -651,14 +651,14 @@ const a = {
         "Attribute increase",
         "Connoisseur (3 EP, +1d8)",
         "Specialist power",
-        "Trainment level",
-        "Ingenuity (veterano), path ability",
+        "Training level",
+        "Ingenuity (veteran), path ability",
         "Specialist power",
         "Attribute increase, versatility",
         "Connoisseur (4 EP, +1d10)",
         "Specialist power",
         "Path ability",
-        "Trainment level",
+        "Training level",
         "Ingenuity (expert), specialist power",
         "Attribute increase",
         "Connoisseur (5 EP, +1d12)",
@@ -697,7 +697,7 @@ const a = {
       ],
       powers: [
         {
-          name: "Camouflage Ocultism",
+          name: "Camouflage Occultism",
           hasAutomation: !1,
           description:
             "<p>You can use a free action to hide symbols and sigils that are drawn or engraved on objects or your skin, making them invisible to people other than yourself. Furthermore, when you cast a ritual, you can spend +2 EP to cast it without using ritualistic components and without gesturing (which allows you to cast a ritual with your hands tied), using only concentration. Other beings will only realize that you have cast a ritual if they pass an Occultism check (DC 25).</p>",
@@ -787,7 +787,7 @@ const a = {
             "<p>Choose a paranormal power. You receive the chosen power, but do not gain Sanity from this EXP increase. You can choose this power multiple times.</p>",
         },
         {
-          name: "Skill Trainment",
+          name: "Skill Training",
           hasAutomation: !1,
           description:
             "<p>Choose two skills. You become trained in those skills. From EXP 35% onwards, you can choose skills in which you are already trained to become a veteran. From NEX 70% onwards, you can choose skills in which you are already a veteran to become an expert. You can choose this power multiple times.</p>",
@@ -860,7 +860,7 @@ const a = {
             "<p>You focus your studies on becoming a versatile and powerful conjurer, knowing more rituals than other occultists and being able to make them more difficult to resist. Your goal is to unveil and master the secrets of the Other Side in depth, whatever the cost.</p>",
           abilities: [
             {
-              name: "EXP 10% - Expanded Knowlegde",
+              name: "EXP 10% - Expanded Knowledge",
               hasAutomation: !1,
               description:
                 "<p>You learn a 1st circle ritual. Whenever you gain access to a new circle, you learn an additional ritual from that circle. These rituals do not count towards your ritual limit.</p>",
@@ -954,14 +954,14 @@ const a = {
         "Attribute increase",
         "Chosen by the Other Side (2º circle)",
         "Occultist power",
-        "Trainment level",
+        "Training level",
         "Path ability",
         "Occultist power",
         "Attribute increase, versatility",
         "Chosen by the Other Side (3º circle)",
         "Occultist power",
         "Path ability",
-        "Trainment level",
+        "Training level",
         "Occultist power",
         "Attribute increase",
         "Chosen by the Other Side (4º circle)",

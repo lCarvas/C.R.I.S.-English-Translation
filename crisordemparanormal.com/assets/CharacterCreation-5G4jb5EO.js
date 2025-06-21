@@ -449,7 +449,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
     e(
       "h4",
       null,
-      "By choosing a background, your recieve two trained skills and a background ability.",
+      "By choosing a background, you receive two trained skills and a background ability.",
       -1
     )
   ),
@@ -651,7 +651,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
             { class: "button button-primary", onClick: i },
             " Change Class "
           ),
-          a.charClass.name !== "Mundano"
+          a.charClass.name !== "Mundane"
             ? (n(),
               b(
                 V,
@@ -678,7 +678,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
       null,
       [
         $(
-          " Your class indicates the trainment you recieved after joining the Order, in order to face the dangers of the Other Side. "
+          " Your class indicates the training you received after joining the Order, in order to face the dangers of the Other Side. "
         ),
         e("br"),
         $(
@@ -701,7 +701,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
     e(
       "p",
       null,
-      "Alternatively, you can decide not to choose a clas and begin as a normal person. Start as",
+      "Alternatively, you can decide not to choose a class and begin as a normal person. Start as",
       -1
     )
   ),
@@ -840,7 +840,7 @@ const qe = (a) => (y("data-v-e0f1eafc"), (a = a()), B(), a),
               "Childhood, family relations, Paranormal contact, good and bad events...",
           },
           {
-            title: "Objetive",
+            title: "Objective",
             key: "goal",
             placeholder:
               "Why did the agent join the Order? Why do they fight against the Other Side?",

@@ -1233,7 +1233,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
           e("th", { class: "left" }, " SKILL "),
           e("th", null, "DICE"),
           e("th", null, "BONUS"),
-          e("th", null, "Trainment"),
+          e("th", null, "Training"),
           e("th", null, "Other"),
         ]),
       ],
@@ -1764,9 +1764,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   zi = { class: "inventory-info-container" },
   _i = { class: "inventory-row" },
   Oi = { class: "input-container" },
-  Ui = ce(() =>
-    e("h4", { class: "sheet-subtitle" }, " PRETIGE POINTS ", -1)
-  ),
+  Ui = ce(() => e("h4", { class: "sheet-subtitle" }, " PRETIGE POINTS ", -1)),
   Li = ["disabled", "value"],
   Hi = { class: "inventory-row" },
   xi = { key: 0 },
@@ -3720,7 +3718,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       slots: 1,
       tag: "Ammo",
       itemType: "ammunition",
-      description:         "<p>A flamethrower fuel tank. Lasts for one scene.</p>",
+      description: "<p>A flamethrower fuel tank. Lasts for one scene.</p>",
     },
     {
       name: "Arrows",
@@ -3888,7 +3886,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       ammunitionName: W[4].name,
       itemType: "weapon",
       description:
-"<p>A common bow and arrow, suitable for target shooting.</p>",
+        "<p>A common bow and arrow, suitable for target shooting.</p>",
     },
     {
       name: "Crossbow",
@@ -4068,7 +4066,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       category: "I",
       slots: 1,
       itemType: "weapon",
-      description:         "<p>Stick with a metallic head full of protuberances.</p>",
+      description: "<p>Stick with a metallic head full of protuberances.</p>",
     },
     {
       name: "Poleaxe",
@@ -4492,7 +4490,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
       slots: 2,
       itemType: "misc",
       description:
-        "<p>A backpack with a sleeping bag, pans, GPS and other useful items for surviving in the bush. Provides +5 to Survival checks for camping and orienteering and allows you to make these checks without trainment.</p>",
+        "<p>A backpack with a sleeping bag, pans, GPS and other useful items for surviving in the bush. Provides +5 to Survival checks for camping and orienteering and allows you to make these checks without training.</p>",
     },
     {
       name: "Tactical flashlight",
@@ -8175,11 +8173,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
                 ),
               ]),
               e("div", fc, [
-                e(
-                  "button",
-                  { class: "button-cancel", onClick: S },
-                  " Cancel "
-                ),
+                e("button", { class: "button-cancel", onClick: S }, " Cancel "),
                 e(
                   "button",
                   {
@@ -8576,9 +8570,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
     )
   ),
   Yc = { class: "row" },
-  Zc = re(() =>
-    e("div", { class: "label" }, " Color of dice results ", -1)
-  ),
+  Zc = re(() => e("div", { class: "label" }, " Color of dice results ", -1)),
   em = ["value"],
   am = { class: "row" },
   om = re(() =>
@@ -8586,9 +8578,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   ),
   tm = ["value"],
   rm = { class: "row" },
-  sm = re(() =>
-    e("div", { class: "label" }, " Injured agent picture ", -1)
-  ),
+  sm = re(() => e("div", { class: "label" }, " Injured agent picture ", -1)),
   nm = { key: 0 },
   im = ["src"],
   dm = { key: 1 },
@@ -8602,9 +8592,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   ),
   um = [lm],
   cm = { class: "row" },
-  mm = re(() =>
-    e("div", { class: "label" }, " Dying agent picture ", -1)
-  ),
+  mm = re(() => e("div", { class: "label" }, " Dying agent picture ", -1)),
   pm = { key: 0 },
   gm = ["src"],
   vm = { key: 1 },
@@ -8618,9 +8606,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
   ),
   fm = [hm],
   bm = { class: "row" },
-  qm = re(() =>
-    e("div", { class: "label" }, " Disturbed agent picture ", -1)
-  ),
+  qm = re(() => e("div", { class: "label" }, " Disturbed agent picture ", -1)),
   Cm = { key: 0 },
   Am = ["src"],
   ym = { key: 1 },
@@ -9297,9 +9283,7 @@ const os = "/assets/sobrevivendo-ao-horror-off-7JypCJnD.webp",
     e("img", { class: "close-icon", src: oe, alt: "fechar" }, null, -1)
   ),
   Pp = [yp],
-  Ep = ya(() =>
-    e("div", { class: "label" }, " Link to share agent ", -1)
-  ),
+  Ep = ya(() => e("div", { class: "label" }, " Link to share agent ", -1)),
   Sp = T({
     __name: "ShareModal",
     props: { character: { type: Object, required: !0 } },
