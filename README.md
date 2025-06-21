@@ -1,6 +1,6 @@
 # C.R.I.S. English Translation
 
-#### Last updated 20/06/2025 21:20 UTC
+#### Last updated 21/06/2025 15:57 UTC
 
 | Translation Progress    | Names/Headers | Descriptions | Interfaces/Other small things |
 | ----------------------- | :-----------: | :----------: | :---------------------------: |
