@@ -59,7 +59,7 @@ const Xa = [
       },
     },
     {
-      name: "Atlhete",
+      name: "Athlete",
       description:
         "<p>You competed in an individual or team sport, such as swimming or football. Your high performance could be the result of some paranormal influence that not even you knew about or you could have been involved in a paranormal event in one of your competitions.</p>",
       skills: ["Acrobatics", "Athletics"],
@@ -331,7 +331,7 @@ const Xa = [
         name: "Remnants of the Other Side",
         hasAutomation: !1,
         description:
-          "You have a paranormal power of your choice. However, you start the game with half the normal Sanity for your class.",
+          "You receive a paranormal power of your choice. However, you start the game with half the normal Sanity for your class.",
       },
     },
     {
