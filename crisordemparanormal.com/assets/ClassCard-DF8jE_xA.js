@@ -256,7 +256,7 @@ const Xa = [
         "<p>Você é um soldado de aluguel, que trabalha sozinho ou como parte de alguma organização que vende serviços militares. Escoltas e assassinatos fizeram parte de sua rotina por tempo o suficiente para você se envolver em alguma situação com o Paranormal.</p>",
       skills: ["Initiative", "Intimidation"],
       power: {
-        name: "Combat Postion",
+        name: "Combat Position",
         hasAutomation: !1,
         description:
           "On the first turn of every action scene, you can spend 2 EP to receive an additional movement action.",
@@ -279,7 +279,7 @@ const Xa = [
         "<p>Você fez parte de uma força de segurança pública, civil ou militar. Em alguma patrulha ou chamado se deparou com um caso paranormal e sobreviveu para contar a história.</p>",
       skills: ["Perception", "Marksmanship"],
       power: {
-        name: "Patrulha",
+        name: "Patrol",
         hasAutomation: !0,
         isAutomationOn: !0,
         automationId: "patrulha",
