@@ -44,7 +44,7 @@ const e = {
     name: "New Weapon",
     description: "<p>My new weapon</p>",
     proficiencie: "Simple Weapons",
-    type: "Fighting",
+    type: "Melee",
     handling: "Light",
     damage: "1d4",
     criticalMult: 2,
